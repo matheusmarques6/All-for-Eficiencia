@@ -3,8 +3,8 @@ tipo: aprendizado
 escopo: cross-flow
 aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase]
 origem_estrutura: medicube-comparacao-categoria
-autor: coo
-status: pendente
+autor: Convertfy
+status: aprovada
 status_evidencia: convergente
 ---
 

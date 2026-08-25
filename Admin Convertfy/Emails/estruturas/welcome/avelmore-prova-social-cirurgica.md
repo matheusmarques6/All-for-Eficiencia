@@ -3,12 +3,11 @@ tipo: estrutura
 slug: avelmore-prova-social-cirurgica
 flow_type: welcome
 emails: [4]
-escopo: loja-especifica
-loja: Avelmore
-nicho: calçado de couro
-ticket: $49,95–$69,95
-procedencia: swipe
-status: pendente
+escopo: geral
+loja:
+amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
+procedencia: nossa
+status: aprovada
 secoes: [header, hero, body, reviews, cta, footer]
 performance:
 ---
@@ -42,7 +41,7 @@ Agregado: *"4.8/5 from 3,847 verified reviews"*.
 **Fio narrativo:** o código ainda é seu → risco zero, lembra? → quem comprou
 confirma → decide.
 
-# O que é específico desta loja
+# O que varia por loja
 
 Quais objeções cada depoimento fecha, e o reuso do bloco de features do #1 como
 âncora de familiaridade.

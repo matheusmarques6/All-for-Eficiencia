@@ -3,12 +3,11 @@ tipo: estrutura
 slug: avelmore-inspecao-antecipada
 flow_type: welcome
 emails: [1]
-escopo: loja-especifica
-loja: Avelmore
-nicho: calçado de couro
-ticket: $49,95–$69,95
-procedencia: swipe
-status: pendente
+escopo: geral
+loja:
+amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
+procedencia: nossa
+status: aprovada
 secoes: [header, hero, body, body, products, cta, reviews, footer]
 performance:
 ---

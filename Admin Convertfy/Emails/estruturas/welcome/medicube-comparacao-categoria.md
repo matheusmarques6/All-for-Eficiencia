@@ -3,11 +3,11 @@ tipo: estrutura
 slug: medicube-comparacao-categoria
 flow_type: welcome
 emails: [5]
-escopo: loja-especifica
-loja: Medicube
-nicho: k-beauty / skincare
-procedencia: swipe
-status: pendente
+escopo: geral
+loja:
+amostra: Medicube — k-beauty / skincare
+procedencia: nossa
+status: aprovada
 secoes: [header, body, products, footer]
 performance:
 ---
@@ -46,7 +46,7 @@ com **8 X's**.
 **Fio narrativo:** você conhece os riscos de comprar isso online → nós somos a
 exceção, ponto a ponto → o código segue seu → escolhe.
 
-# O que é específico desta loja
+# O que varia por loja
 
 Quais medos da categoria entram nos X's. Falsificação e pagamento inseguro são de
 K-beauty. Numa loja de ferramenta seriam peça genérica e suporte inexistente; num

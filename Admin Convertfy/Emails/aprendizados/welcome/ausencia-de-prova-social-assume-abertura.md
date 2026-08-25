@@ -4,8 +4,8 @@ flow_type: welcome
 origem_estrutura: avelmore-deadline-objecao-exaustiva
 confirmado_em: [avelmore-mecanismo-e-origem, avelmore-prova-social-cirurgica]
 status_evidencia: agravada
-autor: coo
-status: pendente
+autor: Convertfy
+status: aprovada
 ---
 
 # Observação

@@ -1,8 +1,11 @@
 ---
 tipo: progressao
 flow_type: welcome
-status: pendente
-cobre_emails: [1, 2, 3, 4, 5]
+cobre_emails: [1, 2, 3, 4, 5, 6, 7, 8]
+status: aprovada
+cobertura: completa
+revisado_por: Convertfy
+flow_tamanho: 8
 ---
 
 # O arco
@@ -13,6 +16,9 @@ Cada toque assume o fracasso do anterior e **troca o tipo de argumento** — nun
 repete o registro.
 
 # Como a forma muda de e-mail para e-mail
+
+> Camada **descritiva**: o que as referências catalogadas efetivamente fazem.
+> A camada prescritiva é [[_flow]].
 
 |  | [[1\|#1]] | [[2\|#2]] | [[3\|#3]] | [[4\|#4]] | [[5\|#5]] |
 |---|---|---|---|---|---|
@@ -56,5 +62,11 @@ depoimento fecha, e quais medos da categoria entram na comparação.
 
 # Nota sobre as fontes
 
-As colunas #1–#4 vêm da Avelmore (calçado de couro); a #5 vem da Medicube
-(k-beauty). O arco é o mesmo — foi o que permitiu encaixá-las na mesma tabela.
+As oito estruturas têm `escopo: geral` e `procedencia: nossa` — é um roteiro que
+a Convertfy já usa em clientes, não um swipe de terceiros nem o flow de uma loja
+específica. As amostras descritas foram renderizadas com assets diferentes
+(Avelmore em #1–#4, Medicube em #5–#7, sem marca no #8), e os artefatos que
+vazam entre elas — rodapé Avelmore num e-mail Medicube, copy de moda num
+skincare — são da montagem, não da estrutura.
+
+O arco é o mesmo nas duas renderizações. Foi o que permitiu a tabela única.

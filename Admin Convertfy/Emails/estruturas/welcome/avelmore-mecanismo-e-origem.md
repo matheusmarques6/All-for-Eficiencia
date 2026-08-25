@@ -3,12 +3,11 @@ tipo: estrutura
 slug: avelmore-mecanismo-e-origem
 flow_type: welcome
 emails: [3]
-escopo: loja-especifica
-loja: Avelmore
-nicho: calçado de couro
-ticket: $49,95–$69,95
-procedencia: swipe
-status: pendente
+escopo: geral
+loja:
+amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
+procedencia: nossa
+status: aprovada
 secoes: [header, body, body, products, footer]
 performance:
 ---
@@ -43,7 +42,7 @@ rodapé dos e-mails anteriores.
 
 **Fio narrativo:** por que existimos → como fazemos → risco zero → código → escolha.
 
-# O que é específico desta loja
+# O que varia por loja
 
 Qual história, qual mecanismo, e o fato de a prova física ser uma fachada.
 

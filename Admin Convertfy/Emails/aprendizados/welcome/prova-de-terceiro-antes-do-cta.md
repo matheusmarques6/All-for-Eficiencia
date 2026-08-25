@@ -3,8 +3,8 @@ tipo: aprendizado
 flow_type: welcome
 origem_email_id:
 origem_estrutura: avelmore-inspecao-antecipada
-autor: coo
-status: pendente
+autor: Convertfy
+status: aprovada
 ---
 
 # Observação

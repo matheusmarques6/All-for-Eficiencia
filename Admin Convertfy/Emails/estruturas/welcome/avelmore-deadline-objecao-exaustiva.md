@@ -3,12 +3,11 @@ tipo: estrutura
 slug: avelmore-deadline-objecao-exaustiva
 flow_type: welcome
 emails: [2]
-escopo: loja-especifica
-loja: Avelmore
-nicho: calçado de couro
-ticket: $49,95–$69,95
-procedencia: swipe
-status: pendente
+escopo: geral
+loja:
+amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
+procedencia: nossa
+status: aprovada
 secoes: [header, hero, body, offer, products, footer]
 performance:
 ---
@@ -45,7 +44,7 @@ até a entrega", "guia de tamanho detalhado").
 
 **Fio narrativo:** oferta na cara → todas as objeções derrubadas → prazo → escolha.
 
-# O que é específico desta loja
+# O que varia por loja
 
 Quais cinco objeções, e o fato de duas delas serem frete e tamanho. Numa loja de
 ticket alto o mesmo #2 cobriria garantia e autenticidade.

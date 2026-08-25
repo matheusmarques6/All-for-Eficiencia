@@ -2,8 +2,8 @@
 tipo: aprendizado
 flow_type: welcome
 origem_estrutura: avelmore-deadline-objecao-exaustiva
-autor: coo
-status: pendente
+autor: Convertfy
+status: aprovada
 ---
 
 # Observação
