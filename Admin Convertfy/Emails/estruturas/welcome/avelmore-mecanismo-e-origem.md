@@ -13,7 +13,7 @@ performance:
 ---
 
 Serve a intenção [[3|welcome 3]]. Antecedida por
-[[avelmore-deadline-objecao-exaustiva]].
+[[avelmore-deadline-objecao]].
 
 O e-mail mais enxuto do flow em posições — e o mais longo em texto. Sem hero
 clássico: abre direto em narrativa.

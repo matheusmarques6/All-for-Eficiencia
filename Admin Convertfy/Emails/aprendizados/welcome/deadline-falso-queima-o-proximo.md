@@ -1,7 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
-origem_estrutura: avelmore-deadline-objecao-exaustiva
+origem_estrutura: avelmore-deadline-objecao
 confirmado_em: [avelmore-mecanismo-e-origem, avelmore-prova-social-cirurgica]
 status_evidencia: confirmada_e_refinada
 autor: Convertfy
@@ -22,7 +22,7 @@ honrada não custa um e-mail: custa o resto do flow.
 # Confirmação observada
 
 Previsto a partir do #2, confirmado no #3. O
-[[avelmore-deadline-objecao-exaustiva|#2]] disse *"today, 11:59 p.m."*; o
+[[avelmore-deadline-objecao|#2]] disse *"today, 11:59 p.m."*; o
 [[avelmore-mecanismo-e-origem|#3]] chega com o mesmo WELCOME10 funcionando, sem
 uma palavra sobre o prazo. O contato aprende que o deadline da marca é
 decorativo.

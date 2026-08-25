@@ -1,7 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
-origem_estrutura: avelmore-deadline-objecao-exaustiva
+origem_estrutura: avelmore-deadline-objecao
 confirmado_em: [avelmore-mecanismo-e-origem, avelmore-prova-social-cirurgica]
 status_evidencia: agravada
 autor: Convertfy
@@ -10,7 +10,7 @@ status: aprovada
 
 # Observação
 
-[[avelmore-deadline-objecao-exaustiva]] não traz prova social. É defensável — a
+[[avelmore-deadline-objecao]] não traz prova social. É defensável — a
 pessoa já leu o depoimento no [[avelmore-inspecao-antecipada|#1]] — mas arriscado:
 quem não abriu o #1 recebe cinco alegações da própria marca sem nenhuma voz
 externa.
@@ -48,3 +48,14 @@ o #3, exatamente na lacuna de prova direta.
 O depoimento que espelha o estado mental do leitor vai no e-mail em que esse
 estado mental é dominante — não no último toque. Prova social não é reserva: é
 munição posicional.
+
+# A mitigação barata
+
+A versão canônica de [[avelmore-deadline-objecao]] resolve sem quebrar a
+intenção do toque (que proíbe depender de prova social):
+
+> Se a taxa de abertura do toque anterior for baixa, incluir **prova mínima
+> distribuída** — avaliação nos cards da grade — sem adicionar bloco.
+
+Prova distribuída não é bloco de prova. Ela cabe onde a intenção proíbe um bloco
+de reviews, porque vive dentro de um bloco que já existe.

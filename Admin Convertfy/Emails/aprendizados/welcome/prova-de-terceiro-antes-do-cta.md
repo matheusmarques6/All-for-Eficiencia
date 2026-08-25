@@ -22,3 +22,11 @@ não epílogo.
 Quando a prova de terceiro fecha o arco de uma objeção nomeada no corpo, ela
 pertence perto do bloco de compromisso verificável ou colada na grade de
 produtos — nunca depois do último CTA.
+
+# Refinamento
+
+Prova social **não é universalmente aditiva** — ela vale onde a objeção está
+ativa. Subir o bloco de reviews não é melhoria automática: só compensa quando a
+objeção dominante da loja é desconfiança.
+
+Onde a objeção é preço ou adequação, a mesma peça no mesmo lugar rende menos.
