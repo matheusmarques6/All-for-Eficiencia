@@ -7,24 +7,24 @@ variant_id: 956b9e76-2c97-448e-bbfd-4a97f082e1dd
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [welcome-meio, reengajamento, cross-sell]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+objecao: [escolha-variedade]
+registro: [popular-informal]
+registro_vetado: [clinico-sobrio]
+paleta: [com-acento-definido]
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [catalogo-de-variantes, packshot-vertical, tres-reviews-distintos]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
-convivencia: []
+convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 
 # --- fios para o resto do vault ---
 aprendizados: []

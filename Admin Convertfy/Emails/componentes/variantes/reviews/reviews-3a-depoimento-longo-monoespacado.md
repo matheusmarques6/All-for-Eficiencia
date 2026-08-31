@@ -7,24 +7,24 @@ variant_id: 7dafa6ca-65de-4907-b52c-dad83ecd63a4
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [checkout-abandonado, carrinho-abandonado]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [qualidade-eficacia]
 registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+registro_vetado: [premium-editorial]
+paleta: [preto-e-branco]
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [foto-de-uso-real, reviews-longos]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 2, max: 2 }
 peso: null
-convivencia: []
+convivencia: [prova-social-nao-duplica-na-peca, exige-hero-ou-contexto-acima, monoespacado-nao-convive-com-serif-display]
 
 # --- fios para o resto do vault ---
 aprendizados: []

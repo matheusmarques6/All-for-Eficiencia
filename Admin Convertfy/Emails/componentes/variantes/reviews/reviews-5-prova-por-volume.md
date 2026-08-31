@@ -7,24 +7,24 @@ variant_id: f8ed9f85-f0f3-47f3-879a-2dd65aba0f86
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [consideracao, reengajamento]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [adesao-social]
 registro: []
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [creme]
+papel_na_peca: [meio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [foto-de-uso-real]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
-convivencia: []
+convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---
 aprendizados: []

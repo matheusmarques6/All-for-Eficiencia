@@ -11,20 +11,20 @@ momento: []
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+objecao: [pertencimento]
+registro: [comunidade-identitario]
+registro_vetado: [premium-editorial, minimalista-leve, clinico-sobrio]
+paleta: [creme]
+papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [ugc-autorizado]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
-convivencia: []
+convivencia: [peca-inteira-nao-e-bloco]
 
 # --- fios para o resto do vault ---
 aprendizados: []
