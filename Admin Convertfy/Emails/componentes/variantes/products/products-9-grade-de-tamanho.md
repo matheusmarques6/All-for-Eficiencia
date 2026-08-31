@@ -7,22 +7,22 @@ variant_id: 2f115df3-1ddd-4ca4-bb45-e3337cef5546
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [queima-de-estoque]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [disponibilidade-urgencia]
 registro: []
-registro_vetado: []
+registro_vetado: [premium-editorial]
 paleta: []
-papel_na_peca: []
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [estoque-integrado, grade-de-tamanho-real]
 
 # --- capacidade e composição ---
 product_slots: 4
-itens: null
+itens: { min: 4, max: 4 }
 peso: null
 convivencia: []
 

@@ -7,22 +7,22 @@ variant_id: 8ef65206-2f01-408f-ab07-c17f57cc136c
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [consideracao]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [composicao-formulacao]
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [tres-provas-verificaveis, produto-com-composicao-relevante, corredores-livres-nas-laterais]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
 convivencia: []
 

@@ -7,22 +7,22 @@ variant_id: a15a6331-8761-4025-8d70-574c18fcd40b
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [lancamento]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: []
 registro: []
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [escuro-saturado]
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [foto-de-campanha-propria]
 
 # --- capacidade e composição ---
 product_slots: 1
-itens: null
+itens: { min: 4, max: 4 }
 peso: null
 convivencia: []
 

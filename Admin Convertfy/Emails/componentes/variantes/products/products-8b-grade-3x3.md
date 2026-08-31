@@ -7,24 +7,24 @@ variant_id: 9c00bf11-22e4-4675-98aa-499aee857d7d
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [catalogo-mais-vendidos]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [amplitude-de-catalogo]
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [apoio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: []  # products-8b nao declara nenhum ativo eliminatorio na prosa; a restricao e estrutural (itens min/max e papel_na_peca apoio/fechamento, nao abre sozinha)
 
 # --- capacidade e composição ---
 product_slots: 9
-itens: null
+itens: { min: 6, max: 9 }
 peso: null
-convivencia: []
+convivencia: [exige-hero-ou-contexto-acima]
 
 # --- fios para o resto do vault ---
 aprendizados: []

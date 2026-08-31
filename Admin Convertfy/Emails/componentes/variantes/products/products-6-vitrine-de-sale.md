@@ -7,22 +7,22 @@ variant_id: fc41efe6-a2dc-493a-ab92-75e30fd13198
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [sale-recorrente]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio]
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: []
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [ornamento-grafico-de-identidade]
 
 # --- capacidade e composição ---
 product_slots: 2
-itens: null
+itens: { min: 2, max: 2 }
 peso: null
 convivencia: []
 
