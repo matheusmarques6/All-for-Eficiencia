@@ -11,18 +11,18 @@ momento: []
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+objecao: []   # footer não ataca objeção; o ranking degrada para registro (§6.1)
+registro: [premium-editorial]
+registro_vetado: [minimalista-leve]
+paleta: [full-dark]
+papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [preference-center-na-esp]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
 convivencia: []
 

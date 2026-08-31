@@ -8,21 +8,21 @@ ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []
-momento_vetado: []
+momento_vetado: [transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
+objecao: []   # footer não ataca objeção; o ranking degrada para registro (§6.1)
+registro: [minimalista-leve]
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [claro]
+papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: []   # sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 4, max: 6 }
 peso: null
 convivencia: []
 
