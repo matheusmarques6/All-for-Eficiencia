@@ -20,7 +20,7 @@ repete o registro.
 > Camada **descritiva**: o que as referências catalogadas efetivamente fazem.
 > A camada prescritiva é [[_flow]].
 
-|  | [[1\|#1]] | [[2\|#2]] | [[3\|#3]] | [[4\|#4]] | [[5\|#5]] |
+|  | [[welcome-1\|#1]] | [[welcome-2\|#2]] | [[welcome-3\|#3]] | [[welcome-4\|#4]] | [[welcome-5\|#5]] |
 |---|---|---|---|---|---|
 | Abre com | marca | oferta | história | pergunta | inimigo externo |
 | Voz | marca | marca | marca | clientes | marca vs. categoria |

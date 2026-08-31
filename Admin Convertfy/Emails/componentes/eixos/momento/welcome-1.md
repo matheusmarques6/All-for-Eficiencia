@@ -15,7 +15,7 @@ e-mail cumpre o contrato do opt-in e troca o motivo da compra na mesma peça.
 
 # Onde aparece na doutrina
 
-Intenção completa em [[1]]; a forma observada em [[_progressao]] mostra este
+Intenção completa em [[welcome-1]]; a forma observada em [[_progressao]] mostra este
 toque abrindo com marca, tese única, prova social ao fim, oito posições —
 o mais longo em estrutura, ainda que não em leitura pedida.
 

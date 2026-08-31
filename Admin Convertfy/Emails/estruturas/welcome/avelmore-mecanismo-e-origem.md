@@ -12,7 +12,7 @@ secoes: [header, body, body, products, footer]
 performance:
 ---
 
-Serve a intenção [[3|welcome 3]]. Antecedida por
+Serve a intenção [[welcome-3|welcome 3]]. Antecedida por
 [[avelmore-deadline-objecao]].
 
 O e-mail mais enxuto do flow em posições — e o mais longo em texto. Sem hero

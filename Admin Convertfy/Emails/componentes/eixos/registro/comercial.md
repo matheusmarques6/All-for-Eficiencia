@@ -20,7 +20,7 @@ formato.
 `catalogo-mais-vendidos` e `transacional` (na parte de recomendação). Evitar
 em `welcome-1` — a intenção do primeiro toque é trocar o motivo da compra,
 não empilhar produto, e o registro comercial cedo demais reduz o e-mail a
-"comprou um endereço e nada mais" (ver [[1]]).
+"comprou um endereço e nada mais" (ver [[welcome-1]]).
 
 # Procedência
 

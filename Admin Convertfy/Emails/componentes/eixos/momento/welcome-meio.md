@@ -15,7 +15,7 @@ flow virar sobre tempo.
 
 # Onde aparece na doutrina
 
-Corresponde aos toques [[2]], [[3]] e [[4]] do welcome — varredura, mecanismo
+Corresponde aos toques [[welcome-2]], [[welcome-3]] e [[welcome-4]] do welcome — varredura, mecanismo
 e prova social, respectivamente, conforme [[_progressao]]. Nenhum repete o
 registro do anterior: essa é a regra do trecho, não só a soma dos três.
 

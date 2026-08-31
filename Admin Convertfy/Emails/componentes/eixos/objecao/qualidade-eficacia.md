@@ -15,7 +15,7 @@ produto em si, isolado de tudo o mais.
 
 # Onde aparece na doutrina
 
-Objeção do primeiro toque do welcome: [[1]]. A tabela de objeção-por-toque em
+Objeção do primeiro toque do welcome: [[welcome-1]]. A tabela de objeção-por-toque em
 [[_flow]] a nomeia como "o produto presta?" — a única que se ataca sozinha,
 sem concorrência de outro argumento no mesmo e-mail.
 

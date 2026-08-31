@@ -15,7 +15,7 @@ sem resposta óbvia.
 
 # Onde aparece na doutrina
 
-O oitavo toque do welcome abre um canal humano de resposta — ver [[8]] — mas
+O oitavo toque do welcome abre um canal humano de resposta — ver [[welcome-8]] — mas
 resolve uma objeção diferente (o prazo perdido, não dúvida de suporte); a
 semelhança é só estrutural: os dois são os únicos pontos do flow onde a marca
 convida contato direto.

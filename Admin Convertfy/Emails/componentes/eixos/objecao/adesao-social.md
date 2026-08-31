@@ -15,7 +15,7 @@ falando de novo; é ver que outras pessoas já decidiram.
 
 # Onde aparece na doutrina
 
-Intenção do quarto toque do welcome: [[4]], onde a voz muda de marca para
+Intenção do quarto toque do welcome: [[welcome-4]], onde a voz muda de marca para
 cliente exatamente por causa dessa objeção. A tabela de [[_flow]] nomeia o
 toque como "sou só eu que estou considerando?".
 

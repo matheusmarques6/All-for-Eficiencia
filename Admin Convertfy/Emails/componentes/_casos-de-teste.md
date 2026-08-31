@@ -13,7 +13,7 @@ campo — não na conclusão final.
 
 # Caso A — welcome #1, skincare premium com cupom
 
-**Entrada.** Toque: [[1|welcome 1]]. Objeção dominante: `qualidade-eficacia`
+**Entrada.** Toque: [[welcome-1|welcome 1]]. Objeção dominante: `qualidade-eficacia`
 (ticket médio-alto, "eficácia" no enunciado). Estrutura de referência:
 [[avelmore-inspecao-antecipada]] — `secoes: [header, hero, body, body,
 products, cta, reviews, footer]`.
@@ -237,7 +237,7 @@ enunciado do caso.
 
 # Caso B — welcome #5, ferramentas sem cupom
 
-**Entrada.** Toque: [[5|welcome 5]]. Objeção: do canal ("por que comprar
+**Entrada.** Toque: [[welcome-5|welcome 5]]. Objeção: do canal ("por que comprar
 de vocês?"), traduzida no vocabulário do vault para `confianca-no-canal`
 (a mesma tradução que [[_protocolo-de-selecao]] já faz na sua seção "Teste
 de validação"). Estrutura de referência:

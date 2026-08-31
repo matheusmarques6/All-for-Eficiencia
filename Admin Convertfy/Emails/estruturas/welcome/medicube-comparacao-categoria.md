@@ -12,7 +12,7 @@ secoes: [header, body, products, footer]
 performance:
 ---
 
-Serve a intenção [[5|welcome 5]].
+Serve a intenção [[welcome-5|welcome 5]].
 
 A estrutura mais curta do lote: um único bloco argumentativo entre header e
 vitrine.

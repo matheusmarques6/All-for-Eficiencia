@@ -21,14 +21,14 @@ argumento N de novo — precisa de um argumento de outro tipo. O eixo:
 
 | Toque | Objeção que ataca |
 |---|---|
-| [[1\|1]] | "esse produto presta?" |
-| [[2\|2]] | "vale o que custa?" (varredura — não se sabe qual travou) |
-| [[3\|3]] | "como isso se sustenta?" (o cético) |
-| [[4\|4]] | "sou só eu que estou considerando?" |
-| [[5\|5]] | "por que comprar de VOCÊS?" (o canal) |
-| [[6\|6]] | "por que agora?" |
-| [[7\|7]] | "ainda dá tempo?" |
-| [[8\|8]] | "perdi?" |
+| [[welcome-1\|1]] | "esse produto presta?" |
+| [[welcome-2\|2]] | "vale o que custa?" (varredura — não se sabe qual travou) |
+| [[welcome-3\|3]] | "como isso se sustenta?" (o cético) |
+| [[welcome-4\|4]] | "sou só eu que estou considerando?" |
+| [[welcome-5\|5]] | "por que comprar de VOCÊS?" (o canal) |
+| [[welcome-6\|6]] | "por que agora?" |
+| [[welcome-7\|7]] | "ainda dá tempo?" |
+| [[welcome-8\|8]] | "perdi?" |
 
 **A voz rotaciona** para o mesmo argumento nunca chegar duas vezes do mesmo
 lugar: marca → marca → marca → clientes → marca contra a categoria → números →

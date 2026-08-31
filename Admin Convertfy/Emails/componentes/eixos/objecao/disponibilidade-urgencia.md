@@ -15,8 +15,8 @@ eixo que muda de forma conforme a posição no flow, e não some — se transfor
 
 # Onde aparece na doutrina
 
-Fecha o welcome em três toques consecutivos: [[6]] ("por que agora?"),
-[[7]] ("ainda dá tempo?") e [[8]] ("perdi?"), conforme a tabela de [[_flow]].
+Fecha o welcome em três toques consecutivos: [[welcome-6]] ("por que agora?"),
+[[welcome-7]] ("ainda dá tempo?") e [[welcome-8]] ("perdi?"), conforme a tabela de [[_flow]].
 Regras transversais 3 a 6 do mesmo flow existem quase inteiras para governar
 esta objeção.
 

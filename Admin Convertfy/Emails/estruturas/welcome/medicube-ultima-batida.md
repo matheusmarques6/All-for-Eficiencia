@@ -12,7 +12,7 @@ secoes: [header, offer, footer]
 performance:
 ---
 
-Serve a intenção [[7|welcome 7]]. Antecedida por
+Serve a intenção [[welcome-7|welcome 7]]. Antecedida por
 [[medicube-escassez-com-prova-de-demanda]], **no mesmo dia**.
 
 A menor estrutura do flow. A compressão chega ao limite: um único bloco de

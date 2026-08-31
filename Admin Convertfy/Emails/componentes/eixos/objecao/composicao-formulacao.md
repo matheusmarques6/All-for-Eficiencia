@@ -15,7 +15,7 @@ ou realocado para o preço competir, o que é verificável em cada pedido.
 
 # Onde aparece na doutrina
 
-Intenção do terceiro toque do welcome: [[3]], que a tabela de [[_flow]] nomeia
+Intenção do terceiro toque do welcome: [[welcome-3]], que a tabela de [[_flow]] nomeia
 "como isso se sustenta? (o cético)" e descreve como três porquês encadeados:
 origem, economia, operação.
 

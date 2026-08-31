@@ -192,7 +192,7 @@ serve a objeção pedida — o caso concreto abaixo).
 # Teste de validação
 
 O protocolo tem que reproduzir decisões já validadas na prática. Caso de
-referência: `intencoes/welcome/5.md` não tem campo `objecao` no
+referência: `intencoes/welcome/welcome-5.md` não tem campo `objecao` no
 frontmatter — a objeção do canal ("por que comprar de vocês?") só existe
 em prosa nessa nota. Traduzida para o vocabulário do vault, ela mapeia
 para `objecao: confianca-no-canal`. Na seção `body`,

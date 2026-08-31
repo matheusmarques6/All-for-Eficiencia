@@ -16,7 +16,7 @@ uma carta em plain-text, um e-mail-pergunta de uma linha.
 # Onde aparece na doutrina
 
 O epílogo do welcome é o exemplo canônico: texto corrido, sem blocos
-segmentados, assinatura de equipe — ver [[8]] e
+segmentados, assinatura de equipe — ver [[welcome-8]] e
 [[quebra-de-formato-atravessa-a-cegueira]]. A quebra de formato é o próprio
 mecanismo, não decoração.
 

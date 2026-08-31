@@ -14,7 +14,7 @@ da oferta, o lembrete final, e o epílogo depois do prazo vencido.
 
 # Onde aparece na doutrina
 
-Corresponde aos toques [[5]] a [[8]] do welcome, descritos em [[_progressao]]
+Corresponde aos toques [[welcome-5]] a [[welcome-8]] do welcome, descritos em [[_progressao]]
 como a fase de "posicionamento competitivo" seguida por compressão máxima —
 o toque final pede segundos de leitura contra os oito do primeiro.
 

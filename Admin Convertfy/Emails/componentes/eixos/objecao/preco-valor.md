@@ -15,7 +15,7 @@ de custo, ou razão para o preço fazer sentido.
 
 # Onde aparece na doutrina
 
-Um dos fios da varredura do segundo toque do welcome: [[2]]. A tabela de
+Um dos fios da varredura do segundo toque do welcome: [[welcome-2]]. A tabela de
 [[_flow]] nomeia esse toque como "vale o que custa? (varredura — não se sabe
 qual travou)" — preço é uma das travas cobertas, não a única.
 

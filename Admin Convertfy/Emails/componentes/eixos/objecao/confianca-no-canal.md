@@ -15,7 +15,7 @@ custo escondido, suporte inexistente, site inseguro, sem devolução.
 
 # Onde aparece na doutrina
 
-Intenção do quinto toque do welcome: [[5]]. O flow inteiro trata objeção
+Intenção do quinto toque do welcome: [[welcome-5]]. O flow inteiro trata objeção
 como eixo organizador — ver [[_flow]].
 
 # Como usar na seleção
