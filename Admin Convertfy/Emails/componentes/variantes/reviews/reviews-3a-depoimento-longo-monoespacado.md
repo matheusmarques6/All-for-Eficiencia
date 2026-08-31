@@ -27,7 +27,7 @@ peso: { altura_px: 1682, classe: pesado, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca, exige-hero-ou-contexto-acima, monoespacado-nao-convive-com-serif-display]
 
 # --- fios para o resto do vault ---
-aprendizados: ["[[prova-de-terceiro-antes-do-cta]]"]
+aprendizados: []
 serve_estruturas: []
 
 # --- proveniência ---

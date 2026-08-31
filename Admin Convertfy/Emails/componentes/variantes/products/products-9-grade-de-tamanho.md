@@ -27,7 +27,7 @@ peso: { altura_px: 2974, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: ["[[numeros-de-escassez-precisam-de-backing]]"]
+aprendizados: []
 serve_estruturas: []
 
 # --- proveniência ---
