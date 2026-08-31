@@ -19,8 +19,14 @@ ordem é a regra: **eliminar antes de rankear, sempre**.
    frontmatter da variante; quando existe, resolve o passo 9 antes mesmo de
    chegar nele.
 3. **Por seção pedida, partir da lista** em `secoes/_<secao>.md`, restrita
-   a `ativa: true`. Consulta os campos `secao` e `ativa` de cada variante —
-   inativa não é candidata, cai fora antes mesmo do passo 4.
+   a `ativa: true` **e `schema_campos > 0`**. Consulta os campos `secao`,
+   `ativa` e `schema_campos` de cada variante — inativa não é candidata, e
+   variante sem schema não é preenchível: mesmo escolhida, o passo de copy
+   do pipeline não tem endereço para escrever. É o caso de
+   `footer-4-dark-mega-menu` — ativa e com julgamento completo, ainda assim
+   fora ([[cinco-variantes-sem-schema]]). Atalho: [[_catalogo]] tem todos
+   esses campos das 44 variantes em uma única tabela, servindo os passos
+   3–8 sem abrir nota por nota.
 4. **Eliminar por `exige:`** contra o perfil de ativos da loja. Consulta o
    campo `exige`. Sem o ativo, a variante não é pior — é impossível.
 5. **Eliminar por `momento`** — dois mecanismos. O veto: consulta
@@ -182,4 +188,4 @@ body-5.** O caso vira lacuna declarada, não silêncio — registrado em
 ---
 
 Ponte de parâmetros: [[_parametros-da-loja]] · Números da biblioteca:
-[[_inventario]]
+[[_inventario]] · Mapa do vault: [[_INDEX]]
