@@ -7,22 +7,22 @@ variant_id: 42c883e5-6c4a-43df-b18f-e7ee866e4ae7
 ativa: false
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [nutricao-de-conteudo, welcome-meio, reengajamento]
+momento_vetado: [campanha-promocional, abertura, welcome-1]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [uso-aprendizado]
 registro: []
 registro_vetado: []
-paleta: []
+paleta: [creme]
 papel_na_peca: []
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: []  # veta tipo de campanha, marca sem material educativo aprovado (sem valor correspondente no vocabulario -- ver relatorio) e publico frio; nenhum vira exige hoje
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 3, max: 3 }
 peso: null
 convivencia: []
 

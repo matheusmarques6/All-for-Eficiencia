@@ -7,22 +7,22 @@ variant_id: 63736c6c-7d1b-4c7c-83ea-bae15599f1d7
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [pos-compra, reengajamento]
+momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [uso-aprendizado]
 registro: []
 registro_vetado: []
 paleta: []
 papel_na_peca: []
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: []  # "Quando NÃO usar" veta tipo de campanha, tipo de produto e limite de passos por coluna -- nenhuma frase cita ativo ausente ("sem X")
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: null, max: 6 }
 peso: null
 convivencia: []
 

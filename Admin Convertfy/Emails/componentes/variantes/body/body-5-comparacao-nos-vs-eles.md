@@ -7,22 +7,22 @@ variant_id: 7d1c214a-abb1-44b6-bb5e-95777fb0f306
 ativa: false
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [welcome-meio, welcome-tardio, carrinho-abandonado, browse-abandonment]
+momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
+objecao: [confianca-no-canal, preco-valor]
+registro: [premium-editorial]
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [creme]
+papel_na_peca: [meio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [quatro-criterios-objetivos]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 4, max: 5 }
 peso: null
 convivencia: []
 

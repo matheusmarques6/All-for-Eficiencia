@@ -7,22 +7,22 @@ variant_id: d5fb804f-8934-4c39-b011-950e20802498
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [sazonal-data-comemorativa]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+objecao: []  # "argumento é a cena, não o preço nem a especificação" -- nenhum valor do vocabulario de objecao descreve gatilho emocional/afeto de presente; ver relatorio
+registro: [festivo]
+registro_vetado: [premium-editorial]
+paleta: [com-acento-definido]
+papel_na_peca: []  # nenhuma frase de Quando usar/NÃO usar declara posição na peça
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [foto-com-pessoas, motivo-sazonal]
 
 # --- capacidade e composição ---
 product_slots: 0
-itens: null
+itens: { min: 2, max: 2 }
 peso: null
 convivencia: []
 

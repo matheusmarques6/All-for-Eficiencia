@@ -7,18 +7,18 @@ variant_id: 4e9726d1-40fe-40ce-aa81-c2a33b062603
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [gift-card, sazonal-data-comemorativa]
+momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: []
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [apoio]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [gift-card-digital]
 
 # --- capacidade e composição ---
 product_slots: 0
