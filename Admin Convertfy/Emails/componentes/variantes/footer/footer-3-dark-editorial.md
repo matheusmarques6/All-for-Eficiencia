@@ -18,7 +18,7 @@ paleta: [full-dark]
 papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: [preference-center-na-esp]
+exige: []  # requisito de central de preferencias removido (fix lote B item B) -- procedencia inferida, sem clausula de "Quando NAO usar" no inventario
 
 # --- capacidade e composição ---
 product_slots: 0

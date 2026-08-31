@@ -18,7 +18,7 @@ paleta: []
 papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: [cupom-ativo, packshot-recortado]
+exige: [cupom-ativo]
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -36,3 +36,17 @@ responde a esta pergunta. Ver [[_parametros-da-loja]].
 Este requisito foi inferido, não extraído de citação do inventário nem de
 doutrina do vault. Utilizável, mas ainda não validado por quem opera as
 lojas.
+
+# Por que não aparece em nenhum `exige`
+
+Este requisito tem `procedencia: inferida` — o inventário traz apenas a
+condição positiva de uso, sem nenhuma cláusula de "Quando NÃO usar" ligando a
+ausência do ativo a uma falha estrutural da peça.
+
+Chegou a ser aplicado como `exige` numa variante e foi retirado na revisão:
+sem citação de impossibilidade, o requisito filtra por preferência, e um
+filtro por preferência descarta variante boa.
+
+Permanece na lista porque a lista é o contrato do perfil de ativos da loja,
+não o índice do que as variantes referenciam. Se aparecer citação de
+impossibilidade no inventário, ele volta a ser candidato a `exige`.
