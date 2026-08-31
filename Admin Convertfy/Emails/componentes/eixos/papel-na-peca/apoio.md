@@ -2,7 +2,7 @@
 tipo: eixo
 eixo: papel-na-peca
 valor: apoio
-procedencia: doutrina
+procedencia: inferida
 status: aprovada
 ---
 
@@ -26,3 +26,11 @@ cumpre parte da função sem virar seção própria — ver
 Uma variante com `papel-na-peca: [apoio]` nunca deve ser a única peça
 carregando uma objeção crítica do toque — se a objeção central depende
 inteiramente de um bloco de apoio, ele deveria ser `meio` ou `peca-inteira`.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+A única nota que a sustentava, [[ausencia-de-prova-social-assume-abertura]],
+tem `flow_type: welcome` e nenhum campo `aplica_a` — é doutrina restrita ao
+welcome, não uma regra geral sobre o papel `apoio`. Utilizável, mas ainda
+não validada por quem opera as lojas.

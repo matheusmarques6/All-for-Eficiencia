@@ -1,0 +1,30 @@
+---
+tipo: requisito
+familia: dado-operacional
+valor: destinos-de-navegacao
+verificavel_hoje: false
+status: aprovada
+procedencia: inventario
+---
+
+# O que é
+
+A loja tem pelo menos tantos destinos distintos e navegáveis — páginas,
+coleções, categorias — quantos espaços de link a variante reserva.
+
+# Por que é eliminatório e não preferência
+
+Um rodapé de grid com quatro espaços de link pressupõe quatro destinos
+reais e diferentes entre si. Com menos destinos que espaços, o grid não
+fica só "menos completo" — fica capenga, porque a estrutura existe para
+ser preenchida com destinos distintos, não para repetir o mesmo link em
+várias posições.
+
+Da prosa do inventário, verbatim (`footer 1`): *"esta variação
+específica não serve para clientes com menos de 4 links úteis (grid
+fica capenga; usar variante de lista horizontal simples)."*
+
+# Como o agente verifica
+
+**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
+responde a esta pergunta. Ver [[_parametros-da-loja]].
