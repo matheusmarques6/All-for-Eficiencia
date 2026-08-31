@@ -29,3 +29,14 @@ transacionais ultra-minimalistas."*
 
 **Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
 responde a esta pergunta. Ver [[_parametros-da-loja]].
+
+
+# Como está codificado nas variantes
+
+Este requisito não aparece em nenhum `exige:`. Nas variantes de footer ele é
+codificado como `itens: { min, max }` — a quantidade de destinos é restrição
+de **capacidade**, que o protocolo elimina num passo próprio, e não um ativo
+que a loja tem ou não tem.
+
+A nota permanece porque a lista de requisitos é o contrato do perfil de
+ativos da loja, não apenas o índice do que as variantes referenciam.
