@@ -20,8 +20,9 @@ oito categorias de bloco que o vocabulário do vault reconhece. Quando o
 Blueprint (agente #4 do pipeline de geração) monta a lista de blocos de um
 e-mail e um deles é `header`, o Curador não tem nenhuma candidata para
 rankear. O pipeline não trata isso como erro: ele cai no `email_reference_templates`
-(template global), do jeito descrito em `curador-nao-recebe-o-julgamento`, e
-segue sem deixar rastro de que a seção pedida não tinha variante nenhuma.
+(template global), e segue sem deixar rastro de que a seção pedida não
+tinha variante nenhuma. Ver [[o-que-o-curador-ainda-nao-tem]] para o que o
+Curador de fato recebe e verifica hoje.
 
 # O que se perde hoje
 

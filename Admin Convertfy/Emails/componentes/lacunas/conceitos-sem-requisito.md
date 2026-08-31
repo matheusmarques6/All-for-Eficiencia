@@ -41,11 +41,11 @@ variante — e ainda assim não têm requisito correspondente no vocabulário de
 ranking, sem ambiguidade. As nove condições acima são exatamente esse tipo
 de sinal (eliminatório, binário), mas como não há valor de vocabulário para
 representá-las, elas só existem em prosa livre, dentro de "Quando NÃO
-usar". Um Curador que julgar só pelos campos estruturados (como
-`curador-nao-recebe-o-julgamento` descreve que o pipeline faz hoje) nunca
-vê essas nove condições — mesmo se o julgamento chegasse ao LLM na
-íntegra, campos estruturados como `exige`/`momento`/`registro` não têm onde
-gravar "sem desconto de qualquer tipo" ou "produto único na loja".
+usar". O Curador hoje lê `when_use`/`when_not_use` como critério de corte
+(ver [[o-que-o-curador-ainda-nao-tem]]), então em tese consegue aplicar
+essas nove condições ao ler a prosa inteira — mas nenhum consumidor que
+trabalhe só com campos estruturados (`exige`/`momento`/`registro`) tem
+onde gravar "sem desconto de qualquer tipo" ou "produto único na loja".
 
 # O que se perde hoje
 
