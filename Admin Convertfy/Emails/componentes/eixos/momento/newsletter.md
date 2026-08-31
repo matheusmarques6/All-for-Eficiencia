@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: newsletter
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ comportamental (carrinho, navegação) para fazer sentido — precisa ser
 autossuficiente para qualquer assinante ativo no dia do envio. Aceita mistura
 de seções (produto, conteúdo, comunidade) que uma peça de conversão pontual
 concentraria em um só argumento.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

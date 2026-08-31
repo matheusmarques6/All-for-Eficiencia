@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: composicao-formulacao
+procedencia: doutrina
 status: aprovada
 ---
 

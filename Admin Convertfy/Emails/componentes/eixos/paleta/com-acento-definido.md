@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: com-acento-definido
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ importa.
 a hierarquia pede. Boa escolha default quando a marca tem uma cor
 institucional forte mas o momento não pede a intensidade de
 `escuro-saturado` nem a neutralidade total de `cinza-neutro`.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

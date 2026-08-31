@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: comercial
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ formato.
 em `welcome-1` — a intenção do primeiro toque é trocar o motivo da compra,
 não empilhar produto, e o registro comercial cedo demais reduz o e-mail a
 "comprou um endereço e nada mais" (ver [[1]]).
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

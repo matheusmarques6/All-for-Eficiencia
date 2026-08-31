@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: abertura
+procedencia: inferida
 status: aprovada
 ---
 
@@ -21,3 +22,8 @@ completo do que disparou o e-mail. Não confundir com `welcome-1`: aquele
 valor é específico do flow de boas-vindas e carrega a doutrina própria dele
 (entrega de incentivo, troca de motivo); `abertura` é o mesmo papel estrutural
 em qualquer outro flow.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

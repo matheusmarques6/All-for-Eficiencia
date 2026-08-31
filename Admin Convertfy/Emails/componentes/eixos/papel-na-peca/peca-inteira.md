@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: papel-na-peca
 valor: peca-inteira
+procedencia: doutrina
 status: aprovada
 ---
 

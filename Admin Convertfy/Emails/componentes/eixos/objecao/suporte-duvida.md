@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: suporte-duvida
+procedencia: inferida
 status: aprovada
 ---
 
@@ -25,3 +26,8 @@ Uma variante declara `objecao: [suporte-duvida]` quando o dispositivo dela
 existe para reduzir o medo de ficar sem resposta — canal de atendimento
 visível, política de troca clara, garantia com prazo definido — não quando
 apenas menciona um e-mail de contato no rodapé por padrão.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: qualidade-eficacia
+procedencia: doutrina
 status: aprovada
 ---
 

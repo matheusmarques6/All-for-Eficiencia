@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: volume-impulso
+procedencia: inferida
 status: aprovada
 ---
 
@@ -18,3 +19,8 @@ Casa naturalmente com `momento: campanha-promocional`, `queima-de-estoque`
 ou `sale-recorrente`, e com objeção `disponibilidade-urgencia` ou
 `preco-valor`. Evitar em `momento: welcome-1` ou em categorias de ticket
 alto, onde decisão rápida sem contexto lê como pressão vazia.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

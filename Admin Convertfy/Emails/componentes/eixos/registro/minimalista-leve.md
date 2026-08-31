@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: minimalista-leve
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ minimalista depois de vários e-mails carregados de design muda a categoria
 percebida da mensagem. Evitar quando a objeção dominante exige prova densa
 (`composicao-formulacao`, `amplitude-de-catalogo`): o registro compete com o
 conteúdo que precisa caber.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

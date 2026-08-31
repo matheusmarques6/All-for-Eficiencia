@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: queima-de-estoque
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ unidades" tende a ser verdade, não recurso retórico. Ainda assim, todo número
 citado precisa de lastro: ver
 [[numeros-de-escassez-precisam-de-backing]]. A objeção dominante costuma ser
 `disponibilidade-urgencia` combinada com `preco-valor`.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

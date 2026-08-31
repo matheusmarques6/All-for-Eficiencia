@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: gift-card
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ está endereçando — o CTA e o argumento mudam por completo entre "dê de
 presente" e "seu saldo está esperando". Não misturar os dois na mesma peça: a
 pessoa com saldo parado não precisa ser convencida do conceito de
 cartão-presente.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

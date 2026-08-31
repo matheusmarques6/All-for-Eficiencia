@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: campanha-promocional
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ Uma variante com `momento: [campanha-promocional]` deve deixar a oferta e o
 prazo evidentes cedo — este não é o lugar para argumento longo de mecanismo
 ou origem de marca, que cabe em nutrição ou no meio do welcome. A objeção
 mais provável de resolver aqui é `disponibilidade-urgencia` ou `preco-valor`.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

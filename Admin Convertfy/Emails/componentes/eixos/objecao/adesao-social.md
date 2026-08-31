@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: adesao-social
+procedencia: doutrina
 status: aprovada
 ---
 

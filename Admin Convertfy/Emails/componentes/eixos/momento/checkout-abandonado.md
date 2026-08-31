@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: checkout-abandonado
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ menos argumentativa que a de `carrinho-abandonado` — a pessoa já decidiu
 comprar, só não terminou. Priorizar remoção de fricção (link direto de volta
 ao checkout com o carrinho preservado, reasseguramento sobre pagamento e
 segurança) sobre reapresentação de tese ou prova social.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

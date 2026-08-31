@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: escolha-variedade
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ existe para reduzir a lista de opções a um recorte administrável — curadori
 "mais vendido por categoria", guia de escolha, comparação lado a lado — não
 quando apenas exibe o catálogo inteiro sem hierarquia. Um bloco de vitrine sem
 filtro nem destaque não resolve esta objeção; só a expõe.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

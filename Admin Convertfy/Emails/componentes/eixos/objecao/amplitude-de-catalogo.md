@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: amplitude-de-catalogo
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ dela expõe a extensão do catálogo — categorias, best-sellers por linha,
 "explore mais" — para responder a essa dúvida, não apenas para preencher
 espaço com produtos. Difere de `escolha-variedade`: aqui a pergunta é "existe
 mais?", lá é "qual dessas é a certa pra mim?".
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

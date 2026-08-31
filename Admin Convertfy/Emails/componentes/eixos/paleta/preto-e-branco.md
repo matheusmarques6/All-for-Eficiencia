@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: preto-e-branco
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ cor necessária e o layout precisa recuar. Funciona também em
 `papel-na-peca: peca-inteira` de quebra de formato (ver
 [[quebra-de-formato-atravessa-a-cegueira]]) — remover cor é outra forma de
 sinalizar "isto não é uma campanha comum".
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

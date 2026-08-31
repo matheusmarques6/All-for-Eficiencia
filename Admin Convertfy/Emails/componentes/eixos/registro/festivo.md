@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: festivo
+procedencia: inferida
 status: aprovada
 ---
 
@@ -17,3 +18,8 @@ ou ocasião, tom de comemoração em vez de venda direta. Existe para sinalizar
 janela de tempo, o registro perde sentido e pode até prejudicar — motivo
 gráfico de Black Friday em fevereiro lê como erro de produção, não como
 estilo.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

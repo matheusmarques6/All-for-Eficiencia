@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: sale-recorrente
+procedencia: inferida
 status: aprovada
 ---
 
@@ -21,3 +22,8 @@ promoção e mais foco direto na oferta atual. Cuidado com a mesma armadilha de
 prazo decorativo: se a "sale" é sempre igual e sempre volta, a urgência
 declarada perde força a cada repetição — ver
 [[deadline-falso-queima-o-proximo]].
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: reengajamento
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ abertura fora do padrão comercial — pergunta direta, oferta exclusiva de
 retorno, ou reconhecimento explícito do silêncio — porque o padrão visual
 comum já provou que não funciona com esse contato. Não assumir contexto
 recente: a pessoa pode não lembrar por que assinou.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: popular-informal
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ reduzir formalidade ajuda a romper o padrão que o leitor já ignora. Cuidado
 em categorias onde informalidade é lida como falta de seriedade (saúde,
 finanças, produtos de alto risco percebido) — ali o registro pode piorar a
 objeção `confianca-no-canal` em vez de resolvê-la.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

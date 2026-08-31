@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: creme
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ natural ou lifestyle, e com `momento: nutricao-de-conteudo` quando o tom
 geral é mais pessoal que comercial. Evitar em `registro: clinico-sobrio` —
 o tom quente contradiz a leitura de precisão técnica que esse registro
 busca.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

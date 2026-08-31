@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: browse-abandonment
+procedencia: doutrina
 status: aprovada
 ---
 

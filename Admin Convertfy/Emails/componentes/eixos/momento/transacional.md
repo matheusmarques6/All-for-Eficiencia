@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: transacional
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ central (status, número do pedido, prazo) acima de qualquer argumento de
 venda. Elementos de outras objeções — cross-sell, prova social — só entram
 como bloco secundário, depois que a informação transacional já foi entregue
 sem ambiguidade.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

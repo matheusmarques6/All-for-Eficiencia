@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: clinico-sobrio
+procedencia: inferida
 status: aprovada
 ---
 
@@ -17,3 +18,8 @@ exatidão, não pelo entusiasmo — o oposto de `volume-impulso` e de `festivo`.
 ingrediente, dado técnico pedem esse tom para soar crível, não vendedor
 demais. Categorias regulamentadas ou de alto risco percebido (saúde, finanças,
 segurança infantil) tendem a exigir este registro independente do momento.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

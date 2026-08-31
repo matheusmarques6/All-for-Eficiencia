@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: lancamento
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ porque ainda não existe prova social acumulada sobre o item novo — depoimento
 específico do produto lançado simplesmente não existe no dia do disparo. Não
 force um bloco de reviews do item lançado; prova social, se houver, vem da
 marca em geral, não do produto novo.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

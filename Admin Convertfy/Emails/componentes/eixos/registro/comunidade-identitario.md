@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: registro
 valor: comunidade-identitario
+procedencia: inferida
 status: aprovada
 ---
 
@@ -18,3 +19,8 @@ compartilhada, não sobre volume genérico.
 mesmo: um valor de `registro` descreve como a peça soa; o valor de `objecao`
 descreve qual dúvida ela resolve. Uma peça pode usar este registro sem
 resolver `pertencimento` diretamente, se o argumento principal for outro.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: claro
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ Serve como base para a maioria dos registros, exceto `luxo` e
 (`escuro-saturado`, `full-dark`, `com-acento-definido`). Na ausência de
 qualquer outro sinal do eixo `paleta` nos parâmetros da loja, `claro` é a
 escolha de menor risco.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

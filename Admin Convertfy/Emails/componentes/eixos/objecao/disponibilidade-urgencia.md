@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: disponibilidade-urgencia
+procedencia: doutrina
 status: aprovada
 ---
 

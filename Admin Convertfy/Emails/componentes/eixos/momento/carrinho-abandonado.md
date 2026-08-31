@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: carrinho-abandonado
+procedencia: doutrina
 status: aprovada
 ---
 

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: catalogo-mais-vendidos
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ objeção `escolha-variedade` — o ranking por vendas já é uma forma de
 curadoria — e carrega `adesao-social` embutida no próprio conceito de "mais
 vendido". Não é o lugar para introduzir prazo ou urgência: o argumento é
 volume histórico, não escassez.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

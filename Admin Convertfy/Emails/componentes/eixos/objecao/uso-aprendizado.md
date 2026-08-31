@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: uso-aprendizado
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ apenas vender o produto de novo. É a objeção mais comum no toque
 pós-compra, mas não se restringe a ele: também aparece pré-compra em
 categorias com curva de aprendizado alta (skincare ativo, eletrônico,
 suplemento com protocolo).
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

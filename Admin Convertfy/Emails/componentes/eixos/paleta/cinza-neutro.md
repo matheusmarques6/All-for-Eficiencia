@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: cinza-neutro
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ peça não deve competir com eles — típico de `registro: clinico-sobrio` e
 `premium-editorial` com fotografia colorida forte. Evitar quando o momento
 pede urgência ou energia (`campanha-promocional`, `queima-de-estoque`): a
 neutralidade contraria o efeito pretendido.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

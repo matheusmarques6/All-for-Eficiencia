@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: pos-compra
+procedencia: doutrina
 status: aprovada
 ---
 

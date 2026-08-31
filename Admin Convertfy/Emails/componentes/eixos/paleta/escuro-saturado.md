@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: escuro-saturado
+procedencia: inferida
 status: aprovada
 ---
 
@@ -17,3 +18,8 @@ Casa com `registro: bold-alto-contraste` e `volume-impulso`, e com
 `momento: lancamento` ou `campanha-promocional` de categoria jovem/tech.
 Evitar em `registro: clinico-sobrio` — a saturação compete com a leitura de
 precisão que esse registro pede.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

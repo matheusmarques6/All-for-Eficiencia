@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: nutricao-de-conteudo
+procedencia: inferida
 status: aprovada
 ---
 
@@ -20,3 +21,8 @@ existir, mas aqui o CTA pode ser de leitura, não de carrinho. Não force uma
 variante pensada para converter (`campanha-promocional`, `sale-recorrente`)
 neste momento: o objetivo da peça é diferente, e o julgamento de sucesso
 também.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

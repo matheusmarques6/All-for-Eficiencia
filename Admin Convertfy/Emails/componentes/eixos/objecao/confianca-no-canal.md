@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: confianca-no-canal
+procedencia: doutrina
 status: aprovada
 ---
 

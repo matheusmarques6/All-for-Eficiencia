@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: objecao
 valor: preco-valor
+procedencia: doutrina
 status: aprovada
 ---
 

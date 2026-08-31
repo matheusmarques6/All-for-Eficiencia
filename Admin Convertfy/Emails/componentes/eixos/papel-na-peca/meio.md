@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: papel-na-peca
 valor: meio
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ escaneável que uma de `abre` ou `fecha`, porque já conquistou atenção
 suficiente para pedir leitura mais longa. Ainda assim, um e-mail com vários
 blocos de `meio` precisa manter cada um com natureza distinta — repetir o
 mesmo tipo de argumento em sequência lê como redundância, não reforço.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

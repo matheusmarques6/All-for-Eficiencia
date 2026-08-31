@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: paleta
 valor: monocromatico
+procedencia: inferida
 status: aprovada
 ---
 
@@ -19,3 +20,8 @@ para carregar a peça inteira sozinha. Cuidado com hierarquia: sem uma
 segunda cor de contraste, a diferenciação entre CTA e texto comum depende
 inteiramente de peso tipográfico e espaço — testar legibilidade do CTA antes
 de aprovar.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: papel-na-peca
 valor: abre
+procedencia: inferida
 status: aprovada
 ---
 
@@ -17,5 +18,10 @@ posição.
 
 Uma variante com `papel-na-peca: [abre]` precisa funcionar sozinha para quem
 só lê o topo e não rola mais — o teste é: essa abertura, isolada, já entrega
-algum valor ou decisão? Títulos que não carregam o argumento sozinhos falham
-este papel — ver [[titulos-precisam-carregar-o-argumento]].
+algum valor ou decisão? Título que não carrega o argumento sozinho falha
+este papel.
+
+# Procedência
+
+Esta distinção foi inferida, não extraída de doutrina existente do vault.
+Utilizável, mas ainda não validada por quem opera as lojas.

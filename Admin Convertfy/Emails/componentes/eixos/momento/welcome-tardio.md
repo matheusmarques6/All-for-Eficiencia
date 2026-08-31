@@ -2,6 +2,7 @@
 tipo: eixo
 eixo: momento
 valor: welcome-tardio
+procedencia: doutrina
 status: aprovada
 ---
 
