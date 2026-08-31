@@ -23,7 +23,7 @@ exige: [desconto-automatico-sem-cupom, duas-ou-tres-cores-de-identidade, descont
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 754, classe: medio, fonte: medido }
+peso: { altura_px: 1534, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

@@ -23,7 +23,7 @@ exige: []
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 1746, classe: pesado, fonte: medido }
+peso: { altura_px: 2596, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

@@ -23,7 +23,7 @@ exige: [desconto-percentual, canto-livre-para-selo]
 # --- capacidade e composição ---
 product_slots: 3
 itens: { min: 3, max: 3 }
-peso: { altura_px: 2994, classe: peca-inteira, fonte: medido }
+peso: { altura_px: 4184, classe: peca-inteira, fonte: medido }
 convivencia: [exige-hero-ou-contexto-acima]
 
 # --- fios para o resto do vault ---

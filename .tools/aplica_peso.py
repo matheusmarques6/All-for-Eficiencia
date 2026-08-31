@@ -1,7 +1,9 @@
 """Aplica o peso medido (mede_peso.py) no campo `peso:` das 44 notas de variante.
 
 Uso: python .tools/aplica_peso.py
-Só troca a linha `peso: null` por `peso: { altura_px: N, classe: C, fonte: F }`.
+Idempotente: troca a linha `peso: ...` (seja `null` ou um dict já aplicado
+de uma rodada anterior) pelo valor medido atual. Permite reaplicar depois
+de um fix no medidor sem precisar reverter as 44 notas primeiro.
 reviews-8-ugc-de-comunidade é o calibrador (Task 12): usa a altura declarada
 na prosa (2500px) e fonte: declarado. As outras 43 usam o medido, fonte: medido.
 """
@@ -39,9 +41,9 @@ def main() -> None:
         linha_nova = f"peso: {{ altura_px: {px}, classe: {classe(px)}, fonte: {fonte} }}"
         texto = nota.read_text(encoding="utf-8")
         linhas = texto.split("\n")
-        alvo = [i for i, l in enumerate(linhas) if l == "peso: null"]
+        alvo = [i for i, l in enumerate(linhas) if l == "peso: null" or l.startswith("peso: {")]
         if len(alvo) != 1:
-            raise SystemExit(f"{nota}: esperava 1 linha 'peso: null', achou {len(alvo)}")
+            raise SystemExit(f"{nota}: esperava 1 linha 'peso:', achou {len(alvo)}")
         linhas[alvo[0]] = linha_nova
         nota.write_text("\n".join(linhas), encoding="utf-8")
         aplicadas += 1

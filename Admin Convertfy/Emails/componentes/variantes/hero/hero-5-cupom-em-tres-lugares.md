@@ -23,7 +23,7 @@ exige: [cupom-ativo, foto-com-pessoas]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 1233, classe: pesado, fonte: medido }
+peso: { altura_px: 2450, classe: peca-inteira, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---

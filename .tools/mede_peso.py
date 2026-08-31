@@ -23,6 +23,20 @@ variante com altura declarada na prosa):
    removidos antes de medir. `<!--[if !mso]>` NÃO é removido: é o
    padrão inverso (conteúdo real, visível em todo cliente exceto
    Outlook) — remover apagaria conteúdo de verdade.
+
+Rodada de correção 1 (achado do revisor): o Bug 3 acima tratava TODO
+bloco `[if mso]` como duplicata, mas há um segundo padrão no corpus —
+o `<td>` de imagem de fundo (`background-image` + `background-size:
+LARGxALTpx`, sem `height:` próprio) só tinha a altura real escrita
+dentro do `<v:rect>` do bloco MSO. Removendo o bloco cegamente, essa
+altura desaparecia (confirmado em ao menos 15 dos 44 arquivos — 3 no
+`body`, 8 no `hero`, 2 no `offer`, 2 no `products`). Corrigido varrendo
+cada `<td>` depois de remover os blocos MSO: se ele declara
+`background-size` mas NÃO tem `height:`/`height="N"` próprio, soma-se
+a altura do `background-size` (nos casos em que o `<td>` já tem altura
+própria, ela sempre bate com o `background-size` — conferido nos 44 —
+então somar só quando falta é o equivalente a `max(background-size,
+altura própria)` sem precisar reescrever a soma por `<td>` inteira.
 """
 from __future__ import annotations
 
@@ -63,6 +77,18 @@ def altura(html: str) -> int:
             total += int(valores[0]) * 2
     total += sum(int(n) for n in re.findall(r"padding-top:\s*(\d+)px", html))
     total += sum(int(n) for n in re.findall(r"padding-bottom:\s*(\d+)px", html))
+
+    # Padrão (b): <td> de imagem de fundo sem height próprio — a única
+    # declaração textual da altura é o background-size. Só soma quando o
+    # próprio <td> não tem height: (quando tem, os dois sempre batem —
+    # somar de novo duplicaria; isso é o `max(...)` do brief na prática).
+    for tag in re.findall(r"<td\b[^>]*>", html):
+        bg = re.search(r"background-size:\s*\d+px\s+(\d+)px", tag)
+        if not bg:
+            continue
+        tem_altura_propria = re.search(r"(?<![-a-zA-Z])height:\s*(\d+)px", tag) or re.search(r'\bheight="(\d+)"', tag)
+        if not tem_altura_propria:
+            total += int(bg.group(1))
     return total
 
 
