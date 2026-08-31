@@ -1,0 +1,22 @@
+---
+tipo: eixo
+eixo: momento
+valor: checkout-abandonado
+status: aprovada
+---
+
+# Checkout abandonado
+
+Mais fundo no funil que `carrinho-abandonado`: a pessoa já iniciou o
+checkout — em muitos casos já preencheu endereço ou pagamento — e saiu antes
+de confirmar. A intenção de compra é mais forte e mais recente; a objeção
+provável já não é "isso vale a pena", é fricção pontual: erro de pagamento,
+custo de frete revelado tarde, indecisão de última hora.
+
+# Como usar na seleção
+
+Uma variante com `momento: [checkout-abandonado]` deve ser mais direta e
+menos argumentativa que a de `carrinho-abandonado` — a pessoa já decidiu
+comprar, só não terminou. Priorizar remoção de fricção (link direto de volta
+ao checkout com o carrinho preservado, reasseguramento sobre pagamento e
+segurança) sobre reapresentação de tese ou prova social.
