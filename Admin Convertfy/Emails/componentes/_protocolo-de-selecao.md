@@ -76,12 +76,31 @@ vale para `header`. Portanto:
 
 Com ordenação lexicográfica você sempre consegue dizer qual critério
 decidiu: "ganhou porque `objecao` bateu; se não fosse isso, teria sido
-`registro`". Com pesos somados — o modelo que `component-deriver.ts:85-117`
-usa hoje (`niche_affinity` peso 3, `positioning` peso 2, `mood` peso 1) —
-o resultado não é auditável: um número final não diz qual campo pesou
-mais, e pesos arbitrários aplicados sobre campos vazios na maior parte do
-catálogo produzem empate universal, que é exatamente o estado atual do
-pipeline.
+`registro`". Com pesos somados, o resultado não é auditável: um número
+final não diz qual campo pesou mais, e pesos arbitrários aplicados sobre
+campos vazios na maior parte do catálogo produzem empate universal.
+
+O histórico do próprio pipeline corrobora esse argumento em vez de ser o
+alvo dele. O Montador já teve um pré-filtro determinístico que pontuava
+candidatas por soma ponderada de campos categóricos, antes de qualquer
+leitura de marca — removido no commit `f0fcd72d`. O comentário deixado no
+código explica o motivo: *"ele decidia quem o LLM podia ver a partir de
+três campos categóricos, antes de qualquer leitura de marca. Agora o
+Curador recebe o catálogo INTEIRO [...] e é ele quem corta."* Ou seja: o
+pipeline tentou soma ponderada, produziu o tipo de empate que o argumento
+acima prevê, e foi removido por causa disso — não apesar disso.
+
+> **Correção.** A versão anterior deste trecho citava
+> `component-deriver.ts:85-117` como "o estado atual do pipeline",
+> pontuando por `niche_affinity` (peso 3), `positioning` (peso 2) e `mood`
+> (peso 1). Isso está errado em duas camadas: o arquivo não existe mais —
+> removido no mesmo commit `f0fcd72d`, a mesma remoção que
+> [[_parametros-da-loja]] documenta via §1.1-BIS da spec — e mesmo a
+> versão do arquivo anterior à remoção já usava outros nomes de campo,
+> substituídos antes disso. A afirmação citava uma versão do pipeline duas
+> gerações atrás como se fosse a atual. O argumento de auditabilidade
+> continua de pé; o que mudou é que a soma ponderada é histórico do
+> pipeline, não seu estado presente.
 
 # Quando nenhuma variante sobrevive
 
@@ -96,8 +115,10 @@ serve a objeção pedida — o caso concreto abaixo).
 # Teste de validação
 
 O protocolo tem que reproduzir decisões já validadas na prática. Caso de
-referência: `intencoes/welcome/5.md` declara a objeção do canal ("por que
-comprar de vocês?") → `objecao: confianca-no-canal`. Na seção `body`,
+referência: `intencoes/welcome/5.md` não tem campo `objecao` no
+frontmatter — a objeção do canal ("por que comprar de vocês?") só existe
+em prosa nessa nota. Traduzida para o vocabulário do vault, ela mapeia
+para `objecao: confianca-no-canal`. Na seção `body`,
 [[body-5-comparacao-nos-vs-eles]] declara `objecao: [confianca-no-canal,
 preco-valor]` (overlap 1) e `body 4 — tutorial de uso` declara
 `objecao: [uso-aprendizado]` (overlap 0). O passo 7 escolhe a comparação —
