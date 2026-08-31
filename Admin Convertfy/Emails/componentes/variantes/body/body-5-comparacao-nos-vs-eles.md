@@ -27,8 +27,8 @@ peso: { altura_px: 1293, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
-serve_estruturas: []
+aprendizados: ["[[cada-alegacao-e-uma-promessa-operacional]]", "[[posicao-muda-o-efeito-do-dispositivo]]"]
+serve_estruturas: ["[[medicube-comparacao-categoria]]"]
 
 # --- proveniência ---
 fonte: inventario-2026-08-31

@@ -27,7 +27,7 @@ peso: { altura_px: 963, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[deadline-falso-queima-o-proximo]]"]
 serve_estruturas: []
 
 # --- proveniência ---

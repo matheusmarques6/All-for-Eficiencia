@@ -27,7 +27,7 @@ peso: { altura_px: 949, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[incentivo-precisa-existir-em-texto]]"]
 serve_estruturas: []
 
 # --- proveniência ---

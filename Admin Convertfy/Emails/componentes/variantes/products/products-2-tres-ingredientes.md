@@ -27,7 +27,7 @@ peso: { altura_px: 716, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[titulos-precisam-carregar-o-argumento]]"]
 serve_estruturas: []
 
 # --- proveniência ---

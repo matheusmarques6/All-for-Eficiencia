@@ -27,7 +27,7 @@ peso: { altura_px: 852, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[cada-alegacao-e-uma-promessa-operacional]]"]
 serve_estruturas: []
 
 # --- proveniência ---

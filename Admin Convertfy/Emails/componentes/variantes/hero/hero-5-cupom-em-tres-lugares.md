@@ -27,7 +27,7 @@ peso: { altura_px: 1256, classe: pesado, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[incentivo-precisa-existir-em-texto]]", "[[cupom-repetido-precisa-de-papel]]"]
 serve_estruturas: []
 
 # --- proveniência ---

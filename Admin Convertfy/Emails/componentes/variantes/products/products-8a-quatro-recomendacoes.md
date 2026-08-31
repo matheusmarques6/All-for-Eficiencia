@@ -27,7 +27,7 @@ peso: { altura_px: 2196, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
-aprendizados: []
+aprendizados: ["[[um-cta-dominante-em-email-curto]]", "[[titulos-precisam-carregar-o-argumento]]"]
 serve_estruturas: []
 
 # --- proveniência ---
