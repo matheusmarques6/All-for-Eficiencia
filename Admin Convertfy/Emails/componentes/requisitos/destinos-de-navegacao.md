@@ -22,7 +22,8 @@ várias posições.
 
 Da prosa do inventário, verbatim (`footer 1`): *"esta variação
 específica não serve para clientes com menos de 4 links úteis (grid
-fica capenga; usar variante de lista horizontal simples)."*
+fica capenga; usar variante de lista horizontal simples) ou e-mails
+transacionais ultra-minimalistas."*
 
 # Como o agente verifica
 

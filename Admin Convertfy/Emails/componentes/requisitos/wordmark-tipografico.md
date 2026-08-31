@@ -4,7 +4,7 @@ familia: ativo-visual
 valor: wordmark-tipografico
 verificavel_hoje: false
 status: aprovada
-procedencia: inventario
+procedencia: inferida
 ---
 
 # O que é
@@ -30,3 +30,11 @@ que funciona em caixa alta com tracking largo."*
 
 **Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
 responde a esta pergunta. Ver [[_parametros-da-loja]].
+
+# Procedência
+
+Este requisito foi inferido, não extraído de citação do inventário nem de
+doutrina do vault. O inventário só registra a condição positiva ("Quando
+a marca tem wordmark tipográfico...") — não há cláusula de "Quando NÃO
+usar" declarando a ausência de wordmark tipográfico como motivo de
+exclusão. Utilizável, mas ainda não validado por quem opera as lojas.

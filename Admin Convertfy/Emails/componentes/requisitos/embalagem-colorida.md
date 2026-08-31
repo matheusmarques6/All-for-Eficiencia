@@ -4,7 +4,7 @@ familia: ativo-visual
 valor: embalagem-colorida
 verificavel_hoje: false
 status: aprovada
-procedencia: inventario
+procedencia: inferida
 ---
 
 # O que é
@@ -29,3 +29,12 @@ estúdio em fundo claro e embalagem colorida."*
 
 **Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
 responde a esta pergunta. Ver [[_parametros-da-loja]].
+
+# Procedência
+
+Este requisito foi inferido, não extraído de citação do inventário nem de
+doutrina do vault. O inventário só registra a condição positiva ("Quando
+a marca tem fotografia de estúdio em fundo claro e embalagem
+colorida...") — não há cláusula de "Quando NÃO usar" declarando
+embalagem transparente ou neutra como motivo de exclusão. Utilizável,
+mas ainda não validado por quem opera as lojas.
