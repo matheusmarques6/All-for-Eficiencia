@@ -7,24 +7,24 @@ variant_id: 8858709f-ef36-45d8-98f4-7d8711628cba
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [welcome-1]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, sazonal-data-comemorativa, lancamento]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
+objecao: [preco-valor]
+registro: [volume-impulso, popular-informal]
+registro_vetado: [premium-editorial]
 paleta: []
-papel_na_peca: []
+papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cupom-ativo, foto-com-pessoas]
 
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
 peso: null
-convivencia: []
+convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---
 aprendizados: []

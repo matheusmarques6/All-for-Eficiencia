@@ -7,18 +7,18 @@ variant_id: 3e241d7f-5f84-4017-a553-880736a450dc
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [consideracao, reengajamento]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [qualidade-eficacia]
 registro: []
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [escuro-saturado, com-acento-definido]
+papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cor-de-acento-definida, desconto-percentual]
 
 # --- capacidade e composição ---
 product_slots: 0

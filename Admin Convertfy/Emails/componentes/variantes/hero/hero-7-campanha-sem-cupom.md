@@ -7,18 +7,18 @@ variant_id: c90713ff-9821-4d92-98c1-c22008fb9609
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [campanha-promocional, sazonal-data-comemorativa]
+momento_vetado: [welcome-1, welcome-meio, welcome-tardio, carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+registro_vetado: [premium-editorial]
+paleta: [claro]
+papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [desconto-automatico-sem-cupom, duas-ou-tres-cores-de-identidade, desconto-escalonado, foto-estudio-fundo-claro, terco-superior-liso]
 
 # --- capacidade e composição ---
 product_slots: 0

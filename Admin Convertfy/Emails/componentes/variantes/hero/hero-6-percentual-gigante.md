@@ -7,18 +7,18 @@ variant_id: 72c32ec8-bbd2-4d2c-a938-3c24b65848cd
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [welcome-1]
+momento_vetado: [carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, sazonal-data-comemorativa, lancamento]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: []
-registro_vetado: []
-paleta: []
-papel_na_peca: []
+registro_vetado: [premium-editorial]
+paleta: [monocromatico]
+papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [wordmark-tipografico, foto-monocromatica, cupom-ativo]
 
 # --- capacidade e composição ---
 product_slots: 0
