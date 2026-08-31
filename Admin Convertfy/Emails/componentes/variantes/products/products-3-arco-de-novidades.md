@@ -23,7 +23,7 @@ exige: [foto-de-campanha-propria]
 # --- capacidade e composição ---
 product_slots: 1
 itens: { min: 4, max: 4 }
-peso: null
+peso: { altura_px: 1359, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

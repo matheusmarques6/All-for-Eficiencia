@@ -23,7 +23,7 @@ exige: [cupom-ativo]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: null
+peso: { altura_px: 562, classe: leve, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

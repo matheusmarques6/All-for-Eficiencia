@@ -4,7 +4,7 @@ familia: catalogo
 valor: catalogo-de-variantes
 verificavel_hoje: false
 status: aprovada
-procedencia: inferida
+procedencia: inventario
 ---
 
 # O que é
@@ -21,20 +21,11 @@ linha. Sem catálogo de variantes, a única forma de cumprir a regra seria
 repetir o mesmo item, o que a própria orientação de copy da variante
 proíbe.
 
-Da prosa do inventário (`review 6`, orientação de copy — não é uma
-citação de "Quando NÃO usar"): *"Um produto por depoimento, todos
-diferentes. Escolher reviews que citem variantes distintas do
-catálogo."* Não há uma frase do inventário que declare a ausência de
-variantes como motivo de exclusão; a eliminação é inferida da mecânica:
-sem variantes reais, a regra "todos diferentes" não tem como se cumprir.
+Da prosa do inventário, verbatim (`review 6`, texto de "Quando NÃO
+usar"): *"Menos de três depoimentos com produtos distintos. Repetir o
+mesmo produto nas três linhas anula o mecanismo."*
 
 # Como o agente verifica
 
 **Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
 responde a esta pergunta. Ver [[_parametros-da-loja]].
-
-# Procedência
-
-Este requisito foi inferido, não extraído de citação do inventário nem de
-doutrina do vault. Utilizável, mas ainda não validado por quem opera as
-lojas.

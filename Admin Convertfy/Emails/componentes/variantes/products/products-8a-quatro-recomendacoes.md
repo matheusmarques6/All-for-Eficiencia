@@ -23,7 +23,7 @@ exige: [fragmentos-de-contorno]
 # --- capacidade e composição ---
 product_slots: 4
 itens: { min: 4, max: 4 }
-peso: null
+peso: { altura_px: 2196, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

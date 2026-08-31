@@ -23,7 +23,7 @@ exige: [foto-de-uso-real, reviews-curtos]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 1992, classe: pesado, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---

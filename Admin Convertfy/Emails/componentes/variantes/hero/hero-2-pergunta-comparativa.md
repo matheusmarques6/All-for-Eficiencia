@@ -23,7 +23,7 @@ exige: [cor-de-acento-definida, desconto-percentual, macro-de-produto]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: null
+peso: { altura_px: 362, classe: leve, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

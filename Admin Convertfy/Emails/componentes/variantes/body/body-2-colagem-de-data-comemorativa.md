@@ -23,7 +23,7 @@ exige: [foto-com-pessoas, motivo-sazonal]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 2, max: 2 }
-peso: null
+peso: { altura_px: 1665, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

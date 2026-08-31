@@ -23,7 +23,7 @@ exige: []  # offer-1 nao exige cupom; a prosa so descreve a estrutura como incom
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: null
+peso: { altura_px: 400, classe: leve, fonte: medido }
 convivencia: [exige-hero-ou-contexto-acima]
 
 # --- fios para o resto do vault ---

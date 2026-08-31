@@ -23,7 +23,7 @@ exige: [acervo-por-angulo, colecao-ou-kit]
 # --- capacidade e composição ---
 product_slots: 2
 itens: { min: 2, max: 2 }
-peso: null
+peso: { altura_px: 3298, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

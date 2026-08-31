@@ -23,7 +23,7 @@ exige: []  # "Quando NÃO usar" veta tipo de campanha, tipo de produto e limite 
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: null, max: 6 }
-peso: null
+peso: { altura_px: 2478, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

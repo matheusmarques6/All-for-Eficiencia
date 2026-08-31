@@ -23,7 +23,7 @@ exige: [catalogo-de-variantes, packshot-vertical, tres-reviews-distintos]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 2263, classe: peca-inteira, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 
 # --- fios para o resto do vault ---

@@ -23,7 +23,7 @@ exige: []  # requisito de central de preferencias removido (fix lote B item B) -
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 755, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

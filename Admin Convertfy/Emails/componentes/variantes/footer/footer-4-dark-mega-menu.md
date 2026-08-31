@@ -23,7 +23,7 @@ exige: []   # sem ativo específico; a quantidade de destinos de navegação é 
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 6, max: 7 }
-peso: null
+peso: { altura_px: 1129, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

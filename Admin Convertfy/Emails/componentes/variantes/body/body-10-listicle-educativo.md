@@ -23,7 +23,7 @@ exige: []  # veta tipo de campanha, marca sem material educativo aprovado (sem v
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 1355, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

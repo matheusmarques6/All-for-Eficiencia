@@ -23,7 +23,7 @@ exige: [prazo-real]
 # --- capacidade e composição ---
 product_slots: 1
 itens: { min: 1, max: 1 }
-peso: null
+peso: { altura_px: 963, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

@@ -23,7 +23,7 @@ exige: [selo-compra-verificada, ativo-composto-faixa-inteira, cupom-ativo, revie
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 2139, classe: peca-inteira, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

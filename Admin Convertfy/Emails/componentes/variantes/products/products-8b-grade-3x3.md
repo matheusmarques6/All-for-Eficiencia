@@ -23,7 +23,7 @@ exige: []  # products-8b nao declara nenhum ativo eliminatorio na prosa; a restr
 # --- capacidade e composição ---
 product_slots: 9
 itens: { min: 6, max: 9 }
-peso: null
+peso: { altura_px: 3071, classe: peca-inteira, fonte: medido }
 convivencia: [exige-hero-ou-contexto-acima]
 
 # --- fios para o resto do vault ---

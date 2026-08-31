@@ -23,7 +23,7 @@ exige: [duas-ofertas-simultaneas, motivo-sazonal, prazo-real, foto-de-cena-ambie
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: null
+peso: { altura_px: 868, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

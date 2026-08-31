@@ -23,7 +23,7 @@ exige: [cupom-ativo, bloco-dinamico-de-carrinho]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: null
+peso: { altura_px: 852, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

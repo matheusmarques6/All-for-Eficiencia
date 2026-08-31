@@ -23,7 +23,7 @@ exige: [ugc-autorizado]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: null
+peso: { altura_px: 2500, classe: peca-inteira, fonte: declarado }
 convivencia: [peca-inteira-nao-e-bloco]
 
 # --- fios para o resto do vault ---

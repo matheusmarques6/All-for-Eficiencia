@@ -23,7 +23,7 @@ exige: [depoimento-com-credencial, foto-do-depoente]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 2, max: 2 }
-peso: null
+peso: { altura_px: 1009, classe: medio, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 
 # --- fios para o resto do vault ---

@@ -23,7 +23,7 @@ exige: [ornamento-grafico-de-identidade]
 # --- capacidade e composição ---
 product_slots: 2
 itens: { min: 2, max: 2 }
-peso: null
+peso: { altura_px: 974, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
