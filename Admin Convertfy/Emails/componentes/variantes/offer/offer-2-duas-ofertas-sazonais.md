@@ -7,8 +7,8 @@ variant_id: 304bf7ce-6a23-4c68-b3a5-c37f551aaa5f
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [sazonal-data-comemorativa]
+momento_vetado: [nutricao-de-conteudo]
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: []
@@ -18,7 +18,7 @@ paleta: []
 papel_na_peca: []
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [duas-ofertas-simultaneas, motivo-sazonal, prazo-real, foto-de-cena-ambiente]
 
 # --- capacidade e composição ---
 product_slots: 0

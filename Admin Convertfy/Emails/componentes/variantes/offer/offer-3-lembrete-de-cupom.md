@@ -7,7 +7,7 @@ variant_id: da0b6e11-c681-48af-ae88-316429e25c05
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [browse-abandonment, carrinho-abandonado]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
@@ -15,10 +15,10 @@ objecao: []
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cupom-ativo, packshot-recortado]
 
 # --- capacidade e composição ---
 product_slots: 0

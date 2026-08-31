@@ -7,18 +7,18 @@ variant_id: 5a34dbaf-6710-4282-8b7b-3c03921bd6fc
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [welcome-meio]
+momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
+objecao: [preco-valor]
+registro: [premium-editorial]
 registro_vetado: []
 paleta: []
 papel_na_peca: []
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cupom-ativo, tres-diferenciais-concretos]
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -7,18 +7,18 @@ variant_id: 1e45ed32-01c4-487c-bb60-f986623a3270
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [carrinho-abandonado, checkout-abandonado]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: []
-registro: []
+registro: [bold-alto-contraste]
 registro_vetado: []
-paleta: []
-papel_na_peca: []
+paleta: [preto-e-branco]
+papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cupom-ativo, bloco-dinamico-de-carrinho]
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -7,7 +7,7 @@ variant_id: 3cee424b-5278-4503-9fa7-2afca3b5d13f
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
+momento: [campanha-promocional]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
@@ -15,16 +15,16 @@ objecao: []
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [fecha, ponte]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: []  # offer-1 nao exige cupom; a prosa so descreve a estrutura como incompativel com cupom em destaque ("a estrutura nao tem slot de cupom") -- e veto de uso com cupom, nao requisito de cupom
 
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
 peso: null
-convivencia: []
+convivencia: [exige-hero-ou-contexto-acima]
 
 # --- fios para o resto do vault ---
 aprendizados: []

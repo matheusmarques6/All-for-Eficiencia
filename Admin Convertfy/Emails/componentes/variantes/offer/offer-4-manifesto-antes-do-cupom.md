@@ -7,18 +7,18 @@ variant_id: 69ede46f-1534-431c-bdab-2d7be60ce236
 ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
-momento: []
-momento_vetado: []
+momento: [welcome-1]
+momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
-registro: []
-registro_vetado: []
+objecao: [pertencimento]
+registro: [premium-editorial]
+registro_vetado: [popular-informal]
 paleta: []
-papel_na_peca: []
+papel_na_peca: [peca-inteira, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []
+exige: [cupom-ativo, manifesto-de-marca-escrito]
 
 # --- capacidade e composição ---
 product_slots: 0
