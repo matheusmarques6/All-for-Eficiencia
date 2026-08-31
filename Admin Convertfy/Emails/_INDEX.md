@@ -53,6 +53,12 @@ Zero candidata sobrevivendo não é erro: declare e registre em
   a nenhum" — ver passo 5 do protocolo.
 - `_catalogo.md` é gerado: rodar `python .tools/gera_catalogo.py` após
   qualquer mudança de frontmatter de variante, nunca editar à mão.
+- `aprendizados` e `serve_estruturas` no frontmatter de variante são fios
+  **comprovados**, preenchidos só quando a relação foi julgada (hoje 11 e
+  1 de 44). Vazio significa "ainda não mapeado", não "não existe" — a
+  camada de doutrina (intenções, estruturas, aprendizados) não referencia
+  variantes; o fio canônico corre na direção intenção → estrutura → seção
+  → variante, via protocolo.
 - Cobertura atual de flows: só `welcome` tem intenções, estruturas e
   aprendizados. Os demais momentos existem como eixo, sem camada de
   intenção.
