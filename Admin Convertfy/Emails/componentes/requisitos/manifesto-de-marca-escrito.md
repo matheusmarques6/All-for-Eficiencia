@@ -27,5 +27,11 @@ preenchimento e a peça fica vazia."*
 
 # Como o agente verifica
 
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+**Não verifica automaticamente hoje**, mas o campo existe:
+`client_stores.brand_thesis` e `brand_about` (texto livre,
+`20260516000000_pesquisa_diagnostico.sql:7-8`) guardam a tese/sobre da
+marca produzidas pela Pesquisa & Diagnóstico — presença de texto não
+vazio já responde "a marca tem discurso institucional escrito". O que
+falta não é o dado, é o Curador cruzar `exige` contra ele: hoje `exige`
+nem entra no prompt do Curador (ver
+[[o-que-o-curador-ainda-nao-tem]]). Ver [[_parametros-da-loja]].

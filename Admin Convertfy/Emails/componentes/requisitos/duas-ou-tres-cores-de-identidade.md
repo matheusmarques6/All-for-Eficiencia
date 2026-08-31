@@ -24,5 +24,10 @@ barras ficam sem função e viram ruído."*
 
 # Como o agente verifica
 
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+**Não verifica automaticamente hoje**, mas o campo existe:
+`client_stores.cores` (jsonb `[{name,hex,use}]`,
+`20260520_client_stores_marca_fields.sql:13`) — contar as entradas do
+array responde diretamente se a marca tem duas, três ou mais cores
+definidas. O que falta não é o dado, é o Curador cruzar `exige` contra
+ele: hoje `exige` nem entra no prompt do Curador (ver
+[[o-que-o-curador-ainda-nao-tem]]). Ver [[_parametros-da-loja]].

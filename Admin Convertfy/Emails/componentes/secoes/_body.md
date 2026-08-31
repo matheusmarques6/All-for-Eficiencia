@@ -34,9 +34,10 @@ Entre as 3 variantes ativas e julgadas, `momento` e `objeção` já separam:
 | [[body-3-pitch-de-gift-card]] | gift-card, sazonal-data-comemorativa | — | gift card digital | sim |
 | [[body-4-tutorial-de-uso]] | pós-compra, reengajamento | uso-aprendizado | — | sim |
 
-Duas variantes julgadas ficam de fora do ranking por estarem inativas —
-registradas aqui porque descrevem o que a seção *deveria* cobrir se
-fossem reativadas:
+Duas variantes julgadas ficam de fora já no passo 3 do
+[[_protocolo-de-selecao]] (lista restrita a `ativa: true`) por estarem
+inativas — registradas aqui porque descrevem o que a seção *deveria*
+cobrir se fossem reativadas:
 
 | Variante | Momento | Objeção | Exige | Ativa |
 |---|---|---|---|---|

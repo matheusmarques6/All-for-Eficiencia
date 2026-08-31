@@ -22,7 +22,8 @@ registrada: [[body-2-colagem-de-data-comemorativa]],
 Uma delas já traz uma pista gravada no próprio frontmatter: `body-2` tem o
 comentário `# "argumento é a cena, não o preço nem a especificação" --
 nenhum valor do vocabulario de objecao descreve gatilho emocional/afeto de
-presente`. As outras sete não têm anotação nenhuma explicando o vazio.
+presente; ver relatorio`. As outras sete não têm anotação nenhuma
+explicando o vazio.
 
 # Por que importa
 

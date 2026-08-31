@@ -28,4 +28,11 @@ de valores produzidos, usar a variante só-pitch"* (quando não usar).
 # Como o agente verifica
 
 **Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+responde a esta pergunta. Existe um campo próximo — `brand_pillars`
+(jsonb, 3 tiles `{label,text}`, `20260516000000_pesquisa_diagnostico.sql:9`)
+— mas não é equivalente: são pilares de mensagem/posicionamento livres
+produzidos pela Pesquisa & Diagnóstico, sem garantia de serem valores
+institucionais nomeáveis prontos para virar selo (o pedido aqui é
+especificamente "sustentável", "cruelty-free", "feito à mão" — categoria
+de afirmação, não qualquer pilar de marca). Tratado como não-resposta.
+Ver [[_parametros-da-loja]].

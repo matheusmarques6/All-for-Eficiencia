@@ -36,7 +36,9 @@ não decorativo:
 - *"Use orientacao_copy como sinal de viabilidade: bloco que exige dado que
   a loja não tem (campo de cupom sem oferta no contexto) fica fora."*
 - *"Produtos: cruze product_slots com `<top_products>`. NUNCA indique
-  variante que exige mais produtos do que a loja tem cadastrado."*
+  variante que exige mais produtos do que a loja tem cadastrado. Produto
+  sem LINK não sustenta slot que precisa levar a uma página de
+  produto."*
 
 O prompt também recebe `<perfil_marca>`, `<objecoes>`, `<vocabulario>`,
 `<intencao>`, `<decisao_do_estruturador>`, `<memoria>` e `<top_products>` —
@@ -44,7 +46,8 @@ o pré-filtro determinístico por `niche_affinity`/`positioning`/`mood` que a
 nota anterior descrevia saiu no mesmo commit (comentário em
 `component-assembler.service.ts:95-98`: *"ele decidia quem o LLM podia ver
 a partir de três campos categóricos, antes de qualquer leitura de marca.
-Agora o Curador recebe o catálogo INTEIRO [...] e é ele quem corta"*).
+Agora o Curador recebe o catálogo INTEIRO — no system prompt, para ser
+cacheável — e é ele quem corta"*).
 
 O que o Curador **não** tem, verificado contra o mesmo trecho do código:
 

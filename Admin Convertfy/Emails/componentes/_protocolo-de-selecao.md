@@ -18,19 +18,27 @@ ordem é a regra: **eliminar antes de rankear, sempre**.
    Quais seções, em que ordem, com que papel. Também externo ao
    frontmatter da variante; quando existe, resolve o passo 9 antes mesmo de
    chegar nele.
-3. **Por seção pedida, partir da lista** em `secoes/_<secao>.md`. Consulta
-   o campo `secao` de cada variante.
+3. **Por seção pedida, partir da lista** em `secoes/_<secao>.md`, restrita
+   a `ativa: true`. Consulta os campos `secao` e `ativa` de cada variante —
+   inativa não é candidata, cai fora antes mesmo do passo 4.
 4. **Eliminar por `exige:`** contra o perfil de ativos da loja. Consulta o
    campo `exige`. Sem o ativo, a variante não é pior — é impossível.
-5. **Eliminar por veto** — consulta `momento_vetado` e `registro_vetado`,
-   o "Quando NÃO usar" tornado legível por máquina.
+5. **Eliminar por `momento`** — dois mecanismos. O veto: consulta
+   `momento_vetado` e `registro_vetado`, o "Quando NÃO usar" tornado
+   legível por máquina. A declaração positiva: se `momento` da variante é
+   uma lista **não vazia** que não inclui o momento do e-mail, elimina.
+   Lista vazia (`momento: []`) **não elimina** — significa que a variante
+   não discrimina por momento, não que ela não serve a nenhum (é o caso
+   dos 4 footers e das 4 body sem-julgamento — ver o aviso na seção do
+   ranking abaixo).
 6. **Eliminar por capacidade** — consulta `product_slots` e `itens` contra
    o catálogo real da loja.
 7. **Rankear por ordenação lexicográfica com degradação** — consulta
    `objecao`, `registro`, `paleta`, `papel_na_peca`, nesta ordem. Ver
    "O ranking do passo 7" abaixo.
 8. **Conferir `convivencia:`** e o orçamento de `peso` contra as variantes
-   já escolhidas para as outras seções da mesma peça.
+   já escolhidas para as outras seções da mesma peça. Ver "O orçamento de
+   `peso`" abaixo.
 9. **Desempatar** pela chave de decisão em `secoes/_<secao>.md` — a tabela
    que cada nota de seção mantém para exatamente este caso.
 
@@ -38,9 +46,10 @@ ordem é a regra: **eliminar antes de rankear, sempre**.
 
 Ordem dos eixos: **`objecao` → `registro` → `paleta` → `papel_na_peca`.**
 
-`momento` não entra nesta lista: já foi consumido como filtro nos passos
-4-6. Quem chega ao passo 7 já cabe no momento pedido, e rankear por um
-critério que já foi usado para eliminar não separa mais nada.
+`momento` não entra nesta lista: já foi consumido como filtro no passo 5
+(veto e declaração positiva). Quem chega ao passo 7 já cabe no momento
+pedido, e rankear por um critério que já foi usado para eliminar não
+separa mais nada.
 
 **Por que `objecao` primeiro.** É o eixo em que o vault já pensa.
 `intencoes/welcome/_flow.md` declara que o flow é uma varredura de
@@ -53,24 +62,36 @@ nisso'". O "quando NÃO usar" do `review 5` já desempata por objeção
 explicitamente: "Objeção técnica ou de segurança — use a variante de
 cards com credencial."
 
-`registro` vem depois porque é forte como veto e fraco como ranking — três
-das nove heroes servem "premium", então sozinho não separa. `paleta` é
-cosmético: duas variantes com a mesma objeção e paletas diferentes estão
-as duas certas, e o design system diz como adaptar a cor. `nicho` não
-entra como eixo próprio: é proxy de objeção, não a coisa em si —
+`registro` vem depois porque é forte como veto e fraco como ranking —
+três das nove heroes servem "premium", então sozinho não separa. `paleta`
+é cosmético: duas variantes com a mesma objeção e paletas diferentes
+estão as duas certas, e o design system diz como adaptar a cor. `nicho`
+não entra como eixo próprio: é proxy de objeção, não a coisa em si —
 "skincare" não diz se o e-mail ataca eficácia ou preço. É o que o código
-tenta hoje, com `niche_affinity` peso 3 sobre um campo vazio na quase
-totalidade das variantes.
+já tentou — pontuar `niche_affinity`/`positioning`/`mood` num pré-filtro
+determinístico, removido junto com o resto do pré-filtro (ver "Correção"
+abaixo) — não o que ele tenta hoje: `niche_affinity` não existe em
+nenhum código de score atual, só em testes e em `email-generation.ts`.
 
 **A regra de degradação.** Objeção não discrimina em toda seção. Nos
 quatro footers o que separa é número de destinos de navegação e paleta —
 nenhum ataca objeção alguma (os quatro declaram `objecao: []`); o mesmo
 vale para `header`. Portanto:
 
-> Se **todos** os candidatos restantes declaram a mesma `objecao` ou
-> nenhuma, o eixo é neutro naquela seção: desce para `registro`, e assim
-> por diante até `papel_na_peca`. Se todos os eixos forem neutros, o
-> desempate é o passo 9.
+> Se nenhum candidato restante declara a `objecao`-alvo do e-mail — seja
+> porque **todos** declaram a mesma `objecao` ou nenhuma, seja porque
+> **cada um declara uma `objecao` diferente entre si**, sem que nenhuma
+> bata com o alvo — o eixo é neutro naquela seção: todos empatam em
+> overlap zero e o ranking desce para `registro`, e assim por diante até
+> `papel_na_peca`. Se todos os eixos forem neutros, o desempate é o
+> passo 9.
+
+O segundo caso é o do hero no Caso A de [[_casos-de-teste]]: hero-3
+declara `preco-valor`, hero-8/hero-10 declaram `amplitude-de-catalogo` —
+três candidatos, três leituras de `objecao`, nenhuma delas
+`qualidade-eficacia` (o alvo do e-mail). Nenhum dos três repete a
+`objecao` de outro, mas o eixo ainda é neutro: overlap zero nos três é o
+que importa, não se as objeções declaradas coincidem entre si.
 
 # Por que lexicográfico e não soma ponderada
 
@@ -86,7 +107,8 @@ candidatas por soma ponderada de campos categóricos, antes de qualquer
 leitura de marca — removido no commit `f0fcd72d`. O comentário deixado no
 código explica o motivo: *"ele decidia quem o LLM podia ver a partir de
 três campos categóricos, antes de qualquer leitura de marca. Agora o
-Curador recebe o catálogo INTEIRO [...] e é ele quem corta."* Ou seja: o
+Curador recebe o catálogo INTEIRO — no system prompt, para ser cacheável
+— e é ele quem corta."* Ou seja: o
 pipeline tentou soma ponderada, produziu o tipo de empate que o argumento
 acima prevê, e foi removido por causa disso — não apesar disso.
 
@@ -101,6 +123,24 @@ acima prevê, e foi removido por causa disso — não apesar disso.
 > gerações atrás como se fosse a atual. O argumento de auditabilidade
 > continua de pé; o que mudou é que a soma ponderada é histórico do
 > pipeline, não seu estado presente.
+
+# O orçamento de `peso`
+
+Os limiares de `classe` de `peso` não estão declarados em nenhuma outra
+nota deste vault — vêm da spec, fora dele
+(`docs/superpowers/specs/2026-08-31-vault-componentes-email-design.md:227`):
+`leve` <600px · `medio` 600-1200px · `pesado` 1200-2000px ·
+`peca-inteira` >2000px (`altura_px`, `fonte: declarado` quando a prosa da
+variante afirma, `fonte: medido` quando somado das alturas e paddings
+explícitos no HTML — nunca estimado no olho).
+
+O que a spec **não** declara é um número de orçamento por peça — um teto
+de `altura_px` somada para o e-mail inteiro, ou uma contagem máxima de
+blocos `pesado`/`peca-inteira` por peça. Isso não existe, aqui nem na
+spec. O passo 8 é, nessa parte, **qualitativo**: soma as classes das
+seções já escolhidas e evita repetir `pesado`/`peca-inteira` em sequência
+sem uma seção `leve`/`medio` entre elas — não há limiar numérico para
+aplicar automaticamente.
 
 # Quando nenhuma variante sobrevive
 
@@ -121,16 +161,23 @@ em prosa nessa nota. Traduzida para o vocabulário do vault, ela mapeia
 para `objecao: confianca-no-canal`. Na seção `body`,
 [[body-5-comparacao-nos-vs-eles]] declara `objecao: [confianca-no-canal,
 preco-valor]` (overlap 1) e `body 4 — tutorial de uso` declara
-`objecao: [uso-aprendizado]` (overlap 0). O passo 7 escolhe a comparação —
-que é exatamente o que [[medicube-comparacao-categoria]] faz no toque #5
-real.
+`objecao: [uso-aprendizado]` (overlap 0). Por ranking puro de `objecao`,
+body-5 venceria.
 
-O mesmo caso entrega o primeiro achado do protocolo: **[[body-5-comparacao-nos-vs-eles]]
-está `ativa: false`.** Não há hoje variante ativa que sirva a objeção do
-welcome #5. Sem o eixo `objecao` isso é invisível — o pipeline simplesmente
-não tem como saber que faltou; com o eixo, os passos 4-6 zeram o universo
-de candidatas e o caso vira lacuna declarada, não silêncio. Registrado em
-[[welcome-5-sem-variante-ativa]].
+**Mas o mesmo caso entrega o primeiro achado do protocolo:
+[[body-5-comparacao-nos-vs-eles]] está `ativa: false`.** O passo 3 já a
+elimina — restrito a `ativa: true` — antes mesmo de o ranking do passo 7
+entrar em jogo. Sem o eixo `objecao` essa perda é invisível: o pipeline
+simplesmente não tem como saber que faltou candidata para essa objeção.
+Com o eixo, o passo 3 já zera a única variante do catálogo que serve
+`confianca-no-canal`, e o que sobra — `body-4` (overlap 0) e as quatro
+`body` sem-julgamento (`objecao` vazia) — não substitui: pelo mesmo
+argumento da regra de degradação acima, overlap zero não é "segunda
+opção", é lacuna. **Não há hoje variante ativa que sirva a objeção do
+welcome #5; o resultado é zero variantes elegíveis, não a escolha de
+body-5.** O caso vira lacuna declarada, não silêncio — registrado em
+[[welcome-5-sem-variante-ativa]] e reproduzido passo a passo no Caso B de
+[[_casos-de-teste]].
 
 ---
 

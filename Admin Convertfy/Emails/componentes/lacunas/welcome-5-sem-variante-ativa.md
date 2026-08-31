@@ -22,7 +22,8 @@ esta tem zero.
 
 # Por que importa
 
-`ativa: false` remove a variante do universo de candidatas antes mesmo do
+`ativa: false` remove a variante do universo de candidatas no passo 3 do
+[[_protocolo-de-selecao]] (lista restrita a `ativa: true`), antes mesmo do
 protocolo de seleção rankear — não é uma opção fraca que perde no ranking,
 é uma opção que nunca entra na lista. Isso zera a cobertura da objeção
 inteira, não só de uma peça. `body-5` é também a única variante do

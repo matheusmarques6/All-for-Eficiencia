@@ -25,5 +25,11 @@ definida — o destaque da headline fica sem onde apoiar."*
 
 # Como o agente verifica
 
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+**Não verifica automaticamente hoje**, mas o campo existe:
+`client_stores.cores` (jsonb `[{name,hex,use}]`,
+`20260520_client_stores_marca_fields.sql:13`) registra as cores da
+identidade com um rótulo de uso (`use`) por entrada — dá para checar se
+alguma entrada tem `use` de acento fora de preto/branco/cinza. O que
+falta não é o dado, é o Curador cruzar `exige` contra ele: hoje `exige`
+nem entra no prompt do Curador (ver
+[[o-que-o-curador-ainda-nao-tem]]). Ver [[_parametros-da-loja]].

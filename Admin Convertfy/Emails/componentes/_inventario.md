@@ -43,7 +43,7 @@ silenciosamente no template global. Ver [[header-sem-variante]] e
 
 # Julgamento e schema
 
-- **Prosa:** 40 de 44 variantes têm ao menos um dos sete campos de
+- **Prosa:** 40 de 44 variantes têm ao menos um dos seis campos de
   julgamento (descrição, quando usar, quando NÃO usar, orientação de copy,
   design system, direção fotográfica) preenchido; 4 não têm nenhum —
   `body 6`, `body 7`, `body 8`, `body 9`, todas ativas. Ver

@@ -13,11 +13,14 @@ status: aprovada
 
 # Chave de decisão
 
-`momento` já separa as seis sem ambiguidade — não há duas variantes no
-mesmo momento. `exige` (presença de cupom ativo) e `objeção` refinam a
-leitura dentro de momentos próximos (welcome-1 vs. welcome-meio) e
-explicam por que duas variantes que parecem "a mesma coisa" (offer
-sazonal vs. offer de carrinho) não competem entre si.
+`momento` separa a maior parte das seis, mas não todas sem ambiguidade:
+offer-3 (`browse-abandonment, carrinho-abandonado`) e offer-6
+(`carrinho-abandonado, checkout-abandonado`) declaram ambas
+`carrinho-abandonado` — não é um caso de momentos disjuntos. `exige`
+(presença de cupom ativo) e `objeção` refinam a leitura dentro de
+momentos próximos (welcome-1 vs. welcome-meio) e, no caso de offer-3 e
+offer-6, é `peso`/`papel_na_peca` — não `momento` — que os separa (ver
+"Como ler" abaixo).
 
 | Variante | Momento | Exige cupom | Objeção | Registro |
 |---|---|---|---|---|

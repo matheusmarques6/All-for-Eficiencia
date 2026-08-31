@@ -12,7 +12,8 @@ contrato de um perfil de ativos da loja que ainda não existe.
 # Parte 1 — o que o agente tem hoje
 
 Mapeamento campo a campo do que o Montador recebe, verificado em
-`generate.service.ts:90-169`:
+`generate.service.ts:278-300` (montagem dos campos abaixo a partir de
+`marca`/`store`) e `:49-52` (tipo `BriefingMarca`):
 
 | O que o agente tem | Origem | Eixo que alimenta |
 |---|---|---|
@@ -38,8 +39,13 @@ ao LLM que escolhe. **É falso** — registrado como erro em
 `docs/superpowers/specs/2026-08-31-vault-componentes-email-design.md §1.1-BIS`.
 Verificado no HEAD atual de `admin-convertfy`,
 `src/lib/agents/architect/component-assembler.service.ts`: o pré-filtro
-determinístico por `niche_affinity`/`positioning`/`mood` foi removido
-(commit `f0fcd72d`), e o catálogo enviado ao Curador (linhas 664-671)
+determinístico por `niche_affinity`/`positioning`/`mood` foi removido no
+commit `b16ceb3a feat(email-gen): matching do Curador por objectives/tones
+(substitui niche/positioning/mood)`, que o substituiu por um novo
+pré-filtro pontuando `objectives`/`tones`/`density`. Foi esse segundo
+pré-filtro — não o de `niche_affinity`/`positioning`/`mood` — que o commit
+`f0fcd72d` removeu por completo. E o catálogo enviado ao Curador
+(linhas 664-671)
 inclui `quando_usar` (`when_use`), `quando_nao_usar` (`when_not_use`),
 `product_slots`, `orientacao_copy` (`copy_guidance`) e `notas_implementacao`
 (`long_description`). O prompt trata `quando_nao_usar` como **veto**, não
@@ -99,14 +105,14 @@ julgamento implícito.
 | [[catalogo-de-variantes]] | O catálogo tem variantes reais do mesmo produto para citar separadamente, uma por linha? | nenhum campo de `client_stores` responde |
 | [[colecao-ou-kit]] | Os produtos mostrados na peça pertencem à mesma coleção ou kit? | nenhum campo de `client_stores` responde |
 | [[duas-acoes-de-suporte]] | Existem duas ações de suporte com pesos diferentes que a loja pode oferecer no mesmo e-mail? | nenhum campo de `client_stores` responde |
-| [[manifesto-de-marca-escrito]] | A marca tem um manifesto ou discurso institucional já escrito e aprovado? | nenhum campo de `client_stores` responde |
-| [[motivo-sazonal]] | Existe um motivo sazonal real ancorando a campanha? | nenhum campo de `client_stores` responde |
+| [[manifesto-de-marca-escrito]] | A marca tem um manifesto ou discurso institucional já escrito e aprovado? | **existe**: `client_stores.brand_thesis` / `brand_about` (texto livre, `20260516000000_pesquisa_diagnostico.sql:7-8`) |
+| [[motivo-sazonal]] | Existe um motivo sazonal real ancorando a campanha? | nenhum campo de `client_stores` responde — `sazonalidade text[]` (`20260520_client_stores_marca_fields.sql:40`) registra em que meses/datas a loja tem sazonalidade de negócio, não se HÁ um motivo real ancorando a campanha atual; checado e descartado nesta rodada |
 | [[produto-com-composicao-relevante]] | O produto tem composição, ingredientes ou materiais que valem a pena listar? | nenhum campo de `client_stores` responde |
 | [[produto-de-entrada-definido]] | A loja tem um produto de entrada claro para quem nunca comprou? | nenhum campo de `client_stores` responde |
 | [[quatro-criterios-objetivos]] | Existem ao menos quatro critérios objetivos de comparação de categoria em que a marca vence de forma defensável? | nenhum campo de `client_stores` responde |
-| [[tres-diferenciais-concretos]] | A marca tem três diferenciais concretos e nomeáveis, cobrindo eixos distintos? | nenhum campo de `client_stores` responde |
+| [[tres-diferenciais-concretos]] | A marca tem três diferenciais concretos e nomeáveis, cobrindo eixos distintos? | nenhum campo de `client_stores` responde — `diferencial text` (`20260520_client_stores_marca_fields.sql:8`) existe, mas é um único texto livre, não três diferenciais discretos por eixo; checado e descartado nesta rodada |
 | [[tres-provas-verificaveis]] | Existem três atributos objetivos e verificáveis do produto? | nenhum campo de `client_stores` responde |
-| [[valores-articulados]] | A marca tem valores institucionais já articulados, prontos para virar selo? | nenhum campo de `client_stores` responde |
+| [[valores-articulados]] | A marca tem valores institucionais já articulados, prontos para virar selo? | nenhum campo de `client_stores` responde — `brand_pillars jsonb` (`20260516000000_pesquisa_diagnostico.sql:9`, 3 tiles `{label,text}`) é próximo, não equivalente: são pilares de mensagem/posicionamento livres, sem garantia de serem valores institucionais nomeáveis como selo (ex.: "sustentável", "cruelty-free"); checado e descartado nesta rodada |
 
 ## Prova social (8)
 
@@ -128,9 +134,9 @@ julgamento implícito.
 | [[acervo-por-angulo]] | Existe acervo de fotos do mesmo produto em ângulos realmente diferentes? | nenhum campo de `client_stores` responde |
 | [[ativo-composto-faixa-inteira]] | Existe um ativo já montado como faixa inteira (composição horizontal única)? | nenhum campo de `client_stores` responde |
 | [[canto-livre-para-selo]] | A foto do produto tem um canto vazio onde um selo circular pode ser sobreposto? | nenhum campo de `client_stores` responde |
-| [[cor-de-acento-definida]] | A marca tem uma cor de acento definida na identidade, além de preto/branco/cinza? | nenhum campo de `client_stores` responde |
+| [[cor-de-acento-definida]] | A marca tem uma cor de acento definida na identidade, além de preto/branco/cinza? | **existe**: `client_stores.cores` (jsonb `[{name,hex,use}]`, `20260520_client_stores_marca_fields.sql:13`) — checar se algum item tem `use` de acento fora de preto/branco/cinza |
 | [[corredores-livres-nas-laterais]] | A foto do produto tem espaço vazio nas laterais, sem elemento ocupando essa área? | nenhum campo de `client_stores` responde |
-| [[duas-ou-tres-cores-de-identidade]] | A marca tem pelo menos duas ou três cores definidas na identidade? | nenhum campo de `client_stores` responde |
+| [[duas-ou-tres-cores-de-identidade]] | A marca tem pelo menos duas ou três cores definidas na identidade? | **existe**: `client_stores.cores` (jsonb `[{name,hex,use}]`, `20260520_client_stores_marca_fields.sql:13`) — contar entradas do array |
 | [[embalagem-colorida]] | O produto tem embalagem colorida que funcione como elemento visual da peça? | nenhum campo de `client_stores` responde |
 | [[foto-com-pessoas]] | Existe foto de pessoa real usando ou perto do produto? | nenhum campo de `client_stores` responde |
 | [[foto-de-campanha-propria]] | Existe foto de campanha produzida pela própria marca, não banco de imagem? | nenhum campo de `client_stores` responde |
@@ -142,7 +148,7 @@ julgamento implícito.
 | [[ornamento-grafico-de-identidade]] | A marca tem um elemento gráfico ornamental próprio já incorporado à identidade? | nenhum campo de `client_stores` responde |
 | [[packshot-recortado]] | Existe imagem do produto já recortada, com fundo removido? | nenhum campo de `client_stores` responde |
 | [[packshot-vertical]] | Existe packshot do produto em orientação vertical (garrafa, tubo, frasco)? | nenhum campo de `client_stores` responde |
-| [[serif-ou-script-display]] | A marca tem uma fonte display serifada ou script definida na identidade? | nenhum campo de `client_stores` responde |
+| [[serif-ou-script-display]] | A marca tem uma fonte display serifada ou script definida na identidade? | parcial: `client_stores.fontes` (jsonb `{titulo,corpo}`, `20260520_client_stores_marca_fields.sql:14`) diz a família tipográfica de título, não se ela é serifada ou script — resposta parcial, não responde à pergunta inteira |
 | [[terco-superior-liso]] | A foto disponível tem uma faixa lisa e uniforme no terço superior? | nenhum campo de `client_stores` responde |
 | [[wordmark-tipografico]] | A marca tem um wordmark que funciona como texto puro, sem depender de logotipo em imagem? | nenhum campo de `client_stores` responde |
 

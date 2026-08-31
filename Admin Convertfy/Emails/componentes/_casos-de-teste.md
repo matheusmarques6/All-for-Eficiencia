@@ -61,16 +61,24 @@ transacional/sazonal/lançamento; hero-8/10: vetam carrinho/checkout/
 transacional). `registro_vetado`: hero-3 veta `luxo` — a loja não declara
 registro `luxo`, sem conflito. Nenhuma eliminação neste passo.
 
-**Nota de leitura do protocolo — achado 2 (ambiguidade genuína).** Os nove
-passos, lidos literalmente, só usam `momento` como **veto** (passo 5); não
-existe passo que elimine por `momento` **não** declarado. hero-8/hero-10
-declaram `momento: [welcome-meio, welcome-tardio, ...]` — não incluem
-`welcome-1` — mas como nada os veta explicitamente, sobrevivem ao passo 5
-por leitura literal. Isso é consistente com o próprio teste de validação
-do protocolo (seção "Teste de validação"), que deixa `body-4` sobreviver
-ao ranking do welcome #5 mesmo com `momento: [pos-compra, reengajamento]`
-— sem `welcome-5`. Assumi essa leitura literal (só veto elimina por
-momento) nos dois casos deste documento.
+**Nota de leitura do protocolo — achado 2, revisto nesta rodada de
+correção.** A versão original deste caso assumia, por leitura literal dos
+nove passos, que só o veto elimina por `momento` — e por essa leitura
+hero-8/hero-10 sobreviviam ao passo 5, só perdendo depois no desempate de
+`papel_na_peca` do passo 7 (ver abaixo). O [[_protocolo-de-selecao]] foi
+corrigido nesta mesma rodada (Crítico 6 do relatório da task) para incluir
+uma eliminação por `momento` positivo não declarado no passo 5: uma
+variante com `momento` não vazio que não inclui o alvo do e-mail agora
+cai ali, não sobrevive até o ranking. Sob a regra corrigida, hero-8/10
+(momento não vazio, sem `welcome-1`) já cairiam no passo 5 — o que muda a
+mecânica deste caso (elimina antes, não empata depois) sem mudar o
+vencedor (hero-3 já era o escolhido). **Não re-derivei o caso inteiro sob
+a regra nova** — outras variantes usadas neste documento (ex.:
+[[reviews-1-depoimento-com-credencial]], momento `[consideracao,
+welcome-meio, reengajamento]`, também sem `welcome-1`) teriam o mesmo
+tipo de conflito e re-derivar exigiria revisar todo o documento, fora do
+escopo desta rodada de correção. Registrado aqui como achado em aberto,
+não como algo resolvido.
 
 Passo 6 (capacidade) — `product_slots: 0` nos três, sem produto a encaixar
 no hero. Nenhuma eliminação.
@@ -92,12 +100,16 @@ Passo 7 (ranking, `objecao → registro → paleta → papel_na_peca`):
 
 **Escolha final, hero: [[hero-3-cupom-de-captacao]].** Eliminação
 decidida pelo passo 7 no eixo `papel_na_peca` — o único dos quatro eixos
-de ranking que discriminou, depois de três empates seguidos.
+de ranking que discriminou, depois de três empates seguidos. (Sob a regra
+de `momento` positivo corrigida nesta rodada, hero-8/10 cairiam antes,
+no passo 5 — o resultado não muda, mas o texto acima preserva a leitura
+original do caso; ver nota de leitura acima.)
 
 ## body (dois blocos — tese+incentivo e garantias em 3 ícones)
 
-Universo ativo (7 de 9 — body-5 e body-10 são `ativa: false`): body-2,
-body-3, body-4, body-6, body-7, body-8, body-9.
+Universo ativo (7 de 9 — body-5 e body-10 são `ativa: false`, eliminadas
+já no passo 3 do protocolo, restrito a `ativa: true`): body-2, body-3,
+body-4, body-6, body-7, body-8, body-9.
 
 Passo 4 (`exige:`):
 
@@ -108,30 +120,27 @@ Passo 4 (`exige:`):
 | [[body-4-tutorial-de-uso]] | `[]` | sobrevive (vazio, nada a exigir) |
 | body-6, body-7, body-8, body-9 | todos os eixos em branco (`status: sem-julgamento`) | sobrevivem por vacuidade — nenhum requisito para falhar |
 
-Passo 5/6 — sem veto nem estouro de capacidade nos sobreviventes.
+Passo 5 (momento) — body-4 declara `momento: [pos-compra, reengajamento]`,
+lista não vazia que não inclui `welcome-1`: **eliminada aqui**. body-6/7/8/9
+declaram `momento: []` — lista vazia, neutra, não elimina — sobrevivem.
+Nenhum veto adicional relevante.
 
-Passo 7 (ranking) — `objecao`: body-4 declara `uso-aprendizado` (overlap
-zero com `qualidade-eficacia`); body-6/7/8/9 não declaram `objecao`
-nenhuma (campo vazio). Zero contra zero → eixo neutro nos cinco.
-`registro`/`paleta`/`papel_na_peca`: body-4 declara `[]` nos três (única
-com julgamento completo, mas sem valor em nenhum eixo de ranking);
-body-6/7/8/9 idem. Todos os cinco eixos empatam vazios em todos os cinco
-candidatos.
+Passo 6 (capacidade) — sem estouro nos sobreviventes.
 
-**Achado 3 — zero elegíveis, também no Caso A.** Nenhum candidato
-sobrevivente do body tem QUALQUER eixo de ranking que bata com o alvo do
-e-mail. body-4 é a única variante *julgada* (`status: aprovada`) do grupo,
-mas sua `objecao` (`uso-aprendizado`) não é a do e-mail
-(`qualidade-eficacia`), e seu `momento` (`pos-compra`, `reengajamento`)
-não inclui `welcome-1`. Aplicando ao Caso A o mesmo padrão que o próprio
-protocolo usa no teste de validação do Caso B — "zero overlap de
-`objecao`" não é preenchido por proximidade, é lacuna — nenhum dos dois
-blocos de body pedidos pela estrutura (tese+incentivo; garantias em 3
-ícones) tem candidata real na biblioteca. As quatro variantes
-`sem-julgamento` (body-6/7/8/9) sobrevivem tecnicamente por não terem
-requisito para falhar, mas [[_body]] já registra que "nunca
-são escolhidas [...] enquanto houver candidata julgada" — e aqui não há
-candidata julgada que sirva. O caso cai no template global para os dois
+Passo 7 (ranking) — só restam body-6/7/8/9, todos com `objecao`,
+`registro`, `paleta` e `papel_na_peca` vazios (`status: sem-julgamento`).
+Todos os quatro eixos empatam vazios nos quatro candidatos.
+
+**Achado 3 — zero elegíveis, também no Caso A.** Depois do passo 5,
+`body-4` — a única variante *julgada* (`status: aprovada`) do grupo — já
+caiu por `momento`: sua `objecao` (`uso-aprendizado`) também não batia com
+a do e-mail (`qualidade-eficacia`), mas quem a elimina é o `momento`, não
+o ranking. Restam só as quatro `sem-julgamento` (body-6/7/8/9), empatadas
+em todos os eixos de ranking. [[_body]] já registra que elas "nunca são
+escolhidas [...] enquanto houver candidata julgada" — mas aqui não há
+candidata julgada sobrevivente nenhuma, e o passo 9 (desempate por
+`secoes/_body`) não tem como escolher entre quatro candidatas
+indistinguíveis em todo eixo. O caso cai no template global para os dois
 blocos de body; seria candidata a uma nota nova em `lacunas/` (não criada
 aqui — está fora do escopo desta task, que só cria `_casos-de-teste.md`).
 
@@ -154,16 +163,26 @@ Passo 4/5, nas três candidatas de `slots=4` (ou próximas) inspecionadas:
 |---|---|---|---|---|
 | [[products-7-dois-com-galeria-de-angulos]] | 2 | acervo-por-angulo · colecao-ou-kit | não | eliminada passo 4 (nenhum dos dois declarado) |
 | [[products-8a-quatro-recomendacoes]] | 4 | fragmentos-de-contorno | **sim** | eliminada passo 4 (requisito ausente) — e seria vetada no passo 5 de qualquer forma |
-| [[products-9-grade-de-tamanho]] | 4 | estoque-integrado · grade-de-tamanho-real | não veta `welcome-1` diretamente | eliminada passo 4 — `estoque-integrado` é negado explicitamente no caso |
+| [[products-9-grade-de-tamanho]] | 4 | estoque-integrado · grade-de-tamanho-real | **sim, explicitamente** | eliminada passo 4 — `estoque-integrado` é negado explicitamente no caso — e seria vetada no passo 5 de qualquer forma (`momento_vetado` inclui `welcome-1`) |
 
 As outras seis variantes de products não foram abertas individualmente
 nesta rodada (limite de orçamento da task) — mas
 [[_products]] já declara em "Onde a seção não cobre":
 *"nenhuma products para `welcome-1`, `welcome-meio`, `welcome-tardio`
 [...]"*. Combinado com as três eliminações confirmadas acima, o resultado
-é o mesmo padrão do body: **zero candidata products com evidência real de
-servir `welcome-1`** dentro do orçamento desta rodada. Registrado como
-achado, não como prova exaustiva das 9 variantes.
+observado é **zero candidata products com evidência real de servir
+`welcome-1`** dentro do orçamento desta rodada — mas a causa não é
+uniforme entre as três, e não é o mesmo padrão do body. `products-8a`
+falha por `exige:` e seria vetada de qualquer forma no passo 5.
+`products-9` falha por `exige:` e é vetada explicitamente no passo 5.
+`products-7` é diferente das outras duas: declara `objecao:
+[qualidade-eficacia]`, com overlap 1 contra o alvo do e-mail — não é um
+caso de falta de overlap, como no body — e cai mesmo assim, no passo 4,
+por `exige: [acervo-por-angulo, colecao-ou-kit]`, nenhum dos dois
+presente no perfil da loja. O veredito final (zero elegíveis) continua
+correto; a causa em `products-7` é `exige:`, não falta de objeção
+compatível. Registrado como achado, não como prova exaustiva das 9
+variantes.
 
 ## cta
 
@@ -183,7 +202,7 @@ Passo 4 (`exige:`), entre as três que declaram `objecao: qualidade-eficacia`:
 |---|---|---|
 | [[reviews-1-depoimento-com-credencial]] | depoimento-com-credencial · foto-do-depoente | **sobrevive** — os dois presentes (3 depoimentos com credencial e foto do depoente) |
 | [[reviews-3a-depoimento-longo-monoespacado]] | foto-de-uso-real · reviews-longos | eliminada — nenhum dos dois declarado no caso |
-| [[reviews-7-zigue-zague-com-cupom]] | selo-compra-verificada · cupom-ativo · reviews-curtos | eliminada — falta selo de compra verificada e reviews curtos (só cupom presente) |
+| [[reviews-7-zigue-zague-com-cupom]] | selo-compra-verificada · ativo-composto-faixa-inteira · cupom-ativo · reviews-curtos | eliminada — falta selo de compra verificada, ativo composto de faixa inteira e reviews curtos (só cupom presente) |
 
 Passo 5 — `momento_vetado` de reviews-1: carrinho-abandonado ·
 checkout-abandonado · transacional. Não veta `welcome-1`. Sobrevive.
@@ -234,22 +253,23 @@ Passo 4 (`exige:`) — nenhuma das candidatas com `objecao` real (body-4:
 `[]`) exige nada que a loja não tenha; body-2/body-3 seguem eliminadas
 pelos mesmos motivos do Caso A (sem motivo sazonal, sem gift card).
 
-Passo 7 (ranking por `objecao`) — o candidato que de fato serve
-`confianca-no-canal` no catálogo inteiro é
-[[body-5-comparacao-nos-vs-eles]] (`objecao: [confianca-no-canal,
-preco-valor]`, overlap 1 contra o alvo). [[body-4-tutorial-de-uso]]
-declara `objecao: [uso-aprendizado]`, overlap 0. Por ranking puro, body-5
-venceria.
+Por `objecao`, o candidato que de fato serve `confianca-no-canal` no
+catálogo inteiro é [[body-5-comparacao-nos-vs-eles]] (`objecao:
+[confianca-no-canal, preco-valor]`, overlap 1 contra o alvo). Mas
+**body-5 está `ativa: false`** — o passo 3 já a elimina, restrito a
+`ativa: true`, antes mesmo de chegar ao passo 4 ou ao ranking (a lista de
+[[_body]] já separa "9 variantes, 7 ativas").
 
-**Mas body-5 está `ativa: false`.** Uma variante inativa não é candidata
-— cai fora antes mesmo de chegar ao passo 7 (tratado aqui, junto com o
-resto do catálogo, como filtro de "não é candidata" que precede o passo 3
-efetivo: a lista de [[_body]] já separa "9 variantes, 7
-ativas"). Sem body-5, o único candidato com QUALQUER overlap de `objecao`
-com o alvo do e-mail desaparece. body-4 (overlap 0) e as quatro
-sem-julgamento (sem `objecao` declarada) não substituem — pelo mesmo
-argumento do achado 3 do Caso A, zero overlap não é "segunda opção", é
-lacuna.
+Passo 5 (momento) — [[body-4-tutorial-de-uso]] declara `momento:
+[pos-compra, reengajamento]`, lista não vazia que não inclui
+`welcome-tardio` (o momento deste toque): **eliminada aqui**. body-6/7/8/9
+declaram `momento: []` — neutro, não elimina — sobrevivem.
+
+Sem body-5 (eliminada no passo 3) e sem body-4 (eliminado no passo 5), o
+único overlap real de `objecao` com o alvo do e-mail desaparece antes do
+ranking. Restam só body-6/7/8/9 — sem-julgamento, sem `objecao` declarada
+— que pelo mesmo argumento do achado 3 do Caso A não substituem: overlap
+zero não é "segunda opção", é lacuna.
 
 **Escolha final, body: nenhuma. Zero variantes elegíveis.** Confirma o
 resultado esperado do brief e reproduz exatamente o "Teste de validação"
@@ -340,9 +360,14 @@ não ter lastro no inventário.
 
 ---
 
-Todas as checagens de aceitação passaram. Ver relatório da task para os
-achados de protocolo (ambiguidades e lacunas descobertas ao rodar os dois
-casos).
+As checagens acima cobrem os critérios de aceitação **1-4 e 8** da §11 —
+scripts, contagens e procedência inferida — e todas passaram. Os
+critérios **5, 6 e 7** não são checados nesta seção. O 6 é justamente
+onde vivem os achados de `ativa` e `momento` que motivaram a rodada de
+correção do [[_protocolo-de-selecao]] (não checado aqui de propósito:
+checá-lo agora seria checar o protocolo no mesmo movimento em que ele
+está sendo corrigido). Ver relatório da task para os achados de protocolo
+(ambiguidades e lacunas descobertas ao rodar os dois casos).
 
 Protocolo: [[_protocolo-de-selecao]] · Ponte de parâmetros:
 [[_parametros-da-loja]]
