@@ -46,7 +46,9 @@ ordem é a regra: **eliminar antes de rankear, sempre**.
    já escolhidas para as outras seções da mesma peça. Ver "O orçamento de
    `peso`" abaixo.
 9. **Desempatar** pela chave de decisão em `secoes/_<secao>.md` — a tabela
-   que cada nota de seção mantém para exatamente este caso.
+   que cada nota de seção mantém para exatamente este caso. Se nem ela
+   separa — empate total — aplicar "O desempate final" abaixo. O resultado
+   nunca é sorteio.
 
 # O ranking do passo 7
 
@@ -147,6 +149,35 @@ spec. O passo 8 é, nessa parte, **qualitativo**: soma as classes das
 seções já escolhidas e evita repetir `pesado`/`peca-inteira` em sequência
 sem uma seção `leve`/`medio` entre elas — não há limiar numérico para
 aplicar automaticamente.
+
+# O desempate final (empate total)
+
+Empate total é quando dois candidatos chegam ao fim do passo 9 idênticos
+em todos os eixos e a própria chave de decisão da seção declara que nada
+os separa. Hoje são dois pares, ambos duplicatas de cadastro:
+[[hero-8-lineup-com-lembrete-de-oferta]] ≡ [[hero-10-lineup-de-colecao]]
+(ver [[hero-8-duplicata-de-hero-10]]) e
+[[reviews-3a-depoimento-longo-monoespacado]] ≡
+[[reviews-3b-depoimento-longo-monoespacado]] (ver [[reviews-3-duplicado]]).
+
+A regra: **vence a menos usada no histórico de envios** — a contagem de
+peças já montadas com cada `variant_id`, consultada no banco do pipeline
+(o mesmo de onde vem a fila de disparos; ver [[_parametros-da-loja]]).
+Empate total significa que as duas servem igualmente bem; escolher a menos
+gasta rotaciona o criativo em vez de viciar na mesma peça — e de quebra
+corrige a distorção estatística que as lacunas de duplicata descrevem, em
+que a peça dobrada pesava o dobro no sorteio.
+
+**Fallback determinístico:** a consulta de uso não é verificável
+automaticamente hoje (mesma situação dos requisitos com
+`verificavel_hoje: false` — nenhum campo mapeado em
+[[_parametros-da-loja]] responde "quantas vezes cada variante já foi
+usada"). Se o histórico não estiver disponível na hora da seleção, ou se
+as contagens empatarem, **o menor número no slug vence** — hero-8 antes de
+hero-10, reviews-3a antes de reviews-3b.
+
+Isso resolve a escolha, não a duplicata: os pares continuam registrados em
+`lacunas/` até o banco reconciliar `variant_id` e `schema_campos`.
 
 # Quando nenhuma variante sobrevive
 

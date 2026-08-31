@@ -56,4 +56,6 @@ welcome) dos outros três (welcome-1).
 - Nenhuma para `pos-compra` ou `transacional`.
 - Nenhuma de registro `comunidade-identitario`.
 - Efetivamente 8 perfis de decisão, não 9 — hero-8 e hero-10 competem pela
-  mesma vaga sem que nenhum eixo do protocolo escolha entre eles.
+  mesma vaga sem que nenhum eixo do protocolo escolha entre eles. A escolha
+  em si é resolvida pelo "desempate final" de [[_protocolo-de-selecao]]
+  (menos usada no histórico vence; fallback: menor número no slug).

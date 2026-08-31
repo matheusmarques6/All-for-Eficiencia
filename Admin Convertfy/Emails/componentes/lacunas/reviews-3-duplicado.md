@@ -34,6 +34,13 @@ concreto de só uma das duas cópias ser atualizada — e a divergência que
 nasceria daí seria silenciosa, porque nada no vault ou no validador aponta
 hoje que as duas são a mesma peça.
 
+# Mitigação no protocolo
+
+A escolha entre as duas deixou de ser sorteio: o "desempate final" de
+[[_protocolo-de-selecao]] manda usar a menos usada no histórico de envios
+(fallback: menor número no slug — reviews-3a). Isso neutraliza a distorção
+estatística descrita acima, mas não resolve a duplicata em si.
+
 # Fora do escopo desta entrega
 
 Decidir qual `variant_id` sobrevive e desativar/remover o outro no banco —

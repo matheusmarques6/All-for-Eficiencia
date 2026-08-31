@@ -36,6 +36,13 @@ de `reviews-3`: se as duas são a mesma peça, uma delas está com o schema de
 copy incompleto ou incorreto — e não há como saber qual das duas é a
 versão certa só olhando o vault.
 
+# Mitigação no protocolo
+
+A escolha entre as duas deixou de ser sorteio: o "desempate final" de
+[[_protocolo-de-selecao]] manda usar a menos usada no histórico de envios
+(fallback: menor número no slug — hero-8). Isso neutraliza a distorção
+estatística descrita acima, mas não resolve a duplicata em si.
+
 # Fora do escopo desta entrega
 
 Decidir qual `variant_id` sobrevive, reconciliar `schema_campos` entre as
