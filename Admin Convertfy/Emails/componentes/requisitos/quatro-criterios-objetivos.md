@@ -21,7 +21,7 @@ formato — e sem diferencial real por trás de cada critério, a tabela
 expõe vantagem vaga como se fosse fato, o que é o oposto do efeito que
 o formato existe para produzir.
 
-Da prosa do inventário, verbatim (`body 4`): *"Menos de quatro
+Da prosa do inventário, verbatim (`body 5`): *"Menos de quatro
 critérios. Com três linhas a tabela não justifica a estrutura."* E:
 *"Marca sem diferencial real nos critérios listados. A tabela expõe:
 cinco linhas de vantagem vaga soam falsas."*

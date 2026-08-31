@@ -18,7 +18,7 @@ paleta: [creme]
 papel_na_peca: [meio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-de-uso-real]
+exige: [foto-de-uso-real, reviews-curtos]
 
 # --- capacidade e composição ---
 product_slots: 0
