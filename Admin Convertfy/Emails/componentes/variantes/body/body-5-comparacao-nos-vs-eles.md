@@ -23,7 +23,7 @@ exige: [quatro-criterios-objetivos]
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 4, max: 5 }
-peso: { altura_px: 2544, classe: peca-inteira, fonte: medido }
+peso: { altura_px: 1293, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

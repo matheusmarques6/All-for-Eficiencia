@@ -23,7 +23,7 @@ exige: [foto-monocromatica, terco-superior-liso, duas-acoes-de-suporte]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 2648, classe: peca-inteira, fonte: medido }
+peso: { altura_px: 1476, classe: pesado, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

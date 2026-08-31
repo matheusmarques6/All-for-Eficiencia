@@ -23,7 +23,7 @@ exige: [tres-provas-verificaveis, produto-com-composicao-relevante, corredores-l
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 3, max: 3 }
-peso: { altura_px: 1167, classe: medio, fonte: medido }
+peso: { altura_px: 716, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

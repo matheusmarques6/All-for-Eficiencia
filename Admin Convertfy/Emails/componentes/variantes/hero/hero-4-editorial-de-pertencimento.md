@@ -23,7 +23,7 @@ exige: [serif-ou-script-display, foto-de-campanha-propria, cupom-ativo, cor-de-a
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 2073, classe: peca-inteira, fonte: medido }
+peso: { altura_px: 1150, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

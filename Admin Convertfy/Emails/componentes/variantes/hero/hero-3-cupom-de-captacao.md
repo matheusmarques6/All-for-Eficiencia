@@ -23,7 +23,7 @@ exige: [cupom-ativo, foto-estudio-fundo-claro, terco-superior-liso]
 # --- capacidade e composição ---
 product_slots: 0
 itens: null
-peso: { altura_px: 1852, classe: pesado, fonte: medido }
+peso: { altura_px: 949, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---

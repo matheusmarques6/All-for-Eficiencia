@@ -30,13 +30,22 @@ o `<td>` de imagem de fundo (`background-image` + `background-size:
 LARGxALTpx`, sem `height:` próprio) só tinha a altura real escrita
 dentro do `<v:rect>` do bloco MSO. Removendo o bloco cegamente, essa
 altura desaparecia (confirmado em ao menos 15 dos 44 arquivos — 3 no
-`body`, 8 no `hero`, 2 no `offer`, 2 no `products`). Corrigido varrendo
-cada `<td>` depois de remover os blocos MSO: se ele declara
-`background-size` mas NÃO tem `height:`/`height="N"` próprio, soma-se
-a altura do `background-size` (nos casos em que o `<td>` já tem altura
-própria, ela sempre bate com o `background-size` — conferido nos 44 —
-então somar só quando falta é o equivalente a `max(background-size,
-altura própria)` sem precisar reescrever a soma por `<td>` inteira.
+`body`, 8 no `hero`, 2 no `offer`, 2 no `products`).
+
+Rodada de correção 2 (achado do revisor): a correção 1 somava o
+`background-size` contra o TOTAL GLOBAL do documento, sempre que o
+`<td>` de fundo não tinha `height:` própria. Mas esse `<td>` costuma ter
+conteúdo aninhado real por dentro (headline, pílulas, CTA) que já entra
+na soma global — somar o `background-size` por cima conta essa altura
+duas vezes (`body-9`: conteúdo aninhado 1055, fundo 1029, entrega errada
+2084). O pedido original era `max(background-size, soma do PRÓPRIO
+`<td>`)`, não soma+extra. Corrigido isolando a subárvore de cada `<td>`
+de fundo (do `<td ...>` até o `</td>` correspondente, por profundidade)
+e substituindo a contribuição dela por
+`max(soma dentro da subárvore, background-size dela)` — em vez de somar
+por cima do total. Os 15 `<td>` de fundo do corpus não se aninham nem se
+sobrepõem entre si (conferido), então cada subárvore é processada uma
+vez, isolada.
 """
 from __future__ import annotations
 
@@ -63,8 +72,8 @@ def classe(px: int) -> str:
     return "peca-inteira"
 
 
-def altura(html: str) -> int:
-    html = MSO_SO_OUTLOOK.sub("", html)
+def _soma_declaracoes(html: str) -> int:
+    """Soma height:/padding declarados NESTE fragmento (sem tratar background-size)."""
     total = 0
     total += sum(int(n) for n in re.findall(r"(?<![-a-zA-Z])height:\s*(\d+)px", html))
     for corpo in re.findall(r"padding:\s*([^;\"']+)", html):
@@ -77,18 +86,40 @@ def altura(html: str) -> int:
             total += int(valores[0]) * 2
     total += sum(int(n) for n in re.findall(r"padding-top:\s*(\d+)px", html))
     total += sum(int(n) for n in re.findall(r"padding-bottom:\s*(\d+)px", html))
+    return total
+
+
+def _fim_td(html: str, inicio: int) -> int:
+    """Índice logo após o `</td>` que fecha o `<td ...>` que começa em `inicio`."""
+    profundidade = 0
+    for m in re.finditer(r"<td\b[^>]*>|</td\s*>", html[inicio:], re.I):
+        profundidade += 1 if m.group(0).lower().startswith("<td") else -1
+        if profundidade == 0:
+            return inicio + m.end()
+    raise ValueError("</td> correspondente não encontrado")
+
+
+def altura(html: str) -> int:
+    html = MSO_SO_OUTLOOK.sub("", html)
+    total = _soma_declaracoes(html)
 
     # Padrão (b): <td> de imagem de fundo sem height próprio — a única
-    # declaração textual da altura é o background-size. Só soma quando o
-    # próprio <td> não tem height: (quando tem, os dois sempre batem —
-    # somar de novo duplicaria; isso é o `max(...)` do brief na prática).
-    for tag in re.findall(r"<td\b[^>]*>", html):
+    # declaração textual da altura é o background-size, mas o <td> pode ter
+    # conteúdo aninhado real (já contado em `total`). Isola a subárvore desse
+    # <td> e troca a contribuição dela por max(soma da subárvore, fundo) —
+    # nunca soma os dois.
+    for m in re.finditer(r"<td\b[^>]*>", html):
+        tag = m.group(0)
         bg = re.search(r"background-size:\s*\d+px\s+(\d+)px", tag)
         if not bg:
             continue
         tem_altura_propria = re.search(r"(?<![-a-zA-Z])height:\s*(\d+)px", tag) or re.search(r'\bheight="(\d+)"', tag)
-        if not tem_altura_propria:
-            total += int(bg.group(1))
+        if tem_altura_propria:
+            continue
+        subarvore = html[m.start():_fim_td(html, m.start())]
+        soma_subarvore = _soma_declaracoes(subarvore)
+        contribuicao = max(soma_subarvore, int(bg.group(1)))
+        total += contribuicao - soma_subarvore
     return total
 
 
