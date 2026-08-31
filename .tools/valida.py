@@ -43,12 +43,24 @@ CAMPO_PARA_TITULO = {
 }
 
 
+class FrontmatterInvalido(Exception):
+    """YAML do frontmatter não parseia."""
+
+
 def frontmatter(caminho: Path) -> dict:
     texto = caminho.read_text(encoding="utf-8")
     m = re.match(r"---\n(.*?)\n---\n", texto, re.S)
     if not m:
+        raise FrontmatterInvalido("sem bloco de frontmatter delimitado por ---")
+    try:
+        dados = yaml.safe_load(m.group(1))
+    except yaml.YAMLError as erro:
+        raise FrontmatterInvalido(f"YAML inválido: {erro}") from erro
+    if dados is None:
         return {}
-    return yaml.safe_load(m.group(1)) or {}
+    if not isinstance(dados, dict):
+        raise FrontmatterInvalido("frontmatter não é um mapa de chave/valor")
+    return dados
 
 
 def _corpo(caminho: Path) -> str:
@@ -74,8 +86,12 @@ def rodar(raiz: Path, so_estrutura: bool = False) -> list[str]:
     indice |= {p.stem for p in raiz.rglob("*.md")}
 
     for nota in notas_variante:
-        fm = frontmatter(nota)
         rel = nota.relative_to(raiz)
+        try:
+            fm = frontmatter(nota)
+        except FrontmatterInvalido as erro:
+            erros.append(f"{rel}: frontmatter ilegível — {erro}")
+            continue
 
         for chave in OBRIGATORIAS:
             if chave not in fm:
@@ -130,7 +146,11 @@ def rodar(raiz: Path, so_estrutura: bool = False) -> list[str]:
             if esperado != veio:
                 erros.append(f"variantes/{v.secao}/{slug}.md: `{campo}` diverge do inventário")
 
-        fm = frontmatter(nota)
+        try:
+            fm = frontmatter(nota)
+        except FrontmatterInvalido as erro:
+            erros.append(f"variantes/{v.secao}/{slug}.md: frontmatter ilegível — {erro}")
+            continue
         vazia = all(x is None for x in v.prosa.values())
         if vazia and fm.get("status") != "sem-julgamento":
             erros.append(f"variantes/{v.secao}/{slug}.md: prosa vazia exige status sem-julgamento")
