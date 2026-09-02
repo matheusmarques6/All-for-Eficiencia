@@ -197,8 +197,10 @@ frontmatter — a objeção do canal ("por que comprar de vocês?") só existe
 em prosa nessa nota. Traduzida para o vocabulário do vault, ela mapeia
 para `objecao: confianca-no-canal`. Na seção `body`,
 [[body-5-comparacao-nos-vs-eles]] declara `objecao: [confianca-no-canal,
-preco-valor]` (overlap 1) e `body 4 — tutorial de uso` declara
-`objecao: [uso-aprendizado]` (overlap 0). Por ranking puro de `objecao`,
+preco-valor]` (overlap 1) e `body-4-comparativo-em-duas-colunas` declara
+`objecao: [qualidade-eficacia, preco-valor]` (overlap 1 — o caso foi escrito
+quando a nota ainda descrevia um tutorial com `uso-aprendizado`, overlap 0;
+ver a correção de 02/09 na própria nota). Por ranking puro de `objecao`,
 body-5 venceria.
 
 **Mas o mesmo caso entrega o primeiro achado do protocolo:

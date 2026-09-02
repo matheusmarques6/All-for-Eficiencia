@@ -32,7 +32,7 @@ Entre as 3 variantes ativas e julgadas, `momento` e `objeção` já separam:
 |---|---|---|---|---|
 | [[body-2-colagem-de-data-comemorativa]] | sazonal-data-comemorativa | — | foto com pessoas · motivo sazonal | sim |
 | [[body-3-pitch-de-gift-card]] | gift-card, sazonal-data-comemorativa | — | gift card digital | sim |
-| [[body-4-tutorial-de-uso]] | pós-compra, reengajamento | uso-aprendizado | — | sim |
+| [[body-4-comparativo-em-duas-colunas]] | welcome-meio, welcome-tardio, consideração, browse-abandonment | qualidade-eficácia, preço-valor | — | sim |
 
 Duas variantes julgadas ficam de fora já no passo 3 do
 [[_protocolo-de-selecao]] (lista restrita a `ativa: true`) por estarem
@@ -50,9 +50,12 @@ nenhum — são escolhidas às cegas quando sorteadas, nunca por critério.
 # Onde a seção não cobre
 
 - Entre as variantes que o protocolo de fato consegue rankear (as 3
-  ativas+julgadas), só **uma objeção** tem cobertura: `uso-aprendizado`
-  (body-4). Todo o resto do vocabulário de objeções fica sem body julgado
-  e ativo.
+  ativas+julgadas), só **duas objeções** têm cobertura:
+  `qualidade-eficacia` e `preco-valor` (body-4, o comparativo). Todo o
+  resto do vocabulário de objeções fica sem body julgado e ativo —
+  `uso-aprendizado`, que a nota antiga de body-4 dizia cobrir, NÃO tem
+  peça: aquela nota descrevia um tutorial que não existe no banco
+  (corrigido em 02/09).
 - [[body-5-comparacao-nos-vs-eles]] é a **única** variante do catálogo
   inteiro (44) que serve a objeção `confianca-no-canal` — e está inativa.
   Ver [[welcome-5-sem-variante-ativa]].

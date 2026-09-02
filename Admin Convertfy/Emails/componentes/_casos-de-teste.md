@@ -4,6 +4,16 @@ status: aprovada
 fonte: spec §11 (2026-08-31-vault-componentes-email-design.md)
 ---
 
+
+> **Nota (02/09/2026).** Os casos abaixo que citam
+> [[body-4-comparativo-em-duas-colunas]] foram escritos quando a nota se
+> chamava `body-4-tutorial-de-uso` e declarava `momento: [pos-compra,
+> reengajamento]` / `objecao: [uso-aprendizado]` — eixos de um tutorial que
+> não existe no banco. A nota foi corrigida para a peça real (comparativo em
+> duas colunas: `momento: [welcome-meio, welcome-tardio, consideracao,
+> browse-abandonment]`, `objecao: [qualidade-eficacia, preco-valor]`). Os
+> passos narrados continuam válidos como exercício; os eixos citados, não.
+
 Dois casos rodados à mão contra [[_protocolo-de-selecao]], seção por seção,
 com o traço completo de eliminação. Depois, o resultado das checagens de
 aceitação da §11.
@@ -117,7 +127,7 @@ Passo 4 (`exige:`):
 |---|---|---|
 | [[body-2-colagem-de-data-comemorativa]] | foto-com-pessoas · **motivo-sazonal** | eliminada — sem motivo sazonal (welcome, não campanha de data) |
 | [[body-3-pitch-de-gift-card]] | **gift-card-digital** | eliminada — loja não vende gift card |
-| [[body-4-tutorial-de-uso]] | `[]` | sobrevive (vazio, nada a exigir) |
+| [[body-4-comparativo-em-duas-colunas]] | `[]` | sobrevive (vazio, nada a exigir) |
 | body-6, body-7, body-8, body-9 | todos os eixos em branco (`status: sem-julgamento`) | sobrevivem por vacuidade — nenhum requisito para falhar |
 
 Passo 5 (momento) — body-4 declara `momento: [pos-compra, reengajamento]`,
@@ -260,7 +270,7 @@ catálogo inteiro é [[body-5-comparacao-nos-vs-eles]] (`objecao:
 `ativa: true`, antes mesmo de chegar ao passo 4 ou ao ranking (a lista de
 [[_body]] já separa "9 variantes, 7 ativas").
 
-Passo 5 (momento) — [[body-4-tutorial-de-uso]] declara `momento:
+Passo 5 (momento) — [[body-4-comparativo-em-duas-colunas]] declara `momento:
 [pos-compra, reengajamento]`, lista não vazia que não inclui
 `welcome-tardio` (o momento deste toque): **eliminada aqui**. body-6/7/8/9
 declaram `momento: []` — neutro, não elimina — sobrevivem.

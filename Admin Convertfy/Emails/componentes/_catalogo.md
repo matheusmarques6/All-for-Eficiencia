@@ -25,7 +25,7 @@ Legenda: — = lista vazia (não discrimina) · ✓/✗ = `ativa`.
 | [[body-10-listicle-educativo]] | body | ✗ | 14 | nutricao-de-conteudo, welcome-meio, reengajamento | campanha-promocional, abertura, welcome-1 | uso-aprendizado | — | — | creme | — | — | 0 | 3–3 | pesado · 1355px | — |
 | [[body-2-colagem-de-data-comemorativa]] | body | ✓ | 7 | sazonal-data-comemorativa | carrinho-abandonado, checkout-abandonado, transacional | — | festivo | premium-editorial | com-acento-definido | — | foto-com-pessoas, motivo-sazonal | 0 | 2–2 | pesado · 1665px | — |
 | [[body-3-pitch-de-gift-card]] | body | ✓ | 7 | gift-card, sazonal-data-comemorativa | campanha-promocional | — | — | — | — | apoio | gift-card-digital | 0 | — | medio · 816px | — |
-| [[body-4-tutorial-de-uso]] | body | ✓ | 9 | pos-compra, reengajamento | campanha-promocional | uso-aprendizado | — | — | — | — | — | 0 | ?–6 | peca-inteira · 2478px | — |
+| [[body-4-comparativo-em-duas-colunas]] | body | ✓ | 18 | welcome-meio, welcome-tardio, consideracao, browse-abandonment | transacional, pos-compra | qualidade-eficacia, preco-valor | — | — | — | meio | — | 0 | 5–6 | medio · 820px | — |
 | [[body-5-comparacao-nos-vs-eles]] | body | ✗ | 16 | welcome-meio, welcome-tardio, carrinho-abandonado, browse-abandonment | campanha-promocional | confianca-no-canal, preco-valor | premium-editorial | — | creme | meio, fecha | quatro-criterios-objetivos | 0 | 4–5 | pesado · 1293px | — |
 | [[body-6-skin-minimalism-101]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | 0 | — | pesado · 1570px | — |
 | [[body-7-faq]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | 0 | — | medio · 1032px | — |
