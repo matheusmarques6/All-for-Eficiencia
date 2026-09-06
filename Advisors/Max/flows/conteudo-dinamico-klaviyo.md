@@ -135,6 +135,15 @@ L3775). Vale o slide — é artefato.
 - Nada sobre bloco dinâmico em site abandon, post-purchase, replenishment ou
   winback. As três fórmulas cobrem só os flows de produto abandonado.
 - Nenhuma fórmula de fallback para quando o evento não traz produto.
-- Nenhuma versão para SMS.
+- Nenhuma **sintaxe** para SMS. Correção de escopo (varredura de falsos
+  negativos): a versão anterior dizia "nenhuma versão para SMS", o que faz
+  recusar por inteiro. O conceito existe no módulo de SMS, no browse abandon:
+  "you can A/B test **including a picture of the item the person browsed** to
+  help them remember what they looked at. Keep in mind this is **2x-3x more
+  expensive** than just using text so review results accordingly" (L9457, slide).
+  É o equivalente funcional do bloco dinâmico — item do evento renderizado na
+  mensagem — declarado como teste e com aviso de custo, mas **sem uma linha de
+  código ou nome de variável**. Ver [[sms/flows-sms]] e
+  [[sms/custo-e-tamanho-da-mensagem]].
 - A alternativa que ele cita para post-purchase, "recommended Klaviyo products"
   (L3148), não tem código nem instrução — é bloco nativo.

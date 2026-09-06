@@ -102,8 +102,23 @@ We achieve these results just sending to our engaged list for 90% of sends"
 
 # O que o corpus não diz
 
-Não diz o que fazer ao cruzar $1M/mês: quais segmentos abrir primeiro, em que
-ordem, com qual critério. O corpus dá o limiar e para ali.
+Não diz **quais segmentos** abrir ao cruzar $1M/mês, em que ordem nem com qual
+critério. O corpus dá o limiar e para ali.
+
+**Correção de escopo (varredura de falsos negativos).** A versão anterior dizia
+"não diz o que fazer ao cruzar $1M/mês", sem qualificador, e isso recusa demais.
+O corpus diz **duas** coisas sobre esse patamar, só que nenhuma é a lista de
+segmentos:
+
+- **A frequência sobe.** A tabela de tier prescreve `$1M/mo+` (ou 250k+
+  visitantes/mês) → **5-6x por semana** (L5298). Ver [[frequencia-de-envio]] —
+  e note que isso colide com a faixa de 2-4x defendida no mesmo módulo:
+  `campanhas-cadencia-alta-vs-tier-1m`.
+- **A justificativa da abertura é declarada, em termos gerais.** "this changes
+  after you're doing (…) a million a month, 10 million a month, seven, eight
+  figures. **The higher you get, the bigger your list get, the more
+  opportunities you have for that really specific segmentation**" (L5007-5009).
+  É o porquê, não o quê.
 
 # Ligações
 

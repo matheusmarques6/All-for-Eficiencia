@@ -148,11 +148,34 @@ frameworks de quatro regras cada.
 
 # O que o corpus não diz
 
-A guideline "Personalization: using names, segments, and past behavior to make
-the subject feel relevant" (L6089) não reaparece em lugar nenhum — nem no
-framework, nem na fala, nem nos exemplos. Nenhuma SL do corpus é
-personalizada. Também não há regra de qual emoji usar, nem contagem de
-caracteres, nem tratamento de truncamento por cliente de email.
+Não há regra de qual emoji usar, nem contagem de caracteres, nem tratamento de
+truncamento por cliente de email. Varredura: `characters` / `character limit` /
+`truncat` não têm uma ocorrência sobre email — as únicas são o limite de 160 do
+SMS (L9231-9233, L9390-9411). Ver [[sms/custo-e-tamanho-da-mensagem]].
+
+**Correção de escopo (varredura de falsos negativos).** Uma versão anterior desta
+nota dizia que a guideline "Personalization: using names, segments, and past
+behavior to make the subject feel relevant" (L6089) "não reaparece em lugar
+nenhum — nem no framework, nem na fala, nem nos exemplos" e que "nenhuma SL do
+corpus é personalizada". **É falso.** O que não a retoma é *este módulo*.
+Personalização reaparece em outros três lugares:
+
+- **Fala, módulo de otimização (L9068-9082)** — define exatamente o que é e onde
+  entra: first name, "in the subject line, in the preview text, or in the first
+  line of the text", com os exemplos trabalhados "Hey, Michael, Hey, Max, Hey,
+  Alex, um, we noticed that you" e o racional "When people see their name,
+  they're obviously more likely to engage".
+- **Slide, módulo de otimização (L9206-9207)** — é o teste **Personalization
+  Depth**, com a ressalva de que "sometimes they're ignored or seem gimmicky.
+  Test if it truly improves engagement". Já estava em
+  [[otimizacao/outros-testes]].
+- **Slide, glossário (L426)** — "Personalization Tokens – Dynamic fields like
+  `{{ first_name }}` that personalize the email", que é a sintaxe da coisa.
+
+E há pelo menos uma SL personalizada por comportamento passado na lista de 100:
+"**Your Favorites Are on Sale** – Personalized collection" (L5469). Ver
+[[campanhas/cem-ideias-de-email]]. O que continua verdade é que **nenhum dos
+quatro exemplos do framework** (L6824-6827) usa personalização.
 
 # Ver também
 

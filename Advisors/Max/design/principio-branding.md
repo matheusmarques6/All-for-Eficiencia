@@ -72,6 +72,11 @@ que ao site e aos anúncios, por causa do argumento de congruência entre canais
 mas o corpus não afirma isso.
 
 Também não há aqui nenhum exemplo, bom ou ruim — é o único dos três princípios
-sem legendas de exemplo no deck.
+sem legendas de exemplo no deck. **Evidência da varredura:** o deck foi lido
+linha a linha em L8214-8222; entre o título `# **Principle \#3: Branding**` e o
+próximo heading não há um só rótulo de exemplo. Os outros dois têm: quatro em
+ease of click (L8173-8179) e três em skimmability (L8207-8211) — todos vazios,
+mas presentes. E nenhuma marca é citada como caso de branding em nenhum dos dois
+registros, ao contrário de ease of click, que tem a Nike (L7149-7153).
 
 Ver [[principio-ease-of-click]] e [[principio-skimmability]] para os outros dois.

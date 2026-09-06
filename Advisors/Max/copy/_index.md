@@ -71,8 +71,16 @@ Treze conflitos registrados em [[_conflitos]]:
 Dois merecem aviso antes de qualquer resposta:
 
 1. **A numeração dos princípios está quebrada no próprio deck.** Existem dois
-   "Principle \#2" (L6604 e L6625) e nenhum "\#3". Se alguém perguntar "qual é
-   o princípio 3", a resposta é que o corpus não tem um.
+   "Principle \#2" (L6604, Clear & Concise, e L6625, Engaging) e nenhum "\#3"
+   **neste deck**. Correção de escopo (varredura de falsos negativos): a versão
+   anterior mandava responder "o corpus não tem um", e isso faz recusar a
+   pergunta mais fácil do módulo. O corpus tem **três princípios de copy** —
+   S.C.E., e o terceiro é **Engaging**; o que está errado é o número no heading,
+   não a existência do princípio. E existe um "Principle \#3" no corpus, em
+   **design**: `# **Principle \#3: Branding**` (L8213), com a fala
+   correspondente "principle number three, branding" (L7213). Ao responder,
+   desambiguar o módulo antes de numerar. Ver [[principio-engaging]] e
+   [[design/principio-branding]].
 2. **Boa parte deste módulo não é fala do Max.** Além de L5667-5866
    (`outro-provado`, base de [[prompt-de-copy]] e [[email-architect]]), também
    L5888-6082 e L6101-6248 são `outro-provavel` — o que atinge

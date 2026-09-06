@@ -30,11 +30,24 @@ Catálogo de fillers em [[welcome-fillers]]; templates em [[welcome-templates]].
 | Filtros | `placed order zero times since starting this flow` (L1542) · `bounce less than two times since starting this flow` (L1544) |
 | Saída | falhar qualquer filtro: "if anybody fails to meet any of these, they'll be kicked out of the flow" (L1546) |
 
-**O gatilho nunca é nomeado como metric.** Ele descreve ("trigger after somebody
-opts in", L1330; "immediately after somebody signs up, joins the email list",
-L1550) mas não dá o nome do trigger no Klaviyo — diferente de todos os outros
-flows, onde dá (`Active on Site`, `Viewed Product`, `Added to Cart`,
+**O gatilho nunca é nomeado como metric — e o corpus diz por quê.** Ele descreve
+("trigger after somebody opts in", L1330; "immediately after somebody signs up,
+joins the email list", L1550) e não dá nome de metric, diferente de todos os
+outros flows, onde dá (`Active on Site`, `Viewed Product`, `Added to Cart`,
 `Started Checkout`, `Placed Order`).
+
+Não é lacuna de extração: **o welcome não dispara por metric, dispara por
+lista.** Está dito em outro módulo, na aula de segmentação (L4879-4883,
+verbatim): "the most common use cases for lists is what you'll probably see in
+Klaviyo already with your newsletter. So if you have a pop-up set up, someone's
+in their email, phone number, and then **they go into a list. And then from that
+list, they trigger a welcome flow.**" E o corpus marca a distinção explicitamente
+na aula de winback: "We want to trigger this off of a **segment**. All the other
+flows, we're using an actual trigger of some sort where it's some sort of
+**metric**" (L3314). Ou seja, o corpus tem três formas de gatilho — metric,
+lista e segmento — e o welcome é o caso de lista. Ver [[campanhas/segmentacao]] e
+[[winback]]. Ressalva: L4879-4883 está na faixa `outro-provavel`; não citar como
+fala de Max.
 
 **Double opt-in desligado**, non-negotiable (L1394, L3491). O motivo: "we don't
 want to give people a second chance to second guess them signing up" (L1402).
@@ -118,7 +131,9 @@ a compra é impulso ou decisão demorada. Produto complicado pede mais emails.
 
 # O que o corpus não diz
 
-- O nome da metric de gatilho no Klaviyo.
+- O nome da metric de gatilho no Klaviyo — **porque não existe metric aqui**: o
+  gatilho é a lista (L4881-4883). Ver acima. Não recusar essa pergunta; responder
+  com a mecânica de lista.
 - Qual desconto usar, ou como escolher o valor.
 - Como escolher entre a "base strategy" e o "template".
 - Se `bounce less than two times` conta hard ou soft bounce.

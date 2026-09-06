@@ -26,7 +26,13 @@ Como o advisor responde. Sete passos, na ordem. A ordem é a regra:
 
 4. **Checar [[_conflitos]].** Se o assunto tem entrada lá, a resposta mostra o
    conflito. Não existe resposta limpa para pergunta que o corpus responde de
-   duas maneiras.
+   duas maneiras. O que se abre é [[_conflitos]]: ele traz o **índice dos 126
+   slugs** e, na íntegra, as duas seções que o roteamento por pasta nunca
+   entrega — "Conflitos entre módulos" e "Conflitos dentro do mesmo registro".
+   **Só descer para [[_conflitos-completo]] quando o slug tiver entrada lá**; o
+   índice diz qual dos dois arquivos guarda cada `## slug`, e nenhuma entrada
+   está nos dois. Achar o slug no índice e não descer é erro: o índice dá o
+   assunto do conflito, nunca as duas versões.
 
 5. **Ler a nota do assunto.** Só agora.
 

@@ -30,7 +30,11 @@ get creative with your messaging and then also your segmentation so that you
 make sure that you're not annoying people" (L9228).
 
 O corpus não define "extremely engaged" para SMS — não há definição de segmento,
-janela de dias nem métrica de corte neste módulo.
+janela de dias nem métrica de corte neste módulo. O vizinho, e é só vizinho, é a
+definição de engajado **de email**: a `90 Day Engaged List` do deck de campanhas
+— abriu ao menos uma vez OU esteve ativo no site OU comprou, nos últimos 90 dias
+(L5586) — ver [[campanhas/segmentacao]]. **Nunca transpor**: é segmento de email,
+e o corpus não diz que a régua vale para telefone.
 
 # Por que menos que email
 

@@ -122,6 +122,10 @@ it for 24 more hours" no support email (L2292). Ver
 - Nenhum template completo de copy — todos os blocos são listas de seções.
 - Nenhuma subject line para o welcome flow. Site abandon, browse abandon e
   cart/checkout têm listas de subject line no slide; o welcome não tem nenhuma,
-  em nenhum dos dois registros.
+  em nenhum dos dois registros. **Evidência da varredura:** `subject line` em
+  toda a faixa de flows (L1307-4186) devolve cinco linhas — L2383, L2556 (site
+  e browse abandon), L2737, L2771, L2849 (cart/checkout) — e nenhuma na faixa
+  do welcome; o deck do welcome (L3466-3606) foi lido inteiro e não traz uma
+  seção "Subject Line Ideas", que os outros flows trazem.
 - O slide do welcome também não traz nenhum slot "**Email Example:**", que os
   outros flows têm. Os exemplos existem só na fala, em ASR.

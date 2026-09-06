@@ -143,7 +143,11 @@ case you forget to send campaigns for like two weeks" (L3392).
 
 # O que o corpus não diz
 
-- Nenhum filtro, nenhuma condição de saída.
+- Nenhum filtro, nenhuma condição de saída **dentro do flow** — o critério de
+  entrada existe e é o segmento (L3318, L5589). **Evidência da varredura:**
+  `kick|exclude|exclusion|filter|zero times|skip|exit` em L1307-4186 devolve
+  cinco linhas, e a única do winback é L3318, que define o segmento de entrada,
+  não filtro nem saída.
 - O que acontece com quem sai do segmento no meio do flow.
 - O que é o "longer term win back" que ele menciona duas vezes (L3332, L3334) —
   nomeia e não especifica.

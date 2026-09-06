@@ -63,7 +63,15 @@ O fecho: "So the customer can shop easier without any sort of delay" (L7528).
 Quantos botões de categoria, quais categorias escolher, em quantas colunas, nem
 se há ordem. Não há número em nenhum dos dois registros.
 
-Também não há aqui nada sobre os elementos legais do rodapé. A única menção a
+Também não há **nesta pasta** nada sobre os elementos legais do rodapé — e há,
+em fundamentos. Correção de escopo (varredura de falsos negativos): o glossário
+nomeia os dois elementos e a lei que os exige — "**CAN-SPAM** – U.S. law
+requiring unsubscribe links and contact info" (L504), "**Unsubscribe Link** –
+Required link to opt out of future emails" (L506) e "**Preference Center** – Page
+where users can choose what types of emails they want to receive" (L507). São
+definições de uma linha, sem prescrição de layout, e a fala manda ignorar a seção
+(L229) — mas são o vizinho, e recusar sem oferecê-las é erro. Ver
+[[fundamentos/glossario]]. A única menção a
 unsubscribe e preferences no módulo está no vídeo de upload, como passo de
 plataforma e não como doutrina de design: "You're going to need to add a footer
 down here in terms of just like the copy just this information about the brand.

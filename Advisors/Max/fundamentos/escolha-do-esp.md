@@ -86,10 +86,31 @@ que promete Klaviyo — ver `design-klaviyo-vs-omnisend`.
 - Nenhum preço, de nenhuma plataforma, em nenhum registro.
 - Nenhum limiar de tamanho de lista ou de faturamento para escolher entre as
   duas. "Budget option" nunca é definido.
-- Nenhum terceiro ESP é avaliado. Mailchimp aparece uma única vez no corpus, como
-  exemplo dentro da definição de ESP no glossário (L459), sem julgamento.
-- Nenhuma instrução de migração entre plataformas.
+- Nenhum terceiro ESP é **avaliado**. Correção de contagem (varredura de falsos
+  negativos): Mailchimp **não** aparece uma única vez — aparece **três**, em dois
+  módulos. Uma como exemplo dentro da definição de ESP no glossário (L459) e duas
+  no módulo de deliverability, sempre como **origem de migração**: "maybe you're
+  moving over from, you know, MailChimp or OmniSend" (L8563) e "one of the brands
+  that we had, they migrated over from MailChimp" (L8607). Nenhuma das três é
+  avaliativa — ele nunca compara nem julga —, mas o corpus **sabe que se migra de
+  Mailchimp para Klaviyo** e trata isso como caso normal de warming. Ver
+  [[deliverability/warming-casos-reais]] e [[deliverability/warming-do-dominio]].
+  Varredura das outras plataformas, arquivo inteiro: `ActiveCampaign` `Sendlane`
+  `Braze` `HubSpot` `Salesforce` `Drip` `ConvertKit` `Beehiiv` = 0 cada.
 - Nenhum critério para reverter a escolha depois.
+
+**Segunda correção de escopo: migração entre plataformas existe, em outro
+módulo.** Uma versão anterior desta nota dizia "nenhuma instrução de migração
+entre plataformas". **É falso**, e faz recusar uma pergunta que o corpus responde
+com um caso completo. Está em deliverability, dentro do warming (L8607-8622):
+exportar as listas de 30, 60 e 90 dias engajados da plataforma antiga, importar
+no Klaviyo e **re-aquecer do zero** por amostra aleatória — 1.000 → 2.000 → 4.000
+→ 6.000 → 8.000 → 12.000 → 14.000, chegando a ~120.000/envio numa janela de 60
+dias. O racional é dele, verbatim: "even if you have that data, it's still
+different platform. Klaviyo is new, it's a new domain, that's just how it works.
+So you always end up somewhat starting from scratch" (L8615-8617). Já estava em
+[[deliverability/warming-casos-reais]] (Caso 1) e [[deliverability/warming-do-dominio]].
+O que continua faltando é o passo de tela e qualquer critério de *quando* migrar.
 
 O que ele prescreve como próximo passo é só isto: "Simply sign-up and follow
 their onboarding steps… it's very straightforward to do :)" (L362; fala em L36).

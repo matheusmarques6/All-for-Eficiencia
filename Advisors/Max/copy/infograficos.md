@@ -101,11 +101,28 @@ Nomenclatura (`copy-nomes-dos-infograficos`): o resumo lista "Icons" e
 
 - **Nenhuma imagem sobreviveu ao export.** Sete dos nove tipos têm só os
   rótulos "Example \#1" / "Example \#2" (L6676-6727). Checklists e Icon
-  Graphics não têm nem rótulo. As marcas citadas na fala — Dr. Squatch, Breeze,
-  Live Fresh, um flow chart que a própria narração não identifica ("I'm not 100%
-  sure which company this is", L6025) — não podem ser vistas.
-- **Não há critério de escolha.** Existe catálogo de nove; não existe regra de
-  qual usar em qual email, nem quantos por email.
+  Graphics não têm nem rótulo — verificado linha a linha em L6664-6672. As
+  marcas citadas na fala — Dr. Squatch, Breeze, Live Fresh, um flow chart que a
+  própria narração não identifica ("I'm not 100% sure which company this is",
+  L6025) — não podem ser vistas. **Mas duas descrições verbais de infográfico
+  concreto existem, em outros módulos**, e são o vizinho a oferecer: o bridge
+  "myth vs fact" lado a lado e a tabela "reviews, average rating, five star
+  reviews" (L5827-5831, aula de Email Architect) e o "glass versus plastic,
+  this infographic section" montado ao vivo no Figma (L7951, faixa `max-provado`).
+  Ver [[email-architect]] e [[design/figma-para-email]].
+- **Não há regra de quantidade** — nem quantos infográficos por email, nem
+  tamanho. **Correção de escopo (varredura de falsos negativos):** a versão
+  anterior dizia "não existe regra de qual usar em qual email", e isso
+  contradiz o corpo desta nota. Existe mapeamento parcial tipo → contexto, e é
+  citável: **Comparison Chart** é o formato padrão do email us-vs-them, "We use
+  these almost in every welcome flow we do" (L5979-5981); **Timeline** é para
+  post-purchase de item que demora a chegar ou a montar, semana 1 / 2 / 3
+  (L5939-5961); **Feature Diagram** é para produto novo, técnico ou não óbvio,
+  e para tratar objeção de preço (L5915-5939); **Graph** entra quando há
+  estatística a provar (L6047-6051). E o módulo de design fecha o destino
+  padrão: no bridge, "In most cases, we want to use the Infographics as shown in
+  the 'Copy' modules" (L8271, slide; L7404, fala). O que **não** existe é árvore
+  de decisão que cubra os nove nem critério de desempate entre dois que caibam.
 - Os templates são apontados como fonte prática ("if you check in our
   templates… you're going to see a lot of different infographics", L5895), mas
   o conteúdo deles não está no corpus.

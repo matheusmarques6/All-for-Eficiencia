@@ -207,7 +207,9 @@ julgamento, descartar o link.
   (correção de mapa: não são dezenas) e **não está quebrada**: a definição
   `[image1]: <data:image/png;base64,…>` está na L9545 e carrega um PNG de
   624×169. Não é legível como texto, mas a imagem existe no arquivo.
-- **77 rótulos órfãos anunciando imagem que não foi exportada.** São o
+- **79 rótulos órfãos anunciando imagem que não foi exportada.** *(Era 77;
+  a varredura de falsos negativos achou dois a mais em GAMMA DESIGN — ver
+  abaixo.)* São o
   equivalente funcional das imagens perdidas — legenda sem figura, nada abaixo
   dela até o próximo título. Todos dentro de blocos GAMMA. Distribuição
   verificada:
@@ -223,7 +225,12 @@ julgamento, descartar o link.
     Abandon); L3700, 3721, 3742, 3763 (Browse Abandon); L3817, 3838, 3859,
     3881 (Cart / Checkout Abandon); L3948, 3966 (Post-Purchase). É o exemplo
     visual de **cada email de cada flow de abandono** que não existe.
-  - Legendas de exemplo em GAMMA DESIGN — 13: `✅ **Button Above The Fold**`,
+  - Legendas de exemplo em GAMMA DESIGN — **15**: `#### **Great Examples That
+    Follow Best Practices**` (L8143, fecha a lista "Email Design That Drives
+    Clicks" e a linha seguinte já é o Princípio #1) e
+    `#### **Optimized Product Section Example:**` (L8289, a linha seguinte já é
+    `# **Footer**`) — **os dois faltavam nesta contagem**; mais
+    `✅ **Button Above The Fold**`,
     `✅ **Large Centered Button**`, `❌ **Unclear, Small Button**`,
     `**Uncentered, Small Button**` (L8173, 8175, 8177, 8179);
     `✅ **Simple \+ Use Of Infographic**`, `✅ **Simple \+ Highlighted Main

@@ -83,8 +83,15 @@ A regra não é relativizada; o número é, e na própria escrita de Max:
 "you *maybe* have 3 seconds" (L5501, L6517). Nenhuma das versões vem com fonte,
 estudo ou medição.
 
-O corpus também não diz como verificar. Não há teste, métrica de tempo de leitura
-nem ferramenta citada em lugar nenhum para saber se o email passou no critério.
+O corpus também não diz como **medir**: não há teste cronometrado, métrica de
+tempo de leitura nem ferramenta citada. **Correção de escopo (varredura de
+falsos negativos):** existe um critério verificável a olho, e é o vizinho a
+oferecer em vez de recusar — o deck de design pede que "people can clearly see
+**2-3 sections**, categorize in their head, and skim with ease" (L8196), que é o
+único número operacional do princípio. E existe o passo de conferência, embora
+seja de plataforma e não de skimmability: enviar um preview para si mesmo
+(L5234) e usar "preview and test" para ver "what it looks like for your
+customers" (L2981). Ver [[design/principio-skimmability]].
 
 # Datação
 

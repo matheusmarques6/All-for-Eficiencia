@@ -125,7 +125,17 @@ absoluta e o resto do corpus não é. Ver `copy-open-rate-limite` e
 # O que o corpus não diz
 
 Nenhuma métrica aqui vem com janela de medição declarada — não se diz se open
-rate é por envio, por 30 dias ou por conta. Não há alvo de conversion rate,
+rate é por envio, por 30 dias ou por conta. **Correção de escopo (varredura de
+falsos negativos):** o corpus **tem** duas janelas declaradas, só que nenhuma
+delas é a janela dos alvos desta tabela — e a diferença é a resposta, não a
+recusa. São elas: a **janela de atribuição de receita**, 3 a 5 dias após o
+clique ("they say somebody clicks an email and they purchase within three to
+five days, they count it as email revenue", L54), e a **janela de leitura do
+painel**, 30 dias contra os 30 anteriores ("the comparison period is just the
+prior 30-day period", L64). As duas estão em [[dashboard-do-klaviyo]]. **Nunca
+transpor a janela do painel para o alvo** — quem pergunta "open rate de 30%
+medido em quanto tempo?" recebe as duas janelas que existem e a informação de
+que a tabela de metas não declara a sua. Não há alvo de conversion rate,
 CTOR, EPC nem bounce nesta tabela; bounce só aparece no glossário, "\<2%" (L437).
 E não há critério de tamanho de lista: os mesmos números valem, no texto, "across
 every brand" (L178).

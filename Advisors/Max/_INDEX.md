@@ -9,7 +9,9 @@ status: rascunho
 
 Corpus de conhecimento de Max Sturtevant (Well Copy) sobre email e SMS
 marketing para e-commerce, extraído de um curso de 9 módulos. Fonte única:
-`CONTEUDO BRUTO/max.md`, 9.544 linhas.
+`CONTEUDO BRUTO/max.md`, **9.545 linhas** — `wc -l` conta 9.544 porque o arquivo
+termina sem quebra de linha, e a L9545 carrega um PNG em base64 com a definição
+do segmento do Sunset Flow. Ver [[_fontes]].
 
 Este corpus é **isolado**. Não referencia nem é referenciado por
 `Admin Convertfy/Emails/` — aquilo é outra doutrina, de outro autor, sobre o
@@ -28,9 +30,9 @@ roteamento abaixo.
 | A pergunta é sobre... | Leia, nesta ordem |
 |---|---|
 | "por onde eu começo", visão geral da disciplina | [[fundamentos/_index]] |
-| que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] |
-| número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto. Só descer para [[_numeros-completo]] se a medida não estiver entre as dezessete mais pedidas |
-| montar ou corrigir um flow | [[flows/_index]] → a nota do flow → [[_conflitos]] |
+| que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] → [[_conflitos-completo]] se o slug tiver entrada lá |
+| número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto. Só descer para [[_numeros-completo]] se a medida não estiver entre as dezessete mais pedidas, e para [[_conflitos-completo]] se o slug tiver entrada lá |
+| montar ou corrigir um flow | [[flows/_index]] → a nota do flow → [[_conflitos]] (→ [[_conflitos-completo]]) |
 | campanha, calendário, segmentação | [[campanhas/_index]] |
 | escrever copy, subject line, exemplo | [[copy/_index]] → bloco Templates da nota do assunto |
 | layout, seção do email, imagem | [[design/_index]] |
@@ -57,13 +59,14 @@ roteamento abaixo.
 | [[otimizacao/_index]] | testes A/B: o que compara e quando vale rodar |
 | [[sms/_index]] | doutrina, 5 flows, calendário, horários de envio |
 
-# As sete notas de controle
+# As oito notas de controle
 
 | Nota | Para quê |
 |---|---|
 | [[_numeros]] | as três regras de uso, as 17 medidas mais pedidas e as armadilhas de número. É esta que se abre |
 | [[_numeros-completo]] | as 44 tabelas por domínio — todo número do corpus, verbatim. Só sob demanda, a partir de [[_numeros]] |
-| [[_conflitos]] | onde o corpus se contradiz, e como responder quando isso acontece |
+| [[_conflitos]] | o índice dos 126 slugs de contradição + as duas seções transversais na íntegra. É esta que se abre |
+| [[_conflitos-completo]] | as 108 entradas por módulo e o registro de arbitragem. Só sob demanda, a partir de [[_conflitos]] |
 | [[_cobertura]] | o que o corpus cobre, com que densidade, e o que falta |
 | [[_fontes]] | mapa linha→módulo→registro, e o que foi descartado, com motivo |
 | [[_casos-de-teste]] | as perguntas de verificação |

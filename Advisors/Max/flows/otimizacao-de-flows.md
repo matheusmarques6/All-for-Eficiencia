@@ -135,8 +135,21 @@ corpus. Site abandon só tem o delay do primeiro email (L2369-2375), nada entre 
   quatro vezes), com a regra explícita "Base it off the number of recipients
   that are receiving". Ver [[otimizacao/quando-vale-testar]].
 - Nenhum critério para decidir quando um vencedor de campanha "merece" entrar no
-  flow.
-- Nenhuma métrica de decisão — nem open rate, nem clique, nem receita.
+  flow. **Este** deck manda transplantar por ângulo e não diz o que qualifica um
+  vencedor.
+- **Este deck** não nomeia métrica de decisão — mas o corpus nomeia, no módulo de
+  otimização, e ela é explícita. Correção de escopo (varredura de falsos
+  negativos): uma versão anterior dizia "nenhuma métrica de decisão — nem open
+  rate, nem clique, nem receita", o que faz recusar a pergunta mais óbvia que
+  esta nota levanta. A fala de otimização decide assim, verbatim: "subject lines
+  and preview text should be used to drive more sales, not just for open rates"
+  (L8932-8934) e "**still should be looking at placed order rates, revenue,
+  number of recipients, over open rates. That's just going to be higher leverage
+  and what you really should be looking at here**" (L8940-8944). O slide
+  acrescenta o par para o teste de preço: "Measure both CTR and conversion rate"
+  (L9185). Ver [[otimizacao/testar-subject-line-por-receita]] — que é a nota
+  dedicada a isso — e [[otimizacao/quando-vale-testar]]. Ressalva: L8932-8944
+  está na faixa `outro-provavel`; não citar como fala de Max.
 - Nada sobre a ferramenta de A/B do Klaviyo, apesar de o deck inteiro assumir
   Klaviyo.
 - Os dois slots de exemplo do slide vieram vazios: "Example of Text Based sale

@@ -77,8 +77,14 @@ a fala tem: lista de 5.000-20.000 pessoas não sustenta 5-6x (L4276-4278).
 | Suppress List | ≥5 emails recebidos + 0 aberturas em 365 dias OR ≥3 bounces OR ≥1 spam | nenhum |
 
 Sintaxe verbatim, em inglês, em [[segmentacao]]. Célula vazia declarada: o
-corpus não dá segmento de exclusão além do suppress list, e o Sunset Flow
-prometido em L5127 nunca é desenvolvido.
+corpus não dá segmento de exclusão além do suppress list.
+
+**Correção de escopo (varredura de falsos negativos):** a frase anterior seguia
+com "e o Sunset Flow prometido em L5127 nunca é desenvolvido". A **promessa** de
+L5127 nunca é cumprida, verdade — mas o Sunset Flow **é** coberto em parte fora
+deste módulo: finalidade no glossário (L411), recomendação de uso (L92-94) e a
+definição do segmento no PNG embutido na L9545. Ver [[flows/sunset]]. Não
+recusar por inteiro.
 
 # O que atravessa esta pasta e mora fora dela
 

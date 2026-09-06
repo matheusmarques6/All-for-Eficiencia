@@ -127,7 +127,16 @@ DNS, lá é onde o email cai.
 
 # O que o corpus não diz
 
-- O que SPF, DMARC ou DKIM fazem. As siglas são listadas, nunca explicadas.
+- O que SPF, DMARC ou DKIM fazem **individualmente**. Correção de escopo
+  (varredura de falsos negativos): a versão anterior dizia "as siglas são
+  listadas, nunca explicadas", e isso é falso fora deste módulo. O glossário de
+  fundamentos as define em uma linha — "**DKIM / SPF / DMARC** – Email
+  authentication protocols" (L452) — e o próprio deck daqui diz o que elas são
+  fisicamente: "Fancy records hosted by your domain provider in your DNS
+  settings (MX, SPF, DMARC, DKIM)" (L8671). Ou seja: o corpus diz que são
+  protocolos de autenticação hospedados como registro de DNS no provedor de
+  domínio; o que ele nunca diz é o que **cada uma** verifica nem em que ordem.
+  Ver [[fundamentos/glossario-deliverability-e-plataforma]].
 - Se o MX é requisito ou não (o slide se contradiz).
 - Nenhum passo de tela, nenhum valor de registro, nenhum print. O procedimento
   inteiro é: leia o artigo do Klaviyo, cheque no Glockapps.

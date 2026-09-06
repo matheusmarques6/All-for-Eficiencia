@@ -112,11 +112,21 @@ send good content, people will open your emails so matter what" (L6849 —
 # O que o corpus não diz
 
 - Nenhum limite de caracteres, nem menção a truncamento em Gmail/Apple Mail.
+  Varredura: `characters` / `character limit` / `truncat` no arquivo inteiro só
+  batem no limite de 160 do SMS (L9231-9233, L9390-9411) — nada sobre email.
 - Nenhuma regra sobre emoji em preview text — emoji é regra só de subject line
   (L6820), embora a fala misture os dois ao falar em "adding emojis where they
   make sense" (L6197).
 - Nenhum critério de quando usar a tática do preview text vazio: frequência,
   tipo de campanha ou risco de repetição não são tratados.
+
+**Um caso em que a ausência é forçada, e o corpus diz.** Correção de escopo
+(varredura de falsos negativos): há um tipo de email em que preview text não é
+tática nem escolha — **email de texto puro não tem preview text**, por limitação
+da plataforma. Verbatim, no walkthrough do editor text-only do Klaviyo: "plain
+text emails. **You don't get to have preview text. It's just how those are set
+up**" (L5227). Ver [[campanhas/email-de-texto-puro]]. Não confundir com a tática
+disruptiva de L6209-6215, que é uma escolha em email gráfico.
 
 # Ver também
 

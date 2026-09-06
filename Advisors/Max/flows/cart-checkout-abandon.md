@@ -152,6 +152,13 @@ always done" (L2987-2991).
 # O que o corpus não diz
 
 - **Nenhum delay, filtro ou condição de saída.** Ver a tabela acima.
+  **Evidência da varredura:** `time delay|hour|minute|wait` na fala do módulo
+  (L2618-3020) e no deck (L3777-3918) devolve zero; `kick|exclude|exclusion|
+  filter|zero times|skip|exit` em toda a faixa de flows (L1307-4186) devolve
+  cinco linhas e nenhuma delas é de cart ou checkout. O vizinho — e é só
+  vizinho — é o teste 30min × 4h do módulo de otimização (L8952-8962), que
+  reporta vencedor "at least on the site abandoned". Ver
+  [[otimizacao/flow-time-delays]].
 - Qual desconto usar no email 3. Os exemplos são $35 (L2871), 20% (L2923), "1x%"
   (L2911, ASR corrompido) — nenhum vira regra.
 - Se o cart abandon deve excluir quem já entrou no checkout abandon, apesar de

@@ -94,10 +94,26 @@ Fator extra que só aparece na fala: carga de trabalho criativa da equipe —
 
 # O que o corpus não diz
 
-Não há regra para *qual* dia da semana nem para horário de envio de campanha
-nesta faixa. Não há critério para quando subir de tier além do próprio número
-de receita/tráfego. Não há regra de rampa: o corpus não diz em quanto tempo
-passar de 2x para 4x.
+Não há critério para quando subir de tier além do próprio número de
+receita/tráfego. Não há regra de rampa **de frequência**: o corpus não diz em
+quanto tempo passar de 2x para 4x.
+
+**Correção de escopo (varredura de falsos negativos).** Duas frases desta seção
+diziam mais do que podiam.
+
+- **Dia e horário existem, em outro módulo.** O que não os tem é *esta faixa*.
+  Horário: "Typically, we've found around **11am-12pm** to perform the best.
+  Main times to test would be 9am, 12pm, 2pm, and 4pm" (L9148, slide), com caso
+  real de 11h contra 13h45 (L8846-8852). Dia da semana: não há dia prescrito,
+  mas há **método** — "you can always export all the data from Klaviyo (…)
+  placed order, average placed order and break things down by day"
+  (L9034-9036). Ver [[otimizacao/send-time]] e [[otimizacao/outros-testes]].
+- **Rampa existe, mas é de volume, não de frequência.** O módulo de
+  deliverability prescreve uma: "start small, gradually increase from 25 to 50
+  percent based on performance" (L8556) e a cadência de warming "3-4x por
+  semana" (L8557), com o caso de 1.000 → 120.000 em 60 dias (L8607-8622). É o
+  vizinho a oferecer, marcando que **é rampa de destinatários, não de número de
+  campanhas por semana**. Ver [[deliverability/warming-do-dominio]].
 
 # Ligações
 

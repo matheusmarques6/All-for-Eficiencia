@@ -78,5 +78,12 @@ que, portanto, não têm fala nem tabela para confirmar: `Bounce Rate` "\<2%"
 (L437), `List Cleaning` "60–90+ days" (L443) e `Email Width` "600–700px" (L469).
 Citáveis, sempre marcando que a origem é exclusivamente o glossário.
 
-Também não há definição de `Sunset Flow` além da linha do glossário (L411) — o
-resto do corpus tem só o título.
+**Correção de escopo (varredura de falsos negativos).** Uma versão anterior desta
+nota dizia que "não há definição de `Sunset Flow` além da linha do glossário
+(L411) — o resto do corpus tem só o título". **É falso.** A linha do glossário é
+a única definição *em texto*; a **definição do segmento** existe e está num
+registro que a busca textual não alcança — o PNG embutido na **L9545**, apontado
+por `![][image1]` na L3402: 180 dias sem abrir · 180 dias sem clicar · ≥10 emails
+recebidos · zero pedidos over all time. Ver [[flows/sunset]], que lê o print
+condição por condição. O que o corpus de fato não tem é sequência, delay,
+contagem de emails e copy do flow.

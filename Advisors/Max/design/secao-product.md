@@ -90,7 +90,11 @@ E, na versão mínima: cada produto com seu botão, e um botão geral no fim
 
 Layout da grade (quantos por linha), se produto tem preço, se tem desconto, como
 ordenar os produtos, ou o que a "underline" do título deve parecer. O deck
-promete "Optimized Product Section Example:" (L8289) e não mostra nenhum.
+promete "Optimized Product Section Example:" (L8289) e não mostra nenhum — a
+linha seguinte já é `# **Footer**`. Nota de inventário: **este rótulo e o
+"Great Examples That Follow Best Practices" (L8143) faltavam na contagem de
+legendas vazias de GAMMA DESIGN** de [[_fontes]] e [[_cobertura]], que diziam 13.
+São 15. Corrigido lá.
 
 Ver [[secao-footer]] — o footer repete a lógica do catch-all com botões de
 categoria.

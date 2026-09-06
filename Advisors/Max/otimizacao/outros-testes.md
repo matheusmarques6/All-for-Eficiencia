@@ -118,7 +118,27 @@ para quando "you're explaining something a bit more in depth".
 
 # O que o corpus não diz
 
-Nenhum destes 13 tem número, vencedor ou caso. A aula encerra citando material que
-não está no corpus: "there's another document we have that outlines some of the
+**Nesta lista** nenhum dos 13 vem com número, vencedor ou caso — a narração
+atravessa tudo sem parar em resultado. A aula encerra citando material que não
+está no corpus: "there's another document we have that outlines some of the
 higher leverage AB tests with a little bit more info on it as well"
 (L9094-9096).
+
+**Correção de escopo (varredura de falsos negativos).** A frase anterior era
+"nenhum destes 13 tem número, vencedor ou caso", sem qualificador — e isso é
+falso no escopo do corpus, porque **dois dos 13 são re-listagens de testes que
+têm vencedor declarado no mesmo módulo**, poucas linhas antes:
+
+- **Send Time and Day of Week** (L9194) já aparece como teste de topo (L9143) e
+  tem caso com número: 11h contra 13h45, "about five X the amount of placed
+  orders and three X the number of recipients, higher click rates, higher open
+  rates" (L8846-8852), mais o padrão declarado "around 11am-12pm to perform the
+  best" (L9148). Ver [[send-time]].
+- **Graphic vs. Plain Text vs. Branded Plain Text** (L9186) já aparece em L9151 e
+  tem vencedor declarado, ainda que sem número: "text base sale winner"
+  (L8866-8868). Ver [[grafico-vs-texto]].
+
+Isto é o mesmo problema de lista redundante já registrado em "Onde o corpus
+discorda" — só que ali estava tratado como duplicata e aqui virava lacuna. Quem
+perguntar "ele tem resultado de algum desses testes?" recebe **dois**, não zero.
+Os outros onze continuam sem caso.

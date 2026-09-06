@@ -139,4 +139,10 @@ A exceção à regra, e a única declarada (L8462-8466):
 - Se `Active on Site` e `Placed An Order` dependem da integração Shopify.
 - Quanto tempo esperar entre um ajuste de lista e o próximo — só "if you start
   to get" (L8728-8729), sem número de envios.
-- O que fazer com quem fica de fora do segmento. Não há sunset flow aqui.
+- O que fazer com quem fica de fora do segmento. **Não há sunset flow nesta
+  pasta** — mas há fora dela, e é o vizinho a oferecer em vez de recusar:
+  finalidade no glossário (L411) e a definição do segmento no print da L9545
+  (180 dias sem abrir · 180 sem clicar · ≥10 emails recebidos · 0 pedidos),
+  em [[flows/sunset]]; e a **Suppress List** completa do deck de campanhas
+  (L5592), em [[campanhas/segmentacao]]. O que continua faltando é a sequência
+  do sunset e a decisão entre "remove **or** suppress".

@@ -161,10 +161,29 @@ manageable", já que o Klaviyo cobra por perfil (L5133, L5592).
 
 Não há segmento de exclusão declarado além do suppress list — o bullet do
 módulo diz "Exclusion segments should include (but not be limited to): Bounced
-3+ times" (L4839-4840) e nunca completa a lista. O Sunset Flow, prometido em L5127
-("We'll talk about this more in the Sunset Flow"), não é desenvolvido em lugar
-nenhum do corpus — e a promessa é do outro narrador, não dele. Não há regra de quando dessuprimir além de "BFCM e
-talvez outros eventos" (L4985).
+3+ times" (L4839-4840) e nunca completa a lista. Não há regra de quando
+dessuprimir além de "BFCM e talvez outros eventos" (L4985).
+
+**Correção de escopo (varredura de falsos negativos).** Uma versão anterior desta
+nota dizia que o Sunset Flow "não é desenvolvido em lugar nenhum do corpus".
+**É falso, e leva à recusa de algo que o corpus responde.** O que não é
+desenvolvido é *esta aula*: a promessa de L5127 ("We'll talk about this more in
+the Sunset Flow" — e quem a faz é o outro narrador, não Max) nunca é cumprida
+aqui. Fora daqui o corpus dá três coisas:
+
+- **finalidade**, verbatim no glossário: "Sunset Flow – Triggered when a contact
+  is no longer engaging. Removes or suppresses inactive users" (L411, slide);
+- **recomendação de uso**, na lista dos oito flows "recommended flows when just
+  starting out" (L92, L94);
+- **a definição do segmento**, lida do PNG embutido na L9545 (apontado por
+  `![][image1]` na L3402): 180 dias sem abrir · 180 dias sem clicar · ≥10 emails
+  recebidos · zero pedidos over all time.
+
+Ver [[flows/sunset]], que já tinha isso, e [[_cobertura]] — onde o Sunset é o
+caso-escola de **cobertura parcial**, não de lacuna total. O que falta mesmo é
+sequência, delay, contagem de emails e copy. E cuidado ao responder: sunset e
+suppress list **não** são a mesma coisa e dão limiares diferentes (180 dias aqui,
+365 lá) — nunca transpor um para o outro.
 
 # Ligações
 

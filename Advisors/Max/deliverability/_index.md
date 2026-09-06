@@ -93,7 +93,12 @@ lista** — "If it starts dipping below 40, I definitely wouldn't be expanding i
 # O que esta pasta não cobre
 
 - Como escrever o email. Isso é `copy/` e `design/`.
-- Sunset flow ou limpeza de lista — o corpus não trata aqui.
+- Sunset flow ou limpeza de lista — **esta pasta** não trata. Os dois existem
+  fora dela e são o vizinho: [[flows/sunset]] (finalidade em L411, segmento no
+  print da L9545) e a **Suppress List** completa do deck de campanhas, ≥5 emails
+  recebidos AND 0 aberturas em 365 dias OR ≥3 bounces OR ≥1 spam (L5592) — ver
+  [[campanhas/segmentacao]]. O glossário ainda dá um alvo de `List Cleaning`,
+  "60–90+ days" (L443), que **só existe ali** ([[fundamentos/glossario]]).
 - SMS deliverability. Nada nesta faixa.
 - O que fazer quando click rate, bounce rate ou spam complaint furam o alvo. Há
   meta, não há protocolo de reação — só para o caso de spam

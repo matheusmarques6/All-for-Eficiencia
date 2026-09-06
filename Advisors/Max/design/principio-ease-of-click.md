@@ -84,7 +84,17 @@ Centered Button, ❌ Unclear, Small Button, Uncentered, Small Button (L8173-L817
 — sem nenhuma imagem no bruto. São âncoras vazias: não sustentam afirmação.
 Note que a quarta perdeu o ❌ (L8179), provavelmente erro do deck.
 
-Também não há: cor, contraste medido, raio de canto, altura de botão, nem o que
-fazer quando a marca não tem cor de contraste disponível.
+Também não há: **valor** de cor, contraste medido, raio de canto, altura de
+botão, nem o que fazer quando a marca não tem cor de contraste disponível.
+
+**Correção de escopo (varredura de falsos negativos).** A lista acima dizia
+antes "não há: cor", e isso contradiz o corpo desta própria nota. A prescrição de
+cor **existe** — só é qualitativa, nunca numérica. Nos dois registros: slide,
+"Use **high-contrast colors** and simple backgrounds. Your buttons should be the
+most obvious thing in the email" (L8142) e "Avoid distracting backgrounds and use
+**contrasting colors** to get your CTAs to stand out" (L8166); fala, o único
+contra-exemplo nominal de cor, "You don't want to use like a **blue** button
+here" (L7045-7047). O que falta é hex, faixa de contraste medida e regra para
+marca sem cor disponível.
 
 Ver [[principio-skimmability]] e [[principio-branding]] para os outros dois.

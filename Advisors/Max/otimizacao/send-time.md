@@ -100,6 +100,14 @@ destinatários que compraram, não destinatários do envio —
 # O que o corpus não diz
 
 Fuso horário, listas internacionais, e nada sobre a função de otimização de
-horário do Klaviyo — "Smart Sending" aparece uma única vez no corpus inteiro, no
-glossário, e é outra coisa (L447). Dia da semana é tratado como teste separado,
-em [[outros-testes]].
+horário do Klaviyo. Dia da semana é tratado como teste separado, em
+[[outros-testes]].
+
+**Evidência da varredura (falsos negativos).** Procurado no arquivo inteiro e
+não achado: `time zone` = 0 · `timezone` = 0 · `send time optimization` = 0 ·
+`Europe` `European` `Australia` `international` = 0 cada. `smart send` tem uma
+ocorrência e **é outra coisa** — "**Smart Sending** – Klaviyo feature that skips
+sending to people recently emailed. **Turn off for flows!**" (L447, glossário):
+é trava de frequência, não otimização de horário, e a única prescrição associada
+é desligá-la em flow. Os horários desta nota, portanto, são absolutos e sem
+recorte geográfico. Ver [[_cobertura]] §"Mercados fora dos EUA".

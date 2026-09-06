@@ -124,7 +124,10 @@ serem para os primeiros 14 dias.
 
 # O que o corpus não diz
 
-- Nenhum filtro, nenhuma condição de saída.
+- Nenhum filtro, nenhuma condição de saída. **Evidência da varredura:**
+  `kick|exclude|exclusion|filter|zero times|skip|exit` em L1307-4186 devolve só
+  L1540-1546 (welcome), L2349 (site abandon) e L3318 (winback). Zero na faixa
+  de post-purchase, nos dois registros.
 - O delay do email 2 nunca vira número: "a couple days" (L3066) é tudo.
 - Como o split por número de compras muda a copy — ele promete exemplos
   ("we'll have examples for you", L3084) e não entrega na faixa.

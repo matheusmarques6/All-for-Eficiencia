@@ -105,6 +105,13 @@ copy (L6805): `otimizacao-teto-de-abertura`.
 # O que o corpus não diz
 
 O que é "adding time delays" numa subject line — o termo aparece nos dois
-registros e nunca é explicado. Não há nesta faixa nenhum par A/B de exemplo,
+registros e nunca é explicado. **Evidência da varredura (falsos negativos):**
+`time delay` no arquivo inteiro devolve oito linhas, e nenhuma explica o termo
+no sentido de subject line. Sete são de outra coisa — editor de flow (L98),
+tempo de exibição de pop-up (L1274), delay entre emails de flow (L4141,
+L8950, L9176) — e as três restantes (L4161, L8924, L9173) são a própria
+listagem do teste, repetida verbatim nos dois decks. Não deduzir o que
+significa: pode ser contagem regressiva na SL, pode ser prazo de oferta, e o
+corpus não decide. Não há nesta faixa nenhum par A/B de exemplo,
 nenhum comprimento em caracteres e nenhum caso com número: os exemplos de SL
 vivem no módulo de copy.

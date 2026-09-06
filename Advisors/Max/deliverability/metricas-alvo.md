@@ -126,8 +126,12 @@ Ver `deliverability-unsubscribe-afeta-ou-nao` em [[_conflitos]].
 
 # O que o corpus não diz
 
-- Prazo ou janela de medição de qualquer métrica (últimos 30 dias? por campanha?
-  vitalício?).
+- Prazo ou janela de medição **destes alvos** (últimos 30 dias? por campanha?
+  vitalício?). Correção de escopo (varredura de falsos negativos): o corpus tem
+  duas janelas declaradas, e elas medem outra coisa — atribuição de receita, 3 a
+  5 dias após o clique (L54), e leitura do painel, 30 dias contra os 30
+  anteriores (L64). Ver [[fundamentos/dashboard-do-klaviyo]]. Oferecer as duas e
+  marcar que **nenhuma é a janela do alvo**; nunca transpor uma para a outra.
 - Se as metas valem para campanhas, para flows, ou para os dois.
 - Se `bounce rate < 1%` conta hard, soft ou a soma.
 - Como excluir quem marcou spam — só que se deve excluir (L8452).

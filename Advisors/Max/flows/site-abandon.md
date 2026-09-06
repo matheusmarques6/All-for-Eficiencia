@@ -123,5 +123,9 @@ campaigns per week from you, so we don't need to go too too crazy"
 - Nenhum filtro. Nenhum delay entre email 1 e email 2.
 - Nada sobre bloco dinâmico neste flow — coerente, já que a pessoa não viu
   produto nenhum. Mas ele nunca declara isso.
-- Nada sobre desconto neste flow, em nenhum dos dois registros.
+- Nada sobre desconto neste flow, em nenhum dos dois registros. **Evidência da
+  varredura:** `discount|% off|code|offer` na faixa falada (L2330-2470) devolve
+  uma única linha, e é "offer support" (L2383), sem relação com desconto; o
+  deck (L3607-3664) não traz a palavra. Diferente de browse, cart/checkout e
+  winback, que têm.
 - Os dois slots "**Email Example:**" do slide (L3642, L3663) vieram vazios.

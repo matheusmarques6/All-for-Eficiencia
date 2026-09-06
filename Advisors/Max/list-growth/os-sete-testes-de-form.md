@@ -75,9 +75,29 @@ de 6s (L1033) e em outro 4-6s (L194). Ver `list-growth-time-delay` e
 
 # O que o corpus não diz
 
-Não há tamanho mínimo de amostra, duração mínima de teste, nem limiar de
-significância. O único gate declarado é qualitativo: "depending on your site
-traffic" (L663). Também não diz como priorizar entre os sete além da ordem em
-que estão listados — oferta e tipo de form são explicitamente chamados de
-alavancas maiores (L1262, L1266) e cor explicitamente de alavanca pequena
-(L1286); os quatro do meio ficam sem ranking.
+Não diz como priorizar entre os sete além da ordem em que estão listados —
+oferta e tipo de form são explicitamente chamados de alavancas maiores (L1262,
+L1266) e cor explicitamente de alavanca pequena (L1286); os quatro do meio ficam
+sem ranking.
+
+**Correção de escopo (varredura de falsos negativos).** Uma versão anterior desta
+nota dizia "não há tamanho mínimo de amostra, duração mínima de teste, nem
+limiar de significância. O único gate declarado é qualitativo: 'depending on your
+site traffic' (L663)". **Duas coisas erradas nessa frase.**
+
+1. **A citação de L663 estava cortada na metade.** A linha continua e dá um gate
+   quantitativo: "You should be doing these depending on your site traffic, **but
+   at least for like bi-weekly. Once every two weeks, run some sort of test**"
+   (L663) — como o próprio corpo desta nota já registra em "O que é". Cadência
+   mínima declarada: uma quinzena.
+2. **A régua de amostra existe, em outro módulo.** L8800-8820 (otimização) define
+   conclusividade por número de destinatários: lista de 1.000 partida 500/500 "is
+   not enough data"; 100k-500k resolve em um ou dois envios; 5k-10k exige repetir
+   três ou quatro vezes; e a regra explícita "Base it off the number of
+   recipients that are receiving". Ver [[otimizacao/quando-vale-testar]]. Não é
+   régua de form — é de campanha —, mas é o vizinho, e recusar sem oferecê-lo é
+   erro.
+
+O que **de fato** falta: nenhum nível de significância, nenhum p-valor, nenhuma
+duração em dias, e nenhuma régua de amostra específica para **form** (a de
+L8800-8820 conta destinatários de email, não visitantes de site).

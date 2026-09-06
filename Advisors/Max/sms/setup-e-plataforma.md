@@ -75,6 +75,17 @@ ver [[crescer-a-lista]].
   aprovação de carrier — só "set up a phone number" (L9235, L9302).
 - Nenhum preço, nenhum plano, nenhuma faixa de volume: "relatively same price"
   (L9236, L9315) é o mais específico que fica.
-- Nada sobre compliance, TCPA, texto de consentimento ou opt-out obrigatório,
-  apesar de ele citar legislação americana em [[flows-sms]] (L9461).
+- Nada sobre compliance **de SMS** — nem TCPA, nem texto de consentimento, nem
+  opt-out obrigatório —, apesar de ele citar legislação americana em
+  [[flows-sms]] (L9461). Varredura, arquivo inteiro: `TCPA` `CTIA` `10DLC`
+  `short code` `toll-free` = 0 cada; `carrier` = 2 e as duas são "baby
+  carriers" (L2076, L2080), copy de exemplo de marca.
+  **Correção de escopo (varredura de falsos negativos):** compliance **de
+  email** existe, e é o vizinho a oferecer — o glossário tem uma seção inteira,
+  `### 🔐 **Compliance & Consent**` (L499-507), com sete definições de uma linha:
+  Opt-In, Double Opt-In, GDPR, CAN-SPAM, CASL, Unsubscribe Link, Preference
+  Center. Duas ressalvas ao usá-la: são todas de email, e a fala manda ignorar a
+  seção — "compliance and consent. **which you really don't, don't need to know
+  these**" (L229). Ver [[fundamentos/glossario]] e [[_cobertura]] §"Consentimento
+  e compliance de SMS".
 - Nenhum critério para migrar de plataforma depois de escolhida.

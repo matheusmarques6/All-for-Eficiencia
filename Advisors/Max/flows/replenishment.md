@@ -113,7 +113,10 @@ stock or something like that if you want to" (L3263).
 
 # O que o corpus não diz
 
-- Nenhum filtro. Nenhuma condição de saída configurada.
+- Nenhum filtro. Nenhuma condição de saída configurada. **Evidência da
+  varredura:** `kick|exclude|exclusion|filter|zero times|skip|exit` em
+  L1307-4186 devolve só L1540-1546, L2349 e L3318 — nenhuma na faixa de
+  replenishment (L3225-3300 e L3982-4039).
 - Como calcular o delay para um produto específico — só os três exemplos de
   duração (L3996-3998).
 - Se o flow deve ser splitado por produto, apesar de a duração de consumo variar

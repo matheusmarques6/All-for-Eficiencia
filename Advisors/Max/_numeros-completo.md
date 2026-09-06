@@ -919,8 +919,19 @@ Optimization é cópia quase verbatim do deck de Flows
 
 **O que o módulo cita mas não quantifica.** A margem de vitória do teste gráfico
 × text-based é anunciada nos dois registros (L8866, L9157) e nunca informada.
-Nenhum dos 13 testes de fechamento tem número. Não há **nenhum** limiar
-estatístico em todo o módulo: sem significância, sem amostra mínima, sem duração.
+Nenhum dos 13 testes de **fechamento** (L9184-9209) traz número — mas dois deles
+são re-listagens de testes que têm caso numerado antes, no mesmo módulo: send
+time (L8846-8852) e gráfico × texto (L8866). Ver [[otimizacao/outros-testes]].
+
+**Correção de escopo (varredura de falsos negativos).** A frase anterior dizia
+"não há **nenhum** limiar estatístico em todo o módulo: sem significância, sem
+amostra mínima, sem duração". **Amostra mínima existe**, e está neste módulo:
+L8800-8812 dá a régua por número de destinatários — 500/500 numa lista de 1.000
+"is not enough data", 100k-500k resolve em um ou dois envios, 5k-10k exige
+repetir três ou quatro vezes — com a regra explícita "Base it off the number of
+recipients that are receiving" (L8814-8816). O que **de fato** não existe é
+significância, p-valor, intervalo de confiança e duração em dias. Ver
+[[otimizacao/quando-vale-testar]] e [[_cobertura]].
 
 ---
 
@@ -1062,6 +1073,11 @@ está no arquivo, só a promessa.
   (L4197, L4374-4378 dão só a regra qualitativa).
 - Com que frequência rotacionar um disruptor antes que ele vire padrão
   (L6199-6221).
-- Qualquer limiar estatístico de A/B: significância, amostra mínima, duração.
+- Limiar **estatístico** de A/B: significância, p-valor, intervalo de confiança,
+  duração em dias, teto de testes simultâneos. **Não incluir amostra mínima
+  nesta lista** — ela existe (L8800-8816, régua por número de destinatários) e já
+  foi derrubada como falsa lacuna em [[_cobertura]]. Ver
+  [[otimizacao/quando-vale-testar]]. Cadência mínima de teste de form também
+  existe: "at least for like bi-weekly" (L663).
 - Sequência, delays e copy do Sunset Flow — existe finalidade (L411) e definição
   de segmento (print base64, L9545), nada mais.

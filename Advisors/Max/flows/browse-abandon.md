@@ -142,7 +142,11 @@ Klaviyo para conferir (L2594-2596).
 
 # O que o corpus não diz
 
-- Nenhum filtro, nenhuma condição de saída configurada.
+- Nenhum filtro, nenhuma condição de saída configurada. **Evidência da
+  varredura:** `kick|exclude|exclusion|filter|zero times|skip|exit` em toda a
+  faixa de flows (L1307-4186) devolve só L1540-1546 (welcome), L2349 (site
+  abandon) e L3318 (segmento do winback). Nada na faixa do browse abandon —
+  nem na fala (L2440-2618) nem no deck (L3665-3776).
 - Qual desconto usar no email 3 (o exemplo é 10%, L2554, mas nunca vira
   regra).
 - Se o split para excluir compradores anteriores é recomendado ou apenas

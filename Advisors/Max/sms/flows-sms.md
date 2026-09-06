@@ -119,7 +119,18 @@ discount and keep it general" (L9475).
   nem supressão de quem já comprou.
 - Nenhum delay para o primeiro SMS do welcome — só que dispara depois do sign-up
   (L9429).
-- Nada sobre post-purchase, cross-sell, sunset ou back-in-stock em SMS.
+- Nada sobre post-purchase, cross-sell ou sunset **como flow de SMS** — os cinco
+  flows são welcome, browse, cart, checkout e winback, e a lista fecha ali.
+  **Correção de escopo (varredura de falsos negativos):** a versão anterior
+  incluía "back-in-stock" nessa lista, e isso é falso. Back-in-stock existe em
+  SMS — só que como **conteúdo de campanha**, não como flow. Fala: "you can also
+  create angles that make something seem important like a **back in stock**
+  message" (L9249). Slide: "Sales, flash discounts, new product drops,
+  **restocks**, etc" (L9498) e, no calendário de exemplo, "Notice the use of
+  reminders and filling in an empty space with a product restock. **Restocks are
+  a great way to get traction when you aren't sure what to send**" (L9504-9505).
+  Já estava em [[o-que-enviar]] e [[calendario-e-horarios]]. Quem perguntar por
+  back-in-stock em SMS recebe a resposta de campanha e a lacuna de flow.
 - O template do winback não tem rótulo de mensagem nem placeholder de link: a
   última linha é "Shop 10% OFF:" e termina ali (L9482).
 - A restrição legal é afirmada sem fonte, e sem dizer se vale também para

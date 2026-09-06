@@ -57,9 +57,21 @@ Notas da tabela:
   subject lines e quick tips, e nenhum delay, filtro ou condição de saída em
   nenhum dos dois registros (L2618-3019 e L3777-3914).
 - **Welcome é o único flow com filtros declarados** no corpus inteiro.
-- **Winback é o único disparado por segmento.** Ele explicita o contraste: "all
-  the other flows, we're using an actual trigger of some sort where it's some
-  sort of metric connected to Shopify" (L3314).
+  **Evidência da varredura (falsos negativos):** `grep -n -i
+  "kick\|exclude\|exclusion\|filter\|zero times\|skip\|exit"` em toda a faixa de
+  flows (L1307-4186) devolve cinco linhas de conteúdo e só cinco — L1540, L1542
+  e L1546 (welcome), L2349 (saída do site abandon) e L3318 (segmento do
+  winback). Browse abandon, cart abandon, checkout abandon, post-purchase e
+  replenishment não têm uma linha. A ausência foi procurada, não presumida.
+- **Winback e Sunset são os dois disparados por segmento**, não por metric.
+  Cuidado com L3314, que diz o contrário se lido isolado: "we want to trigger
+  this off of a segment. All the other flows, we're using an actual trigger of
+  some sort where it's some sort of metric connected to Shopify" — a frase é da
+  aula de winback e o Sunset não tem aula, então "all the other flows" ali
+  significa os seis com aula. O welcome é a terceira forma: dispara por **lista**
+  ("from that list, they trigger a welcome flow", L4881-4883), que é por que ele
+  nunca tem metric nomeada. Três formas de gatilho no corpus: metric, lista,
+  segmento.
 - O segmento do winback é prometido no slide (L4057) e não entregue ali; a
   definição existe fora da faixa de flows, em L5589 e L5057.
 
