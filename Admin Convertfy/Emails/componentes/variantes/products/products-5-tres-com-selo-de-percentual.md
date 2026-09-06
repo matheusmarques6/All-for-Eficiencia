@@ -33,7 +33,7 @@ serve_estruturas: []
 # --- proveniência ---
 fonte: inventario-2026-08-31
 densidade_no_banco: null
-schema_campos: 17
+schema_campos: 23
 status: aprovada
 ---
 

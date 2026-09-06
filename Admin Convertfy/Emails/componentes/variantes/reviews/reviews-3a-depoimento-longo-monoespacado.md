@@ -2,7 +2,7 @@
 tipo: componente
 slug: reviews-3a-depoimento-longo-monoespacado
 secao: reviews
-nome_no_banco: "review 3"
+nome_no_banco: "review 2"
 variant_id: 7dafa6ca-65de-4907-b52c-dad83ecd63a4
 ativa: true
 
@@ -32,10 +32,17 @@ serve_estruturas: []
 
 # --- proveniência ---
 fonte: inventario-2026-08-31
-densidade_no_banco: baixa
+densidade_no_banco: minimal
 schema_campos: 12
 status: aprovada
 ---
+
+> **Correção (04/09/2026).** O `nome_no_banco` desta nota dizia `review 3`.
+> O `variant_id` `7dafa6ca` é, no cadastro, a **`review 2`** — quem se chama
+> `review 3` é a peça de `reviews-3b-depoimento-longo-monoespacado`. As duas
+> descrevem o mesmo bloco e são a duplicata registrada em
+> `[[reviews-3-duplicado]]`: enquanto o cadastro não resolver, o Curador vê
+> duas fichas equivalentes e pode escolher qualquer uma.
 
 ## Descrição curta
 

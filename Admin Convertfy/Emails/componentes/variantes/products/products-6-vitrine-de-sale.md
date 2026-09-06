@@ -32,7 +32,7 @@ serve_estruturas: []
 
 # --- proveniência ---
 fonte: inventario-2026-08-31
-densidade_no_banco: baixa
+densidade_no_banco: minimal
 schema_campos: 8
 status: aprovada
 ---
