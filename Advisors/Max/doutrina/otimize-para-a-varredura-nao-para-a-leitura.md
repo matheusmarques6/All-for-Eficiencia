@@ -3,7 +3,7 @@ tipo: principio
 modulo: doutrina
 assunto: skim-vs-read
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4703-4707, L7157-7169 (transcrição); L5500-5501, L6516-6598, L8183-8195 (slide)"
 conflitos: [doutrina-segundos-de-atencao, doutrina-narrador-da-aula-de-ia]
 status: rascunho
@@ -11,14 +11,28 @@ status: rascunho
 
 # Aviso de autoria
 
-O princípio é seguro: aparece em dois decks (L6582, L8186) e na fala do módulo de
-design (L7163), que é narrada pelo Max — abre "Alrighty, now let's go over the
-actual principles of good email design" (L7007), a assinatura dele.
+**Faixa L4686-4828 (Creating Great Campaigns) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
 
-**A exceção é a fala do módulo de campanhas** (L4703-4707), que vem do vídeo
-aberto com "Hello, hello" em L4687 — assinatura do narrador que se refere a Max
-em terceira pessoa noutra aula (L5753). É de lá que sai a versão "2-3 segundos".
-Ver `doutrina-narrador-da-aula-de-ia`.
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+**O princípio é seguro.** Aparece em dois decks (L6582, L8186), artefato escrito
+de Max, e na fala do módulo de design (L7163), que é dele: L7000-7220 é
+`max-provavel` com idioleto A ("I'd recommend majority of them", L7029), e o
+módulo de design tem âncora `max-provado` em L7817.
+
+**A exceção é a fala do módulo de campanhas** (L4703-4707), que está na faixa
+não-Max. É de lá que sai a versão "2-3 segundos" e a frase "you've already lost
+the game" (L4707) — **não citáveis como fala dele**. Ver
+`doutrina-segundos-de-atencao`.
 
 # A observação
 
@@ -46,7 +60,7 @@ email" (L4703). O "agora" não concorda:
 |---|---|
 | 2-4 segundos | design — fala (L7161) e slide (L8185) |
 | 3 segundos, com "maybe" | copy (L6517) e campanhas (L5501) |
-| 2-3 segundos | campanhas, fala (L4705-4707) |
+| 2-3 segundos | campanhas, fala **não-Max** (L4705-4707) |
 
 Ver `doutrina-segundos-de-atencao`.
 
@@ -58,13 +72,14 @@ negritada carregando o argumento, body copy só como prova (L6584-6594). Do lado
 do design: simplicidade e seções claras, porque "complex designs will distract
 from the whole purpose of the email… to sell" (L8191, fala em L7167-7169).
 
-Ele dá a consequência de falhar em segundos, não em conversão: "If they can't
+A consequência de falhar é dada em segundos, não em conversão — e essa
+formulação é do outro narrador: "If they can't
 tell what your email is about in the first two to three seconds, you've already
 lost the game" (L4707).
 
-# Onde ele mesmo relativiza
+# Onde o corpus relativiza
 
-Ele não relativiza a regra — relativiza o número, e faz isso na própria escrita:
+A regra não é relativizada; o número é, e na própria escrita de Max:
 "you *maybe* have 3 seconds" (L5501, L6517). Nenhuma das versões vem com fonte,
 estudo ou medição.
 
@@ -73,8 +88,8 @@ nem ferramenta citada em lugar nenhum para saber se o email passou no critério.
 
 # Datação
 
-Ele atribui a queda a um conjunto nomeado de plataformas — TikTok, Instagram e
+O corpus atribui a queda a um conjunto nomeado de plataformas — TikTok, Instagram e
 Snapchat (L5497-5498, L6513-6514), "YouTube shorts, reels, TikTok, pick your
-poison" (L4697) — e intitula o slide "The 2025/2026 Customer" (L5495). Ele mesmo
+poison" (L4697) — e intitula o slide "The 2025/2026 Customer" (L5495). A fala de campanhas (não-Max)
 diz que a próxima plataforma de dopamina instantânea já vem vindo (L4697-4699):
 o número é da safra, o princípio é dele.

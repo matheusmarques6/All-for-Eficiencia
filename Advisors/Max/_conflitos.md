@@ -255,3 +255,183 @@ Marcadores de tipo usados no índice:
 
 **Total após deduplicação: 126 entradas canônicas**, mais 16 slugs redundantes
 que resolvem para elas.
+
+---
+
+# fundamentos
+
+As quatro entradas `*-glossario` estão na seção
+[[#Conflitos dentro do mesmo registro]], porque são slide contra slide no mesmo
+deck. `fundamentos-o-que-move-o-open-rate` está em [[#Conflitos entre módulos]].
+
+## fundamentos-roi-do-email
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "Email average is $36 plus in return for every $1 spent" | transcricao | L13 |
+| "Email averages **$36+ return for every $1 spent**" | slide | L285 |
+| "Email typically delivers ~40x ROI when done right" | slide (glossário) | L393 |
+
+**Como responder:** **$36+ por $1** — duas ocorrências, dois registros, redação
+quase idêntica. O 40x do glossário é uma terceira formulação sem fonte e com uma
+condicional que as outras não têm ("when done right"). Nenhum dos três vem com
+estudo citado. Se o número for usado, vá junto do contraste que ele faz na mesma
+frase: anúncio devolve "2 to 3 dollar" e há marcas satisfeitas com 0.8 ROAS (L13).
+
+## fundamentos-split-campanhas-flows
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "roughly 50% (…) 60/40, 40/60, depends on the brand a little bit. In general, you want to be around 50/50" | transcricao | L22 |
+| "around 50/50 or 40/60, 60/40 anywhere in that range" | transcricao | L60 |
+| "We want it to be 40 to 60% each so 40% campaigns, 60% flows. or 60% campaigns, 40% follows" | transcricao | L172-174 |
+| "around 50% of your total email revenue with the other 50% coming from campaigns" | slide | L326 |
+| "**Campaigns:** 40–60% of email revenue **Flows:** 40–60% of email revenue" | slide | L375 |
+
+**Como responder:** o **centro é 50/50** e isso é unânime — está nos dois
+registros e nas três falas. A divergência é na tolerância: "40/60 ou 60/40" (L22,
+L60) descreve dois pontos discretos; "40 a 60% cada" (L172, L375) descreve um
+intervalo contínuo. Não é a mesma afirmação, mas as duas produzem a mesma faixa
+operacional. Dê o centro e a faixa, e diga que ele nunca formula isso duas vezes
+do mesmo jeito. O critério de decisão **não é numérico**: "So it's going to take a
+little bit of context" (L22). O uso prático é diagnóstico, não meta: 14% em flows
+significa "the flows could use a lot of improvement" (L62).
+
+## fundamentos-denominador-dos-80
+
+| Valor | Denominador | Registro | Linha |
+|---|---|---|---|
+| "flows generating 80% of the total store revenue" | receita da **loja** | transcricao | L22 |
+| "roughly 50% of your total email revenue" | receita de **email** | transcricao | L22 |
+| "They should make up around 50% of your total email revenue" | receita de **email** | slide | L326 |
+
+**Como responder:** as duas primeiras frases estão **na mesma linha do bruto** e
+trocam de denominador no meio. O pilar #2 define flows como percentual da receita
+de email; o caso extremo citado na frase seguinte é percentual da receita da loja.
+80% da receita total da loja vindos de flows é um número extraordinário; 80% da
+receita de email é apenas um desequilíbrio dentro do próprio modelo dele. **Não
+escolher.** Cite a frase com o denominador que está escrito e sinalize que ela
+contradiz a definição do pilar duas frases antes. Conflito irmão:
+`flows-participacao-na-receita`.
+
+## fundamentos-limiar-de-escalar-aquisicao
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "If you're over that, say you're at like 60 percent, that tells you, okay, let's funnel some of our profits back into paid ads" | transcricao | L56 |
+| "If you get over 55%, you're kind of like at 60%, then it's like, okay, we need to scale our acquisition" | transcricao | L170 |
+| "\>55% \= time to scale acquisition" | slide | L374 |
+
+**Como responder:** **55%** — está no slide, que vence em especificação, e na fala
+da aula de métricas. Os 60% do walkthrough não são erro: L170 mostra que na cabeça
+dele os dois números são vizinhos. Dê 55% como gatilho e 60% como o exemplo que ele
+usa. O racional é o mesmo nas duas versões e é o que importa: acima da faixa o
+problema **não é o email**, é aquisição (L172).
+
+## fundamentos-piso-de-email-share
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "If you're anywhere under 30%, um 40%, then that tells you, okay, our email systems can be improved" | transcricao | L56-58 |
+| "if we have less than like 30% then we need to be doing better with our email marketing" | transcricao | L172 |
+| "30–50% is healthy" | slide, transcricao | L374, L170 |
+
+**Como responder:** **30%** é o piso, sustentado pela aula de métricas e pela faixa
+saudável dos dois registros. O "under 30%, um 40%" de L56-58 é hesitação de fala:
+ele começa em 30 e emenda 40 sem completar a frase. Não trate 40% como piso
+alternativo — 40% é a **meta** (L168, L374, L388), não o piso.
+
+## fundamentos-anuncios-por-dia
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "over 70 different e-commerce brand ads every single day" | transcricao | L9 |
+| "70+ ecom ads per day" | slide | L252 |
+| "this is, like, really low balling. I have some studies that say people see, like, 250" | transcricao | L9 |
+
+**Como responder:** ele desmonta o próprio número na frase seguinte a dizê-lo. Dê
+os dois: 70+ é o que vai no slide, 250 é o que ele diz acreditar, com a condição
+"if you're on, like, a lower—lower demographic". Nenhum dos dois tem fonte citada
+("I have some studies" não nomeia estudo nenhum). Se a pergunta depender do número
+para uma decisão, diga que o corpus não sustenta nem um nem outro — a função do
+dado no argumento dele é retórica, não analítica.
+
+## fundamentos-formula-da-lucratividade
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "Increased Cost Per Acquisition x Lower LTV x Tariffs \= Lower Profitability" | slide | L268 |
+| "increased cost per acquisition plus dec decrereased LTV plus tariffs, you got lower profitability" | transcricao | L9 |
+
+**Como responder:** conflito de formulação, não de conclusão — mas registrado
+porque produto e soma não são a mesma coisa e alguém pode citar a fórmula do slide
+como se fosse modelo. Não é: nenhum dos três termos é quantificado em lugar nenhum
+do corpus. Cite a versão do slide se o pedido for o artefato, a da fala se o pedido
+for o raciocínio.
+
+## fundamentos-smart-sending
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "skip recently emailed profiles, typically you want to send that off" — dito montando uma **campanha** | transcricao | L78 |
+| "Smart Sending – Klaviyo feature that skips sending to people recently emailed. **Turn off for flows**\!" | slide (glossário) | L447 |
+
+**Como responder:** os dois dizem para desligar; discordam sobre **onde**. A fala
+está no meio do fluxo de criação de campanha e não menciona flows; o glossário
+manda desligar em flows e não menciona campanhas — com exclamação, único item do
+glossário inteiro com instrução imperativa. "send that off" em L78 é ruído de ASR
+para *turn that off*. Responda: ele manda desligar nos dois contextos, cada um
+registrado uma vez, e o corpus nunca trata os dois na mesma frase. Não infira uma
+regra geral a partir das duas.
+
+## fundamentos-benchmark-do-form
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "you want to shoot for six to 12% of your total **email revenue**" | transcricao | L104 |
+| "or 6 to 12% of your total **site traffic**" — autocorreção na linha seguinte | transcricao | L106 |
+| "6-12%" | slide | L380 |
+
+**Como responder:** o denominador correto é **tráfego do site**, não receita de
+email — ele se corrige sozinho em L106 e a aritmética que faz em seguida confirma
+("if you have 1000 people viewing your site, you want to have at least 60 to, um,
+120 people", L108). Trate L104 como lapso de fala, não como posição. A faixa 6-12%
+em si tem escada própria e conflito próprio: ver `list-growth-benchmark-de-form`.
+Nunca responda o 6-12% isolado.
+
+## fundamentos-klaviyo-melhor-ou-pior
+
+| Posição | Registro | Linha |
+|---|---|---|
+| "I highly recommend using Klaviyo. It is the best option (…) Klaviyo is just the best" — como **ESP** | transcricao | L32-34 |
+| "I highly recommend Klaviyo, it is the best option" | slide | L357 |
+| "but Clavio (…) It's just not going to perform as well" — como plataforma de **pop-up** | transcricao | L617 |
+| "Oly is my recommended pop-up platform" | transcricao | L615 |
+| "it's the superior option. It will always perform better" — sobre Alia | transcricao | L647 |
+| "The most used eCommerce email platform, especially for Shopify" | slide (glossário) | L458 |
+
+**Como responder:** não é contradição lógica — é stack de duas camadas, Klaviyo
+como ESP e Alia como camada de pop-up — mas produz duas assinaturas pagas, e a
+recomendação de fundamentos não avisa disso. Cite sempre as duas camadas juntas. O
+único suporte factual que o corpus dá ao "it is the best option" é a linha do
+glossário, e ela afirma **market share**, não qualidade. Conflitos irmãos:
+`list-growth-alia-vs-klaviyo` e `design-klaviyo-vs-omnisend`. Os links de ESP são
+de afiliado (L34, L358, L360) — declarar sempre.
+
+## fundamentos-deliverability-e-facil
+
+| Posição | Registro | Linha |
+|---|---|---|
+| "Deliverability is like a half. Just because it's so easy" | transcricao | L21 |
+| "Why only a 3.5 pillar? Because it's easy\!" | slide | L348 |
+| "with health and deliverability. This is where things get a little bit comm- complicated" | transcricao | L225 |
+| "if you do struggle with it, that's what we will walk you through here in this program" | transcricao | L22 |
+
+**Como responder:** as quatro linhas estão na mesma faixa, a 200 linhas de
+distância. A tese do meio pilar é dele e é sustentada nos dois registros — mas a
+condição que ele anexa ("as long as you only send to engaged profiles and send
+good content", L349) é justamente o que o módulo de deliverability leva centenas de
+linhas para ensinar, com rampa de warming, registros DNS e reparo. Responda: para
+ele deliverability é meio pilar porque a **condição de sucesso é subproduto** dos
+outros três, não porque o assunto seja simples — e ele próprio chama a terminologia
+de complicada (L225) e abre exceção para quem já está em apuros (L22).

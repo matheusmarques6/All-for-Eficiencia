@@ -3,7 +3,7 @@ tipo: principio
 modulo: doutrina
 assunto: framework-sce
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4703-4767, L4819-4821 (transcrição campanhas); L5495-5521 (slide campanhas); L6558-6660 (slide copy)"
 conflitos: [doutrina-sce-numeracao-dos-principios, doutrina-narrador-da-aula-de-ia]
 status: rascunho
@@ -11,14 +11,28 @@ status: rascunho
 
 # Aviso de autoria
 
-As definições do framework vêm de **slides** (L5504-5512, L6558-6576) — registro
-neutro, sem problema de voz. Mas as duas frases faladas que sustentam o "atravessa
-tudo" (L4709-4711 e L4819-4821) vêm do vídeo aberto com "Hello, hello" em L4687, a
-assinatura do narrador que, noutra aula, chama Max de "Max" em terceira pessoa
-(L5753). O escopo transversal, portanto, está afirmado pelo material — não por
-ele. O que corrobora de dentro da voz do Max é a prática: skimmability é
-princípio numerado no módulo de design, narrado por ele (L7007, L7155-7163). Ver
-`doutrina-narrador-da-aula-de-ia`.
+**Faixa L4686-4828 (Creating Great Campaigns) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+As definições do framework vêm de **slides** (L5504-5512, L6558-6576) — artefato
+escrito de Max, integralmente citável. **O que não é dele** são as duas frases
+faladas que sustentam o "atravessa tudo": "same framework we use for copy, same
+framework we use for design" (L4709-4711) e "They're across the board. They're
+unanimous" (L4819-4823). O escopo transversal está afirmado pelo material, não por
+ele.
+
+O que corrobora de dentro da fala de Max é a prática: skimmability é princípio
+numerado no módulo de design (L7155-7163), faixa dele.
 
 # A observação
 
@@ -40,9 +54,10 @@ A versão operacional está no deck de campanhas (L5504-5512):
 > phrasing, emotional triggers, or helpful info. Emails should give people a hit
 > of dopamine.
 
-Ele explica por que repete: "Again, same framework we use for copy, same
+A aula explica por que repete — e essa fala é do outro narrador: "Again, same
+framework we use for copy, same
 framework we use for design, tying this all together to make our campaigns the
-best they possibly can be" (L4709-4711). E fecha a aula declarando o escopo:
+best they possibly can be" (L4709-4711). E fecha a aula declarando o escopo (mesma faixa não-Max):
 
 > All these principles, they're for email in general. They're not limited to
 > pop-ups, flows, campaigns. They're across the board. They're unanimous.
@@ -65,15 +80,16 @@ Detalhe por princípio, no deck de copy:
 # A regra derivada
 
 Todo email passa pelos três filtros antes de sair, seja pop-up, flow ou campanha,
-seja no texto ou no layout. O infográfico é a peça que ele diz marcar os três de
-uma vez (L6656-6660) — por isso o chama de "the cheat code" (L4759, L5525).
+seja no texto ou no layout. O infográfico é a peça que o material diz marcar os três
+de uma vez (L6656-6660) — daí o apelido "the cheat code" (L5525, slide de Max;
+repetido na fala não-Max em L4759).
 
 # Onde o corpus se contradiz
 
 O deck de copy numera dois princípios como o mesmo: "Principle #2: Clear &
 Concise" (L6604) e "Principle #2: Engaging" (L6625). Não existe "#3" nesse deck.
 É erro de numeração, não princípio a mais nem a menos: a lista de três é
-consistente em L6558-6576, L5504-5512 e na fala (L4715-4717). Ver
+consistente em L6558-6576, L5504-5512 e na fala não-Max (L4715-4717). Ver
 `doutrina-sce-numeracao-dos-principios`.
 
 A transcrição de campanhas chama o framework de "SDE framework" (L4715) enquanto

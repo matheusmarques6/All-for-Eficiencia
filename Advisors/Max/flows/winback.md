@@ -3,11 +3,32 @@ tipo: especificacao
 modulo: flows
 assunto: winback-flow
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L3305-3396 (transcrição), L4040-4114 (slide); definição do segmento em L5057 e L5589"
 conflitos: [winback-cadencia, winback-definicao-do-segmento]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Exposição pontual: L5057, dentro de Segmentation (L4846-5154) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+O flow em si (L3305-3396) é fala de Max (`max-provavel`) e o slide (L4040-4114) é
+artefato dele. **A única frase não atribuível a ele nesta nota é a corroboração
+falada da definição do segmento, em L5057** — a definição que vale continua sendo
+a do slide, L5589, que é de Max.
 
 # O que é
 
@@ -54,8 +75,9 @@ existe, mas fora da faixa de flows, no módulo de segmentação (L5589):
 > Someone has placed order at least once in the past 150 days **AND** Someone
 > has placed order zero times in the last 90 days
 
-A fala do mesmo módulo confirma: "people who have placed an order in the past
-150 days, but they haven't made one in the last 90" (L5057). Na aula de flows
+A fala do mesmo módulo confirma — mas essa fala **não é de Max**: "people who
+have placed an order in the past 150 days, but they haven't made one in the last
+90" (L5057). Na aula de flows
 ele dá só a metade recente: "somebody has placed an order at least once, but
 they've placed an order zero times in the last 90 days" (L3318) — sem o teto de
 150 dias.

@@ -8,15 +8,22 @@ fonte: "CONTEUDO BRUTO/max.md — L7851-7955, L8003, L6270, L6278-6279, L6446-64
 status: rascunho
 ---
 
-# Nota de autoria
+# Aviso de autoria
 
-O vídeo desta aula (`\# File-Designing Walkthroughs`, L7849) não traz nenhuma das
-assinaturas que separam os narradores do corpus — nem o "Alrighty" do Max nem o
-"Hello, hello" do outro. Vem logo depois de um vídeo do outro narrador (L7603).
-Contra a dúvida pesam duas coisas: a rotina descrita é pessoal e em primeira
-pessoa ("my websites for finding emails to steal from", L7871; "these are just
-the brands I follow", L7887) e o slide intitula "**My** Best Tip For Design"
-(L8311). Tratado aqui como material atribuível, com a ressalva registrada.
+**Sem exposição a faixa não-Max. Esta nota é inteiramente de Max.**
+
+A ressalva anterior desta nota estava construída sobre a assinatura de abertura, e
+o laudo **derrubou esse critério** ([[_autoria]] §5): o vídeo de L7590-7840, que
+abre com "Hello, hello", é comprovadamente Max — em L7817 ele digita `@max` e diz
+"tags me". Logo, o vídeo anterior a este não é "do outro narrador", e a proximidade
+não é indício de nada.
+
+O que sustenta a atribuição, pelo critério válido (idioleto, [[_autoria]] §2.1):
+`\# File-Designing Walkthroughs` (L7841-8008) traz "my favorite" 4× (L7875, L7883,
+L7905, L7957) e a primeira pessoa sobre ativo próprio — "these are **my** websites
+for finding emails to steal from" (L7871), alinhada verbatim com o slide "**My**
+Best Tip For Design: STEAL!" (L8311). Zero marcadores do outro aglomerado. É
+`max-provavel` com âncora `max-provado` no mesmo módulo (L7817, L8044-8046).
 
 # A observação
 
