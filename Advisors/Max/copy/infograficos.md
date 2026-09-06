@@ -3,11 +3,38 @@ tipo: especificacao
 modulo: copy
 assunto: infograficos
 autor: max-sturtevant
-registro: [slide, transcricao]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L5886-6081 (transcrição), L5867-5882 e L6652-6727 (slide)"
 conflitos: [copy-nomes-dos-infograficos, copy-janela-de-atencao]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L5888-6082 (Utilizing Infographics) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **os nove tipos, a função declarada de cada um e o "check ALL of the
+core email copy principle boxes" são slide** (L5869-5882, L6652-6727) — artefato
+escrito de Max, e continuam citáveis. Toda a coluna "Mecanismo (fala)" e os três
+destaques que mudam decisão vêm de L5888-6081, faixa não-Max, e **não são citáveis
+como fala dele** — inclusive o "We use these almost in every welcome flow we do"
+(L5979) e o resultado do A/B de gráfico contra estatística (L6051-6057), que é
+experiência da equipe narrada, não dele.
+
+Este bloco tem a maior taxa de "obviously" do arquivo: 7× em 2.039 palavras
+([[_autoria]] §3, bloco 28).
 
 # Por que usar
 
@@ -47,7 +74,7 @@ breaking up text, increasing engagement" (L5869). Único requisito de execução
 # Três destaques que mudam decisão
 
 **Comparison chart tem uso declarado e recorrente.** É o único tipo com
-frequência atribuída: "We use these almost in every welcome flow we do, where
+frequência atribuída — atribuída à equipe que narra, não a Max: "We use these almost in every welcome flow we do, where
 we have typically an us versus them email" (L5979-5981). Não é opção — é o
 formato padrão daquele email. Ver [[flows/_index]].
 
@@ -59,7 +86,7 @@ brain" (L6005-6009). O ganho não é só compreensão: é percepção de oficial
 **Gráfico converte estatística em prova.** "people trust data more when it
 looks official and… makes the benefits look measurable, believable. And a graph
 tends to look more like evidence opposed to an empty promise" (L6057-6059). E é
-um teste A/B que ele diz rodar: mesma estatística escrita na headline versus
+um teste A/B que a aula diz rodar: mesma estatística escrita na headline versus
 plotada — "most of the time, at least in the tests that I've seen, graphs work
 a lot of the time" (L6051-6057). Exemplo de estatística citado: "85% of
 customers saw results in 30 days" (L6049-6051). Ver [[otimizacao/_index]].
@@ -75,8 +102,8 @@ Nomenclatura (`copy-nomes-dos-infograficos`): o resumo lista "Icons" e
 - **Nenhuma imagem sobreviveu ao export.** Sete dos nove tipos têm só os
   rótulos "Example \#1" / "Example \#2" (L6676-6727). Checklists e Icon
   Graphics não têm nem rótulo. As marcas citadas na fala — Dr. Squatch, Breeze,
-  Live Fresh, um flow chart que ele mesmo não identifica ("I'm not 100% sure
-  which company this is", L6025) — não podem ser vistas.
+  Live Fresh, um flow chart que a própria narração não identifica ("I'm not 100%
+  sure which company this is", L6025) — não podem ser vistas.
 - **Não há critério de escolha.** Existe catálogo de nove; não existe regra de
   qual usar em qual email, nem quantos por email.
 - Os templates são apontados como fonte prática ("if you check in our

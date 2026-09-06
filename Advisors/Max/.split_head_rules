@@ -1,0 +1,24 @@
+---
+tipo: indice
+assunto: numeros-e-limiares
+autor: max-sturtevant
+status: rascunho
+---
+
+# Como usar esta tabela
+
+Três regras, e elas não têm exceção.
+
+**1. Verbatim.** O valor sai desta tabela exatamente como está escrito. Nunca
+arredondar, converter, normalizar nem traduzir. "three acts per week" é o que o
+bruto diz — o ruído de ASR fica.
+
+**2. Registro identificado.** Todo valor carrega de onde veio:
+`transcrição` (ele falando) · `slide` (deck GAMMA e demais blocos escritos da
+página do curso) · `outro-narrador` (faixa que o laudo [[_autoria]] classifica
+como não atribuível a Max: L4189–5154, L5617–6248, L8365–8646, L8762–9109).
+Valor marcado `outro-narrador` **não é citável como fala do Max**.
+
+**3. Nada de média.** Duas versões são duas linhas. Se o corpus diz 3, 4-5, 6 e
+15, a resposta é "o piso é 3 e o critério é este", nunca "cerca de 5". A coluna
+Conflito traz o slug de [[_conflitos]] quando existe entrada lá.

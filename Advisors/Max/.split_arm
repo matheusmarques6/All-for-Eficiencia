@@ -1,0 +1,137 @@
+
+# Armadilhas de número
+
+Casos em que citar o número sem o referente produz resposta errada.
+
+## Os três "75%" do módulo de design medem coisas diferentes
+
+| Verbatim | Mede | Registro | Linha |
+|---|---|---|---|
+| `"75% of your efforts should go to this"` | esforço de produção a alocar na hero section | slide + transcrição | L8235, L7258 |
+| `"Button above the fold for 75% of your email"` | proporção de emails que precisam de botão acima da dobra | transcrição | L7027 |
+| `"75% of the brands I audit don't have individual shop now buttons"` | marcas auditadas sem botão por produto | transcrição | L7089 |
+
+Existe um quarto, em outro módulo: `"Form covers at least 75% of screen"`
+(S, L1253 / T, L657) — cobertura de tela do pop-up. **Nunca responder "75%" sem
+dizer 75% de quê.** Ver `design-tres-usos-de-75-por-cento`.
+
+Ressalva de leitura em L7027: o bruto escreve `"your email"` no singular. A
+leitura "75% dos seus emails" é a que o staging adotou, mas o corpus não
+desambigua entre "75% dos emails" e "75% da área do email". Registrar verbatim.
+
+## L4652 — "That's your 80% list" não é percentual
+
+> `"ideally send pretty much all of these to your 90 day engage list. That's your 80% list. That's where you're going to get the majority of your sales"` (L4650-4654)
+
+É rótulo de Pareto, não a fração da lista nem a fração das vendas. Confirmado
+por L5017-5021, que explicita a metáfora:
+
+> `"It's like the 80-20 rule. That 80% is going to be that 30, 60, 90-day engage list. That 20% (…) that's the extra 20 as you want to optimize things as you grow."`
+
+O número percentual que **existe** para o mesmo assunto é outro:
+`"accounting for 80%-90% of your sales & engagement"` (slide, L4838) e
+`"just sending to our engaged list for 90% of sends"` (slide, L5597) — e esses
+dois também medem coisas diferentes entre si (share de vendas × share de envios).
+Ver `campanhas-share-do-90-day-engaged`.
+
+## L8587 — "one to 200,000" é corrompido e irrecuperável
+
+> `"a sample ramp up cadence would look like on the first end, you're sending to one to 200,000."` (L8587)
+
+Incoerente com os degraus seguintes na mesma frase (`"send two, going to maybe
+like 300 (…) send three, 500, send four, a thousand"`, L8588). **Nunca deduzir
+"100 to 200".** O corpus tem um primeiro degrau limpo em outra linha —
+`"maybe a hundred people, two hundred people, three hundred people, somewhere in
+that range"` (L8569) — e é essa que se cita. Ver
+`deliverability-primeiro-degrau-da-rampa`.
+
+## L1029 — "over 279 figure" é corrompido
+
+> `"We've worked with over 279 figure e-commerce brands"` (L1029)
+
+Nenhuma outra linha do arquivo declara a contagem de clientes da agência, então
+não há registro limpo para citar. **Nunca reconstruir** — o corpus não autoriza
+escolher entre "279", "27 9-figure" ou qualquer outra segmentação. A linha é
+CTA comercial (ver `descartes-list-growth.md`).
+
+## L595 — "147,000 to 25,000" e "8.57 8.75%" são corrompidos, mas têm versão limpa
+
+Diferente dos dois casos acima: aqui a mesma medida existe íntegra em outro
+lugar. `"$7,000 a month... to $25,000 a month"` está em L587 e na tabela do
+slide (L1181); `8.75%` está em L585 e L1179. **Citar L587/L1181 e L585/L1179,
+nunca L595.** O corpus não diz se a duplicação `"8.57 8.75%"` é autocorreção
+falada ou artefato de ASR — não afirmar nenhuma das duas.
+
+## L8560 e L2911 — números perdidos no ASR
+
+> `"that doesn't mean send, You have to emails in 7 days"` (L8560) — teto de
+> frequência durante o warming; o número não sobreviveu.
+> `"Still 1x% off."` (L2911) — desconto do cart/checkout email 4.
+
+Nos dois casos: registrar a lacuna, nunca preencher.
+
+## L8631 — "about 45" está sem unidade
+
+> `"we sent to all the active people, which was about 45"` (L8631)
+
+Salto final da rampa do caso 2 de warming. Pelos degraus anteriores (`"probably
+like 10,000, and then 12,000, 15,000"`, depois `"about 26,000"`) o valor
+provável seria 45.000, mas **o corpus não escreve a unidade** e a dedução não
+está autorizada. Ver `deliverability-salto-de-45`.
+
+## L8618/L8621 — o caso MailChimp tem dois números para o mesmo envio
+
+> `"And then we go up to 4,000. 14,000."` (L8618) e
+> `"this got sent out to 40,000, 14,000 people"` (L8621)
+
+A rampa e a leitura do Google se contradizem dentro do próprio caso. Entregar
+as duas leituras. Ver `deliverability-caso-mailchimp-escala-final`.
+
+## "50%" sozinho é ambíguo em cinco medidas diferentes
+
+Open rate mínimo (L178/L376) · flows como share da receita de **email**
+(L326/L3438) · queda de QI na inbox (L6606) · passo de escalonamento no warming
+(`"scale up by about fifty percent each send"`, L8569) · email+SMS como share da
+receita **total** (`"anywhere from 30 to 50 percent"`, L56). Sempre nomear a
+medida.
+
+## "90%" e "80%" idem
+
+`90%`: peso do básico sobre o resultado (L8764/L9120) · cobertura do Milled
+(`"database of 90% of ecommerce brands"`, L8321) · janela do engaged list padrão
+(90 dias) · share dos envios que vão para a lista engajada (L5597).
+`80%`: o rótulo de Pareto de L4652 · a proporção gráfico-texto
+(`"Probably 80-20"`, L4346) · a versão falada do peso do básico (L8778, L9098) ·
+`"the skeleton that I'd say 80% of emails followed"` (L5731) · o caso extremo de
+flows sobre a receita da **loja** (L22).
+
+## O denominador de "50% em flows" troca dentro da mesma linha
+
+L22 diz `"roughly 50%"` da receita **de email** e, duas orações depois,
+`"flows generating 80% of the total store revenue"` — receita **da loja**. E o
+deck de flows abre com `"Generate 20% of Total Shopify Revenue"` (L3408) contra
+`"around 50% of your total email revenue"` (L3438), na mesma peça. Ver
+`fundamentos-denominador-dos-80` e `flows-participacao-na-receita`.
+
+## "3 segundos" de atenção não tem um valor só
+
+Copy e campanhas dizem `3 seconds` (L5605, L6517, L5501); design diz
+`"2-4 seconds"` (L8185, L7161) e, três linhas adiante no mesmo slide, `3 seconds`
+(L8201); a fala de campanhas diz `"the first two to three seconds"` (L4707). O
+valor do "antes" **não** conflita: os três registros dizem `5-10 seconds`. Ver
+`doutrina-segundos-de-atencao` e `design-segundos-de-atencao`.
+
+## A receita atribuída da agência tem quatro valores
+
+`$40 million` (L6260, L6350) · `over $100M` (L3419, L9269) ·
+`$100 million` (L6359) · `$200M` (L3428, L5204). São claims de bio e CTA
+comercial, não benchmark. Ver `doutrina-receita-da-agencia` e
+`flows-receita-da-agencia`, e a tabela [[#Claims institucionais]].
+
+## Ruído de ASR que fica como está
+
+`"three acts per week"` (L4266) · `"an eight figureure brand"` (L5194) ·
+`"the most readable f font"` (L5226) · `"1 to 300 people clicking per campaign"`
+(L4943) · `"you're not going to want to send to send five or six times a week"`
+(L4276) · `"11:00 a.m. to 2: p.m."` (L9256) · `"400 p.m."` (L9257) ·
+`"spam, complete rate"` (L8430). **Não limpar.**

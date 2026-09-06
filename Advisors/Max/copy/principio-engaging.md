@@ -3,11 +3,35 @@ tipo: principio
 modulo: copy
 assunto: engaging
 autor: max-sturtevant
-registro: [slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L6625-6646 (slide), L5609 (slide-resumo)"
 conflitos: [copy-numeracao-dos-principios]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L6101-6248 (Subject Lines & Preview Texts) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+**Exposição mínima, mas real — e o laudo não a listou.** A nota inteira sai do
+slide (L6625-6646, L6576), artefato escrito de Max, e continua citável. A única
+frase de fala é o "people are so accustomed to seeing the same thing over and over
+and over and over" (L6219), usada como reforço do argumento sobre repetição: essa
+linha está na faixa não-Max e **não é citável como fala dele**. O laudo classifica
+`principio-engaging` como não afetada ([[_autoria]] §6.1); a âncora do corpo diz
+o contrário. Registrado em `_staging/aplicacao-autoria.md`.
 
 # O que é
 
@@ -67,7 +91,8 @@ E o único erro que ele nomeia como **o pior**:
 
 Repetição é a falha máxima porque é a única que zera a dopamina por definição —
 o cérebro já viu. É o mesmo raciocínio do disruptor no inbox: "people are so
-accustomed to seeing the same thing over and over and over and over" (L6219).
+accustomed to seeing the same thing over and over and over and over" (L6219) —
+frase do outro narrador, não de Max.
 Ver
 [[doutrina/disruptor-vence-no-inbox]].
 

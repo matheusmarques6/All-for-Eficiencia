@@ -3,11 +3,42 @@ tipo: artefato
 modulo: copy
 assunto: subject-lines
 autor: max-sturtevant
-registro: [slide, transcricao]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L6099-6247 (transcrição), L6083-6095 e L6798-6827 (slide)"
 conflitos: [copy-subject-line-comprimento, copy-subject-line-reticencias, copy-medir-por-abertura, copy-open-rate-limite, copy-multiplicador-de-vendas, copy-nao-complique-vs-framework]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L6101-6248 (Subject Lines & Preview Texts) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+**Esta nota mistura três origens:**
+
+- **Slide (Max)** — L6798-6827 e o resumo escrito L6083-6095. Daí saem a tese
+  contra o consenso ("Your Subject Line and Preview Text Shouldn't Matter for
+  Getting Opens", L6800), o teto de "~10% jump in opens" (L6805), a instrução
+  "Test your SL styles based off revenue" (L6810), o framework de quatro regras e
+  os quatro exemplos verbatim. **Tudo isso continua citável como material dele.**
+- **Fala não-Max** — L6101-6247. Daí saem a evidência de A/B (os dois testes,
+  L6127-6145), o "three to five times as many sales" (L6121) e o "10%, maybe 15"
+  (L6229). **Não é citável como fala dele.**
+- **Fala de Max** — L6341 (Gymshark) e L6400 (MrBeast), os dois blocos
+  `max-provado` do módulo. É de lá que vêm as subject lines que ele escreve ou
+  elogia ao vivo, usadas no conflito `copy-subject-line-comprimento`. **É a única
+  fala dele nesta nota.**
 
 # A tese, antes do framework
 
@@ -19,19 +50,19 @@ otimiza:
 
 O motivo: "Your content should be so good… That customers are conditioned to
 open every email no matter what. The goal is to **get people to open emails
-based off your sender name**" (L6802-6804). A mesma frase na fala: "your
+based off your sender name**" (L6802-6804). A mesma frase reaparece na fala (não-Max): "your
 audience should be conditioned to open your emails no matter what, just based
 off of the sender name" (L6109-6111). E no resumo: "people should open your
 emails based off your sender name, NOT your Subject line" (L6093).
 
-A evidência negativa que ele oferece contra si mesmo:
+A evidência negativa que o slide oferece contra a própria alavanca:
 
 > "I've never had a subject line genuinely get an impactful difference on an
 > open rate… at most you can get ~ 10% jump in opens." (L6805)
 
 Então para que serve? "More sales. Different SLs and PTs will change the frame
 of your email and prime the customer for sales in different ways" (L6807-6808).
-Na fala, é atribuição direta: subject line e preview text "can be directly
+Na fala não-Max, é atribuição direta: subject line e preview text "can be directly
 attributed to more sales, not because of any one reason outside of it shifts
 the entire frame of the email" (L6115-6117).
 
@@ -39,7 +70,7 @@ Daí a instrução de medição, que é o que realmente distingue a posição de
 
 > "Test your SL styles based off revenue, and less about opens." (L6810)
 
-# A evidência de A/B
+# A evidência de A/B (registro: outro-narrador)
 
 Dois testes, ambos com email idêntico — só muda subject line e preview text
 (L6127-6128, L6135-6137).
@@ -53,7 +84,7 @@ em B; "nearly 4x the amount of orders", "just under double the recipient and a
 much higher AOV". As duas SLs, na ASR: "Want your hat to stay like new? Here's
 how" e "don't wash it, the right way to care for your new…" (L6137-6139).
 
-O ponto que ele extrai: "You don't necessarily... changing what you're saying,
+O ponto extraído na aula: "You don't necessarily... changing what you're saying,
 but you're changing the entire frame of how something is viewed" (L6141-6145).
 
 Todos esses números, com suas variações entre registros, estão em [[_numeros]].
@@ -87,15 +118,16 @@ nenhum termina em reticências — terminam em emoji.
 # Onde o corpus discorda
 
 **Comprimento** (`copy-subject-line-comprimento`). O framework pede 2-5
-palavras, mas as SLs que ele escreve ou elogia ao vivo são maiores: no
+palavras, mas as SLs que **ele** escreve ou elogia ao vivo — nos dois
+walkthroughs `max-provado`, a única fala dele nesta nota — são maiores: no
 walkthrough do Gymshark ele digita "no fuss dumbbell back exercises" mais um
 emoji, em caixa baixa na ASR, e emenda "no gym no problem", que ele descreve
 como "end with DOT do dot" (L6341); no walkthrough seguinte chama de "pretty cool subject line
 ideas" a saída do ChatGPT "This bar will ruin all chocolate for you" — oito
 palavras (L6400-6401).
 
-**Onde vai o "…"** (`copy-subject-line-reticencias`). Na fala, reticências e
-pergunta são regra de **subject line**: "something ending in dot, dot, dot,
+**Onde vai o "…"** (`copy-subject-line-reticencias`). Na fala não-Max,
+reticências e pergunta são regra de **subject line**: "something ending in dot, dot, dot,
 maybe a question" (L6155-6157), reforçado em L6197. No slide, "Ends with …" é
 regra de **preview text** (L6838), e a SL termina em emoji (L6820).
 
@@ -105,7 +137,7 @@ test subject lines; **track open rates**; tweak based on what works" (L6091) —
 contra "less about opens" de L6810.
 
 **Teto do salto de abertura** (`copy-open-rate-limite`): ~10% no slide (L6805),
-"10%, maybe 15" na fala (L6229). E o multiplicador de vendas
+"10%, maybe 15" na fala não-Max (L6229). E o multiplicador de vendas
 (`copy-multiplicador-de-vendas`) tem três valores: 3x no slide (L6809, L6811),
 "three to five times" na fala (L6121), e quase 4x nos dois testes descritos
 (L6133).

@@ -3,11 +3,34 @@ tipo: especificacao
 modulo: campanhas
 assunto: pilares-de-conteudo
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4372-4376, L4426-4430, L4472-4490 e L4538-4542 (transcrição), L5318-5319 e L5334-5345 (slide)"
 conflitos: [campanhas-distribuicao-dos-pilares]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixas L4202-4421 e L4444-4675 — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **os cinco nomes, os exemplos e a distribuição mensal vêm dos bullets
+do módulo (L4426-4430) e do slide (L5318-5345)** — artefato escrito de Max, e
+continuam citáveis. O detalhamento falado de cada pilar (L4372-4376, L4472-4490,
+L4538-4542), a fonte de matéria-prima no time de suporte e a exceção do mês de
+maior promoção estão na faixa não-Max e **não são citáveis como fala dele**. A
+lacuna de ASR em L4480-4488 também está nessa faixa.
 
 # O que é
 
@@ -20,10 +43,10 @@ verbatim, em inglês, idêntico nos dois registros (L4426-4430, L5338-5342):
 > * **Product or Collection Highlights** (ex. trending products / gift guides)
 > * **Sales** (ex. limited discounts)
 
-# O que ele diz de cada um
+# O que o material diz de cada um (fala, não-Max)
 
 **Educational** — ingredientes, os perigos, "what the competitors are doing that
-isn't safe", perguntas frequentes. E a fonte de matéria-prima que ele nomeia:
+isn't safe", perguntas frequentes. E a fonte de matéria-prima nomeada na aula:
 ir ao time de suporte, levantar as dúvidas mais comuns e virar cada objeção ou
 pergunta num email (L4472-4474).
 
@@ -40,15 +63,14 @@ those" (L4476-4478).
 > slide (L5338-5342), cada um com um exemplo. Não reconstruído. Ver
 > `_staging/descartes-campanhas.md`.
 
-**Community / Branded** e **Product or Collection Highlights** — a fala não
-para em cada um deles: depois do bloco corrompido a transcrição vai direto para
-a distribuição mensal (L4490). Ele volta a esses pilares mais adiante, ao
+**Community / Branded** e **Product or Collection Highlights** — a fala não para
+em cada um deles: depois do bloco corrompido a transcrição vai direto para
+a distribuição mensal (L4490). A narração volta a esses pilares mais adiante, ao
 comentar de passagem alguns dos 100 títulos — "why we exist, take a look inside
 launch (…) meet launch week (…) talking through the values are hiring [sic]"
-(L4538-4542) — e diz "product collection highlights. I won't go through all of
-these" (L4542). A definição de cada pilar está nos bullets e no slide.
+(L4538-4542) — e diz "product collection highlights. I won't go through all of these" (L4542). A definição de cada pilar está nos bullets e no slide.
 
-**Sales** — o ponto dele é que venda não é sinônimo de desconto: "there's no
+**Sales** — o ponto da aula é que venda não é sinônimo de desconto: "there's no
 need to just go discount, discount, discount, discount" (L4372-4374); desconto constante
 faz o cliente só comprar em promoção (L4376). A formulação do slide:
 

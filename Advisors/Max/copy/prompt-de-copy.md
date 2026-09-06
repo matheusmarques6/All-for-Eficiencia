@@ -9,6 +9,30 @@ conflitos: [copy-papel-da-ia, copy-narrador-nao-e-max]
 status: rascunho
 ---
 
+
+# Aviso de autoria
+
+**Faixa L5667-5866 (ChatGPT Copywriting) — `outro-provado`.**
+**Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
+pessoa: "So we have a email marketing brain, something that **Max had put together
+himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
+Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **o prompt é artefato escrito e aparece duas vezes** — L5627-5661
+(bloco de documento, dentro da faixa do vídeo mas antes do marcador de
+transcrição em L5665) e L6739-6770 (deck GAMMA). São idênticos, e o do deck é
+artefato de Max. **O prompt continua verbatim e citável.** Já todo o racional —
+"lazy prompts = lazy results", o contraexemplo do FAQ, o custo em tempo, onde
+está o trabalho — sai de L5667-5865, que é fala do outro narrador, e **não é
+citável como fala de Max**.
+
 # Duas âncoras, um texto
 
 O prompt aparece **duas vezes e é idêntico**: L5627-5661 (bloco de documento da
@@ -88,7 +112,7 @@ primeiros são ativos de marca, escritos uma vez e reusados.
 
 # O racional: onde está o trabalho
 
-A tese, dita duas vezes: "Lazy prompts = Lazy results. Good prompts = Good (not
+Tudo desta seção vem da fala do outro narrador. A tese, dita duas vezes: "Lazy prompts = Lazy results. Good prompts = Good (not
 perfect) Results" (L5622) e "If you're lazy in your inputs, you're going to get
 shitty outputs" (L5677-5679).
 
@@ -104,21 +128,22 @@ probably still going to have to do that regardless" (L5719-5721) — mas o promp
 serve para começar de "the most solid starting point and something that's
 really almost viable" (L5721-5723).
 
-O trabalho, portanto, não está no prompt: está nos quatro slots. "this is where
+O trabalho, portanto, não está no prompt: está nos quatro slots — é a leitura do
+material, não uma posição atribuível a Max. "this is where
 we're actually going to input things about our brand, what the brand's about,
 the customer insights, so being very specific in who we're talking to. And that
 way our chat GPT will be more and more specific, the more that you give it"
 (L5745-5749). Repetido para o bloco de marca: "the more that you give it to
 work with, the better it's going to give you as an output" (L5751).
 
-# Atenção: a voz desta transcrição não é a do Max
+# A triangulação sobre o Email Marketing Brain
 
-O vídeo "ChatGPT Copywriting" (L5667-5865) fala de Max em terceira pessoa: "So
-we have a email marketing brain, something that **Max had put together
-himself**" (L5753). O slide correspondente diz a mesma coisa em primeira pessoa:
-"Lucky for you, **I've created** the Email Marketing Brain…" (L6774). Logo, tudo
-que vem dessa transcrição — inclusive o racional acima e L5855 — **não é citável
-como fala do Max**. Ver [[_protocolo]], regra 6.
+O slide correspondente reivindica o artefato em primeira pessoa — "Lucky for you,
+**I've created** the Email Marketing Brain…" (L6774) — e a fala deste vídeo o
+atribui a um terceiro (L5753). Os dois não podem ser a mesma pessoa. O laudo
+fecha a triangulação com L5212 ("my custom GPT", `max-provado`) e L6387 ("I
+actually made this with over 500 docs", `max-provado`): quatro reivindicações em
+primeira pessoa contra uma atribuição em terceira. Ver [[_autoria]] §4.1.
 
 # Onde o corpus discorda
 

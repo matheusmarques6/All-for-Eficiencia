@@ -2,9 +2,36 @@
 tipo: indice
 modulo: campanhas
 autor: max-sturtevant
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4187-5236 (transcrição), L5237-5599 (slide GAMMA)"
 status: rascunho
 ---
+
+# Aviso de autoria — 8 das 9 notas
+
+**Os quatro vídeos falados deste módulo — Campaign Strategy (L4202-4421), Campaign
+Calendar Creation (L4444-4675), Creating Great Campaigns (L4686-4828) e
+Segmentation (L4846-5154) — são `outro-provavel`: não são Max.** Sem prova
+nominal; a classificação é **estilométrica** ("at end of the day" 8×, "obviously"
+16×, zero "I recommend" / "my favorite" / "I like to" em ~8.000 palavras, mais os
+fechos coletivos de L4420, L4674, L4827 e L5153). `outro-provavel` não é
+`outro-provado` ([[_autoria]] §7.3).
+
+**A saudação de abertura não é critério e não pode ser citada como evidência** —
+o laudo testou e ela caiu ([[_autoria]] §5).
+
+O que continua sendo Max neste módulo: o **deck GAMMA** (L5237-5599), os bullets
+escritos que abrem cada vídeo (L4189-4200, L4422-4440, L4676-4684, L4829-4843) e
+a **Text Based Email Masterclass** (L5155-5236), que é `max-provado`. Por isso
+[[email-de-texto-puro]] é a única nota da pasta sem exposição.
+
+Consequência prática registrada em [[_autoria]] §6.2: o "two to four campaigns per
+week is generally going to be the sweet spot" (L4220) **deixa de ser citável como
+fala dele**. A regra sobrevive pelo slide (L5255, "3x per week is typically the
+sweet spot") e pela corroboração falada de L2367, que está em faixa Max.
+
+Ao responder a partir do registro `transcricao` deste módulo, dizer "o material do
+curso diz", nunca "o Max diz".
 
 # Campanhas
 
@@ -16,19 +43,19 @@ o que enviar, como montar o calendário e para quem enviar.
 
 | Nota | tipo | O que responde |
 |---|---|---|
-| [[frequencia-de-envio]] | especificacao | quantas campanhas por semana, a tabela receita × tráfego, o piso de 2x |
-| [[ocupar-espaco-mental]] | principio | por que cadência alta funciona mesmo sem abertura; os 6-7 pontos de contato |
-| [[mix-grafico-e-texto]] | especificacao | a proporção gráfico:texto — três versões — e o piso de 2 textos/mês |
-| [[os-cinco-pilares-de-conteudo]] | especificacao | Educational, Social Proof, Community/Branded, Product Highlights, Sales, e a divisão mensal |
-| [[montar-o-calendario]] | procedimento | os 4 passos: espionar, swipe file, 100 ideias, IA |
-| [[cem-ideias-de-email]] | artefato | os 100 títulos verbatim, em inglês, 20 por pilar |
-| [[segmentacao]] | especificacao | segmento × lista, os 6 segmentos-chave com sintaxe Klaviyo, suprimir ≠ deletar |
-| [[nao-hipersegmentar]] | principio | o corte em $1M/mês e o argumento de custo de oportunidade |
-| [[email-de-texto-puro]] | especificacao | <250 palavras, 1-2 CTAs, remetente pessoa, PS, montagem no Klaviyo |
+| [[frequencia-de-envio]] | especificacao · **outro-narrador** | quantas campanhas por semana, a tabela receita × tráfego, o piso de 2x |
+| [[ocupar-espaco-mental]] | principio · **outro-narrador** | por que cadência alta funciona mesmo sem abertura; os 6-7 pontos de contato |
+| [[mix-grafico-e-texto]] | especificacao · **fala Max + outro-narrador** | a proporção gráfico:texto — três versões — e o piso de 2 textos/mês |
+| [[os-cinco-pilares-de-conteudo]] | especificacao · **outro-narrador** | Educational, Social Proof, Community/Branded, Product Highlights, Sales, e a divisão mensal |
+| [[montar-o-calendario]] | procedimento · **outro-narrador** | os 4 passos: espionar, swipe file, 100 ideias, IA |
+| [[cem-ideias-de-email]] | artefato (slide, de Max) · **enquadramento falado outro-narrador** | os 100 títulos verbatim, em inglês, 20 por pilar |
+| [[segmentacao]] | especificacao · **outro-narrador** | segmento × lista, os 6 segmentos-chave com sintaxe Klaviyo, suprimir ≠ deletar |
+| [[nao-hipersegmentar]] | principio · **outro-narrador** | o corte em $1M/mês e o argumento de custo de oportunidade |
+| [[email-de-texto-puro]] | especificacao · **fala de Max, sem exposição** | <250 palavras, 1-2 CTAs, remetente pessoa, PS, montagem no Klaviyo |
 
 # Frequência — a tabela, num lugar só
 
-| Store Revenue | Monthly Site Visitors | Slide (L5295-5298) | Fala (L4264-4272) |
+| Store Revenue | Monthly Site Visitors | Slide de Max (L5295-5298) | Fala **não-Max** (L4264-4272) |
 |---|---|---|---|
 | $0-50k/mo | 0-25k/mo | 2x per week | "two times a week is probably pretty safe" |
 | $50k-250k/mo | 25k-50k/mo | 3x per week | "three acts per week" |

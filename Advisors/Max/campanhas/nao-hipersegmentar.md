@@ -3,16 +3,40 @@ tipo: principio
 modulo: campanhas
 assunto: nao-hipersegmentar
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4993-5021 e L5135-5151 (transcrição), L5571-5583 e L5596-5597 (slide)"
 conflitos: [campanhas-limiar-de-hipersegmentacao, campanhas-share-do-90-day-engaged]
 status: rascunho
 ---
 
+
+# Aviso de autoria
+
+**Faixa L4846-5154 (Segmentation) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **o argumento inteiro tem lastro de slide** — a piada do umbigo
+(L5573-5575), o par 10.000/50.000 com o "99 times out of 100" (L5576-5577), o
+corte em $1M/mês (L5582-5583) e o fecho dos 90% de envios (L5596-5597) são
+artefato escrito de Max e continuam citáveis. As versões faladas (L4995-5021,
+L5135-5151) estão na faixa não-Max: o segundo argumento (o cliente não descobre o
+resto do catálogo), o limiar mais frouxo de "um milhão, 10 milhões por mês" e o
+enquadramento 80-20 **não são citáveis como fala dele**.
+
 # A posição
 
-Hipersegmentar é possível e provavelmente melhora conversão — e mesmo assim ele
-recomenda não fazer. O enquadramento é de custo de oportunidade, não de
+Hipersegmentar é possível e provavelmente melhora conversão — e mesmo assim o
+material recomenda não fazer. O enquadramento é de custo de oportunidade, não de
 eficácia.
 
 > Yes, you could hyper segment your list by their favorite color and if their
@@ -40,7 +64,7 @@ to smaller lists or three or four broader ones to a much, much bigger audience"
 
 # O segundo argumento: o cliente não descobre nada
 
-O custo que ele nomeia na fala não é só alcance, é aprendizado do cliente: "if
+O custo nomeado na fala não é só alcance, é aprendizado do cliente: "if
 you only send creatine based emails to creatine people, then they're never
 going to hear or know anything (…) when it comes to the protein and pre-workout.
 And who knows, maybe they'll be interested in that if they got more emails, if
@@ -66,7 +90,7 @@ engagement… but don't get carried away and distracted from the basics" (L5578)
 Na fala: "We want to really just be sending a segmenting based off engagement.
 You don't have to get too carried away" (L5013-5015).
 
-Ele enquadra isso como 80-20: "That 80% is going to be that 30, 60, 90-day
+A fala enquadra isso como 80-20: "That 80% is going to be that 30, 60, 90-day
 engage list. That 20% when things are really going well and you really want to
 get creative with it, that's the extra 20 as you want to optimize things as you
 grow" (L5017-5021).

@@ -9,6 +9,30 @@ conflitos: [copy-narrador-nao-e-max]
 status: rascunho
 ---
 
+
+# Aviso de autoria
+
+**Faixa L5667-5866 (ChatGPT Copywriting) — `outro-provado`.**
+**Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
+pessoa: "So we have a email marketing brain, something that **Max had put together
+himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
+Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o diagnóstico, a regra e a evidência de resultado existem **também no
+slide** (L6787-6792), artefato escrito de Max — e continuam citáveis por ali. Tudo
+que sai de L5725-5735 e L5803-5833 é fala do outro narrador: o mecanismo do
+descontrole de design, o mapeamento campo a campo, o Bridge Section como
+infográfico e o "80% dos emails" **não são citáveis como fala de Max**. É o caso
+particular registrado no laudo ([[_autoria]] §6.1): o conceito é dele, está no
+deck; a formulação falada não.
+
 # O problema que isso resolve
 
 Copy entregue como tabela pura de campos produz design que não corresponde à
@@ -17,7 +41,7 @@ intenção do email. O diagnóstico, no slide:
 > "We notice a lot of disconnect between copy and the design when we just write
 > copy in table format." (L6789)
 
-Na fala, com o mecanismo: "it takes a lot more direction when you're simply
+Na fala do outro narrador, com o mecanismo: "it takes a lot more direction when you're simply
 putting things into a table. So something that's just listed as header or
 subject line, preview text, header, subheader, CTA, because you're not really
 giving any direction" (L5807-5811). O resultado observado: "the designers would
@@ -39,8 +63,9 @@ Na fala: "made our copywriters essentially the email architects, mapping out
 exactly how the email should look. Gives… the copy a lot more control over the
 finished product" (L5817-5819).
 
-A troca é explícita: o copywriter assume responsabilidade de layout e, em
-troca, ganha controle sobre o produto final. Não é ampliação de escopo por
+A troca é explícita — e essa formulação está no slide, logo é de Max: o
+copywriter assume responsabilidade de layout e, em troca, ganha controle sobre o
+produto final. Não é ampliação de escopo por
 zelo — é quem decide a aparência passando a ser quem decide a mensagem.
 
 # A evidência que ele oferece
@@ -84,13 +109,6 @@ A fala mapeia campo a campo (L5821-5833):
 
 O Bridge Section é o campo mais informativo do esqueleto: é o único que existe
 para não ser texto.
-
-# Atenção: a voz desta transcrição não é a do Max
-
-L5803-5833 vem do vídeo "ChatGPT Copywriting", cuja narração fala de Max em
-terceira pessoa (L5753). O slide (L6787-6792) usa "we", sem terceira pessoa. O
-conteúdo é consistente entre os dois registros, mas a parte falada **não é
-citável como fala do Max**. Ver [[_protocolo]], regra 6.
 
 # O que o corpus não diz
 

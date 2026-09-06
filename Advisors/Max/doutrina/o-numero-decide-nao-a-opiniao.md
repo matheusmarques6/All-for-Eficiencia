@@ -3,7 +3,7 @@ tipo: principio
 modulo: doutrina
 assunto: decisao-por-dado
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L22, L6227-6229, L8792 (transcrição); L9127-9131 (slide)"
 conflitos: [doutrina-narrador-da-aula-de-ia]
 status: rascunho
@@ -11,21 +11,33 @@ status: rascunho
 
 # Aviso de autoria
 
-A versão em que este princípio é **do Max** é L22 — aula 2, aberta com "Welcome
-back, my beautiful eCommerce folk" (L21), primeira pessoa, história pessoal dele
-no mesmo bloco. É de lá que vem "It doesn't matter what you think. It matters
-what the numbers say".
+**Faixas L6101-6248 e L8773-9109 — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
 
-As outras duas formulações faladas vêm de vídeos com a assinatura do outro
-narrador: L8792 do vídeo aberto em L8774 ("Yo, yo") e L6227-6229 do vídeo aberto
-em L6103 ("Hello, hello"). Ver `doutrina-narrador-da-aula-de-ia`.
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+**A versão em que este princípio é do Max é L22** — aula 2, bloco `max-provavel`,
+com idioleto A denso e a história pessoal dele no mesmo bloco. É de lá que vem "It
+doesn't matter what you think. It matters what the numbers say", e é essa a versão
+citável como fala dele. O slide (L9127-9131) é artefato escrito dele.
+
+**Não são dele** as outras duas formulações faladas: L8792 (High Leverage A/B
+Tests) e L6227-6229 (Subject Lines). O teto de "10%, maybe 15" vem daí.
 
 # A observação
 
 Três formulações da mesma frase, em três módulos:
 
 > It doesn't matter what you think. It matters what the numbers say. (L22)
-> A-B test, it doesn't matter what you think. The numbers don't lie. (L8792)
+> A-B test, it doesn't matter what you think. The numbers don't lie. (L8792 — **outro-narrador**)
 > It doesn't matter what you think. / Numbers don't lie. (L9128-9129, slide)
 
 Onde ele usa isso na aula: para vencer objeção de aluno sobre frequência de
@@ -46,7 +58,8 @@ recipient (L22).
 
 Opinião do operador não é input de decisão — nem a dele. O instrumento é o A/B
 test (L9127: "How Do We Optimize? / A/B tests!") e o critério de sucesso é
-receita, não abertura: "It's not about the open rates" (L6227).
+receita, não abertura: "It's not about the open rates" (L6227 —
+**outro-narrador**).
 
 Uso prático: quando um cliente ou aluno discorda de uma cadência, de um subject
 line ou de um layout, a resposta não é argumento — é teste.
@@ -62,6 +75,6 @@ E o teste não é a prioridade inicial. Ver [[o-basico-entrega-90-por-cento]]: o
 número só decide depois que o básico está de pé (L8784-8790). Antes disso, o que
 decide é a checklist, não a medição.
 
-O teto do que um teste move ele mesmo dá: "The biggest open rate difference we've
-had on an A-B test is like we have in here 10%, maybe 15 based off a subject
-line" (L6227-6229).
+O teto do que um teste move vem do material, não dele: "The biggest open rate
+difference we've had on an A-B test is like we have in here 10%, maybe 15 based
+off a subject line" (L6227-6229, faixa não-Max).

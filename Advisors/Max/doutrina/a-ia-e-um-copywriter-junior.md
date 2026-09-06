@@ -3,29 +3,38 @@ tipo: principio
 modulo: doutrina
 assunto: papel-da-ia
 autor: max-sturtevant
-registro: [outro-narrador, slide, transcricao]
+registro: [transcricao, slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L5667-5865 (transcrição de OUTRO NARRADOR); L6731-6737 (slide); L6386-6411 (transcrição de Max, walkthrough)"
 conflitos: [doutrina-narrador-da-aula-de-ia, doutrina-ia-primeiro-rascunho]
 status: rascunho
 ---
 
-# Aviso de autoria — leia antes de citar
+# Aviso de autoria
 
-**A aula inteira de onde vem este princípio não é narrada pelo Max.** A prova
-está dentro dela: ao apresentar o custom GPT, o narrador se refere a Max em
-terceira pessoa —
+**Faixa L5667-5866 (ChatGPT Copywriting) — `outro-provado`.**
+**Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
+pessoa: "So we have a email marketing brain, something that **Max had put together
+himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
+Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
 
-> So we have a email marketing brain, **something that Max had put together
-> himself**. And it's awesome. (L5753)
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
 
-O bloco vai de L5667 (`\# File-ChatGPT Copywriting`) a L5865. **Tudo que está
-citado abaixo como "a regra" está dentro dele.** Nenhuma dessas frases é citável
-como fala do Max — são afirmações do material do curso, no máximo da agência
-("this is the exact template that our copywriters use", L5799-5801).
+**A aula inteira de onde vem este princípio não é narrada pelo Max.** O bloco vai
+de L5667 (`\# File-ChatGPT Copywriting`) a L5866, e **tudo que está citado abaixo
+como "a regra" está dentro dele** — a metáfora do copywriter júnior, a lista do
+que a IA faz bem, "framework builder, not a first draft machine" (L5855) e a
+contradição interna. Nenhuma dessas frases é citável como fala do Max; são
+afirmações do material do curso, no máximo da agência ("this is the exact
+template that our copywriters use", L5799-5801).
 
-O slide correspondente fala em primeira pessoa — "Lucky for you, I've created the
-Email Marketing Brain" (L6774) — o que aumenta a dúvida em vez de resolvê-la. Ver
-`doutrina-narrador-da-aula-de-ia`.
+O slide (L6731-6737, L6774) e o walkthrough do Calvin Klein / Feastables
+(L6386-6411, bloco `max-provado`) **são** dele — e é por isso que a seção "O que
+sobra e é atribuível" existe. Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação (registro: outro-narrador)
 

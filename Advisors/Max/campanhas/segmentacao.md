@@ -3,11 +3,35 @@ tipo: especificacao
 modulo: campanhas
 assunto: segmentacao
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4844-5153 (transcrição), L5534-5598 (slide), bullets do módulo L4829-4840"
 conflitos: [campanhas-limiar-vip, campanhas-suppress-list, campanhas-share-do-90-day-engaged, campanhas-janela-de-engajamento, campanhas-winback-janela, campanhas-janela-do-segmento-de-interesse]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L4846-5154 (Segmentation) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **os seis segmentos com a sintaxe verbatim (L5585-5592) e a distinção
+lista × segmento (L5539-5540) são slide** — artefato escrito de Max, e continuam
+sendo o que se digita no Klaviyo. Tudo o que vem da fala — o teste dos 30 dias, a
+analogia do score de crédito, a aritmética dos 9% × 50-60%, o motivo de suprimir
+em vez de deletar, as janelas alternativas e o limiar de 5 pedidos para VIP —
+está em L4846-5154, faixa não-Max, e **não é citável como fala dele**. Os bullets
+do módulo (L4829-4840) são texto escrito, não fala.
 
 # Segmento não é lista
 
@@ -15,7 +39,7 @@ status: rascunho
 > **Segments are dynamic**. They can change at any second, based on the
 > requirements you set on the segment. (L5539-5540, verbatim)
 
-O teste que ele dá na fala: num segmento "placed order in the last 30 days"
+O teste dado na fala: num segmento "placed order in the last 30 days"
 (L4865), alguém que comprou há 30 dias **sai** amanhã, a menos que compre de
 novo hoje (L4869). Ressalva de transcrição: L4867 grafa o oposto — "Someone who
 bought 30 days ago **would be** in it tomorrow" —, e L4869 corrige na frase
@@ -35,11 +59,12 @@ better deliverability · more sales · **set up flows** · personalization. O
 terceiro item é o que mais muda — "set up flows" no bullet, "save time with
 automation" no slide.
 
-O primeiro é o que ele trata como decisivo: "deliverability is really the
+O primeiro é o que o material trata como decisivo: "deliverability is really the
 biggest piece when it comes down to segmentation, figuring out who you're
 sending to, but also very importantly, **who you're excluding**" (L4913). A
-analogia dele: deliverability é como score de crédito, e o nome disso em email
-é sender reputation (L4919-4921). O mecanismo: enviando para a lista toda com
+analogia usada: deliverability é como score de crédito, e o nome disso em email é
+sender reputation (L4919-4921) — a mesma imagem abre o módulo de deliverability,
+também em faixa não-Max. O mecanismo: enviando para a lista toda com
 9% de open rate, o Gmail lê 91% de não-aberturas como spam; com "50, 60% open
 rates" e "1 to 300 [sic] people clicking per campaign", lê como interesse
 (L4935-4945).
@@ -75,7 +100,7 @@ alterada.
 > **VIP Customers** *(This will again vary on store, use your gut on what counts as a VIP customer)*
 > `Someone can receive email marketing because person is subscribed AND Someone
 > has placed order at least 4 times over all time`
-> → 1x email extra por mês e/ou flow. Ele prefere contagem de pedidos a LTV,
+> → 1x email extra por mês e/ou flow. O slide prefere contagem de pedidos a LTV,
 > "because you can predict it a little better and send emails to people every
 > purchase letting them know how many purchases they are away from the VIP
 > list" (L5590). Sugere também um VIP email por trimestre (L5590).
@@ -103,8 +128,8 @@ alterada.
 > means you can't send to them, but you can get them back if you want. So
 > they're not gone forever. (L4979-4981, verbatim)
 
-O motivo declarado de preferir suprimir a deletar é reversibilidade: dá para
-dessuprimir em períodos de venda grande — "Think pretty much BFCM is the main
+O motivo declarado na fala para preferir suprimir a deletar é reversibilidade: dá
+para dessuprimir em períodos de venda grande — "Think pretty much BFCM is the main
 one" (L4983-4985). O segundo motivo é custo: "keep our Klaviyo bill
 manageable", já que o Klaviyo cobra por perfil (L5133, L5592).
 
@@ -126,7 +151,7 @@ manageable", já que o Klaviyo cobra por perfil (L5133, L5592).
 - **Janela de engajamento.** "30, 60, 90 days, depending on how wide you want to
   get" (L4949) e "depending on how old the Klaviyo account is" (L5151), contra
   90 fixo como base (L5025-5033, L5596). Ver `campanhas-janela-de-engajamento`.
-- **Winback.** 150/90 na fala e no slide (L5057, L5589); ele mesmo oferece
+- **Winback.** 150/90 na fala e no slide (L5057, L5589); a mesma fala oferece
   100/180 como alternativa para ciclo de compra longo (L5071-5075). Ver
   `campanhas-winback-janela`.
 - **Segmento de interesse.** "in the last 30 days" (L4965) contra "over all
@@ -136,9 +161,9 @@ manageable", já que o Klaviyo cobra por perfil (L5133, L5592).
 
 Não há segmento de exclusão declarado além do suppress list — o bullet do
 módulo diz "Exclusion segments should include (but not be limited to): Bounced
-3+ times" (L4839-4840) e nunca completa a lista. O Sunset Flow, que ele promete
-em L5127 ("We'll talk about this more in the Sunset Flow"), não é desenvolvido
-em lugar nenhum do corpus. Não há regra de quando dessuprimir além de "BFCM e
+3+ times" (L4839-4840) e nunca completa a lista. O Sunset Flow, prometido em L5127
+("We'll talk about this more in the Sunset Flow"), não é desenvolvido em lugar
+nenhum do corpus — e a promessa é do outro narrador, não dele. Não há regra de quando dessuprimir além de "BFCM e
 talvez outros eventos" (L4985).
 
 # Ligações

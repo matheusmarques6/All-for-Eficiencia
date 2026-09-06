@@ -3,11 +3,33 @@ tipo: principio
 modulo: copy
 assunto: skimmable
 autor: max-sturtevant
-registro: [slide, transcricao]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L6578-6598 (slide), L5607 (slide-resumo), L5889-5891 (transcrição)"
 conflitos: [copy-numeracao-dos-principios]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L5888-6082 (Utilizing Infographics) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+A exposição aqui é pequena e localizada: **as três regras, a regra que governa as
+outras e todos os verbatim vêm do slide** (L6578-6598) e do resumo escrito do
+módulo (L5607) — artefato de Max, integralmente citável. Só a seção "Como isso
+aparece na fala" (L5889-5891) está na faixa não-Max e **não é citável como fala
+dele**. Nada de substantivo depende dela.
 
 # O que é
 
@@ -69,11 +91,11 @@ more skimmable it is" (L6598). Ele mesmo marca que é redundância: brevidade
 reaparece em Clear & Concise ("shouldn't be longer than 1-2 scrolls", L6613) e
 em Engaging ("A punchy email is short, but full of power", L6633).
 
-# Como isso aparece na fala
+# Como isso aparece na fala (registro: outro-narrador)
 
-Na transcrição de infográficos, skimmable é sempre citado em bloco com os
-outros dois — "making sure everything's skimmable, clear and concise,
-engaging" (L5889) — e o critério dele para infográfico é exatamente esse:
+Na transcrição de infográficos — que **não** é fala de Max —, skimmable é sempre
+citado em bloco com os outros dois — "making sure everything's skimmable, clear and concise,
+engaging" (L5889) — e o critério que ali se dá para infográfico é exatamente esse:
 "break everything down into a lot less words and say a lot more, which is kind
 of the name of the game when it comes to copy" (L5889).
 

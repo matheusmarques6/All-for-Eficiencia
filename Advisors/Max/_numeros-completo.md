@@ -1,0 +1,1046 @@
+---
+tipo: indice
+assunto: numeros-e-limiares-completo
+autor: max-sturtevant
+status: rascunho
+---
+
+# O que é este arquivo
+
+A tabela integral de números do corpus, por domínio: 44 tabelas. Só se chega
+aqui pelo [[_numeros]] — a abertura, as três regras de uso, as dezessete
+medidas mais pedidas e as armadilhas de número estão lá, e valem aqui sem
+repetição.
+
+**Sobre os blocos escritos.** O bruto tem três tipos de material escrito, não um:
+o deck GAMMA, os bullets de resumo da página do curso (antes de cada
+"Transcrição do Vídeo") e as notas de masterclass com timestamps (L5155-5180).
+Os três recebem `slide` na coluna Registro, com o qualificador entre parênteses.
+Isso importa numa consequência prática: os bullets de resumo de campanhas
+(L4191-4194), copy (L5605-5611), segmentação (L4838-4840) e otimização
+(L8764-8767) caem **dentro** das faixas que o laudo de autoria marca como
+não-Max, mas são material escrito, não fala — e o laudo manda preservar
+`slide` nas partes derivadas de slide. Por isso não levam `outro-narrador`.
+
+---
+
+# Fundamentos
+
+Faixa: L1-236 (transcrição), L237-522 (slide GAMMA, com o glossário em
+L384-519). O glossário é o único bloco que ele declara em L217 não ter lido em
+voz alta — por isso `slide (glossário)` é qualificado à parte: em conflito com a
+tabela de metas, a tabela vence (ver [[_protocolo]], seção sobre conflito dentro
+do mesmo registro).
+
+## Tabela de metas e glossário
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Email % da receita da loja — meta | `"The goal is 40%"` | transcrição | L168 | — |
+| " " | `"around 40% is that sweet spot"` | transcrição | L170 | — |
+| " " | `"40% (Goal)"` | slide | L374 | — |
+| " " | `"Target is ~40%"` | slide (glossário) | L388 | — |
+| Faixa saudável | `"30 to 50% is healthy"` | transcrição + slide | L170, L374 | — |
+| Limiar para escalar aquisição | `"If you get over 55%"` | transcrição | L170 | fundamentos-limiar-de-escalar-aquisicao |
+| " " | `">55% = time to scale acquisition"` | slide | L374 | fundamentos-limiar-de-escalar-aquisicao |
+| " " (walkthrough) | `"say you're at like 60 percent"` | transcrição | L56 | fundamentos-limiar-de-escalar-aquisicao |
+| Piso | `"less than like 30%"` | transcrição | L172 | fundamentos-piso-de-email-share |
+| " " (walkthrough) | `"anywhere under 30%, um 40%"` | transcrição | L56-58 | fundamentos-piso-de-email-share |
+| Email+SMS como % da receita total | `"anywhere from 30 to 50 percent"` | transcrição | L56 | — |
+| Split campanhas × flows | `"Campaigns: 40–60% of email revenue Flows: 40–60% of email revenue"` | slide | L375 | fundamentos-split-campanhas-flows |
+| " " | `"40 to 60% each so 40% campaigns, 60% flows"` | transcrição | L172 | fundamentos-split-campanhas-flows |
+| " " | `"in that 60 40 range for both"` | transcrição | L174 | fundamentos-split-campanhas-flows |
+| " " | `"around 50/50 or 40/60, 60/40 anywhere in that range"` | transcrição | L60 | fundamentos-split-campanhas-flows |
+| Share de flows na receita de email | `"roughly 50%"` | transcrição | L22 | fundamentos-split-campanhas-flows |
+| " " (slide) | `"around 50% of your total email revenue"` | slide | L326 | fundamentos-split-campanhas-flows |
+| Variação admitida | `"60/40, 40/60, depends on the brand"` | transcrição | L22 | fundamentos-split-campanhas-flows |
+| Caso extremo (denominador troca) | `"flows generating 80% of the total store revenue"` | transcrição | L22 | fundamentos-denominador-dos-80 |
+| Caso ruim de flows | `"you see 14% from flows"` | transcrição | L62 | — |
+| Open rate — piso | `"we need to be above 50%"` / `"if you're below 50%, you're fucking something up"` | transcrição | L178 | fundamentos-open-rate-glossario |
+| " " (slide) | `"50%+"` | slide | L376 | fundamentos-open-rate-glossario |
+| " " (glossário) | `"Target: 45%+ for engaged segments"` | slide (glossário) | L430 | fundamentos-open-rate-glossario |
+| Limiar de deliverability do Google | `"getting less than 50% opens"` | transcrição | L180 | — |
+| Click rate — campanhas | `"0.5% on campaigns"` | transcrição | L184 | fundamentos-click-rate-glossario |
+| Click rate — flows | `"2% click rates on flows"` | transcrição | L184 | fundamentos-click-rate-glossario |
+| " " (slide) | `"0.5%+ on campaigns 2%+ on flows"` | slide | L377 | fundamentos-click-rate-glossario |
+| " " (glossário) | `"Target: 2–4%+"` | slide (glossário) | L431 | fundamentos-click-rate-glossario |
+| Click rate que ele considera doente | `"they get 1% click rates and I'm like, okay, I don't feel like that's healthy"` | transcrição | L186 | — |
+| Unsubscribe | `"less than 0.3%"` | transcrição | L186-190 | fundamentos-unsubscribe-glossario |
+| " " (slide) | `"<0.3%"` | slide | L378 | fundamentos-unsubscribe-glossario |
+| " " (glossário) | `"Target: <0.2%"` | slide (glossário) | L436 | fundamentos-unsubscribe-glossario |
+| Spam complaint | `"less than 0.01%"` | transcrição | L192 | fundamentos-spam-glossario |
+| " " (slide) | `"<0.01%"` | slide | L379 | fundamentos-spam-glossario |
+| " " (glossário) | `"Target: <0.1%"` | slide (glossário) | L438 | fundamentos-spam-glossario |
+| Bounce rate | `"Target: <2%"` | slide (glossário) | L437 | — |
+| Pop-up submission rate | `"6-12%"` | slide | L380 | list-growth-benchmark-de-form |
+
+O glossário diverge da tabela em quatro pontos: open rate, click rate,
+unsubscribe e spam complaint — este último por **dez vezes** (0,01% × 0,1%).
+
+## Métricas só do glossário
+
+Sem fala e sem tabela para confirmar. Citáveis apenas com a origem declarada.
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| ROI do email | `"Email typically delivers ~40x ROI when done right"` | slide (glossário) | L393 | fundamentos-roi-do-email |
+| List cleaning — janela | `"haven't engaged in 60–90+ days"` | slide (glossário) | L443 | — |
+| Engaged segment — janelas | `"(14/30/60/90 day)"` | slide (glossário) | L417 | — |
+| VIP segment | `"top 1% customers"` | slide (glossário) | L422 | campanhas-limiar-vip |
+| Multi-buyers | `"purchased 2+ times"` | slide (glossário) | L424 | — |
+| Long-form email | `"usually >250 words"` | slide (glossário) | L475 | — |
+| Largura do email | `"Standard width is 600–700px"` | slide (glossário) | L469 | — |
+| Regra 80/20 | `"The 80/20 Rule"` | slide (glossário) | L517 | — |
+| Meta do próprio glossário | 99 termos · 12 categorias · 9,2 KB | slide (glossário) | L384-519 | — |
+
+## Estado do mercado e economia do canal
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Janela do diagnóstico | `"the past 5 years"` | transcrição + slide | L9, L247 | — |
+| Ano dos stimulus checks | `"back in 2020"` | transcrição | L9 | — |
+| Ano das tarifas | `"2025 where tariffs come into play"` | transcrição | L9 | — |
+| Anúncios de ecom vistos por dia | `"over 70 different e-commerce brand ads every single day"` | transcrição | L9 | fundamentos-anuncios-por-dia |
+| " " (slide) | `"70+ ecom ads per day"` | slide | L252 | fundamentos-anuncios-por-dia |
+| Ressalva dele sobre o próprio número | `"some studies that say people see, like, 250"` | transcrição | L9 | fundamentos-anuncios-por-dia |
+| Energéticos testados por ele | `"4 other different of these energy drinks"` | transcrição | L9 | — |
+| Fórmula da lucratividade | `"Increased Cost Per Acquisition x Lower LTV x Tariffs = Lower Profitability"` | slide | L268 | fundamentos-formula-da-lucratividade |
+| " " (fala) | `"increased cost per acquisition plus dec decrereased LTV plus tariffs"` | transcrição | L9 | fundamentos-formula-da-lucratividade |
+| Aquisição não lucrativa | `"Pay for a person to see your ad 10 times before they convert"` | transcrição + slide | L13, L280 | — |
+| Aquisição lucrativa | `"send them 10 emails for pennies"` | transcrição + slide | L13, L281 | — |
+| ROI do email | `"Email average is $36 plus in return for every $1 spent"` | transcrição | L13 | fundamentos-roi-do-email |
+| " " (slide) | `"Email averages $36+ return for every $1 spent"` | slide | L285 | fundamentos-roi-do-email |
+| Retorno de anúncio, comparação | `"which has a 2 to 3 dollar—2 to 3 dollar return"` | transcrição | L13 | — |
+| ROAS que marcas aceitam | `"very happy with having a 0.8 ROAS"` | transcrição | L13 | — |
+| Porte dos clientes citados | `"8 and 9 figure brands"` | transcrição | L13 | — |
+| Conversão de site (novo visitante) | `"sub 2%, most under 1%"` | transcrição | L573 | — |
+| " " (slide) | `"New visitor conversion rates are sub 2%"` | slide | L1155 | — |
+| ROAS sem pop-up | `"two to three X ROAS, if you're lucky"` | transcrição | L575 | — |
+
+## Os 3,5 pilares
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Número de pilares | `"3.5"` | transcrição + slide | L21, L291 | — |
+| Brand A — lista atual | `"10,000 current email subscribers"` | transcrição + slide | L21, L301 | — |
+| Brand A — entrada mensal | `"Gains 2,000 new subscribers/mo"` | transcrição + slide | L21, L303 | — |
+| Brand B — lista atual | `"20,000 current email subscribers"` | transcrição + slide | L21, L307 | — |
+| Brand B — entrada mensal | `"Gains 250 new subscribers/mo"` | transcrição + slide | L21, L309 | — |
+| Janela do honeymoon | `"the warmest they are is within 30 days"` | transcrição | L22 | — |
+| " " (slide) | Honeymoon phase declarada **sem prazo** | slide | L319 | — |
+| Autobiografia (Breeze) | `"I literally got this like 7 days ago"` / `"bought like 2 months ago"` | transcrição | L22 | — |
+| Cadência de campanhas | `"2 to 4 email campaigns per week"` | transcrição | L22 | campanhas-sweet-spot-de-frequencia |
+| " " (slide) | `"2-4 email campaigns per week"` | slide | L338 | campanhas-sweet-spot-de-frequencia |
+| Case de aumento de cadência | `"From sending once per week to sending 10 campaigns in 30 days"` | transcrição | L22 | — |
+
+Os quatro valores de Brand A / Brand B são exemplo didático, não benchmark. O
+churn que sustenta o argumento nunca é quantificado.
+
+## Walkthrough do Klaviyo (aula 4)
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Desconto Omnisend | `"30% off your first 3 months"` | transcrição | L34 | — |
+| " " (slide) | `"30% OFF first 3 months with my link below"` | slide | L358 | — |
+| Receita atribuída no diagrama | `"$28,000 here is directly attributed to email"` | transcrição | L52 | — |
+| Janela de atribuição do Klaviyo | `"within three to five days"` | transcrição | L54 | — |
+| Período do print | `"January 27th, 2024 to February 26th, 2024"` | transcrição | L64 | — |
+| Janela do print | `"a 30-day period"` / `"the prior 30-day period"` | transcrição | L64 | — |
+| Conta viva — receita | `"only $590 um in the last 30 days"` | transcrição | L70 | — |
+| Conta viva — email | `"only 47 from email"` | transcrição | L70 | — |
+| Benchmark do form (lapso) | `"six to 12% of your total email revenue"` | transcrição | L104 | fundamentos-benchmark-do-form |
+| Benchmark do form (corrigido) | `"6 to 12% of your total site traffic"` | transcrição | L106 | fundamentos-benchmark-do-form |
+| Form real na tela | `"converting 0.7% of people who view the site"` | transcrição | L106 | — |
+| Aritmética a 0,7% | `"if 1,000 people view the site (…) seven people are signing up"` | transcrição | L106-108 | — |
+| Aritmética à meta | `"1000 people viewing your site (…) at least 60 to, um, 120 people"` | transcrição | L108 | — |
+| Segmento "engage 60 days" — tamanho | `"258 members"` | transcrição | L114 | — |
+| Segmento "engage 60 days" — condições | `"opened email at least once in the last 60 days, or clicked an email in the last 60 days, or (…) added to the newsletter in the last 30 days"` | transcrição | L116 | — |
+| Segmento de abandono — condições | `"checkout started at least once in the last 30 days"` + `"placed order zero times in the last 30 days"` | transcrição | L120, L122-126 | — |
+| Resultado com definição errada | `"eight members"` | transcrição | L126 | — |
+| Resultado com definição correta | `"two people in the last 30 days"` | transcrição | L128 | — |
+
+---
+
+# List-growth
+
+Faixa: L523-1084 (transcrição), L1085-1306 (slide GAMMA). A aula 6
+(L986-1083) é um vídeo público do YouTube com CTA comercial — marcada
+`transcrição (YouTube)`.
+
+## Benchmarks de captação
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Taxa de conversão de pop-up | `"around 6 to 12%"` | transcrição | L194 | list-growth-benchmark-de-form |
+| Piso | `"a minimum 6%"` | transcrição | L194 | list-growth-benchmark-de-form |
+| Meta | `"ideally 10% plus"` | transcrição | L194 | list-growth-benchmark-de-form |
+| Teto observado por ele | `"20 to 30% opt-in rates"` | transcrição | L194 | — |
+| KPI citado na aula 2 | `"6 to 12% opt-in rates"` | transcrição | L597 | list-growth-benchmark-de-form |
+| Meta do slide | `"10%+ opt in rates"` | slide | L1186 | list-growth-benchmark-de-form |
+| Meta acima da meta | `"Even your 10%+ forms should continue to be tested to try to reach 20%+"` | slide | L1187 | list-growth-benchmark-de-form |
+| Onde a maioria empaca | `"3 to 5% optin rates"` | transcrição (YouTube) | L1028 | list-growth-benchmark-de-form |
+| Meta na versão YouTube | `"we want to be 10% plus"` | transcrição (YouTube) | L1028 | list-growth-benchmark-de-form |
+| Ganho de 12%→15% | `"a 25% increase in your list growth"` | transcrição | L599 | — |
+| Curva real de iteração | `"2.5 and then 3.3, 4.1 and then down to 3.7, and then up to 5.6"` | transcrição | L601-603 | — |
+
+## Especificação do form
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Time delay | `"Time delay is 4-12 seconds"` | slide | L1251 | list-growth-time-delay |
+| " " | `"Time delay 4 to 12 seconds. Don't use any other time delay"` | transcrição | L655 | list-growth-time-delay |
+| " " (valores permitidos) | `"4 seconds, 12 seconds, 8 seconds, 10 seconds. One of those"` | transcrição | L655 | list-growth-time-delay |
+| " " | `"something between 4 to 12 seconds, you can start off with four"` | transcrição | L820 | list-growth-time-delay |
+| " " (junto do benchmark) | `"a four to six second time delay trigger"` | transcrição | L194 | fundamentos-time-delay-do-form |
+| " " (YouTube) | `"4 to 8 seconds... I'm doing a 6second delay"` | transcrição (YouTube) | L1033 | list-growth-time-delay |
+| " " (trigger padrão no Alia) | `"after 5 seconds"` | transcrição | L982 | list-growth-time-delay |
+| Delay longo demais | `"30 seconds, 40 seconds"` | transcrição (YouTube) | L1034 | — |
+| Cobertura de tela | `"Form covers at least 75% of screen"` | transcrição + slide | L657, L1253 | list-growth-popup-vs-full-page |
+| Copy | `"Under 10 words of copy"` | transcrição + slide | L659, L1254 | — |
+| Inputs por passo | `"one input per step"` | transcrição + slide | L653, L1250 | — |
+| Dimensão mobile | `"750X500"` | transcrição | L710 | — |
+| Dimensão desktop | `"1000 x 600"` | transcrição | L840 | — |
+| Valores testados antes do 1000x600 | `"800"`, `"600"` | transcrição | L836-838 | — |
+| Reexibição após fechar | `"5 days"` | transcrição | L822 | — |
+| Fonte do aviso legal de SMS | `"size eight"` | transcrição | L790 | — |
+| Tamanhos de fonte da oferta (mobile) | 25 → 45 → 55 → 60; corpo 35 | transcrição | L732-742 | — |
+| Padding usado | 50 (abaixo do logo), 30 (fim) | transcrição | L746, L768 | — |
+| Fonte e altura do botão (quiz) | `"the font is 18... a height of 54"` | transcrição (YouTube) | L1059-1060 | — |
+| Itens do checklist do form | 7 itens | slide | L1250-1256 | — |
+| Passos para criar um form | 5 passos | slide | L1194-1212 | — |
+
+## A/B tests de captação
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Quantidade | `"Top 7 Best A/B Tests"` | slide | L1258 | — |
+| " " (fala) | `"top seven A/B tests"` | transcrição | L663 | — |
+| Cadência | `"at least for like bi-weekly. Once every two weeks"` | transcrição | L663 | — |
+| Impacto de trocar a oferta | `"decreasing your CAC by 15%"` | transcrição | L665 | — |
+| Par de delay a testar | `"Try 4 second vs 12 second to start then start closing the gap"` | transcrição + slide | L669, L1274 | list-growth-time-delay |
+| Métrica de decisão do delay | `"TOTAL submits, not conversion rate"` | slide | L1274 | — |
+| Swipe file | `"29 solid pop-up form examples"` | transcrição + slide | L671, L1290 | — |
+| Micro-commit vence o classic | `"75% of the AB tests that I do"` | transcrição (YouTube) | L1007 | — |
+| " " (revisão na mesma frase) | `"even a little bit more towards like 80 to 85%"` | transcrição (YouTube) | L1007 | — |
+
+## Oferta
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Corte % off / $ off | `"AOV is below $100"` / `"above $100"` | transcrição + slide | L627-629, L1222-1223 | list-growth-lista-de-ofertas |
+| Exemplo abaixo do corte | `"AOV is like $80, 10% off... $8 off on average"` | transcrição | L629 | — |
+| Exemplo acima do corte | `"AOV is $200... 10% off or $20 off"` | transcrição | L629-631 | — |
+| Exemplo de AOV alto (YouTube) | `"$500 AOV... 10% off... $50 off"` | transcrição (YouTube) | L1020-1021 | — |
+| Pedido grande | `"$1,000 order... which is $100"` | transcrição (YouTube) | L1021 | — |
+| Mínimo de compra sugerido | `"spend at least $500 with us"` | transcrição (YouTube) | L1022 | — |
+| Exemplo de AOV baixo | `"$50 AOV... $5 bill versus 10% off"` — 10% off vence | transcrição (YouTube) | L1023 | — |
+| Teto de desconto | `"as long as you're not giving up like 80% off"` | transcrição (YouTube) | L1019 | — |
+| Oferta hipotética extrema | `"90% off"` | transcrição | L619 | — |
+| Desconto existente a esconder | `"20% off all orders"` | transcrição | L613 | — |
+| Free gift — valor percebido | `"a free $29 gift"` | transcrição | L633, L1024 | — |
+| Free gift — custo real | `"cost them $2 to $3 to produce"` | transcrição (YouTube) | L1025 | — |
+| " " (versão da aula 3) | `"cost the brand like two dollars to produce"` | transcrição | L635 | — |
+| Descontos usados como exemplo | 10%, 15% | transcrição | L661, L728 | — |
+| Trial do Alia | `"a 30-day free trial"` | transcrição | L649 | list-growth-alia-url-e-oferta |
+| " " (YouTube) | `"say that Max sent you a 30-day free trial"` | transcrição (YouTube) | L1014 | list-growth-alia-url-e-oferta |
+| " " (slide) | `"Say Max sent you when you book a call and you'll get a gift ;)"` | slide | L1245 | list-growth-alia-url-e-oferta |
+
+Case **Gains in Bulk** (L621-627), exemplo de empilhamento de oferta, nenhum
+valor é regra: creatina avulsa `"$39"` · por assinatura `"$29, so $10 off"` ·
+`"$20 physical gift card"` · `"90 day money back guarantee"` · brindes
+`"free shaker... free funnel"`. No swipe file aparece como
+`"$10 off plus four free gifts"` (L675).
+
+## Métodos de captação e o case da agência
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Métodos de list growth | `"four types, four methods"` / `"The 4 Methods"` | transcrição + slide | L531, L1093 | — |
+| Setup do checkbox pós-compra | `"takes 5 minutes to set up on Shopify"` | transcrição + slide | L537, L1114 | — |
+| Tipos de form | `"four different types of pop-up forms"` | transcrição (YouTube) | L998 | list-growth-tipos-de-form |
+| " " (slide, conflitante) | `"Use one of the 5 form types"` | slide | L1200 | list-growth-tipos-de-form |
+| Conversão do form, antes → depois | `"2.5%"` → `"8.75%"` | transcrição + slide | L585, L1179 | — |
+| Receita mensal do welcome flow | `"$7,000"` → `"$25,000"` | transcrição + slide | L587, L1181 | — |
+| Multiplicador | `"3.5X"` | transcrição + slide | L589, L1170 | — |
+| Delta mensal | `"an extra $18,000 a month"` | transcrição | L589-591 | — |
+| Subscribers em 12 meses | `"9,000"` → `"31,500 new subscribers"` | transcrição + slide | L591, L1171 | — |
+| Receita em 12 meses | `"$84,000"` → `"$300,000 of revenue"` | transcrição + slide | L591, L1172 | — |
+| Novos subscribers/mês | `"750"` → `"2,625"` | transcrição + slide | L595, L1180 | — |
+| AOV, antes e depois | `"~ $93"` | transcrição + slide | L593, L1177 | — |
+| Visitantes/mês, antes e depois | `"~ 30,000"` | transcrição + slide | L593, L1178 | — |
+| Janela da média | `"three month averages"` | transcrição + slide | L593, L1175 | — |
+| Crescimento de lista (case YouTube) | `"16,000 to 50,000 email subscribers"` | transcrição (YouTube) | L993 | — |
+| Receita adicional (case YouTube) | `"an extra $200,000 per month"` | transcrição (YouTube) | L993 | — |
+| Subscribers (segundo case) | `"105,000 new email subscribers"` | transcrição (YouTube) | L994 | — |
+| Receita (segundo case) | `"$924,000 in revenue"` | transcrição (YouTube) | L994 | — |
+| Submission rate (segundo case) | `"28%"` | transcrição (YouTube) | L994 | — |
+| Clientes da agência | `"over 279 figure e-commerce brands"` — **corrompido, sem leitura autorizada** | transcrição (YouTube) | L1029 | — |
+
+---
+
+# Flows
+
+Faixa: L1307-3403 (transcrição), L3404-4186 (slide GAMMA).
+
+## Welcome flow
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Piso de emails | `"at least three emails"` | transcrição | L1436 | welcome-contagem-de-emails |
+| " " (slide) | `"At least 3 emails long"` | slide | L3493 | welcome-contagem-de-emails |
+| Sweet spot | `"four to five emails (…) I think it's the sweet spot"` | transcrição | L1440-1442 | welcome-contagem-de-emails |
+| Alternativa | `"You could also do six"` | transcrição | L1444 | welcome-contagem-de-emails |
+| Extremo | `"some welcome flows that are like 15 emails"` | transcrição | L1446 | welcome-contagem-de-emails |
+| Faixas | `"three to four emails (…) some can be six to eight"` | transcrição | L1520-1522 | welcome-contagem-de-emails |
+| " " (slide) | `"3-4 emails others should be 6-8 emails"` | slide | L3502 | welcome-contagem-de-emails |
+| Delay do 1º | `"fire automatically upon signing up (…) don't wait some bullshit 10 minutes or wait one hour"` | transcrição | L1420-1422 | — |
+| " " (slide) | `"First email fires immediately upon sign-up"` | slide | L3492 | — |
+| Cadência | `"one to two days apart"` | transcrição | L1458 | welcome-cadencia |
+| " " (slide) | `"Emails 1-2 days apart"` | slide | L3494 | welcome-cadencia |
+| " " (contra) | `"hit them every single day (…) we need to hit them every day"` | transcrição | L1468-1472 | welcome-cadencia |
+| Janela de conversão | `"if they don't buy within the first like five days, it's going to be very difficult"` | transcrição | L1460 | — |
+| Filtro de bounce | `bounce less than two times since starting this flow` | transcrição | L1544 | — |
+| Prazo da oferta | `"The welcome offer expires in 40 hours"` | transcrição | L1560 | welcome-prazo-da-oferta |
+| " " (extensão) | `"I extended it for 24 more hours"` | transcrição | L2292 | welcome-prazo-da-oferta |
+| Fillers | `"One to five filler emails"` | transcrição | L1612, L2178 | welcome-contagem-de-fillers |
+| " " (slide) | `"1-5 Filler Emails"` | slide | L3517 | welcome-contagem-de-fillers |
+| " " (slide) | `"Insert 1-4 Filler Emails"` | slide | L3544 | welcome-contagem-de-fillers |
+| " " (slide) | `"the 1–5 educational emails"` | slide | L3547 | welcome-contagem-de-fillers |
+| Fillers no exemplo | `"we did one filler email"` | transcrição | L1648-1650 | — |
+| Fillers no recap | `"maybe we have three filler emails"` | transcrição | L2310 | welcome-estrutura-da-sequencia |
+| Ângulos de filler | 21 itens listados | slide | L3558-3578 | welcome-catalogo-de-fillers |
+| " " (fala) | 14 itens listados | transcrição | L2136-2166 | welcome-catalogo-de-fillers |
+| Filler — testimonials | `"Highlight 1-5 reviews that are on your site"` | slide | L3563 | — |
+
+Descontos citados no welcome — **nenhum é regra**: `"hey, reminder, you have 20%
+off"` (L1476) · `"$10 off"` (L1726) · `"$20 off is on its last breath"` (L2208) ·
+`"Last chance for 10% off your order"` (L2218) · `"$10 off right here"` (L2234) ·
+`"Use this code for 15% off"` (L2248). Ver `welcome-valor-do-desconto`.
+
+## Site abandon
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Emails | `"just one to two emails to re-engage these people is perfect"` | transcrição | L2363-2365 | — |
+| " " (slide) | `"Just 1 or 2 emails to re-engage them is perfect"` | slide | L3619 | — |
+| Delay do 1º | `"I like to wait four hours"` | transcrição | L2369 | site-abandon-delay-so-na-fala |
+| Delay agressivo | `"a one hour time delay"` | transcrição | L2371 | site-abandon-delay-so-na-fala |
+| Desconto do E2 | `"shop 20 off today"` *(sem `%` no bruto)* | transcrição | L2425 | — |
+
+## Browse abandon
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Emails | `"I typically like to do four emails"` | transcrição | L2472 | — |
+| " " (slide) | `"4 emails works well here, spaced out over 3-4 days"` | slide | L3678 | browse-abandon-janela-de-delays |
+| Delay do 1º | `"we like to wait one hour"` | transcrição | L2476 | browse-abandon-janela-de-delays |
+| Delays seguintes | `"one day between the rest of these emails"` | transcrição | L2478 | browse-abandon-janela-de-delays |
+| Antipadrão | `"we don't email them again for like two weeks or a week, then they have lost interest"` | transcrição | L2480-2482 | — |
+| FAQs | `"Answer only 3 FAQs to avoid overwhelm"` | slide | L3718 | — |
+| " " (fala) | `"answer only like three FAQs to avoid overwhelm"` | transcrição | L2536 | — |
+| Descontos dos exemplos | `"10% OFF your viewed item!"` (L3735) · `"Browse 10 for 10% off"` (L2562) · `"Claim 10% off on the item you've been [eyeing]"` (L2578-2580) | transcrição + slide | — | — |
+
+## Cart / checkout abandon
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Emails | 4 emails especificados | slide | L3798-3881 | — |
+| Delay | **o corpus não informa** | — | — | cart-checkout-ausencia-total-de-delays |
+| Filtro | **o corpus não informa** | — | — | cart-checkout-ausencia-total-de-delays |
+| Ofertas dos exemplos | `"free shipping on all orders over $70"` (L2741) · `"Enjoy $35 off your new smile"` (L2871) · `"$XX OFF Your Cart!"` (L3850) · `"Still 1x% off"` *(ASR corrompido, L2911)* · `"you're 20% off. Not for long"` (L2923) · `"Still want XX% OFF?"` (L3872) | transcrição + slide | — | — |
+
+Célula vazia é informação. Não preencher por analogia com browse ou site
+abandon (ver [[_protocolo]], "O que nunca fazer").
+
+## Post-purchase
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Emails | 2 base | transcrição + slide | L3064-3066, L3932-3966 | — |
+| Janela quente | `"those next seven days is like the warmest this person ever is"` | transcrição | L3040 | post-purchase-escopo-temporal |
+| Janela | `"post-purchase flow as within 14 days"` | transcrição | L3162 | post-purchase-escopo-temporal |
+| " " (slide) | `"relevant in the first 14 days after a customer purchase"` | slide | L3971 | post-purchase-escopo-temporal |
+| Exemplo tardio | `"it's been nearly three weeks since you started your journey"` | transcrição | L3198 | post-purchase-escopo-temporal |
+| Delay do 2º | `"we'll wait a couple days"` | transcrição | L3066 | — |
+| Split por nº de compras | `"purchased once, twice, three times, or four times. Four times or more"` | transcrição | L3076-3078 | — |
+| Resultado do PS | `"helps get like 2% to 3% placed order rates"` | transcrição | L3116 | — |
+
+## Replenishment
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Janela conceitual | `"days 30 through 60-ish, 21 through 60-ish"` | transcrição | L3233-3235 | replenishment-janela |
+| Delay do 1º | `"just wait 21 days"` | transcrição | L3251 | replenishment-janela |
+| Delay do 2º | `"seven days later if they haven't reordered"` | transcrição | L3257-3259 | — |
+| " " (slide) | `"The second goes out seven days later"` | slide | L4003 | — |
+| Abandono do número | `"Set whatever time delay you want"` | transcrição | L3289 | replenishment-janela |
+| Casos de uso | `"Protein powder running out after 30 servings · Coffee beans lasting ~2 weeks · Skincare bottles lasting 60 days"` | slide | L3996-3998 | — |
+| Desconto | `"we're also giving you 15% off"` | transcrição | L3299 | replenishment-desconto |
+| " " (slide) | `"15% Off Your Next Refill!"` / código `"COOL15"` | slide | L4035-4037 | replenishment-desconto |
+| Value props do E1 | `"3-sec refresh, lasts 6+ hours"` | slide | L4020 | — |
+
+## Winback
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Janelas de lapso | `"90, 120, 180 days are the most common ones that I do"` | transcrição | L3322 | — |
+| " " (slide) | `"(90, 120, 180 days)"` | slide | L4053 | — |
+| Segmento | `"placed an order zero times in the last 90 days"` | transcrição | L3318 | winback-definicao-do-segmento |
+| " " (slide, módulo campanhas) | `"placed order at least once in the past 150 days AND (…) zero times in the last 90 days"` | slide | L5589 | winback-definicao-do-segmento |
+| " " (fala, módulo campanhas) | `"placed an order in the past 150 days, but they haven't made one in the last 90"` | outro-narrador | L5057 | winback-definicao-do-segmento |
+| " " (janela alternativa) | `"placed an order zero times in the last hundred days (…) but placed an order at least once in the last 180"` | outro-narrador | L5071 | campanhas-winback-janela |
+| Cadência | `"email one, day zero"` | transcrição | L3326 | winback-cadencia |
+| " " (slide) | `"Email 1 (Day 0) · Email 2 (Day 7) · Email 3 (Day 10)"` | slide | L4063-4065 | winback-cadencia |
+| Nº de chances | `"giving you three chances to bring a lapsed customer back"` | transcrição + slide | L3334, L4066 | — |
+| Descontos dos exemplos | `"take 10% off just because we miss you"` (L3360) · `"Take 10% Off Your Next Order"` (L4094) · `"Last Chance for 10% Off"` (L4110) | transcrição + slide | — | — |
+
+## Contexto e negócio (módulo flows)
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Participação de flows na receita | `"Generate 20% of Total Shopify Revenue from Automated Emails"` | slide | L3408 | flows-participacao-na-receita |
+| " " | `"They should make up around 50% of your total email revenue with the other 50% coming from campaigns"` | slide | L3438 | flows-participacao-na-receita |
+| Tamanho típico de flow existente | `"only a few emails long. Maybe 3-4 sometimes less, sometimes more"` | slide | L3449 | — |
+| Volume total de emails automatizados | `"you can have 30-50+ automated emails"` | slide | L4119 | — |
+| Frequência de campanha | `"three to four campaigns per week"` | transcrição | L2367 | flows-frequencia-de-campanha |
+| " " | `"people are receiving them three times per week"` | transcrição | L3386 | flows-frequencia-de-campanha |
+| Setup do Klaviyo | `"takes 2 minutes to setup"` | slide | L3429 | — |
+| Gasto de exemplo em ads | `"$50 in ad spend"` | transcrição | L1352 | — |
+| CPA de exemplo | `"it's more like 10, 15, 5"` | transcrição | L1336 | — |
+| Produto caro de exemplo | `"a brand that's selling $10,000 saunas"` | transcrição | L1378 | — |
+
+Exemplos de marca dentro dos templates, **não são especificação**: Breeze
+`"only being 30 calories"` (L1892) · social proof `"4.8 stars out of 5 on 18,200
+reviews"` (L2030) · Velvet `"over 200 plus styles"` · `"100 plus cases"` ·
+`"iPhone 16"` (L2419-2425) · Live Fresh `"40 patents · 26 research studies · 12
+dental experts on staff"` (L2807-2813).
+
+---
+
+# Campanhas
+
+Faixa: L4187-5236 (transcrição), L5237-5599 (slide GAMMA). **A transcrição de
+L4189 a L5154 é `outro-narrador`** (blocos Campaign Strategy, Campaign Calendar,
+Creating Great Campaigns, Segmentation). O bloco de texto puro L5155-5235 é Max.
+
+## Frequência de campanha
+
+A tabela do slide, verbatim (L5293-5298; os pipes viraram `·` para caber, sem
+nenhuma outra alteração):
+
+```
+| Store Revenue | Monthly Site Visitors | Email Frequency |
+| $0-50k/mo     | 0-25k/mo              | 2x per week     |
+| $50k-250k/mo  | 25k-50k/mo            | 3x per week     |
+| $250k-1M/mo   | 50k-250k/mo           | 4x per week     |
+| $1M/mo+       | 250k/mo+              | 5-6x per week   |
+```
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Sweet spot | `"3x per week is typically the sweet spot"` | slide | L5255 | campanhas-sweet-spot-de-frequencia |
+| Piso absoluto | `"I wouldn't recommend going lower than 2x per week no matter your ecom store size"` | slide | L5256 | — |
+| Cadência geral | `"a consistent cadence of 2-4 email campaigns per week"` | slide | L5249 | campanhas-sweet-spot-de-frequencia |
+| " " | `"Send between 2x - 4x per week"` | slide (resumo) | L4192 | campanhas-sweet-spot-de-frequencia |
+| " " | `"two to four campaigns per week is generally going to be the sweet spot"` | outro-narrador | L4220 | campanhas-sweet-spot-de-frequencia |
+| " " | `"the two to four times per week is really hitting the sweet spot"` | outro-narrador | L4242 | campanhas-sweet-spot-de-frequencia |
+| " " (dado ao GPT) | `"three to four campaigns per week, which is more likely than not what we're looking for"` | outro-narrador | L4554-4556 | campanhas-sweet-spot-de-frequencia |
+| Tier 1 | `"$0-50k/mo · 0-25k/mo · 2x per week"` | slide | L5295 | — |
+| " " (fala) | `"zero to 50K a month, two times a week is probably pretty safe"` | outro-narrador | L4264-4266 | — |
+| Tier 2 | `"$50k-250k/mo · 25k-50k/mo · 3x per week"` | slide | L5296 | — |
+| " " (fala) | `"50K to 250K a month, three acts per week"` *(ASR)* | outro-narrador | L4266 | — |
+| Tier 3 | `"$250k-1M/mo · 50k-250k/mo · 4x per week"` | slide | L5297 | campanhas-tier-250k-1m |
+| " " (fala) | `"probably in that three to four emails a week"` | outro-narrador | L4268 | campanhas-tier-250k-1m |
+| Tier 4 | `"$1M/mo+ · 250k/mo+ · 5-6x per week"` | slide | L5298 | — |
+| " " (fala) | `"a mil a month plus, you can kind of start getting more creative at the five to six times a week"` | outro-narrador | L4270-4272 | — |
+| Teto por tamanho de lista | `"if you have a smaller list, 5,000, 10,000, 20,000 people, you're not going to want to send to send [sic] five or six times a week"` | outro-narrador | L4276-4278 | campanhas-o-que-determina-a-frequencia |
+| Alcance real com lista pequena | `"only a segment of that, you know, four or 5,000 people"` | outro-narrador | L4280 | — |
+| Faixa insuficiente | `"Sending 1-2x Per Week"` → esquece, sem hábito, dinheiro na mesa | slide | L5258-5262 | — |
+| Faixa arriscada | `"Sending 5-7x Per Week"` → unsubscribes, irritação, diluição, platô | slide | L5264-5269 | — |
+
+Fora do módulo, a mesma medida reaparece em: L22/L338 (fundamentos, `2-4`),
+L2367/L3386 (flows, `three to four` / `three times`), L8557 (deliverability,
+`"ideally 3 to 4 times per week"` durante warming, `outro-narrador`), L8788
+(otimização, `"three to four campaigns a week"`, `outro-narrador`), L9226/L9364 e
+L9248/L9490 (SMS, `4-5` e `4x per week` como comparativo com SMS).
+
+## Pontos de contato e atenção
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Toques até a compra | `"right around seven, six to seven touch points before someone ends up making a purchase"` | outro-narrador | L4248 | — |
+| Atenção antes | `"an average of 5-10 seconds of attention per email"` | slide | L5500 | — |
+| " " (fala) | `"before five, 10 seconds per email"` | outro-narrador | L4703 | — |
+| Atenção hoje | `"In 2025/2026, you *maybe* have 3 seconds"` | slide | L5501 | doutrina-segundos-de-atencao |
+| " " (fala) | `"now you have about three (…) the first two to three seconds"` | outro-narrador | L4705-4709 | doutrina-segundos-de-atencao |
+| Skim | `"skimmed in under 3 seconds"` | slide | L5515 | doutrina-segundos-de-atencao |
+| Skim (S.C.E.) | `"if they can't skim it in 3 seconds, it won't get read"` | slide | L5508 | doutrina-segundos-de-atencao |
+
+## Benchmarks de campanha
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Open rate ideal | `"you ideally want to be in that 50 to 60% range, but anything over 40% is okay"` | outro-narrador | L4236 | deliverability-limiar-de-open-rate |
+| Click rate | `"somewhere between one and 3%"` | outro-narrador | L4236 | fundamentos-click-rate-glossario |
+| Placed order rate | `"above 0.1% is really ideal"` | outro-narrador | L4236 | — |
+| Revenue per recipient | `"I don't even know if I want to throw out a guideline because it depends a lot"` | outro-narrador | L4236 | — |
+| Sinal de spam | `"9% open rates (…) 91% of people aren't opening this"` | outro-narrador | L4935 | — |
+| Sinal de bom sender | `"50, 60% open rates, you constantly have 1 to 300 people clicking per campaign"` *(ASR)* | outro-narrador | L4943 | — |
+
+## Mix gráfico × texto e email de texto puro
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Ratio | `"Probably 80-20 is a good way to break it up. Favoring graphics, 75-25 maybe"` | outro-narrador | L4346-4348 | campanhas-ratio-grafico-texto |
+| Ratio | `"roughly four graphic based emails to one textbased email. Maybe a 5:1"` | transcrição | L5232 | campanhas-ratio-grafico-texto |
+| Ratio | `"aim for a 4:1 graphic to plain text ratio"` | slide (notas) | L5174 | campanhas-ratio-grafico-texto |
+| Piso mensal de texto | `"at least send twoish textbased emails every single month"` | transcrição | L5232 | campanhas-frequencia-de-texto-puro |
+| " " | `"Send at least two plain text emails per month (one educational, one promotional)"` | slide (notas) | L5175 | campanhas-frequencia-de-texto-puro |
+| Texto puro em flows | `"one textbased email in each one of your key flows"` — welcome, cada abandonment, post-purchase, winback | transcrição | L5231 | — |
+| Tamanho do texto puro | `"Do not make this over 250 words"` | transcrição | L5207 | — |
+| " " | `"under 250 words (6:43)"` | slide (notas) | L5168 | — |
+| CTAs | `"one to two at most call to actions"` | transcrição | L5208 | — |
+| " " (módulo campanhas) | `"keep the CTA on this to one, maybe two"` | outro-narrador | L4342-4344 | — |
+| Fonte | `"I just change it to Aerial [sic]. It's the most readable f font [sic]"` | transcrição | L5226 | — |
+| Preview text | `"plain text emails. You don't get to have preview text"` | transcrição | L5227 | copy-preview-text-obrigatorio |
+| Porte da marca-exemplo | `"an eight figureure [sic] brand making millions of dollars every month"` | transcrição | L5194 | — |
+
+## Calendário e pilares
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Nº de pilares | 5 (Educational, Social Proof, Community/Branded, Product or Collection Highlights, Sales) | slide + outro-narrador | L5338-5342, L4426-4430 | — |
+| Divisão mensal | `"if you send 10 emails a month; you could have 2 educational (…) 2 social proof (…) 2 product specific promos, 2 community / branded (…) then 1 sale that takes 2 emails"` | slide | L5345 | campanhas-distribuicao-dos-pilares |
+| " " (fala) | `"20% educational, 20% social proof, 20% product, 20% community branded, one sale, two sale emails, so 20%"` | outro-narrador | L4490 | campanhas-distribuicao-dos-pilares |
+| Exceção de mês de promoção | `"you might want to send four or five sale emails throughout the month"` | outro-narrador | L4490 | campanhas-distribuicao-dos-pilares |
+| Emails por promoção | `"an announcement, a reminder, and then some sort of last chance campaign"` | outro-narrador | L4636-4638 | — |
+| Swipe file | `"84 high-converting email campaigns"` / `"There's 84 different emails in here"` | slide + outro-narrador | L5351, L4504-4506 | — |
+| Lista de ideias | `"100 High-Converting Email Ideas"` — 5 categorias × 20 | slide | L5356-5471 | — |
+| Base de treino do GPT | `"over 500 pages of email marketing knowledge"` | slide | L5476 | — |
+| Brinde de AOV no exemplo Nike | `"free hat with the orders, $150 and above"` | outro-narrador | L4628 | — |
+
+## Segmentação
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Base de envio | `"90 Day Engaged List (You can use any time frame, 90 is recommended to start)"` | slide | L5587 | campanhas-janela-de-engajamento |
+| " " (fala) | `"people that have opened or clicked emails in the last 30, 60, 90 days, depending on how wide you want to get"` | outro-narrador | L4949 | campanhas-janela-de-engajamento |
+| " " (fala) | `"your 30-, 60-, 90-day engage list, depending on how old the Klaviyo account is"` | outro-narrador | L5151 | campanhas-janela-de-engajamento |
+| Peso do engaged | `"accounting for 80%-90% of your sales & engagement"` | slide (resumo) | L4838 | campanhas-share-do-90-day-engaged |
+| " " (rótulo de Pareto, **não é percentual**) | `"That's your 80% list. That's where you're going to get the majority of your sales"` | outro-narrador | L4652-4654 | campanhas-share-do-90-day-engaged |
+| " " (fala) | `"relying on this for 80-90% of our sends"` | outro-narrador | L5139 | campanhas-share-do-90-day-engaged |
+| " " (slide) | `"just sending to our engaged list for 90% of sends"` | slide | L5597 | campanhas-share-do-90-day-engaged |
+| Regra 80-20 explicitada | `"That 80% is going to be that 30, 60, 90-day engage list (…) that's the extra 20"` | outro-narrador | L5017-5021 | campanhas-janela-de-engajamento |
+| Lista para eventos | `"expand that to probably 180 day engage"` | outro-narrador | L4656 | — |
+| High-Potential Purchasers | `"placed order 0 times in the past 30 days AND (…) active on site at least once in the past 30 days"` | slide | L5588 | — |
+| High-Potential — envio | `"sending 1x-2x extra emails per month"` / `"one to two extra emails per month"` | slide + outro-narrador | L5588, L5049 | — |
+| Winback — envio | `"1x extra email per month"` | slide | L5589 | — |
+| Winback — leitura | `"right in that three to six month mark"` | outro-narrador | L5059 | — |
+| VIP | `"placed order at least 4 times over all time"` | slide | L5590 | campanhas-limiar-vip |
+| " " (fala) | `"if someone's placed five orders on the site"` | outro-narrador | L5103 | campanhas-limiar-vip |
+| VIP — envio | `"1x extra emails per month"` + `"a VIP email once a quarter"` | slide | L5590 | — |
+| Interested in X — janela | `"at least once over all time"` | slide | L5591 | campanhas-janela-do-segmento-de-interesse |
+| " " (fala) | `"at least once over time"` | outro-narrador | L5119-5121 | campanhas-janela-do-segmento-de-interesse |
+| " " (fala, 30 dias) | `"viewed creatine in the last 30 days, added creatine to their cart in the last 30 days, or proceeded to check out with creatine in the last 30 days"` | outro-narrador | L4965 | campanhas-janela-do-segmento-de-interesse |
+| Suppress — emails recebidos | `"received email at least 5 times over all time"` | slide | L5592 | campanhas-suppress-list |
+| " " (fala) | `"received at least five to ten emails over all time"` | outro-narrador | L5129 | campanhas-suppress-list |
+| Suppress — inatividade | `"opened email zero times in the last 365 days"` | slide | L5592 | campanhas-suppress-list |
+| " " (fala) | `"opened zero times in the last year"` | outro-narrador | L5129 | campanhas-suppress-list |
+| Suppress — bounce | `"bounced email at least 3 times over all time"` | slide | L5592 | campanhas-suppress-list |
+| " " (resumo) | `"Bounced 3+ times"` | slide (resumo) | L4840 | campanhas-suppress-list |
+| " " (fala) | `"bounced email, you know, multiple times"` | outro-narrador | L5129 | campanhas-suppress-list |
+| Suppress — spam | `"marked email as spam at least once over all time"` | slide | L5592 | — |
+| Suppress — cadência de revisão | `"You should be looking at this once a month"` | slide | L5592 | — |
+| Perfil inativo — exemplo | `"hasn't opened an email for 150 days"` | outro-narrador | L5037 | — |
+| Corte de hipersegmentação | `"until you are doing $1M/mo"` | slide | L5583 | campanhas-limiar-de-hipersegmentacao |
+| " " (fala) | `"as you're doing a million a month, 10 million a month, seven, eight figures"` | outro-narrador | L5007 | campanhas-limiar-de-hipersegmentacao |
+| Comparação de alcance | `"1-2 targeted campaigns per week to different email groups of 10,000 people OR 3-4 broader email campaigns per week to 50,000 people each"` | slide | L5576 | — |
+| Confiança na comparação | `"The latter will outperform 99 times out of 100"` | slide | L5577 | — |
+
+---
+
+# Copy
+
+Faixa: L5600-6500 (transcrição), L6501-6858 (slide GAMMA). **A transcrição de
+L5617 a L6248 é `outro-narrador`** — inclusive L5617-5866, o único bloco
+`outro-provado` do corpus (L5753 fala de Max em terceira pessoa).
+
+## Atenção e densidade
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Janela de atenção, hoje | `"You have ~3 seconds to hook your reader. Eliminate fluff."` | slide (resumo) | L5605 | copy-janela-de-atencao |
+| " " | `"Todat, you *maybe* have 3 seconds"` *(typo no bruto)* | slide | L6517 | copy-janela-de-atencao |
+| " " (fala) | `"attention spans that are really three seconds"` | outro-narrador | L5891 | copy-janela-de-atencao |
+| " " (fala) | `"we're in the market to get people's attention for that. Really three seconds"` | outro-narrador | L6167-6169 | copy-janela-de-atencao |
+| Janela de atenção, antes | `"an average of 5-10 seconds of attention per email"` | slide | L6516 | copy-janela-de-atencao |
+| " " (fala) | `"used to be three to five, five to 10 maybe"` | outro-narrador | L5891 | copy-janela-de-atencao |
+| Espera do email, exemplo | `"on your 20 second walk over you check your email"` | slide | L6525 | — |
+| Takeaways por email | `"1 Main idea / Takeaway per email"` | slide (resumo) | L5611 | copy-takeaways-por-email |
+| " " | `"just try to prove ONE thing and get ONE takeaway"` | slide | L6547 | copy-takeaways-por-email |
+| " " | `"Limit to 1-3 Key Points Per Email"` | slide | L6615 | copy-takeaways-por-email |
+| " " | `"try to make your email about one specific takeaway"` | slide | L6617 | copy-takeaways-por-email |
+| Atenção por takeaway | `"5 different takeaways… each takeaway gets 20% of their attention"` | slide | L6546 | — |
+| Comparação de takeaways | `"one takeaway is much higher than the odds of them taking away 3+ takeaways"` | slide | L6618 | — |
+| Comprimento do email | `"shouldn't be longer than 1-2 scrolls"` | slide | L6613 | — |
+| Queda de QI na inbox | `"The customer's IQ drops by about 50%"` | slide | L6606 | — |
+
+`"about 50%"` de queda de QI não tem fonte nem método declarados. É retórica.
+
+## Subject line e preview text
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Teto de ganho em abertura | `"at most you can get ~ 10% jump in opens"` | slide | L6805 | copy-open-rate-limite |
+| " " (fala) | `"is like we have in here 10%, maybe 15"` | outro-narrador | L6229 | copy-open-rate-limite |
+| " " (módulo otimização) | `"a five, 10% bump in open rates"` | outro-narrador | L8936 | otimizacao-teto-de-abertura |
+| Ganho de vendas por SL/PT | `"generate 3x more than others (same email copy and design)"` | slide | L6809 | copy-multiplicador-de-vendas |
+| " " | `"Subject line A/B test resulting in 3x more sales"` | slide | L6811 | copy-multiplicador-de-vendas |
+| " " (fala) | `"generate three to five times as many sales in different AB tests"` | outro-narrador | L6121 | copy-multiplicador-de-vendas |
+| Comprimento da subject line | `"2-5 words in Length"` | slide | L6817 | copy-subject-line-comprimento |
+| SL escrita ao vivo (Gymshark) | `"no fuss dumbbell back exercises"` — 5 palavras | transcrição | L6341 | copy-subject-line-comprimento |
+| SL gerada por IA e elogiada | `"This bar will ruin all chocolate for you"` — 8 palavras | outro-narrador | L6401 | copy-subject-line-comprimento |
+| " " | `"Warning, addictively creamy inside"` — 4 palavras | outro-narrador | L6401 | copy-subject-line-comprimento |
+| Emojis na subject line | `"Ends with 1-2 emojis (optional)"` | slide | L6820 | — |
+| " " (fala) | `"keeping in a couple emojis are really great"` | outro-narrador | L6157 | — |
+| Emojis nos 4 exemplos de SL | 1 emoji em cada um dos quatro | slide | L6824-6827 | — |
+| Comprimento do preview text | `"One full sentence long"` | slide | L6835 | — |
+
+Casos de A/B citados na fala (`outro-narrador`, L6129-6135): variação vencedora
+`"generated 2.3k in this time period"` com `"a lower open rate"`, `"3x the
+placed order rate"` e `"almost 4x the amount of revenue"`; segundo teste com
+`"open rates are nearly identical"`, `"nearly 4x the amount of orders"` e
+`"just under double the recipient"`. `2.3k` não tem moeda declarada no bruto.
+
+## Prompt de IA e infográficos
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Variações pedidas ao LLM | `"Write 3 short and punchy email campaign variations"` | slide | L5633 / L6743 | — |
+| Body copy no prompt | `"(2-4 sentences, short, scroll-stopping, mobile-first)"` | slide | L5642 / L6751 | — |
+| Product Section no prompt | `"Highlight 1 product… 3 feature bullets OR 3–6 products"` | slide | L5644 / L6753 | — |
+| Brand Overview no prompt | `"(2-3 sentences)"` | slide | L5659 / L6768 | — |
+| Email Marketing Brain — treino | `"trained with over 500 pages of email marketing knowledge"` | slide | L6775 | — |
+| Cobertura do esqueleto de 8 campos | `"the skeleton that I'd say 80% of emails followed"` | outro-narrador | L5731 | — |
+| Tipos de infográfico | 9 tipos | slide | L5873-5881 / L6664-6727 | copy-nomes-dos-infograficos |
+| Frequência do comparison chart | `"almost in every welcome flow we do"` | outro-narrador | L5979-5981 | — |
+| Estatística de exemplo em gráfico | `"85% of customers saw results in 30 days"` | outro-narrador | L6049-6051 | — |
+| Numbered list — exemplo de origem | `"a paragraph with four to five different sentences or points"` | outro-narrador | L5963-5965 | — |
+| Timeline — exemplo de granularidade | `"week one… week two… week three"` | outro-narrador | L5947-5951 | — |
+
+---
+
+# Design
+
+Faixa: L6859-8065 (transcrição), L8066-8362 (slide GAMMA), mais L8740-8748 do
+slide de upload no módulo deliverability. Nenhuma faixa de design é
+`outro-narrador`. Os walkthroughs de Figma dentro do módulo copy (L6260-6492)
+entram aqui porque o assunto é design, mesmo estando fora da faixa.
+
+## Resultado e prova
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Ganho de receita, design branded/conversion-based | `"3x in revenue for emails we've tested"` | slide | L8081 | — |
+| " " (fala) | `"3x more revenue for emails we've tested"` | transcrição | L6888 | — |
+| Ganho de receita, só spacing/sizing/style | `"3x more revenue just by optimizing spacing, sizing, and style"` | slide | L8086 | — |
+| " " (fala) | `"3x more revenue just by optimizing spacing sizing and style"` | transcrição | L6898 | — |
+| Ganho de cliques, CTA geral no fim da seção de produto | `"We've noticed 25% boosts in clicks by doing this"` | slide | L8287 | — |
+| " " (fala) | `"literally 25% boosts and clicks by including this in some of our emails"` | transcrição | L7482 | — |
+| Teste A/B de tamanho de botão | `"I've never had a bigger button lose an A-B test in click rates"` | transcrição | L7041-7043 | — |
+| Receita da Ridge (prova de email de imagem) | `"hundreds of millions of dollars and they're doing millions from their email channel"` | transcrição | L8027 | — |
+
+## Os três "75%"
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Esforço a alocar na hero | `"Most people will only read the top section so 75% of your efforts should go to this"` | slide | L8235 | design-tres-usos-de-75-por-cento |
+| " " (fala) | `"So 75% of your efforts should go to this"` | transcrição | L7258 | design-tres-usos-de-75-por-cento |
+| Emails com botão above the fold | `"Button above the fold for 75% of your email"` | transcrição | L7027 | design-botao-above-the-fold-sempre |
+| Marcas auditadas sem botão por produto | `"75% of the brands I audit don't have individual shop now buttons"` | transcrição | L7089 | design-tres-usos-de-75-por-cento |
+
+## Botão, CTA e estrutura
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Largura mínima do botão | `"at least 1.5–2 inches wide"` | slide | L8136 | — |
+| " " (fala) | `"at least 1.5 to 2 inches wide"` | transcrição | L7033 | — |
+| Largura da tela do iPhone | `"An iPhone screen is 2.75 inches"` | slide | L8160 | — |
+| Repetições do CTA no email | `"Repeat your CTA 2–3 times throughout the email"` | slide | L8137 | design-repeticao-de-cta |
+| " " (fala) | sem número; `"throughout the email"`, contra `"a shit ton of buttons"` | transcrição | L7051-7059 | design-repeticao-de-cta |
+| Regras da lista "Email Design That Drives Clicks" | 7 itens | slide | L8135-8141 | — |
+| Tempo para passar a mensagem | `"On average you have 2-4 seconds to get your point across"` | slide | L8185 | design-segundos-de-atencao |
+| " " (fala) | `"you literally have two to four seconds"` | transcrição | L7161 | design-segundos-de-atencao |
+| " " (mesmo slide, 16 linhas depois) | `"If we only get 3 seconds of our viewers attention"` | slide | L8201 | design-segundos-de-atencao |
+| Tempo que ninguém dá | `"Nobody's going to look at your email for 30 seconds"` | transcrição | L7161 | — |
+| Seções visíveis | `"people can clearly see 2-3 sections"` | slide | L8196 | — |
+| Itens obrigatórios above the fold | 4 (clear headline, strong graphic, clear value prop, clear button) | slide | L8243-8246 | — |
+| " " (fala) | 4 (headline, value, graphic, button) | transcrição | L7274-7280, L7352-7354 | — |
+| Tipos de conteúdo permitidos no bridge | 7 | slide | L8263-8269 | — |
+| Bridges por email | `"In some cases you won't have a bridge, in some you'll have two"` | slide | L8260 | design-quantidade-de-bridges |
+| " " (fala) | 0 ou 1; `"You don't always need a bridge"` | transcrição | L7368-7370 | design-quantidade-de-bridges |
+| Métodos de transição | 4 | transcrição | L7552-7586 | design-metodos-de-transicao-ausentes |
+| " " (slide) | prometidos, nenhum listado | slide | L8307 | design-metodos-de-transicao-ausentes |
+| Produtos por seção | `"however many products that you want"` · `"Ideally not that many"` · `"just one product as well"` · `"eight products if you want"` · `"Just test it"` | transcrição | L7486-7494 | design-quantidade-de-produtos |
+| " " (slide) | não dá número | slide | L8274-8290 | design-quantidade-de-produtos |
+
+## Arquivo, slice e upload
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Altura máxima do slice | `"try not to go over kind of like 800ish or so"` | transcrição | L8033 | design-altura-do-slice |
+| " " (Calvin Klein) | `"around 800 or so in length"` | transcrição | L6489 | design-altura-do-slice |
+| Altura recomendada | `"I'd probably maybe go to like 720 right here"` | transcrição | L8033 | design-altura-do-slice |
+| Altura esticada quando o link é o mesmo | `"push it to like the thousand"` | transcrição | L8036 | design-altura-do-slice |
+| Largura do slice | `"600 width"` | transcrição | L8034 | — |
+| Largura do frame de email no Figma | `"you want it to be 600 width"` | transcrição | L7713 | — |
+| " " (aulas de Figma no módulo copy) | `600` | transcrição | L6293, L6419, L6460 | — |
+| Slice de meia-largura | `"set dimensions as 300 cuz our email is 600 in width"` | transcrição | L6490 | — |
+| Altura do frame no exemplo | `"let's make it like 800 tall"` | transcrição | L7717 | — |
+| Qualidade de exportação | `"export on 2x quality"` | transcrição | L6337, L6489, L8034 | — |
+| Camadas exportadas na demonstração | `"Export eight layers"` | transcrição | L8040 | — |
+| Peso de um slice único do email inteiro | `"5 10 megabytes"` | transcrição | L8031 | — |
+| Compressão medida (upload) | `"3. 98 megabytes"` → `"963 kilobytes"` = `"77% smaller"` | transcrição | L8042-8043 | — |
+| Compressão medida (Gymshark) | `"2.84 megabytes to 469 kiloby"` | transcrição | L6339-6340 | — |
+| Compressão medida (Calvin Klein) | `"made our files 72% smaller"` | transcrição | L6492 | — |
+| Passos do upload | 5 | slide | L8011-8015 | design-passos-do-upload |
+| " " (segunda versão) | 5 | slide | L8744-8748 | design-passos-do-upload |
+| Texto invisível — corpo | `"size five"` | transcrição | L6345-6346 | — |
+| Texto invisível — entrelinha | `"change this to like 5%"` | transcrição | L6346 | — |
+| Pessoas que bloqueiam imagem | `"less than 1% of people"` | transcrição | L6348 | — |
+| " " (aula de upload) | `"not many people do"` — sem número | transcrição | L8053 | — |
+| Idade do rumor sobre HTML nativo | `"someone started it like 8 years ago"` | transcrição | L8026 | design-html-vs-imagem |
+| Cobertura do Milled | `"Massive database of 90% of ecommerce brands"` | slide | L8321 | — |
+| Marcas de design recomendadas | 11 nomes | slide + transcrição | L8338-8348, L8003 | doutrina-lista-de-marcas |
+| Anos citados como referência | `"2025, 2026"` / `"In 2025+"` | transcrição / slide | L8025 / L8076 | — |
+
+Números de demonstração de Figma, **não são regra**: `"400"` (L7651) · `"20"`
+de borda (L7667) · `"100 tall"` (L7729) · `"thousand by a thousand"` (L7743) ·
+`"400 width"` (L7747) · sub-headline `"24"` bold (L7759) · body copy `"18"`
+(L7763). Descontos dentro de exemplos de email cuja imagem não existe no bruto:
+`"40% off"` (L7314) · `"25% off"` (L7340) · `"take 10% off with code"` (L8054).
+
+---
+
+# Deliverability
+
+Faixa: L8365-8646 (transcrição), L8647-8759 (slide GAMMA). **Toda a fala do
+módulo é `outro-narrador`.** O que resta de Max é o deck (L8647-8759), que é
+curto e também diz "our team" (L8692).
+
+## Metas de métrica (deliverability)
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Open Rates | `"Greater than 50%"` | slide | L8715 | deliverability-limiar-de-open-rate |
+| " " (fala) | `"above 50%. 50% to 70% is ideal. If you're above 40%, you're probably okay"` | outro-narrador | L8436 | deliverability-limiar-de-open-rate |
+| Click Rates | `"Greater than 0.75%"` | slide | L8716 | — |
+| " " (fala) | `"Click rates, 0.75%"` | outro-narrador | L8438 | — |
+| Bounce Rate | `"Less than 1%"` | slide | L8717 | — |
+| " " (fala) | `"under 1%"` / `"should be less than 1%"` | outro-narrador | L8440, L8448 | — |
+| Spam Complaint Rate | `"Less than 0.01%"` | slide | L8718 | fundamentos-spam-glossario |
+| Unsubscribe Rate | `"Less than 0.4%"` (rótulo: `"doesn't affect deliverability"`) | slide | L8719 | deliverability-unsubscribe-afeta-ou-nao |
+| Ordem das 5 métricas na prosa do deck | open, click, bounce, **unsubscribe, spam complaint** | slide | L8710 | deliverability-unsubscribe-afeta-ou-nao |
+| Ordem das 5 métricas na tabela do deck | open, click, bounce, **spam complaint, unsubscribe** | slide | L8715-8719 | deliverability-unsubscribe-afeta-ou-nao |
+| Ordem das 5 métricas na fala | open, click, bounce, **spam complaint, unsubscribe** (`"spam, complete rate"` = ASR) | outro-narrador | L8430 | — |
+
+O unsubscribe aqui é `<0.4%`; em fundamentos é `<0.3%` (L378) e no glossário
+`<0.2%` (L436). Três valores para a mesma métrica.
+
+## Diagnóstico e segmentação
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Destinos possíveis do email | 3 — primary tab / promotions tab / spam | outro-narrador + slide | L8386-8388, L8659-8661 | — |
+| Open rate — exemplo de mau | `"20% of people are opening your emails"` | outro-narrador | L8390 | — |
+| " " (slide) | `"2/10 people are opening your emails"` | slide | L8665 | — |
+| Open rate — exemplo de bom | `"50% of the people you send it to are opening"` | outro-narrador | L8390 | — |
+| Click rate — exemplo de bom | `"1% of those people are clicking"` | outro-narrador | L8390 | — |
+| Analogia Instagram | `"1,000 likes, 10,000 likes, 50,000 likes, 100,000 likes"` | outro-narrador | L8394 | — |
+| Erro clássico — tamanho da lista | `"50,000 profiles"` / `"send 50,000 emails to every single profile for a week"` | outro-narrador | L8404 | — |
+| Janelas de engaged list disponíveis | `"30, 60, 90, 120, 180, or 365 day"` | outro-narrador + slide | L8460, L8726 | — |
+| Lista base recomendada | `"90 is recommended to start"` | slide | L8734 | deliverability-lista-base-padrao |
+| " " (fala) | `"you might only want to send to your 60 day engage list"` | outro-narrador | L8462 | deliverability-lista-base-padrao |
+| Lista para grandes datas | `"180, 365 day engage list"` | outro-narrador | L8466 | — |
+| Definição do segmento base | 90 days, 3 condições em OR (opened / active on site / placed order) | slide | L8734 | — |
+| Resultado prometido de enviar só a engajados | `"This is how we can get consistent 50% open rates"` | slide | L8725 | deliverability-limiar-de-open-rate |
+| Faixa de acerto da lista | `"Whatever list gets you 50-60% opens"` | slide | L8727 | deliverability-limiar-de-open-rate |
+| " " (fala) | `"consistently receiving 50 to 60% opens"` | outro-narrador | L8468 | deliverability-limiar-de-open-rate |
+| Gatilho para alargar | `"If you start to get 60%+ opens, widen your list"` | slide | L8728 | deliverability-limiar-de-open-rate |
+| Gatilho para apertar | `"If you start to get 40% opens, tighten your list"` | slide | L8729 | — |
+| " " (fala) | `"If you start to get 40% opens or things start to drop in a significant way"` | outro-narrador | L8470 | — |
+| Exemplo de queda por alargar demais | 30 dias → `"65% opens"`; expandiu para 120 → `"goes down to 30%"` | outro-narrador | L8472 | — |
+| Destino sugerido após a queda | `"Maybe 90 is a good place to go, but probably want to go back to your 60 day"` | outro-narrador | L8474 | — |
+
+Os três limiares do deck — `50%` (L8725), `50-60%` (L8727) e `60%+` (L8728) —
+estão na mesma tela, em quatro linhas. Não há desempate possível: a resposta
+entrega os três com as linhas (ver [[_protocolo]]).
+
+## Warming — rampa e cadência
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Primeiro envio | `"maybe a hundred people, two hundred people, three hundred people, somewhere in that range"` | outro-narrador | L8569 | deliverability-primeiro-degrau-da-rampa |
+| Cadência de rampa — degrau 1 | `"one to 200,000"` — **corrompido** | outro-narrador | L8587 | deliverability-primeiro-degrau-da-rampa |
+| Cadência de rampa — degraus 2 a 8 | `"send two, going to maybe like 300 (…) send three, 500, send four, a thousand, send five, 2,000, then 4,000, then 6,000, 6,000"` | outro-narrador | L8588 | deliverability-primeiro-degrau-da-rampa |
+| Passo de escalonamento (fala) | `"you scale up by about fifty to, by about fifty percent each send"` | outro-narrador | L8569 | deliverability-passo-de-escalonamento |
+| " " (lendo o bullet do deck) | `"gradually increase from 25 to 50 percent percent based on performance"` | outro-narrador | L8556 | deliverability-passo-de-escalonamento |
+| Limiar para continuar escalando | `"as long as you're hitting those, those 40 to 50% open rates"` | outro-narrador | L8588 | deliverability-limiar-de-open-rate |
+| Frequência durante warming | `"ideally 3 to 4 times per week"` | outro-narrador | L8557 | campanhas-sweet-spot-de-frequencia |
+| Racional de frequência | `"if you only send 2 times per week opposed to 4 times per week (…) twice as long"` | outro-narrador | L8561 | — |
+| Teto de frequência | `"that doesn't mean send [—] emails in 7 days"` — **número perdido no ASR** | outro-narrador | L8560 | — |
+| Batching — volume | `"let's say you're sending to 6,000 people"` | outro-narrador | L8585 | — |
+| Batching — divisão | `"a thousand at noon, a thousand at one, two, a thousand at three, four, five, six"` | outro-narrador | L8585 | — |
+| Fase de fundação | `"weeks 1 to 3"` | outro-narrador | L8578 | — |
+| Segmentos a criar na fundação | `"7 day, 14, 30, 60, 90 day engage list"` | outro-narrador | L8578 | — |
+| Regra de ouro | `"ideally 50 plus open rates and then you know you're good to jump to a wider segment"` | outro-narrador | L8579 | deliverability-limiar-de-open-rate |
+| Faixa de tolerância | `"anywhere between 40 to 50 percent. If it starts dipping below 40, I definitely wouldn't be expanding it"` | outro-narrador | L8580 | deliverability-limiar-de-open-rate |
+| Fase de expansão | `"weeks 3 to 12"` | outro-narrador | L8580 | — |
+| Primeiro degrau de expansão | `"in weeks 3 to 4, maybe you start sending to the 14 day engage list and then expand it to the 30 day"` | outro-narrador | L8581 | — |
+| Limiar para expandir 14 → 30 | `"you're hitting, again, 45 to 50% plus"` | outro-narrador | L8582 | deliverability-limiar-de-open-rate |
+| Degraus seguintes | `"Same logic from 30 to 60 (…) then maybe after a couple weeks, you expand to the 90 day"` | outro-narrador | L8583 | — |
+| Segmentos-semente (email) | `"opened three times in the last thirty days"` · `"opened five times in the last sixty days"` · `"opened an email once or twice in the last week"` · `"clicked an email in the last week"` | outro-narrador | L8564 | — |
+| Segmento pequeno demais | `"seventy-eight people in there, which isn't really going to move the needle"` | outro-narrador | L8567 | — |
+| Segmentos-semente (Shopify) | `"viewed a product in the last three days, placed an order in the last week, and started checkout in the last week"` | outro-narrador | L8574 | — |
+| Onde colocar o código de desconto | `"welcome email 1, 2, 3, 4"` (nunca no form) | outro-narrador | L8548 | — |
+| Correção de rota — queda | `"from your 30 day engage list to your 60 day (…) open rates go from 50% to 25%"` | outro-narrador | L8601 | — |
+| Correção de rota — passo menor | `"instead of going from 30 to 60, we go from 30 to 45 day engage. And that keeps us at a 40 to 50% mark"` | outro-narrador | L8604 | deliverability-limiar-de-open-rate |
+
+## Reparo de reputação
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Listas em uso quando a conta cai em spam | `"you're sending to, you know, 90, 120 day engage list"` | outro-narrador | L8589 | — |
+| Janela de reparo | `"anywhere between 2 to 3 weeks to start"` | outro-narrador | L8591 | — |
+| Segmentos de reparo | `"7 day engage, 14 day engage, 30 day engage"` | outro-narrador | L8591 | — |
+| Parâmetro extra | `"people that have opened 2 times, 3 times in the last 14 days"` | outro-narrador | L8591 | — |
+| Alvo de abertura no reparo | `"once you hit those 60% open rates, 60, 70, 80"` | outro-narrador | L8592 | — |
+
+## Casos reais de warming
+
+**Caso 1 — migração de MailChimp (L8607-8622).** Listas exportadas `"60 day
+engage, 90 day engage. 30 day engage list"` · lista importada `"a hundred
+thousand people"` · primeiro envio `"a thousand people"` · nono envio `"roughly
+14,000"` · fim da janela de 60 dias `"about 120,000 people per [send]"` ·
+amostras `"a random sample of those thousand people (…) get a 46.22% open
+rate"`, `"2,000 people in a random sample (…) 53%"`, `"about 4,000 people, 50%"`
+· degraus `"6,000 and then 8,000, then 12,000"` · degrau corrompido `"And then
+we go up to 4,000. 14,000."` · escala final `"14,000, 20,000, 30,000, 40,000,
+60,000, 80,000, all the way up to about 100,000"` · leitura do Google `"this got
+sent out to 40,000, 14,000 people"` (dois números para o mesmo envio),
+`"7,000 people opened it"`, `"How many people clicked on it? 205"`.
+Registro: `outro-narrador`. Conflito: `deliverability-caso-mailchimp-escala-final`.
+
+**Caso 2 — zero dado, pré-lançamento (L8623-8639).** Envio 1 `"about 200 people
+or so"` com `"a hundred people open it"` · envio 2 `"175 people open it"` ·
+marco `"the 600 total [sends] mark"` · degraus `"right around 1,300, 1,400, and
+then boom to like 1,600"`, depois `"probably like 10,000, and then 12,000,
+15,000"` · 30 dias engajados + amostra `"which took us to about 26,000"` · salto
+final `"we sent to all the active people, which was about 45"` — **unidade
+ausente** (`deliverability-salto-de-45`) · prêmio do giveaway `"a free $3 gift
+card"`. Registro: `outro-narrador`.
+
+## Ferramentas e lacunas
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Registros DNS na prosa do slide | 4 — `"MX, SPF, DMARC, DKIM"` | slide | L8671 | deliverability-registros-dns |
+| Registros DNS na lista de requisitos | 3 — SPF, DMARC, DKIM | slide | L8687-8689 | deliverability-registros-dns |
+| Passos de upload | 5 | slide | L8744-8748 | design-passos-do-upload |
+| Glockapps — tamanho da lista de teste | `"a list of 100+ email addresses"` | slide | L8756 | — |
+| Glockapps — cadência sugerida | `"consider using one of their tests once per month"` | slide | L8757 | — |
+| Flows de alta intenção citados | 6 nomeados (Welcome, Post-Purchase, Abandoned Card [*Cart*], Abandoned Checkout, Browse, Site Abandonment) + `"I'll list the other ones"` (nunca lista) | outro-narrador | L8545 | — |
+| Gap de transcrição — reparo | 13:04 → 13:33, ~29 segundos ausentes | outro-narrador | L8593-8594 | — |
+| Gap de transcrição — nome da ferramenta | 21:52 → 22:33, ~41 segundos ausentes | outro-narrador | L8641-8642 | — |
+
+---
+
+# Otimização
+
+Faixa: L8760-9109 (transcrição), L9110-9211 (slide GAMMA). **Toda a fala do
+módulo é `outro-narrador`.** Agravante registrado em [[_fontes]]: o deck de
+Optimization é cópia quase verbatim do deck de Flows
+(`otimizacao-deck-duplicado`).
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Peso do básico | `"90% of results are driven by basics, 10% come from the advanced 'stuff.'"` | slide (resumo) | L8764 | otimizacao-peso-do-basico |
+| " " (slide GAMMA) | `"90% of the results are driven by the basics. / 10% come from the advanced stuff."` | slide | L9120-9121 | otimizacao-peso-do-basico |
+| " " (fala) | `"80, 90% of the results are driven by the basics. The 10, 20% come from that advanced stuff."` | outro-narrador | L8778-8780 | otimizacao-peso-do-basico |
+| " " (fecho da fala) | `"that 80% of your results are going to come from setting up the basis"` | outro-narrador | L9098 | otimizacao-peso-do-basico |
+| Multiplicador negado | `"you're not going to CRO your way to 10x"` | outro-narrador | L8778 | — |
+| Campanhas/semana como pré-condição | `"three to four campaigns a week"` | outro-narrador | L8788 | otimizacao-frequencia-precondicao |
+| Lista pequena (onde testar não é foco) | `"5,000, 10,000, 20,000 people"` | outro-narrador | L8782-8784 | otimizacao-lista-pequena-quantas-repeticoes |
+| Volume insuficiente para concluir | `"a list of 1,000 people and you're A-B testing 500 and 500"` | outro-narrador | L8802-8804 | — |
+| Lista grande | `"100,000, 200,000, 500,000 people"` | outro-narrador | L8806-8808 | — |
+| Envios necessários com lista grande | `"one, maybe two"` | outro-narrador | L8808-8810 | — |
+| Faixa que exige repetição | `"5,000 to 10,000 person range"` | outro-narrador | L8810-8812 | otimizacao-lista-pequena-quantas-repeticoes |
+| Repetições nessa faixa | `"three or four times"` | outro-narrador | L8812 | otimizacao-lista-pequena-quantas-repeticoes |
+| Confirmação após vitória | `"one or two more times"` | outro-narrador | L8854 | — |
+| Melhor horário encontrado | `"around 11am-12pm"` | slide | L9148 | otimizacao-horarios-a-testar |
+| Horários a testar | `"9am, 12pm, 2pm, and 4pm"` | slide | L9149 | otimizacao-horarios-a-testar |
+| Janela para público de mães em casa | `"11 a.m. noon"` | outro-narrador | L8836 | otimizacao-horarios-a-testar |
+| Janela para público blue collar | `"either eight or 9 a.m."` / `"between four and six"` | outro-narrador | L8844-8846 | otimizacao-horarios-a-testar |
+| Caso send time — variantes | `"11 a.m."` × `"1 45 p.m."` | outro-narrador | L8848-8850 | — |
+| Caso send time — placed orders | `"about five X, the amount of placed orders"` | outro-narrador | L8850 | otimizacao-metricas-do-print |
+| Caso send time — recipients | `"three X, the number of recipients"` | outro-narrador | L8850-8852 | otimizacao-metricas-do-print |
+| Caso categorias — receita | `"the revenue is, I don't know what that is, 15, 10 to 15 times higher"` | outro-narrador | L8914-8916 | otimizacao-metricas-do-print |
+| Caso categorias — recipients | `"about six times the amount of recipients also buying"` | outro-narrador | L8916 | otimizacao-metricas-do-print |
+| Teto de ganho em abertura por SL/PT | `"a five, 10% bump in open rates"` | outro-narrador | L8936 | otimizacao-teto-de-abertura |
+| Nº de variáveis de SL/PT no slide | 5 itens listados | slide | L9170-9174 | — |
+| Caso flow delay — variantes | `"30 minutes"` × `"four hours later"` | outro-narrador | L8952-8954 | — |
+| Caso flow delay — placed order rate | `"a 10 to 15% higher placed order rate"` | outro-narrador | L8958 | — |
+| Caso flow delay — receita | `"about a thousand dollars in extra revenue"` | outro-narrador | L8960 | — |
+| Caso flow delay — click rate | `"slightly higher on, on the 30 minutes, but, uh, marginal at best"` | outro-narrador | L8962 | — |
+| Desconto claro no exemplo de pop-up | `"do you want 10, 20% off or Hey, do you want a mystery discount?"` | outro-narrador | L8996 | — |
+| Sequência de fim de semana do exemplo de sale | sexta graphic / sábado text based / domingo em aberto | outro-narrador | L8878-8882 | — |
+| Seções do email padrão | `"hero section, bridge section, then product section"` (3) | outro-narrador | L9012-9014 | — |
+| Urgência do exemplo de last chance | `"this sales ending in 12 hours"` | outro-narrador | L9020 | — |
+| CTA — variantes | `"four products, and then one CTA at the bottom"` × `"four products with four little CTA"` | outro-narrador | L9042-9044 | — |
+| Nº de testes na lista de fechamento | 13 bullets (contagem; o corpus não numera) | slide | L9184-9209 | otimizacao-lista-redundante |
+
+**O que o módulo cita mas não quantifica.** A margem de vitória do teste gráfico
+× text-based é anunciada nos dois registros (L8866, L9157) e nunca informada.
+Nenhum dos 13 testes de fechamento tem número. Não há **nenhum** limiar
+estatístico em todo o módulo: sem significância, sem amostra mínima, sem duração.
+
+---
+
+# SMS
+
+Faixa: L9213-9260 (transcrição), L9261-9544 (slide GAMMA). Nenhuma faixa de SMS
+é `outro-narrador`.
+
+## Autoridade e case
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Open rate médio de SMS | `98%` | transcrição + slide | L9223, L9291 | — |
+| Open rate médio de email (comparativo) | `30%` | slide | L9291 | sms-open-rate-de-email |
+| Receita de SMS em 30 dias | `$750,000` | transcrição | L9224 | — |
+| Share da receita total da marca | `20%` | transcrição | L9224 | sms-quinze-por-cento |
+| Click rate médio das automações | `15%` | transcrição | L9224 | sms-quinze-por-cento |
+| Receita das automações no período | `$422,000` | transcrição | L9224 | — |
+| Share da receita total (legenda de print ausente) | `15%` | slide | L9412 | sms-quinze-por-cento |
+| Volume enviado por ele | `"tens of millions of total SMS messages"` | transcrição | L9225 | — |
+| Porte da marca do calendário-exemplo | `"7 to8 figure"` / `"eight fig"` | transcrição | L9250 | — |
+
+## Frequência de SMS
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| SMS por semana | `"I wouldn't recommend sending more than 1-2 sms messages per week"` | slide | L9367 | sms-frequencia |
+| " " (fala) | `"I wouldn't recommend sending more than one maybe two SMS messages per week"` | transcrição | L9227 | sms-frequencia |
+| " " (slide, 2ª formulação) | `"for sms we see the best results sending only 1-2 times per week"` | slide | L9491 | sms-frequencia |
+| " " (fala, 2ª formulação) | `"once per weekish"` | transcrição | L9248 | sms-frequencia |
+| " " (fala, 3ª formulação) | `"try not to send more than once per week every now and again you can do twice"` | transcrição | L9228 | sms-frequencia |
+| Email por semana (comparativo) | `"four to five messages a week"` / `"4-5 email campaigns per week"` | transcrição + slide | L9226, L9364 | sms-frequencia-de-email-comparada |
+| " " (2ª) | `"like four times a week"` / `"4x per week (every other day)"` | transcrição + slide | L9248, L9490 | sms-frequencia-de-email-comparada |
+
+## Custo e tamanho da mensagem
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Limite por SMS | `160 characters` | transcrição + slide | L9231, L9390 | — |
+| Ponto de dobra do preço | `161` = `"two SMS messages"` / `"the price of your message doubles"` | transcrição + slide | L9231, L9392 | — |
+| Escalonamento seguinte | `"3 SMS to 4 SMS all split up by 160 characters"` | transcrição | L9231 | — |
+| Custo de MMS | `"2 to three times more expensive"` / `"2-3x MORE expensive"` | transcrição + slide | L9229, L9383 | — |
+| Receita exigida para o MMS valer | `"two to three times more revenue"` / `"2x-3x more revenue"` | transcrição + slide | L9230, L9384 | sms-mms-no-browse-abandon |
+| Custo de um emoji | `"equivalent of 35 to 50 characters"` / `"35-50 characters"` | transcrição + slide | L9233, L9405 | — |
+| Exemplo de custo (imagem ausente) | `"3 SMS Long (triple the cost)"` | slide | L9399 | — |
+
+## Flows de SMS
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Número de flows de SMS | `"five main SMS flows"` | transcrição | L9244 | — |
+| SMS no welcome flow | `"two to three SMS messages"` | transcrição | L9245 | sms-welcome-contagem |
+| " " (template do slide) | 2 (Welcome SMS 1 + Welcome SMS 2) | slide | L9436-9443 | sms-welcome-contagem |
+| Delay entre welcome 1 e 2 | `"Wait 5 days"` | slide | L9440 | — |
+| Delay do browse abandon | `"Wait 60 minutes from Browse Event"` | slide | L9453 | — |
+| Delay de cart / checkout abandon | `"Wait 30 minutes from Event"` | slide | L9466 | — |
+| Delay do winback | `"Wait 120 Days from Last Purchase"` | slide | L9479 | sms-janela-do-winback |
+| Desconto no template de winback | `"10% OFF"` | slide | L9481-9482 | — |
+| Limite legal de cart abandon (EUA) | `"only limited to one message"` | slide | L9461 | — |
+| Tamanho de flow de email (comparativo) | `"8-10 messages"` | slide | L9424 | — |
+
+## Crescimento de lista de SMS
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Vias de crescimento | `"two main ways"` | transcrição | L9237 | sms-vias-de-crescimento |
+| Conversão típica de pop-up | `"around 2 to 3% of website visitors"` | transcrição | L9238 | sms-benchmark-de-form |
+| Conversão alcançável | `"8% to 10%"`, `"tripling the amount of people"` | transcrição | L9239 | sms-benchmark-de-form |
+| Trigger do pop-up | `"6 to 10 seconds after page load"`; `"like 6 seconds"` | transcrição | L9239-9240 | sms-delay-do-popup |
+| Delay rejeitado | `"30 seconds"` | transcrição | L9240 | — |
+| Ganho do form em dois passos | `"that works 10 times better"` | transcrição | L9242 | — |
+| Tempo de setup do checkbox de checkout | `"5 minutes"` | slide | L9323 | — |
+
+## Calendário e horários
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Mensagens no calendário-exemplo | 6 confirmadas + 1 teaser opcional em 31 dias | transcrição | L9250-9254 | sms-frequencia |
+| Mensagens por lançamento | `"two to three is messages throughout the month"` | transcrição | L9251 | — |
+| Intervalo lançamento → lembrete | `"about like a weekish later"` (10 → 15 de outubro) | transcrição | L9252 | — |
+| Mensagens por flash sale de 2 dias | 2 (30 e 31 de outubro) | transcrição | L9253 | — |
+| Lacuna máxima sem SMS | `"gaps of over a week"` → `"two to three extra campaigns"` | transcrição | L9253 | — |
+| Janela base de envio | `"11:00 a.m. to 2: p.m."` *(ASR)* / `"11am-2pm"` | transcrição + slide | L9256, L9509, L9516 | — |
+| Fim de tarde | `"5:00 p.m."` / `"around 5pm"` | transcrição + slide | L9256, L9509 | sms-horario-do-fim-da-tarde |
+| " " (só na fala) | `"400 p.m."` *(ASR)* | transcrição | L9257 | sms-horario-do-fim-da-tarde |
+| Piso do dia | `"avoid sending before 10:00 a.m."` / `"before 10am"` | transcrição + slide | L9257, L9513 | — |
+| Teto do dia | `"past 7:30 p.m."` / `"past 7:30pm"` | transcrição + slide | L9257, L9514 | — |
+| Horário do "last chance" | `"6:00 to 7:00 p.m."` | transcrição | L9257 | sms-horario-de-last-chance |
+| " " (slide) | `"6:30pm-7pm"` | slide | L9515 | sms-horario-de-last-chance |
+| Urgência citada no last chance | `"4 hours left"` | transcrição | L9257 | — |
+
+---
+
+# Claims institucionais
+
+Números de bio, CTA comercial e prova social da agência. **Não são benchmark e
+não respondem pergunta de operação.** Registrados aqui porque se contradizem e
+porque alguém vai perguntar.
+
+| Medida | Valor verbatim | Registro | Linha | Conflito |
+|---|---|---|---|---|
+| Receita atribuída da agência | `"over $100M in email attributed revenue for clients"` | slide | L3419, L9269 | flows-receita-da-agencia |
+| " " | `"an email marketer who has generated $200M for brands in their platform"` | slide | L3428 | flows-receita-da-agencia |
+| " " | `"over $200 million for brands"` | transcrição | L5204 | doutrina-receita-da-agencia |
+| " " | `"a $40 million email marketer"` | transcrição | L6260 | doutrina-receita-da-agencia |
+| " " | `"which has generated $40 million for clients in the past few years"` | transcrição | L6350 | doutrina-receita-da-agencia |
+| " " | `"I've made $100 million making emails for e-commerce brands"` | transcrição | L6359 | doutrina-receita-da-agencia |
+| " " (swipe file) | `"handpicked by me a $100M email marketer"` | slide | L5351 | doutrina-receita-da-agencia |
+| Clientes da agência | `"over 279 figure e-commerce brands"` — **corrompido** | transcrição (YouTube) | L1029 | — |
+| Receita de um único email | `"$255,000 from one email"` | transcrição | L5182 | — |
+| " " | `"over $100,000 from one email"` | transcrição | L5183 | — |
+| Piso de faturamento para consultoria | `"at least $50k/mo"` / `"$50,000 a month"` | slide + transcrição | L4184, L9542, L9259 | — |
+| Custom GPT — corpus de treino | `"over 500 docs of email marketing trainings"` | transcrição | L6387 | — |
+| " " (slide) | `"over 500 pages of email marketing knowledge"` | slide | L5476, L6775 | — |
+| Custom GPT — tempo de desenvolvimento | `"over the past 6 months"` | transcrição | L6387 | — |
+| Comunidade Skool — tamanho | `"over 450 people"` | transcrição | L6278 | — |
+| Comunidade Skool — conteúdo | `"30+ Module Email course"` · `"250+ Winning Flow and Campaign Email Templates"` | slide | L9372-9373 | — |
+| Newsletter | `"3x Per Week"`; `"others will try to sell to you for $497+"` | slide | L9280-9282, L9527-9529 | — |
+| Swipe file de SMS | `"30 SMS messages"` / `"30 of my favorite SMS messages"` | transcrição + slide | L9258, L9520-9522 | — |
+| Desconto de afiliado Omnisend | `"30% off your first 3 months"` | transcrição + slide | L34, L358, L8044, L8063 | — |
+
+O swipe file de 30 mensagens de SMS é **lacuna, não descarte**: o conteúdo não
+está no arquivo, só a promessa.
+
+---
+
+# Números que o corpus não tem e alguém vai pedir
+
+- Percentual de churn "natural" de lista, e em que prazo (L22, L314-316 afirmam
+  o fenômeno, nunca o quantificam).
+- O que acontece com a propensão depois dos 30 dias de honeymoon (L22).
+- Valor de desconto padrão do welcome — só exemplos, nenhuma regra
+  (`welcome-valor-do-desconto`).
+- Delay e filtro do cart / checkout abandon (`cart-checkout-ausencia-total-de-delays`).
+- Quantos descontos por mês, ou que percentual, tornam a marca "diluída"
+  (L4197, L4374-4378 dão só a regra qualitativa).
+- Com que frequência rotacionar um disruptor antes que ele vire padrão
+  (L6199-6221).
+- Qualquer limiar estatístico de A/B: significância, amostra mínima, duração.
+- Sequência, delays e copy do Sunset Flow — existe finalidade (L411) e definição
+  de segmento (print base64, L9545), nada mais.
