@@ -5,7 +5,7 @@ assunto: cart-checkout-abandon-flows
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L2618-3019 (transcrição), L3777-3914 (slide)"
-conflitos: [cart-checkout-conteudo-igual-ou-diferente, cart-checkout-bloco-dinamico]
+conflitos: [cart-checkout-conteudo-igual-ou-diferente, cart-checkout-ausencia-total-de-delays, cart-checkout-bloco-dinamico]
 status: rascunho
 ---
 
@@ -37,7 +37,7 @@ aponta erro na ferramenta que recomenda.
 
 | Campo | Cart abandon | Checkout abandon |
 |---|---|---|
-| Gatilho | `Added to Cart` (L2669, L3784) | `Started Checkout` (L3790) / "checkout started" (L2672) |
+| Gatilho | `Added to Cart` (L2669, L3784) | `Started Checkout` (L3790) / "checkout started" (L2671) |
 | Nº de emails | 4 (L3798-3881) | 4 (mesma sequência) |
 | Delay do 1º | | |
 | Delays seguintes | | |
@@ -51,7 +51,7 @@ registros — nem na transcrição (L2618-3019) nem no slide (L3777-3914). Este 
 quando disparam. Não preencher por analogia com browse abandon.
 
 O nome do trigger de checkout aparece nas duas grafias: "checkout started"
-(L2672) na fala, `Started Checkout` (L3790) no slide.
+(L2671) na fala, `Started Checkout` (L3790) no slide.
 
 # A sequência
 
@@ -68,7 +68,7 @@ Uma sequência única, aplicada aos dois flows (L3798-3881).
 > * Have the button and dynamic content at the very top of the email so the customer doesn't need to scroll
 
 Fala: "let's not distract from anything besides, here's your product, go buy it"
-(L2731). Exemplo de threshold: "free shipping on all orders over $70" (L2742).
+(L2731). Exemplo de threshold: "free shipping on all orders over $70" (L2741).
 
 **Email 2 — text-based.**
 
@@ -80,11 +80,10 @@ Fala: "let's not distract from anything besides, here's your product, go buy it"
 > * List out just a couple social proof points
 > * Avoid using too many CTAs, keep it simple
 
-Exemplo lido em voz alta (ASR, L2788-2814): "Hi Kelly, hope you are well and
-keeping in good health. Want to check in if there's anything we can do to help
-you complete your purchase" — seguido de social proof em números: "40 patents,
-26 research studies, United States Department of Defense, 12 dental experts on
-staff".
+Exemplo (ASR, L2789-2813): "Hi Kelly, hope you are well and keeping in good
+health. Want to check in if there's anything we can do to help you complete your
+purchase" — mais social proof em números: "40 patents, 26 research studies,
+United States Department of Defense, 12 dental experts on staff".
 
 **Email 3 — desconto.**
 
@@ -98,7 +97,7 @@ staff".
 
 Sobre o tipo de incentivo ele não decide, manda testar: "dollar off, percent
 off, giving a free gift, giving free shipping. Test all these things out"
-(L2830-2842).
+(L2829-2841).
 
 **Email 4 — text-based last chance.**
 
@@ -113,17 +112,14 @@ off, giving a free gift, giving free shipping. Test all these things out"
 
 # O racional dele
 
-Todo email aqui resolve fricção, não desejo: "these users are *one or two clicks
+Todo email resolve fricção, não desejo: "these users are *one or two clicks
 away* — so every email should reduce friction, provide assurance, and make
-buying feel easy" (L3794).
-
-Dois dos quatro emails são text-based, e ele justifica sem dado: "we do this
-just because it works so well. Trust me. We've tested this." (L2900-2906).
-
-Sobre remetente, ele dá a preferência e o custo de contrariá-la: "I always
-recommend coming from an actual person, but this brand decided to do from an
-actual team (…) they wanted to keep people's names out, which is going to hurt
-your results most often. But you can still do it" (L2942-2952).
+buying feel easy" (L3794). Dois dos quatro são text-based, justificados sem
+dado: "we do this just because it works so well. Trust me. We've tested this."
+(L2899-2905). Sobre remetente ele dá a preferência e o custo de contrariá-la:
+"I always recommend coming from an actual person (…) they wanted to keep
+people's names out, which is going to hurt your results most often. But you can
+still do it" (L2941-2951).
 
 # Templates
 
@@ -147,17 +143,17 @@ O slide fica no meio: "To save time, you can use the same emails for both of
 these flows. If you have time, try to make them slightly different" (L3795).
 
 **O bloco dinâmico do cart:** a fala diz "we are using a split dynamic image on
-the left" (L2971-2972) e o slide confirma `Split` (L3885) — mas o mesmo slide
+the left" (L2971) e o slide confirma `Split` (L3885) — mas o mesmo slide
 usa `Table` para browse (L3767). Ele reconhece que a diferença é histórica, não
 técnica: "for Bannon checkout, it's going to be a little bit different for
 whatever reason. We just have it a little bit different. This is what we've
-always done" (L2987-2992).
+always done" (L2987-2991).
 
 # O que o corpus não diz
 
 - **Nenhum delay, filtro ou condição de saída.** Ver a tabela acima.
-- Qual desconto usar no email 3. Os exemplos são $35 (L2870), 20% (L2924), "1x%"
-  (L2910, ASR corrompido) — nenhum vira regra.
+- Qual desconto usar no email 3. Os exemplos são $35 (L2871), 20% (L2923), "1x%"
+  (L2911, ASR corrompido) — nenhum vira regra.
 - Se o cart abandon deve excluir quem já entrou no checkout abandon, apesar de
   ele afirmar que "cart abandoned is a step before checkout abandoned" (L2661).
 - Os quatro slots "**Email Example:**" do slide (L3817, L3838, L3859, L3881)

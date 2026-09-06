@@ -20,7 +20,7 @@ do módulo. Ver [[_conflitos]] (`copy-numeracao-dos-principios`).
 # A tese: dopamina como ativo de longo prazo
 
 > "The customer is craving dopamine, we need to give it to them. We want our
-> emails to be engaging enough to trigger dopamine in the customer's brain.
+> emails to be engaging enough to trigger dopamine in the customer’s brain.
 > That will lead to a positive association with our brand and result in future
 > opens and sales." (L6627-6629)
 
@@ -67,7 +67,8 @@ E o único erro que ele nomeia como **o pior**:
 
 Repetição é a falha máxima porque é a única que zera a dopamina por definição —
 o cérebro já viu. É o mesmo raciocínio do disruptor no inbox: "people are so
-accustomed to seeing the same thing over and over and over" (L6219). Ver
+accustomed to seeing the same thing over and over and over and over" (L6219).
+Ver
 [[doutrina/disruptor-vence-no-inbox]].
 
 # A tensão útil com os outros dois princípios

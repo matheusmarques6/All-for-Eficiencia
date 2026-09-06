@@ -32,7 +32,7 @@ ficou de fora das notas, com motivo.
 | Linha(s) | O que é | Motivo |
 |---|---|---|
 | L5613, L5663, L5884, L6097 | "Link to document in video: gamma.app/docs/Email-Copywriting-…" ×4 | link repetido para o mesmo deck; é a fonte do registro `slide`, não conteúdo |
-| L5621, L6776 | "Email Marketing Brain >>>" → wellcopy.net/gpt | CTA de produto próprio. O fato de existir e ser treinado com "over 500 pages" está em [[copy/_numeros]]; o link não vai para nota. |
+| L5621, L6776 | "Email Marketing Brain >>>" → wellcopy.net/gpt | CTA de produto próprio. O fato de existir e ser treinado com "over 500 pages" está em [[_numeros]]; o link não vai para nota. |
 | L5623 | "Copy Template >>>" → Google Docs | recurso externo inacessível ao corpus |
 | L5882 | "DWY Campaigns >>>" → Figma | recurso externo inacessível ao corpus |
 | L5761-5771, L5787-5795, L5861-5865 | passeio pela interface do Email Marketing Brain, promessa de anexar links, agradecimento final | procedimento de ferramenta datado sem tela no texto + fecho de vídeo |
@@ -56,7 +56,7 @@ ficou de fora das notas, com motivo.
 
 | Linha(s) | O que é | Para onde vai |
 |---|---|---|
-| L6249-6499 | os dois walkthroughs ao vivo (Gymshark 47 min; Fastables/segundo walkthrough) | [[doutrina/o-processo-de-criacao]] — outra unidade. Consultei só L6341 e L6401 para o conflito `copy-subject-line-comprimento`. |
+| L6249-6499 | os dois walkthroughs ao vivo (Gymshark 47 min; Fastables/segundo walkthrough) | [[doutrina/o-processo-de-criacao]] — outra unidade. Consultei só L6341 e L6400-6402 (conflito `copy-subject-line-comprimento`) e L6399-6402 (conflito `copy-papel-da-ia`). |
 | L6339-6345 | export/compressão de slices no Figma, upload no Klaviyo, truque de texto invisível no rodapé | `design/` e `deliverability/` — não é copy |
 | L6509-6528 e L6556-6576 | "Nobody Is Reading Your Copy", "Email is Unique…", definição do S.C.E. | o enquadramento transversal vai para [[doutrina/sce-o-framework-que-atravessa-tudo]]. A premissa de atenção ficou resumida em [[copy/o-que-evitar]] porque é o "por quê" direto dos três ❌. |
 | L6859+ | módulo DESIGN | `design/` |

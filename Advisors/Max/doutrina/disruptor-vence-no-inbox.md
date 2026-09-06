@@ -4,9 +4,22 @@ modulo: doutrina
 assunto: disruptor
 autor: max-sturtevant
 registro: [transcricao]
-fonte: "CONTEUDO BRUTO/max.md — L6191-6229 (transcrição)"
+fonte: "CONTEUDO BRUTO/max.md — L6191-6229 (transcrição, vídeo de subject lines iniciado em L6103)"
+conflitos: [doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+Esta nota vem **inteiramente** de um único vídeo falado (L6103-6245), sem nenhuma
+corroboração em slide. E esse vídeo abre com a assinatura do narrador que, noutra
+aula, se refere a Max em terceira pessoa: "Hello, hello. So got one more for you"
+(L6103), a mesma abertura de L4204, L4687 e L5669 — e é dentro de L5669-5865 que
+está "something that **Max had put together himself**" (L5753).
+
+Não há prova de que este trecho específico não seja do Max, só a assinatura
+compartilhada. Tratar como material do curso; ao citar, não escrever "o Max diz".
+Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

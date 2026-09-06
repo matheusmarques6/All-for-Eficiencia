@@ -54,7 +54,7 @@ formato padrão daquele email. Ver [[flows/_index]].
 **Tabela empresta autoridade.** "It makes everything look more structured, more
 professional, and it has a visual trust factor. Tables often feel, you know,
 more like official labels, and that's just kind of a little trick with the
-brain" (L6005-6007). O ganho não é só compreensão: é percepção de oficialidade.
+brain" (L6005-6009). O ganho não é só compreensão: é percepção de oficialidade.
 
 **Gráfico converte estatística em prova.** "people trust data more when it
 looks official and… makes the benefits look measurable, believable. And a graph

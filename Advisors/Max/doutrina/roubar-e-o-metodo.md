@@ -8,6 +8,16 @@ fonte: "CONTEUDO BRUTO/max.md — L7851-7955, L8003, L6270, L6278-6279, L6446-64
 status: rascunho
 ---
 
+# Nota de autoria
+
+O vídeo desta aula (`\# File-Designing Walkthroughs`, L7849) não traz nenhuma das
+assinaturas que separam os narradores do corpus — nem o "Alrighty" do Max nem o
+"Hello, hello" do outro. Vem logo depois de um vídeo do outro narrador (L7603).
+Contra a dúvida pesam duas coisas: a rotina descrita é pessoal e em primeira
+pessoa ("my websites for finding emails to steal from", L7871; "these are just
+the brands I follow", L7887) e o slide intitula "**My** Best Tip For Design"
+(L8311). Tratado aqui como material atribuível, com a ressalva registrada.
+
 # A observação
 
 É o tip número um dele, e ele repete a expressão três vezes antes de dizer qual

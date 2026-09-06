@@ -4,7 +4,7 @@ modulo: copy
 assunto: email-architect
 autor: max-sturtevant
 registro: [slide, outro-narrador]
-fonte: "CONTEUDO BRUTO/max.md — L5803-5833 (transcrição, outro narrador), L6787-6792 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L5725-5735 e L5803-5833 (transcrição, outro narrador), L6787-6792 (slide)"
 conflitos: [copy-narrador-nao-e-max]
 status: rascunho
 ---
@@ -20,7 +20,7 @@ intenção do email. O diagnóstico, no slide:
 Na fala, com o mecanismo: "it takes a lot more direction when you're simply
 putting things into a table. So something that's just listed as header or
 subject line, preview text, header, subheader, CTA, because you're not really
-giving any direction" (L5807-5809). O resultado observado: "the designers would
+giving any direction" (L5807-5811). O resultado observado: "the designers would
 be really all over the place because they'd get a bunch of copy. And then the
 designs would be, you know, X, Y, and Z and not at all with the original intent
 of the email was" (L5811-5815).

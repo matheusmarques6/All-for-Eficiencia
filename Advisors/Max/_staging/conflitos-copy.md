@@ -70,7 +70,7 @@ operacionalmente é o de hoje, e ele não está em disputa.
 | Valor | Registro | Linha |
 |---|---|---|
 | "2-5 words in Length" | slide | L6817 |
-| os 4 exemplos do slide: 2, 4, 3 e 4 palavras — todos dentro da regra | slide | L6824-6827 |
+| os 4 exemplos do slide: 4, 2, 3 e 4 palavras — todos dentro da regra | slide | L6824-6827 |
 | escrita ao vivo: "no fuss dumbbell back exercises" (5 palavras) + "no gym no problem" emendado | transcricao | L6341 |
 | elogiada ao vivo, saída de IA: "This bar will ruin all chocolate for you" (8 palavras) | transcricao | L6401 |
 
@@ -91,7 +91,7 @@ publique uma de 8 palavras.
 | SL termina em emoji; "…" é regra de preview text | slide | L6820, L6838 |
 | SL "something ending in dot, dot, dot, maybe a question" | transcricao | L6155-6157 |
 | "Starting with the question is great. Ending with dot, dot, dot" | transcricao | L6197 |
-| ao vivo, SL emendada terminando em "dot dot dot" | transcricao | L6341 |
+| ao vivo, SL emendada: "end with DOT do dot" (ASR) | transcricao | L6341 |
 | nenhum dos 4 exemplos de SL do slide termina em "…" | slide | L6824-6827 |
 
 **Como responder:** vale o slide para especificação de artefato — SL em Title
@@ -123,7 +123,7 @@ não tem nenhum outro apoio no corpus.
 | Valor | Registro | Linha |
 |---|---|---|
 | "at most you can get \~ 10% jump in opens" | slide | L6805 |
-| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | transcricao | L6229 |
+| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | transcricao | L6227-6229 |
 
 **Como responder:** dar os dois. O slide fixa \~10%; a fala estende para "10%,
 maybe 15". Nunca dizer "cerca de 12%".
@@ -168,7 +168,7 @@ frequência usá-la.
 | Valor | Registro | Linha |
 |---|---|---|
 | "Don't overthink it" | slide | L6095 |
-| "Don't overthink it." (abrindo o framework de PT) | slide | L6831 |
+| "Don’t overthink it." (abrindo o framework de PT) | slide | L6831 |
 | "\# Don't Overthink It" (slide inteiro) | slide | L6847 |
 | "don't have to over complicate it. It's not reinventing the wheel" | transcricao | L6163-6165 |
 | dois frameworks prescritivos de 4 regras cada | slide | L6817-6820, L6835-6838 |
@@ -192,7 +192,7 @@ resposta correta cita os dois: siga o framework, não itere além dele.
 
 **Como responder:** a contradição está dentro da **mesma** transcrição —
 "first draft" em L5691 e "not a first draft machine" em L5855, separados por
-160 linhas. O uso demonstrado ao vivo é claramente de primeiro rascunho
+164 linhas. O uso demonstrado ao vivo é claramente de primeiro rascunho
 (L6399-6402: "I'm literally just going to have chat GPT like do this all for
 me"). A posição defensável é a que a prática confirma: a IA produz rascunho, e o
 trabalho humano é voz, persuasão e refino (L5857-5859). Ver

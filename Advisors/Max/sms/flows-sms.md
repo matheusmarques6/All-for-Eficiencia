@@ -28,8 +28,8 @@ automations are just for quick High converting and high Roi messages" (L9247).
 |---|---|---|---|
 | Welcome | opt-in na lista de SMS (L9429) | 1º: *não declarado* · 2º: `Wait 5 days` (L9440) | 2 no template (L9436-9443) · "two to three" na fala (L9245) |
 | Browse Abandon | vê um item, não adiciona ao carrinho nem compra (L9447) | `Wait 60 minutes from Browse Event` (L9453) | 1 |
-| Cart Abandon | add to cart (L9245, L9460) | `Wait 30 minutes from Event` (L9466) | 1 — limite legal (L9461) |
-| Checkout Abandon | started checkout (L9245, L9460) | `Wait 30 minutes from Event` (L9466) | 1 |
+| Cart Abandon | "people who add to cart" (L9245) — evento próprio (L9460) | `Wait 30 minutes from Event` (L9466) | 1 — limite legal (L9461) |
+| Checkout Abandon | "or go to checkout" (L9245) — evento próprio (L9460) | `Wait 30 minutes from Event` (L9466) | 1 |
 | Winback | última compra (L9245) | `Wait 120 Days from Last Purchase` (L9479) | 1 · opcional (L9473) |
 
 Cart e checkout são **dois flows separados**: "You want to setup two different
@@ -107,7 +107,7 @@ discount and keep it general" (L9475).
   messages" (L9245). Template do slide: duas (L9436-9443). Ver
   `sms-welcome-contagem`.
 - **Janela do winback.** 120 dias no SMS (L9479) contra os 90 dias do winback de
-  email (L9314-9318); a fala só diz "purchased like months ago" (L9245). Ver
+  email (L3314-3318); a fala só diz "purchased like months ago" (L9245). Ver
   `sms-janela-do-winback`.
 
 # O que o corpus não diz

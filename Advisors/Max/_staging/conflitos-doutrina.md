@@ -7,9 +7,54 @@ status: rascunho
 
 # Conflitos do módulo doutrina
 
-Sete entradas. Nenhuma resolvida por média. Duas delas são divergências entre o
-que ele **prescreve** e o que ele **faz** ao vivo — essas são as mais valiosas do
-módulo e não devem ser suavizadas na resposta.
+Oito entradas. Nenhuma resolvida por média. Duas são divergências entre o que ele
+**prescreve** e o que ele **faz** ao vivo — as mais valiosas do módulo, não
+suavizar. A primeira é a mais grave do corpus inteiro: **parte do material não é
+fala do Max.**
+
+---
+
+## doutrina-narrador-da-aula-de-ia
+
+O corpus tem pelo menos dois narradores. Há uma prova textual e um padrão de
+assinatura que se estende a nove vídeos.
+
+**A prova** (transcrição da aula `\# File-ChatGPT Copywriting`, L5667-5865):
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "something that **Max had put together himself**" — terceira pessoa | transcricao | L5753 |
+| "this is the exact template that **our copywriters** use" | transcricao | L5799-5801 |
+| "the prompt that **we** use internally" | transcricao | L5707 |
+| "Lucky for you, **I've created** the Email Marketing Brain" — primeira pessoa | slide | L6774 |
+
+**As assinaturas de abertura**, que separam os dois narradores em todo o bruto:
+
+| Assinatura | Quem | Vídeos |
+|---|---|---|
+| "Alrighty" / "Welcome back" / "in this video I'm going to" / "my agency" / "book a call with me" | Max | L9, L21, L1316, L2440, L3229, L3312, L6259, L6359, L7007, L7228, L8022, L9235 |
+| "Hello, hello" / "Yo, yo" + "our copywriters", "our team", "hit us up" | outro | L4204, L4687, L5669, L5889, L6103, L7603, L8382, L8531, L8774 |
+
+Fechos correspondentes do segundo narrador: "So thank you very much for giving
+this a watch. See you later." (L4827), "Thank you guys for giving it a watch and
+see you in the next one." (L5865), "feel free to hit us up if you have any
+questions that we can clarify." (L9108).
+
+**Como responder:** só L5667-5865 tem prova. O resto é inferência por assinatura —
+forte, auditável, mas inferência. A regra prática:
+
+1. Nada de L5667-5865 é citável como fala do Max. `registro: outro-narrador`.
+2. Trechos dos outros oito vídeos: citar como "o material do curso diz", não "o
+   Max diz", e dizer por quê se perguntarem.
+3. **Slide é registro neutro** e não carrega o problema. Onde a doutrina tem
+   slide, ela se sustenta.
+4. Onde o Max corrobora em vídeo próprio, a atribuição volta a ser segura — é o
+   caso de desconto (L6261), texto puro (L5230) e skimmability (L7163).
+
+**O que isto atinge nesta pasta:** sete das treze notas. As mais afetadas são
+[[a-ia-e-um-copywriter-junior]] (base inteira dentro do bloco provado) e
+[[disruptor-vence-no-inbox]] (base inteira num vídeo da assinatura suspeita, sem
+nenhum slide corroborando).
 
 ---
 
@@ -92,9 +137,14 @@ L8786-8790 e L9098-9100.
 | pede e usa headline, sub-headline, body copy, bullets e subject line gerados | transcricao (walkthrough) | L6386-6411 |
 | usa a IA só para dois períodos de body copy, depois do layout pronto | transcricao (walkthrough Gymshark) | L6274-6276 |
 
-**Como responder:** o conflito é entre a regra declarada e a prática filmada, e
-os dois lados são fala dele — não há registro que vença por precedência. A
-leitura mais fiel: a regra sobrevive na **iteração e na edição**, não na origem
+**Como responder:** desde `doutrina-narrador-da-aula-de-ia`, este conflito mudou
+de natureza. **Não é o Max se contradizendo** — a regra (L5689-5691, L5855) está
+dentro do bloco provado de outro narrador; a prática (L6386-6411) é dele. Some-se
+a isso que a regra se contradiz sozinha: L5691-5695 prescreve "you can get the
+first draft" e L5855 proíbe "first draft machine", mesmo vídeo, 160 linhas de
+distância.
+
+A leitura mais fiel: a regra sobrevive na **iteração e na edição**, não na origem
 do texto. Nos dois walkthroughs ele nunca publica saída direta — descarta metade
 (L6394), pede variações (L6393, L6405), costura os pedaços à mão (L6397). O que
 a prática contradiz é a proibição do primeiro rascunho, não a exigência de

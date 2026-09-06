@@ -9,14 +9,15 @@ status: rascunho
 
 # Conflitos do módulo deliverability
 
-Sete entradas. Nenhuma resolvida por média.
+Sete entradas, mais uma adjacente. Nenhuma resolvida por média.
 
 ---
 
 ## deliverability-limiar-de-open-rate
 
-O conflito mais grave da pasta: o número que autoriza alargar a lista aparece
-com **seis formulações diferentes**, cinco na fala e uma no slide.
+O conflito mais grave da pasta: o número que decide qual lista usar e quando
+alargá-la aparece com **dez formulações diferentes**, sete na fala e três no
+slide.
 
 | Valor | Contexto | Registro | Linha |
 |---|---|---|---|
@@ -26,20 +27,32 @@ com **seis formulações diferentes**, cinco na fala e uma no slide.
 | "anywhere between 40 to 50 percent. If it starts dipping below 40, I definitely wouldn't be expanding it" | tolerância, linha seguinte à golden rule | transcricao | L8580 |
 | "you're hitting, again, 45 to 50% plus (…) that's a good indicator that we can expand" | expandir de 14 para 30 dias | transcricao | L8582 |
 | "as long as you're hitting those, those 40 to 50% open rates" | cadência de rampa | transcricao | L8588 |
-| "Whatever list gets you 50-60% opens" | escolha da lista | **slide** | L8727 |
+| "And that keeps us at a 40 to 50% mark" | alvo após recuar de 30→60 para 30→45 | transcricao | L8604 |
+| "This is how we can get consistent 50% open rates" | o que enviar só para engajados entrega | **slide** | L8725 |
+| "Whatever list gets you 50-60% opens" | escolha da lista, **duas linhas depois** | **slide** | L8727 |
 | "If you start to get 60%+ opens, widen your list to a larger timeframe" | **alargar** | **slide** | L8728 |
 
-Note que L8579 e L8580 são **linhas consecutivas** e já discordam entre si: "50
-plus" vira "40 a 50" na frase seguinte.
+Duas adjacências agravam o conflito, e são a prova de que ele não é artefato de
+recorte:
+
+- **L8579 e L8580 são linhas consecutivas** e já discordam entre si: "50 plus"
+  vira "40 a 50" na frase imediatamente seguinte, dentro da mesma respiração.
+- **L8725, L8727 e L8728 estão no mesmo slide**, a uma e duas linhas de
+  distância: o slide promete "consistent 50%", manda escolher a lista por
+  "50-60%" e depois exige "60%+" para alargar. O registro que vence em
+  especificação pelo protocolo tem três números em quatro linhas.
 
 **Como responder:** dar os valores todos, na ordem em que aparecem, e nomear os
-dois pontos em que o corpus é unânime — (a) **abaixo de 40% nunca se alarga**
-(L8580, e L8729/L8470 mandam apertar em 40%); (b) o alvo de operação é
-`Greater than 50%` (L8715). O slide, que vence em especificação pelo protocolo,
-é o mais conservador: exige **60%+** para alargar (L8728). A fala é mais
+dois pontos em que **nenhuma das dez formulações contradiz as outras** —
+(a) **abaixo de 40% nunca se alarga** (L8580, e L8729/L8470 mandam apertar em
+40%); (b) o alvo de operação é `Greater than 50%` (L8715). O slide é o mais
+exigente na hora de alargar — **60%+** (L8728) — mas não é um bloco coerente:
+duas e três linhas antes ele já disse "consistent 50%" (L8725) e "50-60%"
+(L8727). Ou seja, a precedência do protocolo (slide vence em especificação) não
+resolve este conflito, porque o slide discorda de si mesmo. A fala é mais
 permissiva e oscila entre 40 e 50. Se a pergunta for "posso alargar com 45%?",
-a resposta honesta é: pelo slide não, pela fala talvez (L8582 diz 45-50+), e ele
-nunca reconcilia. O critério de segurança que ele próprio dá não é numérico —
+a resposta honesta é: pelo gatilho do slide não (60%+), pela fala talvez (L8582
+diz 45-50+), e ele nunca reconcilia. O critério de segurança que ele próprio dá não é numérico —
 "I always err on the side of caution" (L8569) e "it's much easier to build your
 sender reputation (…) than it is to fix it when it's already in a poor
 position" (L8555). Na dúvida, o número mais alto.
@@ -50,18 +63,26 @@ position" (L8555). Na dúvida, o número mais alto.
 
 Quanto se aumenta o volume a cada envio durante o warming.
 
-| Valor | Registro | Linha |
-|---|---|---|
-| "you scale up by about fifty to, by about fifty percent each send, as long as you're still getting the metrics that you want" | transcricao | L8569 |
-| "gradually increase from 25 to 50 percent percent based on performance" (*"percent percent" = gagueira de ASR*) | transcricao, lendo o bullet do deck de warming | L8556 |
+| Valor | Contexto | Registro | Linha |
+|---|---|---|---|
+| "gradually increase from 25 to 50 percent percent based on performance" (*"percent percent" = gagueira de ASR*) | "the formula", 05:30 | transcricao | L8556 |
+| "you scale up by about fifty to, by about fifty percent each send, as long as you're still getting the metrics that you want" | primeiro envio de 100-300, 08:08 | transcricao | L8569 |
 
-**Como responder:** a faixa **25 a 50%** é a formulação do deck (lida em voz
-alta em L8556) e contém a da fala; os **~50%** de L8569 são o topo dessa faixa,
-não um valor concorrente. Dar as duas e dizer que 50% é o teto, não o padrão —
-consistente com o "err on the side of caution" da mesma linha L8569. Ressalva
-obrigatória: o deck de warming **não foi exportado** (ver a lacuna abaixo), então
-L8556 é a fala citando o slide, não o slide. Não há registro independente para
-conferir.
+**Como responder:** dar os dois, sem escolher. **Os dois são transcrição** — o
+deck de warming nunca foi exportado (ver a lacuna abaixo), então nenhum dos dois
+tem o peso de slide e a regra de precedência do protocolo não se aplica aqui. Em
+L8554 ele diz "the formula, and it's pretty self-explanatory", o que *sugere*
+que L8556 esteja sendo lido de um slide — mas o corpus não diz isso e a hipótese
+não pode virar registro.
+
+Não dizer que "50% é o teto e 25% é o padrão": o corpus não hierarquiza. L8556
+dá uma faixa condicionada a desempenho ("based on performance"); L8569 dá um
+passo único (~50%) igualmente condicionado ("as long as you're still getting the
+metrics that you want"). A diferença operacional é real e grande — escalar 25%
+ou 50% por envio muda a agressividade da rampa em 2×. O critério que ele próprio
+oferece não é numérico: "I always err on the side of caution" (L8569) e "it's
+much easier to build your sender reputation (…) than it is to fix it when it's
+already in a poor position" (L8555).
 
 ---
 

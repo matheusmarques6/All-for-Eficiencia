@@ -13,6 +13,19 @@ Arquivo de construção — o destino final é [[_numeros]].
 Como a pasta não tem faixa contínua, os números vêm de âncoras espalhadas por
 sete módulos do bruto. A coluna `linha` é a única referência confiável.
 
+**Aviso de autoria.** Parte destes números não é falada pelo Max. Ver
+`doutrina-narrador-da-aula-de-ia`. Os que vêm de vídeo do outro narrador:
+
+| Faixa | Números afetados |
+|---|---|
+| L4703-4707 | atenção "2-3 segundos" e o "antes" de 5-10s da versão falada de campanhas |
+| L4346-4348 | proporção 80-20 / 75-25 gráfico-texto |
+| L6227-6229 | maior ganho de open rate num A/B (10%, maybe 15) |
+| L8778-8790, L9098 | proporção básico/avançado nas versões faladas; faixa de lista 5.000-20.000; "three to four campaigns a week" |
+
+Os valores equivalentes **em slide** (L8764, L9120-9121, L5500-5501, L5508,
+L8185) não têm esse problema. Onde houver as duas versões, citar a do slide.
+
 ---
 
 ## Economia do canal

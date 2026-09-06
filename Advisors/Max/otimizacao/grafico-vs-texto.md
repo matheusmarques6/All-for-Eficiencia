@@ -5,7 +5,7 @@ assunto: grafico-vs-text-based
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8862-8888 (transcrição), L9151-9157 (slide)"
-conflitos: [otimizacao-grafico-numero-de-variantes]
+conflitos: [otimizacao-grafico-numero-de-variantes, otimizacao-deck-duplicado]
 status: rascunho
 ---
 
@@ -22,6 +22,9 @@ Slide, verbatim (L9153-9156):
 > Test out different styles to see what your list responds to better.
 > Especially for big drops and sales…
 > We find that you want to mix them up but use text based for key emails.
+
+O mesmo bloco de slide aparece uma segunda vez no corpus, palavra por palavra,
+no deck de flows (L4164-4170).
 
 "can really vary across accounts" é o ponto: aqui não existe vencedor de
 catálogo, existe vencedor por lista.

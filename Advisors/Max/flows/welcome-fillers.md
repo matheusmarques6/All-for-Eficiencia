@@ -5,7 +5,7 @@ assunto: welcome-filler-emails
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L1610-1646 e L1778-2181 (transcrição), L3517 e L3544-3578 (slide)"
-conflitos: [welcome-contagem-de-fillers]
+conflitos: [welcome-contagem-de-fillers, welcome-catalogo-de-fillers]
 status: rascunho
 ---
 
@@ -45,11 +45,11 @@ transcrição é ASR — fidelidade menor que a de um artefato de slide.
 |---|---|---|---|
 | **Our story** | "build trust by making the brand feel human" — founder, origin story, mission | hero com foto do founder · bridge com a história · product section com links sutis | L1818-1856 |
 | **FAQ** | "overcome objections that are silently killing your conversions"; o cliente não pergunta, não responde email, não aciona o suporte | hero declarando o FAQ · bridge explicando · product section com a resposta da marca | L1858-1934 |
-| **How it works** | educar sobre o funcionamento, reduzir confusão | hero (ele prefere before/after ou o processo) · bridge explicando · product section | L1936-1987 |
-| **What's inside** | ingredientes ou materiais; "transparency builds trust" | benefício no topo, "what's inside" fechando | L1989-2017 |
-| **Social proof** | "reinforce trust by showing proof from your customers" | variações: celebridades/influencers, testemunhos de cliente, bloco de reviews | L2018-2037 |
-| **How we're different / us vs them** | "why buy from us rather than buy from one of the other thousands of other brands in our niche" | declaração direta do diferencial, depois seção us vs them | L2038-2083 |
-| **Bestsellers** | destacar o produto principal, ou vários, se houver muitos SKUs | destaque de produto único ou grade de bestsellers | L2084-2131 |
+| **How it works** | educar sobre o funcionamento, reduzir confusão | hero (ele prefere before/after ou o processo) · bridge explicando · product section | L1936-1986 |
+| **What's inside** | ingredientes ou materiais; "transparency builds trust" | benefício no topo, "what's inside" fechando | L1988-2016 |
+| **Social proof** | "reinforce trust by showing proof from your customers" | variações: celebridades/influencers, testemunhos de cliente, bloco de reviews | L2018-2036 |
+| **How we're different / us vs them** | "why buy from us rather than buy from one of the other thousands of other brands in our niche" | declaração direta do diferencial, depois seção us vs them | L2038-2082 |
+| **Bestsellers** | destacar o produto principal, ou vários, se houver muitos SKUs | destaque de produto único ou grade de bestsellers | L2084-2130 |
 
 **Onde ele expressa preferência:** só uma vez, e é para o Our story — "our story
 email is great. I love to include these." (L1854-1856). Sobre o FAQ ele dá uma
@@ -84,7 +84,7 @@ comentado ou classificado:
 > * **Staff Picks**: Highlight favorite products, books, or tools selected by team members, offering a personalized recommendation to subscribers.
 > * **Brand Values**: Communicate the core values and mission of your brand, reinforcing your commitment to certain principles and building trust with your audience.
 
-São 21 itens. A versão falada dessa mesma lista (L2136-2168) traz 14 e é mais
+São 21 itens. A versão falada dessa mesma lista (L2136-2166) traz 14 e é mais
 curta: não tem Research Study Highlight, Media Publications, Behind The Scenes,
 Tips and Tricks, UGC Content, Staff Picks nem Brand Values, e acrescenta "even
 more testimonials". Ele fecha a lista dizendo que é "stuff that we've used in
@@ -95,7 +95,7 @@ our welcome flow" (L2170).
 - **1-5 contra 1-4**, no mesmo slide: heading L3544 diz "Insert 1-4 Filler
   Emails", o corpo L3547 diz "the 1–5 educational emails". A fala diz 1-5 duas
   vezes (L1612, L2178).
-- **21 contra 14 ângulos**, entre slide (L3558-3578) e fala (L2136-2168).
+- **21 contra 14 ângulos**, entre slide (L3558-3578) e fala (L2136-2166).
 
 # O que o corpus não diz
 

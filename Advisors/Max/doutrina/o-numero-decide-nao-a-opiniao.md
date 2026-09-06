@@ -5,8 +5,20 @@ assunto: decisao-por-dado
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L22, L6227-6229, L8792 (transcrição); L9127-9131 (slide)"
+conflitos: [doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+A versão em que este princípio é **do Max** é L22 — aula 2, aberta com "Welcome
+back, my beautiful eCommerce folk" (L21), primeira pessoa, história pessoal dele
+no mesmo bloco. É de lá que vem "It doesn't matter what you think. It matters
+what the numbers say".
+
+As outras duas formulações faladas vêm de vídeos com a assinatura do outro
+narrador: L8792 do vídeo aberto em L8774 ("Yo, yo") e L6227-6229 do vídeo aberto
+em L6103 ("Hello, hello"). Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

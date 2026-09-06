@@ -5,7 +5,7 @@ assunto: subject-line-e-preview-text
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8918-8944 (transcrição), L9165-9174 (slide)"
-conflitos: [otimizacao-sl-julgar-por-abertura-ou-receita, otimizacao-teto-de-abertura]
+conflitos: [otimizacao-sl-julgar-por-abertura-ou-receita, otimizacao-teto-de-abertura, otimizacao-deck-duplicado]
 status: rascunho
 ---
 
@@ -25,8 +25,9 @@ repete o adjetivo (L9167). As cinco variáveis, verbatim do slide (L9170-9174):
 including or excluding emojis, including dot, dot, dot, or not having them, uh,
 adding time delays, um, and adding all caps versus not."
 
-A mesma lista aparece uma segunda vez no corpus, no deck de flows (L4153-4160),
-com outro erro de digitação no mesmo item ("Ilusing").
+A mesma lista aparece uma segunda vez no corpus, no deck de flows (L4153-4162).
+Não é cópia exata: o terceiro item sai "Ilusing" lá (L4160) e "Using" aqui
+(L9172) — os dois registros erram "exlcuding", só um erra o verbo.
 
 # A regra de julgamento
 

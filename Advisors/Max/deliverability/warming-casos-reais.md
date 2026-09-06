@@ -6,6 +6,7 @@ autor: max-sturtevant
 registro: [transcricao]
 fonte: "CONTEUDO BRUTO/max.md — L8607-8639 (transcrição). Sem contraparte de slide."
 conflitos: [deliverability-caso-mailchimp-escala-final, deliverability-salto-de-45]
+validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06. Os volumes são narrados de memória e não fecham entre si: ilustração de método, nunca benchmark."
 status: rascunho
 ---
 
@@ -35,8 +36,12 @@ inteira — a lista importada tinha ~100.000 pessoas (L8611).
 | seguintes | "14,000, 20,000, 30,000, 40,000, 60,000, 80,000, all the way up to about 100,000" (L8619) | *(não informado)* |
 
 Marcos declarados: por volta do nono envio, ~14.000 (L8610); ao fim da janela de
-60 dias, "about 120,000 people per [send]" (L8611). Note que 120.000 é maior que
-os ~100.000 de teto citados em L8619 — o corpus não reconcilia.
+60 dias, "about 120,000 people per [send]" (L8611). Esse 120.000 não fecha por
+**dois** lados, ambos na mesma linha ou logo adiante: é maior que a lista
+importada inteira — "it was, you know, a hundred thousand people" (L8611) — e
+maior que o topo que ele próprio declara para a escala, "all the way up to about
+100,000" (L8619). Enviar 120.000 por campanha a partir de uma lista de 100.000 é
+impossível. O corpus não reconcilia.
 
 A leitura pela ótica do provedor, e a demonstração de que só o número importa
 (L8621-8622):
@@ -79,8 +84,10 @@ A correção foi apontar todo mundo para um CTA único e gamificado (L8636-8638)
 conteúdo de bastidor no Instagram ("Give us a follow there"), e um giveaway —
 "One person who guesses what the first flavor is going to be, we attach it to a
 form. Click here, vote, and then the winner is going to get a free $3 gift
-card." *(A linha seguinte repete a frase corrompida; o valor de $3 aparece uma
-vez só.)*
+card." *(A própria L8638 repete a frase logo em seguida, corrompida — "Click
+here, vote, and winner is going get a free $3 engagement". O valor **$3 aparece
+duas vezes na linha**, nas duas versões; é o único número do trecho com
+repetição própria, o que o torna menos suspeito de erro de ASR do que parece.)*
 
 O fecho (L8639): "they want people to open it, they want them to click it, and
 that's where the quality of the content becomes very important as well."

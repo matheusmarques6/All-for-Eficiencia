@@ -90,7 +90,7 @@ o material em silêncio.
 | Valor | reg | linha |
 |---|---|---|
 | 21 ângulos catalogados | S | L3558-3578 |
-| 14 ângulos citados | T | L2136-2168 |
+| 14 ângulos citados | T | L2136-2166 |
 
 **Como responder:** o slide vence, é artefato. A lista falada é subconjunto da
 do slide mais um item que só ela tem ("even more testimonials", L2148) e não
@@ -138,8 +138,8 @@ marca e o corpus não opina. Ver a lista completa de valores citados em
 
 | Valor | reg | linha |
 |---|---|---|
-| "I like to wait four hours (…) usually performs the best, but test it for your brand" | T | L2369-2374 |
-| "a one hour time delay" (variante agressiva) | T | L2372 |
+| "I like to wait four hours (…) usually performs the best, but test it for your brand" | T | L2369-2375 |
+| "a one hour time delay" (variante agressiva) | T | L2371 |
 | nenhum delay | S | L3607-3664 |
 
 **Como responder:** use 4 horas como padrão, 1 hora como variante agressiva, e
@@ -223,18 +223,18 @@ o princípio geral de [[otimizacao-de-flows]]: time delay é "the biggest lever"
 | Flow | Bloco | Fonte da imagem | reg | linha |
 |---|---|---|---|---|
 | Browse | `Table` | `{{ event.ImageURL }}` | S | L3767-3770 |
-| Browse | "you create a split (…) create a table block" | — | T | L2599-2601 |
+| Browse | "you create a split (…) create a table block" | — | T | L2598-2600 |
 | Cart | `Split` | `{{ event.ImageURL }}` | S | L3885-3888 |
-| Cart | "we are using a split dynamic image on the left" | — | T | L2971-2972 |
+| Cart | "we are using a split dynamic image on the left" | — | T | L2971 |
 | Checkout | `Table` + `Dynamic` + `Row collection` | `{% if item.product.variant.images.0.src %}…` | S | L3901-3907 |
 
-**Como responder:** vale o slide, é artefato. A hesitação da fala em L2599-2601
+**Como responder:** vale o slide, é artefato. A hesitação da fala em L2598-2600
 ("split… table block") é ruído. A diferença real entre browse/cart e checkout é
 estrutural e está explicada em [[conteudo-dinamico-klaviyo]]: os dois primeiros
 lêem variável de evento único, o terceiro itera `event.extra.line_items`. Já a
 diferença `Table` (browse) vs `Split` (cart) para o mesmo tipo de dado não tem
 explicação técnica no corpus — ele mesmo diz "it's going to be a little bit
-different for whatever reason (…) this is what we've always done" (L2987-2992).
+different for whatever reason (…) this is what we've always done" (L2987-2991).
 
 ---
 
@@ -243,16 +243,16 @@ different for whatever reason (…) this is what we've always done" (L2987-2992)
 | Janela | Verbatim | reg | linha |
 |---|---|---|---|
 | 7 dias | "those next seven days is like the warmest this person ever is" | T | L3040 |
-| 14 dias | "post-purchase flow as within 14 days" | T | L3163 |
+| 14 dias | "post-purchase flow as within 14 days" | T | L3162 |
 | 14 dias | "relevant in the first 14 days after a customer purchase" | S | L3971 |
-| ~3 semanas | "a couple of weeks after somebody bought (…) it's been nearly three weeks" | T | L3195-3199 |
+| ~3 semanas | "a couple of weeks after somebody bought (…) it's been nearly three weeks" | T | L3194-3198 |
 
 **Como responder:** 14 dias é o escopo do flow — é o único número que aparece
-nos dois registros (L3163, L3971) e é onde o slide enquadra os emails opcionais.
+nos dois registros (L3162, L3971) e é onde o slide enquadra os emails opcionais.
 Os 7 dias não são o escopo do flow: são a janela de temperatura máxima do
 cliente, o argumento para os dois primeiros emails serem rápidos. O exemplo de
 ~3 semanas está dentro da lista que o slide diz ser de 14 dias — é a
-inconsistência real, e é do próprio material. Registre que a linha L3163 vem
+inconsistência real, e é do próprio material. Registre que a linha L3162 vem
 truncada na transcrição e que o slide é quem confirma o número.
 
 ---
@@ -261,15 +261,15 @@ truncada na transcrição e que o slide é quem confirma o número.
 
 | Valor | reg | linha |
 |---|---|---|
-| "days 30 through 60-ish, 21 through 60-ish" (autocorreção no ar) | T | L3234-3236 |
-| "just wait 21 days" | T | L3252 |
-| "Set whatever time delay you want" | T | L3289-3290 |
+| "days 30 through 60-ish, 21 through 60-ish" (autocorreção no ar) | T | L3233-3235 |
+| "just wait 21 days" | T | L3251 |
+| "Set whatever time delay you want" | T | L3289 |
 | nenhuma janela | S | L3982-4039 |
 
-**Como responder:** 21 dias é o único número que ele fixa (L3252), e a
-autocorreção em L3234-3236 mostra que ele hesitou entre 30 e 21 no mesmo
+**Como responder:** 21 dias é o único número que ele fixa (L3251), e a
+autocorreção em L3233-3235 mostra que ele hesitou entre 30 e 21 no mesmo
 fôlego. Mas o critério que ele dá é o produto, não o calendário: "whenever
-somebody needs to replenish typically" (L3252-3254), com os três exemplos de
+somebody needs to replenish typically" (L3251-3253), com os três exemplos de
 duração de consumo (L3996-3998). E no segundo email ele abandona a
 especificação de vez (L3289). Responda com 21 dias, a hesitação e o critério de
 produto — nesta ordem.
@@ -281,8 +281,8 @@ produto — nesta ordem.
 | Posição | Verbatim | reg | linha |
 |---|---|---|---|
 | sem desconto pesado | "Drives repeat purchases without heavy discounts" | S | L3992 |
-| sem desconto pesado | "drives repeat purchases without heavy discounts" | T | L3248 |
-| com 15% | "we're also giving you 15% off" | T | L3300 |
+| sem desconto pesado | "drives repeat purchases without heavy discounts" | T | L3247 |
+| com 15% | "we're also giving you 15% off" | T | L3299 |
 | com 15% | "15% Off Your Next Refill!" / código "COOL15" | S | L4035-4037 |
 
 **Como responder:** a contradição está **dentro de cada registro**, não entre
@@ -290,7 +290,7 @@ eles — os dois prometem o flow como alternativa ao desconto e os dois dão 15%
 off no segundo email. Não há precedência para aplicar. A conciliação possível é
 a que ele mesmo sugere sem nomear: o email 1 "leans on timing and convenience"
 (L4004), o desconto só entra depois de o lembrete sem desconto falhar, e ele
-marca esse email como opcional (L3269-3270). "Without heavy discounts" pode ser
+marca esse email como opcional (L3269). "Without heavy discounts" pode ser
 lido como "sem depender de desconto", não "sem desconto". Ofereça a leitura,
 marcando que é leitura, não texto.
 
@@ -347,7 +347,7 @@ Cite ambos com o denominador explícito.
 
 | Valor | reg | linha |
 |---|---|---|
-| "three to four campaigns per week" | T | L2366-2368 |
+| "three to four campaigns per week" | T | L2367 |
 | "people are receiving them three times per week" | T | L3386 |
 
 **Como responder:** conflito menor e do mesmo registro. O assunto pertence ao
@@ -368,3 +368,22 @@ que o flow não carrega a conversão sozinho. Encaminhe para
 de distância, sem reconciliação. O segundo aparece num bloco de recomendação
 paga do Klaviyo (L3426-3429) — ver `descartes-flows.md`. Não use nenhum dos dois
 como fato; se perguntado, mostre os dois e a origem comercial do segundo.
+
+---
+
+## flows-onde-testar
+
+| Posição | Verbatim | reg | linha |
+|---|---|---|---|
+| tirar o teste do flow | "Rather than have a ton of active tests in flows (…) We mostly use campaigns as our testing ground. (…) Rather than waiting for results like you have to do in flows, you can get near instant data with campaigns." | S (deck de flows) | L4128-4131 |
+| testar dentro do flow | "**Flow Time Delays** — This is the biggest lever I'd say. Testing the amount of time from the action of the customer and the first email they receive." | S (deck de flows) | L4141-4145 |
+| testar dentro do flow | mesma frase, palavra por palavra | S (deck de otimização) | L9176-9180 |
+
+**Como responder:** as duas posições estão na mesma página do mesmo deck, doze
+linhas de distância. Não é contradição de valor, é divisão de escopo que ele
+nunca declara: **conteúdo** se testa em campanha e migra pronto para o flow;
+**timing** só pode ser testado no flow, porque não existe delay em campanha.
+Ofereça essa leitura marcando que é leitura — o corpus não a formula. E registre
+que "the biggest lever" (L4143) tem cópia idêntica no deck de otimização
+(L9178), o que **não** o torna duas fontes: é o mesmo slide reaproveitado. Ver
+`descartes-flows.md`, seção 7.

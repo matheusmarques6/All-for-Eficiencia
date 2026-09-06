@@ -5,8 +5,18 @@ assunto: desconto-e-posicionamento
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L4372-4392, L6261, L6364-6365, L6414 (transcrição); L4191-4197, L5313-5321 (slide)"
+conflitos: [doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+O princípio é atribuível, mas por caminho indireto: a fala longa que explica o
+mecanismo (L4372-4392) vem do vídeo aberto com "Hello, hello" em L4204 — a
+assinatura do narrador que noutra aula se refere a Max em terceira pessoa
+(L5753). **Quem sustenta isso na voz do Max é o walkthrough da Gymshark** (L6261),
+onde ele fala em primeira pessoa e assina "my agency" (L6350). Somado ao slide
+(L5313-5321), o princípio se mantém. Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

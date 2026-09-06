@@ -35,12 +35,12 @@ flow. A ausência é informação, não erro de extração.
 | Flow | Gatilho | Nº de emails | Delay do 1º | Delays seguintes | Filtros | Condição de saída |
 |---|---|---|---|---|---|---|
 | **Welcome** | opt-in na lista *(metric nunca nomeada)* | 3 mín. · 4-5 · 6 · até 15 · 3-4 ou 6-8 | imediato (L1420, L3492) | 1-2 dias (L1458, L3494) — contra "every day" (L1468-1472) | `placed order zero times since starting this flow` (L1542) · `bounce less than two times since starting this flow` (L1544) | falhar qualquer filtro (L1546) |
-| **Site abandon** | `Active on Site` (L2345, L3613) | 1-2 (L2364, L3619) | 4h padrão · 1h agressivo (L2369-2373) | | | ver página de produto (L2349-2353) |
-| **Browse abandon** | `Viewed Product` (L2452, L3671) | 4 (L2473, L3678) | 1 hora (L2476) | 1 dia entre os demais (L2477-2478); slide: "over 3-4 days" (L3678) | | |
+| **Site abandon** | `Active on Site` (L2345, L3613) | 1-2 (L2363-2365, L3619) | 4h padrão · 1h agressivo (L2369-2371) | | | ver página de produto (L2347-2355) |
+| **Browse abandon** | `Viewed Product` (L2452, L3671) | 4 (L2472, L3678) | 1 hora (L2476) | 1 dia entre os demais (L2476-2478); slide: "over 3-4 days" (L3678) | | |
 | **Cart abandon** | `Added to Cart` (L2669, L3784) | 4 (L3798-3881) | | | | |
-| **Checkout abandon** | `Started Checkout` (L3790) / "checkout started" (L2672) | 4 (L3798-3881) | | | | |
+| **Checkout abandon** | `Started Checkout` (L3790) / "checkout started" (L2671) | 4 (L3798-3881) | | | | |
 | **Post-purchase** | `Placed Order` — Shopify (L3032, L3920) | 2 base, "add more" (L3156, L3969) | imediato (L3064) | "a couple days" (L3066) | | |
-| **Replenishment** | `placed order` (L3252) — só na fala | 2 (L3256, L4003) | 21 dias (L3252); janela citada 30-60 / 21-60 (L3234-3236) | 7 dias (L3258-3260, L4003); depois "set whatever time delay you want" (L3289) | | não ter recomprado — implícito (L4003), nunca especificado |
+| **Replenishment** | `placed order` (L3251) — só na fala | 2 (L3255, L4003) | 21 dias (L3251); janela citada 30-60 / 21-60 (L3233-3235) | 7 dias (L3257-3259, L4003); depois "set whatever time delay you want" (L3289) | | não ter recomprado — implícito (L4003), nunca especificado |
 | **Winback** | **segmento**, não metric (L3314, L4053) | 3 (L3334, L4063-4065) | Day 0 (L3326, L4063) | Day 7 e Day 10 (L4065) — só no slide | | |
 | **Sunset** | | | | | | |
 

@@ -34,7 +34,7 @@ tests that our team runs consistently that we always run with our new accounts"
 | Teste | O que compara | Alavanca declarada | Caso real citado |
 |---|---|---|---|
 | Flow time delays | 30 min vs 4 horas até o 1º email de abandono (L8952-8954) | "This is the biggest lever I'd say" (L9178) | site abandon: 4h vence, "10 to 15% higher placed order rate" e "about a thousand dollars in extra revenue"; click rate marginalmente melhor nos 30 min (L8958-8962) |
-| Campaign send time | mesmo email em horários diferentes (L8828-8830) | "highest leverage test" é o primeiro da lista da aula (L8826-8828) | 11am vs 1:45pm: "about five X, the amount of placed orders and three X, the number of recipients" (L8848-8852) |
+| Campaign send time | mesmo email em horários diferentes (L8828-8830) | "highest leverage test" é o primeiro da lista da aula (L8826) | 11am vs 1:45pm: "about five X, the amount of placed orders and three X, the number of recipients" (L8848-8852) |
 | Graphic vs text based | layout gráfico vs texto puro (L8866-8870) | "can really vary across accounts" (L9153) | slide anuncia "Example of Text Based sale email winner" (L9157) — sem número, imagem ausente |
 | Categorias vs produtos | vitrine por categoria vs produto individual (L8890-8892) | "gets you a lot of very interesting data", reaproveitável em paid ads e site (L8908-8912) | categorias vencem: revenue "10 to 15 times higher", "about six times the amount of recipients also buying" (L8914-8916) |
 | SLs e PTs | 5 variáveis: desconto, emojis, "…", time delays, ALL CAPS (L9170-9174) | alto por email, mas "hard to take the learnings and apply to future emails" (L9167) | nenhum nesta faixa; teto de abertura "five, 10%" (L8936) |
@@ -47,7 +47,7 @@ telas lidas em voz alta estão ausentes do corpus.
 # A ordem que ele declara
 
 1. Ter o básico de pé antes de testar ([[quando-vale-testar]]; L8786-8790, L9122).
-2. Começar pelo teste de maior alavanca (L8826-8828, L9140-9141).
+2. Começar pelo teste de maior alavanca (L8826, L9140-9141).
 3. Julgar por placed order rate e receita, não por abertura (L8926-8934, L8942-8944).
 4. Repetir até o resultado se repetir (L8820, L8854, L9139).
 
@@ -58,7 +58,7 @@ telas lidas em voz alta estão ausentes do corpus.
 `otimizacao-horarios-a-testar` · `otimizacao-lista-redundante` ·
 `otimizacao-grafico-numero-de-variantes` · `otimizacao-metricas-do-print` ·
 `otimizacao-sl-julgar-por-abertura-ou-receita` · `otimizacao-teto-de-abertura` ·
-`otimizacao-from-name-testar-ou-prescrever`
+`otimizacao-from-name-testar-ou-prescrever` · `otimizacao-deck-duplicado`
 
 Todos detalhados em [[_conflitos]]; números em [[_numeros]].
 

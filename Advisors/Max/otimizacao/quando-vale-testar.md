@@ -66,7 +66,7 @@ test are going to be different based off your brand, based off the list, based
 off the type of audience or customer that you're speaking to" (L8820-8824) — por
 isso esta pasta guarda casos, não benchmarks. **A escolha do teste é por
 alavanca**: "It is hard to choose, but you're going to want to start with the
-highest leverage test" (L8826-8828; slide L9140-9141), e o topo declarado é
+highest leverage test" (L8826; slide L9140-9141), e o topo declarado é
 [[flow-time-delays]] — "This is the biggest lever I'd say" (L9178).
 
 # Onde o corpus discorda

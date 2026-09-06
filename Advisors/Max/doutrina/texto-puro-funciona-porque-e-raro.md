@@ -5,8 +5,22 @@ assunto: texto-puro-como-diferencial
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L2256-2274, L4326-4352, L5227-5232 (transcrição); L5300-5307 (slide)"
+conflitos: [doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+O núcleo do princípio está na voz do Max: a masterclass de texto puro
+(L5178-5235) é vídeo dele no YouTube, e é ali que sai "part of why textbased
+emails work so well is because they're rare" (L5230). O uso em flow de abandono
+(L2256-2274) também é dele — módulo de flows, aberto com "Alrighty" (L1316).
+
+A fala de L4326-4352, que dá a inversão gráfico/texto, vem do vídeo aberto com
+"Hello, hello" em L4204 — assinatura do outro narrador. Como o slide (L5300-5307)
+diz a mesma coisa, o princípio se sustenta; a formulação exata "Then the graphic
+becomes a differentiator" (L4352) é do material, não citável como fala dele. Ver
+`doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

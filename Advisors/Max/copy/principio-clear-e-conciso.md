@@ -39,8 +39,9 @@ O único limite numérico de comprimento de email em todo o módulo:
 
 É unidade de rolagem, não de palavras — logo depende do dispositivo, e o
 corpus não especifica qual. Dado o resto do módulo ("optimized for mobile
-inboxes", L6631; "Designed for mobile-first consumption", L6649), a leitura
-razoável é scroll de celular, mas isso **não está escrito**.
+inboxes", L5631 / L6742; "Designed for mobile-first consumption",
+L5649 / L6758), a leitura razoável é scroll de celular, mas isso **não está
+escrito**.
 
 Justificativa: "We only have a few seconds of our customer's attention so we
 have to make good use of it" (L6612).

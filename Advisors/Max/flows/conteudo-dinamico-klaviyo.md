@@ -17,8 +17,8 @@ As três fórmulas de bloco dinâmico do Klaviyo que o corpus entrega: uma para
 
 Regra de layout que vale para as três: o bloco dinâmico vai o mais alto possível
 no email. "For abandonments, we really want to make sure that we have the
-dynamic content above the fold" (L2513-2516) — e o motivo é ver o produto na
-cara ao abrir (L2516-2521).
+dynamic content above the fold" (L2512-2514) — e o motivo é ver o produto na
+cara ao abrir (L2516-2520).
 
 > **Nota de transcrição.** No arquivo bruto os underscores aparecem escapados
 > por markdown (`line\_items`, `currency\_format`, `missing\_product\_image`).
@@ -110,24 +110,24 @@ URL de retomada do checkout (`event.extra.checkout_url`).
 
 Ele não garante que funcione. Duas vezes manda validar contra o template nativo:
 "go into Klaviyo and just look up when you're creating flows (…) click their
-template and then go and check if it works for you" (L2595-2599) e "test their
-dynamic content that they give inside the template" (L2962-2970). E manda usar o
+template and then go and check if it works for you" (L2594-2596) e "test their
+dynamic content that they give inside the template" (L2961-2969). E manda usar o
 preview: "if you click preview and test right here, once you have it in here,
 you're actually going to see what it looks like for your customers" (L2981).
 
 Sobre por que a fórmula do checkout é mais pesada, a explicação é histórica, não
 técnica: "for [abandoned] checkout, it's going to be a little bit different for
 whatever reason. We just have it a little bit different. This is what we've
-always done" (L2987-2992).
+always done" (L2987-2991).
 
 # Onde o corpus discorda
 
 O tipo de bloco do browse: a fala hesita — "so you create a split, it's
-step-by-step right here, create a table block in Klaviyo" (L2599-2601) — e o
+step-by-step right here, create a table block in Klaviyo" (L2598-2600) — e o
 slide diz `Table` (L3767). Vale o slide.
 
 Capitalização das variáveis: a fala diz `event.name` e `event.url`
-(L2609-2611); o slide diz `{{ event.Name }}` e `{{ event.URL }}` (L3772,
+(L2608-2610); o slide diz `{{ event.Name }}` e `{{ event.URL }}` (L3772,
 L3775). Vale o slide — é artefato.
 
 # O que o corpus não diz

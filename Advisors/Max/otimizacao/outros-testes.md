@@ -5,7 +5,7 @@ assunto: catalogo-de-testes-restantes
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8972-9094 (transcrição), L9182-9209 (slide)"
-conflitos: [otimizacao-lista-redundante, otimizacao-grafico-numero-de-variantes, otimizacao-from-name-testar-ou-prescrever]
+conflitos: [otimizacao-lista-redundante, otimizacao-grafico-numero-de-variantes, otimizacao-from-name-testar-ou-prescrever, otimizacao-deck-duplicado]
 status: rascunho
 ---
 
@@ -40,10 +40,10 @@ itens (contagem dos bullets; o corpus não numera).
 want to hide them or not. Um, uh, showing the prices, sorry, not the products"
 (L8974-8976). Mede-se CTR e conversão (L8978-8980).
 
-**Branded plain text** é a terceira via, e só a fala diz o que é (L8984-8990):
+**Branded plain text** é a terceira via, e só a fala diz o que é:
 "it's still a Klaviyo template where it's not just a straight text base, but you
 also include like the brand name up there, maybe the footers, but it's still
-text-based as well. Put together using the Klaviyo blocks." Ver
+text-based as well. Put together using the Klaviyo blocks." (L8984-8988) Ver
 [[grafico-vs-texto]].
 
 **Mystery discount** vem do pop-up: "This is something we tried on the pop-ups a
@@ -54,11 +54,14 @@ section, bridge section, then product section"; as variantes são tirar o bridge
 ("just a hero section going straight to the products") ou ficar só com o hero,
 sem produtos. O só-hero tem uso declarado — "really good for, for last chance
 reminders on a sale (…) Hey, this sales ending in 12 hours, get yours"
-(L9016-9020).
+(L9016-9020). O deck de flows dá a este mesmo teste um racional que não existe
+nesta faixa: "especially in flows like abandonments when people have objections.
+Sometimes it makes sense to be quick and get an impulse purchase, other times it
+makes sense to spend time working through objections" (L4149-4151).
 
 **Dia da semana** se resolve por exportação, não por A/B: "you can always export
 all the data from Klaviyo (…) placed order, average placed order and break
-things down by day" (L9032-9038).
+things down by day" (L9034-9036).
 
 **CTA.** O piso é fixo — "you should always have one in the hero" (L9040-9042) —
 e o que se testa é a seção de produto: quatro produtos com um CTA no fim contra
@@ -69,7 +72,7 @@ saves space and makes it a bit more dynamic (…) and interactive as well"
 (L9064-9068). O custo de load time só aparece no slide.
 
 **Personalização** é first name na SL, no preview text ou na primeira linha:
-"Hey, Michael, Hey, Max, Hey, Alex, um, we noticed that you" (L9070-9078).
+"Hey, Michael, Hey, Max, Hey, Alex, um, we noticed that you" (L9072-9074).
 
 **Comprimento**, por analogia com conteúdo (L9086-9092): short form para
 "getting that, that initial dopamine, getting people kind of hooked"; long form

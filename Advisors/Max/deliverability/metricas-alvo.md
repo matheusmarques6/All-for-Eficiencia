@@ -31,9 +31,14 @@ O enunciado que a antecede, também verbatim (L8708-8711):
 > Send to the right people with good content → Receive positive engagement →
 > Increase deliverability
 
-A mesma lista aparece na fala, com a mesma ordem e um erro de ASR ("spam,
-complete rate" por *spam complaint rate*): "all that matters, open rates, click
-rates, bounce rates, spam, complete rate, and then unsubscribe rate" (L8430).
+A mesma lista de cinco aparece na fala, com um erro de ASR ("spam, complete
+rate" por *spam complaint rate*): "all that matters, open rates, click rates,
+bounce rates, spam, complete rate, and then unsubscribe rate" (L8430). **A ordem
+não é a mesma**: as três primeiras coincidem, mas as duas últimas estão
+trocadas — no slide vem `unsubscribe rates, and spam complaint rates` (L8710) e
+na fala vem `spam, complete rate, and then unsubscribe rate` (L8430). Nenhum dos
+dois registros declara que a ordem signifique peso, então a inversão não é
+citável como hierarquia; é só divergência de listagem.
 
 # O que a fala acrescenta
 
@@ -45,7 +50,8 @@ rates, bounce rates, spam, complete rate, and then unsubscribe rate" (L8430).
 
 Esse "above 40% you're probably okay" não existe no slide, que só dá
 "Greater than 50%". E o número de open rate vira outra coisa quando o assunto é
-**alargar a lista** — lá o corpus dá cinco valores diferentes. Ver
+**escolher ou alargar a lista** — lá o corpus dá **dez formulações diferentes**,
+catalogadas em `deliverability-limiar-de-open-rate` ([[_conflitos]]). Ver
 [[so-envie-para-engajados]] e [[warming-do-dominio]].
 
 **Click rate.** A fala dá o número cru, sem "greater than": "Click rates,

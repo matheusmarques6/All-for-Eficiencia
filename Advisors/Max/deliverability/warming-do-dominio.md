@@ -60,7 +60,7 @@ target people", e ficam rodando evergreen.
 whenever, you want to make sure your pop-up form is converting."
 
 E dentro do pop-up, uma regra explícita de onde **não** colocar o código
-(L8548):
+(L8548-8549):
 
 > it's important to not put that discount code or whatever, if there is a code.
 > In the form itself, you want to strategically place that in welcome email 1,
@@ -77,8 +77,8 @@ Depende do dado que existe. "It's not always going to be the same solution or
 the same exact segment" (L8553).
 
 **Com dado de email** — migração de MailChimp ou OmniSend, ou conta antiga com
-deliverability ruim (L8563). "You always want to stick with your email data."
-Os quatro segmentos-semente citados (L8564), verbatim:
+deliverability ruim (L8563). "You always want to stick with your email data"
+(L8563-8564). Os quatro segmentos-semente citados (L8564-8565), verbatim:
 
 > people who have opened three times in the last thirty days, people who have
 > opened five times in the last sixty days, people that have opened an email
@@ -105,11 +105,15 @@ indicator of future behavior is past performance."
 hundred people, two hundred people, three hundred people, somewhere in that
 range."
 
-**Passo de escalonamento** — CONFLITO. A fala diz "you scale up by about fifty
-to, by about fifty percent each send, as long as you're still getting the
-metrics that you want" (L8569). O bullet do deck, lido em voz alta, diz
-"gradually increase from 25 to 50 percent percent based on performance" (L8556
-— o "percent percent" é gagueira de ASR, o número não). Ver
+**Passo de escalonamento** — CONFLITO, e o mais caro de errar aqui depois do
+degrau 1. Em 05:30 ele diz "gradually increase from 25 to 50 percent percent
+based on performance" (L8556 — o "percent percent" é gagueira de ASR, o número
+não). Em 08:08 ele diz "you scale up by about fifty to, by about fifty percent
+each send, as long as you're still getting the metrics that you want"
+(L8569-8570). **Os dois são transcrição** — o deck de warming não foi exportado,
+então não há registro de slide para desempatar, e não se deve tratar L8556 como
+bullet do deck só porque soa como um. Escalar 25% ou 50% por envio muda a
+agressividade da rampa em 2×; dar os dois números. Ver
 `deliverability-passo-de-escalonamento` em [[_conflitos]].
 
 **Cadência de rampa**, verbatim (L8587-8588):
@@ -164,9 +168,9 @@ depois 30 dias; "Same logic from 30 to 60. Are we still hitting the numbers we
 want? Cool. Then we can expand to the 60 day and then maybe after a couple
 weeks, you expand to the 90 day."
 
-O objetivo final da rampa (L8556, L8600): destravar os segmentos base — "so you
-have your 30, 60, 90 day engaged audiences established. Then you have the
-opportunity to get more creative."
+O objetivo final da rampa (L8556-8557, e de novo em L8600): destravar os
+segmentos base — "so you have your 30, 60, 90 day engaged audiences established.
+Then you have the opportunity to get more creative."
 
 **A regra de ouro**, verbatim (L8579-8580):
 
@@ -174,12 +178,15 @@ opportunity to get more creative."
 > know you're good to jump to a wider segment. But anywhere between 40 to 50
 > percent. If it starts dipping below 40, I definitely wouldn't be expanding it.
 
-Nunca alargar abaixo de 40%. Esse é o único ponto em que os cinco valores
-concordam.
+Nunca alargar abaixo de 40%. É o único ponto que nenhuma das formulações
+contradiz.
 
-# CONFLITO: o limiar para alargar tem cinco valores
+# CONFLITO: o limiar para alargar tem seis valores
 
-Nenhum é marcado como superior. Todos, verbatim:
+Seis aqui — o conflito completo, com as dez formulações que o corpus dá para
+"qual lista usar / quando alargar", está em `deliverability-limiar-de-open-rate`
+([[_conflitos]]). Nenhuma é marcada como superior. As seis que tratam
+especificamente de **alargar**, verbatim:
 
 | Valor | Contexto | Linha |
 |---|---|---|
@@ -190,9 +197,11 @@ Nenhum é marcado como superior. Todos, verbatim:
 | "as long as you're hitting those, those 40 to 50% open rates" | cadência de rampa | L8588 |
 | "If you start to get 60%+ opens, widen your list" | **slide** de deliverability | L8728 |
 
-O slide é o mais exigente (60%+) e é o único registro de slide que existe sobre
-o assunto — mas ele está no deck de deliverability, não no de warming, que não
-foi exportado. Ver `deliverability-limiar-de-open-rate` em [[_conflitos]].
+O slide é o mais exigente (60%+), mas não desempata: ele está no deck de
+deliverability — não no de warming, que não foi exportado — e discorda de si
+mesmo, porque duas e três linhas antes já disse "consistent 50% open rates"
+(L8725) e "Whatever list gets you 50-60% opens" (L8727). Ver
+`deliverability-limiar-de-open-rate` em [[_conflitos]].
 
 # Correção de rota
 

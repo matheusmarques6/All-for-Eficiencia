@@ -62,7 +62,7 @@ Todos esses números, com suas variações entre registros, estão em [[_numeros
 
 > **Simple Subject Line Framework**
 >
-> Here's a framework to follow that looks clean, builds intrigue, and will
+> Here’s a framework to follow that looks clean, builds intrigue, and will
 > prime your customer for a purchase.
 >
 > * 2-5 words in Length
@@ -89,8 +89,8 @@ nenhum termina em reticências — terminam em emoji.
 **Comprimento** (`copy-subject-line-comprimento`). O framework pede 2-5
 palavras, mas as SLs que ele escreve ou elogia ao vivo são maiores: no
 walkthrough do Gymshark ele digita "no fuss dumbbell back exercises" mais um
-emoji, em caixa baixa na ASR, e emenda "no gym no problem" terminando em "dot
-dot dot" (L6341); no walkthrough seguinte chama de "pretty cool subject line
+emoji, em caixa baixa na ASR, e emenda "no gym no problem", que ele descreve
+como "end with DOT do dot" (L6341); no walkthrough seguinte chama de "pretty cool subject line
 ideas" a saída do ChatGPT "This bar will ruin all chocolate for you" — oito
 palavras (L6400-6401).
 

@@ -17,7 +17,8 @@ sobre para que serve o par — venda e enquadramento, não abertura — está em
 
 A função declarada do preview text é subordinada: "Preview texts are just
 building off of the SL and creating more curiosity" (L6832). Na fala: "Preview
-texts are just building off the subject line, creating more curiosity" (L6173).
+texts are just building off the subject line, creating more curiosity"
+(L6173-6175).
 E no resumo do módulo: "preview text expands or reinforces the subject line;
 use wisely (not just filler)" (L6090).
 
@@ -28,9 +29,9 @@ existe para ocupar espaço.
 
 > **Simple Preview Text Framework**
 >
-> Don't overthink it.
+> Don’t overthink it.
 > Preview texts are just building off of the SL and creating more curiosity.
-> Here's a framework to follow that feeds off of the SL:
+> Here’s a framework to follow that feeds off of the SL:
 >
 > * One full sentence long
 > * Regular capitalization
@@ -75,7 +76,7 @@ todo email. A fala prescreve o oposto como tática deliberada:
 
 Isso não é exceção pontual — é aplicação do princípio que ele chama de o melhor
 que existe em marketing: "disruptors are the best thing in marketing"
-(L6217-6218). Ver [[doutrina/disruptor-vence-no-inbox]].
+(L6217-6219). Ver [[doutrina/disruptor-vence-no-inbox]].
 
 Como responder: os dois valem, em camadas diferentes. O framework é o default;
 a ausência é uma jogada de disrupção, e ela só funciona **porque** o default é

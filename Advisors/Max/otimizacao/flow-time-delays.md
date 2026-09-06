@@ -5,7 +5,7 @@ assunto: time-delay-de-flow
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8946-8970 (transcrição), L9176-9180 (slide)"
-conflitos: [otimizacao-onde-testar, otimizacao-metricas-do-print]
+conflitos: [otimizacao-onde-testar, otimizacao-metricas-do-print, otimizacao-deck-duplicado]
 status: rascunho
 ---
 

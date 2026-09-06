@@ -15,17 +15,16 @@ status: rascunho
 
 # Leia isto antes de qualquer passo
 
-A seção do curso se chama **"Uploading Designs From Figma To Klaviyo"** (L8009) e
-o passo 4 do slide diz "Upload your sections as images into **Klaviyo**"
-(L8014). **Nenhum passo é demonstrado no Klaviyo.** O vídeo inteiro é feito no
-**Omnisend** (L8044), com link de afiliado e 30% de desconto declarados duas
-vezes (L8044, L8063). O próprio título do vídeo é neutro: "How to Upload Email
-Designs Properly into ANY Email Sending Platform" (L8019). A segunda versão do
-slide, no módulo de deliverability, diz "your email platform" (L8746) — e mesmo
-assim mantém "Klaviyo" no título (L8742).
+A seção se chama **"Uploading Designs From Figma To Klaviyo"** (L8009) e o passo 4
+diz "Upload your sections as images into **Klaviyo**" (L8014). **Nenhum passo é
+demonstrado no Klaviyo.** O vídeo inteiro é feito no **Omnisend** (L8044), com
+link de afiliado e 30% de desconto declarados duas vezes (L8044, L8063). O título
+do vídeo é neutro: "How to Upload Email Designs Properly into ANY Email Sending
+Platform" (L8019). A segunda versão do slide diz "your email platform" (L8746) e
+mesmo assim mantém "Klaviyo" no título (L8742).
 
-Conclusão prática: os passos 1-3 são de Figma e iloveimg e valem sem ressalva. Os
-passos 4-5 descrevem a interface do Omnisend. → `design-klaviyo-vs-omnisend`
+Na prática: passos 1-3 são Figma e iloveimg e valem sem ressalva; passos 4-5
+descrevem a interface do Omnisend. → `design-klaviyo-vs-omnisend`
 
 # Os 5 passos (slide, verbatim)
 
@@ -56,14 +55,13 @@ mesmo ao longo do trecho. → `design-altura-do-slice`
 
 Um slice por área de link distinto:
 
-> when we're doing these image slices, we can't just have an image slice that
-> captures all of this because these have different buttons. So, if we upload
-> this image into our sending platform, we put links on our images... And these
-> have different links. And so, we need to have different slices for different
-> areas of our email that are going to have different links. (L8036-8037)
+> we need to have different slices for different areas of our email that are
+> going to have different links. (L8037, verbatim)
 
-Corolário dele: se o link é o mesmo, dá para esticar o slice (L8036). Se muda,
-corta. Onde não há botão, "Doesn't need to be absolutely perfect" (L8038).
+O motivo é que o link fica na imagem: "we put links on our images. And so, if
+somebody clicks the image, then they're going to be taken to a specific link"
+(L8037). Corolário dele: se o link é o mesmo, dá para esticar o slice (L8036); se
+muda, corta. Onde não há botão, "Doesn't need to be absolutely perfect" (L8038).
 
 # Compressão
 
@@ -71,37 +69,34 @@ O caso concreto do vídeo: o email inteiro saiu de **3.98 megabytes** e ficou em
 **963 kilobytes** — "77% smaller" — com a qualidade avaliada como igual
 (L8042-8043). Ele exportou oito camadas nesse email (L8040).
 
-Motivo, e é o único de peso técnico do módulo: um slice único do email inteiro dá
-"5 10 megabytes"; com arquivo desse tamanho o cliente abre e vê tela em branco
-enquanto carrega, principalmente com Wi-Fi ruim (L8031-8032). Fatiar faz o email
-carregar de cima para baixo, parte por parte.
+Motivo: um slice único do email inteiro dá "5 10 megabytes"; com arquivo desse
+tamanho o cliente abre e vê tela em branco enquanto carrega, principalmente com
+Wi-Fi ruim (L8031-8032). Fatiar faz o email carregar de cima para baixo, parte
+por parte.
 
 # Padding
 
-Remover **todo** o padding, nos dois lugares onde ele aparece:
-
-- na seção/coluna, "just remove all the padding so that the image goes across the
-  whole entire email" (L8049);
-- na imagem, senão sobra faixa branca entre as imagens (L8051).
+Remover **todo** o padding, nos dois lugares onde aparece: na seção/coluna —
+"just remove all the padding so that the image goes across the whole entire
+email" (L8049) — e na imagem, senão sobra faixa branca entre elas (L8051).
 
 # Links e alt text
 
 > Every single image, you need to have a link. Make sure you always have a link
 > for every single image. (L8056, verbatim)
 
-Alt text em todas as imagens. O motivo declarado: aparece se a imagem não
-carregar ou se a pessoa bloqueou imagens — "which not many people do" — e "it
-helps with some deliverability" (L8052-8053). O exemplo dele é curto: "Welcome to
-Calvin Klein. take 10% off with code..." e depois só o destino de cada botão —
-shop best sellers, shop underwear, shop woman, shop men, shop kids
-(L8054-8055). "You really don't need to do much here" (L8054).
+Alt text em todas as imagens. Motivo declarado: aparece se a imagem não carregar
+ou se a pessoa bloqueou imagens — "which not many people do" — e "it helps with
+some deliverability" (L8052-8053). O exemplo dele é curto: "Welcome to Calvin
+Klein. take 10% off with code..." e depois só o destino de cada botão — shop best
+sellers, shop underwear, shop woman, shop men, shop kids (L8054-8055). "You
+really don't need to do much here" (L8054).
 
 # Fecho
 
 Rodapé com preferences/unsubscribe entra por bloco pronto da plataforma, que
 autopopula com os dados da marca (L8059-8060). Antes de enviar: preview em
-celular e tablet, teste de todos os links, e opcionalmente um test email
-(L8061-8062).
+celular e tablet e teste de todos os links (L8061-8062).
 
 Ver [[emails-baseados-em-imagem]] para a posição doutrinária por trás disso, e
 [[figma-para-email]] para o slice tool.

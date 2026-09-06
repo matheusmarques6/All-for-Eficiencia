@@ -5,9 +5,18 @@ assunto: basico-antes-de-otimizar
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8778-8790, L9098-9102 (transcrição); L8764-8767, L9118-9123 (slide)"
-conflitos: [doutrina-proporcao-basico-avancado]
+conflitos: [doutrina-proporcao-basico-avancado, doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+A transcrição deste módulo (L8774-9108) abre com "Yo, yo, what is going on?"
+(L8774) — a assinatura do narrador que, na aula de IA, se refere a Max em
+terceira pessoa (L5753). As duas versões que vêm **do slide** (L8764, L9120-9123)
+não têm esse problema. Ao citar as frases faladas — "you're not going to CRO your
+way to 10x" (L8778), a lista de básicos de L8786-8790 — não escrever "o Max diz".
+Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

@@ -40,11 +40,11 @@ the emails that we send them based on their answers" (L1012). Ver
 > want to do is you need to make sure that the wording that you put for the
 > profile property is the same for all of them." (L1064)
 
-A propriedade **não existe** no Klaviyo antes do primeiro submit. Consequência
-prática: você está digitando o nome dela à mão em cada botão, sem autocomplete e
-sem validação. Um `gender interest` num botão e `Gender Interest` em outro
-produzem duas propriedades diferentes, e a segmentação quebra em silêncio. "But
-it's going to populate okay once people are submitting this" (L1065).
+A propriedade **não existe** no Klaviyo antes do primeiro submit. A regra que ele
+tira disso é uma só, e é a que está na linha: o texto do nome da propriedade tem
+que ser idêntico em todos os botões. Ele não descreve o que acontece se não for,
+nem por que a tela não protege contra isso — o corpus só dá a regra e a garantia
+de que "it's going to populate okay once people are submitting this" (L1065).
 
 # Quando não é você quem faz isso
 

@@ -57,9 +57,9 @@ Copy demais é um custo de lista, não só de campanha.
 ## ❌ Too Many Points
 
 "The customer is easy to get overwhelmed" (L6545). A aritmética que ele usa:
-"If you try to tell your customer 5 different takeaways, **they won't remember
+"If you try to tell your customer 5 different takeaways, **they won’t remember
 any of them** - each takeaway gets 20% of their attention" (L6546). O inverso:
-"if you just try to prove ONE thing and get ONE takeaway, it's much more likely
+"if you just try to prove ONE thing and get ONE takeaway, it’s much more likely
 for the customer to remember it" (L6547).
 
 # O racional dele — e por que ele avisa que soa errado

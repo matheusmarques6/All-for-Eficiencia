@@ -5,7 +5,7 @@ assunto: winback-flow
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L3305-3396 (transcrição), L4040-4114 (slide); definição do segmento em L5057 e L5589"
-conflitos: [winback-cadencia]
+conflitos: [winback-cadencia, winback-definicao-do-segmento]
 status: rascunho
 ---
 
@@ -61,7 +61,7 @@ they've placed an order zero times in the last 90 days" (L3318) — sem o teto d
 150 dias.
 
 **Janela de lapso**: "90, 120, 180 days are the most common ones that I do"
-(L3323), repetido no slide como "(90, 120, 180 days)" (L4053). O critério de
+(L3322), repetido no slide como "(90, 120, 180 days)" (L4053). O critério de
 escolha é o ciclo de recompra da marca (L3324).
 
 # A sequência
@@ -79,12 +79,12 @@ add-ons (receitas, social proof, engajamento de comunidade), CTA convidativo
 a pessoa não tenha voltado porque não sabe o que fazer com o produto — daí as
 receitas de coquetel (L3348-3352). E a regra de hero: "I always like to have the
 hero section address that it's been a while, so it's not just like a regular
-campaign" (L3340-3343).
+campaign" (L3340-3342).
 
 **Email 2 — o desconto.** Templates (L4094-4097): headline clara de desconto
 ("Take 10% Off Your Next Order"), body com o código, vitrine de reposição, CTA
 de urgência. O enquadramento é de apreço, não de venda: "make the message about
-appreciation" (L4089), "take 10% off just because we miss you" (L3360-3361). O
+appreciation" (L4089), "take 10% off just because we miss you" (L3360). O
 tipo de incentivo fica em aberto: "X percent off or dollar off or gifting,
 whatever it is. This is also really good to test" (L3330).
 
@@ -103,7 +103,7 @@ lapsed customer back before they churn completely" (L4066).
 E ele coloca o flow em segundo plano deliberadamente: "keep in mind, again,
 people are receiving campaigns and **most of your retention and repeat purchases
 are going to come from those campaigns**, since people are receiving them three
-times per week" (L3384-3387). A defesa que sobra é de contingência: "just in
+times per week" (L3384-3386). A defesa que sobra é de contingência: "just in
 case you forget to send campaigns for like two weeks" (L3392).
 
 # Onde o corpus discorda
@@ -117,7 +117,7 @@ case you forget to send campaigns for like two weeks" (L3392).
   150 dias e a exigência de consentimento. O slide de flows promete a definição
   (L4057) e não entrega.
 - **Frequência de campanha citada**: "three times per week" aqui (L3386) contra
-  "three to four campaigns per week" em site abandon (L2366-2368).
+  "three to four campaigns per week" em site abandon (L2367).
 
 # O que o corpus não diz
 
@@ -125,6 +125,6 @@ case you forget to send campaigns for like two weeks" (L3392).
 - O que acontece com quem sai do segmento no meio do flow.
 - O que é o "longer term winback" que ele menciona duas vezes (L3334, L3336) —
   nomeia e não especifica.
-- Qual desconto usar. 10% aparece três vezes como exemplo (L3361, L4094, L4110)
+- Qual desconto usar. 10% aparece três vezes como exemplo (L3360, L4094, L4110)
   e nunca como regra.
 - O slide não tem slots "**Email Example:**" neste flow.

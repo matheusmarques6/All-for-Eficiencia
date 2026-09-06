@@ -24,9 +24,9 @@ Demonstração com a Nike: navegar o site não entra; clicar no produto dispara
 | Campo | Valor |
 |---|---|
 | Gatilho | `Viewed Product` (L2452, L3671) |
-| Nº de emails | 4 (L2473, L3678) |
+| Nº de emails | 4 (L2472, L3678) |
 | Delay do 1º | 1 hora (L2476) |
-| Delays seguintes | 1 dia entre os demais (L2477-2478) |
+| Delays seguintes | 1 dia entre os demais (L2476-2478) |
 | Filtros | *(o corpus não informa)* |
 | Saída | *(o corpus não informa)* |
 
@@ -82,8 +82,8 @@ or a week, then they have lost interest" (L2478-2482).
 
 Este email é opcional na fala: "we're going to enter a discount at the end of
 this flow, which you can make this optional if you want (…) you could send this
-to just people who haven't bought from you before" (L2488-2492), via split no
-Klaviyo (L2548-2551).
+to just people who haven't bought from you before" (L2488-2490), via split no
+Klaviyo (L2550).
 
 **Email 4 — text-based last chance.** Slide, L3748-3761:
 
@@ -98,7 +98,7 @@ Klaviyo (L2548-2551).
 > * Bold your main points, especially the discount
 > * Make it seem personal, like the founder reaching out
 
-Exemplo lido em voz alta (ASR, L2573-2580): "hey there, it's Ashley, the rebel
+Exemplo lido em voz alta (ASR, L2572-2580): "hey there, it's Ashley, the rebel
 mastermind behind Rebel Bro. We started this brand with one goal in mind: to
 create cool clothes for boys with exceptional quality made to last. (…) That's
 why we saved your discount for you. This is your last chance."
@@ -110,23 +110,23 @@ than site abandon, so we want to be a bit more persuasive. Highlight benefits,
 provide social proof, and answer questions they might have" (L3676).
 
 E a regra de layout que ele generaliza para todos os abandonos: o bloco dinâmico
-vai o mais alto possível. O motivo (L2516-2521): "if somebody opens an email and
+vai o mais alto possível. O motivo (L2516-2520): "if somebody opens an email and
 we show them right in their face the product that they were just looking at like
 20 minutes ago or an hour ago, that's going to catch their eye and make them
 keep reading". Em emails comuns basta botão above the fold; em abandono o que
-tem que estar above the fold é o conteúdo dinâmico (L2512-2516).
+tem que estar above the fold é o conteúdo dinâmico (L2512-2514).
 
 Um detalhe de estratégia que só a fala tem: mostrar **outros** produtos, porque
 "the item that they browsed, they didn't add it to cart — it might not be the
-product that they want" (L2470-2473).
+product that they want" (L2470-2472).
 
 # Templates
 
 O bloco dinâmico deste flow está em [[conteudo-dinamico-klaviyo]] (fórmula do
 slide, L3767-3775). Ele avisa que pode não funcionar direto: "sometimes it
 depends on how your store is set up and you might need to hit up Klaviyo
-support" (L2591-2594), e recomenda abrir o template nativo de browse abandon do
-Klaviyo para conferir (L2595-2599).
+support" (L2590-2592), e recomenda abrir o template nativo de browse abandon do
+Klaviyo para conferir (L2594-2596).
 
 # Onde o corpus discorda
 
@@ -138,12 +138,12 @@ Klaviyo para conferir (L2595-2599).
   (L2446); o slide diz "views a product on your site but doesn't add anything to
   their cart" (L3669). São condições diferentes de saída implícita.
 - **Tipo de bloco**: a fala começa dizendo "you create a split" e emenda "create
-  a table block in Klaviyo" (L2599-2601); o slide diz `Table` (L3767).
+  a table block in Klaviyo" (L2598-2600); o slide diz `Table` (L3767).
 
 # O que o corpus não diz
 
 - Nenhum filtro, nenhuma condição de saída configurada.
-- Qual desconto usar no email 3 (o exemplo é 10%, L2554-2562, mas nunca vira
+- Qual desconto usar no email 3 (o exemplo é 10%, L2554, mas nunca vira
   regra).
 - Se o split para excluir compradores anteriores é recomendado ou apenas
   possível.

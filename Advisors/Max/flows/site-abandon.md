@@ -18,20 +18,20 @@ didn't find a product they like and we just need to show them what we have."
 
 Na fala ele demonstra com a Nike: abrir `nike.com` já dispara o
 `active on site`; navegar sem abrir página de produto mantém a pessoa dentro
-deste flow (L2345-2353).
+deste flow (L2343-2355).
 
 # Gatilho, filtros e saída
 
 | Campo | Valor |
 |---|---|
 | Gatilho | `Active on Site` (L2345, L3613) |
-| Nº de emails | 1 a 2 (L2364, L3619) |
-| Delay do 1º | 4 horas padrão; 1 hora se quiser ser agressivo (L2369-2373) — **só na fala** |
+| Nº de emails | 1 a 2 (L2363-2365, L3619) |
+| Delay do 1º | 4 horas padrão; 1 hora se quiser ser agressivo (L2369-2371) — **só na fala** |
 | Delays seguintes | *(o corpus não informa)* |
 | Filtros | *(o corpus não informa)* |
-| Saída | ver página de produto (L2349-2353) |
+| Saída | ver página de produto (L2347-2355) |
 
-Sobre a saída, o que ele diz literalmente (L2349-2353): "what's going to kick me
+Sobre a saída, o que ele diz literalmente (L2347-2355): "what's going to kick me
 out of this flow is if I actually view a product page (…) right when we click
 onto a product page, boom, this is what would trigger a different flow, which is
 the browse abandoned flow". Ele **não** mostra a condição configurada no
@@ -40,7 +40,7 @@ Klaviyo — descreve o comportamento. Fica registrado como ele disse.
 Sobre o delay: "I like to wait four hours. You can test this. You're going to be
 a little bit more aggressive, like a one hour time delay. Typically I find that
 four hours is a pretty good time delay and usually performs the best, but test
-it for your brand" (L2369-2374). O slide não menciona delay nenhum.
+it for your brand" (L2369-2375). O slide não menciona delay nenhum.
 
 # A sequência
 
@@ -64,9 +64,9 @@ Quick Tips, verbatim (L3638-3640):
 > * Include category buttons for customers to shop by category (in the footer is fine)
 
 Na fala ele acrescenta um caso: numa marca com demografia dividida entre homens
-e mulheres, ele colocou um botão para cada no topo (L2392-2396). E o critério de
+e mulheres, ele colocou um botão para cada no topo (L2393-2395). E o critério de
 tom: "we don't want this to seem like another campaign, we wanted to address the
-abandonment" (L2384-2386).
+abandonment" (L2385).
 
 **Email 2 — lembrete pessoal.** Slide, L3648-3661:
 
@@ -85,8 +85,8 @@ abandonment" (L2384-2386).
 > * Update the sender name to the founders name for a more personal feel
 
 Ele registra que este email costuma bater o primeiro: "a lot of times it
-performs better than the first one" (L2408-2410). Exemplo lido em voz alta
-(ASR, L2418-2426):
+performs better than the first one" (L2409). Exemplo lido em voz alta
+(ASR, L2417-2425):
 
 > hey [name], it's Michelle, the founder of Velvet [Cowder Yard]. I noticed you
 > were browsing our site and didn't find a case that you liked. We have over 200
@@ -99,16 +99,16 @@ performs better than the first one" (L2408-2410). Exemplo lido em voz alta
 Intenção baixa pede volume baixo. "We really don't need to be doing too much
 here, especially since it's lower intent than like a cart abandoned or browse
 abandoned or checkout abandoned, so just one to two emails to re-engage these
-people is perfect" (L2361-2364).
+people is perfect" (L2361-2365).
 
 E o argumento de fundo — que ele repete em quase todo flow — é que o flow não
 carrega sozinho: "on top of this, this person will be receiving three to four
 campaigns per week from you, so we don't need to go too too crazy"
-(L2366-2369).
+(L2367).
 
 # Onde o corpus discorda
 
-- **Delay**: 4h padrão / 1h agressivo existe só na fala (L2369-2373). O slide
+- **Delay**: 4h padrão / 1h agressivo existe só na fala (L2369-2371). O slide
   (L3607-3664) não dá delay algum.
 - **Escopo da comparação de intenção**: a fala diz que é menos intenso que cart,
   browse *e* checkout abandon (L2363); o slide diz só "lower intent than a cart

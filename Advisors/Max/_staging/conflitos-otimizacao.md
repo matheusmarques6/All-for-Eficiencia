@@ -163,3 +163,29 @@ tratar como resumo mal feito, não como posição dele.
 de teste, e sim como prescrição (nome humano, de preferência o do fundador). O
 item existe só no deck de otimização e não tem fala — se citado, marcar que é
 registro exclusivo de slide, sem julgamento dele por trás.
+
+## otimizacao-deck-duplicado
+
+Quatro dos cinco testes de topo do deck de otimização já existiam, palavra por
+palavra, no deck de flows, sob o título "Flow Specific A/B Tests" (L4139).
+
+| Bloco | No deck de flows | No deck de otimização |
+|---|---|---|
+| Flow Time Delays | L4141-4145 | L9176-9180 |
+| Long Form vs Short Form | L4147-4151 | L9192-9193 e L9208-9209 |
+| SLs and PTs (as 5 variáveis) | L4153-4162 | L9165-9174 |
+| Graphic vs Text Based | L4164-4170 | L9151-9157 |
+| Promoting Categories vs Products | L4172-4176 | L9159-9163 |
+| Campaign Send Time | *(não existe lá)* | L9143-9149 |
+
+**Como responder:** não é contradição de conteúdo, é de proveniência — e importa
+por dois motivos. Primeiro, "Long Form vs Short Form" carrega no deck de flows um
+racional que sumiu no de otimização: "Especially for flows, we want to test
+longer form content vs shorter form (…) especially in flows like abandonments
+when people have objections. Sometimes it makes sense to be quick and get an
+impulse purchase, other times it makes sense to spend time working through
+objections" (L4149-4151). Segundo, o único teste exclusivo do módulo de
+otimização é o de send time — os outros quatro já eram doutrina de flow. Ao
+responder "o que ele manda testar", vale citar a origem, porque o deck de flows
+contém também a ressalva de que o campo de teste preferido são as campanhas
+(ver `otimizacao-onde-testar`).

@@ -26,7 +26,7 @@ operacionais.
 
 Não é "facilite a leitura". É inversão de alvo: o objeto de otimização é a
 passada de olho, não a leitura. O texto corrido passa a ser o caso de exceção,
-não o padrão. O motivo dado: "Time is money! The customer isn't sitting down
+não o padrão. O motivo dado: "Time is money! The customer isn’t sitting down
 every morning and reading their emails in-depth like they would read the
 morning newspaper" (L6580-6581).
 
@@ -34,9 +34,9 @@ morning newspaper" (L6580-6581).
 
 ## ✅ Avoid Blocks of Text
 
-"Blocks of text scare people off. It's the modern customer's kryptonite"
+"Blocks of text scare people off. It’s the modern customer's kryptonite"
 (L6586). O argumento tem duas partes — uma emocional (assusta) e uma mecânica:
-"It's also difficult for the eyes to make out and process. This will result in
+"It’s also difficult for the eyes to make out and process. This will result in
 people just skipping past your section" (L6587).
 
 Duas saídas declaradas, nesta ordem: "**shorten your copy or split up your text
@@ -48,7 +48,7 @@ A terceira saída não está nesta lista, está no módulo vizinho: infográfico
 
 ## ✅ Bold Main Points
 
-A premissa é dura: "Most of your audience won't read any of your copy. But they
+A premissa é dura: "Most of your audience won’t read any of your copy. But they
 will read your bolded main points as they are skimming your email" (L6592).
 
 A hierarquia declarada tem duas camadas com funções distintas: "Main points as

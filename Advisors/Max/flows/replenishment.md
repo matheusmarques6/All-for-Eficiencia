@@ -18,7 +18,7 @@ likely running low on."
 É o único flow do corpus com recorte de categoria: "this can be exclusive for
 CPG brands, but if you don't have a CPG brand you're welcome to include this"
 (L3987). Na fala: "typically CPG brands, it's going to work the best"
-(L3242-3244).
+(L3243).
 
 Por que importa, verbatim (L3990-3992):
 
@@ -30,17 +30,17 @@ Por que importa, verbatim (L3990-3992):
 
 | Campo | Valor |
 |---|---|
-| Gatilho | `placed order` (L3252) — **só na fala**; o slide não nomeia trigger |
-| Nº de emails | 2 (L3256, L4003) |
-| Delay do 1º | 21 dias (L3252), ou "whenever somebody needs to replenish typically" (L3252-3254) |
-| Delay do 2º | 7 dias depois do primeiro (L3258-3260, L4003) |
+| Gatilho | `placed order` (L3251) — **só na fala**; o slide não nomeia trigger |
+| Nº de emails | 2 (L3255, L4003) |
+| Delay do 1º | 21 dias (L3251), ou "whenever somebody needs to replenish typically" (L3251-3253) |
+| Delay do 2º | 7 dias depois do primeiro (L3257-3259, L4003) |
 | Filtros | *(o corpus não informa)* |
 | Saída | não ter recomprado — implícita em "the second goes out seven days later **if they haven't reordered**" (L4003); nunca especificada como condição do Klaviyo |
 
 **A janela oscila no ar.** Ele se autocorrige na frase: "I kind of view it as
-days 30 through 60-ish, 21 through 60-ish" (L3234-3236). Depois fixa 21 dias
-(L3252). E no segundo email abandona o número: "set whatever time delay you
-want" (L3289-3290).
+days 30 through 60-ish, 21 through 60-ish" (L3233-3235). Depois fixa 21 dias
+(L3251). E no segundo email abandona o número: "set whatever time delay you
+want" (L3289).
 
 Os casos de uso que ele dá são o critério real, não o número (L3249-3251,
 L3996-3998): protein powder acabando depois de 30 doses, café durando ~2
@@ -78,10 +78,10 @@ semanas, skincare durando 60 dias.
 > * **CTA**: Urgent button ("Refill Now") paired with a reminder that the deal won't last
 
 Ele marca o email 2 como opcional: "replenish reminder, the second email is
-optional if you want to do a discount" (L3269-3270). O slide não marca — trata
+optional if you want to do a discount" (L3269). O slide não marca — trata
 os dois como a estratégia (L4003).
 
-O exemplo dele é text-based e trabalha a dor de ficar sem (ASR, L3294-3300):
+O exemplo dele é text-based e trabalha a dor de ficar sem (ASR, L3295-3299):
 "hey, it's time to restock your product. You don't want that sinking feeling
 when you go for a spritz of freshness only to realize you're out. Been there. So
 (…) to make your refill easier, we're also giving you 15% off."
@@ -97,18 +97,18 @@ trabalho: "no need to get out of line here, as these users will still be
 receiving campaign emails and will rebuy from those" (L4005).
 
 Alternativa ao desconto que ele menciona de passagem: "you can use like low on
-stock or something like that if you want to" (L3262-3263).
+stock or something like that if you want to" (L3263).
 
 # Onde o corpus discorda
 
 - **Janela**: "30 through 60-ish" e "21 through 60-ish" na mesma frase
-  (L3234-3236); depois 21 dias fixo (L3252); depois "set whatever time delay you
-  want" (L3289-3290).
+  (L3233-3235); depois 21 dias fixo (L3251); depois "set whatever time delay you
+  want" (L3289).
 - **Desconto**: o slide vende o flow como "drives repeat purchases **without
-  heavy discounts**" (L3992, e a fala repete em L3248) — e o email 2 do mesmo
+  heavy discounts**" (L3992, e a fala repete em L3247) — e o email 2 do mesmo
   slide é um headline de 15% off com código COOL15 (L4035-4037), que a fala
-  também dá (L3300). A contradição está dentro do mesmo registro, nos dois.
-- **Trigger**: nomeado só na fala (`placed order`, L3252). O slide inteiro
+  também dá (L3299). A contradição está dentro do mesmo registro, nos dois.
+- **Trigger**: nomeado só na fala (`placed order`, L3251). O slide inteiro
   (L3982-4039) não nomeia trigger nenhum — é o único flow do slide sem isso.
 
 # O que o corpus não diz

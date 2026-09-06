@@ -5,7 +5,7 @@ assunto: categorias-vs-produtos
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L8890-8918 (transcrição), L9159-9163 (slide)"
-conflitos: [otimizacao-metricas-do-print]
+conflitos: [otimizacao-metricas-do-print, otimizacao-deck-duplicado]
 status: rascunho
 ---
 
@@ -15,7 +15,8 @@ Vitrine por categoria contra vitrine por produto individual, dentro do email.
 "we've noticed on some accounts that some customers prefer to shop by category
 opposed to individual products" (L8890-8892); slide: "We've noticed that some
 brand customers prefer to shop in their emails by category and some by
-individual products" (L9161).
+individual products" (L9161) — bloco que aparece duas vezes no corpus, idêntico,
+aqui e no deck de flows (L4172-4176).
 
 O exemplo é a marca de suplemento de treino (L8896-8906): testar as categorias —
 "you have creatine, you have whey protein, you have pre-workout and you have,
@@ -43,6 +44,8 @@ Categorias venceram. A leitura, com a hesitação preservada (L8914-8916):
 
 > the placed order, the revenue is, I don't know what that is, 15, 10 to 15
 > times higher
+
+E a segunda métrica (L8916-8918):
 
 > about six times the amount of recipients also buying based off the category
 

@@ -32,7 +32,7 @@ cross-sells and up-sells" (L3040-3046).
 
 **Split por número de compras.** É a única ramificação declarada: "we like to
 split based on if they've purchased once, twice, three times, or four times.
-Four times or more" (L3076-3079). O motivo é autenticidade, não segmentação de
+Four times or more" (L3076-3078). O motivo é autenticidade, não segmentação de
 oferta: "we just want to make sure that it's not the same thing every time"
 (L3082). O slide reduz a pro tip: "Split by # of products purchased → adjust
 message for authenticity" (L3939).
@@ -56,7 +56,7 @@ message for authenticity" (L3939).
 É text-based, do founder (L3080-3081). O PS de upsell é o único número de
 performance que ele dá no flow inteiro: "just a subtle, that right there, helps
 get like 2% to 3% placed order rates. It's honestly crazy how many people buy
-from this" (L3115-3118). O PS, verbatim do exemplo (ASR, L3110-3113): "P.S. If
+from this" (L3116-3118). O PS, verbatim do exemplo (ASR, L3110-3113): "P.S. If
 you want to add more to your order, you can do so here."
 
 Ele abre a porta para versões agressivas — free shipping na segunda compra, ou
@@ -88,7 +88,7 @@ O slide lista quatro extensões sem template (L3974-3980): **Order On The Way**,
 
 Só o primeiro ganha especificação, e ela vale registrar porque muda o flow:
 "you'd also have this trigger in a separate flow, with the trigger of product
-shipped or product fulfilled" (L3170-3172). Ou seja, o "order on the way" **não
+shipped or product fulfilled" (L3170). Ou seja, o "order on the way" **não
 é um email deste flow** — é outro flow.
 
 O Founder Check-In é o único com exemplo (ASR, L3196-3209): "hope you're doing
@@ -113,11 +113,11 @@ add more emails. This really is just a starting point. You know your brand"
 | Escopo | Verbatim | Registro | Linha |
 |---|---|---|---|
 | 7 dias | "those next seven days is like the warmest this person ever is" | transcrição | L3040 |
-| 14 dias | "post-purchase flow as within 14 days" | transcrição | L3163 |
+| 14 dias | "post-purchase flow as within 14 days" | transcrição | L3162 |
 | 14 dias | "relevant in the first 14 days after a customer purchase" | slide | L3971 |
-| ~3 semanas | "a couple of weeks after somebody bought (…) it's been nearly three weeks" | transcrição | L3195-3199 |
+| ~3 semanas | "a couple of weeks after somebody bought (…) it's been nearly three weeks" | transcrição | L3194-3198 |
 
-A linha L3163 vem logo depois de "you know your brand" (L3160) e é uma frase
+A linha L3162 vem logo depois de "you know your brand" (L3160) e é uma frase
 truncada na transcrição — mas o slide confirma o número 14 (L3971). O exemplo de
 ~3 semanas está dentro da própria lista de emails opcionais que o slide diz
 serem para os primeiros 14 dias.

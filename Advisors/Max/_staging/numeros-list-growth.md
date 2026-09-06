@@ -55,7 +55,7 @@ um vídeo público do YouTube (L986-1083), não a aula do curso.
 | Subscribers (segundo case) | "105,000 new email subscribers" | t-yt | L994 | — |
 | Receita (segundo case) | "$924,000 in revenue" | t-yt | L994 | — |
 | Submission rate (segundo case) | "28%" | t-yt | L994 | — |
-| Clientes da agência | "over 279 figure e-commerce brands" (ASR truncado — provavelmente "over 27 9-figure") | t-yt | L1029 | — |
+| Clientes da agência | "over 279 figure e-commerce brands" — **corrompido, sem leitura autorizada pelo corpus** (ver "Números garbled") | t-yt | L1029 | — |
 | Micro-commit vence o classic | "75% of the AB tests that I do" | t-yt | L1007 | — |
 | " " (revisão na mesma frase) | "even a little bit more towards like 80 to 85%" | t-yt | L1007 | — |
 
@@ -75,7 +75,7 @@ um vídeo público do YouTube (L986-1083), não a aula do curso.
 | Inputs por passo | "one input per step" | t, s | L653, L1250 | — |
 | Dimensão mobile | "750X500" | t | L710 | — |
 | Dimensão desktop | "1000 x 600" | t | L840 | — |
-| Larguras testadas (desktop) | "800", "600" | t | L836-838 | — |
+| Valores testados antes do 1000x600 (desktop) | "800", "600" | t | L836-838 | — |
 | Reexibição após fechar | "5 days" | t | L822 | — |
 | Trigger padrão no Alia | "after 5 seconds" | t | L982 | list-growth-time-delay |
 | Fonte do aviso legal de SMS | "size eight" | t | L790 | — |
@@ -148,7 +148,7 @@ um vídeo público do YouTube (L986-1083), não a aula do curso.
 
 | O que aparece | linha | Diagnóstico |
 |---|---|---|
-| "147,000 to 25,000" | L595 | ASR de "$7,000 to $25,000"; a tabela do slide (L1181) confirma $7.000 → $25.000 |
-| "8.57 8.75%" | L595 | ele se corrige na mesma frase; o valor é 8,75% |
-| "over 279 figure e-commerce brands" | L1029 | falta o hífen: "over 27 9-figure"; não afirmar nenhum dos dois |
-| "I believe this was 750" | L710 | ele hesita antes de dizer 750x500 |
+| "147,000 to 25,000" | L595 | Token corrompido. **Não é reconstrução dizer qual é o número certo — ele está limpo em outro lugar:** a mesma medida aparece verbatim como "$7,000 a month... to $25,000 a month" na própria fala (L587) e como `$7,000` → `$25,000` na tabela do slide (L1181); e a própria L595, duas orações adiante, diz "roughly an average of 7,000". Citar L587/L1181, nunca L595. |
+| "8.57 8.75%" | L595 | Duplicação na linha. O corpus **não diz** se é autocorreção falada ou artefato de ASR — não afirmar nenhuma das duas. O valor 8,75% não vem daqui: está limpo em L585, L587 e na tabela do slide (L1179). |
+| "over 279 figure e-commerce brands" | L1029 | **Corrompido e sem correção possível dentro do corpus.** Nenhuma outra linha do arquivo declara a contagem de clientes da agência, então não há registro limpo para citar. Registrar a string como está e dizer que está corrompida. **Não propor leitura** — "279 figure" não é expressão válida, mas o corpus não autoriza escolher entre "279", "27 9-figure" ou qualquer outra segmentação. Linha é CTA comercial (ver `descartes-list-growth.md`). |
+| "I believe this was 750" | L710 | Não é garbled: é hesitação. Ele confirma "750X500" na mesma linha. |

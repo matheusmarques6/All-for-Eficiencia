@@ -5,9 +5,20 @@ assunto: skim-vs-read
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L4703-4707, L7157-7169 (transcrição); L5500-5501, L6516-6598, L8183-8195 (slide)"
-conflitos: [doutrina-segundos-de-atencao]
+conflitos: [doutrina-segundos-de-atencao, doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+O princípio é seguro: aparece em dois decks (L6582, L8186) e na fala do módulo de
+design (L7163), que é narrada pelo Max — abre "Alrighty, now let's go over the
+actual principles of good email design" (L7007), a assinatura dele.
+
+**A exceção é a fala do módulo de campanhas** (L4703-4707), que vem do vídeo
+aberto com "Hello, hello" em L4687 — assinatura do narrador que se refere a Max
+em terceira pessoa noutra aula (L5753). É de lá que sai a versão "2-3 segundos".
+Ver `doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

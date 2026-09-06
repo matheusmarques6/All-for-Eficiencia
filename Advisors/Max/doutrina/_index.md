@@ -15,6 +15,26 @@ curso. Quando a pergunta é "por que ele defende isso", a resposta começa aqui.
 Todas as notas são `tipo: principio`, logo podem ser parafraseadas. Número dentro
 delas, não: número sai de [[_numeros]].
 
+# Antes de citar qualquer coisa daqui: quem está falando
+
+**Há pelo menos dois narradores no material, e nem tudo nesta pasta é fala do
+Max.** A prova está em L5753, onde o narrador da aula de IA se refere a Max em
+terceira pessoa: "something that **Max had put together himself**".
+
+Assinaturas de abertura, que separam os dois:
+
+| Assinatura | Quem | Onde aparece |
+|---|---|---|
+| "Alrighty" / "Okay" / "in this video I'm going to" / "my agency" | **Max** | L9, L21, L1316, L2440, L3229, L3312, L6259, L6359, L7007, L7228, L8022 |
+| "Hello, hello" / "Yo, yo" + "our copywriters", "our team" | **outro narrador** | L4204, L4687, L5669, L5889, L6103, L7603, L8382, L8531, L8774 |
+
+Só o bloco L5667-5865 tem prova textual. O resto é inferência por assinatura — mas
+é auditável, e por isso vale. Sete das treze notas carregam um bloco
+`# Aviso de autoria` no topo dizendo exatamente o que é dele e o que é do
+material. Slides são registro neutro e não têm esse problema.
+
+Detalhamento em `doutrina-narrador-da-aula-de-ia`.
+
 # Economia do canal — por que email
 
 | Nota | O que ela sustenta |
@@ -39,7 +59,7 @@ delas, não: número sai de [[_numeros]].
 |---|---|
 | [[o-processo-de-criacao]] | a ordem real: ideação, layout, referência, copy, design, slice, upload |
 | [[roubar-e-o-metodo]] | referência não é inspiração, é baixar e recriar; fontes e marcas |
-| [[a-ia-e-um-copywriter-junior]] | framework builder, não first draft machine — e onde ele fura |
+| [[a-ia-e-um-copywriter-junior]] | a regra não é fala do Max, se contradiz sozinha, e a prática dele diverge |
 
 # Disciplina de decisão — quando confiar em quê
 
@@ -50,15 +70,18 @@ delas, não: número sai de [[_numeros]].
 
 # Onde esta pasta se contradiz
 
-Cinco conflitos abertos, todos registrados em [[_conflitos]]:
+Sete conflitos abertos, todos registrados em [[_conflitos]]:
 
 | Slug | Em uma linha |
 |---|---|
+| `doutrina-narrador-da-aula-de-ia` | quem narra o quê; L5753 fala de Max em terceira pessoa |
 | `doutrina-sce-numeracao-dos-principios` | o deck de copy numera dois princípios como "#2"; não existe "#3" |
 | `doutrina-segundos-de-atencao` | 3s, 2-4s e 2-3s para a mesma janela de atenção |
 | `doutrina-proporcao-basico-avancado` | 90/10, "80, 90%" e 80% para a mesma proporção |
 | `doutrina-ia-primeiro-rascunho` | a regra proíbe primeiro rascunho por IA; o walkthrough faz isso |
 | `doutrina-formato-do-slice` | JPEG, PNG e "tanto faz" para o mesmo passo |
+| `doutrina-receita-da-agencia` | $40 milhões num vídeo, $100 milhões noutro |
+| `doutrina-lista-de-marcas` | grafias divergentes de duas marcas da lista |
 
 # Duas coisas para não fazer com esta pasta
 

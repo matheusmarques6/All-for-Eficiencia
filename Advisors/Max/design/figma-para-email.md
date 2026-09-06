@@ -15,9 +15,9 @@ status: rascunho
 # O que é
 
 O vídeo é declaradamente introdutório e ele mesmo relativiza: "you're just way
-better off just exploring yourself and messing around inside of the platform, but
-I just wanted to give you some of this just to show you around" (L7605-7609).
-O que importa aqui é a hierarquia de arquivo e o slice — o resto é tour.
+better off just exploring yourself and messing around inside of the platform"
+(L7605-7607). O que importa aqui é a hierarquia de arquivo e o slice — o resto é
+tour.
 
 # A hierarquia obrigatória
 
@@ -31,11 +31,10 @@ O que importa aqui é a hierarquia de arquivo e o slice — o resto é tour.
 | Nível | O que é | Linha |
 |---|---|---|
 | Frame | um email inteiro. "kind of frame is like a level up from a group" | L7699-7709 |
-| Group | uma seção dentro do email (ex.: "logo section", "copy section") | L7689-7705, L7733, L7769-7771 |
-| Layer | cada elemento; aparece na coluna da esquerda e é onde se organiza | L7619-7635 |
+| Group | uma seção do email ("logo section", "copy section") | L7689-7705, L7733, L7769 |
+| Layer | cada elemento; aparece na coluna da esquerda | L7619-7635 |
 
-Agrupar: selecionar com shift + clique esquerdo, e escolher group ou frame
-(L7693-7697).
+Agrupar: shift + clique esquerdo, e escolher group ou frame (L7693-7697).
 
 # Dimensões
 
@@ -50,9 +49,8 @@ emails. So you can add a fill to your frame and have this be like the background
 (L7723).
 
 Imagem entra por **file > place image** (L7737-7739); depois é redimensionar
-(com as proporções travadas pelo cadeado, L7645-7651) e arrastar para dentro do
-frame — "if it's ever not in the frame and you want it to be, you can just drag
-it in" (L7749-7751).
+(proporções travadas pelo cadeado, L7645-7651) e arrastar para dentro do frame
+(L7749-7751).
 
 # O slice tool
 
@@ -70,10 +68,9 @@ Os parâmetros de uso (largura 600, altura, export 2x) estão em
 > The main stuff you're going to be using is creating your frames, adding in
 > shapes, adding in a ton of photos and all of that good stuff. (L7825-7827)
 
-E, um pouco antes: "That's really the extent of what you use in Figma. You use
-shapes here and there. You upload a lot of images and you can organize them
-within them" (L7771-7773). Retângulo é a forma padrão: "More often than not, you
-will be using something like a rectangle" (L7625).
+E antes: "That's really the extent of what you use in Figma" (L7771). Retângulo é
+a forma padrão: "More often than not, you will be using something like a
+rectangle" (L7625).
 
 # O que ele diz que quase não usa
 
@@ -103,15 +100,12 @@ passagem e widgets são descartados (L7799-7803). → `design-plugins-do-figma`
 O slide também remete o aprendizado para fora do corpus:
 https://designlab.com/figma-101-course/introduction-to-figma (L8355).
 
-# Recursos de arquivo
-
-Comentário com menção (@nome), resolver comentário pelo check, e share (L7815-7823).
-
 # O que o corpus não diz
 
 Nada sobre biblioteca de componentes, auto layout, estilos de texto, variáveis ou
 templates reutilizáveis. Os valores de tipografia que ele digita — sub-headline
 24 bold, body copy 18 (L7757-7765) — são da demonstração, **não são regra**.
 
-Os arquivos de swipe/template que ele linka no módulo (Pop-Up Swipe File, DWY
-Campaigns, DWY Flows) estão em L7594-7598.
+Recursos de arquivo cobertos de passagem: comentário com menção, resolver
+comentário, share (L7815-7823). Os arquivos de swipe/template que ele linka
+(Pop-Up Swipe File, DWY Campaigns, DWY Flows) estão em L7594-7598.

@@ -5,9 +5,20 @@ assunto: framework-sce
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L4703-4767, L4819-4821 (transcrição campanhas); L5495-5521 (slide campanhas); L6558-6660 (slide copy)"
-conflitos: [doutrina-sce-numeracao-dos-principios]
+conflitos: [doutrina-sce-numeracao-dos-principios, doutrina-narrador-da-aula-de-ia]
 status: rascunho
 ---
+
+# Aviso de autoria
+
+As definições do framework vêm de **slides** (L5504-5512, L6558-6576) — registro
+neutro, sem problema de voz. Mas as duas frases faladas que sustentam o "atravessa
+tudo" (L4709-4711 e L4819-4821) vêm do vídeo aberto com "Hello, hello" em L4687, a
+assinatura do narrador que, noutra aula, chama Max de "Max" em terceira pessoa
+(L5753). O escopo transversal, portanto, está afirmado pelo material — não por
+ele. O que corrobora de dentro da voz do Max é a prática: skimmability é
+princípio numerado no módulo de design, narrado por ele (L7007, L7155-7163). Ver
+`doutrina-narrador-da-aula-de-ia`.
 
 # A observação
 

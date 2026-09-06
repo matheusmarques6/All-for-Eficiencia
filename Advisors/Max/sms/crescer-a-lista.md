@@ -5,7 +5,7 @@ assunto: crescer-a-lista-de-sms
 autor: max-sturtevant
 registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L9237-9242 (transcrição), L9320-9350 (slide)"
-conflitos: [sms-instrucoes-de-optin-sao-de-email, sms-delay-do-popup, sms-benchmark-de-form, sms-exit-intent, sms-vias-de-crescimento, list-growth-checkbox-preselecionado]
+conflitos: [sms-instrucoes-de-optin-sao-de-email, sms-delay-do-popup, sms-benchmark-de-form, sms-exit-intent, sms-vias-de-crescimento, sms-auto-check-e-a-lei, list-growth-checkbox-preselecionado]
 status: rascunho
 ---
 
@@ -91,6 +91,8 @@ all they have to do it enter their email**", depois o número, com algo como
 
 - Como capturar telefone no checkout do Shopify — a instrução prometida não existe.
 - Se auto-marcar o checkbox vale para telefone: ele exige auto-check (L9324) e
-  duas seções depois lembra que a lei americana limita SMS (L9461), sem conciliar.
+  duas seções depois lembra que a lei americana limita SMS (L9461), sem
+  conciliar. Ver `sms-auto-check-e-a-lei`. O corpus não tem nada sobre TCPA nem
+  sobre texto de consentimento.
 - Os prints "**Step 1**" / "**Step 2**" (L9348-9350) e os tutoriais de form
   (L9352-9357) são títulos sem conteúdo.

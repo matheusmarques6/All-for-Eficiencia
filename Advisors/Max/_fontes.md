@@ -10,6 +10,12 @@ status: rascunho
 `CONTEUDO BRUTO/max.md`. Arquivo único, **9.544 linhas, 121.344 palavras,
 689.468 bytes** (medido com `wc`, não estimado).
 
+Ressalva de contagem: `wc -l` conta quebras de linha e o arquivo não termina
+com uma. Existe uma **linha 9.545**, fora do mapa de módulos abaixo — a
+definição de referência `[image1]: <data:image/png;base64,…>`, 14.686
+caracteres, um PNG de 624×169 embutido. É a imagem que `![][image1]` (L3402)
+aponta.
+
 É a transcrição e os decks de um curso de email e SMS marketing para
 e-commerce atribuído a Max Sturtevant, fundador da agência Well Copy. Nove
 módulos: fundamentos, list growth, flows, campanhas, copywriting, design,
@@ -28,7 +34,9 @@ auditável.
 
 Cada módulo aparece duas vezes: primeiro o bloco de transcrição, depois o
 bloco do slide GAMMA. As fronteiras abaixo foram confirmadas uma a uma com
-`grep -n "^# "` e somam exatamente 9.544 linhas.
+`grep -n "^# "`: 18 marcadores, faixas contíguas de L1 a L9544, sem buraco nem
+sobreposição, somando 9.544 linhas. A L9545 (definição base64 acima) não
+pertence a módulo nenhum.
 
 | Módulo | Transcrição | Slide GAMMA | Marcador de abertura |
 |---|---|---|---|
@@ -52,13 +60,19 @@ Dentro de cada módulo o material chega em três registros distintos, e os dois
 últimos se completam e às vezes discordam.
 
 **1. Bullets de resumo.** Ficam no bloco de transcrição, entre o título da
-aula e o marcador `Transcrição do Vídeo :`. São o índice da aula: frases
-curtas, sem racional, frequentemente redundantes com a fala que vem logo
-abaixo. Exemplos verificados: L5604–5611 (princípios de copy), L5619–5623
+aula e o marcador de transcrição. São o índice da aula: frases curtas, sem
+racional, frequentemente redundantes com a fala que vem logo abaixo.
+Exemplos verificados: L5604–5611 (princípios de copy), L5619–5623
 (ChatGPT), L4424–4437 (pilares de conteúdo), L8369–8377 (deliverability),
 L8522–8526 (warming), L8764–8767 (A/B tests). Redundantes na maioria dos
 casos — mas não sempre: L4424–4430 preserva os cinco pilares de conteúdo que
 o loop de ASR destruiu na fala (ver descartes).
+
+Ao buscar o marcador, cuidado: ele tem **oito grafias** no arquivo —
+`Transcrição do Vídeo :` (29×), `Transcrição da Aula :` (5×), e uma ocorrência
+cada de `Transcrição da Aula:`, `Transcrição do Audio :`, `Transcrição do
+Áudio :`, `Transcrição de Audio:`, `Transcrição da Loja :` e `Transcrição dos
+Texto :` — mais `Transcripts:` (6×) nos blocos vindos do YouTube.
 
 **2. Transcrição falada.** Onde estão o julgamento, a exceção, o porquê, os
 exemplos de marca e a voz. É também onde está todo o ruído: hesitação,
@@ -73,8 +87,9 @@ também onde estão quase todos os placeholders mortos, porque o export do GAMMA
 trouxe as legendas das imagens sem as imagens.
 
 Um caso de camada ausente: **"The Principles of Good Copy" (L5602) não tem
-transcrição.** O marcador `Transcrição do Vídeo :` em L5615 está vazio e L5617
-já é a próxima seção. Só existem os bullets L5604–5611. Qualquer nota sobre
+transcrição.** O marcador `Transcrição do Vídeo :` em L5615 está vazio — é o
+único marcador vazio do arquivo inteiro — e L5617 já é a próxima seção. Só
+existem os bullets L5604–5611 e o link gamma (L5613). Qualquer nota sobre
 S.C.E. que precise do racional falado tem de dizer que ele não está no corpus.
 
 # Descartes
@@ -129,11 +144,13 @@ marketing. Total de pangramas no arquivo inteiro: 26.
 é conteúdo íntegro (revolving door de novos subscribers, graphic vs text
 based).
 
-Nove linhas em que o ASR travou repetindo *"If you're going to include those
-testimonials"* — até doze vezes na mesma linha, com truncamento no fim. O
-trecho fica entre L4478 (fim da explicação do pilar de social proof) e L4490
-(retomada já nos percentuais: 20% educational, 20% social proof, 20% product,
-20% community branded, 20% sale). O que se perdeu é a enumeração falada dos
+Cinco linhas de fala — L4480, 4482, 4484, 4486 e 4488, intercaladas por linhas
+vazias — em que o ASR travou repetindo *"If you're going to include those
+testimonials"*: 7, 10, 11, 10 e 12 vezes na mesma linha, com truncamento no
+fim de cada uma. O trecho fica entre L4478 (fim da explicação do pilar de
+social proof) e L4490, onde a fala retoma já nos percentuais ("20%
+educational, 20% social proof, 20% product, 20% community branded, one sale,
+two sale emails, so 20%"). O que se perdeu é a enumeração falada dos
 pilares de conteúdo restantes e o critério de uso de testimonials.
 
 Recuperação parcial: os bullets em **L4424–4430** listam os cinco pilares
@@ -160,7 +177,7 @@ Não entram em nota. São venda, não doutrina.
 | L5473–5478 | bloco "Using AI For Calendar Creation" — pitch do Email Marketing Brain |
 | L5621, L5623 | links do GPT e do Copy Template nos bullets de copy |
 | L6262 | "here's my Instagram you can follow me if you want" |
-| L6772–6777 | bloco "Use My AI To Help Write Copy" — repetição literal do pitch de L5473–5478 |
+| L6772–6777 | bloco "Use My AI To Help Write Copy" — repetição quase literal do pitch de L5473–5478; só mudam o título e o acréscimo de "write copy," em L6775 |
 | L8044, L8063 | link de afiliado Omnisend dentro do walkthrough de upload ("30% off for the first three months") |
 | L8637 | CTA de Instagram e giveaway pertencente à marca do exemplo, não ao curso |
 | L9259 | "book a call with me… free Consulting call" ($50.000/mês) |
@@ -183,12 +200,16 @@ julgamento, descartar o link.
   vazio.
 - **Campos de link GAMMA vazios: L42 (`link do gamma app :`) e L988
   (`Link do gamma :`).** Os únicos dois do arquivo — checado com regex sobre
-  todas as linhas de link. As aulas correspondentes (Klaviyo Walkthrough,
-  YouTube Pop-Ups) não têm deck.
-- **`![][image1]` quebrado: L3402.** É a **única** ocorrência de referência de
-  imagem quebrada no arquivo inteiro. (Correção de mapa: não são dezenas.)
-- **45 rótulos órfãos anunciando imagem que não foi exportada.** São o
-  equivalente funcional das imagens perdidas — legenda sem figura. Distribuição
+  todas as linhas de link. A aula de YouTube Pop-Ups não tem seção nenhuma no
+  deck. Klaviyo Walkthrough tem seção (L364), mas ela é só a frase
+  `Watch the video below for a Klaviyo walkthrough.` (L366).
+- **`![][image1]`: L3402.** É a única referência de imagem do arquivo inteiro
+  (correção de mapa: não são dezenas) e **não está quebrada**: a definição
+  `[image1]: <data:image/png;base64,…>` está na L9545 e carrega um PNG de
+  624×169. Não é legível como texto, mas a imagem existe no arquivo.
+- **77 rótulos órfãos anunciando imagem que não foi exportada.** São o
+  equivalente funcional das imagens perdidas — legenda sem figura, nada abaixo
+  dela até o próximo título. Todos dentro de blocos GAMMA. Distribuição
   verificada:
   - `**Ex. …**` — 9, todas em GAMMA COPY: L6550, 6552, 6554, 6600, 6602, 6621,
     6623, 6648, 6650.
@@ -196,16 +217,40 @@ julgamento, descartar o link.
     6678, 6685, 6687, 6693, 6695, 6701, 6703, 6709, 6711, 6717, 6719, 6725,
     6727, 6794, 6796.
   - `**Step 1/2/3**` — 8: L5480, 5482, 5484 (GAMMA CAMPAIGNS); L6779, 6781,
-    6783 (GAMMA COPY); L9348, 9350 (GAMMA SMS).
-  - Outros: `**Results**` (L5486); "Example Below: Subject line A/B test
-    resulting in 3x more sales." (L6811); `**Mobile:**` / `**Desktop:**`
-    (L9354–9355); as quatro legendas de pop-up em L1292, 1294, 1296, 1298;
-    "Example of Text Based sale email winner:" (L4170, L9157); "Example of
-    categories performing better:" (L4176, L9163).
+    6783 (GAMMA COPY); L9348, 9350 (GAMMA SMS). Fecham a sequência
+    `**Results**` (L5486) e `**Output**` (L6785).
+  - `**Email Example:**` — 12, todas em GAMMA FLOWS: L3642, 3663 (Site
+    Abandon); L3700, 3721, 3742, 3763 (Browse Abandon); L3817, 3838, 3859,
+    3881 (Cart / Checkout Abandon); L3948, 3966 (Post-Purchase). É o exemplo
+    visual de **cada email de cada flow de abandono** que não existe.
+  - Legendas de exemplo em GAMMA DESIGN — 13: `✅ **Button Above The Fold**`,
+    `✅ **Large Centered Button**`, `❌ **Unclear, Small Button**`,
+    `**Uncentered, Small Button**` (L8173, 8175, 8177, 8179);
+    `✅ **Simple \+ Use Of Infographic**`, `✅ **Simple \+ Highlighted Main
+    Points**`, `❌ **Too Complex**` (L8207, 8209, 8211); "Here's an example:"
+    (L8230); `✅ **Optimized Hero Section**` duas vezes (L8253, 8255); "Here
+    are some other simple examples:" (L8272); `**Good Example \#1/\#2**`
+    (L8298, 8300).
+  - Outros: "Example Below: Subject line A/B test resulting in 3x more sales."
+    (L6811); `**Mobile:**` / `**Desktop:**` (L9354–9355); as quatro legendas de
+    pop-up em L1292, 1294, 1296, 1298; "Example of Text Based sale email
+    winner:" (L4170, L9157); "Example of categories performing better:"
+    (L4176, L9163); `**Graphic Based Email**` / `**Text-Based Email**` (L5309,
+    5311); `**1 SMS Long**` / `**3 SMS Long (triple the cost)**` (L9397, 9399);
+    `**Base Strategy:**` (L3509); `**Segment Definition for 90 Day Winback
+    Flow:**` (L4057).
 
-Consequência prática: os oito tipos de infográfico (L6664–6728) têm o nome e
-uma frase de racional cada, e **nenhum exemplo visual**. Perguntas do tipo
-"como é um comparison chart dele" não têm resposta no corpus.
+Dois desses doem mais que os outros. **L4057** anuncia a definição de segmento
+do Winback de 90 dias e não entrega nada — a especificação do segmento não
+existe em lugar nenhum do corpus. E **L8307** ("Here are a few methods to do
+this:") fecha a seção `# **Email Transitions**` (L8302) sem listar método
+nenhum: o deck de design não diz como fazer transição.
+
+Consequência prática: os nove tipos de infográfico (L6664–6727 — Checklists,
+Icon Graphics, Feature Diagrams, Timelines, Numbered Lists, Comparison Chart,
+Tables, Flow Charts, Graphs) têm o nome e uma frase de racional cada, e
+**nenhum exemplo visual**. Perguntas do tipo "como é um comparison chart dele"
+não têm resposta no corpus.
 
 # Armadilhas da fonte
 
@@ -228,38 +273,59 @@ trainings"*) e em **L6774** (*"Lucky for you, I've created the Email Marketing
 Brain"*). O bloco em torno de L5753 não é citável como fala do Max. Marcar
 `registro: outro-narrador`.
 
-**3. Credenciais autorreportadas e divergentes.** Quatro números diferentes
-para a mesma coisa, todos ditos em primeira pessoa:
+**3. Credenciais autorreportadas e divergentes.** Três valores diferentes para
+a mesma coisa — $40M, $100M e $200M — em oito formulações. Sete são em primeira
+pessoa; L3428 fala de si em terceira ("an email marketer who…"):
 
 | Valor | Linha | Formulação verbatim |
 |---|---|---|
+| $40 million | L6260 | "coming from a $40 million email marketer" |
 | $40 million | L6350 | "the exact process that we use at my agency which has generated $40 million for clients in the…" |
 | $100 million | L6359 | "I've made $100 million making emails for e-commerce brands." |
+| $100M | L5351 | "84 high-converting email campaigns handpicked by me a $100M email marketer." |
 | $200 million | L5204 | "hacks that have helped me generate over $200 million for brands" |
 | $200M | L3428 | "coming from an email marketer who has generated $200M for brands in their platform" |
-| $100M | L3419 | "an email marketing agency that has generated over **$100M in email attributed revenue** for clients" |
-| $100M | L9269 | idêntico a L3419, mais "**in the last 12 months**" |
+| $100M | L3419 | "an email marketing agency that has generated over $100M in email attributed revenue for clients" |
+| $100M | L9269 | idêntico a L3419, mais "in the last 12 months" |
 
 Repare que L3419 e L9269 são a mesma frase de bio com um qualificador temporal
 diferente. Nunca resolver por média nem escolher o maior; se a pergunta for de
 credencial, mostrar a divergência.
 
-**4. Sunset Flow não existe.** **L3398–3403**: título `# Sunset Flow`, um link
-gamma (L3400) e um `![][image1]` quebrado (L3402). Nada mais. O Sunset Flow
-também não tem seção no deck — `# GAMMA FLOWS` começa em L3404. Aparece só como
-item de lista em L92. Zero conteúdo. Caso de recusa obrigatória.
+**4. Sunset Flow não tem aula.** **L3398–3403**: título `# Sunset Flow`, um
+link gamma (L3400) e o `![][image1]` (L3402) — que aponta para o PNG embutido
+na L9545, ilegível como texto. Nada mais. O Sunset Flow também não tem seção no
+deck de flows: `# GAMMA FLOWS` começa em L3404.
+
+Mas **não é zero conteúdo**, e a recusa tem de ser calibrada. O corpus diz três
+coisas sobre ele, fora da aula:
+
+| Linha | Registro | O que diz |
+|---|---|---|
+| L92 | transcrição | item de lista dos flows configurados na conta de exemplo ("Browse Abandon, Cart Abandon, Checkout Abandon, Post Purchase, Side Abandon, Sunset, Welcome, Win Back") |
+| L411 | slide (glossário) | definição: "**Sunset Flow** – Triggered when a contact is no longer engaging. Removes or suppresses inactive users." |
+| L5127 | transcrição | promessa não cumprida, dentro da aula de segmentação: "We'll talk about this more in the Sunset Flow, obviously, as well." — o critério de supressão que ele descreve ali (L5129) é o vizinho mais próximo |
+
+Ou seja: existe gatilho e finalidade (L411), não existe sequência, delay,
+número de emails nem copy. A recusa nomeia essa fronteira — não diz que o
+corpus é mudo sobre Sunset Flow.
 
 **5. Grafias corrompidas pelo ASR.** Nomes próprios chegam deformados e a busca
-literal falha. Contagens medidas no arquivo:
+literal falha. Contagens medidas no arquivo, por ocorrência (não por linha),
+busca case-insensitive:
 
-- **Klaviyo** — 135 grafias corretas contra 32 corrompidas: *Clavio* (21),
+- **Klaviyo** — 136 grafias corretas contra 32 corrompidas: *Clavio* (21),
   *Claio* (5), *Clavia* (4), *Klavio* (1, L722), *Clavier* (1, L1027).
-- **Milled** (milled.com, site de swipe file) — correto 10x (o link real está
+- **Milled** (milled.com, site de swipe file) — correto 11x (o link real está
   em L4432); vira *mild* em L6269, *MILD* em L6364 ("looking at MILD, which is
   just a free website, mil.com") e *Mild* em L7875.
-- **Alia** (plataforma de pop-up) — correto 6x; vira *Aulia* (L615), *Oly*
-  (L617), *Olla* (L647, duas vezes), *Allie* (L966, duas vezes), *Olea* (L984,
-  "I love Olea… olealearn.com"). O domínio real é `alialearn.com` (L1246).
+- **Alia** (plataforma de pop-up) — correto 7x: L960, 1013, 1202, 1239, 1242,
+  1243, 1302. **Cuidado:** L1242 traz `Alia` cercado de zero-width spaces e
+  escapa de busca com `\b` — quem contar com `grep -o '\balia\b'` acha 6. Vira
+  *Aulia* (L615), *Oly* (L617), *Olla* (L647, duas vezes), *Allie* (L966, duas
+  vezes), *Olea* (L984, "I love Olea… olealearn.com"). Os domínios são
+  `aliapops.com` (L1053) e `alialearn.com` (L1246). Ainda: "alias" em L2995,
+  L2997 e L3904 é o *row alias* do Klaviyo, não a plataforma — falso positivo.
 - **cart abandon** → *card abandon* em L2363 e L2442.
 - **site abandon** → *side abandon* em L92, L2401 e L2466.
 

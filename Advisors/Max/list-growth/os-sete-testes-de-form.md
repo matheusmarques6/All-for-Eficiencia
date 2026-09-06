@@ -40,9 +40,9 @@ left, it makes people like rethink things"** (L667).
 **4. Time Delay** — "Use different time delays to see what maximizes TOTAL
 submits, not conversion rate. Try 4 second vs 12 second to start then start
 closing the gap" (L1274). A fala confirma a métrica: "do four seconds versus
-twelve seconds and look at the total submits" (L669). O critério de decisão
-importa: **submissões totais, não taxa** — delay longo infla a taxa porque
-reduz o denominador.
+twelve seconds and look at the total submits" (L669). O critério de decisão é
+explícito nos dois registros — **submissões totais, não taxa** —, mas o corpus
+não diz por quê: ele dá a métrica sem dar o racional.
 
 **5. Photo Content** — "Some photos may appeal more than others. You should even
 test the placement of photos either next to the form or as a backdrop to the
