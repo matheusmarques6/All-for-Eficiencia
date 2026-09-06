@@ -239,9 +239,9 @@ O corpus tem pelo menos dois narradores. Absorve `copy-narrador-nao-e-max`.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "something that **Max had put together himself**" — terceira pessoa | transcricao | L5753 |
-| "this is the exact template that **our copywriters** use" | transcricao | L5799-5801 |
-| "the prompt that **we** use internally" | transcricao | L5707 |
+| "something that **Max had put together himself**" — terceira pessoa | **outro-narrador** | L5753 |
+| "this is the exact template that **our copywriters** use" | **outro-narrador** | L5799-5801 |
+| "the prompt that **we** use internally" | **outro-narrador** | L5707 |
 | "Lucky for you, **I've created** the Email Marketing Brain" — primeira pessoa | slide | L6774 |
 
 **A assinatura de abertura caiu como critério.** A tabela que ficava aqui separava
@@ -284,12 +284,13 @@ bloco a bloco está em [[_autoria]]. A regra prática:
 4. Onde o Max corrobora em vídeo próprio, a atribuição volta a ser segura — é o
    caso de desconto (L6261), texto puro (L5230) e skimmability (L7163).
 
-**Ressalva de cobertura deste arquivo:** a aplicação do laudo cobriu as notas das
-cinco pastas afetadas, não este registro entrada por entrada. Restam aqui cerca de
-uma dúzia de trechos que ainda dizem "ele" sobre faixa `outro-provavel` —
-concentrados em `campanhas-*`, `deliverability-warming-*` e `otimizacao-*`. Antes
-de citar qualquer conflito como fala de Max, confira a linha contra a tabela de
-faixas acima.
+**Cobertura deste arquivo — feita.** Uma passagem posterior varreu as notas de controle
+entrada por entrada: toda linha de tabela cuja âncora cai numa das faixas acima passou a
+levar **`outro-narrador`** na coluna Registro, e as atribuições em prosa ("ele diz", "o
+critério dele", "ele mesmo") sobre essas faixas foram reescritas para o material do
+curso. Onde uma entrada compara duas versões e só uma é não-Max, a marca é só naquela
+versão. Ainda assim, **antes de citar qualquer conflito como fala de Max, confira a linha
+contra a tabela de faixas acima** — a marca é auxílio, a tabela é o critério.
 
 Consequência para este registro: onde um lado de um conflito cai num bloco
 `outro-provavel`, a entrada avisa. Isso decide pelo menos um conflito —
@@ -323,8 +324,9 @@ A leitura mais fiel: a regra sobrevive na **iteração e na edição**, não na 
 texto. Nos dois walkthroughs ele nunca publica saída direta — descarta metade
 (L6394), pede variações (L6393, L6405), costura os pedaços à mão (L6397). O que a
 prática contradiz é a proibição do primeiro rascunho, não a exigência de reescrita.
-Diga as duas coisas; não escolha. Ele também data a própria posição: "with where
-we're currently at" (L5683-5685), prevendo que a regra deixa de valer.
+Diga as duas coisas; não escolha. A aula de ChatGPT também data a própria posição: "with
+where we're currently at" (L5683-5685), prevendo que a regra deixa de valer — **mas essa
+datação é do outro narrador** (L5667-5866, `outro-provado`), não de Max.
 
 ## doutrina-formato-do-slice
 
@@ -909,7 +911,7 @@ fala não dá nenhum intervalo além do Day 0, e que o slide encurta o segundo i
 | slot vazio | "**Segment Definition for 90 Day Winback Flow:**" seguido de nada | slide | L4057 |
 | metade recente | "placed an order at least once, but they've placed an order zero times in the last 90 days" | transcricao | L3318 |
 | completa (fora da faixa) | "subscribed **AND** placed order at least once in the past 150 days **AND** placed order zero times in the last 90 days" | slide | L5589 |
-| completa (fora da faixa) | "placed an order in the past 150 days, but they haven't made one in the last 90" | transcricao | L5057 |
+| completa (fora da faixa) | "placed an order in the past 150 days, but they haven't made one in the last 90" | **outro-narrador** | L5057 |
 
 **Como responder:** a definição completa é a de L5589 — tem as três condições e está
 no registro de slide. A versão da aula de flows (L3318) omite o teto de 150 dias, o
@@ -957,13 +959,13 @@ Absorve `flows-frequencia-de-campanha` e o ponteiro `campanhas-cadencia-semanal`
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "two to four campaigns per week is generally going to be the sweet spot" | transcricao | L4220 |
-| "the two to four times per week is really hitting the sweet spot" | transcricao | L4242 |
+| "two to four campaigns per week is generally going to be the sweet spot" | **outro-narrador** | L4220 |
+| "the two to four times per week is really hitting the sweet spot" | **outro-narrador** | L4242 |
 | "Send between 2x - 4x per week" | resumo do módulo | L4192 |
 | "a consistent cadence of 2-4 email campaigns per week" | slide | L5249 |
 | "**3x per week** is typically the sweet spot" | slide | L5255 |
 | "I wouldn't recommend going lower than 2x per week no matter your ecom store size" | slide | L5256 |
-| "three to four campaigns per week, which is more likely than not what we're looking for" | transcricao (prompt de IA) | L4554-4556 |
+| "three to four campaigns per week, which is more likely than not what we're looking for" | **outro-narrador** (prompt de IA) | L4554-4556 |
 | "three to four campaigns per week" | transcricao (flows) | L2367 |
 | "people are receiving them three times per week" | transcricao (flows) | L3386 |
 
@@ -982,7 +984,7 @@ de outro argumento e não acrescentam posição.
 | Valor | Registro | Linha |
 |---|---|---|
 | "4x per week" | slide (tabela) | L5297 |
-| "probably in that three to four emails a week, just depending on what's going on" | transcricao | L4268-4270 |
+| "probably in that three to four emails a week, just depending on what's going on" | **outro-narrador** | L4268-4270 |
 
 **Como responder:** é especificação de tabela, então o slide vence: **4x por
 semana**. Mas registre que a fala abre para 3-4 e condiciona a "what's going on" — é
@@ -993,13 +995,15 @@ o único tier onde os dois registros divergem; os outros três batem.
 | Valor | Registro | Linha |
 |---|---|---|
 | receita **OU** visitantes mensais — só isso | slide | L5290 |
-| receita e tráfego, **mais** tamanho de lista ("if you have a smaller list, 5,000, 10,000, 20,000 people, you're not going to want to send five or six times a week") | transcricao | L4276-4280 |
-| receita e tráfego, **mais** carga de trabalho criativa da equipe | transcricao | L4244 |
+| receita e tráfego, **mais** tamanho de lista ("if you have a smaller list, 5,000, 10,000, 20,000 people, you're not going to want to send five or six times a week") | **outro-narrador** | L4276-4280 |
+| receita e tráfego, **mais** carga de trabalho criativa da equipe | **outro-narrador** | L4244 |
 
-**Como responder:** use a tabela como entrada, mas não pare nela. A fala acrescenta
-dois gates que a tabela não tem, e ambos são de corte, não de elevação: lista pequena
-e equipe pequena puxam para baixo mesmo quando a receita autorizaria subir. O piso de
-2x/semana (L5256) não é negociável em nenhum dos dois registros.
+**Como responder:** use a tabela como entrada, mas não pare nela. A fala — **`outro-narrador`
+nas duas linhas** — acrescenta dois gates que a tabela não tem, e ambos são de corte, não
+de elevação: lista pequena e equipe pequena puxam para baixo mesmo quando a receita
+autorizaria subir. Entregue os dois gates como critério do material do curso, não como
+critério declarado por Max. O piso de 2x/semana (L5256, slide) não é negociável em nenhum
+dos dois registros.
 
 ## campanhas-cadencia-alta-vs-tier-1m
 
@@ -1011,14 +1015,14 @@ faixa prescrita está **dentro** da faixa condenada.
 |---|---|---|
 | "**Sending 5-7x Per Week**" seguido de "Higher unsubscribes / Customers can get annoyed / Dilutes the power of your messaging / Revenue plateaus" | slide | L5264-5269 |
 | tabela: "\| $1M/mo+ \| 250k/mo+ \| **5-6x per week** \|" | slide (tabela) | L5298 |
-| "If you go to five, five to seven times per week, **there are cases where this might fly and we'll get into that in a sec.** But generally what you risk here, you're going to get higher unsubscribes and upset customers" | transcricao | L4240 |
-| "a mil a month plus, you can kind of start getting more creative at the five to six times a week, simply because your list is going to be growing more likely than not. You have a lot of skews and can get a lot more creative with the segmentation. **So even if you're sending five to six times per week, it might not be to the same people every time.**" | transcricao | L4270-4276 |
+| "If you go to five, five to seven times per week, **there are cases where this might fly and we'll get into that in a sec.** But generally what you risk here, you're going to get higher unsubscribes and upset customers" | **outro-narrador** | L4240 |
+| "a mil a month plus, you can kind of start getting more creative at the five to six times a week, simply because your list is going to be growing more likely than not. You have a lot of skews and can get a lot more creative with the segmentation. **So even if you're sending five to six times per week, it might not be to the same people every time.**" | **outro-narrador** | L4270-4276 |
 
 **Como responder:** o slide **não reconcilia** — ele condena 5-7x numa página e
 prescreve 5-6x na tabela três seções adiante, sem uma palavra ligando as duas. Quem
 ler só o deck sai com uma contradição fechada. A reconciliação existe uma única vez
-no corpus inteiro, e é **falada**: em L4240 ele anuncia a exceção ("there are cases
-where this might fly") e em L4270-4276 a entrega — a 5-6x/semana o envio **não vai
+no corpus inteiro, e é **falada por quem não é Max**: em L4240 a aula anuncia a exceção
+("there are cases where this might fly") e em L4270-4276 a entrega — a 5-6x/semana o envio **não vai
 para as mesmas pessoas todas as vezes**, porque a lista é grande o bastante e o
 catálogo variado o bastante para segmentar. Ou seja, o que torna 5-6x seguro não é o
 faturamento, é a segmentação que o faturamento viabiliza.
@@ -1039,7 +1043,7 @@ Ponteiro alternativo: `campanhas-proporcao-grafico-texto`.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "80-20 (…) Favoring graphics, 75-25 maybe, depending on the brand" | transcricao | L4346-4348 |
+| "80-20 (…) Favoring graphics, 75-25 maybe, depending on the brand" | **outro-narrador** | L4346-4348 |
 | "roughly four graphic based emails to one textbased email. Maybe a 5:1" | transcricao (masterclass) | L5232 |
 | "aim for a **4:1 graphic to plain text ratio**" | notas do masterclass (timestamp 13:18) | L5174 |
 
@@ -1050,17 +1054,24 @@ a ressalva "depending on the brand". Nenhum registro tem precedência clara: o
 masterclass é vídeo de YouTube anexado, não o deck; e as notas com timestamp são
 resumo editorial, não fala dele. **Nunca dê um número só.**
 
+**Atribuição, e ela separa as versões:** o 80-20 / 75-25 de L4346-4348 é fala
+**outro-narrador** (L4202-4421); o 4:1 / 5:1 de L5232 está em L5155-5236, **`max-provado`**
+por [[_autoria]] (L5212). Ou seja, das três versões só a do masterclass é citável como
+fala de Max. Isso não fecha o conflito — o corpus continua com três números —, mas muda
+qual delas pode sair na voz dele.
+
 ## campanhas-frequencia-de-texto-puro
 
 | Valor | Registro | Linha |
 |---|---|---|
-| proporção do mix (4:1 / 5:1 / 80-20 / 75-25) | transcricao + notas | L4346-4348, L5232, L5174 |
+| proporção do mix (4:1 / 5:1 / 80-20 / 75-25) | **outro-narrador** (L4346-4348) + transcricao Max (L5232) + notas (L5174) | L4346-4348, L5232, L5174 |
 | "at least send **twoish** textbased emails every single month" | transcricao | L5232 |
 | "Send at least **two plain text emails per month** (one educational, one promotional)" | notas do masterclass | L5175 |
 
 **Como responder:** as duas regras estão na mesma frase (L5232) e não fecham. Um piso
 de 2/mês e um ratio de 4:1 só coincidem por volta de 10 envios no mês — que é
-exatamente o volume do calendário-exemplo dele (L4490, L5345). A 2x por semana o ratio
+exatamente o volume do calendário-exemplo do curso (L4490, fala **outro-narrador**;
+L5345, slide de Max). A 2x por semana o ratio
 pede menos de dois e o piso ganha; a 5-6x por semana o ratio pede cinco ou mais e o
 piso vira irrelevante. Responda dizendo qual regra morde em qual frequência, nunca
 escolhendo uma. Isso é observação de aritmética sobre os números citados, **não
@@ -1072,25 +1083,30 @@ posição dele**: o corpus nunca faz essa conta.
 |---|---|---|
 | "a good cadence is having an **even amount** of emails for these 5 pillars" | slide | L5344 |
 | "if you send 10 emails a month; you could have 2 (…) 2 (…) 2 (…) 2 (…) then 1 sale that takes 2 emails" | slide | L5345 |
-| "Again, there's **no exact formula or method**" | transcricao | L4490 |
-| "you might want to send four or five sale emails throughout the month" (mês da maior promoção do ano) | transcricao | L4490 |
+| "Again, there's **no exact formula or method**" | **outro-narrador** | L4490 |
+| "you might want to send four or five sale emails throughout the month" (mês da maior promoção do ano) | **outro-narrador** | L4490 |
 
 **Como responder:** os números batem — o desacordo é sobre o *status* da regra. O
 slide apresenta divisão par como cadência recomendada; a fala, no mesmo exemplo, nega
 que exista fórmula e abre exceção para mês de promoção grande. Conflito de julgamento,
-então a fala vence: divisão par é ponto de partida, não regra.
+então a fala vence: divisão par é ponto de partida, não regra. **Ressalva de
+atribuição:** a fala que vence aqui (L4490) é **`outro-narrador`**. A regra de
+precedência do [[_INDEX]] continua valendo — é regra sobre registro, não sobre pessoa —,
+mas a relativização **não pode sair como julgamento de Max**: sai como "o material do
+curso nega que exista fórmula".
 
 ## campanhas-limiar-vip
 
 | Valor | Registro | Linha |
 |---|---|---|
 | "Someone has placed order at least **4 times** over all time" | slide (tabela) | L5590 |
-| "if someone's placed **five** orders on the site, give them an additional discount" | transcricao | L5103 |
+| "if someone's placed **five** orders on the site, give them an additional discount" | **outro-narrador** | L5103 |
 
 **Como responder:** especificação de segmento → slide vence: **4 pedidos**. Registre
-que a fala diz 5. E registre o critério que ele mesmo dá acima do número: "use your
-gut on what counts as a VIP" (L5083) e "use your gut on what counts as a VIP customer"
-(L5590), com a preferência declarada por contagem de pedidos em vez de LTV, porque
+que a fala diz 5 (**outro-narrador**). E registre o critério dado acima do número: "use
+your gut on what counts as a VIP" (L5083, fala **outro-narrador**) e "use your gut on
+what counts as a VIP customer" (L5590, **slide de Max** — é esta a versão citável como
+dele), com a preferência declarada por contagem de pedidos em vez de LTV, porque
 contagem é previsível e permite avisar o cliente quantas compras faltam (L5590).
 
 ## campanhas-suppress-list
@@ -1098,7 +1114,7 @@ contagem é previsível e permite avisar o cliente quantas compras faltam (L5590
 | Valor | Registro | Linha |
 |---|---|---|
 | "received email at least 5 times over all time **AND** opened email zero times in the last 365 days **OR** bounced email at least 3 times over all time **OR** marked email as spam at least once over all time" | slide (tabela) | L5592 |
-| "received at least five to ten emails over all time, opened zero times in the last year, bounced email, you know, multiple times, or marked as spam" | transcricao | L5129 |
+| "received at least five to ten emails over all time, opened zero times in the last year, bounced email, you know, multiple times, or marked as spam" | **outro-narrador** | L5129 |
 | "Exclusion segments should include (but not be limited to): Bounced 3+ times" | resumo do módulo | L4839-4840 |
 
 **Como responder:** o slide vence e é o único registro utilizável — a fala é
@@ -1116,8 +1132,8 @@ justamente para impedir essa leitura.
 | Valor | Registro | Linha | Mede o quê |
 |---|---|---|---|
 | "accounting for **80%-90%** of your sales & engagement" | resumo do módulo | L4838 | share de **vendas** |
-| "That's your **80%** list. That's where you're going to get the majority of your sales" | transcricao | L4652-4654 | **rótulo de Pareto** + afirmação qualitativa — não é percentual |
-| "relying on this for **80-90%** of our sends" | transcricao | L5139 | share de **envios** |
+| "That's your **80%** list. That's where you're going to get the majority of your sales" | **outro-narrador** | L4652-4654 | **rótulo de Pareto** + afirmação qualitativa — não é percentual |
+| "relying on this for **80-90%** of our sends" | **outro-narrador** | L5139 | share de **envios** |
 | "just sending to our engaged list for **90%** of sends" | slide | L5597 | share de **envios** |
 
 **Como responder:** são **duas grandezas diferentes**, e nenhum dos dois pares se
@@ -1140,52 +1156,56 @@ quatro linhas sustentam sem exceção: a 90 day engaged list é a base de quase 
 |---|---|---|
 | "90 Day Engaged List (**You can use any time frame, 90 is recommended to start**)" | slide | L5587 |
 | "Just send email campaigns to your **90 Day** Engaged List" | slide | L5596 |
-| "opened or clicked emails in the last **30, 60, 90** days, depending on how wide you want to get" | transcricao | L4949 |
-| "your **30-, 60-, 90-day** engage list, depending on how old the Klaviyo account is" | transcricao | L5151 |
-| "That 80% is going to be that **30, 60, 90-day** engage list" | transcricao | L5017-5019 |
+| "opened or clicked emails in the last **30, 60, 90** days, depending on how wide you want to get" | **outro-narrador** | L4949 |
+| "your **30-, 60-, 90-day** engage list, depending on how old the Klaviyo account is" | **outro-narrador** | L5151 |
+| "That 80% is going to be that **30, 60, 90-day** engage list" | **outro-narrador** | L5017-5019 |
 
 **Como responder:** 90 dias é o padrão e o que se digita — está na tabela e no
-fechamento do slide. A fala não contradiz: ela dá o **critério de variação**, e o
-critério é útil — largura desejada do alcance (L4949) e **idade da conta Klaviyo**
-(L5151), que é o único fator que ele oferece para justificar 30 ou 60 em vez de 90.
-Conta nova, janela mais curta. Responda com 90 e ofereça o critério. Ver
-`deliverability-lista-base-padrao`, onde a fala usa 60 como envio normal.
+fechamento do slide. A fala — **outro-narrador** nas três linhas — não contradiz: ela dá
+o **critério de variação**, e o critério é útil: largura desejada do alcance (L4949) e
+**idade da conta Klaviyo** (L5151), que é o único fator oferecido no corpus para
+justificar 30 ou 60 em vez de 90. Conta nova, janela mais curta. Responda com 90 (slide,
+Max) e ofereça o critério marcando que ele vem do material do curso, não da fala de Max.
+Ver `deliverability-lista-base-padrao`, onde a fala — também **outro-narrador** — usa 60
+como envio normal.
 
 ## campanhas-winback-janela
 
 | Valor | Registro | Linha |
 |---|---|---|
 | "placed order at least once in the past **150 days** AND placed order zero times in the last **90 days**" | slide (tabela) | L5589 |
-| "people who have placed an order in the past **150 days**, but they haven't made one in the last **90**" | transcricao | L5057 |
-| "placed an order zero times in the last **hundred days** (…) but placed an order at least once in the last **180**" | transcricao | L5071 |
+| "people who have placed an order in the past **150 days**, but they haven't made one in the last **90**" | **outro-narrador** | L5057 |
+| "placed an order zero times in the last **hundred days** (…) but placed an order at least once in the last **180**" | **outro-narrador** | L5071 |
 
 **Como responder:** 150/90 é canônico — está nos dois registros. O 100/180 não é
-contradição, é alternativa que ele mesmo oferece e condiciona: "Maybe your brand has a
-longer buying lifecycle and that makes sense" (L5075). O título da linha do slide já
+contradição, é alternativa que a própria aula oferece e condiciona: "Maybe your brand has
+a longer buying lifecycle and that makes sense" (L5075). O título da linha do slide já
 avisa: "Time frames will vary based on your store and how soon people typically come
 back" (L5589). Dê 150/90 como default e 100/180 como o ajuste declarado para ciclo de
-compra longo. A leitura conceitual dele é "right in that three to six month mark"
-(L5059).
+compra longo. A leitura conceitual dada na aula é "right in that three to six month mark"
+(L5059). **Atribuição:** L5057, L5071, L5075 e L5059 estão em L4846-5154,
+`outro-provavel` — só a versão do slide (L5589) é citável como material de Max.
 
 ## campanhas-janela-do-segmento-de-interesse
 
 | Valor | Registro | Linha |
 |---|---|---|
 | "at least once **over all time**" (viewed / added to cart / started checkout / placed order) | slide (tabela) | L5591 |
-| "viewed creatine at least once **over time**, added creatine to cart at least once **over time**" | transcricao | L5119-5121 |
-| "viewed creatine **in the last 30 days**, added creatine to their cart **in the last 30 days**, or proceeded to check out with creatine **in the last 30 days**" | transcricao | L4965 |
+| "viewed creatine at least once **over time**, added creatine to cart at least once **over time**" | **outro-narrador** | L5119-5121 |
+| "viewed creatine **in the last 30 days**, added creatine to their cart **in the last 30 days**, or proceeded to check out with creatine **in the last 30 days**" | **outro-narrador** | L4965 |
 
 **Como responder:** slide vence — **over all time**, e a fala confirma em L5119-5121.
 O "last 30 days" de L4965 aparece antes, num exemplo improvisado durante a explicação
-de casos de uso, não na parte em que ele define o segmento. Trate como versão inicial
-descartada pela definição posterior, mas registre.
+de casos de uso, não na parte em que a aula define o segmento. Trate como versão inicial
+descartada pela definição posterior, mas registre. **As duas linhas faladas (L4965 e
+L5119-5121) são `outro-provavel`** — a definição citável como de Max é a do slide.
 
 ## campanhas-limiar-de-hipersegmentacao
 
 | Valor | Registro | Linha |
 |---|---|---|
 | "Don't be concerned with any other segments until you are doing **$1M/mo** or have very specific use cases" | slide | L5583 |
-| "this changes (…) as you're doing **a million a month, 10 million a month, seven, eight figures**" | transcricao | L5007 |
+| "this changes (…) as you're doing **a million a month, 10 million a month, seven, eight figures**" | **outro-narrador** | L5007 |
 
 **Como responder:** $1M/mês é o corte declarado e é o número a dar. A fala não o
 contradiz — ela descreve uma rampa contínua ("the higher you get, the bigger your list
@@ -1216,6 +1236,13 @@ uma terceira profissão, não funda as duas e não atribua o pai a Max.
 `copy-medir-por-abertura`, `copy-papel-da-ia` e `copy-narrador-nao-e-max`
 resolvem para outros slugs — ver o índice.
 
+**Atenção de atribuição:** das quatro faixas faladas deste módulo, três **não são de
+Max**: L5667-5866 (ChatGPT Copywriting) é **`outro-provado`** — o bloco em que L5753 fala
+de Max em terceira pessoa —, e L5888-6082 (Infographics) e L6101-6248 (Subject Lines &
+Preview Texts) são `outro-provavel`. Os dois teardowns de YouTube (L6253-6352 Gymshark e
+L6353-6500 MrBeast) são **`max-provado`**, e o deck L6501-6858 é artefato escrito dele.
+Ao citar fala deste módulo, confira a linha antes: só L6253-6500 sai na voz dele.
+
 ## copy-subject-line-comprimento
 
 | Valor | Registro | Linha |
@@ -1237,8 +1264,8 @@ prova que ele tolera SL fora da regra; não prova que ele publique uma de 8 pala
 | Valor | Registro | Linha |
 |---|---|---|
 | SL termina em emoji; "…" é regra de preview text | slide | L6820, L6838 |
-| SL "something ending in dot, dot, dot, maybe a question" | transcricao | L6155-6157 |
-| "Starting with the question is great. Ending with dot, dot, dot" | transcricao | L6197 |
+| SL "something ending in dot, dot, dot, maybe a question" | **outro-narrador** | L6155-6157 |
+| "Starting with the question is great. Ending with dot, dot, dot" | **outro-narrador** | L6197 |
 | ao vivo, SL emendada: "end with DOT do dot" (ASR) | transcricao | L6341 |
 | nenhum dos 4 exemplos de SL do slide termina em "…" | slide | L6824-6827 |
 
@@ -1253,8 +1280,8 @@ Absorve `otimizacao-teto-de-abertura`.
 | Valor | Registro | Linha |
 |---|---|---|
 | "at most you can get ~ 10% jump in opens" | slide | L6805 |
-| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | transcricao | L6227-6229 |
-| "our best, our best subject line and preview text, you maybe see a five, 10% bump in open rates" | transcricao (otimização) | L8934-8936 |
+| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | **outro-narrador** | L6227-6229 |
+| "our best, our best subject line and preview text, you maybe see a five, 10% bump in open rates" | **outro-narrador** (otimização) | L8934-8936 |
 
 **Como responder:** o slide fixa **~10%**; a fala do módulo de copy estende para
 cima ("10%, maybe 15") e a fala do módulo de otimização abre para baixo ("five,
@@ -1268,9 +1295,9 @@ sem dizer que existe a versão 5-10% e a versão 10-15%. Ver
 |---|---|---|
 | "generate 3x more than others (same email copy and design)" | slide | L6809 |
 | "Subject line A/B test resulting in 3x more sales" | slide | L6811 |
-| "generate three to five times as many sales in different AB tests" | transcricao | L6121 |
-| teste 1: "3x the placed order rate", "almost 4x the amount of revenue" | transcricao | L6133 |
-| teste 2: "nearly 4x the amount of orders" | transcricao | L6133 |
+| "generate three to five times as many sales in different AB tests" | **outro-narrador** | L6121 |
+| teste 1: "3x the placed order rate", "almost 4x the amount of revenue" | **outro-narrador** | L6133 |
+| teste 2: "nearly 4x the amount of orders" | **outro-narrador** | L6133 |
 
 **Como responder:** o slide fixa 3x; a fala abre 3-5x e descreve dois testes com
 resultados diferentes (3x placed order rate / quase 4x receita; quase 4x pedidos).
@@ -1283,7 +1310,7 @@ são os mesmos testes. **Cite a métrica junto do número, sempre.**
 |---|---|---|
 | framework prescreve preview text para todo email | slide | L6829-6838 |
 | "preview text expands or reinforces the subject line; use wisely (not just filler)" | resumo do módulo | L6090 |
-| "send a subject line and then just no preview text… it actually has worked really well" | transcricao | L6209-6215 |
+| "send a subject line and then just no preview text… it actually has worked really well" | **outro-narrador** | L6209-6215 |
 
 **Como responder:** os dois valem, em camadas. O framework é o default; a ausência é
 jogada de disrupção, e ela só funciona **porque** todo mundo usa preview text ("if you
@@ -1297,7 +1324,7 @@ ausência como regra a mata. O corpus não diz com que frequência usá-la.
 | "Don't overthink it" | resumo do módulo | L6095 |
 | "Don't overthink it." (abrindo o framework de PT) | slide | L6831 |
 | "\# Don't Overthink It" (slide inteiro) | slide | L6847 |
-| "don't have to over complicate it. It's not reinventing the wheel" | transcricao | L6163-6165 |
+| "don't have to over complicate it. It's not reinventing the wheel" | **outro-narrador** | L6163-6165 |
 | dois frameworks prescritivos de 4 regras cada | slide | L6817-6820, L6835-6838 |
 
 **Como responder:** não é contradição real, é hierarquia de esforço. O framework
@@ -1537,21 +1564,23 @@ Quanto se aumenta o volume a cada envio durante o warming.
 
 | Valor | Contexto | Registro | Linha |
 |---|---|---|---|
-| "gradually increase from 25 to 50 percent percent based on performance" (*"percent percent" = gagueira de ASR*) | "the formula", 05:30 | transcricao | L8556 |
-| "you scale up by about fifty to, by about fifty percent each send, as long as you're still getting the metrics that you want" | primeiro envio de 100-300, 08:08 | transcricao | L8569 |
+| "gradually increase from 25 to 50 percent percent based on performance" (*"percent percent" = gagueira de ASR*) | "the formula", 05:30 | **outro-narrador** | L8556 |
+| "you scale up by about fifty to, by about fifty percent each send, as long as you're still getting the metrics that you want" | primeiro envio de 100-300, 08:08 | **outro-narrador** | L8569 |
 
 **Como responder:** dê os dois, sem escolher. **Os dois são transcrição** — o deck de
 warming nunca foi exportado, então nenhum dos dois tem o peso de slide e a regra de
-precedência do protocolo não se aplica. Em L8554 ele diz "the formula, and it's pretty
-self-explanatory", o que *sugere* que L8556 esteja sendo lido de um slide — mas o
-corpus não diz isso e a hipótese não pode virar registro.
+precedência do protocolo não se aplica. Em L8554 o narrador diz "the formula, and it's
+pretty self-explanatory", o que *sugere* que L8556 esteja sendo lido de um slide — mas o
+corpus não diz isso e a hipótese não pode virar registro. **E os dois são
+`outro-narrador`** (L8532-8646): este conflito não tem nenhum lado citável como fala de
+Max, nem slide para arbitrar.
 
 Não diga que "50% é o teto e 25% é o padrão": o corpus não hierarquiza. L8556 dá uma
 faixa condicionada a desempenho ("based on performance"); L8569 dá um passo único
 (~50%) igualmente condicionado ("as long as you're still getting the metrics that you
 want"). A diferença operacional é real e composta: o passo é reaplicado a cada envio,
-então 25% e 50% produzem rampas que divergem a cada degrau. O critério que ele próprio
-oferece não é numérico: "I always err on the side of caution" (L8569) e "it's much
+então 25% e 50% produzem rampas que divergem a cada degrau. O critério que a própria
+aula oferece não é numérico: "I always err on the side of caution" (L8569) e "it's much
 easier to build your sender reputation (…) than it is to fix it when it's already in a
 poor position" (L8555).
 
@@ -1559,9 +1588,9 @@ poor position" (L8555).
 
 | Valor | Contexto | Registro | Linha |
 |---|---|---|---|
-| "on the first end, you're sending to one to 200,000" | cadência de rampa | transcricao | L8587 |
-| "maybe a hundred people, two hundred people, three hundred people, somewhere in that range" | primeiro envio | transcricao | L8569 |
-| degraus seguintes: 300 → 500 → 1.000 → 2.000 → 4.000 → 6.000 → 6.000 | mesma cadência | transcricao | L8588 |
+| "on the first end, you're sending to one to 200,000" | cadência de rampa | **outro-narrador** | L8587 |
+| "maybe a hundred people, two hundred people, three hundred people, somewhere in that range" | primeiro envio | **outro-narrador** | L8569 |
+| degraus seguintes: 300 → 500 → 1.000 → 2.000 → 4.000 → 6.000 → 6.000 | mesma cadência | **outro-narrador** | L8588 |
 
 **Como responder:** o "200,000" de L8587 é **erro de transcrição, não dado**. É
 incoerente com o degrau imediatamente seguinte (300) e com o primeiro envio declarado
@@ -1574,7 +1603,7 @@ reproduza "200.000" como primeiro envio — é o erro que quebra a conta.
 | Valor | Registro | Linha |
 |---|---|---|
 | "90 Day Engaged List (You can use any time frame, 90 is recommended to start)" — "This is your base segment for sending all your email campaigns to" | slide | L8734 |
-| "for a normal send or normal sends, you might only want to send to your 60 day engage list" | transcricao | L8462 |
+| "for a normal send or normal sends, you might only want to send to your 60 day engage list" | **outro-narrador** | L8462 |
 
 **Como responder:** slide vence em especificação — **90 dias para começar** (L8734),
 com a ressalva explícita de que a janela é parametrizável ("You can use any time
@@ -1589,20 +1618,22 @@ de tabela** de L5587, reaproveitada, e não conta como segunda fonte.
 
 | Valor | Contexto | Registro | Linha |
 |---|---|---|---|
-| "a hundred thousand people" | tamanho da lista importada | transcricao | L8611 |
-| "about 120,000 people per cent" (*"per cent" = ruído de ASR; o bruto não traz a palavra corrigida*) | volume ao fim da janela de 60 dias | transcricao | L8611 |
-| "all the way up to about 100,000" | topo da escala final | transcricao | L8619 |
-| "And then we go up to 4,000. 14,000." | degrau após 12.000 | transcricao | L8618 |
-| "this got sent out to 40,000, 14,000 people and 7,000 people opened it" | leitura do Google | transcricao | L8621 |
+| "a hundred thousand people" | tamanho da lista importada | **outro-narrador** | L8611 |
+| "about 120,000 people per cent" (*"per cent" = ruído de ASR; o bruto não traz a palavra corrigida*) | volume ao fim da janela de 60 dias | **outro-narrador** | L8611 |
+| "all the way up to about 100,000" | topo da escala final | **outro-narrador** | L8619 |
+| "And then we go up to 4,000. 14,000." | degrau após 12.000 | **outro-narrador** | L8618 |
+| "this got sent out to 40,000, 14,000 people and 7,000 people opened it" | leitura do Google | **outro-narrador** | L8621 |
 
 **Como responder:** cite os números verbatim e diga que o caso é **narrado de
 memória, com números que não fecham**. 120.000 por envio (L8611) é maior que a lista
 importada de 100.000 (L8611) e que o topo declarado de 100.000 (L8619). O "4,000.
 14,000" de L8618 é regressão impossível (o degrau anterior já era 12.000) — é gagueira
 de ASR corrigindo-se para 14.000. Em L8621 o par "40,000, 14,000" é a mesma gagueira:
-7.000 aberturas sobre 14.000 fecham os 50% que ele está demonstrando. **Use o caso
+7.000 aberturas sobre 14.000 fecham os 50% que a demonstração está fazendo. **Use o caso
 como ilustração de método, nunca como benchmark de volume.** O único número limpo e
-verificável do caso é o open rate do primeiro envio: **46.22%** (L8614).
+verificável do caso é o open rate do primeiro envio: **46.22%** (L8614). **O caso
+inteiro é `outro-narrador`** (L8532-8646): é um caso da agência narrada, não um relato
+de Max, e não pode sair como experiência dele.
 
 ## deliverability-salto-de-45
 
@@ -1632,9 +1663,9 @@ consolidação** — as duas unidades divergiam; ver a seção
 | Valor | Registro | Linha |
 |---|---|---|
 | "90% of results are driven by basics, 10% come from the advanced 'stuff.'" | resumo do módulo | L8764 |
-| "80, 90% of the results are driven by the basics. The 10, 20% come from that advanced stuff." | transcricao (`outro-provavel`) | L8778-8780 |
+| "80, 90% of the results are driven by the basics. The 10, 20% come from that advanced stuff." | **outro-narrador** (`outro-provavel`) | L8778-8780 |
 | "90% of the results are driven by the basics. / 10% come from the advanced stuff." | slide | L9120-9121 |
-| "that 80% of your results are going to come from setting up the basis" | transcricao (`outro-provavel`) | L9098 |
+| "that 80% of your results are going to come from setting up the basis" | **outro-narrador** (`outro-provavel`) | L9098 |
 
 **Como responder:** **90/10** é o número de registro. Três motivos, nesta ordem:
 
@@ -1660,12 +1691,12 @@ todas as versões dos cinco módulos.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "getting three to four campaigns a week up and running" (pré-condição para testar) | transcricao | L8788 |
+| "getting three to four campaigns a week up and running" (pré-condição para testar) | **outro-narrador** | L8788 |
 | "We need a consistent cadence of 2-4 email campaigns per week" | slide (campanhas) | L5249 |
-| "two to four campaigns per week is generally going to be the sweet spot" | transcricao (campanhas) | L4220 |
+| "two to four campaigns per week is generally going to be the sweet spot" | **outro-narrador** (campanhas) | L4220 |
 | "3x per week is typically the sweet spot" | slide (campanhas) | L5255 |
 | tabela por faturamento: 2x / 3x / 4x / 5-6x por semana | slide (campanhas) | L5295-5298 |
-| "ideally 3 to 4 times per week" | transcricao (deliverability) | L8557 |
+| "ideally 3 to 4 times per week" | **outro-narrador** (deliverability) | L8557 |
 
 **Como responder:** a faixa oficial do corpus é **2-4/semana** e pertence ao módulo
 de campanhas (`campanhas-sweet-spot-de-frequencia`). O módulo de otimização usa
@@ -1679,14 +1710,15 @@ informação. Dê as duas com o papel de cada uma. O critério real dele não é
 
 | Valor | Registro | Linha |
 |---|---|---|
-| com "5,000, 10,000, 20,000 people", testar "shouldn't be the primary focus" | transcricao | L8782-8786 |
-| com lista de "5,000 to 10,000", testar "three or four times" para concluir | transcricao | L8810-8812 |
+| com "5,000, 10,000, 20,000 people", testar "shouldn't be the primary focus" | **outro-narrador** | L8782-8786 |
+| com lista de "5,000 to 10,000", testar "three or four times" para concluir | **outro-narrador** | L8810-8812 |
 
 **Como responder:** não é conflito de número, é de prioridade — a mesma faixa de lista
 aparece como "não é onde você deve gastar tempo" e, um minuto depois, com receita de
 repetição. Leitura consistente: com lista pequena o custo de concluir é repetir 3-4
-vezes, e é por isso que ele diz que não deve ser o foco. Registre as duas frases; não
-escolha.
+vezes, e é por isso que a aula diz que não deve ser o foco. Registre as duas frases; não
+escolha. **As duas são `outro-narrador`** (L8773-9109) — nenhuma é citável como fala de
+Max.
 
 ## otimizacao-horarios-a-testar
 
@@ -1694,8 +1726,8 @@ escolha.
 |---|---|---|
 | "Typically, we've found around 11am-12pm to perform the best" | slide | L9148 |
 | "Main times to test would be 9am, 12pm, 2pm, and 4pm" | slide | L9149 |
-| caso real: 1:45pm bate 11am com ~5x placed orders | transcricao | L8848-8852 |
-| público blue collar: "eight or 9 a.m." ou "between four and six" | transcricao | L8844-8846 |
+| caso real: 1:45pm bate 11am com ~5x placed orders | **outro-narrador** | L8848-8852 |
+| público blue collar: "eight or 9 a.m." ou "between four and six" | **outro-narrador** | L8844-8846 |
 | SMS: "midday from 11am-2pm or evening around 5pm"; evitar antes de 10am e depois de 7:30pm | slide (SMS) | L9509-9516 |
 
 **Como responder:** horário é **output de teste, não input** — a própria aula mostra o
@@ -1724,7 +1756,7 @@ sai inflada por isso, e **nenhuma contagem é número do corpus**.
 |---|---|---|
 | duas vias: "Graphic vs Text Based" | slide | L9151-9156 |
 | três vias: "Graphic vs. Plain Text vs. Branded Plain Text" | slide | L9186-9187 |
-| a fala descreve a terceira via (template Klaviyo com nome de marca e footer, montado com blocos) | transcricao | L8982-8990 |
+| a fala descreve a terceira via (template Klaviyo com nome de marca e footer, montado com blocos) | **outro-narrador** | L8982-8990 |
 
 **Como responder:** é o mesmo teste com granularidade diferente. Para "o que testar",
 a resposta completa tem três variantes; o branded plain text só é descrito na fala, e
@@ -1734,8 +1766,8 @@ o slide de topo o ignora.
 
 | Leitura | Registro | Linha |
 |---|---|---|
-| "three X, the number of recipients" (send time) | transcricao | L8850-8852 |
-| "about six times the amount of recipients also buying" (categorias) | transcricao | L8916 |
+| "three X, the number of recipients" (send time) | **outro-narrador** | L8850-8852 |
+| "about six times the amount of recipients also buying" (categorias) | **outro-narrador** | L8916 |
 
 **Como responder:** **lacuna.** Num A/B de split igual o número de destinatários não
 muda; a leitura do caso de categorias ("recipients also buying") indica que a coluna
@@ -1747,7 +1779,7 @@ prints está nele. Cite verbatim e diga que a métrica não é definida.
 | Posição | Registro | Linha |
 |---|---|---|
 | "From Name and Sender Identity" listado como A/B test | slide | L9200-9201 |
-| nenhuma menção na fala do módulo — ele salta de curiosity/clarity para CTA text | transcricao | L9052-9054 |
+| nenhuma menção na fala do módulo — a narração salta de curiosity/clarity para CTA text | **outro-narrador** | L9052-9054 |
 | "update the sender name to be an actual human's name so that it stands out in the inbox" | transcricao | L2413 |
 | "Update the sender name to the founders name for a more personal feel" | slide | L3661 |
 | "people should open your emails based off your sender name, NOT your Subject line" | resumo do módulo (copy) | L6093 |
@@ -2086,9 +2118,11 @@ Registrado para que ninguém abra entrada nova por engano.
 
 - **Prazo da janela de honeymoon.** A fala dá 30 dias (L22), o slide não dá prazo nenhum
   (L319). Omissão, não contradição.
-- **Desconto.** A regra contra desconto vale para campanhas (L4197, L4372-4378); os
-  descontos do welcome flow (L3495-3497) e o email de sale do Calvin Klein (L6364-6365)
-  estão em outro escopo. Ele delimita, não se contradiz.
+- **Desconto.** A regra contra desconto vale para campanhas (L4197, bullets escritos;
+  L4372-4378, fala **outro-narrador**); os descontos do welcome flow (L3495-3497) e o
+  email de sale do Calvin Klein (L6364-6365, `max-provado`) estão em outro escopo. O
+  corpus delimita, não se contradiz — e a versão com lastro de Max é a escrita (L4197)
+  mais o walkthrough do Calvin Klein, não a formulação falada de L4372-4378.
 - **S.C.E. grafado "SDE"** em L4715 — erro de ASR. O slide (L5504) dá a forma correta.
 - **Email share de 40%.** Tabela (L374) e glossário (L388) concordam.
 - **Slide reaproveitado não é segunda fonte.** A linha de tabela do 90 Day Engaged List

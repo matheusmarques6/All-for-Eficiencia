@@ -68,7 +68,7 @@ Nem fala, nem slide, nem exemplo. Recusa inteira.
 
 | Lacuna | Evidência da ausência |
 |---|---|
-| **Delay de cart abandon e de checkout abandon.** | Varredura de `time delay`/`hour`/`minute`/`wait` na fala do módulo (L2618-3020): zero. No deck (L3777-3918): zero. Registrado em [[flows/otimizacao-de-flows]]. **Nunca preencher por analogia com o welcome, que tem.** O vizinho — e é só vizinho — está no módulo de otimização: o teste que ele descreve opõe **30 minutos a 4 horas** em flows de abandono e reporta 4h vencendo "at least on the site abandoned" (L8952-8962). É o valor de um teste em outro flow, não o delay prescrito para estes dois. |
+| **Delay de cart abandon e de checkout abandon.** | Varredura de `time delay`/`hour`/`minute`/`wait` na fala do módulo (L2618-3020): zero. No deck (L3777-3918): zero. Registrado em [[flows/otimizacao-de-flows]]. **Nunca preencher por analogia com o welcome, que tem.** O vizinho — e é só vizinho — está no módulo de otimização: o teste descrito ali opõe **30 minutos a 4 horas** em flows de abandono e reporta 4h vencendo "at least on the site abandoned" (L8952-8962, **`outro-narrador`** — é material do curso, não fala de Max). É o valor de um teste em outro flow, não o delay prescrito para estes dois. |
 | **Critério de escolha dentro de catálogo.** Qual filler do welcome usar; qual dos 9 tipos de infográfico; qual dos 7 tipos de bridge; qual dos 4 métodos de list growth. | Existe catálogo, não existe ordem nem árvore de decisão. Confirmado nas quatro notas: [[flows/welcome-fillers]], [[copy/infograficos]], [[design/secao-bridge]], [[list-growth/os-quatro-metodos]]. |
 | **Preço de qualquer ferramenta.** | `pricing` tem **uma** ocorrência no arquivo inteiro (L6001) e é sobre tiers de produto do cliente, não sobre custo de plataforma. Ver §4. |
 
@@ -142,7 +142,7 @@ nada da execução.
 | Finalidade, verbatim: "**Sunset Flow** – Triggered when a contact is no longer engaging. Removes or suppresses inactive users." | L411, slide (glossário) |
 | Recomendação de uso — está na lista dos oito "recommended flows when just starting out" | L92, L94, transcrição |
 | **Definição do segmento**, lida do PNG embutido na L9545 (referenciado por `![][image1]` na L3402): 180 dias sem abrir · 180 dias sem clicar · ao menos 10 emails recebidos · zero pedidos over all time | L9545, print |
-| O vizinho mais próximo: o critério de suppression list que ele descreve ao prometer o sunset | L5129, transcrição |
+| O vizinho mais próximo: o critério de suppression list descrito na aula de segmentação ao prometer o sunset | L5129, **outro-narrador** |
 
 O que **não** existe: sequência, contagem de emails, delay, subject line,
 template, copy, filtro, condição de saída. Nem aula (L3398-3403 é título + link
@@ -173,11 +173,11 @@ resposta cita a promessa e diz que o objeto não veio.
 | Promessa | Onde é feita | Estado |
 |---|---|---|
 | **Swipe file de 30 SMS** — "in the description in the doc I have a swipe file of 30 SMS messages which I handpicked with the help of attentive" | L9258 (fala) e L9520-9523 (slide: "I went through Attentive's SMS database and picked 30 of my favorite SMS messages") | O deck tem o título `# **30 SMS Campaigns Swipe File**` e duas frases de racional. **As 30 mensagens não estão no corpus.** |
-| **Swipe file de 84 emails** — "84 different emails in here. Very useful. We'll of course attach these" | L4506 (fala) e L5351 (slide: "Use this swipe file of 84 high-converting email campaigns handpicked by me a $100M email marketer") | O slide traz um link de Google Drive. **Os 84 emails são externos ao corpus.** |
-| **Documento externo de A/B tests** — "there's another document we have that outlines some of the higher leverage AB tests with a little bit more info on it as well" | L9094-9096 (fala) | Não está em `CONTEUDO BRUTO/max.md`. É a lacuna declarada pelo próprio autor no módulo mais raso do corpus. |
-| **"We'll talk about this more in the Sunset Flow, obviously, as well."** | L5127 (fala, dentro da aula de segmentação) | Nunca cumprida. Não há aula nem deck de Sunset. É a promessa que fecha o caso-escola acima. |
+| **Swipe file de 84 emails** — "84 different emails in here. Very useful. We'll of course attach these" | L4506 (fala, **outro-narrador**) e L5351 (slide de Max: "Use this swipe file of 84 high-converting email campaigns handpicked by me a $100M email marketer") | O slide traz um link de Google Drive. **Os 84 emails são externos ao corpus.** |
+| **Documento externo de A/B tests** — "there's another document we have that outlines some of the higher leverage AB tests with a little bit more info on it as well" | L9094-9096 (fala, **outro-narrador**) | Não está em `CONTEUDO BRUTO/max.md`. É a lacuna declarada pelo próprio material no módulo mais raso do corpus — a promessa é do narrador da aula de A/B, não de Max. |
+| **"We'll talk about this more in the Sunset Flow, obviously, as well."** | L5127 (fala, dentro da aula de segmentação — **outro-narrador**) | Nunca cumprida. Não há aula nem deck de Sunset. É a promessa que fecha o caso-escola acima, e quem a faz não é Max. |
 | "We'll have examples for you" — sobre como o split por número de compras muda a copy do post-purchase | L3084 (fala) | Não entrega na faixa. Ver [[flows/post-purchase]] |
-| "I'll list the other ones" — os demais flows de alta intenção durante o warming | L8545 (fala) | **Nunca lista.** |
+| "I'll list the other ones" — os demais flows de alta intenção durante o warming | L8545 (fala, **outro-narrador**) | **Nunca lista.** |
 | "maybe I'll attach a resource down below on this one" (bounce rate) · "we can maybe get more into the weeds on that in another video" (hard vs soft bounce) · "maybe we'll have a more in-depth video just talking about the importance there" (alt text / HTML) | L8438 · L8446 · L8504 | Três recursos ausentes, todos em deliverability. |
 | Seções de walkthrough anunciadas e vazias: `# **Design Walkthroughs**` · `# **Copywriting Walkthroughs**` · `# **2 Copywriting ONLY Live Examples**` · `# **Copy + Design Creation Videos**` | L8357 · L6851 · L6853 · L6855, L8359 | Títulos sem uma linha de conteúdo abaixo. |
 | Tutoriais de pop-up do deck: "Klaviyo Pop-Up Form Creation" e "Alia Pop-Up Form Creation" | L1300 e L1302-1304 | O primeiro vazio; o segundo com o marcador de produção `[need]` deixado no export. |
@@ -194,9 +194,10 @@ fala disso", se diz "o registro se perdeu".
 fogem da distribuição — e são o primeiro e o segundo maiores do vídeo inteiro:
 
 - **21:52 → 22:33, L8641 → L8642, ~41 segundos.** Levou **o nome da ferramenta
-  de otimização de HTML** que ele recomenda para quem cai na aba de promoções.
-  Ele descreve a ferramenta, diz que trabalha com marcas conhecidas, e nunca a
-  nomeia. **Irrecuperável — nunca deduzir nem sugerir um nome.** Evidência
+  de otimização de HTML** que a aula recomenda para quem cai na aba de promoções.
+  A narração descreve a ferramenta, diz que trabalha com marcas conhecidas, e nunca a
+  nomeia — e essa narração é **`outro-narrador`** (L8532-8646), não fala de Max.
+  **Irrecuperável — nunca deduzir nem sugerir um nome.** Evidência
   independente do corte dentro da própria linha: L8641 emenda duas frases de
   assuntos diferentes sem pontuação ("questions that I can help If your emails
   are landing in spam").
@@ -456,9 +457,10 @@ apesar de o módulo inteiro de deliverability de email existir.
 
 **~25% da fala do corpus não é do Max.** São **2.228 linhas**, 25.141 palavras,
 distribuídas em cinco faixas ([[_autoria]]). *(Recontado com `wc` faixa a faixa:
-250 + 966 + 382 + 282 + 348 = 2.228. As palavras conferem exatamente; a contagem
-de linhas de [[_autoria]] §6 — 2.462 — está errada e precisa ser corrigida lá.
-25.141 sobre 100.638 palavras de fala = 24,98%.)*
+250 + 966 + 382 + 282 + 348 = 2.228. As palavras conferem exatamente; [[_autoria]] §6
+já traz 2.228 — a correção pedida por uma versão anterior desta linha foi aplicada lá.
+25.141 sobre 100.638 palavras de fala = 24,98%; [[_autoria]] escreve 100.640 no mesmo
+lugar, divergência de duas palavras que nenhum dos dois arquivos resolve.)*
 
 | Faixa | Módulo | Classificação |
 |---|---|---|

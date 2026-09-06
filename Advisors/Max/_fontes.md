@@ -75,7 +75,9 @@ cada de `Transcrição da Aula:`, `Transcrição do Audio :`, `Transcrição do
 Texto :` — mais `Transcripts:` (6×) nos blocos vindos do YouTube.
 
 **2. Transcrição falada.** Onde estão o julgamento, a exceção, o porquê, os
-exemplos de marca e a voz. É também onde está todo o ruído: hesitação,
+exemplos de marca e a voz. **Mas não é sempre a mesma voz:** cerca de 25% da fala do
+arquivo é de um segundo narrador e recebe o registro `outro-narrador` — as cinco faixas
+estão em *Armadilhas da fonte* §2, abaixo. É também onde está todo o ruído: hesitação,
 correção no meio da frase, grafia corrompida de nome próprio, e os blocos de
 contaminação listados abaixo. Vem em dois formatos — texto corrido quebrado em
 linhas curtas (aulas próprias) e linhas com timestamp `(00:00)` ou `00:00`
@@ -280,6 +282,36 @@ trainings"*) e em **L6774** (*"Lucky for you, I've created the Email Marketing
 Brain"*). O bloco em torno de L5753 não é citável como fala do Max. Marcar
 `registro: outro-narrador`.
 
+**As cinco faixas não atribuíveis a Max**, do laudo [[_autoria]] §6 — este é o
+recorte que falta no mapa de módulos acima, porque ele corta **dentro** do bloco
+de transcrição de cada módulo:
+
+| Faixa | Módulo | Classificação |
+|---|---|---|
+| L5617–5866 | Copywriting (ChatGPT) | **`outro-provado`** — prova nominal em L5753 |
+| L4189–5154 | Campaigns (fala inteira) | `outro-provavel` |
+| L5867–6248 | Copywriting (infográficos, subject lines) | `outro-provavel` |
+| L8365–8646 | Deliverability (fala inteira) | `outro-provavel` |
+| L8762–9109 | Optimization (fala inteira) | `outro-provavel` |
+
+Duas ressalvas que decidem casos concretos:
+
+- **Os slides correspondentes não estão em causa** (L5237–5599, L6501–6858,
+  L8647–8759, L9110–9212): são artefato escrito de Max.
+- **Dentro de cada faixa, o cabeçalho de bullets vem antes da fala** e também é
+  artefato escrito. As dez fronteiras: L4189-4200 · L4422-4440 · L4676-4683 ·
+  L4829-4843 · L5617-5664 · L5867-5885 · L6083-6098 · L8365-8378 · L8518-8529 ·
+  L8762-8770. Só o que vem **depois** do marcador `Transcrição do Vídeo :` é fala
+  não-Max.
+
+Consequência para o método de verificação do fim desta nota: ao abrir a linha
+citada no `fonte:`, conferir também **contra esta tabela**. Linha dentro de faixa
+não-Max sustenta a afirmação, mas não a atribuição.
+
+**A assinatura de abertura não é critério** e nunca foi. L7603 abre com "Hello,
+hello" e é comprovadamente Max — em L7817 ele digita `@max` e diz "tags me"
+([[_autoria]] §5). Nenhuma nota deve classificar autoria por saudação.
+
 **3. Credenciais autorreportadas e divergentes.** Três valores diferentes para
 a mesma coisa — $40M, $100M e $200M — em oito formulações. Sete são em primeira
 pessoa; L3428 fala de si em terceira ("an email marketer who…"):
@@ -311,7 +343,7 @@ coisas sobre ele, fora da aula:
 |---|---|---|
 | L92 | transcrição | item de lista dos flows configurados na conta de exemplo ("Browse Abandon, Cart Abandon, Checkout Abandon, Post Purchase, Side Abandon, Sunset, Welcome, Win Back") |
 | L411 | slide (glossário) | definição: "**Sunset Flow** – Triggered when a contact is no longer engaging. Removes or suppresses inactive users." |
-| L5127 | transcrição | promessa não cumprida, dentro da aula de segmentação: "We'll talk about this more in the Sunset Flow, obviously, as well." — o critério de supressão que ele descreve ali (L5129) é o vizinho mais próximo |
+| L5127 | **outro-narrador** | promessa não cumprida, dentro da aula de segmentação: "We'll talk about this more in the Sunset Flow, obviously, as well." — o critério de supressão descrito ali (L5129) é o vizinho mais próximo. Quem promete não é Max |
 
 Ou seja: existe gatilho e finalidade (L411), não existe sequência, delay,
 número de emails nem copy. A recusa nomeia essa fronteira — não diz que o
@@ -351,9 +383,10 @@ marcas de tempo é 11s e o p90 é 18s. Dois saltos fogem da distribuição, e s�
 o primeiro e o segundo maiores do vídeo inteiro: **21:52 → 22:33 (L8641 →
 L8642, 41s)** e **13:04 → 13:33 (L8593 → L8594, 29s)**.
 
-O corte de 41s levou **o nome da ferramenta de otimização de HTML** que ele
-recomenda para quem cai na aba de promoções — ele descreve a ferramenta, diz
-que trabalha com marcas conhecidas, e nunca a nomeia. Irrecuperável: nunca
+O corte de 41s levou **o nome da ferramenta de otimização de HTML** que a aula
+recomenda para quem cai na aba de promoções — a narração descreve a ferramenta, diz
+que trabalha com marcas conhecidas, e nunca a nomeia. (Essa narração é
+**`outro-narrador`**: L8532-8646, ver [[_autoria]].) Irrecuperável: nunca
 deduzir nem sugerir um nome. Evidência independente do corte: L8641 emenda
 duas frases de assuntos diferentes sem pontuação ("questions that I can help
 If your emails are landing in spam"), o que localiza a perda dentro da linha.

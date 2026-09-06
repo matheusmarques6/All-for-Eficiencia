@@ -170,7 +170,8 @@ Copy e campanhas dizem `3 seconds` (L5605, L6517, L5501); design diz
 `"On average you have 2-4 seconds"` no slide (L8185) e `"you literally have two
 to four seconds"` na fala (L7161) — grafias diferentes, não confundir — e, três
 linhas adiante no mesmo slide, `3 seconds` (L8201); a fala de campanhas diz
-`"the first two to three seconds"` (L4707). O
+`"the first two to three seconds"` (L4707 — `outro-narrador`, não citável como
+fala de Max). O
 valor do "antes" **não** conflita: os três registros dizem `5-10 seconds`. Ver
 `doutrina-segundos-de-atencao` e `design-segundos-de-atencao`.
 
