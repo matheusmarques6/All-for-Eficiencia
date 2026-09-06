@@ -4,7 +4,7 @@ modulo: campanhas
 assunto: ocupar-espaco-mental
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4246-4260 (transcrição), L5278-5284 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4244-4260 (transcrição), L4194 (bullet do módulo), L5278-5284 (slide)"
 conflitos: [campanhas-encanador-ou-eletricista]
 status: rascunho
 ---
@@ -31,9 +31,9 @@ entrada é parte do resultado, não desperdício.
 # O racional dele
 
 **Múltiplos pontos de contato até a compra.** "It varies depending on kind of
-which study you read, but on average, it's right around seven, six to seven
-touch points before someone ends up making a purchase" (L4248). Ele não nomeia
-o estudo.
+which, which study you read, but on average, it's right around seven, six to
+seven touch points before someone ends up making a purchase" (L4248). Ele não
+nomeia o estudo.
 
 **A analogia do prestador batendo à porta.** Atribuída ao pai dele, na fala:
 

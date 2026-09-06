@@ -40,8 +40,8 @@ congruência, não à ausência dela. Não trate como afirmação isolada.
 > * Correct fonts
 > * Congruent styling (L8220-8222, verbatim)
 
-A fala repete os três na mesma ordem e fecha com "Pretty much straightforward. So
-that's pretty much all that we need to do right there" (L7217-7219). É a lista
+A fala repete os três na mesma ordem e fecha com "Pretty straightforward. So that's
+pretty much all that we need to do right there" (L7217-7219). É a lista
 inteira — ele não acrescenta um quarto item em nenhum dos registros.
 
 # O racional dele
@@ -54,9 +54,13 @@ Está no bloco Branding do módulo de importância, não aqui:
 > In fact, it will harm your conversions. (L8122-8124, verbatim)
 
 Na fala ele marca a frequência do erro: "See it way too much. It's not good"
-(L6986-6988). O dano declarado não é neutro — é ativo: a incongruência **prejudica**
-a conversão, não apenas deixa de ajudar (L8124, L6990-6992). Ver
-[[por-que-design-importa]].
+(L6986-6988).
+
+Os dois registros medem o dano com força diferente e vale registrar: o slide diz
+dano **ativo** — "In fact, it will harm your conversions" (L8124); a fala diz só
+**ausência de ganho** — "And then you don't get higher conversions because they
+don't make these associations in their head" (L6992). Não afirme "prejudica" como
+se fosse dos dois. Ver [[por-que-design-importa]].
 
 # O que o corpus não diz
 

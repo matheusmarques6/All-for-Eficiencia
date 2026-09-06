@@ -65,7 +65,7 @@ produto e botão no formato mínimo que ele descreve para um produto só (L7490)
 
 # Onde o corpus discorda: quantos produtos
 
-Três respostas na mesma fala, em oito linhas:
+Cinco respostas na mesma fala, em oito linhas:
 
 | Versão | Verbatim | Linha |
 |---|---|---|

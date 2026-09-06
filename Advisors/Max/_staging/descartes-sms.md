@@ -94,7 +94,7 @@ lado. Lista para quem for auditar uma citação e achar que a nota errou:
 | L9236 | "postcript" | Postscript |
 | L9236 | "crazy new AI like yada y y feature" | yada yada (citado verbatim como está no bruto) |
 | L9243 | "inside Clay on" | inside Klaviyo |
-| L9249 | "a ton of nurtur and educational content" | nurture |
+| L9250 | "a ton of nurtur and educational content" | nurture |
 | L9251 | "I would probably want to send two to three is messages" | two to three SMS messages |
 | L9256 | "11:00 a.m. to 2: p.m." | 2 p.m. (o slide confirma, L9509) |
 | L9257 | "or 400 p.m. works well" | provavelmente 4 p.m. — **não confirmado pelo slide**; ver `sms-horario-do-fim-da-tarde` |

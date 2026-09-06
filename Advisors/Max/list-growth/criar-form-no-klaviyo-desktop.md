@@ -21,8 +21,9 @@ troca targeting para **display on desktop only** (L830-832) e insere uma imagem
 
 # A especificação
 
-**Dimensão: 1000x600.** Ele testa 800 de largura, depois 600 de altura, e fecha
-em "The perfect, 1000 x 600 looks to be a good amount" (L836-840).
+**Dimensão: 1000x600.** Ele passa por 800 e depois 600 antes de fechar em "The
+perfect, 1000 x 600 looks to be a good amount" (L836-840). O corpus não diz qual
+dos dois valores intermediários é largura e qual é altura.
 
 **Tipo: pop-up, não full page.** O trade-off que ele declara: "usually the bigger
 your form is the better converting, but you have to sacrifice some customer
@@ -31,14 +32,17 @@ popup like this, but maybe make it a little bit bigger" (L834). Sobre a terceira
 opção: flyouts "aren't as effective" (L836).
 
 **X transparente também no desktop.** O template traz um X com borda; ele zera a
-cor de fundo — "we like to make our X clear so that people don't know that
-there's an X here and instead they're forced to make a decision. Um, highly
-recommend doing that. It's going to improve conversions" (L840).
+cor de fundo — "we like to make our X clear so that people don't know that they
+can that there's an X here and instead they're forced to make a decision. Um,
+highly recommend doing that. It's going to improve conversions" (L840).
 
-**Imagem à direita.** É a única afirmação do módulo respaldada por teste
-declarado: "We have actually tested this and right image typically works best.
-You could also do left" — ou nenhuma imagem (L852-854). Contrasta com o mobile,
-onde a imagem lateral quebra o layout (L712).
+**Imagem à direita.** Uma das poucas afirmações do módulo em que ele nomeia um
+teste como origem: "We have actually tested this and right image typically works
+best. You could also do left" — ou nenhuma imagem (L852-854). Contrasta com o
+mobile, onde a imagem lateral quebra o layout (L712). As outras afirmações com
+teste declarado são a da oferta ("I've tested this across multiple different
+brands", L615), a do micro-commit contra o classic (L1007) e a da copy
+(L1041) — em nenhuma delas ele dá número de amostra.
 
 **Comprimir a imagem.** "you want to use a site like iloveimg.com... Or make it
 smaller file so it doesn't load so slow when you load the form" (L856). É o que

@@ -3,8 +3,8 @@ tipo: artefato
 modulo: campanhas
 assunto: cem-ideias-de-email
 autor: max-sturtevant
-registro: [slide]
-fonte: "CONTEUDO BRUTO/max.md — L5356-5472 (slide)"
+registro: [slide, transcricao]
+fonte: "CONTEUDO BRUTO/max.md — L5356-5472 (slide, o artefato); L4516-4542 (transcrição, o enquadramento e os poucos itens que ele comenta)"
 status: rascunho
 ---
 

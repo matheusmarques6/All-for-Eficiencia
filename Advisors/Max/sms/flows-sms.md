@@ -113,8 +113,8 @@ discount and keep it general" (L9475).
 # O que o corpus não diz
 
 - Nenhum nome de metric ou trigger de plataforma para nenhum dos cinco flows —
-  diferente dos flows de email, onde ele nomeia `Viewed Product`,
-  `Added to Cart`, `Started Checkout`.
+  diferente dos flows de email, onde ele nomeia `Viewed Product` (L3671),
+  `Added to Cart` (L3784) e `Started Checkout` (L3790).
 - Nenhum filtro, exclusão ou condição de saída: nem `placed order zero times`,
   nem supressão de quem já comprou.
 - Nenhum delay para o primeiro SMS do welcome — só que dispara depois do sign-up

@@ -11,9 +11,13 @@ status: rascunho
 
 # Aviso de autoria
 
-O núcleo do princípio está na voz do Max: a masterclass de texto puro
-(L5178-5235) é vídeo dele no YouTube, e é ali que sai "part of why textbased
-emails work so well is because they're rare" (L5230). O uso em flow de abandono
+O núcleo do princípio está na voz do Max — por inferência, não por prova. A
+masterclass de texto puro (L5178-5235) é vídeo de YouTube sem assinatura de
+abertura; o que a amarra a ele é o narrador chamar o custom GPT de seu e dar o
+domínio dele: "if you go to wellcopy.net/GPT, you can get access to my custom
+GPT" (L5212), sendo que o mesmo GPT é descrito por outro narrador como
+"something that Max had put together himself" (L5753). É ali que sai "part of
+why textbased emails work so well is because they're rare" (L5230). O uso em flow de abandono
 (L2256-2274) também é dele — módulo de flows, aberto com "Alrighty" (L1316).
 
 A fala de L4326-4352, que dá a inversão gráfico/texto, vem do vídeo aberto com
@@ -37,7 +41,8 @@ Ele explicita o mecanismo e a sua consequência, que é o que torna a nota um
 princípio e não uma preferência:
 
 > part of why textbased emails work so well is because they're rare. So you don't
-> want to overdo your textbased emails cuz then they lose that novelty. (L5230)
+> want to overdo your textbased emails cuz then they lose that novelty.
+> (L5230-5231)
 > If you're only running text-based, then it's not really a differentiator.
 > That's kind of what you do. Then the graphic becomes a differentiator.
 > (L4350-4352)

@@ -13,7 +13,7 @@ status: rascunho
 Aqui não é opinião de copy. É procedimento operacional com números que, errados,
 quebram a conta de email de uma marca. **Nenhum número desta pasta pode ser
 arredondado, interpolado ou completado com boa prática de mercado.** Onde o
-corpus dá cinco valores, a resposta dá os cinco.
+corpus dá dez valores para a mesma coisa — e dá —, a resposta dá os dez.
 
 # As notas
 
@@ -52,7 +52,7 @@ método, nunca benchmark de volume.
 | Situação | Número | Linha |
 |---|---|---|
 | operação normal | `Open Rates — Greater than 50%` | L8715 |
-| alargar a lista durante warming | 40 / 45-50 / 50+ / 50-70 / 60%+ — **cinco valores, ver conflito** | L8436, L8579, L8580, L8582, L8588, L8728 |
+| escolher ou alargar a lista | 40 / 40-50 / 45-50+ / 50 / 50+ / 50-60 / 50-70 / 60%+ — **dez formulações, ver conflito** | L8436, L8468, L8579, L8580, L8582, L8588, L8604, L8725, L8727, L8728 |
 | reparo de conta em spam | 60-80% para começar a puxar | L8592 |
 
 O único ponto em que nenhum registro discorda: **abaixo de 40% não se alarga a

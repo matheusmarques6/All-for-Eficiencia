@@ -78,9 +78,10 @@ não pode virar registro.
 Não dizer que "50% é o teto e 25% é o padrão": o corpus não hierarquiza. L8556
 dá uma faixa condicionada a desempenho ("based on performance"); L8569 dá um
 passo único (~50%) igualmente condicionado ("as long as you're still getting the
-metrics that you want"). A diferença operacional é real e grande — escalar 25%
-ou 50% por envio muda a agressividade da rampa em 2×. O critério que ele próprio
-oferece não é numérico: "I always err on the side of caution" (L8569) e "it's
+metrics that you want"). A diferença operacional é real e composta: o passo é
+reaplicado a cada envio, então 25% e 50% produzem rampas que divergem a cada
+degrau. O critério que ele próprio oferece não é numérico: "I always err on the
+side of caution" (L8569) e "it's
 much easier to build your sender reputation (…) than it is to fix it when it's
 already in a poor position" (L8555).
 

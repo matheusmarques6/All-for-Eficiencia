@@ -46,7 +46,7 @@ best they possibly can be" (L4709-4711). E fecha a aula declarando o escopo:
 
 > All these principles, they're for email in general. They're not limited to
 > pop-ups, flows, campaigns. They're across the board. They're unanimous.
-> (L4819-4821)
+> (L4819-4823)
 
 Detalhe por princípio, no deck de copy:
 

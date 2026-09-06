@@ -58,7 +58,7 @@ de "keeping me up-to-date on news and offers" (L543). Ele chama o pré-marcado d
 # Sign-up page: só o desconto
 
 Exemplo que ele abre para criticar: a landing page da Gymshark, "which is not
-optimized... a lot of friction in this" (L545). O headline "want emails you'll
+optimized" (L545); "It's a lot of friction in this" (L547). O headline "want emails you'll
 actually read?" não vende: "nobody fucking cares about emails" (L547). O que
 vende é o desconto — "Give us your email for 10% off. Enter email. That's all we
 want" (L549). E: "Screw the events, screw the product drops, screw the exclusive

@@ -38,6 +38,14 @@ Estrutura: uma condição obrigatória (`can receive email marketing` /
 `is subscribed`) **AND** três condições alternativas em **OR** — abriu email,
 esteve ativo no site, ou fez pedido, cada uma na mesma janela.
 
+> **Nota de transcrição do verbatim.** No bruto, L8734 é a **única linha da faixa
+> inteira** que usa quebras de linha internas de célula (caractere `VT`, 0x0B) —
+> três delas, exatamente antes de cada `**AND**` / `**OR**`. Em texto corrido
+> elas somem e as palavras colam (`subscribed**AND**`). O conteúdo acima é
+> idêntico ao bruto caractere a caractere **exceto** por esses três caracteres de
+> controle: eles são quebra de linha do export do GAMMA, não parte da definição.
+> A definição de fato tem quatro linhas, uma por condição.
+
 A janela é um parâmetro, não uma constante: "Logic stays the same. You just
 change the 90 to a 60" (L8480). Vale para 30, 60, 90, 120, 180 ou 365 dias
 (L8460, L8726).
@@ -48,8 +56,10 @@ change the 90 to a 60" (L8480). Vale para 30, 60, 90, 120, 180 ou 365 dias
 
 # A regra de ajuste
 
-Slide, verbatim (L8726-8729):
+Slide, verbatim (L8725-8729) — as quatro linhas seguidas, porque o número muda
+dentro delas:
 
+> This is how we can get consistent 50% open rates.
 > Use either a 30, 60, 90, 120, 180, or 365 day engaged list.
 > Whatever list gets you 50-60% opens.
 > If you start to get 60%+ opens, widen your list to a larger timeframe to get
@@ -59,6 +69,11 @@ Slide, verbatim (L8726-8729):
 Um limiar para cada lado: **60%+ alarga, 40% aperta**. E um objetivo declarado
 para alargar que não é deliverability — é receita: "to get more opportunities for
 revenue" (L8728).
+
+Mas note a escada dentro do próprio slide: ele promete **50%** (L8725), manda
+escolher a lista por **50-60%** (L8727) e só alarga em **60%+** (L8728). Três
+números em quatro linhas, no registro que o protocolo faz vencer em
+especificação. Não é possível responder "qual é o limiar" com um número só.
 
 A fala dá a mesma mecânica com números diferentes (L8468-8470): "the way that
 you'll know if you're sending to the right one is if you're consistently
@@ -86,10 +101,13 @@ A exceção à regra, e a única declarada (L8462-8466):
 
 # Onde o corpus discorda
 
-- **Limiar de open rate.** Não há um número. O slide diz 60%+ para alargar
-  (L8728); a fala diz 50-60% como zona de acerto (L8468) e, na aula de warming,
-  50+ (L8579), 40-50 (L8580), 45-50+ (L8582) e 40-50 (L8588). Todos os cinco
-  valores em `deliverability-limiar-de-open-rate` em [[_conflitos]].
+- **Limiar de open rate.** Não há um número, e **o slide não desempata porque
+  discorda de si mesmo em quatro linhas**: "consistent 50% open rates" (L8725),
+  "Whatever list gets you 50-60% opens" (L8727), "60%+ opens, widen your list"
+  (L8728). A fala dá 50-60% como zona de acerto (L8468) e, na aula de warming,
+  50+ (L8579), 40-50 (L8580), 45-50+ (L8582), 40-50 (L8588) e 40-50 de novo na
+  correção de rota (L8604). São **dez formulações**, todas em
+  `deliverability-limiar-de-open-rate` em [[_conflitos]].
 - **Lista base padrão.** O slide recomenda 90 dias como ponto de partida
   (L8734); a fala usa 60 dias como envio normal (L8462).
 

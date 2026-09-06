@@ -4,8 +4,8 @@ modulo: design
 assunto: secao-hero
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L7254-7352 (transcrição), L8232-8255 (slide)"
-conflitos: [design-botao-above-the-fold-sempre]
+fonte: "CONTEUDO BRUTO/max.md — L7254-7354 (transcrição), L8232-8255 (slide)"
+conflitos: [design-botao-above-the-fold-sempre, design-tres-usos-de-75-por-cento]
 status: rascunho
 ---
 
@@ -56,7 +56,7 @@ benefit I get. And here's where I have to click to make it happen"
 # A fórmula resumida
 
 > Headline, value, graphic, and button above the fold.
-> That's all you need to know. (L7350-7352, verbatim)
+> That's all you need to know. (L7352-7354, verbatim)
 
 Mesmos quatro itens, outra ordem. Use esta como versão curta.
 

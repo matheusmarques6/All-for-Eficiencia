@@ -338,6 +338,21 @@ Categories vs Products* (L4164–4176 = L9151–9163). A única diferença mater
 é um typo: L4160 traz "Ilusing" onde L9172 traz "Using". Não são duas fontes
 independentes — não contar como confirmação cruzada.
 
+**7. Dois cortes de transcrição em deliverability — a única perda de conteúdo
+mensurável do corpus.** No vídeo de warming (L8531–8645), a mediana entre
+marcas de tempo é 11s e o p90 é 18s. Dois saltos fogem da distribuição, e são
+o primeiro e o segundo maiores do vídeo inteiro: **21:52 → 22:33 (L8641 →
+L8642, 41s)** e **13:04 → 13:33 (L8593 → L8594, 29s)**.
+
+O corte de 41s levou **o nome da ferramenta de otimização de HTML** que ele
+recomenda para quem cai na aba de promoções — ele descreve a ferramenta, diz
+que trabalha com marcas conhecidas, e nunca a nomeia. Irrecuperável: nunca
+deduzir nem sugerir um nome. Evidência independente do corte: L8641 emenda
+duas frases de assuntos diferentes sem pontuação ("questions that I can help
+If your emails are landing in spam"), o que localiza a perda dentro da linha.
+
+O corte de 29s cai no meio do raciocínio de reparo de reputação.
+
 # Como usar este mapa
 
 Ao verificar uma afirmação de qualquer nota: pegue a linha citada no

@@ -61,7 +61,7 @@ may be and just use that" (L9236).
 
 Explicitamente, nos dois registros: "I don't need to walk you through how to get
 set up in like a step by step they have really in-depth guide so you can just go
-to their website and then get set up it literally takes minutes" (L9236);
+to their website and then get set up it literally takes minutes" (L9236-9237);
 "Each platform will have pretty straightforward tutorials and guides on how to
 get your account and number setup, so I won't cover that" (L9316).
 

@@ -15,17 +15,25 @@ status: rascunho
 > **Segments are dynamic**. They can change at any second, based on the
 > requirements you set on the segment. (L5539-5540, verbatim)
 
-O teste que ele dá na fala: num segmento "placed order in the last 30 days",
-alguém que comprou há 30 dias **sai** amanhã, a menos que compre de novo hoje
-(L4863-4869). Lista é o oposto — você faz upload e ela fica (L4873-4877). O
+O teste que ele dá na fala: num segmento "placed order in the last 30 days"
+(L4865), alguém que comprou há 30 dias **sai** amanhã, a menos que compre de
+novo hoje (L4869). Ressalva de transcrição: L4867 grafa o oposto — "Someone who
+bought 30 days ago **would be** in it tomorrow" —, e L4869 corrige na frase
+seguinte ("They wouldn't be in it unless they placed another order today"). A
+leitura acima segue L4869 e a definição de segmento dinâmico; L4867 é
+provavelmente "wouldn't" perdido no ASR, mas o bruto não permite confirmar.
+Lista é o oposto — você faz upload e ela fica (L4873-4877). O
 uso mais comum de lista: o pop-up joga na newsletter list, e a list dispara o
 welcome flow (L4879-4883).
 
 # Por que segmentar
 
-Quatro benefícios, iguais nos dois registros (L4833-4837, L5548-5551):
-improved deliverability · more sales · save time with automation ·
-personalized customer experience.
+Quatro benefícios, os mesmos quatro nos dois registros, com redação diferente.
+Slide (L5548-5551): improved deliverability · more sales · **save time with
+automation** · personalized customer experience. Bullet do módulo (L4834-4837):
+better deliverability · more sales · **set up flows** · personalization. O
+terceiro item é o que mais muda — "set up flows" no bullet, "save time with
+automation" no slide.
 
 O primeiro é o que ele trata como decisivo: "deliverability is really the
 biggest piece when it comes down to segmentation, figuring out who you're
@@ -38,7 +46,11 @@ rates" e "1 to 300 [sic] people clicking per campaign", lê como interesse
 
 # Os seis segmentos-chave — sintaxe verbatim, em inglês
 
-Da tabela L5585-5592. Não traduzir; é a definição que se digita no Klaviyo.
+Da tabela L5585-5592 — seis linhas de dados, não sete. Não traduzir; é a
+definição que se digita no Klaviyo. Única normalização: no bruto os operadores
+vêm em negrito e colados à palavra anterior (`subscribed**AND** Someone`);
+abaixo saem como ` AND ` / ` OR `. Nenhuma condição, número ou janela foi
+alterada.
 
 > **90 Day Engaged List** *(You can use any time frame, 90 is recommended to start)*
 > `Someone can receive email marketing because person is subscribed AND Someone
@@ -54,13 +66,13 @@ Da tabela L5585-5592. Não traduzir; é a definição que se digita no Klaviyo.
 > → 1x-2x emails extras por mês, além dos envios para a engaged list. Na fala:
 > "window shoppers" (L5045-5049).
 
-> **Winback Potential Customers** *(Time frames will vary based on your store)*
+> **Winback Potential Customers** *(Time frames will vary based on your store and how soon people typically come back)*
 > `Someone can receive email marketing because person is subscribed AND Someone
 > has placed order at least once in the past 150 days AND Someone has placed
 > order zero times in the last 90 days`
 > → 1x email extra por mês, e/ou entrada num winback flow.
 
-> **VIP Customers** *(use your gut on what counts as a VIP customer)*
+> **VIP Customers** *(This will again vary on store, use your gut on what counts as a VIP customer)*
 > `Someone can receive email marketing because person is subscribed AND Someone
 > has placed order at least 4 times over all time`
 > → 1x email extra por mês e/ou flow. Ele prefere contagem de pedidos a LTV,
@@ -68,7 +80,7 @@ Da tabela L5585-5592. Não traduzir; é a definição que se digita no Klaviyo.
 > purchase letting them know how many purchases they are away from the VIP
 > list" (L5590). Sugere também um VIP email por trimestre (L5590).
 
-> **Interested in X Product / Category**
+> **Interested in X Product / Category** *(You can replace "category" in this segment with "product" if you choose)*
 > `Someone can receive email marketing because person is subscribed AND Someone
 > has viewed item where category is [category] at least once over all time. OR
 > Someone has added item to cart where category is [category] at least once
@@ -106,9 +118,11 @@ manageable", já que o Klaviyo cobra por perfil (L5133, L5592).
   know, multiple times, or marked as spam" (L5129). O slide é exato: 5 emails,
   365 dias, 3 bounces, 1 spam complaint (L5592). E o bullet do módulo cita só
   "Bounced 3+ times" (L4840). Ver `campanhas-suppress-list`.
-- **Peso do 90 day engaged.** Quatro valores diferentes, medindo coisas
-  diferentes (L4838, L4652, L5139, L5597). Ver
-  `campanhas-share-do-90-day-engaged`.
+- **Peso do 90 day engaged.** Quatro linhas (L4838, L4652, L5139, L5597) que
+  parecem quatro valores do mesmo número e não são: L4838 mede share de
+  vendas/engajamento (80%-90%), L5139 e L5597 medem share de *envios* (80-90% e
+  90%), e o "80%" de L4652 é rótulo Pareto da lista, não percentual. Conflito
+  falso se lido de enfiada. Ver `campanhas-share-do-90-day-engaged`.
 - **Janela de engajamento.** "30, 60, 90 days, depending on how wide you want to
   get" (L4949) e "depending on how old the Klaviyo account is" (L5151), contra
   90 fixo como base (L5025-5033, L5596). Ver `campanhas-janela-de-engajamento`.

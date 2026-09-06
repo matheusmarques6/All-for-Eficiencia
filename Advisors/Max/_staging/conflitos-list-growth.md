@@ -149,8 +149,10 @@ Imagem ao lado do form ajuda ou atrapalha.
 **Como responder:** Não é o mesmo assunto visto duas vezes: L712 é uma queixa de
 **layout no mobile** e L852 é um **resultado de teste no desktop**. Responder:
 sem imagem lateral no mobile (quebra o dimensionamento), imagem à direita no
-desktop (única afirmação do módulo respaldada por teste declarado). E a
-localização da foto é um dos 7 A/B tests (L1278, L669).
+desktop — uma das poucas afirmações do módulo em que ele nomeia um teste como
+origem (as outras: L615, L1007, L1041). E a localização da foto é um dos 7 A/B
+tests: a fala cita só "test the different imagery" (L669); a menção a *placement*
+e *backdrop* é só do slide (L1278).
 
 ---
 
@@ -166,7 +168,7 @@ Onde fica o Alia e o que se ganha.
 | "you do get a 30-day free trial" | transcricao | L649 |
 | "Say Max sent you when you book a call and you'll get a gift ;)" | slide | L1245 |
 | "Just say that Max sent you a 30-day free trial" | transcricao (YouTube) | L1014 |
-| Grafia do nome: Allie, Allia, Aulia, Oly, Ollia, Olea, Olla | transcricao | L615, L647-651, L966-984 |
+| Grafia do nome, oito variantes: Aulia, Oly, Olla, allia, Allie, Ollia, Olea, Alia | transcricao | L615, L617, L647, L651, L966, L974, L984, L1013 |
 
 **Como responder: nunca afirmar uma URL.** Listar as três e dizer que o corpus dá
 três. `olealearn.com` vem de ASR de áudio falado e é a menos confiável;
@@ -186,9 +188,9 @@ Qual plataforma recomendar.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "I highly recommend using Klaviyo. It is the best option... Klaviyo is just the best" (como ESP) | transcricao | L32 |
+| "I highly recommend using Klaviyo. It is the best option" / "Klaviyo is just the best" (como ESP) | transcricao | L32 / L34 |
 | Klaviyo para form: "It's just not going to perform as well" | transcricao | L617 |
-| "Oly is my recommended pop-up platform" | transcricao | L615 |
+| "Oly is my recommended pop-up platform" | transcricao | L617 |
 | "it's the superior option. It will always perform better" | transcricao | L647 |
 | "Alia is the superior option and will perform much better, but it's an extra cost (the ROI is worth it every time)" | slide | L1242-1243 |
 | Todos os tutoriais gravados são no Klaviyo | transcricao | L684-858, L1030-1081 |

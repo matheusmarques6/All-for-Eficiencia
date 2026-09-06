@@ -83,6 +83,6 @@ pelo próprio autor, não como descarte.
 L8750-8758 (Glockapps / deliverability) e L9213 em diante (SMS Marketing) foram
 lidos apenas para confirmar onde o módulo começa e termina; pertencem a outras
 unidades. Trechos de fora da faixa citados nas notas — L140, L338, L2413, L3661,
-L4119-4160, L4192, L4220, L5249-5298, L6085-6093, L6121, L6805-6810, L8557,
+L4119-4176, L4192, L4220, L5249-5298, L6085-6093, L6121, L6805-6810, L8557,
 L9364, L9490-9516 — entraram só como contraponto de conflito, sempre marcados com
 o módulo de origem.

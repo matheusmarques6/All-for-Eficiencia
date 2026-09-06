@@ -4,7 +4,7 @@ modulo: design
 assunto: email-de-imagem
 autor: max-sturtevant
 registro: [transcricao]
-fonte: "CONTEUDO BRUTO/max.md — L8022-8031 (transcrição do vídeo de upload)"
+fonte: "CONTEUDO BRUTO/max.md — L8022-8032 (transcrição do vídeo de upload)"
 conflitos: [design-html-vs-imagem]
 status: rascunho
 ---
@@ -44,7 +44,7 @@ growing brands in the space are doing image based emails, you can too"
 
 # Por que desenhar fora
 
-> we design emails on another platform. So you have a lot more capability on the
+> you design emails on another platform. So you have a lot more capability on the
 > design front and conversion rate optimization and just have more freedom with
 > your emails. So we don't really want to just build emails into our sending
 > platform. (L8023)

@@ -19,7 +19,7 @@ e sem arredondamento.
 | Ganho de receita, só spacing/sizing/style | "3x more revenue just by optimizing spacing sizing and style" | transcricao | L6898 | — |
 | Ganho de cliques, CTA geral no fim da seção de produto | "25% boosts in clicks by doing this" | slide | L8287 | — |
 | Ganho de cliques, CTA geral no fim da seção de produto | "literally 25% boosts and clicks by including this in some of our emails" | transcricao | L7482 | — |
-| Teste A/B de tamanho de botão | "I've never had a bigger button lose an A-B test in click rates" | transcricao | L7041 | — |
+| Teste A/B de tamanho de botão | "I've never had a bigger button lose an A-B test in click rates" | transcricao | L7041-7043 | — |
 | Receita da Ridge (prova de email de imagem) | "hundreds of millions of dollars and they're doing millions from their email channel" | transcricao | L8027 | — |
 
 # Os três "75%" — referentes diferentes
@@ -55,7 +55,7 @@ o mesmo número. Nunca responder "75%" sem dizer 75% de quê.
 | Tempo que ninguém dá | "Nobody's going to look at your email for 30 seconds" | transcricao | L7161 | — |
 | Seções que a pessoa deve conseguir ver | "people can clearly see 2-3 sections" | slide | L8196 | — |
 | Itens obrigatórios above the fold | 4 (clear headline, strong graphic, clear value prop, clear button) | slide | L8243-8246 | — |
-| Itens obrigatórios above the fold | 4 (headline, value, graphic, button) | transcricao | L7274-7280, L7350-7352 | — |
+| Itens obrigatórios above the fold | 4 (headline, value, graphic, button) | transcricao | L7274-7280, L7352-7354 | — |
 | Tipos de conteúdo permitidos no bridge | 7 | slide | L8263-8269 | — |
 | Bridges por email | "In some cases you won't have a bridge, in some you'll have two" | slide | L8260 | design-quantidade-de-bridges |
 | Bridges por email | 0 ou 1; "You don't always need a bridge" | transcricao | L7368-7370 | design-quantidade-de-bridges |
@@ -101,7 +101,7 @@ o mesmo número. Nunca responder "75%" sem dizer 75% de quê.
 | Largura da borda de exemplo | "20" | transcricao | L7667 |
 | Altura do bloco de logo de exemplo | "100 tall" | transcricao | L7729 |
 | Tamanho do arquivo de imagem colocado | "thousand by a thousand" | transcricao | L7743 |
-| Largura da imagem no exemplo | "400 width" | transcricao | L7745 |
+| Largura da imagem no exemplo | "400 width" | transcricao | L7747 |
 | Corpo da sub-headline de exemplo | "24", bold | transcricao | L7759 |
 | Corpo do body copy de exemplo | "18" | transcricao | L7763 |
 

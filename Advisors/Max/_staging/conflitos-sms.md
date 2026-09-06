@@ -15,7 +15,7 @@ growth: é a mesma disputa, com uma versão a mais vinda daqui.
 
 | Valor | registro | linha |
 |---|---|---|
-| "not more than one maybe two SMS messages per week" | transcricao | L9227 |
+| "I wouldn't recommend sending more than one maybe two SMS messages per week" | transcricao | L9227 |
 | "**I wouldn't recommend sending more than 1-2 sms messages per week**" | slide | L9367 |
 | "for sms we see the best results sending only 1-2 times per week" | slide | L9491 |
 | "try not to send more than once per week every now and again you can do twice" | transcricao | L9228 |
@@ -54,7 +54,7 @@ semana" citando L9226/L9364: aquilo existe para dizer que SMS é menos.
 
 | Valor | registro | linha |
 |---|---|---|
-| "stick to SMS messages text only as much as you can unless it's absolutely necessary" | transcricao | L9230 |
+| "sticking to SMS messages text only as much as you can unless it's absolutely necessary" | transcricao | L9230 |
 | "**sticking to SMS text only messages** to get the highest ROI" | slide | L9386 |
 | "you can A/B test including a picture of the item the person browsed" | slide | L9449 |
 
@@ -73,7 +73,7 @@ só uma.
 | "we need to be above 50%" | transcricao | L178 |
 | "Open Rates — 50%+" (tabela de métricas) | slide | L376, L8715 |
 | "Target: 45%+ for engaged segments" | slide | L430 |
-| "ideally 50 to 60% range, but anything over 40% is okay" | transcricao | L4236 |
+| "you ideally want to be in that 50 to 60% range, but anything over 40% is okay" | transcricao | L4236 |
 
 **Como responder:** são coisas diferentes usadas como se fossem a mesma. Os 30%
 são média de mercado, citados para fazer o 98% do SMS parecer maior; os 50%+ são
@@ -119,7 +119,7 @@ mesmo já registrado em `list-growth-checkbox-preselecionado` (L1120).
 | Valor | registro | linha |
 |---|---|---|
 | "around 2 to 3% of website visitors" (o que ele audita) → "8% to 10%" (alcançável) | transcricao | L9238-9239 |
-| "6 to 12% (…) minimum 6%, ideally 10% plus (…) some brands 20 to 30%" | transcricao | L194 |
+| "6 to 12% (…) minimum 6%, ideally 10% plus (…) some brands where we're getting 20 to 30% opt-in rates" | transcricao | L194 |
 | "10%+ opt in rates (…) should continue to be tested to try to reach 20%+" | slide | L1186-1187 |
 | Case: 2.5% → 8.75% | slide | L1175-1181 |
 

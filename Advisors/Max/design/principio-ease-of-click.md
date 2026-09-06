@@ -39,7 +39,7 @@ automatically improve your click rates" (L8156).
 Cruze com a especificação de [[o-email-tem-um-trabalho-so]]: botão de 1.5-2
 polegadas de largura numa tela de 2.75 polegadas — mais da metade da largura da
 tela. Na fala, o teste: "I've never had a bigger button lose an A-B test in
-click rates" (L7041).
+click rates" (L7041-7043).
 
 **✅ Clear Calls to Action** (L8163-8166) — "Your buttons should be the easiest to
 view part of your email and there should be no ability for someone to click over
@@ -73,7 +73,7 @@ Nike. É a única marca que ele cita pelo nome como erro de design nesta seção
 > And then we have an uncentered small button right here, which is pretty much
 > below the fold for Nike. It is like if you open this on your phone. It's very
 > small, this small, and it's uncentered. So ideally we don't want to do that.
-> (L7149-7151)
+> (L7149-7153)
 
 Três defeitos no mesmo botão: descentralizado, pequeno e abaixo da dobra.
 

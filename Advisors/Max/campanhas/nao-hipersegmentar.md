@@ -4,7 +4,7 @@ modulo: campanhas
 assunto: nao-hipersegmentar
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4993-5021 e L5135-5151 (transcrição), L5571-5583 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4993-5021 e L5135-5151 (transcrição), L5571-5583 e L5596-5597 (slide)"
 conflitos: [campanhas-limiar-de-hipersegmentacao, campanhas-share-do-90-day-engaged]
 status: rascunho
 ---

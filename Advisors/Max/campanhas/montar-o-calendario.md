@@ -4,7 +4,8 @@ modulo: campanhas
 assunto: calendario-de-campanhas
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4441-4674 (transcrição), L5347-5354 e L5473-5491 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4441-4674 (transcrição), L4424-4437 (bullets do módulo), L5325-5332, L5347-5354 e L5473-5491 (slide)"
+conflitos: [campanhas-sweet-spot-de-frequencia]
 status: rascunho
 ---
 
@@ -15,10 +16,11 @@ status: rascunho
 
 # A premissa
 
-"Your ideas are the highest lever" (L4424, L5327). "The idea behind your email
+"Your Ideas Are The Highest Lever" (L5327, título de slide); o bullet do módulo
+grafa "Highest Lever \-- Your Ideas" (L4424). "The idea behind your email
 \> The actual email" (L5332). Ele é explícito: "You can have the prettiest
 emails in the world, but if there's no real content or depth or meaning behind
-them, they're going to fall on deaf ears" (L4462).
+them, they're going to fall on deaf ears" (L4462-4464).
 
 # Os quatro passos
 
@@ -32,7 +34,7 @@ preencham um dos 5 content pillars (L5350).
 
 **2. O swipe file.** "this swipe file of 84 high-converting email campaigns
 handpicked by me a $100M email marketer" (L5351); na fala, "There's 84 different
-emails in here" (L4506). Link em L4435 / L5351 (Google Drive).
+emails in here" (L4504-4506). Link em L4435 / L5351 (Google Drive).
 
 **3. As 100 ideias** listadas no slide seguinte (L5353, L4512). Ver
 [[cem-ideias-de-email]].
@@ -76,7 +78,7 @@ St. Patrick's Day sale.
 # Para quem enviar
 
 Praticamente tudo vai para a 90 day engaged list — "That's your 80% list. That's
-where you're going to get the majority of your sales" (L4650-4652). Para
+where you're going to get the majority of your sales" (L4652-4654). Para
 promoções, lançamentos e eventos fora do normal, abrir para **180 day engaged**
 (L4654-4656). Esse degrau de 180 dias só existe na fala; não aparece na tabela
 de segmentos do slide.
@@ -87,8 +89,9 @@ Descrito em L4622-4644, sem imagem no bruto. O que a fala nomeia: March
 favorites; "the science behind tech fleece" (educacional); flash sale com brinde
 — free hat acima de $150, explicitamente para subir AOV; tips for warming up;
 restock; bestsellers; St. Patrick's Day sale; brand builder sobre celebrity
-features; um estudo científico. O slide só diz "This is an example of what a
-solid email calendar for Nike may look like" (L5490).
+features; um estudo científico. O slide não descreve o calendário: diz só "This is an
+example of what a solid email calendar for Nike may look like" e "Notice the
+balance of educational content, product promotions, and sales" (L5490-5491).
 
 # O que o corpus não diz
 

@@ -20,14 +20,16 @@ que vazou para dentro do arquivo.
 |---|---|---|
 | Pangrama de teste de ASR — "The quick brown fox jumps over the lazy dog." | 864, 870, 886, 888, 894, 898, 902, 908, 914, 916, 922, 928, 932, 934, 938, 952, 956 | 17 |
 | Teste de microfone / de gravação | 860, 868, 872, 876, 882, 918, 924, 930 | 8 |
-| Filler de ASR sem conteúdo (um/er/[unintelligible]/[laughter]) | 866, 874, 880, 890, 896, 950, 958 | 7 |
-| Conversa doméstica ou social | 878, 884, 900, 904, 906, 936, 946, 948 | 8 |
+| Filler de ASR sem conteúdo (um/er/[unintelligible]/[laughter]) | 866, 874, 880, 890, 896, 920, 950, 958 | 8 |
+| Conversa doméstica ou social | 878, 884, 900, 904, 906, 926, 936, 946, 948 | 9 |
 | Fala corporativa genérica, sem assunto | 862, 892, 954 | 3 |
 | Timestamp órfão — `00:00:15` | 910 | 1 |
 | Linha em mandarim | 912 | 1 |
 | Release note de produto sem relação | 940 | 1 |
 | String de interface | 942 | 1 |
 | Frase religiosa | 944 | 1 |
+
+Soma: 50 — todas as linhas não vazias do bloco estão classificadas.
 
 ### As linhas que merecem registro individual
 
@@ -64,8 +66,10 @@ cabeçalho da aula 2 (L563).
 - **L559** — "um, I think, er, well, I need to [unintelligible] the, the
   [laughter] the meeting, okay? Yes, that's right." — filler de ASR, sem
   conteúdo. Mesma assinatura das linhas do bloco L860-958.
-- **L561** — "The quick brown fox jumps over the lazy dog." — pangrama de teste,
-  18ª ocorrência na faixa.
+- **L561** — "The quick brown fox jumps over the lazy dog." — pangrama de teste.
+  É a **primeira** das 18 ocorrências na faixa L523-1306; as outras 17 estão
+  todas dentro do bloco L860-958. Ou seja: a contaminação já começa aqui, 300
+  linhas antes do bloco grande.
 
 ---
 
@@ -114,15 +118,19 @@ cabeçalho da aula 2 (L563).
   em `os-tipos-de-form` porque são evidência do conflito 4 vs 5; as imagens não
   existem no arquivo.
 - **L1305** — "List Growth" solto, rodapé do deck.
-- **L1087-1089** — "List Growth" repetido três vezes, cabeçalho do deck.
+- **L1085-1089** — "GAMMA LIST" seguido de "List Growth" duas vezes (L1087,
+  L1089), cabeçalho do deck.
 
 ### Links repetidos
 
-- **L527, L565, L581, L607, L681, L962** — o mesmo link do gamma
+- **L527, L565, L607, L681, L962** — o mesmo link do gamma
   (`gamma.app/docs/List-Growth-2vvjfonhsa7j83j`) no topo de cada aula. Registrado
-  uma vez na `fonte:` das notas, não seis.
-- **L567** — link do Figma do "Pop-Up Swipe File". Citado como existente em
-  `os-sete-testes-de-form`, não reproduzido.
+  uma vez na `fonte:` das notas, não cinco.
+- **L567** — link do Figma do "Pop-Up Swipe File", no cabeçalho da aula 2. É um
+  **segundo** swipe file, distinto das "29 solid pop-up form examples" do Drive
+  (L671, L1290) que entraram nas notas. Nenhuma nota o menciona; ele não é citado
+  em lugar nenhum da transcrição, só existe como link de cabeçalho. Fica aqui
+  registrado como lacuna, não como conteúdo descartado.
 - **L988-990** — "Link do gamma :" vazio, seguido do título do vídeo do YouTube.
   É a evidência de que a aula 6 não tem slide correspondente.
 
@@ -135,7 +143,11 @@ Descartados por serem ajuste fino de tela sem regra generalizável — ele mesmo
 - **L744, L766-770, L796, L802-804** — ajustes de cor, centralização e
   alinhamento durante a montagem.
 - **L842-850** — trocas de imagem e espaçamento na versão desktop.
-- **L1044-1045, L1058-1061** — ajustes de tamanho e padding no vídeo do YouTube.
+- **L1045, L1059-1061** — ajustes de tamanho e padding no vídeo do YouTube.
+  Atenção: **L1044 e L1058 não são descarte** — L1044 traz a datação da
+  recomendação de copy ("at least right now this is what's working") e L1058 traz
+  a frase do quiz; ambas estão em `copy-do-form`. Os valores de fonte 18 e altura
+  54 (L1060) estão em `numeros-list-growth.md`.
 
 Os **valores** que saíram desses trechos (tamanhos de fonte, padding, altura de
 botão) estão em `numeros-list-growth.md`; a narração dos cliques, não.

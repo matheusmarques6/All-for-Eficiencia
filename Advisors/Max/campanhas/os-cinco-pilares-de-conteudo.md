@@ -4,7 +4,7 @@ modulo: campanhas
 assunto: pilares-de-conteudo
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4426-4430 e L4472-4490 (transcrição), L5334-5345 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4372-4376, L4426-4430, L4472-4490 e L4538-4542 (transcrição), L5318-5319 e L5334-5345 (slide)"
 conflitos: [campanhas-distribuicao-dos-pilares]
 status: rascunho
 ---
@@ -44,12 +44,12 @@ those" (L4476-4478).
 para em cada um deles: depois do bloco corrompido a transcrição vai direto para
 a distribuição mensal (L4490). Ele volta a esses pilares mais adiante, ao
 comentar de passagem alguns dos 100 títulos — "why we exist, take a look inside
-launch (…) meet launch week (…) talking through the values, we're hiring"
+launch (…) meet launch week (…) talking through the values are hiring [sic]"
 (L4538-4542) — e diz "product collection highlights. I won't go through all of
 these" (L4542). A definição de cada pilar está nos bullets e no slide.
 
 **Sales** — o ponto dele é que venda não é sinônimo de desconto: "there's no
-need to just go discount, discount, discount" (L4372-4374); desconto constante
+need to just go discount, discount, discount, discount" (L4372-4374); desconto constante
 faz o cliente só comprar em promoção (L4376). A formulação do slide:
 
 > **A) Educate the customer on a problem, a process, or a solution**

@@ -73,7 +73,7 @@ Quatro regras, todas da fala:
    discount" (L9240-9241), aceitando perder margem na primeira compra porque o
    backend devolve. Alternativas: "giveaways or free guides" (L9241).
 3. **Mínimo de palavras** — "just tell the customer this is what you get give us
-   your email" (L9241).
+   your email" (L9241-9242).
 4. **Nada de aniversário nem preferências** (L9242).
 
 ## Email no passo 1, telefone no passo 2

@@ -24,9 +24,9 @@ perform as well" (L617).
 
 Ele chama de "my favorite pop-up platform" (L1013).
 
-**O nome sai grafado de dez jeitos diferentes na transcrição** (Allie, Allia,
-Aulia, Oly, Ollia, Olea, Olla, Alia). A grafia do slide é **Alia** (L1202,
-L1242).
+**O nome sai grafado de oito jeitos diferentes na transcrição** — Aulia (L615),
+Oly (L617), Olla (L647), allia (L651), Allie (L966), Ollia (L974), Olea (L984),
+Alia (L1013). A grafia do slide é **Alia** (L1202, L1242).
 
 # O conflito de interesse
 
@@ -42,7 +42,7 @@ Alia tirada deste corpus.
 
 1. No Shopify: apps → Alia → **campaigns** → **create**, dar nome (L966).
 2. Escolher template. "most of these are running quizzes because they perform the
-   best" (L968).
+   best" (L968-970).
 3. Cores de fundo e de acento; upload do logo (L970-972). Floating button no
    canto, posição livre (L972).
 4. A pergunta do quiz: "you've got discount", "what are you shopping for today?",
@@ -93,7 +93,7 @@ it" (L651). Ou seja: rodar os dois e comparar opt-ins contra o custo extra.
 Ver `list-growth-alia-url-e-oferta`.
 
 **Alia × Klaviyo.** Ele recomenda Klaviyo como ESP — "I highly recommend using
-Klaviyo. It is the best option... Klaviyo is just the best" (L32) — e ao mesmo
+Klaviyo. It is the best option" (L32), "Klaviyo is just the best" (L34) — e ao mesmo
 tempo diz que para form o Klaviyo "is just not going to perform as well" (L617).
 Não é contradição direta (são camadas diferentes da stack), mas produz uma
 recomendação de duas ferramentas pagas. Ver `list-growth-alia-vs-klaviyo`.

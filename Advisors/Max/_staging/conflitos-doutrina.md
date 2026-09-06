@@ -51,7 +51,7 @@ forte, auditável, mas inferência. A regra prática:
 4. Onde o Max corrobora em vídeo próprio, a atribuição volta a ser segura — é o
    caso de desconto (L6261), texto puro (L5230) e skimmability (L7163).
 
-**O que isto atinge nesta pasta:** sete das treze notas. As mais afetadas são
+**O que isto atinge nesta pasta:** oito das treze notas carregam bloco de autoria por causa disto, mais [[roubar-e-o-metodo]], cujo vídeo (L7849) não tem assinatura nenhuma — nove ao todo. As mais afetadas são
 [[a-ia-e-um-copywriter-junior]] (base inteira dentro do bloco provado) e
 [[disruptor-vence-no-inbox]] (base inteira num vídeo da assinatura suspeita, sem
 nenhum slide corroborando).

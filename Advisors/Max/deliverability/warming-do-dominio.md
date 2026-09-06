@@ -103,7 +103,8 @@ indicator of future behavior is past performance."
 
 **Primeiro envio** (L8569): "I always err on the side of caution, maybe a
 hundred people, two hundred people, three hundred people, somewhere in that
-range."
+range." É o único volume de degrau 1 que o corpus entrega íntegro — o da
+cadência (L8587) está corrompido, ver abaixo.
 
 **Passo de escalonamento** — CONFLITO, e o mais caro de errar aqui depois do
 degrau 1. Em 05:30 ele diz "gradually increase from 25 to 50 percent percent
@@ -112,8 +113,9 @@ não). Em 08:08 ele diz "you scale up by about fifty to, by about fifty percent
 each send, as long as you're still getting the metrics that you want"
 (L8569-8570). **Os dois são transcrição** — o deck de warming não foi exportado,
 então não há registro de slide para desempatar, e não se deve tratar L8556 como
-bullet do deck só porque soa como um. Escalar 25% ou 50% por envio muda a
-agressividade da rampa em 2×; dar os dois números. Ver
+bullet do deck só porque soa como um. Como o passo é aplicado a cada envio, a
+diferença entre 25% e 50% **compõe** — as duas rampas divergem a cada degrau, não
+ficam paralelas. Dar os dois números e não escolher. Ver
 `deliverability-passo-de-escalonamento` em [[_conflitos]].
 
 **Cadência de rampa**, verbatim (L8587-8588):
@@ -244,9 +246,19 @@ promotions — e **o nome dela não está no corpus**. O trecho (L8641-8643):
 > a lot of very well-known brands as well.
 
 Escopo declarado: serve para **promotions**, não serve para spam nem para
-warming (L8643). A transcrição pula de 21:52 (L8641) para 22:33 (L8642) — cerca
-de 41 segundos ausentes, exatamente onde a apresentação da ferramenta estaria. É
-irrecuperável. Nunca preencher esse nome por dedução.
+warming (L8643).
+
+A ausência do nome é comprovável, não suposta. Duas evidências:
+
+1. **O salto de tempo.** A transcrição vai de 21:52 (L8641) para 22:33 (L8642):
+   41 segundos. É o **maior salto do vídeo inteiro** — a mediana entre marcas de
+   tempo consecutivas nessa transcrição é de 11 segundos e o percentil 90 é 18.
+2. **A emenda dentro de L8641.** A linha costura duas frases de assuntos
+   diferentes sem pontuação: "…I'll be happy to answer questions that I can help
+   **If your emails are landing in spam, don't use this…**". O corte está dentro
+   da própria linha, e é ali que a ferramenta seria apresentada.
+
+Irrecuperável. Nunca preencher esse nome por dedução.
 
 # O que o corpus não diz
 

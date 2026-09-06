@@ -46,7 +46,9 @@ se olha.
 
 # Onde ele mesmo relativiza
 
-Ele diz "most likely" (L22, L297) — probabilidade, não regra. O corpus não dá o
+Ele diz "most likely" (L22) — probabilidade, não regra; e a própria pergunta é
+formulada como "who's likely to make more money this year?" no slide (L297),
+"who is more likely to make money this year" na fala (L21). O corpus não dá o
 ponto de virada: em nenhum lugar ele diz a partir de que taxa de entrada a lista
 maior volta a ganhar.
 

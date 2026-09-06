@@ -101,6 +101,9 @@ resposta:
 
 # Nota de tamanho
 
-[[crescer-a-lista]] (4,9 KB) e [[flows-sms]] (5,8 KB) passam do alvo de 3,5 KB
-por carregarem artefato verbatim que não pode ser resumido: os quatro passos do
-Shopify e os quatro templates de copy.
+Três notas passam do teto de 4 KB do brief: [[flows-sms]] (5,7 KB),
+[[crescer-a-lista]] (4,9 KB) e [[calendario-e-horarios]] (4,7 KB). As duas
+primeiras carregam artefato verbatim que não pode ser resumido — os quatro
+templates de copy e os quatro passos do Shopify. A terceira carrega o calendário
+reconstruído linha a linha mais a tabela de horários, e é a única das três que
+poderia ser quebrada em duas (calendário / send times) sem perder rastreabilidade.

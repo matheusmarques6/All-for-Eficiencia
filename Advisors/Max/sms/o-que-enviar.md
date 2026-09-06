@@ -4,7 +4,7 @@ modulo: sms
 assunto: o-que-enviar-por-sms
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L9248-9250, L9254 (transcrição), L9486-9498, L9504-9505 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L9248-9250, L9254-9255 (transcrição), L9486-9498, L9504-9505 (slide)"
 conflitos: [sms-transacional-puro-ou-quase]
 status: rascunho
 ---
@@ -47,7 +47,7 @@ sobre enquadrar o que existe num ângulo que justifique a interrupção.
 
 É a peça que ele usa quando não sabe o que enviar. Slide: "Restocks are a great
 way to get traction when you aren't sure what to send" (L9505). O racional
-completo está na fala (L9254):
+completo está na fala (L9254-9255):
 
 > "if an item went out of stock that means it's popular because it went out of
 > stock and then also a restock means that this product might go out of stock
@@ -56,7 +56,7 @@ completo está na fala (L9254):
 Duas alavancas numa mensagem só — e num canal de 160 caracteres isso é o
 argumento inteiro. Ele ainda solta a licença: "I like to do these frequently even
 if something isn't necessarily out of stock you can still send a message for it"
-(L9254). Ver o uso no calendário, em [[calendario-e-horarios]].
+(L9255). Ver o uso no calendário, em [[calendario-e-horarios]].
 
 # Onde o corpus discorda
 

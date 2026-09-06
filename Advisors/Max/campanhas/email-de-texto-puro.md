@@ -61,25 +61,26 @@ gráfico agressivo, o cérebro aprendeu a ignorar, e o texto puro quebra o padr�
 
 # Montagem no Klaviyo
 
-> **Procedimento datado.** O corpus não informa a data da gravação; as
-> referências internas do vídeo são ao iPhone 16 (L5198) e ao "2025/2026
-> customer" (L5501). As telas do Klaviyo podem ter mudado. O bruto grafa a
-> ferramenta como "Claio" e "Clavio" (L5222, L5224) — é Klaviyo, erro de ASR.
+> **Procedimento datado.** O vídeo não se data: não há nenhuma referência
+> interna de época dentro de L5178-5235. O corpus só se data fora dele, no deck
+> GAMMA, que fala do "2025/2026 Customer" (L5495, L5501). As telas do Klaviyo
+> podem ter mudado. O bruto grafa a ferramenta como "Claio" e "Clavio"
+> (L5222, L5225) — é Klaviyo, erro de ASR.
 
-1. Criar campanha, escolher email e a lista de envio (L5222).
+1. Criar campanha, escolher email e a lista de envio (L5222-5223).
 2. Na escolha de template, **não** pegar um template gráfico: clicar nos três
    pontos e trocar para o **text-only editor** (L5223-5224).
 3. Colar a copy, adicionar o botão; o Klaviyo deixa o link azul automaticamente,
    e ele negrita (L5225).
 4. Trocar a fonte para **Arial** — "I just change it to Aerial [sic]. It's the
-   most readable font right here" (L5226).
+   most readable f font [sic] right here" (L5226).
 5. **Remover o travessão.** "maybe I get rid of that M dash because it's very
    catchy bte [sic]. Add commas instead. Maybe a dot dot dot right here"
    (L5226). A justificativa está corrompida no bruto — "catchy bte" é ruído de
    ASR e o corpus não permite saber a palavra. O que resta é a instrução:
    trocar o em dash por vírgula ou reticências.
 6. Nome do remetente no formato pessoa + marca: "Brian from create" (L5227).
-7. **Preview text não existe.** "plain text emails, you don't get to have
+7. **Preview text não existe.** "plain text emails. You don't get to have
    preview text. It's just how those are set up" (L5227).
 
 # Onde usar

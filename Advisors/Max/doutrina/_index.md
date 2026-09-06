@@ -29,9 +29,10 @@ Assinaturas de abertura, que separam os dois:
 | "Hello, hello" / "Yo, yo" + "our copywriters", "our team" | **outro narrador** | L4204, L4687, L5669, L5889, L6103, L7603, L8382, L8531, L8774 |
 
 Só o bloco L5667-5865 tem prova textual. O resto é inferência por assinatura — mas
-é auditável, e por isso vale. Sete das treze notas carregam um bloco
+é auditável, e por isso vale. Oito das treze notas carregam um bloco
 `# Aviso de autoria` no topo dizendo exatamente o que é dele e o que é do
-material. Slides são registro neutro e não têm esse problema.
+material, e [[roubar-e-o-metodo]] carrega um `# Nota de autoria` equivalente —
+nove no total. Slides são registro neutro e não têm esse problema.
 
 Detalhamento em `doutrina-narrador-da-aula-de-ia`.
 

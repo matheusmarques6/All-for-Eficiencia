@@ -13,6 +13,20 @@ faixas, "twoish" fica "twoish".
 
 ## Frequência de campanha
 
+A tabela do slide, verbatim, como está em L5293-5298 (reproduzida em bloco
+porque os pipes do bruto não cabem dentro de uma tabela markdown; nas linhas
+`Tier 1..4` abaixo o separador `|` do bruto virou `·`, sem nenhuma outra
+alteração):
+
+```
+| Store Revenue | Monthly Site Visitors | Email Frequency |
+| ----- | ----- | ----- |
+| $0-50k/mo | 0-25k/mo | 2x per week |
+| $50k-250k/mo | 25k-50k/mo | 3x per week |
+| $250k-1M/mo | 50k-250k/mo | 4x per week |
+| $1M/mo+ | 250k/mo+ | 5-6x per week |
+```
+
 | Medida | Valor verbatim | registro | linha | conflito |
 |---|---|---|---|---|
 | Cadência geral | "Send between 2x - 4x per week" | slide (bullet) | L4192 | campanhas-sweet-spot-de-frequencia |
@@ -22,14 +36,14 @@ faixas, "twoish" fica "twoish".
 | Cadência geral | "a consistent cadence of 2-4 email campaigns per week" | slide | L5249 | campanhas-sweet-spot-de-frequencia |
 | Piso absoluto | "I wouldn't recommend going lower than 2x per week no matter your ecom store size" | slide | L5256 | — |
 | Tier 1 | "$0-50k/mo · 0-25k/mo · 2x per week" | slide | L5295 | — |
-| Tier 1 | "zero to 50K a month, two times a week is probably pretty safe" | transcricao | L4264-4265 | — |
+| Tier 1 | "zero to 50K a month, two times a week is probably pretty safe" | transcricao | L4264-4266 | — |
 | Tier 2 | "$50k-250k/mo · 25k-50k/mo · 3x per week" | slide | L5296 | — |
 | Tier 2 | "50K to 250K a month, three acts per week" | transcricao | L4266 | — |
 | Tier 3 | "$250k-1M/mo · 50k-250k/mo · 4x per week" | slide | L5297 | campanhas-tier-250k-1m |
 | Tier 3 | "probably in that three to four emails a week" | transcricao | L4268 | campanhas-tier-250k-1m |
 | Tier 4 | "$1M/mo+ · 250k/mo+ · 5-6x per week" | slide | L5298 | — |
-| Tier 4 | "a mil a month plus (…) at the five to six times a week" | transcricao | L4270 | — |
-| Teto por tamanho de lista | "if you have a smaller list, 5,000, 10,000, 20,000 people, you're not going to want to send five or six times a week" | transcricao | L4276-4278 | campanhas-o-que-determina-a-frequencia |
+| Tier 4 | "a mil a month plus, you can kind of start getting more creative at the five to six times a week" | transcricao | L4270-4272 | — |
+| Teto por tamanho de lista | "if you have a smaller list, 5,000, 10,000, 20,000 people, you're not going to want to send to send [sic] five or six times a week" | transcricao | L4276-4278 | campanhas-o-que-determina-a-frequencia |
 | Alcance real com lista pequena | "only a segment of that, you know, four or 5,000 people" | transcricao | L4280 | — |
 | Faixa insuficiente | "Sending 1-2x Per Week" → esquece, sem hábito, dinheiro na mesa | slide | L5258-5262 | — |
 | Faixa arriscada | "Sending 5-7x Per Week" → unsubscribes, irritação, diluição, platô | slide | L5264-5269 | — |
@@ -42,7 +56,7 @@ faixas, "twoish" fica "twoish".
 | Atenção antes | "an average of 5-10 seconds of attention per email" | slide | L5500 | — |
 | Atenção antes | "before five, 10 seconds per email" | transcricao | L4703 | — |
 | Atenção hoje | "In 2025/2026, you *maybe* have 3 seconds" | slide | L5501 | pertence a doutrina/S.C.E. |
-| Atenção hoje | "now you have about three (…) the first two to three seconds" | transcricao | L4705-4707 | pertence a doutrina/S.C.E. |
+| Atenção hoje | "now you have about three (…) the first two to three seconds" | transcricao | L4705-4709 | pertence a doutrina/S.C.E. |
 | Skim | "skimmed in under 3 seconds" | slide | L5515 | pertence a doutrina/S.C.E. |
 
 ## Métricas de campanha (benchmarks)
@@ -77,13 +91,13 @@ pertence a `otimizacao/` ou `deliverability/`.
 | Tamanho | "Do not make this over 250 words" | transcricao | L5207 | — |
 | Tamanho | "under 250 words (6:43)" | notas do masterclass | L5168 | — |
 | CTAs | "one to two at most call to actions" | transcricao | L5208 | — |
-| CTAs (módulo campanhas) | "keep the CTA on this to one, maybe two" | transcricao | L4342 | — |
-| Fonte | "I just change it to Aerial [sic]. It's the most readable font" | transcricao | L5226 | — |
-| Preview text | "plain text emails, you don't get to have preview text" | transcricao | L5227 | — |
+| CTAs (módulo campanhas) | "keep the CTA on this to one, maybe two" | transcricao | L4342-4344 | — |
+| Fonte | "I just change it to Aerial [sic]. It's the most readable f font [sic]" | transcricao | L5226 | — |
+| Preview text | "plain text emails. You don't get to have preview text" | transcricao | L5227 | — |
 | Receita citada | "$255,000 from one email" | transcricao | L5182 | claim promocional |
 | Receita citada | "over $100,000 from one email" | transcricao | L5183 | claim promocional |
 | Track record citado | "over $200 million for brands" | transcricao | L5204 | claim promocional |
-| Porte da marca-exemplo | "an eight figure brand making millions of dollars every month" | transcricao | L5194 | — |
+| Porte da marca-exemplo | "an eight figureure [sic] brand making millions of dollars every month" | transcricao | L5194 | — |
 
 ## Calendário e pilares
 
@@ -94,7 +108,7 @@ pertence a `otimizacao/` ou `deliverability/`.
 | Divisão mensal | "20% educational, 20% social proof, 20% product, 20% community branded, one sale, two sale emails, so 20%" | transcricao | L4490 | campanhas-distribuicao-dos-pilares |
 | Exceção de mês de promoção | "you might want to send four or five sale emails throughout the month" | transcricao | L4490 | campanhas-distribuicao-dos-pilares |
 | Emails por promoção | "an announcement, a reminder, and then some sort of last chance campaign" | transcricao | L4636-4638 | — |
-| Swipe file | "84 high-converting email campaigns" / "There's 84 different emails in here" | slide + transcricao | L5351, L4506 | — |
+| Swipe file | "84 high-converting email campaigns" / "There's 84 different emails in here" | slide + transcricao | L5351, L4504-4506 | — |
 | Lista de ideias | "100 High-Converting Email Ideas" — 5 categorias × 20 | slide | L5356-5471 | — |
 | Frequência dada ao GPT | "three to four campaigns per week, which is more likely than not what we're looking for" | transcricao | L4554-4556 | campanhas-sweet-spot-de-frequencia |
 | Base de treino do GPT | "over 500 pages of email marketing knowledge" | slide | L5476 | — |
@@ -108,7 +122,7 @@ pertence a `otimizacao/` ou `deliverability/`.
 | Base de envio | "people that have opened or clicked emails in the last 30, 60, 90 days, depending on how wide you want to get" | transcricao | L4949 | campanhas-janela-de-engajamento |
 | Base de envio | "your 30-, 60-, 90-day engage list, depending on how old the Klaviyo account is" | transcricao | L5151 | campanhas-janela-de-engajamento |
 | Peso do engaged | "accounting for 80%-90% of your sales & engagement" | slide (bullet) | L4838 | campanhas-share-do-90-day-engaged |
-| Peso do engaged | "That's your 80% list. That's where you're going to get the majority of your sales" | transcricao | L4652 | campanhas-share-do-90-day-engaged |
+| Peso do engaged | "That's your 80% list. That's where you're going to get the majority of your sales" | transcricao | L4652-4654 | campanhas-share-do-90-day-engaged |
 | Peso do engaged | "relying on this for 80-90% of our sends" | transcricao | L5139 | campanhas-share-do-90-day-engaged |
 | Peso do engaged | "just sending to our engaged list for 90% of sends" | slide | L5597 | campanhas-share-do-90-day-engaged |
 | Lista para eventos | "expand that to probably 180 day engage" | transcricao | L4656 | — |

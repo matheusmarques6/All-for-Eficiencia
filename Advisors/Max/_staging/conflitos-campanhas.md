@@ -39,7 +39,7 @@ equipe (L4244, L4276).
 | Valor | Registro | Linha |
 |---|---|---|
 | "4x per week" | slide (tabela) | L5297 |
-| "probably in that three to four emails a week, just depending on what's going on" | transcricao | L4268 |
+| "probably in that three to four emails a week, just depending on what's going on" | transcricao | L4268-4270 |
 
 **Como responder:** é especificação de tabela, então o slide vence: **4x por
 semana**. Mas registre que a fala abre para 3-4 e condiciona a "what's going on"
@@ -124,7 +124,7 @@ partida, não regra.
 
 **Como responder:** especificação de segmento → slide vence: **4 pedidos**.
 Registre que a fala diz 5. E registre o critério que ele mesmo dá acima do
-número: "use your gut on what counts as a VIP customer" (L5083, L5590), com a
+número: "use your gut on what counts as a VIP" (L5083) e "use your gut on what counts as a VIP customer" (L5590), com a
 preferência declarada por contagem de pedidos em vez de LTV, porque contagem é
 previsível e permite avisar o cliente quantas compras faltam (L5590).
 
@@ -151,15 +151,25 @@ pelo corpus, não erro de extração.
 | Valor | Registro | Linha | Mede o quê |
 |---|---|---|---|
 | "accounting for **80%-90%** of your sales & engagement" | slide (bullet do módulo) | L4838 | share de vendas |
-| "That's your **80%** list. That's where you're going to get the majority of your sales" | transcricao | L4652 | share de vendas |
+| "That's your **80%** list. That's where you're going to get the majority of your sales" | transcricao | L4652-4654 | rótulo de Pareto + afirmação qualitativa sobre vendas — **não é um percentual de vendas** |
 | "relying on this for **80-90%** of our sends" | transcricao | L5139 | share de envios |
 | "just sending to our engaged list for **90%** of sends" | slide | L5597 | share de envios |
 
-**Como responder:** são duas grandezas, não uma. Duas fontes falam de **share
-de vendas** (80-90% e 80%) e duas de **share de envios** (80-90% e 90%). Não
-misture. Dentro de cada grandeza a divergência é entre um valor pontual e uma
-faixa que o contém — diga a faixa. O que os quatro sustentam sem exceção: a
-90 day engaged list é a base de quase tudo.
+**Como responder:** **isto não é um conflito de quatro valores** — são duas
+grandezas diferentes, e nenhum dos dois pares se contradiz de fato.
+
+- **Share de vendas/engajamento:** só um número existe, "80%-90%" (L4838). O
+  "80%" de L4652 não é um percentual de vendas: é o rótulo Pareto da lista
+  ("your 80% list", confirmado por L5017-5021, "That 80% is going to be that
+  30, 60, 90-day engage list. That 20%…"), e a afirmação de vendas ao lado dele
+  é qualitativa ("the majority of your sales"). Não cite L4652 como número.
+- **Share de envios:** "80-90%" (L5139) e "90%" (L5597) — um valor pontual
+  dentro de uma faixa que o contém. Diga a faixa.
+
+Nunca misture as duas grandezas nem produza um quinto número a partir delas. O
+que os quatro sustentam sem exceção: a 90 day engaged list é a base de quase
+tudo. Entrada mantida no registro justamente porque a leitura ingênua das
+quatro linhas produz um conflito falso.
 
 ---
 

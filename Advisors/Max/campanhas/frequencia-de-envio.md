@@ -4,7 +4,7 @@ modulo: campanhas
 assunto: frequencia-de-envio
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4238-4296 (transcrição), L5252-5298 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4220, L4238-4296 e L4404-4406 (transcrição), L4191-4192 (bullets do módulo), L5247-5249 e L5252-5298 (slide)"
 conflitos: [campanhas-sweet-spot-de-frequencia, campanhas-tier-250k-1m, campanhas-o-que-determina-a-frequencia]
 status: rascunho
 ---
@@ -57,7 +57,7 @@ Fator extra que só aparece na fala: carga de trabalho criativa da equipe —
 # Onde o corpus discorda
 
 - **Sweet spot.** A fala diz "two to four times per week is really hitting the
-  sweet spot" (L4242, repetido em L4220 e L4404). O slide diz "3x per week is
+  sweet spot" (L4242, repetido em L4220 e L4404-4406). O slide diz "3x per week is
   typically the sweet spot" (L5255) e, na mesma página, mantém a cadência
   "2-4 email campaigns per week" (L5249). Ver `campanhas-sweet-spot-de-frequencia`.
 - **Tier $250k-1M.** Fala: "probably in that three to four emails a week"

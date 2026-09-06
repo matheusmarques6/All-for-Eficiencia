@@ -13,8 +13,8 @@ status: rascunho
 
 | Metric | Target |
 | :---- | :---- |
-| **Email % of Total Store Revenue** | 40**%** (Goal)30–50% is healthy\>55% \= time to scale acquisition |
-| **Campaigns vs Flows** | **Campaigns:** 40–60% of email revenue**Flows:** 40–60% of email revenue If you're too reliant on one, you're leaving easy revenue on the table from the other. |
+| **Email % of Total Store Revenue** | 40**%** (Goal)30–50% is healthy\>55% \= time to scale acquisition |
+| **Campaigns vs Flows** | **Campaigns:** 40–60% of email revenue**Flows:** 40–60% of email revenue If you're too reliant on one, you're leaving easy revenue on the table from the other. |
 | **Open Rates** | 50%+ |
 | **Click Rates** | Varies on many things… campaign or flow type, list size, etc. In general: 0.5%+ on campaigns 2%+ on flows |
 | **Unsubscribe Rates** | \<0.3% |
@@ -109,10 +109,10 @@ sempre.
 **Mais dois, dentro da própria fala.** O limiar de "escalar aquisição" é ">55%"
 na aula de métricas e no slide (L170, L374), mas "say you're at like 60 percent"
 no walkthrough do dashboard (L56). E o piso sai como "less than like 30%" (L172)
-contra "anywhere under 30%, um 40%" (L58).
+contra "anywhere under 30%, um 40%" (L56-58).
 
 **Um cross-módulo.** L180 nega que subject line mova open rate. Os módulos de
-copy e otimização quantificam exatamente esse efeito: "at most you can get \~10%
+copy e otimização quantificam exatamente esse efeito: "at most you can get \~ 10%
 jump in opens" (L6805) e "10%, maybe 15" (L6229). Não é contradição frontal — um
 salto de 10 pontos não tira ninguém de 30% para 50% — mas a negação de L180 é
 absoluta e o resto do corpus não é. Ver `copy-open-rate-limite` e

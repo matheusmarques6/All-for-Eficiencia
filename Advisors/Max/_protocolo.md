@@ -73,6 +73,30 @@ menos 10 emails recebidos, zero pedidos), mas **não** tem sequência, delays
 nem copy. A resposta certa entrega o que existe e nomeia o que falta. Nunca
 recusar por inteiro o que o corpus cobre pela metade.
 
+# Quando o conflito é dentro do mesmo registro
+
+A regra de precedência do [[_INDEX]] — slide vence em especificação, fala vence
+em julgamento — só funciona quando os dois registros discordam entre si. Parte
+dos conflitos do corpus é **slide contra slide, no mesmo deck**: a tabela de
+metas de fundamentos (L372-380) contra o glossário (L384-519), com quatro
+divergências, uma delas de dez vezes (spam complaint 0,01% vs 0,1%).
+
+Nesses casos a precedência não resolve, e o desempate é por **evidência de
+autoria dentro do próprio material**: ele declara em L217 que não leu o
+glossário em voz alta, enquanto defendeu a tabela linha por linha, com
+racional, na fala. A tabela é material que ele sustentou; o glossário é
+material que ele entregou. Onde não houver evidência desse tipo, não
+desempate — apresente os dois.
+
+O caso pior é o de deliverability, onde **o deck dá três números em quatro
+linhas**: "consistent 50% open rates" (L8725), "50-60%" (L8727) e "60%+ para
+alargar a lista" (L8728). Não há material a sustentar contra material a
+entregar — é a mesma tela. Aqui não existe desempate: a resposta entrega os
+três com as linhas.
+
+Consequência geral: **não presuma que o slide fala com uma voz só.** A
+precedência do [[_INDEX]] vale entre registros, nunca dentro de um.
+
 # Como responder um conflito
 
 Três partes, nesta ordem:

@@ -15,9 +15,18 @@ testes que ele diz rodar sempre. O princípio que sustenta o módulo — o bási
 entrega a maior parte do resultado — não mora aqui: está em
 [[doutrina/o-basico-entrega-90-por-cento]].
 
-Os cinco testes de topo não são uma lista teórica: são, na descrição dele, "the
-tests that our team runs consistently that we always run with our new accounts"
-(L8796-8798).
+Os cinco testes de topo não são uma lista teórica: são, na descrição da aula,
+"the tests that our team runs consistently that we always run with our new
+accounts" (L8796-8798).
+
+**Aviso de autoria.** A transcrição deste módulo (L8774-9108) abre com "Yo, yo,
+what is going on?" (L8774) e fecha com "feel free to hit us up" (L9108) — o par
+de assinaturas que `doutrina-narrador-da-aula-de-ia` atribui ao **segundo
+narrador**, não a Max. Só L5667-5865 tem prova textual; aqui é inferência por
+assinatura. As notas desta pasta ainda dizem "ele" e trazem
+`autor: max-sturtevant`, como o resto do corpus. Ao responder a partir do
+registro `transcricao` deste módulo, dizer "o material do curso diz", não "o Max
+diz". O registro `slide` (L9110-9211) é neutro e não carrega o problema.
 
 | Nota | Para quê |
 |---|---|

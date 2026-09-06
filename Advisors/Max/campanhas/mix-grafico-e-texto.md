@@ -4,7 +4,7 @@ modulo: campanhas
 assunto: mix-grafico-e-texto
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L4298-4370 e L5232-5233 (transcrição), L5174-5175 (notas do masterclass), L5300-5311 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L4298-4370 e L5230-5233 (transcrição), L5174-5175 (notas do masterclass), L5300-5311 (slide)"
 conflitos: [campanhas-ratio-grafico-texto, campanhas-frequencia-de-texto-puro]
 status: rascunho
 ---
@@ -42,8 +42,8 @@ mecanismo.
 | Notas do masterclass | "aim for a **4:1 graphic to plain text ratio**" | notas de vídeo | L5174 |
 
 Predominância de gráfico é o único ponto onde os três concordam: "we mainly
-want the graphic-based emails" (L4344), "We want mostly graphic based emails"
-(L5307). Ver `campanhas-ratio-grafico-texto`.
+want the graphic-based emails" (L4344-4346), "We want mostly graphic based
+emails" (L5307). Ver `campanhas-ratio-grafico-texto`.
 
 # A regra absoluta do masterclass
 

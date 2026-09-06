@@ -86,7 +86,7 @@ confirmada pelo coordenador durante a execução.
 |---|---|
 | L5204 | "click the link in the description, first link, you can book a call with us to see if we're fit to scale your email marketing channel" — venda de serviço |
 | L5234 | "watch this next video and I will see you over there" — encadeamento de YouTube |
-| L4548 | "shameless plug, but the email brain really is awesome" — autopromoção; a ferramenta em si foi preservada porque é o passo 4 do calendário |
+| L4548-4550 | "shameless plug, but the email brain really is awesome" — autopromoção; a ferramenta em si foi preservada porque é o passo 4 do calendário |
 | L5477 | "It's free! You can claim access here »" — CTA de captação do GPT |
 | L4420, L4825-4827, L4674 | "Feel free to hit us up with any questions", "shoot us over emails", "we're here for you" — fechamento de aula |
 
@@ -101,16 +101,16 @@ alegações do vídeo de YouTube, sem verificação no corpus.
 
 | Linha | Bruto | Leitura |
 |---|---|---|
-| L4252 | "you're emailing three or four times a month or three or four times a week, sorry" | autocorreção; vale "a week" |
+| L4250-4252 | "you're emailing three or four times a month. / a month or three or four times a week, sorry" (a duplicação de "a month" é do bruto, na virada de linha) | autocorreção; vale "a week" |
 | L4298 | "So whoops, graphic and text based email" | troca de slide em voz alta |
 | L4598 | "I can't talk today. So I apologize guys." | filler |
-| L4574 | "Yeah. Not chocolate and dates, cacao and dates." | autocorreção |
+| L4574-4576 | "Yeah. Not chocolate and dates, cacao and dates." | autocorreção |
 | L4715 | "the SDE framework" | é S.C.E.; o slide (L5504) grafa correto |
-| L4917 | "And that's going to be very important." duas vezes seguidas | gagueira de ASR |
+| L4915-4917 | "And that's going to be very important." (L4915) e "And that's going to be very important because we'll talk more about this once we get to deliverability." (L4917) | gagueira de ASR |
 | L5039 | "Pretty lot." | corrompido; pelo contexto (L5037, "what's the likelihood that they open") a resposta esperada seria negativa, mas **não reconstruído** |
 | L5226 | "I just change it to Aerial" | é Arial |
 | L5226 | "because it's very catchy bte" | corrompido; a justificativa para remover o em dash não sobreviveu. A instrução (trocar por vírgula ou reticências) sobreviveu e foi preservada |
-| L5222, L5224 | "Claio", "Clavio" | é Klaviyo |
+| L5222, L5225 | "Claio", "Clavio" | é Klaviyo (ambas as grafias em L5222; "Clavio" de novo em L5225) |
 | L4813 | "The mind, a picture, pictures worth a thousand words. Yeah, I think that's correct." | filler |
 
 ---

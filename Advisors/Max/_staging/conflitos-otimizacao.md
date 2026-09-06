@@ -166,17 +166,22 @@ registro exclusivo de slide, sem julgamento dele por trás.
 
 ## otimizacao-deck-duplicado
 
-Quatro dos cinco testes de topo do deck de otimização já existiam, palavra por
-palavra, no deck de flows, sob o título "Flow Specific A/B Tests" (L4139).
+Quatro dos cinco testes de topo do deck de otimização já existiam no deck de
+flows, sob o título "Flow Specific A/B Tests" (L4139). Diff feito par a par:
 
-| Bloco | No deck de flows | No deck de otimização |
-|---|---|---|
-| Flow Time Delays | L4141-4145 | L9176-9180 |
-| Long Form vs Short Form | L4147-4151 | L9192-9193 e L9208-9209 |
-| SLs and PTs (as 5 variáveis) | L4153-4162 | L9165-9174 |
-| Graphic vs Text Based | L4164-4170 | L9151-9157 |
-| Promoting Categories vs Products | L4172-4176 | L9159-9163 |
-| Campaign Send Time | *(não existe lá)* | L9143-9149 |
+| Bloco | No deck de flows | No deck de otimização | Diff do corpo |
+|---|---|---|---|
+| Flow Time Delays | L4141-4145 | L9176-9180 | idêntico |
+| SLs and PTs (as 5 variáveis) | L4153-4162 | L9165-9174 | **1 palavra**: "Ilusing" (L4160) vs "Using" (L9172); "exlcuding" nos dois |
+| Graphic vs Text Based | L4164-4170 | L9151-9157 | idêntico |
+| Promoting Categories vs Products | L4172-4176 | L9159-9163 | idêntico salvo um espaço duplo em L9162 |
+| Long Form vs Short Form | L4147-4151 | *(não existe lá)* | ver abaixo |
+| Campaign Send Time | *(não existe lá)* | L9143-9149 | — |
+
+Nos quatro pares o nível de heading muda (`##` no deck de flows, `#` no de
+otimização); o corpo é o mesmo. "Long Form vs Short Form" **não** é um quinto
+par: o deck de otimização não repete a seção, só cita o tema em dois bullets da
+lista de fechamento (L9192-9193 e L9208-9209), com redação inteiramente outra.
 
 **Como responder:** não é contradição de conteúdo, é de proveniência — e importa
 por dois motivos. Primeiro, "Long Form vs Short Form" carrega no deck de flows um

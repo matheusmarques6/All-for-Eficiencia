@@ -1,5 +1,5 @@
 ---
-tipo: procedimento
+tipo: principio
 modulo: copy
 assunto: email-architect
 autor: max-sturtevant

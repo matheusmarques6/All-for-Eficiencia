@@ -25,7 +25,7 @@ lançamento de produto no dia 10 e flash sale de Halloween nos dias 30-31
 | 8 ou 9 | teaser do lançamento — *opcional* | "build up hype", avisar que vem item por tempo limitado | L9252 |
 | 10 | anúncio do lançamento | "that's probably what's going to generate the most sales" | L9251 |
 | 15 | lembrete com urgência, tipo "low on stock" | "about like a weekish later" | L9252 |
-| 4 | giveaway de rede social | preencher lacuna e "blow up our social media a bit" | L9253 |
+| 4 | giveaway de rede social | preencher lacuna e "blow up our social media a bit" | L9253-9254 |
 | 23 | restock de item popular | preencher a outra lacuna; "those always do well" | L9254 |
 | 30 | launch SMS da flash sale | "hey flash sale go buy" | L9253 |
 | 31 | last chance | "this is expiring in a few hours" | L9253 |
@@ -45,9 +45,9 @@ use of reminders and filling in an empty space with a product restock" (L9504).
 **2. Dias consecutivos são aceitáveis em evento grande.** "for big events like
 that it's fine to send on back-to-back days" (L9253) — dito sobre o par 30/31.
 
-O peso por evento também é declarado: um lançamento pede "two to three messages
-throughout the month" (L9251); uma flash sale de dois dias pede duas, "I
-wouldn't really overthink it" (L9253).
+O peso por evento também é declarado: um lançamento pede "two to three is
+messages throughout the month" (L9251, o "is" é ruído de ASR); uma flash sale de
+dois dias pede duas, "I wouldn't really overthink it" (L9253).
 
 # Horários
 
@@ -59,7 +59,7 @@ best" (L9255-9256). O slide repete: "every audience is different and you should
 | Janela | Status | Registro |
 |---|---|---|
 | 11am-2pm | "the safest", base recomendada — lunch time, "when many people are checking their phones" | fala L9256 · slide L9509, L9516 |
-| ~5pm | "early evenings (…) works well" | fala L9256 · slide L9509 |
+| ~5pm | "early evenings (…) works well" | fala L9256-9257 · slide L9509 |
 | 4pm | citado só na fala, e num trecho com ruído de ASR ("400 p.m.") | fala L9257 |
 | antes das 10am | evitar, "some people sleep in" | fala L9257 · slide L9513 |
 | depois das 7:30pm | evitar, "some people go to bed early or they shut off their phone" | fala L9257 · slide L9514 |
@@ -72,8 +72,8 @@ late" (L9257).
 # Onde o corpus discorda
 
 - **Frequência.** O calendário soma 6-7 mensagens em 31 dias e é chamado de
-  "perfect" (L9255), com dois envios em dias consecutivos — contra "not more
-  than one maybe two per week" (L9227) e "once per weekish" (L9248). Ver
+  "perfect" (L9255), com dois envios em dias consecutivos — contra o teto de
+  "one maybe two SMS messages per week" (L9227) e "once per weekish" (L9248). Ver
   `sms-frequencia` e [[frequencia]].
 - **Last chance.** 6-7pm na fala (L9257) contra 6:30-7pm no slide (L9515). Ver
   `sms-horario-de-last-chance`.

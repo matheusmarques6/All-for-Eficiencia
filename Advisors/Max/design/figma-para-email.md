@@ -38,7 +38,7 @@ Agrupar: shift + clique esquerdo, e escolher group ou frame (L7693-7697).
 
 # Dimensões
 
-> typically for your emails, you want it to be 600 width (L7713)
+> typically for your emails, you want it to be 600 width (L7713-7715)
 
 600 de largura é a única medida declarada como regra. A altura do exemplo — "let's
 make it like 800 tall" (L7717) — é do exercício, não regra; a mesma ordem de
@@ -46,7 +46,7 @@ grandeza reaparece como teto de slice no upload (L8033). Ver [[upload-do-design]
 
 O fundo do email é o **fill do frame**: "you want a specific background for your
 emails. So you can add a fill to your frame and have this be like the background"
-(L7723).
+(L7723-7725).
 
 Imagem entra por **file > place image** (L7737-7739); depois é redimensionar
 (proporções travadas pelo cadeado, L7645-7651) e arrastar para dentro do frame
@@ -68,7 +68,7 @@ Os parâmetros de uso (largura 600, altura, export 2x) estão em
 > The main stuff you're going to be using is creating your frames, adding in
 > shapes, adding in a ton of photos and all of that good stuff. (L7825-7827)
 
-E antes: "That's really the extent of what you use in Figma" (L7771). Retângulo é
+E antes: "That's really the extent of what you use in Figma" (L7771-7773). Retângulo é
 a forma padrão: "More often than not, you will be using something like a
 rectangle" (L7625).
 

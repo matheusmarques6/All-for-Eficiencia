@@ -40,11 +40,11 @@ Get the click" (L7011-7013). O deck corta o "always" e o "long term".
 2. **Tamanho** — mede pelo polegar, não pelo layout: "Look at how big this
    button is. Even a blind person could click that" (L7039). E o argumento de
    teste: "I've never had a bigger button lose an A-B test in click rates. The
-   bigger the button, the better" (L7041).
+   bigger the button, the better" (L7041-7043).
 3. **Repetir CTA** — para que quem já rolou não precise voltar ao topo
    (L7055-7057). O contrapeso é dele: "Don't confuse that with throwing a shit
    ton of buttons in your email. That's going to overwhelm the customer"
-   (L7059). A fala não dá número; o slide dá 2-3.
+   (L7059-7061). A fala não dá número; o slide dá 2-3.
 4. **Centralizar** — e as exceções são só da fala: imagem com a pessoa do lado
    direito, e seções de produto em zigue-zague (L7071-7081). "But for main
    buttons, try to keep them as centered as possible because oftentimes that

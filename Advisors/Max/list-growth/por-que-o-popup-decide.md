@@ -44,7 +44,16 @@ conversão do form (L593).
 | New Email Subscribers | **750** | **2,625** |
 | Welcome Flow Revenue | **$7,000** | **$25,000** |
 
-(tabela verbatim do slide, L1175-1181; os mesmos números na fala, L585-595)
+(tabela verbatim do slide, L1175-1181; os mesmos números na fala em L585-593,
+mais 750 → 2625 em L595)
+
+**Uma ressalva de leitura.** A recitação falada da última linha da tabela sai
+corrompida: L595 diz "and then 147,000 to 25,000" onde o valor é a receita do
+welcome flow. Nunca citar L595 para esse par. O número limpo está na própria
+fala, oito linhas antes — "$7,000 a month, automatically, to $25,000 a month"
+(L587) — e na tabela do slide (L1181); a própria L595 diz logo em seguida
+"roughly an average of 7,000". A conversão do form também sai duplicada na mesma
+linha ("8.57 8.75%"); o valor 8,75% vem de L585, L587 e L1179, não de L595.
 
 Desdobramentos declarados: 3,5x na conversão do form vira 3,5x na receita mensal
 do welcome flow (L1170, L589); em 12 meses são **31.500 subscribers contra

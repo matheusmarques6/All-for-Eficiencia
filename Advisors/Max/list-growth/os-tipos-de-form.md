@@ -4,7 +4,7 @@ modulo: list-growth
 assunto: tipos-de-form
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L639-645 e L998-1019 (transcrição), L1232-1238 e L1288-1298 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L639-645 (transcrição), L996-1016 (transcrição YouTube), L1232-1238 e L1288-1298 (slide)"
 conflitos: [list-growth-tipos-de-form]
 status: rascunho
 ---

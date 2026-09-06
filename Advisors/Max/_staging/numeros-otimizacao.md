@@ -44,6 +44,8 @@ que precede a transcrição e não é nem fala nem slide GAMMA.
 | Caso flow delay — placed order rate | "a 10 to 15% higher placed order rate" | transcricao | L8958 | — |
 | Caso flow delay — receita | "about a thousand dollars in extra revenue" | transcricao | L8960 | — |
 | Caso flow delay — click rate | "slightly higher on, on the 30 minutes, but, uh, marginal at best" | transcricao | L8962 | — |
+| Desconto claro no exemplo de pop-up | "do you want 10, 20% off or Hey, do you want a mystery discount?" | transcricao | L8996 | — |
+| Sequência de fim de semana do exemplo de sale | sexta graphic / sábado text based / domingo em aberto | transcricao | L8878-8882 | — |
 | Seções do email padrão | "hero section, bridge section, then product section" (3) | transcricao | L9012-9014 | — |
 | Urgência do exemplo de last chance | "this sales ending in 12 hours" | transcricao | L9020 | — |
 | CTA — variante A | "four products, and then one CTA at the bottom" | transcricao | L9042-9044 | — |

@@ -4,7 +4,7 @@ modulo: design
 assunto: secao-footer
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L7500-7526 (transcrição), L8291-8300 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L7500-7528 (transcrição), L8291-8300 (slide)"
 status: rascunho
 ---
 

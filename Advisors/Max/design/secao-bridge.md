@@ -4,7 +4,7 @@ modulo: design
 assunto: secao-bridge
 autor: max-sturtevant
 registro: [transcricao, slide]
-fonte: "CONTEUDO BRUTO/max.md — L7362-7440 (transcrição), L8256-8272 (slide)"
+fonte: "CONTEUDO BRUTO/max.md — L7362-7442 (transcrição), L8256-8272 (slide)"
 conflitos: [design-quantidade-de-bridges, design-bridge-e-product-opcionais]
 status: rascunho
 ---

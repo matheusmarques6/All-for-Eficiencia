@@ -52,9 +52,11 @@ We don't like this cuz there's no button" (L6376) — e adapta em vez de copiar
 
 # 4. Copy
 
-Divergência entre os dois vídeos — ver tabela. O comum: escreve dentro do layout
-já montado, seção por seção, e trata seção de rodapé como email em miniatura
-("treat it like a mini email", L6396).
+Divergência entre os dois vídeos — ver tabela. O comum é escrever dentro do
+layout já montado, seção por seção. A regra da última seção antes do rodapé só
+aparece no walkthrough do Calvin Klein: "How I think about these bottom sections
+is treat it like a mini email" (L6396). Na Gymshark não há equivalente — ali ele
+só diz que "every email needs a footer" (L6277).
 
 # 5. Design no Figma
 
@@ -79,8 +81,8 @@ Sempre em iloveimg.com/compress-image (L6339, L6492, L8041), porque imagem pesad
 faz o email aparecer em branco enquanto carrega (L6335, L8031-8032). Reduções medidas ao vivo:
 2.84 MB para 469 KB (L6339-6340), 3.98 MB para 963 KB / "77% smaller"
 (L8042-8043), "72% smaller" no Calvin Klein (L6492). Sobre o compressor nativo da
-plataforma: "Clavio has a compressed option... However, I've found that it's not
-too good quite yet" (L6494).
+plataforma: "Clavio has a compressed option. They'll do the compressing for you.
+However, I found that it's not too good quite yet" (L6494).
 
 # 8. Upload como blocos de imagem
 
@@ -89,20 +91,32 @@ padding — senão sobra faixa branca entre as fatias (L6495-6496, L8049, L8051)
 
 # 9. Links, alt text, teste
 
-"Every single image, you need to have a link" (L8055-8056; L6347, L6497). Alt
-text depois (L6347-6348, L8052-8054), com a ressalva de que quase ninguém bloqueia
-imagem — "less than 1% of people" (L8347-8348). Fecha mandando preview para si e
-conferindo links, desktop e mobile, antes de disparar (L6349).
+"Every single image, you need to have a link" (L8056; também L6347, L6497). Alt
+text é o outro item, com a ressalva de que quase ninguém bloqueia imagem —
+"less than 1% of people" (L6348), "not many people do" (L8053).
+
+A ordem entre os dois **não é estável**: na Gymshark ele liga primeiro e põe alt
+text por último (L6346-6348); na aula de upload faz o inverso, alt text antes dos
+links (L8052 → L8055). Não tratar como sequência fixa.
+
+Fecha mandando preview para si e conferindo links, desktop e mobile, antes de
+disparar (L6348-6349; mesma checagem em L8061).
 
 # Onde os dois walkthroughs divergem
 
 | Ponto | Gymshark | Calvin Klein / Feastables |
 |---|---|---|
-| Quando a IA entra | depois do layout, só num trecho de body copy (L6274-6276) | motor da copy inteira, inclusive subject line e bullets, com iterações (L6386-6411) |
+| Papel da IA | só num trecho de body copy (L6274-6276) | motor da copy inteira, inclusive subject line e bullets, com iterações (L6386-6411) |
 | Formato do slice | JPEG, "you can do whatever you want really" (L6337) | "PGs", 2x (L6489). Na aula de upload: "You can do a PNG or a JPEG. Honestly, it really doesn't matter" (L8035); ele exporta 2x PNG (L8040) |
 | Texto invisível no rodapé | sim: cola o About Us do site, tamanho 5, branco, line spacing 5%, para o Gmail contar texto num email todo de imagem (L6344-6346) | não aparece |
 | Alt text | sim (L6347-6348) | não aparece |
 | Quem desenha | ele sozinho | "I'd be lying if I said I didn't consult with one of my designers on hand" (L6458) |
+
+O que **não** diverge é o momento: nos dois vídeos a IA entra depois do layout
+montado (L6269-6274 na Gymshark; L6373-6386 no Calvin Klein). A diferença é de
+extensão, não de ordem. No Calvin Klein ele chega a dizer que a IA poderia
+substituir a etapa de ideação — "you could use this to replace that first step
+that we had" (L6388) — mas não é o que ele faz no vídeo.
 
 Ver `doutrina-ia-primeiro-rascunho` e `doutrina-formato-do-slice`.
 

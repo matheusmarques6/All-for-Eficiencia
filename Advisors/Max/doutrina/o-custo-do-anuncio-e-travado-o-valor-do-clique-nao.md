@@ -32,7 +32,7 @@ then convert them now or later without having to pay again on ads" (L1338). O
 gasto é idêntico nos dois cenários — muda quantas chances de conversão ele
 compra.
 
-Versão da aula 1 (L9): aquisição não lucrativa é pagar para a pessoa ver seu
+Versão da aula 1 (L13): aquisição não lucrativa é pagar para a pessoa ver seu
 anúncio 10 vezes até converter; lucrativa é pagar uma vez pelo clique, capturar
 o email e mandar 10 emails "for pennies".
 
@@ -64,7 +64,9 @@ premissa do problema é a taxa de conversão de site: "Conversion rates are sub
 
 Argumento amarrado a um momento. Ele ancora em stimulus checks de 2020, bear
 market, inflação e "2025 where tariffs come into play" (L9), nas atualizações do
-iOS que quebraram o rastreamento de anúncios (L9) e num cliente descrito como
-"2025, 2026" (L571). Os múltiplos de retorno que ele usa para contrastar os
-canais — $36+ por $1 em email contra $2-3 em anúncio, e marcas satisfeitas com
-0.8 ROAS (L9, L285) — não vêm com fonte.
+iOS "who have fucked up all the ad stuff" (L13) e no comportamento de compra
+descrito como "not in 2025 and there's so much competition in 2026" (L571). Os
+múltiplos de retorno que ele usa para contrastar os canais — "$36 plus in return
+for every $1 spent" contra "a 2 to 3 dollar return" em anúncio, e marcas
+satisfeitas com "a 0.8 ROAS", todos em L13; o $36+ repetido no slide L285 — não
+vêm com fonte.

@@ -62,7 +62,7 @@ conteúdo doutrinário.
 | L8508 | "But for the purposes here, you guys probably shouldn't" | morre antes do complemento |
 | L8560 | "that doesn't mean send, You have to emails in 7 days" | **o número do teto de frequência se perdeu**. Registrado em [[numeros-deliverability]] como valor ausente |
 | L8593 | "you want to aggressively put that in the other direction where you're not your, your engagement is so high" | autocorreção no meio; a segunda metade da frase é a boa e foi citada |
-| L8638 | "Click here, vote, and winner is going get a free $3 engagement" | repetição corrompida da linha anterior; o valor de $3 foi contado **uma vez só** |
+| L8638 | "Click here, vote, and winner is going get a free $3 engagement" | repetição corrompida da frase imediatamente anterior, **na mesma linha L8638** ("a free $3 gift card"). O valor `$3` aparece **duas vezes na linha**, mas foi contado **uma vez só** em [[numeros-deliverability]]. A repetição é evidência a favor do número, não contra |
 
 ## Gaps de transcrição — conteúdo ausente do corpus
 
@@ -90,6 +90,7 @@ don't use this") — evidência do corte.
 | L8649, L8651, L8653, L8655 | "Deliverability" / "**Deliverability**" / "**Intro Deliverability**" | headings repetidos sem corpo — estrutura de navegação do deck |
 | L8758 | "Deliverability" | rodapé/marcador de fim de deck |
 | L8691 | `[​h​](https://glockapps.com/)` antes do link real | link quebrado no export; a URL boa é `https://glockapps.com/domain-checker` |
+| L8734 | três caracteres `VT` (0x0B) invisíveis, antes de cada `**AND**` / `**OR**` | quebras de linha internas da célula do GAMMA. **É a única linha da faixa 8363-8759 que os tem.** Removidos ao transcrever a definição em [[so-envie-para-engajados]]; sem eles as palavras colam (`subscribed**AND**`). Não são parte da definição |
 | L8694, L8721, L8736, L8742, L8750, L8752 | headings duplicados do deck | navegação, não conteúdo |
 
 ## Conteúdo que pertence a outro módulo

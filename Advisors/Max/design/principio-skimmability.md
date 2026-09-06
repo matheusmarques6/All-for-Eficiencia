@@ -48,7 +48,7 @@ subheadlines". Na fala: usar ícones para chamar pontos, destacar (L7183-7185).
 **✅ Infographics** (L8203-8205) — remetido ao módulo de copy. A fala dá o motivo
 em forma de dupla negativa: "Nobody wants to read blocks of copy. Nobody just
 wants to look at like a plain picture. We need to mix our copy with our pictures
-by using infographics" (L7189-7191). Ver [[copy/_index]].
+by using infographics" (L7189-7193). Ver [[copy/_index]].
 
 # Onde o corpus discorda
 

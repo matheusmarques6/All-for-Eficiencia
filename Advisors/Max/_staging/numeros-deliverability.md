@@ -37,8 +37,8 @@ entre aspas são citação literal do corpus.
 | Bounce rate (fala) | "under 1%" / "should be less than 1%" | transcricao | L8440, L8448 | — |
 | Spam Complaint Rate | "Less than 0.01%" | slide | L8718 | — |
 | Unsubscribe Rate | "Less than 0.4%" (rótulo: "doesn't affect deliverability") | slide | L8719 | deliverability-unsubscribe-afeta-ou-nao |
-| Nº de métricas que decidem deliverability | 5 (open, click, bounce, unsubscribe, spam complaint) | slide | L8710 | deliverability-unsubscribe-afeta-ou-nao |
-| Nº de métricas na lista falada | 5, mesma ordem ("spam, complete rate" = ASR de *spam complaint rate*) | transcricao | L8430 | — |
+| Nº de métricas que decidem deliverability | 5, nesta ordem: open, click, bounce, **unsubscribe, spam complaint** | slide | L8710 | deliverability-unsubscribe-afeta-ou-nao |
+| Nº de métricas na lista falada | 5, ordem **diferente**: open, click, bounce, **spam complaint, unsubscribe** ("spam, complete rate" = ASR de *spam complaint rate*) | transcricao | L8430 | — |
 
 ## Segmentação
 
@@ -50,6 +50,7 @@ entre aspas são citação literal do corpus.
 | Lista para grandes datas | "180, 365 day engage list" | transcricao | L8466 | — |
 | Janela da definição do segmento base | 90 days (3 condições em OR) | slide | L8734 | — |
 | Faixa de acerto da lista (fala) | "consistently receiving 50 to 60% opens" | transcricao | L8468 | deliverability-limiar-de-open-rate |
+| Resultado prometido de enviar só a engajados (slide) | "This is how we can get consistent 50% open rates" | slide | L8725 | deliverability-limiar-de-open-rate |
 | Faixa de acerto da lista (slide) | "Whatever list gets you 50-60% opens" | slide | L8727 | deliverability-limiar-de-open-rate |
 | Gatilho para alargar (slide) | "If you start to get 60%+ opens, widen your list" | slide | L8728 | deliverability-limiar-de-open-rate |
 | Gatilho para apertar (slide) | "If you start to get 40% opens, tighten your list" | slide | L8729 | — |
@@ -144,6 +145,6 @@ entre aspas são citação literal do corpus.
 | Passos de upload | 5 | slide | L8744-8748 | — |
 | Glockapps — tamanho da lista de teste | "a list of 100+ email addresses" | slide | L8756 | — |
 | Glockapps — cadência sugerida | "consider using one of their tests once per month" | slide | L8757 | — |
-| Flows de alta intenção citados | 5 nomeados + "I'll list the other ones" (nunca lista) | transcricao | L8545 | — |
+| Flows de alta intenção citados | 6 nomeados — "Welcome Flow, Post-Purchase, Abandoned Card [*Cart*], Abandoned Checkout, Browse, Site Abandonment" — + "I'll list the other ones" (nunca lista). São 6 e não 5: o corpus trata Browse Abandonment e Site Abandonment como flows distintos, com gatilhos distintos (ver `flows/browse-abandon` e `flows/site-abandon`) | transcricao | L8545 | — |
 | Gap de transcrição — reparo | 13:04 → 13:33, ~29 segundos ausentes | transcricao | L8593-8594 | — |
 | Gap de transcrição — nome da ferramenta | 21:52 → 22:33, ~41 segundos ausentes | transcricao | L8641-8642 | — |

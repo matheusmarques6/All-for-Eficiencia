@@ -27,9 +27,12 @@ ficaram na ordem original e nenhuma foi partida ao meio.
 
 # A ressalva mais importante: ele não leu isto
 
-A transcrição correspondente (L217-229) **não explica nenhum termo**. É
-meta-comentário: ele declara que vai pular a leitura e lista os títulos das
-categorias em voz alta.
+A transcrição correspondente (L217-229) é quase toda meta-comentário: ele declara
+que vai pular a leitura e lista os títulos das categorias em voz alta. **Só dois
+dos 99 termos ganham definição falada**, e os dois na mesma linha (L225): warmup
+— "so process of gradually rebuilding your center reputation" — e DKIM/SPF/DMARC
+— "which are just like authentication protocols". Nenhuma métrica, nenhum alvo
+numérico e nenhum flow é definido em voz alta.
 
 > So I am going to gloss over this glossary, I'm going to be gloss over-ing this
 > email marketing glossary in key terms. You can use these if you want (L217)
@@ -40,15 +43,16 @@ E depois rebaixa parte do conteúdo:
 > if you ever mention it, you can check back to this (L229)
 
 O único uso que ele prescreve é consulta pontual: "if you ever don't know
-anything that I mentioned, you can refer to this" (L219). Ele também antecipa
+anything that I mentioned, you can refer to this" (L219-221). Ele também antecipa
 que boa parte é óbvia — "some of these are going to be pretty straightforward"
 (L221) — e admite que uma categoria é a parte difícil: "with health and
 deliverability. This is where things get a little bit comm- complicated" (L225).
 
-**Consequência prática:** o glossário é `registro: slide` puro. Nenhuma definição
-aqui tem fala do Max por trás sustentando o número ou a redação. Onde uma
+**Consequência prática:** o glossário é `registro: slide` puro. Fora das duas
+exceções de L225, nenhuma definição aqui tem fala do Max por trás — e **nenhum
+alvo numérico do glossário é falado em lugar nenhum do corpus**. Onde uma
 definição do glossário discordar de algo que ele **falou**, a fala vence, porque
-ele nunca defendeu estas linhas — nem as leu.
+ele nunca defendeu estas linhas.
 
 # Onde o glossário contradiz o próprio módulo
 

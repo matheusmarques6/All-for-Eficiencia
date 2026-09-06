@@ -28,7 +28,7 @@ o que enviar, como montar o calendário e para quem enviar.
 
 # Frequência — a tabela, num lugar só
 
-| Store Revenue | Monthly Site Visitors | Slide (L5295-5298) | Fala (L4264-4270) |
+| Store Revenue | Monthly Site Visitors | Slide (L5295-5298) | Fala (L4264-4272) |
 |---|---|---|---|
 | $0-50k/mo | 0-25k/mo | 2x per week | "two times a week is probably pretty safe" |
 | $50k-250k/mo | 25k-50k/mo | 3x per week | "three acts per week" |

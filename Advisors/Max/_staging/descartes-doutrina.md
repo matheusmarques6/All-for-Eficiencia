@@ -100,5 +100,5 @@ Email Donut, Email Love): L8319-8332 — essas **entraram** na nota
 
 L5753 — "something that Max had put together himself" — parece ruído de terceira
 pessoa numa frase qualquer. **Não é.** É a única prova textual de que há mais de
-um narrador no corpus, e reescreve a autoria de sete das treze notas desta pasta.
+um narrador no corpus, e reescreve a autoria de oito das treze notas desta pasta (nove, contando [[roubar-e-o-metodo]], cujo vídeo não tem assinatura).
 Está em `doutrina-narrador-da-aula-de-ia`.

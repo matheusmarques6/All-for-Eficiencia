@@ -33,14 +33,14 @@ L8185) não têm esse problema. Onde houver as duas versões, citar a do slide.
 | Medida | Valor verbatim | registro | linha | conflito |
 |---|---|---|---|---|
 | Retorno médio de email | $36+ return for every $1 spent | slide | L285 | — |
-| Retorno médio de email (fala) | $36 plus in return for every $1 spent | transcricao | L9 | — |
-| Retorno de anúncio | 2 to 3 dollar return | transcricao | L9 | — |
-| ROAS que ele diz ver marcas aceitarem | a 0.8 ROAS | transcricao | L9 | — |
+| Retorno médio de email (fala) | $36 plus in return for every $1 spent | transcricao | L13 | — |
+| Retorno de anúncio | 2 to 3 dollar return | transcricao | L13 | — |
+| ROAS que ele diz ver marcas aceitarem | a 0.8 ROAS | transcricao | L13 | — |
 | Custo hipotético de aquisição | paying $50 | slide | L3479 | — |
 | Custo hipotético de aquisição (fala) | you pay $50 | transcricao | L1338 | — |
 | CAC de outras marcas (fragmento) | it's more like 10, 15, 5 | transcricao | L1336 | — |
-| Impressões pagas até converter, cenário ruim | see your ad 10 times | transcricao | L9 | — |
-| Emails após um clique, cenário bom | send them 10 emails for pennies | transcricao | L9 | — |
+| Impressões pagas até converter, cenário ruim | see your ad 10 times | transcricao | L13 | — |
+| Emails após um clique, cenário bom | send them 10 emails for pennies | transcricao | L13 | — |
 | Anúncios de e-com vistos por dia | over 70 different e-commerce brand ads every single day | transcricao | L9 | — |
 | Estudo citado sem fonte | some studies that say people see, like, 250 | transcricao | L9 | — |
 | Taxa de conversão de site | Conversion rates are sub 2%, most under 1% | transcricao | L573 | — |
@@ -115,7 +115,7 @@ Observação importante: o valor **"antes" não conflita** — os três registro
 | Tamanho de arquivo que ele evita | 5 10 megabytes | transcricao | L8031 | — |
 | Texto invisível, corpo | size five | transcricao | L6345-6346 | — |
 | Texto invisível, entrelinha | change this to like 5% | transcricao | L6346 | — |
-| Pessoas que bloqueiam imagem | less than 1% of people | transcricao | L8347-8348 | — |
+| Pessoas que bloqueiam imagem | less than 1% of people | transcricao | L6348 | — |
 | Pessoas que bloqueiam imagem (upload) | not many people do | transcricao | L8053 | — |
 | Corpus de treino do custom GPT | over 500 docs of email marketing trainings | transcricao | L6387 | — |
 | Tempo de desenvolvimento do custom GPT | over the past 6 months | transcricao | L6387 | — |

@@ -58,7 +58,10 @@ will just drive your price up and decrease your sms ROI" (L9407).
 marketing our messages need to be pretty Bare Bones and simple" (L9233-9234);
 slide: "your sms messaging has to be pretty bare bones and simple" (L9411). Isso
 não é concessão de qualidade: "That doesn't mean it can't be effective"
-(L9412). Ver os templates em [[flows-sms]] — todos cabem em um SMS.
+(L9412). Ver os templates em [[flows-sms]]: as cinco mensagens dos quatro
+templates têm entre 72 e 132 caracteres como estão escritas — mas isso é
+contagem nossa, com os placeholders ainda vazios. O corpus não faz essa conta
+nem diz se os templates cabem em um SMS depois de preenchidos.
 
 # Onde o corpus discorda
 
