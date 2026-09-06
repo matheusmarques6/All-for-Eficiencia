@@ -96,10 +96,17 @@ valor. Se perguntarem, a resposta é a recusa dele, não um número.
 
 # Onde o corpus discorda
 
-**Quatro conflitos entre esta tabela e o glossário do mesmo módulo.** O glossário
-é slide que ele declaradamente não leu ([[glossario]], L217) — mas é slide, e o
-protocolo dá precedência a slide em especificação. Registrar os dois lados,
-sempre.
+**Quatro conflitos entre esta tabela e o glossário do mesmo módulo.** Os dois são
+slide, no mesmo deck: é conflito **dentro** do mesmo registro, e a precedência
+do [[_INDEX]] ("slide vence em especificação") **não se aplica** — ela só vale
+entre registros diferentes. O desempate aqui é por evidência de autoria dentro
+do próprio material: em L217 ele declara que vai pular o glossário ("So I am
+going to gloss over this glossary… You can use these if you want"), enquanto
+defendeu esta tabela linha por linha na fala (L168-194). **A tabela é material
+que ele sustentou; o glossário é material que ele entregou — onde os dois
+divergem, vale a tabela.** Registrar os dois lados sempre, e nunca dar a
+divergência como faixa: `<0.01%` é a posição sustentada, `<0.1%` é registro
+divergente. Ver [[_conflitos]] § "Conflitos dentro do mesmo registro".
 
 | Métrica | Tabela + fala | Glossário |
 |---|---|---|

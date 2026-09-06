@@ -171,9 +171,11 @@ Copy e campanhas dizem `3 seconds` (L5605, L6517, L5501); design diz
 to four seconds"` na fala (L7161) — grafias diferentes, não confundir — e, três
 linhas adiante no mesmo slide, `3 seconds` (L8201); a fala de campanhas diz
 `"the first two to three seconds"` (L4707 — `outro-narrador`, não citável como
-fala de Max). O
-valor do "antes" **não** conflita: os três registros dizem `5-10 seconds`. Ver
-`doutrina-segundos-de-atencao` e `design-segundos-de-atencao`.
+fala de Max). O valor do "antes" **também conflita**: L4703, L5500 e L6516 dizem
+`5-10 seconds`, mas L5891 oferece uma quarta versão — `"used to be three to
+five, five to 10 maybe"`. A arbitragem está registrada em
+`doutrina-segundos-de-atencao`; uma versão anterior desta linha declarava
+consenso no "antes", trabalhando com três das quatro ocorrências.
 
 ## A receita atribuída da agência tem quatro valores
 

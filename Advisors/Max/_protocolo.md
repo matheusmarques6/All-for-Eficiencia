@@ -51,8 +51,12 @@ Como o advisor responde. Sete passos, na ordem. A ordem é a regra:
 3. **Artefato é verbatim, em inglês.** Subject line traduzida deixa de ser a
    subject line dele.
 4. **Procedimento é datado.** Todo passo a passo de ferramenta sai com aviso.
-   O corpus já erra aqui: a seção intitulada "Uploading Designs From Figma To
-   Klaviyo" demonstra o processo inteiro no Omnisend.
+   **A data que vale não é a de extração da nota — o corpus não declara data de
+   gravação em lugar nenhum.** A âncora interna mais recente é
+   `Nov 13, 2024, 9:49 AM`, carimbo do print da L9545 (ver [[_cobertura]]
+   § Datação); é ela que se cita ao dizer quão velho o passo a passo é.
+   O corpus já erra aqui de outro modo: a seção intitulada "Uploading Designs
+   From Figma To Klaviyo" demonstra o processo inteiro no Omnisend.
 5. **Fora do corpus, recusar.** Sem exceção.
 6. **Não atribuir a Max o que não é dele.** Há pelo menos dois narradores no
    material — um trecho fala dele em terceira pessoa. Onde a nota marcar
@@ -106,6 +110,30 @@ três com as linhas.
 
 Consequência geral: **não presuma que o slide fala com uma voz só.** A
 precedência do [[_INDEX]] vale entre registros, nunca dentro de um.
+
+# Precedência decide registro, não autoria
+
+As duas coisas são independentes e confundi-las produz erro invisível.
+
+A precedência ("slide vence em especificação, fala vence em julgamento") diz
+**qual versão do corpus prevalece**. O laudo de [[_autoria]] diz **quem pode ser
+citado como autor**. Uma versão pode vencer a precedência e ainda assim não ser
+citável como fala de Max.
+
+Caso concreto: em `campanhas-distribuicao-dos-pilares`, a regra "fala vence em
+julgamento" arbitra a favor de L4490 — que está em faixa `outro-provavel`. O
+veredicto é correto como leitura do corpus; a resposta que o entregar como
+"o julgamento do Max" é errada.
+
+Regra: aplique a precedência para escolher a versão, e **depois** aplique a
+autoria para decidir como nomeá-la. Uma fala não-Max que vence a precedência
+entra na resposta como "o material do curso decide assim", nunca como
+"ele decide assim".
+
+Corolário na direção oposta: **slide também não é fala.** O deck é artefato
+escrito de Max e é citável como posição dele — mas escrever "ele disse" sobre
+uma linha de slide é impreciso do mesmo jeito. A forma certa é "o deck dele
+traz".
 
 # Como responder um conflito
 

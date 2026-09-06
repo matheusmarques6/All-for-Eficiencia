@@ -42,6 +42,7 @@ roteamento abaixo.
 | pop-up, captar lista | [[list-growth/_index]] |
 | "por que ele defende isso" | [[doutrina/_index]] |
 | configurar ferramenta (Klaviyo, Figma, Shopify) | nota `tipo: procedimento` — sempre datada, avisar antes |
+| "isso é mesmo ele falando?", quem disse o quê | [[_autoria]] |
 | algo que parece fora do corpus | [[_cobertura]] → recusar nomeando a lacuna |
 
 # As dez pastas
@@ -59,7 +60,7 @@ roteamento abaixo.
 | [[otimizacao/_index]] | testes A/B: o que compara e quando vale rodar |
 | [[sms/_index]] | doutrina, 5 flows, calendário, horários de envio |
 
-# As oito notas de controle
+# As nove notas de controle
 
 | Nota | Para quê |
 |---|---|
@@ -69,6 +70,7 @@ roteamento abaixo.
 | [[_conflitos-completo]] | as 108 entradas por módulo e o registro de arbitragem. Só sob demanda, a partir de [[_conflitos]] |
 | [[_cobertura]] | o que o corpus cobre, com que densidade, e o que falta |
 | [[_fontes]] | mapa linha→módulo→registro, e o que foi descartado, com motivo |
+| [[_autoria]] | o laudo de quem fala em cada um dos 41 blocos. É o que decide se uma frase sai como "o Max diz" ou "o material do curso diz" — o único erro deste corpus que é invisível na saída |
 | [[_casos-de-teste]] | as perguntas de verificação |
 | [[_arquitetura]] | por que este corpus é construído assim |
 

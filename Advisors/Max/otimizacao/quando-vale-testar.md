@@ -105,6 +105,13 @@ highest leverage test" (L8826; slide L9140-9141), e o topo declarado é
 # O que o corpus não diz
 
 Nenhum limiar estatístico — sem significância, p-valor ou amostra mínima além
-dos números acima; nada sobre quantos testes rodar em paralelo. A frase
-L8818-8820 sai emendada no ASR ("the larger the sample size, the more times you
-run it, the more conclusive"): não separa amostra de repetição.
+dos números acima; nada sobre quantos testes rodar em paralelo. Nenhuma duração
+em dias. A frase L8818-8820 sai emendada no ASR ("the larger the sample size,
+the more times you run it, the more conclusive"): não separa amostra de
+repetição.
+
+**Cadência de teste existe, em outro módulo.** O que não a tem é *esta faixa*:
+a única cadência declarada do corpus é a de teste de form, e é de Max —
+"at least for like bi-weekly. Once every two weeks, run some sort of test"
+(L663). Vale para pop-up, não para campanha; é o vizinho a oferecer, marcando
+que é de outro módulo. Ver [[list-growth/os-sete-testes-de-form]].

@@ -94,7 +94,15 @@ consistente em L6558-6576, L5504-5512 e na fala não-Max (L4715-4717). Ver
 
 A transcrição de campanhas chama o framework de "SDE framework" (L4715) enquanto
 o deck da mesma aula escreve "S.C.E." (L5504) — ruído de transcrição, não
-divergência de conteúdo.
+divergência de conteúdo. **Consequência de recuperação:** buscar "S.C.E." no
+bruto não acha o racional falado. Ele existe e é o trecho mais longo do corpus
+sobre o framework — **L4715-4767**, que percorre as três letras com exemplo
+trabalhado para cada uma ("skimmable, use of sections, quick copy, bolded
+points, just making this super clear", L4717-4719; depois Magic Mind para Clear
+& Concise e Seed para Engaging) e fecha no papel do infográfico (L4759). Quem
+perguntar "ele explica por que são esses três?" recebe isso, mais os decks —
+nunca "só existe a lista dos três princípios". Faixa `outro-provavel`: sai como
+"o material do curso explica", não "ele explica".
 
 Atenção para não confundir listas: o módulo de design tem os próprios princípios
 numerados, onde skimmability é o "#2" (L7155, L8181). É outra lista, do módulo

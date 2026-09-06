@@ -69,9 +69,11 @@ Slide, verbatim (L3491-3497):
 > * Include a last chance discount email
 
 Defesas na fala: disparo imediato porque "this is the warmest they are ever
-going to be" (L1430) — "don't wait some bullshit 10 minutes or wait one hour"
-(L1422). Lembrar o desconto em todo email porque obrigar o cliente a procurar o
-código — "That's going to increase churn" (L1482). O text-based não tem gráfico e
+going to be" (L1430) e porque "Give people the discount code that they signed up
+for immediately" (L1426) — "The first email in the welcome flow needs to fire
+automatically upon signing up" (L1420), "don't wait some bullshit 10 minutes or
+wait one hour" (L1422). Lembrar o desconto em todo email porque obrigar o
+cliente a procurar o código — "That's going to increase churn" (L1482). O text-based não tem gráfico e
 "comes from a real person" (L1490). O last chance porque "people need urgency to
 buy (…) it's just human nature, you put things off" (L1498-1504).
 
