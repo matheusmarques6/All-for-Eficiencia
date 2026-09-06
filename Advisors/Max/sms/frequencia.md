@@ -52,7 +52,9 @@ their phone number" (L9227). Ver [[por-que-sms]].
 
 Esses números de email são **do módulo de SMS** e não coincidem com a tabela de
 frequência por faturamento do módulo de campanhas (2x a 5-6x/semana conforme o
-tier, L5295-5298; "sweet spot" de 2-4x, L4242). Ver
+tier, L5295-5298, slide de Max; "sweet spot" de 2-4x, L4242 — **importado de faixa
+não-Max**: está em L4202-4421, `outro-provavel` por [[_autoria]], e não é citável
+como fala dele). Ver
 `sms-frequencia-de-email-comparada` e [[campanhas/frequencia-de-envio]].
 
 # Onde o corpus discorda

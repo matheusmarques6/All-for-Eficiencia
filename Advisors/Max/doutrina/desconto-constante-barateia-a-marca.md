@@ -69,9 +69,9 @@ competitors (L4388-4392). Somados a dor do cliente, objeções e social proof, �
 que a mesma fala chama de marketing: "You know your customer, you tap into the pain
 points, you overcome the objections, you put in tons of social proof" (L4386).
 
-# Onde ele mesmo relativiza
+# Onde o corpus relativiza
 
-O material não proíbe desconto — proíbe cadência de desconto: "there's no need to just
+O material não proíbe desconto — proíbe cadência de desconto (fala não-Max): "there's no need to just
 go discount, discount, discount, discount"; "you want to be very strategic with
 how you're doing this" (L4372-4378).
 

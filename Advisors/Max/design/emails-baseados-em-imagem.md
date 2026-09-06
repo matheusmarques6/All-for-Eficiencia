@@ -17,6 +17,12 @@ disso — a passagem é escrita como refutação.
 
 # Contra o rumor
 
+A refutação citada abaixo **não é fala de Max**: vem do módulo de deliverability
+(L8381-8646), classificado `outro-provavel` por [[_autoria]] — outro narrador, por
+estilometria, sem prova nominal. A nota é de Max (o núcleo sai de L8022-8032,
+faixa `max-provado`); só esta citação é importada de faixa não-Max e entra como
+material do curso, não como fala dele.
+
 > There's some rumor in the space, someone started it like 8 years ago, and maybe
 > it had some truth then that you need to have like HTML sections in your email.
 > You need to have native text sections and whatnot. But that couldn't be farther
@@ -74,10 +80,10 @@ sentido oposto:
 > email will include [improve] deliverability because it'll show different things
 > that Google wouldn't pick up on if it was an image-only email. (L8500-8504)
 
-Ou seja: "você não precisa de seções de texto nativo" (L8026) convive com "algum
-HTML no email melhora a deliverability" (L8504). O alt text é o que ele oferece
-como ponte entre as duas — e é por isso que virou passo obrigatório do upload
-(L8052-8053). → `design-html-vs-imagem`. A nota dona desse trecho está em
+Ou seja: "você não precisa de seções de texto nativo" (L8026, fala de Max) convive
+com "algum HTML no email melhora a deliverability" (L8504, **outro-narrador**). O
+alt text é a ponte oferecida entre as duas — e é por isso que virou passo
+obrigatório do upload (L8052-8053), esse sim narrado por Max. → `design-html-vs-imagem`. A nota dona desse trecho está em
 [[deliverability/_index]].
 
 # O que o corpus não diz

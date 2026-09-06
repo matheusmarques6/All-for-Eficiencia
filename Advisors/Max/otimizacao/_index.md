@@ -11,7 +11,8 @@ status: rascunho
 # O que tem nesta pasta
 
 A mecânica de teste: quando ligar um A/B test, como saber que ele concluiu, e os
-testes que ele diz rodar sempre. O princípio que sustenta o módulo — o básico
+testes que a aula diz rodar sempre — a aula, não Max: ver o aviso abaixo. O
+princípio que sustenta o módulo — o básico
 entrega a maior parte do resultado — não mora aqui: está em
 [[doutrina/o-basico-entrega-90-por-cento]].
 
@@ -66,7 +67,7 @@ curso diz", nunca "o Max diz".
 trazem caso real (send time, categorias, flow delay) e nenhum traz o print — as
 telas lidas em voz alta estão ausentes do corpus.
 
-# A ordem que ele declara
+# A ordem que a aula declara (fala não-Max, exceto os slides citados)
 
 1. Ter o básico de pé antes de testar ([[quando-vale-testar]]; L8786-8790, L9122).
 2. Começar pelo teste de maior alavanca (L8826, L9140-9141).
@@ -89,8 +90,8 @@ Todos detalhados em [[_conflitos]]; números em [[_numeros]].
 Nada de estatística (significância, amostra mínima, duração). Nada sobre como
 montar o teste dentro da ferramenta — o módulo cita "experiments, which is just
 A/B tests" no Klaviyo uma vez, em outro ponto do corpus (L140), e nunca mostra a
-tela. E ele encerra apontando para um documento externo com mais testes que não
-está no corpus (L9094-9096).
+tela. E a aula encerra apontando para um documento externo com mais testes que não
+está no corpus (L9094-9096, faixa não-Max).
 
 **Exceção de tamanho**: [[outros-testes]] passa dos 4 KB por ser catálogo dos 13
 itens com racional verbatim de cada um; foi mantida inteira de propósito.

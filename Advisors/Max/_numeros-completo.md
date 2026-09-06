@@ -124,9 +124,11 @@ Sem fala e sem tabela para confirmar. Citáveis apenas com a origem declarada.
 |---|---|---|---|---|
 | Número de pilares | `"3.5"` | transcrição + slide | L21, L291 | — |
 | Brand A — lista atual | `"10,000 current email subscribers"` | transcrição + slide | L21, L301 | — |
-| Brand A — entrada mensal | `"Gains 2,000 new subscribers/mo"` | transcrição + slide | L21, L303 | — |
+| Brand A — entrada mensal | `"Gains 2,000 new subscribers/mo"` | slide | L303 | — |
+| " " (fala) | `"they gain 2,000 new subscribers a month"` | transcrição | L21 | — |
 | Brand B — lista atual | `"20,000 current email subscribers"` | transcrição + slide | L21, L307 | — |
-| Brand B — entrada mensal | `"Gains 250 new subscribers/mo"` | transcrição + slide | L21, L309 | — |
+| Brand B — entrada mensal | `"Gains 250 new subscribers/mo"` | slide | L309 | — |
+| " " (fala) | `"they gain 250 new subscribers a month"` | transcrição | L21 | — |
 | Janela do honeymoon | `"the warmest they are is within 30 days"` | transcrição | L22 | — |
 | " " (slide) | Honeymoon phase declarada **sem prazo** | slide | L319 | — |
 | Autobiografia (Breeze) | `"I literally got this like 7 days ago"` / `"bought like 2 months ago"` | transcrição | L22 | — |
@@ -196,7 +198,8 @@ Faixa: L523-1084 (transcrição), L1085-1306 (slide GAMMA). A aula 6
 | " " (YouTube) | `"4 to 8 seconds... I'm doing a 6second delay"` | transcrição (YouTube) | L1033 | list-growth-time-delay |
 | " " (trigger padrão no Alia) | `"after 5 seconds"` | transcrição | L982 | list-growth-time-delay |
 | Delay longo demais | `"30 seconds, 40 seconds"` | transcrição (YouTube) | L1034 | — |
-| Cobertura de tela | `"Form covers at least 75% of screen"` | transcrição + slide | L657, L1253 | list-growth-popup-vs-full-page |
+| Cobertura de tela | `"Form covers at least 75% of screen"` | slide | L1253 | list-growth-popup-vs-full-page |
+| " " (fala) | `"We want the form to cover at least 75% of the screen"` | transcrição | L657 | list-growth-popup-vs-full-page |
 | Copy | `"Under 10 words of copy"` | transcrição + slide | L659, L1254 | — |
 | Inputs por passo | `"one input per step"` | transcrição + slide | L653, L1250 | — |
 | Dimensão mobile | `"750X500"` | transcrição | L710 | — |
@@ -218,9 +221,11 @@ Faixa: L523-1084 (transcrição), L1085-1306 (slide GAMMA). A aula 6
 | " " (fala) | `"top seven A/B tests"` | transcrição | L663 | — |
 | Cadência | `"at least for like bi-weekly. Once every two weeks"` | transcrição | L663 | — |
 | Impacto de trocar a oferta | `"decreasing your CAC by 15%"` | transcrição | L665 | — |
-| Par de delay a testar | `"Try 4 second vs 12 second to start then start closing the gap"` | transcrição + slide | L669, L1274 | list-growth-time-delay |
+| Par de delay a testar | `"Try 4 second vs 12 second to start then start closing the gap"` | slide | L1274 | list-growth-time-delay |
+| " " (fala) | `"do four seconds versus twelve seconds and look at the total submits"` | transcrição | L669 | list-growth-time-delay |
 | Métrica de decisão do delay | `"TOTAL submits, not conversion rate"` | slide | L1274 | — |
-| Swipe file | `"29 solid pop-up form examples"` | transcrição + slide | L671, L1290 | — |
+| Swipe file | `"29 solid pop-up form examples"` | slide | L1290 | — |
+| " " (fala) | `"There are 29 solid pop up form examples"` | transcrição | L671 | — |
 | Micro-commit vence o classic | `"75% of the AB tests that I do"` | transcrição (YouTube) | L1007 | — |
 | " " (revisão na mesma frase) | `"even a little bit more towards like 80 to 85%"` | transcrição (YouTube) | L1007 | — |
 
@@ -238,7 +243,8 @@ Faixa: L523-1084 (transcrição), L1085-1306 (slide GAMMA). A aula 6
 | Teto de desconto | `"as long as you're not giving up like 80% off"` | transcrição (YouTube) | L1019 | — |
 | Oferta hipotética extrema | `"90% off"` | transcrição | L619 | — |
 | Desconto existente a esconder | `"20% off all orders"` | transcrição | L613 | — |
-| Free gift — valor percebido | `"a free $29 gift"` | transcrição | L633, L1024 | — |
+| Free gift — valor percebido | `"you've got a free $29 gift"` | transcrição (YouTube) | L1024 | — |
+| " " (aula) | `"you've got an exclusive $29 gift"` | transcrição | L633 | — |
 | Free gift — custo real | `"cost them $2 to $3 to produce"` | transcrição (YouTube) | L1025 | — |
 | " " (versão da aula 3) | `"cost the brand like two dollars to produce"` | transcrição | L635 | — |
 | Descontos usados como exemplo | 10%, 15% | transcrição | L661, L728 | — |
@@ -257,7 +263,8 @@ valor é regra: creatina avulsa `"$39"` · por assinatura `"$29, so $10 off"` ·
 | Medida | Valor verbatim | Registro | Linha | Conflito |
 |---|---|---|---|---|
 | Métodos de list growth | `"four types, four methods"` / `"The 4 Methods"` | transcrição + slide | L531, L1093 | — |
-| Setup do checkbox pós-compra | `"takes 5 minutes to set up on Shopify"` | transcrição + slide | L537, L1114 | — |
+| Setup do checkbox pós-compra | `"takes 5 minutes to set up on Shopify"` | slide | L1114 | — |
+| " " (fala) | `"they take 5 minutes to set up in Shopify"` | transcrição | L537 | — |
 | Tipos de form | `"four different types of pop-up forms"` | transcrição (YouTube) | L998 | list-growth-tipos-de-form |
 | " " (slide, conflitante) | `"Use one of the 5 form types"` | slide | L1200 | list-growth-tipos-de-form |
 | Conversão do form, antes → depois | `"2.5%"` → `"8.75%"` | transcrição + slide | L585, L1179 | — |
@@ -267,12 +274,15 @@ valor é regra: creatina avulsa `"$39"` · por assinatura `"$29, so $10 off"` ·
 | Subscribers em 12 meses | `"9,000"` → `"31,500 new subscribers"` | transcrição + slide | L591, L1171 | — |
 | Receita em 12 meses | `"$84,000"` → `"$300,000 of revenue"` | transcrição + slide | L591, L1172 | — |
 | Novos subscribers/mês | `"750"` → `"2,625"` | transcrição + slide | L595, L1180 | — |
-| AOV, antes e depois | `"~ $93"` | transcrição + slide | L593, L1177 | — |
-| Visitantes/mês, antes e depois | `"~ 30,000"` | transcrição + slide | L593, L1178 | — |
-| Janela da média | `"three month averages"` | transcrição + slide | L593, L1175 | — |
-| Crescimento de lista (case YouTube) | `"16,000 to 50,000 email subscribers"` | transcrição (YouTube) | L993 | — |
+| AOV, antes e depois | `"~ $93"` | slide | L1177 | — |
+| " " (fala) | `"before was $93 AOV and after is $93 AOV"` | transcrição | L593 | — |
+| Visitantes/mês, antes e depois | `"~ 30,000"` | slide | L1178 | — |
+| " " (fala) | `"The monthly side visitors, 30,000, monthly side visitors after, 30,000"` *(`side` = ASR de `site`)* | transcrição | L593 | — |
+| Janela da média | `"Before (3 Month Averages)"` | slide | L1175 | — |
+| " " (fala) | `"These were three month averages"` | transcrição | L591-593 | — |
+| Crescimento de lista (case YouTube) | `"grow from 16,000 [music] to 50,000 email subscribers"` *(marcador `[music]` do ASR no meio do número)* | transcrição (YouTube) | L993 | — |
 | Receita adicional (case YouTube) | `"an extra $200,000 per month"` | transcrição (YouTube) | L993 | — |
-| Subscribers (segundo case) | `"105,000 new email subscribers"` | transcrição (YouTube) | L994 | — |
+| Subscribers (segundo case) | `"105,000 [music] new email subscribers"` | transcrição (YouTube) | L994 | — |
 | Receita (segundo case) | `"$924,000 in revenue"` | transcrição (YouTube) | L994 | — |
 | Submission rate (segundo case) | `"28%"` | transcrição (YouTube) | L994 | — |
 | Clientes da agência | `"over 279 figure e-commerce brands"` — **corrompido, sem leitura autorizada** | transcrição (YouTube) | L1029 | — |
@@ -392,7 +402,8 @@ abandon (ver [[_protocolo]], "O que nunca fazer").
 | " " (janela alternativa) | `"placed an order zero times in the last hundred days (…) but placed an order at least once in the last 180"` | outro-narrador | L5071 | campanhas-winback-janela |
 | Cadência | `"email one, day zero"` | transcrição | L3326 | winback-cadencia |
 | " " (slide) | `"Email 1 (Day 0) · Email 2 (Day 7) · Email 3 (Day 10)"` | slide | L4063-4065 | winback-cadencia |
-| Nº de chances | `"giving you three chances to bring a lapsed customer back"` | transcrição + slide | L3334, L4066 | — |
+| Nº de chances | `"giving you three chances to bring a lapsed customer back"` | slide | L4066 | — |
+| " " (fala) | `"giving us three chances to bring back this lapsed customer"` | transcrição | L3334 | — |
 | Descontos dos exemplos | `"take 10% off just because we miss you"` (L3360) · `"Take 10% Off Your Next Order"` (L4094) · `"Last Chance for 10% Off"` (L4110) | transcrição + slide | — | — |
 
 ## Contexto e negócio (módulo flows)
@@ -702,7 +713,9 @@ desambigua entre "75% dos emails" e "75% da área do email". Registrar verbatim.
 | " " (aulas de Figma no módulo copy) | `600` | transcrição | L6293, L6419, L6460 | — |
 | Slice de meia-largura | `"set dimensions as 300 cuz our email is 600 in width"` | transcrição | L6490 | — |
 | Altura do frame no exemplo | `"let's make it like 800 tall"` | transcrição | L7717 | — |
-| Qualidade de exportação | `"export on 2x quality"` | transcrição | L6337, L6489, L8034 | — |
+| Qualidade de exportação | `"export on 2x quality"` | transcrição | L8034 | — |
+| " " (Gymshark) | `"export on 2x just to make sure it's good quality"` | transcrição | L6337 | — |
+| " " (Calvin Klein) | `"I like to export on two times"` | transcrição | L6489 | — |
 | Camadas exportadas na demonstração | `"Export eight layers"` | transcrição | L8040 | — |
 | Peso de um slice único do email inteiro | `"5 10 megabytes"` | transcrição | L8031 | — |
 | Compressão medida (upload) | `"3. 98 megabytes"` → `"963 kilobytes"` = `"77% smaller"` | transcrição | L8042-8043 | — |
@@ -801,15 +814,15 @@ entrega os três com as linhas (ver [[_protocolo]]).
 | Regra de ouro | `"ideally 50 plus open rates and then you know you're good to jump to a wider segment"` | outro-narrador | L8579 | deliverability-limiar-de-open-rate |
 | Faixa de tolerância | `"anywhere between 40 to 50 percent. If it starts dipping below 40, I definitely wouldn't be expanding it"` | outro-narrador | L8580 | deliverability-limiar-de-open-rate |
 | Fase de expansão | `"weeks 3 to 12"` | outro-narrador | L8580 | — |
-| Primeiro degrau de expansão | `"in weeks 3 to 4, maybe you start sending to the 14 day engage list and then expand it to the 30 day"` | outro-narrador | L8581 | — |
+| Primeiro degrau de expansão | `"So in weeks, you know, 3 to 4, maybe you start sending to the 14 day engage list and then you want to expand it to the 30 day engage list"` | outro-narrador | L8581 | — |
 | Limiar para expandir 14 → 30 | `"you're hitting, again, 45 to 50% plus"` | outro-narrador | L8582 | deliverability-limiar-de-open-rate |
 | Degraus seguintes | `"Same logic from 30 to 60 (…) then maybe after a couple weeks, you expand to the 90 day"` | outro-narrador | L8583 | — |
-| Segmentos-semente (email) | `"opened three times in the last thirty days"` · `"opened five times in the last sixty days"` · `"opened an email once or twice in the last week"` · `"clicked an email in the last week"` | outro-narrador | L8564 | — |
+| Segmentos-semente (email) | `"opened three times in the last thirty days"` · `"opened five times in the last sixty days"` · `"opened an email once or twice in the last week"` · `"clicked an email in the last week"` | outro-narrador | L8564-8565 | — |
 | Segmento pequeno demais | `"seventy-eight people in there, which isn't really going to move the needle"` | outro-narrador | L8567 | — |
 | Segmentos-semente (Shopify) | `"viewed a product in the last three days, placed an order in the last week, and started checkout in the last week"` | outro-narrador | L8574 | — |
 | Onde colocar o código de desconto | `"welcome email 1, 2, 3, 4"` (nunca no form) | outro-narrador | L8548 | — |
 | Correção de rota — queda | `"from your 30 day engage list to your 60 day (…) open rates go from 50% to 25%"` | outro-narrador | L8601 | — |
-| Correção de rota — passo menor | `"instead of going from 30 to 60, we go from 30 to 45 day engage. And that keeps us at a 40 to 50% mark"` | outro-narrador | L8604 | deliverability-limiar-de-open-rate |
+| Correção de rota — passo menor | `"Maybe instead of going from 30 to 60, we go from 50 from 30 to 45 day engage. And that keeps us at a 40 to 50% mark"` *(`from 50` é gagueira de ASR)* | outro-narrador | L8604 | deliverability-limiar-de-open-rate |
 
 ## Reparo de reputação
 
@@ -1027,7 +1040,10 @@ porque alguém vai perguntar.
 | Comunidade Skool — conteúdo | `"30+ Module Email course"` · `"250+ Winning Flow and Campaign Email Templates"` | slide | L9372-9373 | — |
 | Newsletter | `"3x Per Week"`; `"others will try to sell to you for $497+"` | slide | L9280-9282, L9527-9529 | — |
 | Swipe file de SMS | `"30 SMS messages"` / `"30 of my favorite SMS messages"` | transcrição + slide | L9258, L9520-9522 | — |
-| Desconto de afiliado Omnisend | `"30% off your first 3 months"` | transcrição + slide | L34, L358, L8044, L8063 | — |
+| Desconto de afiliado Omnisend | `"30% off your first 3 months"` | transcrição | L34 | — |
+| " " (slide) | `"30% OFF first 3 months"` | slide | L358 | — |
+| " " (YouTube, sem o prazo) | `"a 30%, uh, discount if you use me"` | transcrição (YouTube) | L8044 | — |
+| " " (YouTube) | `"30% off for the first three months"` | transcrição (YouTube) | L8063 | — |
 
 O swipe file de 30 mensagens de SMS é **lacuna, não descarte**: o conteúdo não
 está no arquivo, só a promessa.

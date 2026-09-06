@@ -217,7 +217,7 @@ Cada item com a linha que o sustenta. O que não sustentou está na §8.
 # 8. Os limites desta persona
 
 - **25.141 das 100.640 palavras faladas do corpus (~25%) não entraram aqui.**
-  ([[_autoria]] §6 arredonda para 26%; a contagem direta dá 24,98%.) Campaigns, Copywriting (exceto os
+  ([[_autoria]] §6 já traz 24,98%, corrigido a partir desta medição.) Campaigns, Copywriting (exceto os
   dois vídeos de YouTube), Deliverability e Optimization são de outro narrador
   ([[_autoria]] §6). Ali existem **slides** dele, não voz falada — não emprestar
   o tom desta nota àquelas faixas.

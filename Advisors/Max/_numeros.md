@@ -140,7 +140,8 @@ as duas leituras. Ver `deliverability-caso-mailchimp-escala-final`.
 
 Open rate mínimo (L178/L376) · flows como share da receita de **email**
 (L326/L3438) · queda de QI na inbox (L6606) · passo de escalonamento no warming
-(`"scale up by about fifty percent each send"`, L8569) · email+SMS como share da
+(`"you scale up by about fifty to, by about fifty percent each send"`, L8569 —
+a gagueira de ASR fica) · email+SMS como share da
 receita **total** (`"anywhere from 30 to 50 percent"`, L56). Sempre nomear a
 medida.
 
@@ -150,7 +151,8 @@ medida.
 (`"database of 90% of ecommerce brands"`, L8321) · janela do engaged list padrão
 (90 dias) · share dos envios que vão para a lista engajada (L5597).
 `80%`: o rótulo de Pareto de L4652 · a proporção gráfico-texto
-(`"Probably 80-20"`, L4346) · a versão falada do peso do básico (L8778, L9098) ·
+(`"Probably 80-20"`, L4346) · a versão falada do peso do básico, que dá as duas
+(`"80, 90% of the results"`, L8778; `"that 80% of your results"`, L9098) ·
 `"the skeleton that I'd say 80% of emails followed"` (L5731) · o caso extremo de
 flows sobre a receita da **loja** (L22).
 
@@ -165,8 +167,10 @@ deck de flows abre com `"Generate 20% of Total Shopify Revenue"` (L3408) contra
 ## "3 segundos" de atenção não tem um valor só
 
 Copy e campanhas dizem `3 seconds` (L5605, L6517, L5501); design diz
-`"2-4 seconds"` (L8185, L7161) e, três linhas adiante no mesmo slide, `3 seconds`
-(L8201); a fala de campanhas diz `"the first two to three seconds"` (L4707). O
+`"On average you have 2-4 seconds"` no slide (L8185) e `"you literally have two
+to four seconds"` na fala (L7161) — grafias diferentes, não confundir — e, três
+linhas adiante no mesmo slide, `3 seconds` (L8201); a fala de campanhas diz
+`"the first two to three seconds"` (L4707). O
 valor do "antes" **não** conflita: os três registros dizem `5-10 seconds`. Ver
 `doutrina-segundos-de-atencao` e `design-segundos-de-atencao`.
 

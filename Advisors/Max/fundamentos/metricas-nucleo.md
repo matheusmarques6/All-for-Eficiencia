@@ -115,7 +115,9 @@ contra "anywhere under 30%, um 40%" (L56-58).
 
 **Um cross-módulo.** L180 nega que subject line mova open rate. Os módulos de
 copy e otimização quantificam exatamente esse efeito: "at most you can get \~ 10%
-jump in opens" (L6805) e "10%, maybe 15" (L6229). Não é contradição frontal — um
+jump in opens" (L6805, slide de Max) e "10%, maybe 15" (L6229 — **importado de
+faixa não-Max**: está em L6101-6248, `outro-provavel` por [[_autoria]], logo é o
+módulo de subject lines que diz isso, não Max). Não é contradição frontal — um
 salto de 10 pontos não tira ninguém de 30% para 50% — mas a negação de L180 é
 absoluta e o resto do corpus não é. Ver `copy-open-rate-limite` e
 `otimizacao-teto-de-abertura`.

@@ -128,7 +128,12 @@ corpus. Site abandon só tem o delay do primeiro email (L2369-2375), nada entre 
 
 # O que o corpus não diz
 
-- Nenhum tamanho de amostra, duração de teste ou limiar de significância.
+- **Este deck** não dá tamanho de amostra, duração de teste nem limiar de
+  significância — mas o corpus dá, no módulo de otimização: L8800-8820 define a
+  régua por número de destinatários (500/500 numa lista de 1.000 "is not enough
+  data"; 100k-500k resolve em um ou dois envios; 5k-10k exige repetir três ou
+  quatro vezes), com a regra explícita "Base it off the number of recipients
+  that are receiving". Ver [[otimizacao/quando-vale-testar]].
 - Nenhum critério para decidir quando um vencedor de campanha "merece" entrar no
   flow.
 - Nenhuma métrica de decisão — nem open rate, nem clique, nem receita.

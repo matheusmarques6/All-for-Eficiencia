@@ -17,8 +17,16 @@ O que resta de Max é o deck L8647-8759 — 113 linhas, que cobrem o-que-e,
 setup-tecnico, metricas-alvo, so-envie-para-engajados, upload e auditoria, e que
 **não** cobrem warming nem reparo.
 
+Sem prova nominal: a classificação é **estilométrica**, não provada — o bloco não
+traz um só marcador do idioleto de Max ("I recommend", "my favorite", "I like to")
+e traz os do outro aglomerado ("at the end of the day" 5×, fechos coletivos em
+L8516 e L8645). `outro-provavel` **não é** `outro-provado`: não está provado que a
+voz não é dele, só que é altamente improvável ([[_autoria]] §7.3).
+
 Critério: idioleto ([[_autoria]] §2.1). **Saudação de abertura não é critério** —
-o laudo testou e derrubou ([[_autoria]] §5). Ao responder a partir do registro
+o laudo testou e derrubou: o walkthrough de Figma abre com "Hello, hello" e é
+comprovadamente Max, porque em L7817 ele digita `@max` e diz "tags me"
+([[_autoria]] §5). Ao responder a partir do registro
 `transcricao` deste módulo, dizer "o material do curso diz", nunca "o Max diz".
 
 # A pasta de maior risco do corpus

@@ -69,7 +69,7 @@ com pedido coletivo — "hit us up" (L4420, L9108), "reach out to us" (L4674),
 guys ... see you in the next one" (L5153, L5865, L6081, L6247, L8516, L8645).
 Essa fórmula **não ocorre nenhuma vez** fora do aglomerado B. Os blocos
 `max-provado` fecham no singular: "let me know if you have any questions" (L677,
-L8064), "message me or the group" (L2616), "book a call with me" (L9259).
+L8063), "message me or the group" (L2616), "book a call with me" (L9259).
 
 ## 2.2 O teste que decidiu
 
@@ -334,8 +334,11 @@ Faixas não-Max, para a correção posterior:
 - **`outro-provado`** — L5617–5866
 - **`outro-provavel`** — L4189–5154, L5867–6248, L8365–8646, L8762–9109
 
-Total: **2.462 linhas de fala**, ~25.141 palavras — cerca de 26% de toda a fala do
-corpus. As faixas de slide correspondentes (L5237–5599, L6501–6858, L8647–8759,
+Total: **2.228 linhas de fala** (recontadas com `wc` faixa a faixa:
+250+966+382+282+348), 25.141 palavras — **24,98%** de toda a fala do
+corpus (25.141 de 100.640 palavras faladas; o total de 121.344 do arquivo inclui
+20.704 palavras de deck, que não são fala). A revisão da `persona.md` mediu esse
+percentual; a versão anterior desta linha arredondava para 26%. As faixas de slide correspondentes (L5237–5599, L6501–6858, L8647–8759,
 L9110–9212) **não** estão em causa: são artefato escrito de Max.
 
 ## 6.1 Notas afetadas, por pasta

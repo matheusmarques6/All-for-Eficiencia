@@ -73,10 +73,12 @@ O diferencial é **posicional**: vence o que é raro naquele inbox. Isso faz da
 proporção parte do mecanismo, não um detalhe de calendário — se o texto puro
 virar o padrão da marca, o efeito se inverte e o gráfico passa a ser o disruptor.
 
-As proporções que ele dá pertencem ao módulo `campanhas` e não são uma só:
-"80-20... Favoring graphics, 75-25 maybe, depending on the brand" (L4346-4348) e
-"roughly four graphic based emails to one textbased email. Maybe a 5:1, but at
-least send twoish textbased emails every single month" (L5232). Mais um email de
+As proporções pertencem ao módulo `campanhas` e não são uma só — e as duas não têm
+o mesmo dono: "80-20... Favoring graphics, 75-25 maybe, depending on the brand"
+(L4346-4348) está em faixa **não-Max** e não é citável como fala dele; já "roughly
+four graphic based emails to one textbased email. Maybe a 5:1, but at least send
+twoish textbased emails every single month" (L5232) está na masterclass
+`max-provado` e **é** dele. Mais um email de
 texto em cada flow-chave (L5231).
 
 # Onde ele mesmo relativiza

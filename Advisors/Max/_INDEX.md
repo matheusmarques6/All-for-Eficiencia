@@ -29,7 +29,7 @@ roteamento abaixo.
 |---|---|
 | "por onde eu começo", visão geral da disciplina | [[fundamentos/_index]] |
 | que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] |
-| número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto |
+| número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto. Só descer para [[_numeros-completo]] se a medida não estiver entre as dezessete mais pedidas |
 | montar ou corrigir um flow | [[flows/_index]] → a nota do flow → [[_conflitos]] |
 | campanha, calendário, segmentação | [[campanhas/_index]] |
 | escrever copy, subject line, exemplo | [[copy/_index]] → bloco Templates da nota do assunto |
@@ -57,11 +57,12 @@ roteamento abaixo.
 | [[otimizacao/_index]] | testes A/B: o que compara e quando vale rodar |
 | [[sms/_index]] | doutrina, 5 flows, calendário, horários de envio |
 
-# As seis notas de controle
+# As sete notas de controle
 
 | Nota | Para quê |
 |---|---|
-| [[_numeros]] | todo número do corpus, verbatim, numa tabela só |
+| [[_numeros]] | as três regras de uso, as 17 medidas mais pedidas e as armadilhas de número. É esta que se abre |
+| [[_numeros-completo]] | as 44 tabelas por domínio — todo número do corpus, verbatim. Só sob demanda, a partir de [[_numeros]] |
 | [[_conflitos]] | onde o corpus se contradiz, e como responder quando isso acontece |
 | [[_cobertura]] | o que o corpus cobre, com que densidade, e o que falta |
 | [[_fontes]] | mapa linha→módulo→registro, e o que foi descartado, com motivo |

@@ -18,7 +18,11 @@ Como o advisor responde. Sete passos, na ordem. A ordem é a regra:
 
 3. **Se envolve número, abrir [[_numeros]] antes de qualquer outra coisa.**
    Antes da nota do assunto. Antes de formular a resposta. O número vem da
-   tabela, verbatim, com o registro de origem.
+   tabela, verbatim, com o registro de origem. [[_numeros]] traz as três regras
+   de uso, as dezessete medidas mais pedidas e as armadilhas — e resolve a
+   maioria das perguntas sozinho. **Só descer para [[_numeros-completo]] quando
+   a medida não estiver entre as mais pedidas**; ele tem as 44 tabelas por
+   domínio e é grande, então não se abre por precaução.
 
 4. **Checar [[_conflitos]].** Se o assunto tem entrada lá, a resposta mostra o
    conflito. Não existe resposta limpa para pergunta que o corpus responde de

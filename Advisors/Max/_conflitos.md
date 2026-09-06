@@ -171,7 +171,6 @@ Marcadores de tipo usados no índice:
 | `copy-email-marketing-brain-tamanho` | "500 pages" vs "500 docs" | conflito |
 | `copy-janela-de-atencao` | → `doutrina-segundos-de-atencao` | → slug |
 | `copy-medir-por-abertura` | → `otimizacao-sl-julgar-por-abertura-ou-receita` | → slug |
-| `copy-open-rate-limite` ← `otimizacao-teto-de-abertura` | (canônico acima) | → slug |
 | `copy-papel-da-ia` | → `doutrina-ia-primeiro-rascunho` | → slug |
 | `copy-narrador-nao-e-max` | → `doutrina-narrador-da-aula-de-ia` | → slug |
 
@@ -456,21 +455,35 @@ O corpus tem pelo menos dois narradores. Absorve `copy-narrador-nao-e-max`.
 | "the prompt that **we** use internally" | transcricao | L5707 |
 | "Lucky for you, **I've created** the Email Marketing Brain" — primeira pessoa | slide | L6774 |
 
-**As assinaturas de abertura**, que separam os dois narradores no bruto:
+**A assinatura de abertura caiu como critério.** A tabela que ficava aqui separava
+os narradores por "Hello, hello" / "Yo, yo" e listava **L7603** entre os do outro
+narrador. [[_autoria]] §5 provou o contrário: L7603 abre o walkthrough de Figma
+com "Hello, hello" e é comprovadamente Max — em **L7817** ele digita `@max` e diz
+"Let me just make sure it actually **tags me**". O pronome coletivo também caiu:
+"our copywriters" está no deck escrito de Max (L6790) e "message our team" em
+L8692.
 
-| Assinatura | Quem | Vídeos |
+O critério que sobreviveu é o **idioleto** ([[_autoria]] §2.1): ausência de "I
+recommend" / "my favorite" / "I like to", presença de "at the end of the day" e
+"obviously", mais o fecho coletivo "thank you guys… see you in the next one".
+
+| Faixa falada | Classificação | Vídeo |
 |---|---|---|
-| "Alrighty" / "Welcome back" / "in this video I'm going to" / "my agency" / "book a call with me" | Max | L9, L21, L1316, L2440, L3229, L3312, L6259, L6359, L7007, L7228, L8022, L9235 |
-| "Hello, hello" / "Yo, yo" + "our copywriters", "our team", "hit us up" | outro | L4204, L4687, L5669, L5889, L6103, L7603, L8382, L8531, L8774 |
+| L5667-5866 | **`outro-provado`** | ChatGPT Copywriting — prova nominal em L5753 |
+| L4202-4421 · L4444-4675 · L4686-4828 · L4846-5154 | `outro-provavel` | os quatro vídeos de Campaigns |
+| L5888-6082 · L6101-6248 | `outro-provavel` | Infographics · Subject Lines |
+| L8381-8646 | `outro-provavel` | Deliverability |
+| L8773-9109 | `outro-provavel` | Optimization |
 
 Fechos do segundo narrador: "So thank you very much for giving this a watch. See
 you later." (L4827), "Thank you guys for giving it a watch and see you in the next
 one." (L5865), "feel free to hit us up if you have any questions that we can
 clarify." (L9108).
 
-**Como responder:** só L5667-5865 tem prova. O resto é inferência por assinatura —
-forte, auditável, mas inferência; o laudo bloco a bloco está em [[_autoria]]. A
-regra prática:
+**Como responder:** só L5667-5866 tem prova nominal (`outro-provado`). As outras
+nove faixas são `outro-provavel`: inferência **estilométrica**, forte e auditável,
+mas não prova — não está provado que a voz não é dele ([[_autoria]] §7.3). O laudo
+bloco a bloco está em [[_autoria]]. A regra prática:
 
 1. Nada de L5667-5865 é citável como fala do Max. `registro: outro-narrador`.
 2. Trechos dos outros oito vídeos: citar como "o material do curso diz", não "o
@@ -481,6 +494,13 @@ regra prática:
    slide, ela se sustenta.
 4. Onde o Max corrobora em vídeo próprio, a atribuição volta a ser segura — é o
    caso de desconto (L6261), texto puro (L5230) e skimmability (L7163).
+
+**Ressalva de cobertura deste arquivo:** a aplicação do laudo cobriu as notas das
+cinco pastas afetadas, não este registro entrada por entrada. Restam aqui cerca de
+uma dúzia de trechos que ainda dizem "ele" sobre faixa `outro-provavel` —
+concentrados em `campanhas-*`, `deliverability-warming-*` e `otimizacao-*`. Antes
+de citar qualquer conflito como fala de Max, confira a linha contra a tabela de
+faixas acima.
 
 Consequência para este registro: onde um lado de um conflito cai num bloco
 `outro-provavel`, a entrada avisa. Isso decide pelo menos um conflito —
@@ -1376,12 +1396,14 @@ informação: se perguntarem quais casos, o corpus não diz.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "the **plumber** that you're going to choose is the one knocking at your door when you have a problem" (atribuído ao pai dele) | transcricao | L4250 |
+| "the **plumber** that you're going to choose is the one knocking at your door when you have a problem" (o narrador a atribui ao **próprio pai** — e o narrador **não é Max**) | **outro-narrador** | L4250 |
 | "Who are you going to call when your power goes out? The **electrician** who's knocking at your door" | resumo do módulo | L4194 |
 
 **Como responder:** não é conflito de especificação, é a mesma analogia com dois
 ofícios. A versão falada tem procedência ("my dad used to say this to me all the
-time") e é a citável. Não invente uma terceira profissão nem funda as duas.
+time") — **mas o "my dad" é do outro narrador, não de Max**. A versão citável como
+material de Max é a do resumo escrito do módulo (L4194, o eletricista). Não invente
+uma terceira profissão, não funda as duas e não atribua o pai a Max.
 
 ---
 
@@ -1820,9 +1842,9 @@ consolidação** — as duas unidades divergiam; ver a seção
    duas fontes independentes: são o deck e o resumo do deck.
 2. O conflito é sobre **número**, e a precedência do [[_INDEX]] dá o slide.
 3. As duas versões que dizem 80% (L8778-8780 e L9098) estão dentro do bloco de fala
-   L8762-9109, classificado **`outro-provavel`** por [[_autoria]] ("Yo, yo" em L8774,
-   "the tests that our team runs" em L8798, fecho "hit us up" em L9108). Não são
-   citáveis como fala do Max.
+   L8762-9109, classificado **`outro-provavel`** por [[_autoria]] — por **idioleto**:
+   zero "I recommend" / "my favorite" / "I like to", "obviously" 9×, fecho coletivo
+   "hit us up" em L9108. Não são citáveis como fala do Max.
 
 Dê 90/10 e registre que a fala do módulo abre a faixa para "80, 90%" na abertura e
 fecha em 80% no encerramento — marcando que essa fala é de atribuição duvidosa.
@@ -2160,3 +2182,497 @@ Ele exige consentimento pré-marcado para telefone (L9324) e, duas seções adia
 invoca a lei americana para limitar o próprio envio (L9461). O corpus não diz uma
 palavra sobre TCPA, consentimento expresso escrito ou texto de opt-in. **Se a pergunta
 for de compliance, recuse: está fora do corpus.**
+
+---
+
+# Conflitos entre módulos
+
+Os que atravessam pastas. São os mais perigosos porque o roteamento do [[_INDEX]]
+manda ler **uma** pasta: quem entra por `design/` nunca vê a versão de
+`deliverability/`. Toda entrada aqui tem que ser lida antes de responder na pasta de
+origem.
+
+## design-html-vs-imagem
+
+design (L8026) contra deliverability (L8500-8504). **As duas falas não têm o mesmo
+dono:** L8026-8028 está no walkthrough de upload (L8009-8065), `max-provado`; já
+L8500-8504 está em L8381-8646, `outro-provavel` por [[_autoria]] — **não é fala de
+Max**. O conflito continua de pé como conflito do *corpus*, mas um dos lados não é
+citável como fala dele.
+
+| Versão | Valor | Registro | Linha |
+|---|---|---|---|
+| Não precisa de HTML nativo | "There's some rumor in the space, someone started it like 8 years ago, and maybe it had some truth then that you need to have like HTML sections in your email. You need to have native text sections and whatnot. But that couldn't be farther from the truth." | transcricao (design) | L8026 |
+| Prova oferecida (fala de Max) | "Look at how little HTML there is in this email (…) don't think that you need to have native text native text sections" | transcricao (design) | L8027-8028 |
+| Google não lê imagem | "Google can't properly scan the image-based emails, but it can scan any of the alternate text or the text kind of behind it that is in the email. And that's what we would call HTML. Google read HTML. Image-based emails have a lot less HTML." | **outro-narrador** (deliverability) | L8500 |
+| Um mínimo de HTML é necessário | "However, if you at least have a base amount of HTML for people that can't open the images or for Google to read, that's where your alt text comes into play." | **outro-narrador** (deliverability) | L8502 |
+| Algum HTML melhora a entrega | "making sure you're including different bits of HTML in your email **will include deliverability** because it'll show different things that Google wouldn't pick up on if it was an image-only email" | **outro-narrador** (deliverability) | L8504 |
+
+**Como responder:** as duas afirmações **não se anulam se lidas com cuidado**, mas
+se anulam se citadas isoladamente — que é exatamente o que o roteamento por pasta
+provoca. A distinção que reconcilia: em L8026 **Max** nega que **seções de texto
+nativo** sejam necessárias **para vender**; em L8500-8504 **o outro narrador** afirma
+que **algum** HTML ajuda o Google a ler o email, ou seja, é argumento de
+**deliverability**, não de conversão. São duas perguntas diferentes com a mesma
+palavra.
+
+A ponte oferecida é o **alt text**: é HTML, é passo obrigatório do
+upload (L8052-8053, este narrado por Max; L8496 e L8502 são do outro narrador), e é o que preenche o "base amount". Nunca responda
+"não precisa de HTML" sem o alt text junto, nem "precisa de HTML" sem dizer que Max
+rejeita explicitamente seções de texto nativo. **O corpus não diz quanto é "a base
+amount"** (L8502) — se perguntarem quanto HTML basta, a resposta é que o corpus não
+quantifica em lugar nenhum. Nota de verbatim: "will include deliverability" (L8504) é o texto do
+bruto; a leitura óbvia é *improve*, mas a correção não está no corpus e não deve ser
+citada como se estivesse.
+
+## sms-open-rate-de-email
+
+O módulo de SMS benchmarka o open rate de email em 30%. Todo o resto do corpus exige
+mais de 50%.
+
+| Valor | Papel | Registro | Linha |
+|---|---|---|---|
+| "**SMS marketing messages have an average open rate of 98%** (email has an average open rate of **30%**)" | comparativo retórico | slide (SMS) | L9291 |
+| "\| Open Rates \| **Greater than 50%** \|" | meta operacional | slide (deliverability) | L8715 |
+| "Open Rates — 50%+" | tabela de metas | slide (fundamentos) | L376 |
+| "we need to be above 50%. This is the only one where it's like, okay, if you're below 50%, you're fucking something up" | linha de corte | transcricao (fundamentos) | L178 |
+| "you ideally want to be in that 50 to 60% range, but anything over 40% is okay" | tolerância | transcricao (campanhas) | L4236 |
+| "Target: 45%+ for engaged segments" | glossário | slide (fundamentos) | L430 |
+
+**Como responder:** são **coisas diferentes usadas como se fossem a mesma**. Os 30%
+são média de mercado, citados uma única vez e com função retórica: fazer o 98% do SMS
+parecer maior. Os 50%+ são a meta dele para as contas que gere, e ele a trata como
+linha de corte, com a ênfase mais forte do módulo de fundamentos (L178). **Nunca cite
+30% como benchmark de email do Max** — é o número contra o qual ele mede o mercado,
+não a régua dele. Se a pergunta for sobre qual open rate perseguir, a entrada que vale
+é `deliverability-limiar-de-open-rate`, e o piso de 40% aparece lá com contexto. Nota:
+nenhuma das duas médias de mercado (30% de email, 98% de SMS) tem fonte citada no
+corpus.
+
+## entre-modulos-tabela-de-metricas
+
+**Conflito novo, registrado nesta consolidação.** O corpus tem **duas tabelas de metas
+de métricas**, em dois decks diferentes, e elas não batem. Nenhuma das duas unidades
+de origem comparou uma com a outra.
+
+| Métrica | fundamentos (L372-380) | deliverability (L8713-8719) | glossário (L428-438) |
+|---|---|---|---|
+| Open rate | "50%+" (L376) | "Greater than 50%" (L8715) | "Target: 45%+ for engaged segments" (L430) |
+| Click rate | "0.5%+ on campaigns 2%+ on flows" (L377) | "Greater than 0.75%" (L8716) | "Target: 2–4%+" (L431) |
+| Bounce rate | *ausente* | "Less than 1%" (L8717) | "Target: \<2%" (L437) |
+| Spam complaint | "\<0.01%" (L379) | "Less than 0.01%" (L8718) | "Target: \<0.1%" (L438) |
+| Unsubscribe | "\<0.3%" (L378) | "Less than 0.4%" (L8719) | "Target: \<0.2%" (L436) |
+
+**Como responder:** as duas tabelas **concordam em dois pontos e divergem em três**.
+
+- **Concordam:** open rate (>50%) e spam complaint (<0,01%). Esses dois números são os
+  mais sólidos do corpus inteiro — dois decks e a fala (L178, L192).
+- **Divergem em click rate:** fundamentos separa por tipo de envio (0,5% campanha, 2%
+  flow) e dá o motivo — "flows are higher converting, and they're more intent based"
+  (L184); deliverability dá um número único e achatado (0,75%), que não é nem um nem
+  outro; o glossário dá 2-4%+ sem distinguir; e a fala de campanhas dá ainda "somewhere
+  between one and 3%" (L4236). **Quatro versões.** Responda com a separação de
+  fundamentos, porque é a única que traz racional, e nomeie as outras.
+- **Divergem em unsubscribe:** 0,3% (fundamentos, L378, e a fala três vezes em
+  L186-190) contra 0,4% (deliverability, L8719) contra 0,2% (glossário, L436). **Vale
+  0,3%** — é o valor mais repetido do corpus e o único com fala sustentando. O 0,4%
+  aparece uma vez, na tabela do deck de deliverability, e vem colado ao rótulo
+  "(doesn't affect deliverability)" — ver `deliverability-unsubscribe-afeta-ou-nao`.
+- **Bounce rate só existe fora da tabela de fundamentos**, e as duas fontes que o dão
+  divergem por 2x: 1% (L8717) contra 2% (L437). Vale 1%, pela mesma regra que desqualifica
+  o glossário (ver [[#Conflitos dentro do mesmo registro]]).
+
+**Nunca componha uma tabela única a partir das três.** Se a pergunta for "quais são as
+metas", a resposta diz qual tabela está sendo citada e por quê. A tabela de fundamentos
+é a que ele defendeu linha por linha na fala (L168-194); a de deliverability é a que
+vale dentro do contexto de entrega.
+
+## doutrina-segundos-de-atencao
+
+Absorve `copy-janela-de-atencao` e `design-segundos-de-atencao`. A janela de atenção
+tem **três valores diferentes**, divididos por módulo.
+
+**Hoje:**
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "In 2025/2026, you *maybe* have 3 seconds" | slide (campanhas) | L5501 |
+| "Todat, you *maybe* have 3 seconds" | slide (copy) | L6517 |
+| "~3 seconds to hook your reader. Eliminate fluff." | resumo do módulo (copy) | L5605 |
+| "if they can't skim it in 3 seconds, it won't get read" | slide (campanhas) | L5508 |
+| "now you have about three" | transcricao (campanhas) | L4705 |
+| "the first two to three seconds" | transcricao (campanhas) | L4707 |
+| "attention spans that are really three seconds" | transcricao (copy) | L5891 |
+| "you literally have two to four seconds to get your point across" | transcricao (design) | L7161 |
+| "On average you have **2-4 seconds** to get your point across." | slide (design) | L8185 |
+| "If we only get **3 seconds** of our viewers attention" | slide (design) | L8201 |
+
+**Antes:**
+
+| Valor | Registro | Linha |
+|---|---|---|
+| "Before, you could have had an average of **5-10 seconds** of attention per email." | slide (campanhas) | L5500 |
+| "Before, you could have had an average of **5-10 seconds** of attention per email." | slide (copy) | L6516 |
+| "before five, 10 seconds per email" | transcricao (campanhas) | L4703 |
+| "used to be **three to five**, five to 10 maybe" | transcricao (copy) | L5891 |
+
+**Como responder:** três valores para a mesma janela — 3 segundos, 2-3 segundos e 2-4
+segundos. A divisão é limpa por módulo: **copy e campanhas dizem 3; design diz 2-4**, e
+nos dois casos a fala e o slide do mesmo módulo concordam entre si. Não é contradição
+de registro, é contradição entre aulas. Nenhuma versão traz fonte, e duas trazem o
+hedge "maybe" escrito por ele (L5501, L6517). A resposta honesta é dar a faixa completa
+**2-4** e dizer de qual aula veio cada ponta. O "3 seconds" de L8201 é paráfrase interna
+do próprio deck de design 16 linhas depois de L8185, dentro da faixa — não é quarto
+valor independente.
+
+**O "antes" também diverge, e isso é uma correção feita nesta consolidação.** Três
+registros dizem 5-10 segundos (L4703, L5500, L6516), mas L5891 oferece "three to five"
+como alternativa na mesma frase. Dê os dois valores do "antes" e não converta em faixa
+única. Ressalva de atribuição: L5891 está no bloco L5867-6082 ("Utilizing
+Infographics"), classificado `outro-provavel` por [[_autoria]] — **a única versão que
+quebra o consenso de 5-10 é a de atribuição mais fraca**. O número que importa
+operacionalmente é o de hoje, e é ele que está em disputa entre módulos.
+
+## flows-onde-testar
+
+Absorve `otimizacao-onde-testar`. As duas posições estão na **mesma página do mesmo
+deck**, doze linhas de distância — e a segunda tem cópia idêntica no deck de
+otimização.
+
+| Posição | Verbatim | Registro | Linha |
+|---|---|---|---|
+| tirar o teste do flow | "Rather than have a ton of active tests in flows of all sorts of different triggers, trying out different **content**, etc / We mostly use campaigns as our testing ground. / Try new angles and A/B test frequently in your email blasts. / Rather than waiting for results like you have to do in flows, you can get near instant data with campaigns." | slide (deck de flows) | L4128-4131 |
+| o motivo | "Considering you can have 30-50+ automated emails… It's overwhelming / Hard to monitor at scale / Difficult to track and report at scale / Documenting is difficult" | slide (deck de flows) | L4119-4124 |
+| o que fazer com o vencedor | "We literally put full campaigns that perform well into our flows. / Go back and edit your flow emails across all triggers to include the angle you saw work." | slide (deck de flows) | L4132-4133 |
+| testar dentro do flow | heading "**Flow Specific A/B Tests**" | slide (deck de flows) | L4139 |
+| testar dentro do flow | "**Flow Time Delays** — This is the biggest lever I'd say. Testing the amount of time from the action of the customer and the first email they receive. Then also, the time delay between your flow messages." | slide (deck de flows) | L4141-4145 |
+| testar dentro do flow | mesma frase, palavra por palavra | slide (deck de otimização) | L9176-9180 |
+
+**Como responder:** não é contradição de valor, é **divisão de escopo — e o deck a
+sinaliza duas vezes, ainda que nunca a formule numa frase só.** As duas âncoras que as
+notas de origem tinham subestimado:
+
+1. **L4128 nomeia o que sai do flow: "trying out different *content*".** A frase não
+   diz "tirem os testes dos flows"; diz que não se deve manter muito teste de
+   **conteúdo** ativo dentro deles, e o motivo dado logo acima é de escala e
+   monitoramento (L4119-4124), não de mérito.
+2. **L4139 é um heading que diz "Flow Specific A/B Tests"**, e é sob ele que o teste de
+   delay aparece (L4141-4145). O deck classifica explicitamente esse teste como
+   específico de flow.
+
+Ou seja: **conteúdo se testa em campanha e migra pronto para o flow** (é literalmente o
+que L4132-4133 mandam fazer); **timing só pode ser testado no flow**, porque não existe
+delay em campanha. Ofereça essa leitura como leitura — o corpus **não a enuncia em uma
+frase** —, mas **não diga que "o corpus nunca faz essa distinção"**: ele a faz duas
+vezes, na palavra "content" (L4128) e no heading "Flow Specific" (L4139). O que falta é
+a frase que amarra, não a evidência.
+
+Registre também que "the biggest lever" (L4143) tem cópia idêntica no deck de
+otimização (L9178), o que **não** o torna duas fontes: é o mesmo slide reaproveitado.
+Ver `otimizacao-deck-duplicado`.
+
+## Os que atravessam pastas e estão registrados no módulo dono
+
+Pontas soltas que exigem leitura cruzada, mas cuja entrada canônica vive na pasta que
+possui o assunto:
+
+| Assunto | Módulos que discordam | Slug canônico |
+|---|---|---|
+| Cadência de campanha | campanhas (2-4x, 3x) · otimização (3-4x como pré-condição) · deliverability (3-4x, L8557) · SMS (4-5x, 4x — comparativos) · flows (3-4x, 3x) | `campanhas-sweet-spot-de-frequencia` + `otimizacao-frequencia-precondicao` + `sms-frequencia-de-email-comparada` |
+| Benchmark do pop-up | fundamentos (6-12%) · list-growth (a escada) · SMS (2-3% / 8-10%) | `list-growth-benchmark-de-form` (+ `fundamentos-benchmark-do-form` para o denominador) |
+| Delay do pop-up | fundamentos (4-6s) · list-growth (4-12s, 4-8s, 5s) · SMS (6-10s) | `list-growth-time-delay` |
+| Exit intent | list-growth (rejeição geral, rejeição no mobile) · SMS (rejeição sem qualificar) | `list-growth-exit-intent` |
+| Subject line move ou não o open rate | fundamentos (L180: não move) · copy (5-15%) · otimização (5-10%) | `fundamentos-o-que-move-o-open-rate` + `copy-open-rate-limite` |
+| Stack de ferramentas | fundamentos (Klaviyo é o melhor) · list-growth (Klaviyo não performa em form; Alia é superior) · design (título Klaviyo, demo Omnisend) | `fundamentos-klaviyo-melhor-ou-pior` + `list-growth-alia-vs-klaviyo` + `design-klaviyo-vs-omnisend` |
+| Denominador da receita de flows | fundamentos (loja vs email, mesma linha) · flows (20% loja vs 50% email) | `fundamentos-denominador-dos-80` + `flows-participacao-na-receita` |
+| Definição do winback | flows (sem o teto de 150 dias) · campanhas (150/90 completo) | `winback-definicao-do-segmento` + `campanhas-winback-janela` |
+| Janela da lista base | campanhas (90) · deliverability (90 no slide, 60 na fala) | `campanhas-janela-de-engajamento` + `deliverability-lista-base-padrao` |
+| Checkbox pré-marcado do Shopify | list-growth (texto que se anula) · SMS (procedimento de email sob título de SMS) | `list-growth-checkbox-preselecionado` + `sms-instrucoes-de-optin-sao-de-email` |
+| Grafia de nomes de marca | doutrina · design · copy | `doutrina-lista-de-marcas` |
+| Credencial de receita | doutrina ($40M, $100M) · flows ($100M, $200M) · campanhas ($200M) | `doutrina-receita-da-agencia` |
+
+## fundamentos-o-que-move-o-open-rate
+
+| Posição | Registro | Linha |
+|---|---|---|
+| "It's not your subject line or preview text. It is your segmentation (…) they're going to open your email, **no matter what your subject line says**" | transcricao (fundamentos) | L180 |
+| "at most you can get ~ 10% jump in opens" | slide (copy) | L6805 |
+| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | transcricao (copy) | L6227-6229 |
+| "our best, our best subject line and preview text, you maybe see a five, 10% bump in open rates" | transcricao (otimização) | L8934-8936 |
+| "people should open your emails based off your sender name, NOT your Subject line" | resumo do módulo (copy) | L6093 |
+
+**Como responder:** não é contradição frontal — 10 a 15 pontos não tiram uma conta de
+30% para 50%, então "o conserto é segmentação" continua de pé **como prioridade**. Mas
+a negação de L180 é **absoluta** e o resto do corpus não é: em três lugares ele
+quantifica o efeito de subject line sobre abertura. Responda na ordem: primeiro
+segmentação, que é o que ele manda consertar; depois o teto de 5-15% que copy adiciona.
+**Nunca cite L180 sozinho para afirmar que subject line não importa** — ele dedica um
+módulo inteiro a subject lines. Ver `copy-open-rate-limite` e
+`otimizacao-sl-julgar-por-abertura-ou-receita`.
+
+## sms-frequencia-de-email-comparada
+
+| Valor | Registro | Linha |
+|---|---|---|
+| Email: "four to five messages a week" sem backlash | transcricao (SMS) | L9226 |
+| Email: "With email you can easily send 4-5 email campaigns per week without getting much backlash" | slide (SMS) | L9364 |
+| Email: "like four times a week" | transcricao (SMS) | L9248 |
+| Email: "we see the best results and engagement sending 4x per week (every other day)" | slide (SMS) | L9490 |
+| Email: tabela por faturamento, 2x a 5-6x/semana | slide (campanhas) | L5295-5298 |
+| Email: "two to four times per week is really hitting the sweet spot" | transcricao (campanhas) | L4242 |
+
+**Como responder:** os números de email citados **dentro do módulo de SMS** são
+comparativos de argumento, não a especificação de email — existem para dizer que SMS é
+menos. A especificação está no módulo de campanhas, que decide por tier de faturamento
+ou tráfego (L5295-5298) e cujo sweet spot declarado é 2-4x (L4242) ou 3x (L5255).
+**Nunca responda "4-5 por semana" citando L9226/L9364.** Note que 4-5x e "4x every
+other day" também estouram a faixa 2-4 do módulo dono — é o mesmo tipo de atrito
+registrado em `campanhas-cadencia-alta-vs-tier-1m`, e o corpus não o comenta.
+
+---
+
+# Conflitos dentro do mesmo registro
+
+A precedência do [[_INDEX]] — slide vence em especificação, fala vence em julgamento —
+só funciona quando os **dois registros discordam entre si**. Boa parte dos conflitos
+deste corpus é slide contra slide, no mesmo deck, às vezes na mesma linha. Aqui a
+precedência não resolve, e o desempate, quando existe, é por **evidência de autoria
+dentro do próprio material**.
+
+**Consequência geral: não presuma que o slide fala com uma voz só.**
+
+## A tabela de metas contra o glossário — quatro divergências, uma de dez vezes
+
+Mesmo deck de fundamentos. A tabela está em L372-380; o glossário, em L384-519. Quatro
+métricas divergem.
+
+| Métrica | Tabela de metas (L372-380) | Glossário (L384-519) | Diferença |
+|---|---|---|---|
+| Open rate | "50%+" (L376) | "Target: 45%+ **for engaged segments**" (L430) | 5 pontos, e o glossário qualifica |
+| Click rate | "In general: 0.5%+ on campaigns 2%+ on flows" (L377) | "Target: 2–4%+" — sem distinguir (L431) | 4x a 8x o alvo de campanha |
+| Unsubscribe | "\<0.3%" (L378) | "Target: \<0.2%" (L436) | glossário é mais estrito |
+| Spam complaint | "\<0.01%" (L379) | "Target: \<0.1%" (L438) | **dez vezes** |
+
+**O desempate, e por que ele existe aqui:** em **L217** ele declara que vai pular o
+glossário — "So I am going to gloss over this glossary, I'm going to be gloss over-ing
+this email marketing glossary in key terms. You can use these if you want" — enquanto a
+tabela de metas ele defendeu linha por linha na fala, com racional, em L168-194. **A
+tabela é material que ele sustentou; o glossário é material que ele entregou.** Onde os
+dois divergem, vale a tabela.
+
+**Como responder, por slug:**
+
+- **`fundamentos-open-rate-glossario`** — **50%** é a posição sustentada: está na fala
+  com a ênfase mais forte do módulo inteiro ("if you're below 50%, you're fucking
+  something up", L178) e na tabela. Os 45% aparecem uma vez, sem fala. Mas há um detalhe
+  que não é ruído: o glossário **qualifica** o alvo ("for engaged segments") e a tabela
+  não qualifica nada. Se a pergunta for sobre segmento engajado, diga que existem dois
+  números e que o mais exigente é o que ele defendeu. **Nunca responda "47,5%".** Se a
+  pergunta for sobre warming ou alargamento de lista, a entrada que vale é
+  `deliverability-limiar-de-open-rate`, não esta.
+- **`fundamentos-unsubscribe-glossario`** — **0,3%**. É o valor mais repetido do módulo:
+  ele o diz três vezes seguidas (L186, L188, L190) e no meio disso corrige o próprio
+  slide ao vivo porque a tela mostrava o inverso do que ele queria dizer, sem detalhar o
+  quê ("that should be the other way around (…) let me actually fix that right now",
+  L188). O 0,2% do glossário não tem defesa falada. O diagnóstico associado vale para os
+  dois: muitos unsubscribes = problema de conteúdo (L190). Há ainda uma terceira versão,
+  0,4%, no outro deck — ver `entre-modulos-tabela-de-metricas`.
+- **`fundamentos-spam-glossario`** — **o conflito mais grave da pasta em consequência
+  prática.** 0,1% é **dez vezes** mais permissivo que 0,01%, e é a diferença entre uma
+  conta saudável e uma conta em risco de bloqueio. **0,01%** é a posição sustentada —
+  fala (L192), tabela (L379) e a tabela de deliverability (L8718) concordam. Dê o 0,1%
+  do glossário apenas como registro divergente, **nunca como faixa** ("entre 0,01 e
+  0,1%" seria a média inventada mais perigosa deste corpus). Diagnóstico associado: "you
+  have a content problem, potentially a segmentation problem" (L192) — note a hesitação
+  dele no segundo termo.
+- **`fundamentos-click-rate-glossario`** — o conflito não é só de número, é de
+  **estrutura**. Fala e tabela separam por tipo de envio e dão o motivo — "flows are
+  higher converting, and they're more intent based" (L184). O glossário dá um número
+  único, quatro a oito vezes maior que o alvo de campanha. Responda com a separação:
+  0,5% em campanhas, 2% em flows, e cite que o glossário registra 2-4%+ achatado.
+  Acrescente a tolerância declarada dele: 1% em campanha ele já considera doente ("I
+  don't feel like that's healthy", L186), e ele mesmo diz que o número é frouxo ("it's
+  really hard to say", L186). Há uma quinta e uma sexta versão fora do deck — ver
+  `entre-modulos-tabela-de-metricas`.
+
+Uma métrica **não** diverge e não deve ser apresentada como se divergisse: email share,
+"40% (Goal)" na tabela (L374) e "Target is ~40%" no glossário (L388).
+
+## O deck de deliverability dá três números de open rate em quatro linhas
+
+`deliverability-limiar-de-open-rate` — **dez formulações**, sete na fala e três no
+slide. É o número que decide qual lista usar e quando alargá-la.
+
+| Valor | Contexto | Registro | Linha |
+|---|---|---|---|
+| "above 50%. 50% to 70% is ideal. If you're above 40%, you're probably okay" | meta geral | transcricao | L8436 |
+| "consistently receiving 50 to 60% opens" | saber se a lista está certa | transcricao | L8468 |
+| "ideally 50 plus open rates and then you know you're good to jump to a wider segment" | **a "golden rule"** do warming | transcricao | L8579 |
+| "anywhere between 40 to 50 percent. If it starts dipping below 40, I definitely wouldn't be expanding it" | tolerância, **linha seguinte** | transcricao | L8580 |
+| "you're hitting, again, 45 to 50% plus (…) that's a good indicator that we can expand" | expandir de 14 para 30 dias | transcricao | L8582 |
+| "as long as you're hitting those, those 40 to 50% open rates" | cadência de rampa | transcricao | L8588 |
+| "And that keeps us at a 40 to 50% mark" | após recuar de 30→60 para 30→45 | transcricao | L8604 |
+| "This is how we can get consistent **50%** open rates" | o que enviar só para engajados entrega | **slide** | L8725 |
+| "Whatever list gets you **50-60%** opens" | escolha da lista, **duas linhas depois** | **slide** | L8727 |
+| "If you start to get **60%+** opens, widen your list to a larger timeframe" | **alargar**, **três linhas depois** | **slide** | L8728 |
+| "If you start to get 40% opens, tighten your list to a smaller timeframe" | apertar | **slide** | L8729 |
+| "\| Open Rates \| Greater than 50% \|" | tabela de metas do mesmo deck | **slide** | L8715 |
+
+Duas adjacências agravam o conflito e são a prova de que ele não é artefato de recorte:
+
+- **L8579 e L8580 são linhas consecutivas** e já discordam entre si: "50 plus" vira "40
+  a 50" na frase imediatamente seguinte, dentro da mesma respiração.
+- **L8725, L8727 e L8728 estão no mesmo slide**, a uma e duas linhas de distância: o
+  slide promete "consistent 50%", manda escolher a lista por "50-60%" e depois exige
+  "60%+" para alargar. **O registro que vence em especificação pelo protocolo tem três
+  números em quatro linhas.**
+
+**Como responder:** dê os valores todos, na ordem em que aparecem, e nomeie os dois
+pontos em que **nenhuma das formulações contradiz as outras**: (a) **abaixo de 40%
+nunca se alarga** (L8580; L8729 e L8470 mandam apertar em 40%); (b) o alvo de operação
+é `Greater than 50%` (L8715). O slide é o mais exigente na hora de alargar — 60%+
+(L8728) — **mas não é um bloco coerente**. Aqui não existe material sustentado contra
+material entregue, como no caso do glossário: é a mesma tela. **Não há desempate.**
+
+Se a pergunta for "posso alargar com 45%?", a resposta honesta é: pelo gatilho do slide
+não (60%+), pela fala talvez (L8582 diz 45-50+), e ele nunca reconcilia. O critério de
+segurança que ele próprio dá não é numérico — "I always err on the side of caution"
+(L8569) e "it's much easier to build your sender reputation (…) than it is to fix it
+when it's already in a poor position" (L8555). **Na dúvida, o número mais alto.**
+
+## Os demais conflitos slide-contra-slide
+
+Vivem no bloco do módulo dono; listados aqui porque a precedência do [[_INDEX]] não os
+resolve e o diagnóstico é o mesmo.
+
+| Slug | O defeito | Linhas | Desempate disponível |
+|---|---|---|---|
+| `deliverability-unsubscribe-afeta-ou-nao` | o rótulo da linha diz "(doesn't affect deliverability)" e a mesma tabela lhe dá meta; três linhas antes ele está na lista do que "Google, Yahoo, etc look at" | L8706-8710, L8719 | fala (L8432) confirma "neutral metric" → é métrica de **monitoramento com alvo**, não de deliverability |
+| `campanhas-cadencia-alta-vs-tier-1m` | 5-7x/semana listado como faixa danosa, 5-6x/semana prescrito para $1M+/mês | L5264-5269 vs L5298 | **nenhum dentro do deck**; a reconciliação existe só na fala (L4240, L4270-4276), e essa fala é `outro-provavel` |
+| `copy-numeracao-dos-principios` | dois "Principle #2" e nenhum "#3" | L6578, L6604, L6625 | o acrônimo, dado certo três vezes (L6558-6576, L5504-5512, L4715-4717) → Engaging é o terceiro; o "#2" de L6625 é erro do slide |
+| `copy-takeaways-por-email` | heading "Limit to 1-3 Key Points Per Email" contrariado pelo corpo duas linhas abaixo | L6615 vs L6617-6618 | corpo vence: "1" aparece três vezes (L5611, L6547, L6617); a única concessão é "When you can", que não define quando |
+| `welcome-contagem-de-fillers` | heading "Insert 1-4 Filler Emails" contra o corpo "the 1–5 educational emails" | L3544 vs L3547 | corpo vence: 1-5 em três lugares (L1612, L2178, L3517) |
+| `design-cta-por-produto` | a lista de regras exige botão, a página da seção aceita alternativa | L8139 vs L8282 | fala (L7458) é categórica e traz teste: "Every single time I test this if you let people know shop now… then it gets higher clicks" (L7462) → **botão** |
+| `design-segundos-de-atencao` (parte) | "2-4 seconds" e "3 seconds" no mesmo deck, 16 linhas de distância | L8185 vs L8201 | L8201 é paráfrase dentro da faixa, não valor independente |
+| `list-growth-tipos-de-form` | slide promete "one of the 5 form types", corpus nomeia quatro | L1200 vs L1292-1298 | fala (L998) conta quatro; o próprio slide de exemplos repete um card e omite spin-to-win |
+| `list-growth-checkbox-preselecionado` | a segunda metade da linha anula a primeira | L1120 | intenção declarada (L537, L1115) → auto-marcado; o texto é colado do Shopify e não foi revisado |
+| `list-growth-friccao-na-signup-page` | "Remove as much friction as possible!" e, sete linhas depois, "enter a short description" | L1127 vs L1134 | fala vence (é julgamento): headline é o desconto (L547-549) |
+| `replenishment-desconto` | "without heavy discounts" e "15% Off Your Next Refill!" **dentro de cada registro** | L3992/L3247 vs L4035-4037/L3299 | nenhum; a conciliação possível é que o desconto entra só no email 2, marcado opcional (L3269) |
+| `otimizacao-sl-julgar-por-abertura-ou-receita` | "Not about your open rates" e, seis linhas depois, "track open rates" | L6085 vs L6091 | receita: sustentada no deck (L6810), na fala (L6229-6233, L8926-8944) e nos dados (L6127-6139). L6091 é resumo mal feito da página do curso |
+| `deliverability-registros-dns` | quatro registros na prosa, três na lista de requisitos | L8671 vs L8687-8689 | nenhum; **SPF, DMARC, DKIM** são requisito declarado, o MX aparece uma vez na prosa. Não afirme que o MX é dispensável nem obrigatório |
+| `welcome-estrutura-da-sequencia` | o slide promete "**Base Strategy:**" e não entrega nada | L3509 | nenhum; o diagrama não sobreviveu à extração |
+| `winback-definicao-do-segmento` | o slide promete a definição do segmento e entrega slot vazio | L4057 | a definição completa está no deck de campanhas (L5589) |
+| `design-metodos-de-transicao-ausentes` | "Here are a few methods to do this:" seguido de nada | L8307 | os quatro métodos existem só na fala (L7552-7586) |
+| `flows-receita-da-agencia` (→ `doutrina-receita-da-agencia`) | $100M e $200M no mesmo deck, nove linhas de distância | L3419 vs L3428 | nenhum; o segundo está num bloco de recomendação paga do Klaviyo |
+
+---
+
+# Colisões de slug e veredictos arbitrados
+
+Registro de auditoria da consolidação. Onze arquivos de staging registraram parte dos
+mesmos conflitos com slugs diferentes. Regra aplicada: **canônico é o slug do módulo
+que possui o registro onde a contradição vive** — quando os dois lados estão no mesmo
+deck, é o dono do deck; quando o conflito é transversal por natureza, é `doutrina`.
+
+| Conflito | Slugs concorrentes | Canônico | Situação |
+|---|---|---|---|
+| Onde testar | `otimizacao-onde-testar` · `flows-onde-testar` | `flows-onde-testar` | veredictos iguais; **os dois lados estão no deck de flows** (L4128 e L4141), o de otimização só carrega a cópia (L9176-9180) |
+| Peso do básico | `otimizacao-peso-do-basico` · `doutrina-proporcao-basico-avancado` | `otimizacao-peso-do-basico` | **veredictos divergentes — arbitrado, ver abaixo** |
+| Numeração S.C.E. | `copy-numeracao-dos-principios` · `doutrina-sce-numeracao-dos-principios` | `copy-numeracao-dos-principios` | duplicata declarada pela própria unidade de doutrina |
+| Benchmark de form | `sms-benchmark-de-form` · `list-growth-benchmark-de-form` | `list-growth-benchmark-de-form` | complementares: as versões de SMS (2-3%, 8-10%) entraram na escada |
+| Delay do pop-up | `sms-delay-do-popup` · `list-growth-time-delay` · `fundamentos-time-delay-do-form` | `list-growth-time-delay` | **três slugs para um conflito**; fundamentos era ponteiro puro |
+| Exit intent | `sms-exit-intent` · `list-growth-exit-intent` | `list-growth-exit-intent` | complementar: L9240 entrou como terceira versão |
+| Checkbox pré-marcado | `sms-instrucoes-de-optin-sao-de-email` · `list-growth-checkbox-preselecionado` | **os dois mantidos** | achados distintos (canal errado × texto que se anula); o defeito compartilhado é descrito uma vez só, em list-growth |
+| Narrador da aula de IA | `copy-narrador-nao-e-max` · `doutrina-narrador-da-aula-de-ia` | `doutrina-narrador-da-aula-de-ia` | **colisão nova**; doutrina tem o superconjunto (assinaturas de 9 vídeos) |
+| IA como primeiro rascunho | `copy-papel-da-ia` · `doutrina-ia-primeiro-rascunho` | `doutrina-ia-primeiro-rascunho` | **colisão nova**; mesmas linhas, doutrina acrescenta o Gymshark |
+| Julgar SL por abertura ou receita | `copy-medir-por-abertura` · `otimizacao-sl-julgar-por-abertura-ou-receita` | `otimizacao-sl-julgar-por-abertura-ou-receita` | **colisão nova**; a versão de otimização acrescenta L8926-8944 |
+| Teto do ganho de abertura | `copy-open-rate-limite` · `otimizacao-teto-de-abertura` | `copy-open-rate-limite` | **colisão nova**; o número está no deck de copy (L6805) |
+| Credencial de receita | `doutrina-receita-da-agencia` · `flows-receita-da-agencia` | `doutrina-receita-da-agencia` | **colisão nova**; quatro valores num registro só |
+| Grafia de nomes de marca | `doutrina-lista-de-marcas` · `design-nomes-de-marca` | `doutrina-lista-de-marcas` | **colisão nova**; a própria unidade de design já apontava para doutrina |
+| Cadência de campanha | `campanhas-sweet-spot-de-frequencia` · `flows-frequencia-de-campanha` | `campanhas-sweet-spot-de-frequencia` | **colisão nova**; a entrada de flows era ponteiro |
+| Janela de atenção | `doutrina-segundos-de-atencao` · `copy-janela-de-atencao` · `design-segundos-de-atencao` | `doutrina-segundos-de-atencao` | **colisão nova, três vias**; o "antes" de copy e o L8201 de design entraram na tabela única — **veredictos divergentes, ver abaixo** |
+
+**15 colisões resolvidas · 16 slugs redundantes · 126 entradas canônicas.**
+
+## Veredicto arbitrado 1 — peso do básico
+
+**A divergência:** a unidade de `otimizacao` classificou L8764 como `resumo do módulo` e
+**recusou-se a resolver** ("as quatro versões são dele, e o ponto é o mesmo em qualquer
+número"). A unidade de `doutrina` classificou L8764 como `slide (lista do módulo)` e
+**resolveu por precedência** ("está nos dois slides (…) como o conflito é sobre número,
+vale o slide").
+
+**A arbitragem, com o bruto aberto:**
+
+1. **L8764 não é slide GAMMA.** O deck de otimização começa em L9110 (`# GAMMA
+   OPTIMIZATION`). L8760-8769 é o bloco de bullets da página do curso, e termina em
+   L8769 com "Link to document in video: [gamma.app/docs/AB-Testing-Optimization…]" —
+   ele **aponta para** o deck. A classificação de `otimizacao` está certa; a de
+   `doutrina` está errada. Não são "dois slides": é o deck e o resumo do deck, uma
+   fonte contada duas vezes.
+2. **Mas isso não sustenta o "não resolver".** Sobra um slide (L9120-9121, 90/10) contra
+   duas falas (L8778-8780 "80, 90%" e L9098 "80%"). Conflito de número entre registros
+   → a precedência do [[_INDEX]] se aplica → **vale o slide**.
+3. **E há um desempate mais forte que a precedência.** O bloco de fala L8762-9109 é
+   classificado **`outro-provavel`** por [[_autoria]] (bloco 40): "obviously" 9×, "at
+   the end of the day" 3× e **zero** "I recommend" / "my favorite" / "I like to" em
+   3.121 palavras, mais o fecho coletivo "feel free to hit us up" em L9108. A saudação
+   "Yo, yo" de L8774 **não conta** — o critério caiu (§5). **As duas
+   versões que dizem 80% não são citáveis como fala do Max.**
+
+**Veredicto: 90/10.** Registrado em `otimizacao-peso-do-basico`, com as versões de 80%
+preservadas e marcadas como atribuição duvidosa. Nenhuma das duas unidades tinha os
+três elementos — uma acertou o registro e errou a conclusão, a outra errou o registro e
+acertou a conclusão pelo motivo errado.
+
+## Veredicto arbitrado 2 — a janela de atenção "antes"
+
+**A divergência:** a unidade de `doutrina` afirmou que o valor "antes" **não conflita**
+("Os três registros dizem 5-10 segundos (L4703, L5500, L6516). Quem responder não deve
+inventar divergência aí"). A unidade de `copy` registrou que **conflita** (slide fixa
+5-10; a fala hesita entre 3-5 e 5-10).
+
+**A arbitragem:** `copy` está certa e `doutrina` trabalhou com um conjunto incompleto.
+L5891 diz, verbatim: "used to be **three to five**, five to 10 maybe". É uma quarta
+linha, e ela oferece 3-5. A afirmação de que os três registros concordam é verdadeira
+para as três linhas que doutrina listou e falsa para o corpus.
+
+**Veredicto: o "antes" conflita**, com a ressalva de que a única versão discordante
+(L5891) está no bloco L5867-6082, classificado `outro-provavel` — ou seja, é a de
+atribuição mais fraca. Registrado assim em `doutrina-segundos-de-atencao`. A instrução
+"não inventar divergência aí" foi removida; a instrução "não converter em faixa única"
+permanece.
+
+## Correções aplicadas a entradas herdadas
+
+| Entrada | O que estava errado | O que passou a valer |
+|---|---|---|
+| `sms-frequencia` | resolvia por média ("7 mensagens em 31 dias dá menos de 2/semana"), violando a regra 2 do protocolo | dá as versões e os quatro critérios dele (evento · lacuna < 1 semana · dias consecutivos para evento grande · segmentar acima do teto, L9368); a leitura das datas registra que a semana do lançamento passa do teto |
+| `flows-onde-testar` / `otimizacao-onde-testar` | as duas afirmavam que "o corpus nunca faz essa distinção" | o deck faz a distinção duas vezes — a palavra "**content**" em L4128 e o heading "**Flow Specific A/B Tests**" em L4139. O que falta é a frase que amarra, não a evidência |
+| `campanhas-share-do-90-day-engaged` | apresentado no índice de campanhas como conflito | reclassificado como **armadilha de leitura**: L4838 e L4652 medem vendas, L5139 e L5597 medem envios, e **L4652 nem é percentual** — é rótulo de Pareto (confirmado por L5017-5021) |
+| `doutrina-proporcao-basico-avancado` | classificava L8764 como slide GAMMA | L8764 é resumo da página do curso e aponta para o deck (L8769); ver veredicto arbitrado 1 |
+| `doutrina-segundos-de-atencao` | afirmava que o "antes" não conflita | conflita; ver veredicto arbitrado 2 |
+
+## Conflitos novos, abertos nesta consolidação
+
+| Slug | Por que ninguém tinha aberto |
+|---|---|
+| `campanhas-cadencia-alta-vs-tier-1m` | a faixa danosa (L5264-5269) e o tier de topo (L5298) estão a 30 linhas de distância no mesmo deck, em seções com títulos diferentes; a reconciliação está só na fala (L4240, L4270-4276), num bloco `outro-provavel` |
+| `copy-email-marketing-brain-tamanho` | "500 pages" (L6775, slide) e "500 docs" (L6387, fala) parecem o mesmo número; a divergência é de **unidade**. O "past 6 months" de L6387 não existe em nenhum outro lugar do corpus |
+| `entre-modulos-tabela-de-metricas` | cada unidade comparou a sua tabela com o glossário; ninguém comparou a tabela de fundamentos (L372-380) com a de deliverability (L8713-8719). Divergem em click rate (0,5%/2% vs 0,75%) e unsubscribe (0,3% vs 0,4%) |
+
+## O que parece conflito e não é
+
+Registrado para que ninguém abra entrada nova por engano.
+
+- **Prazo da janela de honeymoon.** A fala dá 30 dias (L22), o slide não dá prazo nenhum
+  (L319). Omissão, não contradição.
+- **Desconto.** A regra contra desconto vale para campanhas (L4197, L4372-4378); os
+  descontos do welcome flow (L3495-3497) e o email de sale do Calvin Klein (L6364-6365)
+  estão em outro escopo. Ele delimita, não se contradiz.
+- **S.C.E. grafado "SDE"** em L4715 — erro de ASR. O slide (L5504) dá a forma correta.
+- **Email share de 40%.** Tabela (L374) e glossário (L388) concordam.
+- **Slide reaproveitado não é segunda fonte.** A linha de tabela do 90 Day Engaged List
+  é idêntica em L5587 e L8734; os quatro testes de topo são idênticos entre L4141-4176 e
+  L9151-9180. Ver `otimizacao-deck-duplicado`.
+- **Ordem do S.C.E.** O acrônimo está certo em três lugares; só a numeração erra.
