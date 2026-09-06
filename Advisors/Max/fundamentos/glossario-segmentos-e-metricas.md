@@ -14,7 +14,7 @@ status: rascunho
 Parte do glossário do módulo. Índice e ressalvas em [[glossario]].
 **Verbatim, em inglês, do deck GAMMA.** Não traduzir, não resumir, não corrigir.
 
-22 termos, 2 categorias (L413-439). **Atenção:** os alvos numéricos desta parte contradizem a tabela de metas do mesmo módulo — ver [[metricas-nucleo]] e `_staging/conflitos-fundamentos.md`.
+22 termos, 2 categorias (L413-439). **Atenção:** os alvos numéricos desta parte contradizem a tabela de metas do mesmo módulo — ver [[metricas-nucleo]] e [[_conflitos#Conflitos dentro do mesmo registro]].
 
 ---
 

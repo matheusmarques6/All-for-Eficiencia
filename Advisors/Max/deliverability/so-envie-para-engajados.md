@@ -74,7 +74,7 @@ change the 90 to a 60" (L8480). Vale para 30, 60, 90, 120, 180 ou 365 dias
 
 > **A versão falada dessa definição está corrompida.** Em L8478 o ASR colapsa a
 > condição de inscrição em "someone has placed order at least once" e a repete no
-> fim. Use só a do slide. Registrado em [[descartes-deliverability]].
+> fim. Use só a do slide. Registrado em [[_registro/descartes-deliverability]].
 
 # A regra de ajuste
 

@@ -1,5 +1,5 @@
 ---
-tipo: staging
+tipo: registro
 modulo: design
 assunto: descartes
 status: rascunho

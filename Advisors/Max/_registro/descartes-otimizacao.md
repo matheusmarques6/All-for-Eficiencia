@@ -1,5 +1,5 @@
 ---
-tipo: staging
+tipo: registro
 modulo: otimizacao
 fonte: "CONTEUDO BRUTO/max.md — L8760-9109 (transcrição), L9110-9211 (slide)"
 status: rascunho

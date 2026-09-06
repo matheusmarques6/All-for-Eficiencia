@@ -1040,6 +1040,7 @@ porque alguém vai perguntar.
 | " " | `"which has generated $40 million for clients in the past few years"` | transcrição | L6350 | doutrina-receita-da-agencia |
 | " " | `"I've made $100 million making emails for e-commerce brands"` | transcrição | L6359 | doutrina-receita-da-agencia |
 | " " (swipe file) | `"handpicked by me a $100M email marketer"` | slide | L5351 | doutrina-receita-da-agencia |
+| Promessa do título do deck de SMS | `"The Blueprint to Scaling Your SMS Marketing Channel to $500k/mo+"` | slide | L9263, L9543 | — |
 | Clientes da agência | `"over 279 figure e-commerce brands"` — **corrompido** | transcrição (YouTube) | L1029 | — |
 | Receita de um único email | `"$255,000 from one email"` | transcrição | L5182 | — |
 | " " | `"over $100,000 from one email"` | transcrição | L5183 | — |

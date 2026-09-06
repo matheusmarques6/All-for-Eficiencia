@@ -31,7 +31,7 @@ frase de fala é o "people are so accustomed to seeing the same thing over and o
 and over and over" (L6219), usada como reforço do argumento sobre repetição: essa
 linha está na faixa não-Max e **não é citável como fala dele**. O laudo classifica
 `principio-engaging` como não afetada ([[_autoria]] §6.1); a âncora do corpo diz
-o contrário. Registrado em `_staging/aplicacao-autoria.md`.
+o contrário. Registrado em `_registro/aplicacao-autoria.md`.
 
 # O que é
 

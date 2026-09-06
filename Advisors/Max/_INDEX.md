@@ -74,6 +74,19 @@ roteamento abaixo.
 | [[_casos-de-teste]] | as perguntas de verificação |
 | [[_arquitetura]] | por que este corpus é construído assim |
 
+# `_registro/` — auditoria, não rota de resposta
+
+[[_registro/_index]] guarda o rastro de construção que as notas de controle
+prometem mas não carregam: os dez `descartes-<modulo>.md` (linha a linha, o que
+ficou de fora e por quê — é o detalhe que [[_fontes]] resume), o
+`aplicacao-autoria.md` (como o laudo de [[_autoria]] foi aplicado, nota por
+nota) e `sunset-segmento-L9545.png`, o print extraído da L9545 de onde saiu a
+definição do segmento do Sunset Flow.
+
+**Não é rota de resposta.** Nenhuma pergunta do roteamento acima desce até aqui.
+Serve para auditar uma decisão depois — por que uma linha não virou nota, por
+que uma atribuição mudou — e para provar que o descarte foi deliberado.
+
 # Convenções
 
 **`tipo:` diz o que a nota é, e muda como ela pode ser usada:**

@@ -86,7 +86,7 @@ Dois merecem aviso antes de qualquer resposta:
    L5888-6082 e L6101-6248 são `outro-provavel` — o que atinge
    [[infograficos]], [[subject-lines]], [[preview-texts]],
    [[principio-skimmable]] e uma citação de [[principio-engaging]]. Ver
-   [[_autoria]] e `_staging/aplicacao-autoria.md`.
+   [[_autoria]] e `_registro/aplicacao-autoria.md`.
 
 # Lacuna estrutural
 

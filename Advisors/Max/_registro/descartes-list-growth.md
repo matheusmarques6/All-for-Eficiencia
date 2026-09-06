@@ -98,7 +98,7 @@ cabeçalho da aula 2 (L563).
 - **L1028-1029** — "you can book a call with us using the link below. We've
   worked with over 279 figure e-commerce brands... you can book a call below or
   go to our website at wellcopy.net" — pitch de agência. Os números foram para
-  `numeros-list-growth.md` marcados como registro comercial; o CTA não entrou em
+  [[_numeros-completo#Métodos de captação e o case da agência]] marcados como registro comercial; o CTA não entrou em
   nota.
 - **L1082-1083** — "watch this next video and I will see you there. Thank you for
   watching this video. Catch you in the next one." — encerramento de YouTube.
@@ -147,7 +147,7 @@ Descartados por serem ajuste fino de tela sem regra generalizável — ele mesmo
   Atenção: **L1044 e L1058 não são descarte** — L1044 traz a datação da
   recomendação de copy ("at least right now this is what's working") e L1058 traz
   a frase do quiz; ambas estão em `copy-do-form`. Os valores de fonte 18 e altura
-  54 (L1060) estão em `numeros-list-growth.md`.
+  54 (L1060) estão em [[_numeros-completo#Especificação do form]].
 
 Os **valores** que saíram desses trechos (tamanhos de fonte, padding, altura de
-botão) estão em `numeros-list-growth.md`; a narração dos cliques, não.
+botão) estão em [[_numeros-completo#Especificação do form]]; a narração dos cliques, não.

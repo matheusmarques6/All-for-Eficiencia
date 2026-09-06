@@ -22,7 +22,7 @@ listados individualmente — são índice, não conteúdo.
 | L9540-9543 | "**Want More Help?** / If you're an ecommerce brand doing at least $50k/mo - book a free consultation call." + repetição do título do deck | venda de consultoria |
 
 O filtro de $50k/mês aparece nos dois registros (L9259, L9542) e é o mesmo
-número; está em `numeros-sms.md` marcado como oriundo de CTA, para
+número; está em [[_numeros-completo#Claims institucionais]] marcado como oriundo de CTA, para
 rastreabilidade, com a instrução de não usar em resposta.
 
 ## 2. Bio, socials e cross-promo

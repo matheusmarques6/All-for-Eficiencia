@@ -14,9 +14,11 @@ O módulo de design do curso: por que design importa, três princípios, doutrin
 por seção de email, transições, e os dois procedimentos de ferramenta (Figma e
 upload). Treze notas.
 
-O módulo é onde o corpus mais se contradiz por seção — dezesseis conflitos com
-entrada em `_staging/conflitos-design.md`. Antes de responder qualquer pergunta com
-número aqui, abrir [[_numeros]] e [[_conflitos]].
+O módulo é onde o corpus mais se contradiz por seção. Doze slugs `design-*` têm
+entrada em [[_conflitos-completo#design]]; `design-cta-por-produto` e
+`design-html-vs-imagem` ficam em [[_conflitos]], nas duas seções transversais.
+Antes de responder qualquer pergunta com número aqui, abrir [[_numeros]] e
+[[_conflitos]].
 
 # As notas
 

@@ -142,7 +142,7 @@ pela assinatura de abertura. **Os nove foram reescritos.**
 | `winback` | **1 citação**: L5057, fala `outro-provavel` | `[transcricao, slide]` → `[transcricao, slide, outro-narrador]` | "A fala do mesmo módulo confirma" → "confirma — mas essa fala **não é de Max**". A definição que vale continua sendo o slide L5589 |
 | `sunset` | **2 citações**: L5127 e L5129, fala `outro-provavel`; L5127 está no `fonte:` | `[transcricao, slide]` → `[transcricao, slide, outro-narrador]` | "**ele** promete: We'll talk about this more in the Sunset Flow" → "o material promete … e quem a faz não é Max"; linha da tabela `Suppress list (fala)`: "transcrição" → **outro-narrador**; "**ele** os apresenta juntos" → "o corpus os apresenta juntos" |
 
-## `_staging/conflitos-doutrina.md`
+## Entrada de conflito de doutrina — hoje em [[_conflitos-completo#doutrina]]
 
 Entrada `doutrina-narrador-da-aula-de-ia` recebeu banner **SUPERADO EM PARTE POR
 [[_autoria]]**: a conclusão de dois narradores fica, a tabela de assinaturas fica
@@ -215,4 +215,5 @@ Nenhuma dessas notas tem `fonte:` em faixa não-Max.
   de controle é trabalho de outra unidade.
 - **Não tocou em `design/`, `fundamentos/`, `list-growth/` e `sms/`**, por
   instrução — ver o caso 3 acima.
-- **Não reescreveu `_staging/conflitos-doutrina.md`**, só marcou a parte superada.
+- **Não reescreveu a entrada de conflito de doutrina** (hoje em
+  [[_conflitos-completo#doutrina]]), só marcou a parte superada.

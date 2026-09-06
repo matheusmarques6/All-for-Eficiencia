@@ -61,9 +61,10 @@ módulo:
 
 # Antes de responder qualquer número desta pasta
 
-Esta faixa é a mais conflitante do corpus em proporção ao tamanho: **17 entradas**
-em `_staging/conflitos-fundamentos.md`, quatro delas entre a tabela de metas e o
-glossário do **mesmo deck**. Abrir [[_numeros]] e [[_conflitos]] antes da nota,
+Esta faixa é a mais conflitante do corpus em proporção ao tamanho: onze entradas
+em [[_conflitos-completo#fundamentos]] e mais cinco em [[_conflitos]] — as quatro
+entre a tabela de metas e o glossário do **mesmo deck**, mais
+`fundamentos-o-que-move-o-open-rate`. Abrir [[_numeros]] e [[_conflitos]] antes da nota,
 sempre — em especial para open rate, unsubscribe, spam complaint e click rate.
 
 # O que esta pasta declaradamente não cobre

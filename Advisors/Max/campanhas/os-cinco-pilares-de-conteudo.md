@@ -61,7 +61,7 @@ those" (L4476-4478).
 > **racional falado sobre como usar testimonials** — nada além disso. Os cinco
 > pilares em si sobrevivem intactos nos bullets do módulo (L4426-4430) e no
 > slide (L5338-5342), cada um com um exemplo. Não reconstruído. Ver
-> `_staging/descartes-campanhas.md`.
+> `_registro/descartes-campanhas.md`.
 
 **Community / Branded** e **Product or Collection Highlights** — a fala não para
 em cada um deles: depois do bloco corrompido a transcrição vai direto para

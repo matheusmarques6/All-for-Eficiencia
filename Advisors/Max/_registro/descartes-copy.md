@@ -1,5 +1,5 @@
 ---
-tipo: staging
+tipo: registro
 modulo: copy
 assunto: descartes
 status: rascunho

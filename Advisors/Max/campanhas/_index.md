@@ -103,7 +103,8 @@ infográficos e o cliente 2025/2026 de 3 segundos de atenção. A nota canônica
 `campanhas-winback-janela` · `campanhas-janela-do-segmento-de-interesse` ·
 `campanhas-limiar-de-hipersegmentacao` · `campanhas-encanador-ou-eletricista`
 
-Detalhe em `_staging/conflitos-campanhas.md`.
+Detalhe em [[_conflitos-completo#campanhas]], onde ficam as quinze entradas
+canônicas do módulo.
 
 # Lacuna conhecida
 

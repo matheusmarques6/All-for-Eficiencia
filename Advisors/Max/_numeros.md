@@ -101,7 +101,7 @@ that range"` (L8569) — e é essa que se cita. Ver
 Nenhuma outra linha do arquivo declara a contagem de clientes da agência, então
 não há registro limpo para citar. **Nunca reconstruir** — o corpus não autoriza
 escolher entre "279", "27 9-figure" ou qualquer outra segmentação. A linha é
-CTA comercial (ver `descartes-list-growth.md`).
+CTA comercial (ver `_registro/descartes-list-growth.md`).
 
 ## L595 — "147,000 to 25,000" e "8.57 8.75%" são corrompidos, mas têm versão limpa
 

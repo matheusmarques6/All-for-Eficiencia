@@ -1,17 +1,17 @@
 # Descartes do módulo `flows`
 
 Linhas da faixa L1307-4186 que **não** entraram nas notas, e o motivo. O
-critério é o do `_brief`: ruído de ASR, CTA comercial, placeholder morto,
-título que mente.
+critério é o mesmo dos demais descartes: ruído de ASR, CTA comercial,
+placeholder morto, título que mente.
 
 ## 1. CTA comercial e autopromoção
 
 | Linhas | O que é | Motivo |
 |---|---|---|
-| L3417-3424 | Bio do Max + quatro links de rede social | Não é doutrina. O `$100M` de L3419 foi para `numeros-flows.md` como credencial disputada, não como fato. |
-| L3426-3429 | "Sign Up For Klaviyo For Email Marketing" — link de afiliado com "free to start and takes 2 minutes to setup" | CTA comercial. O `$200M` de L3428 está registrado em `numeros-flows.md` e em `conflitos-flows.md` justamente porque a origem é promocional. |
+| L3417-3424 | Bio do Max + quatro links de rede social | Não é doutrina. O `$100M` de L3419 foi para [[_numeros-completo#Claims institucionais]] como credencial disputada, não como fato. |
+| L3426-3429 | "Sign Up For Klaviyo For Email Marketing" — link de afiliado com "free to start and takes 2 minutes to setup" | CTA comercial. O `$200M` de L3428 está registrado em [[_numeros-completo#Claims institucionais]] e em [[_conflitos-completo#doutrina-receita-da-agencia]] justamente porque a origem é promocional. |
 | L3458-3465 | "Join My Email Course / Community" — 30+ módulos, 250+ templates, calls semanais, link Skool | CTA comercial puro. Os números não são especificação de nada. |
-| L4178-4185 | "That's It For This One!", "Want More Help?", consultoria para marcas de $50k/mo | Fechamento comercial. O piso de $50k/mo entrou em `numeros-flows.md` por ser número declarado, mas não sustenta nenhuma nota. |
+| L4178-4185 | "That's It For This One!", "Want More Help?", consultoria para marcas de $50k/mo | Fechamento comercial. O piso de $50k/mo entrou em [[_numeros-completo#Claims institucionais]] por ser número declarado, mas não sustenta nenhuma nota. |
 | L2614-2616 | "feel free to message me or the group as well and we'll get you get a fix for you" | Oferta de suporte, não instrução. |
 
 ## 2. Placeholders mortos — o slide promete e não entrega
@@ -54,7 +54,7 @@ Descartado como texto, mas registrado onde afeta a leitura de um artefato.
 | L2363 | "like a card abandoned" | *cart abandoned* | comparação de intenção em [[site-abandon]] |
 | L2401, L2403, L2429, L2496 | "side abandoned", "side of band", "side of band and flow", "side of Bain and Flow" | *site abandon* | nome do flow |
 | L2417 | "velvet cowder yard" | *Velvet Caviar* — o mesmo exemplo reaparece identificado em L5198 | exemplo do site abandon E2 |
-| L2911 | "Still 1x% off" | provavelmente *10% off* | valor de desconto — mantido verbatim em `numeros-flows.md` com marca de corrupção |
+| L2911 | "Still 1x% off" | provavelmente *10% off* | valor de desconto — mantido verbatim em [[_numeros-completo#Cart / checkout abandon]] com marca de corrupção |
 | L2987 | "For Bannon checkout" | *for abandoned checkout* | bloco dinâmico |
 | L2995-2997 | "With this row collection and row alias. Alias." | repetição de ASR | fórmula do checkout — a versão boa está no slide L3903-3904 |
 | L3160-3162 | "You know your brand / post-purchase flow as within 14 days" | frase truncada entre dois parágrafos | escopo temporal do post-purchase — confirmado pelo slide L3971 |
@@ -78,7 +78,7 @@ sinalizado.
 | Linhas | Assunto | Vai para |
 |---|---|---|
 | L1318-1368, L3469-3484 | O argumento de CAC do pop-up | `list-growth/` — usado em [[welcome]] só como racional do flow |
-| L3435-3444 | Definição geral de "o que são flows" e a divisão 50/50 flow vs campanha | `doutrina/` — o número está em `numeros-flows.md` |
+| L3435-3444 | Definição geral de "o que são flows" e a divisão 50/50 flow vs campanha | `doutrina/` — o número está em [[_numeros-completo#Tabela de metas e glossário]] (registrado em L326) |
 | L3446-3452 | "Already Have Flows?" — diagnóstico de flows desatualizados | `doutrina/` |
 | L2367, L3384-3386 | Frequência de campanha (3-4/semana, 3x/semana) | `campanhas/` — números registrados, conflito aberto |
 | L5057, L5589 | Definição completa do segmento de winback | `campanhas/` (segmentação) — citada em [[winback]] por necessidade |
@@ -89,7 +89,7 @@ sinalizado.
 
 - **A hesitação "days 30 through 60-ish, 21 through 60-ish"** (L3233-3235). Não
   é ruído: é ele se corrigindo sobre uma especificação. Registrada em
-  [[replenishment]] e em `conflitos-flows.md`.
+  [[replenishment]] e em [[_conflitos-completo#replenishment-janela]].
 - **"Because I'm impatient"** (L3322). Parece piada, mas é o racional inteiro de
   por que o winback usa segmento em vez de metric. Mantido em [[winback]].
 - **"For whatever reason, Klaviyo, their base templates, they labeled them

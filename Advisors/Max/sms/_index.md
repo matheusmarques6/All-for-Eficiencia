@@ -55,11 +55,13 @@ imagem não sobreviveu à extração.
 | Trigger do pop-up | **6-10s** após page load (ele usa 6) | transcrição | L9239-9240 |
 | Janela base de envio | **11am-2pm** | ambos | L9256, L9509 |
 
-Tabela completa em `_staging/numeros-sms.md`.
+Tabela completa em [[_numeros-completo#SMS]].
 
 # Onde este módulo se contradiz
 
-Dezesseis entradas em `_staging/conflitos-sms.md`. As que mais mudam uma
+Treze entradas canônicas: onze em [[_conflitos-completo#sms]] e duas —
+`sms-open-rate-de-email` e `sms-frequencia-de-email-comparada` — em
+[[_conflitos#Conflitos entre módulos]]. As que mais mudam uma
 resposta:
 
 - **`sms-frequencia`** — 1-2/semana × "once per weekish" × o calendário-exemplo

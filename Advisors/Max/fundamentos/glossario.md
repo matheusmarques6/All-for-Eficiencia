@@ -58,7 +58,7 @@ que ele **falou**, a fala vence, porque ele nunca defendeu estas linhas.
 
 Quatro metas numéricas do 📈 Performance Metrics discordam da tabela de metas do
 mesmo deck e da fala da aula 5. Tabela completa em [[metricas-nucleo]]; entradas
-em `_staging/conflitos-fundamentos.md`.
+em [[_conflitos#Conflitos dentro do mesmo registro]].
 
 | Métrica | Glossário | Tabela / fala |
 |---|---|---|

@@ -30,7 +30,7 @@ o print embutido na L9545. **O que não é dele** são a promessa não cumprida
 ("We'll talk about this more in the Sunset Flow", L5127) e a versão falada da
 suppress list (L5129). O laudo não lista `sunset` entre as notas afetadas
 ([[_autoria]] §6.1) — a âncora do corpo diz o contrário. Registrado em
-`_staging/aplicacao-autoria.md`.
+`_registro/aplicacao-autoria.md`.
 
 # O que é
 

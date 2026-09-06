@@ -82,7 +82,7 @@ que não fecham:
 
 O centro é 50/50 e a tolerância é 40/60 nos dois sentidos — mas 40-60% *cada*
 (L172, L375) e 40/60 *ou* 60/40 (L22, L60) não são a mesma afirmação. Ver
-`_staging/conflitos-fundamentos.md`.
+[[_conflitos-completo#fundamentos-split-campanhas-flows]].
 
 E o caso extremo troca de denominador no meio da frase:
 
@@ -98,7 +98,7 @@ Quando o split foge da faixa, o que ele oferece é contexto, não um número:
 "Just bec because the flows are really good and the list doesn't— it's a small
 list, or the list just doesn't respond as well as campaigns. So it's going to
 take a little bit of context" (L22). E encaminha para revisão de conta — CTA
-comercial do programa, registrada em `_staging/descartes-fundamentos.md`.
+comercial do programa, registrada em `_registro/descartes-fundamentos.md`.
 
 Fora da faixa, o diagnóstico prático de dashboard usa o mesmo split: 14% vindos
 de flows significa "the flows could use a lot of improvement" (L62). Ver

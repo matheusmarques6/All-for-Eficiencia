@@ -121,7 +121,7 @@ Sending): "skip recently emailed profiles, typically you want to send that off"
 (L78 — "send" é ruído de ASR para *turn*). O glossário restringe o mesmo conselho
 a flows: "Smart Sending – Klaviyo feature that skips sending to people recently
 emailed. **Turn off for flows**\!" (L447). Ver
-`_staging/conflitos-fundamentos.md`.
+[[_conflitos-completo#fundamentos-smart-sending]].
 
 # O que o corpus não diz
 
