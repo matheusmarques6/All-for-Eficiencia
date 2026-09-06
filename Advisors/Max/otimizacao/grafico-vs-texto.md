@@ -3,11 +3,34 @@ tipo: principio
 modulo: otimizacao
 assunto: grafico-vs-text-based
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8862-8888 (transcrição), L9151-9157 (slide)"
 conflitos: [otimizacao-grafico-numero-de-variantes, otimizacao-deck-duplicado]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8773-9109 (toda a fala do módulo de otimização) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o bloco de slide (L9153-9157, repetido verbatim no deck de flows em
+L4164-4170) é artefato de Max. A sequência de fim de semana, o racional do
+text-based e a leitura do print ausente (L8862-8888) vêm da faixa não-Max e **não
+são citáveis como fala dele**. A doutrina de texto puro em si tem outra âncora:
+[[doutrina/texto-puro-funciona-porque-e-raro]], apoiada na masterclass
+`max-provado` de L5178-5235.
 
 # O que compara
 
@@ -32,11 +55,10 @@ catálogo, existe vencedor por lista.
 # Por que o text-based ganha quando ganha
 
 "Text base sounds like it's coming from a friend if it's personal or from the
-owner, all the better" (L8870-8872). Ele trata o formato como já coberto — "we've
-already gone through text base emails" (L8870) — e não repete a construção
-aqui; ver [[copy/_index]] e [[design/_index]].
+owner, all the better" (L8870-8872). O material trata o formato como já coberto — "we've
+already gone through text base emails" (L8870) — e não repete a construção aqui; ver [[copy/_index]] e [[design/_index]].
 
-# Onde ele manda usar cada um
+# Onde o material manda usar cada um
 
 A regra prática é misturar, com o text-based reservado aos emails-chave de drop
 e de sale: "especially for big drops in sales. So you lead off with a text based
@@ -53,7 +75,7 @@ domingo (L8876-8880):
 | domingo | "a short last chance email" | "That's probably graphic or could be text based as well" (L8882) |
 
 O domingo fica em aberto de propósito: "However, you want to divvy them up"
-(L8884). A regra que ele fecha: "Graphic emails are awesome, but you do want to
+(L8884). A regra de fechamento: "Graphic emails are awesome, but you do want to
 mix those text based emails in and testing them one to one will show obviously
 what your list responds to better and what's more effective as you reach those
 big sale periods" (L8884-8888).
@@ -68,7 +90,7 @@ margem de vitória registrada para este teste.
 
 # Onde o corpus discorda
 
-Aqui o teste é de duas vias. Na lista de outros testes ele vira três vias, com
+Aqui o teste é de duas vias. Na lista de outros testes vira três vias, com
 **branded plain text** como meio-termo (L8982-8990; slide L9186) — ver
 [[outros-testes]]. `otimizacao-grafico-numero-de-variantes`.
 

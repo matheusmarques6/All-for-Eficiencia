@@ -3,10 +3,32 @@ tipo: artefato
 modulo: campanhas
 assunto: cem-ideias-de-email
 autor: max-sturtevant
-registro: [slide, transcricao]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L5356-5472 (slide, o artefato); L4516-4542 (transcrição, o enquadramento e os poucos itens que ele comenta)"
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L4444-4675 (Campaign Calendar Creation) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **o artefato inteiro — as 100 ideias, L5356-5472 — é slide**, artefato
+escrito de Max, e continua verbatim e citável. O que muda é o enquadramento falado
+(L4516-4542): a citação de Steve Jobs, a declaração de que não vai ler a lista e
+os poucos títulos comentados em voz alta vêm da faixa não-Max e **não são citáveis
+como fala dele**.
 
 # O que é
 
@@ -16,16 +38,18 @@ Formato de cada item: título em negrito, travessão, glosa de uma linha. Vário
 carregam slot de variável — `[X]`, `[Product]`, `[Top SKU]`, `[Product Name]`,
 `[Specific Benefit]`, `[Media Outlet]`, `[Brand]`, `[category]`.
 
-**Existe só no slide.** Na fala ele declara que não vai lê-las: "here's a
-hundred different high converting email ideas. I'm obviously not going to go
+**Existe só no slide.** Na fala (não-Max) o narrador declara que não vai lê-las:
+"here's a hundred different high converting email ideas. I'm obviously not going to go
 through all of them, but you can see how creative they get. Take these, steal
 them, use them for your brand, put your own unique twist on it" (L4520-4524).
-Os únicos itens que ele comenta em voz alta são "What's NOT in Our Product",
+Os únicos itens comentados em voz alta são "What's NOT in Our Product",
 "Before and After", "Rated 4.9 Stars", "95% of Customers Say", "Why We Exist",
 "A Look Inside Launch Week" e "We're Hiring" (L4526-4542).
 
-O enquadramento dele, na fala: "Good artist copy, great artist steal. We have
-been shameless about stealing great ideas" — atribuído a Steve Jobs (L4516-4518).
+O enquadramento, na fala: "Good artist copy, great artist steal. We have been
+shameless about stealing great ideas" — atribuído a Steve Jobs (L4516-4518).
+A doutrina equivalente **na voz de Max** está em [[doutrina/roubar-e-o-metodo]],
+que sai de L7851-7955 e do slide L8311.
 
 # O artefato — verbatim, em inglês, não traduzir
 

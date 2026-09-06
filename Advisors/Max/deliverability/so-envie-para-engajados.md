@@ -3,18 +3,40 @@ tipo: especificacao
 modulo: deliverability
 assunto: segmento-engajado
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8456-8482 (transcrição), L8721-8734 (slide)"
 conflitos: [deliverability-limiar-de-open-rate, deliverability-lista-base-padrao]
 status: rascunho
 ---
 
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: a definição verbatim do 90 Day Engaged List (L8732-8734) e a regra de
+ajuste (L8725-8729) são **slide** — artefato de Max, e prevalecem em especificação.
+As formulações faladas (L8456-8482) estão na faixa não-Max: o endurecimento da
+regra, o exemplo de aperto e a exceção das listas largas são do material do curso,
+**não citáveis como fala dele**.
+
 # A regra
 
 "You only want to be sending to your engage list" (L8458). A versão com ressalva,
 uma linha antes: "you want to be mainly and almost exclusively sending to your
-engage list" (L8456) — o "keeping things simple" (L8458) é a razão declarada de
-ele endurecer a regra logo em seguida.
+engage list" (L8456) — o "keeping things simple" (L8458) é a razão declarada do
+endurecimento imediato da regra.
 
 O motivo, no slide (L8723): a lista inteira contém gente que nunca vai abrir —
 "they changed emails, they stopped checking, lost interest in your brand, or
@@ -83,7 +105,7 @@ in a significant way, tighten the list up."
 O exemplo de aperto (L8472-8474): estava em 30 dias com ~65% de abertura,
 expandiu para 120 e caiu para 30% — "We need to tighten this up. Maybe 90 is a
 good place to go, but probably want to go back to your 60 day." A ordem final
-("probably 60") contradiz a sugestão imediatamente anterior ("maybe 90"), e ele
+("probably 60") contradiz a sugestão imediatamente anterior ("maybe 90"), e a fala
 não escolhe.
 
 O motivo de voltar e não insistir (L8476): "if you start sending to the wrong

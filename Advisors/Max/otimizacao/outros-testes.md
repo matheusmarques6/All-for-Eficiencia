@@ -3,15 +3,38 @@ tipo: especificacao
 modulo: otimizacao
 assunto: catalogo-de-testes-restantes
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8972-9094 (transcrição), L9182-9209 (slide)"
 conflitos: [otimizacao-lista-redundante, otimizacao-grafico-numero-de-variantes, otimizacao-from-name-testar-ou-prescrever, otimizacao-deck-duplicado]
 status: rascunho
 ---
 
+
+# Aviso de autoria
+
+**Faixa L8773-9109 (toda a fala do módulo de otimização) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: a tabela dos 13 testes é **slide** (L9182-9209) — artefato escrito de
+Max, e é o corpo da nota. Tudo em "# O que a fala acrescenta" (L8972-9094) vem da
+faixa não-Max: a definição de branded plain text, o uso de mystery discount, o
+recorte de long × short form, a regra do CTA e o exemplo de GIF **não são citáveis
+como fala dele**. As três prescrições de sender name citadas no fim (L2413, L3661,
+L6093) são de faixa Max ou de slide.
+
 # O que é
 
-A lista de fechamento, "Other High-Impact A/B Tests to Run" (L9182). Ele
+A lista de fechamento, "Other High-Impact A/B Tests to Run" (L9182). A narração
 atravessa tudo depressa — "I will run through all of these pretty quickly"
 (L8972-8974) — e nenhum item aqui vem com caso, número ou vencedor. São 13
 itens (contagem dos bullets; o corpus não numera).
@@ -47,7 +70,7 @@ text-based as well. Put together using the Klaviyo blocks." (L8984-8988) Ver
 [[grafico-vs-texto]].
 
 **Mystery discount** vem do pop-up: "This is something we tried on the pop-ups a
-lot" (L8994) — ver [[list-growth/_index]].
+lot" (L8994) — o "we" é da equipe narrada, não declaradamente dele — ver [[list-growth/_index]].
 
 **Long vs short form** se testa mexendo em seções (L9010-9016): o padrão é "hero
 section, bridge section, then product section"; as variantes são tirar o bridge
@@ -95,7 +118,7 @@ para quando "you're explaining something a bit more in depth".
 
 # O que o corpus não diz
 
-Nenhum destes 13 tem número, vencedor ou caso. Ele encerra citando material que
+Nenhum destes 13 tem número, vencedor ou caso. A aula encerra citando material que
 não está no corpus: "there's another document we have that outlines some of the
 higher leverage AB tests with a little bit more info on it as well"
 (L9094-9096).

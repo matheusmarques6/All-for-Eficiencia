@@ -3,10 +3,31 @@ tipo: principio
 modulo: deliverability
 assunto: o-que-e-deliverability
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8382-8396 (transcrição), L8655-8679 (slide)"
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: tudo que está entre aspas vindo de L8382-8396, L8418-8422 e L8621-8622
+está nessa faixa e **não é citável como fala de Max**. O que é dele é o deck
+(L8655-8679), artefato escrito. As duas analogias — credit score e algoritmo do
+Instagram — são do material do curso, não declaradamente dele.
 
 # O que é
 
@@ -42,7 +63,7 @@ your domain and IP's sending 'credit score'" (L8658) — note que o slide inclui
 A analogia volta do outro lado, com a construção do score: se a Chase vê que
 você paga em dia, ela te trata como responsável; se o Google vê que abrem,
 clicam e respondem seus emails **consistentemente ao longo do tempo**, você
-constrói o que ele chama de infraestrutura (L8418-8422).
+constrói o que o material chama de infraestrutura (L8418-8422).
 
 # Só duas coisas afetam
 
@@ -62,20 +83,20 @@ O ponto de doutrina mais importante da nota: **o provedor não julga o conteúdo
 julga o número**. "They only see the metrics, and they're saying these people
 have engaging content, people are interacting with it" (L8392).
 
-O exemplo dele é aritmético (L8390): 20% abrindo → "this isn't someone with good
+O exemplo apresentado é aritmético (L8390): 20% abrindo → "this isn't someone with good
 content. This might be spam (…) Why would I put this in someone's primary
 inbox?". 50% abrindo e 1% clicando → o oposto. O slide comprime isso numa
 pergunta retórica (L8665): "If 2/10 people are opening your emails… you think
 they'll keep putting you in their main inbox?"
 
-A demonstração aparece de novo no caso real de warming (L8621-8622), onde ele
-literalmente narra a leitura do Google como uma conta: quantos receberam,
+A demonstração aparece de novo no caso real de warming (L8621-8622), onde a
+narração lê o julgamento do Google como uma conta: quantos receberam,
 quantos abriram, quantos clicaram — "It doesn't look like it's spam."
 
 # A analogia do algoritmo do Instagram
 
-Ele usa uma segunda analogia para dizer que não há nada de especial em email
-(L8392-8394): "at the end of the day, Google's just like any other app. It
+O material usa uma segunda analogia para dizer que não há nada de especial em
+email (L8392-8394): "at the end of the day, Google's just like any other app. It
 rewards positive engagement. It really just rewards engagement."
 
 > The same way that if you're on Instagram and a video starts to blow up,
@@ -90,4 +111,4 @@ rewards positive engagement. It really just rewards engagement."
 - O que é "IP" nesse contexto, ou como ele difere de domínio — o termo aparece
   uma vez só, no slide (L8658), e nunca é explicado.
 - Se o comportamento descrito vale igual para Google, Yahoo, iCloud e Hotmail.
-  Ele lista os quatro juntos (L8384, L8394) e nunca os separa.
+  Os quatro são listados juntos (L8384, L8394) e nunca separados.

@@ -3,11 +3,34 @@ tipo: procedimento
 modulo: deliverability
 assunto: setup-tecnico-dns
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8396-8412 (transcrição), L8667-8692 (slide)"
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06. Telas do Klaviyo, do provedor de domínio e do Glockapps podem ter mudado."
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o bloqueio ("do this before sending ANY emails", L8526), a lista de
+registros (L8685-8689) e a linha sobre o Klaviyo configurar tudo (L8683-8684) vêm
+do **deck** — artefato escrito de Max, e continuam valendo. As passagens faladas
+(L8396-8398, L8408-8414) estão na faixa não-Max: a desdramatização do setup e a
+delegação ao artigo do Klaviyo são do material do curso, não citáveis como fala
+dele.
 
 > **Procedimento datado.** O corpus não diz quando foi gravado. Os passos abaixo
 > dependem de telas de terceiros (Klaviyo, provedor de domínio, Glockapps) que
@@ -53,9 +76,10 @@ Além dos registros, o **branded sending domain** no Klaviyo — o slide chama d
 > that they recognize you as a real account and not spam and not something
 > shady.
 
-# A posição dele: provavelmente já está pronto
+# A posição do material: provavelmente já está pronto
 
-Ele desdramatiza o setup nos dois registros.
+O setup é desdramatizado nos dois registros — no deck, que é de Max, e na fala,
+que não é.
 
 Fala (L8408): "it seemed very complex, but most domains already have the right
 records in place."
@@ -70,19 +94,20 @@ Note a diferença de força: a fala diz que os registros costumam já existir; o
 slide vai além e diz que o **Klaviyo configura tudo para você**. A fala não faz
 essa afirmação.
 
-# A fonte oficial que ele indica
+# A fonte oficial indicada
 
-Não é o material dele. Ele delega para o artigo do Klaviyo, citado duas vezes —
+Não é material próprio. O curso delega para o artigo do Klaviyo, citado duas vezes —
 uma no resumo de deliverability (L8371) e outra como pré-requisito do warming
 (L8525):
 
 > **Technical Setup: [Setting up branded sending domain >>>](https://help.klaviyo.com/hc/en-us/articles/115000357752)**
 
-O grau de confiança que ele dá ao artigo (L8410-8414): é "the most forward
+O grau de confiança que a fala dá ao artigo (L8410-8414): é "the most forward
 step-by-step", tem muita informação, e "if you follow the instructions
-one-to-one, you're going to set yourself up for success". Ele diz que o próprio
-Klaviyo aponta a direção dentro do produto, mas o artigo é mais profundo — e é
-o que a agência dele manda para os clientes.
+one-to-one, you're going to set yourself up for success". A fala diz que o próprio
+Klaviyo aponta a direção dentro do produto, mas o artigo é mais profundo — e é o
+que a agência manda para os clientes. Faixa não-Max: a rotina é da casa, não uma
+preferência declarada por ele.
 
 # Verificação
 
@@ -92,9 +117,9 @@ Glockapps, na variante domain-checker. Slide, verbatim (L8691):
 > to see if you are missing any, if you are follow their guide to getting
 > installed.
 
-Na fala ele dá o mesmo endereço de forma degradada por ASR ("Glock apps. It's a
-domain checker", L8414) e o descreve como o recurso para quando "we don't have
-the domain information".
+Na fala o mesmo endereço sai degradado por ASR ("Glock apps. It's a domain
+checker", L8414), descrito como o recurso para quando "we don't have the domain
+information".
 
 Isso é uma ferramenta diferente do teste de placement descrito em
 [[auditoria-glockapps]], embora seja a mesma empresa: aqui o alvo é o registro

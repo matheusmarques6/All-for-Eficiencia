@@ -3,11 +3,35 @@ tipo: procedimento
 modulo: campanhas
 assunto: calendario-de-campanhas
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L4441-4674 (transcrição), L4424-4437 (bullets do módulo), L5325-5332, L5347-5354 e L5473-5491 (slide)"
 conflitos: [campanhas-sweet-spot-de-frequencia]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L4444-4675 (Campaign Calendar Creation) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: **os quatro passos, o swipe file de 84 emails, o link do Email
+Marketing Brain e o calendário-exemplo da Nike vêm do slide e dos bullets do
+módulo** (L4424-4437, L5325-5354, L5473-5491) — artefato escrito de Max, e
+continuam citáveis, inclusive o "handpicked by me a $100M email marketer"
+(L5351). Toda a demonstração falada — o prompt do GPT, os refinamentos, os
+feriados obscuros, a regra dos três emails por promoção e o degrau de 180 dias —
+está em L4444-4675, faixa não-Max, e **não é citável como fala dele**.
 
 > **Procedimento datado.** Depende de sites de terceiros (Milled, Email Donut,
 > Really Good Emails), de um Google Drive compartilhado e de um GPT
@@ -18,7 +42,7 @@ status: rascunho
 
 "Your Ideas Are The Highest Lever" (L5327, título de slide); o bullet do módulo
 grafa "Highest Lever \-- Your Ideas" (L4424). "The idea behind your email
-\> The actual email" (L5332). Ele é explícito: "You can have the prettiest
+\> The actual email" (L5332). A aula é explícita: "You can have the prettiest
 emails in the world, but if there's no real content or depth or meaning behind
 them, they're going to fall on deaf ears" (L4462-4464).
 
@@ -28,7 +52,7 @@ them, they're going to fall on deaf ears" (L4462-4464).
 [emaildonut.com](https://www.emaildonut.com/),
 [reallygoodemails.com](https://reallygoodemails.com/) — ferramentas gratuitas
 que rastreiam e exibem todos os emails que uma marca envia (L5349-5350,
-L4432-4434). Como ele usa: entra em Milled, busca a marca, abre o perfil, vê
+L4432-4434). Como o material demonstra: entra em Milled, busca a marca, abre o perfil, vê
 todos os envios e rouba o *ângulo* (L4494). Filtro declarado: pegar ideias que
 preencham um dos 5 content pillars (L5350).
 
@@ -44,14 +68,14 @@ módulo, "**(Use AI!!!)**" (L4437). A ferramenta é o **Email Marketing Brain**,
 GPT customizado em wellcopy.net/gpt, "trained with over 500 pages of email
 marketing knowledge" (L5475-5477).
 
-# O prompt que ele demonstra
+# O prompt demonstrado
 
 O GPT pede nome da marca, duas ou três frases sobre a marca, como é o cliente e
-o resultado que ele deseja, e o mês (L4552-4566). Ele responde com **"three to
-four campaigns per week, which is more likely than not what we're looking for"**
-(L4554-4556) — o exemplo é The Conscious Bar, chocolate adoçado com tâmara.
+o resultado que ele deseja, e o mês (L4552-4566). A resposta digitada na demonstração é **"three
+to four campaigns per week, which is more likely than not what we're looking
+for"** (L4554-4556) — o exemplo é The Conscious Bar, chocolate adoçado com tâmara.
 
-Refinamentos que ele pede em seguida, verbatim da fala:
+Refinamentos pedidos em seguida, verbatim da fala (não-Max):
 
 > put this into an actual calendar view, get a bit more creative with the
 > titles, please include potential subject line preview text (L4566-4568)
@@ -67,8 +91,8 @@ Refinamentos que ele pede em seguida, verbatim da fala:
 they're somewhat applicable to the brand, tie that in with your mission."
 Método: buscar "holidays, all holidays, 2025". Exemplos citados: national
 chocolate day, national pancake day, national girlfriend day, national
-boyfriend day. Ele avisa que a busca devolve feriado federal e que "this might
-not be the greatest list" (L4612).
+boyfriend day. A demonstração avisa que a busca devolve feriado federal e que "this might not be
+the greatest list" (L4612).
 
 **Toda promoção são três emails** (L4634-4638): "typically if you're running a
 sale, you're going to want to send an announcement, a reminder, and then some
@@ -80,12 +104,12 @@ St. Patrick's Day sale.
 Praticamente tudo vai para a 90 day engaged list — "That's your 80% list. That's
 where you're going to get the majority of your sales" (L4652-4654). Para
 promoções, lançamentos e eventos fora do normal, abrir para **180 day engaged**
-(L4654-4656). Esse degrau de 180 dias só existe na fala; não aparece na tabela
-de segmentos do slide.
+(L4654-4656). Esse degrau de 180 dias só existe na fala não-Max; não aparece na tabela de
+segmentos do slide.
 
 # O calendário-exemplo (Nike)
 
-Descrito em L4622-4644, sem imagem no bruto. O que a fala nomeia: March
+Descrito em L4622-4644 (fala não-Max), sem imagem no bruto. O que a fala nomeia: March
 favorites; "the science behind tech fleece" (educacional); flash sale com brinde
 — free hat acima de $150, explicitamente para subir AOV; tips for warming up;
 restock; bestsellers; St. Patrick's Day sale; brand builder sobre celebrity

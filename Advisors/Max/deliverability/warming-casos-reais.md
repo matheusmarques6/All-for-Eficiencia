@@ -3,12 +3,34 @@ tipo: procedimento
 modulo: deliverability
 assunto: warming-casos-reais
 autor: max-sturtevant
-registro: [transcricao]
+registro: [outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8607-8639 (transcrição). Sem contraparte de slide."
 conflitos: [deliverability-caso-mailchimp-escala-final, deliverability-salto-de-45]
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06. Os volumes são narrados de memória e não fecham entre si: ilustração de método, nunca benchmark."
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota **não sobra nada de Max**: os dois casos são fala (L8607-8639), dentro
+da faixa não-Max, sem contraparte de slide. Os volumes, as aberturas e a
+autocrítica sobre os CTAs são **da agência narrada no material**, não relatos
+pessoais citáveis como dele. Já valia a regra de não usar como benchmark; agora
+também não se usa como experiência dele.
 
 > **Registro único e números que não fecham.** Os dois casos existem só na fala
 > — o deck de warming nunca foi exportado (ver [[warming-do-dominio]]). São
@@ -39,8 +61,8 @@ Marcos declarados: por volta do nono envio, ~14.000 (L8610); ao fim da janela de
 60 dias, "about 120,000 people per [send]" (L8611). Esse 120.000 não fecha por
 **dois** lados, ambos na mesma linha ou logo adiante: é maior que a lista
 importada inteira — "it was, you know, a hundred thousand people" (L8611) — e
-maior que o topo que ele próprio declara para a escala, "all the way up to about
-100,000" (L8619). Enviar 120.000 por campanha a partir de uma lista de 100.000 é
+maior que o topo declarado na mesma narração para a escala, "all the way up to
+about 100,000" (L8619). Enviar 120.000 por campanha a partir de uma lista de 100.000 é
 impossível. O corpus não reconcilia.
 
 A leitura pela ótica do provedor, e a demonstração de que só o número importa

@@ -3,15 +3,36 @@ tipo: procedimento
 modulo: deliverability
 assunto: auditoria-glockapps
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8508-8514 (transcrição), L8750-8757 (slide)"
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06. Preço, plano gratuito e telas do Glockapps podem ter mudado."
 status: rascunho
 ---
 
-> **Procedimento datado.** Serviço de terceiro. Ele afirma que é "at least free
-> to start" e que "eventually, you will have to get onto a plan" (L8508) — isso
-> era verdade quando o vídeo foi gravado, e o corpus não diz quando foi.
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o que o Glockapps faz, os 3 passos e a cadência (L8754-8757) são
+**slide** — artefato de Max. As passagens faladas (L8508-8514, L8414, L8641-8643)
+estão na faixa não-Max e **não são citáveis como fala dele**, inclusive a
+afirmação sobre o plano gratuito.
+
+> **Procedimento datado.** Serviço de terceiro. A fala afirma que é "at least
+> free to start" e que "eventually, you will have to get onto a plan" (L8508) —
+> isso era verdade quando o vídeo foi gravado, e o corpus não diz quando foi.
 
 # O que faz
 
@@ -39,7 +60,7 @@ Na fala, o mesmo mecanismo, com o detalhe de que os endereços são de teste
 3. Receber de volta o relatório de placement por caixa: main inbox / promotions
    / spam (L8754-8756).
 
-Ele acrescenta que a própria plataforma entrega as instruções (L8512): "It'll
+A fala acrescenta que a própria plataforma entrega as instruções (L8512): "It'll
 give you the step-by-step instructions on what to do to get the most out of it.
 Make sure you can test everything accurately."
 
@@ -51,7 +72,7 @@ Slide, verbatim (L8757):
 > per month.
 
 Condicional em duas camadas: **só se houver problema**, e mesmo assim
-"consider". Não é rotina. Na fala ele vai na mesma direção pelo lado do custo:
+"consider". Não é rotina. A fala vai na mesma direção pelo lado do custo:
 "Eventually, you will have to get onto a plan. But for the purposes here, you
 guys probably shouldn't" (L8508) — a frase morre antes de completar o que não se
 deve fazer, mas o sentido é que o plano pago não é necessário para o uso
@@ -74,8 +95,8 @@ Mesma empresa, duas ferramentas diferentes, usadas em momentos diferentes:
 | `glockapps.com/domain-checker` | se faltam registros DNS | antes de enviar qualquer email | L8691, ver [[setup-tecnico]] |
 | teste de placement (esta nota) | onde os emails estão caindo | quando há problema, ~1x/mês | L8754-8757 |
 
-A fala mistura as duas: em L8414 ele chama o Glockapps de "a domain checker" e
-diz que ele "will let you know if your deliverability is in a good spot and if
+A fala mistura as duas: em L8414 chama o Glockapps de "a domain checker" e diz
+que ele "will let you know if your deliverability is in a good spot and if
 the technical setup is looking right" — as duas funções numa frase só. O slide
 separa (L8691 vs L8752-8757).
 

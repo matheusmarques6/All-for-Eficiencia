@@ -3,10 +3,23 @@ tipo: indice
 modulo: deliverability
 assunto: mapa-local
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8363-8646 (transcrição), L8647-8759 (slide)"
 status: rascunho
 ---
+
+# Aviso de autoria — a pasta inteira
+
+**Toda a fala deste módulo (L8381-8646) é `outro-provavel`: não é Max.** As nove
+notas derivam dela em maior ou menor grau; [[reparo-de-reputacao]],
+[[warming-casos-reais]] e quase todo [[warming-do-dominio]] derivam **só** dela.
+O que resta de Max é o deck L8647-8759 — 113 linhas, que cobrem o-que-e,
+setup-tecnico, metricas-alvo, so-envie-para-engajados, upload e auditoria, e que
+**não** cobrem warming nem reparo.
+
+Critério: idioleto ([[_autoria]] §2.1). **Saudação de abertura não é critério** —
+o laudo testou e derrubou ([[_autoria]] §5). Ao responder a partir do registro
+`transcricao` deste módulo, dizer "o material do curso diz", nunca "o Max diz".
 
 # A pasta de maior risco do corpus
 
@@ -19,15 +32,15 @@ corpus dá dez valores para a mesma coisa — e dá —, a resposta dá os dez.
 
 | Nota | tipo | O que responde |
 |---|---|---|
-| [[o-que-e]] | principio | onde o email cai e por quê; a analogia do credit score; só duas coisas afetam |
-| [[setup-tecnico]] | procedimento · **datado** | SPF/DMARC/DKIM no DNS, branded sending domain, verificação. **Bloqueio: sem isso, não envie nada** |
-| [[metricas-alvo]] | especificacao | a tabela de metas verbatim; soft vs hard bounce; o conflito do unsubscribe |
-| [[so-envie-para-engajados]] | especificacao | a definição verbatim do 90 Day Engaged List; quando apertar e quando alargar |
-| **[[warming-do-dominio]]** | procedimento · **datado** | **a nota operacional da pasta.** Quando se aplica, fundação, segmentos-semente, rampa, cronograma, batching, correção de rota |
-| [[warming-casos-reais]] | procedimento | os dois casos que ele narra — volumes verbatim, com os números que não fecham marcados |
-| [[reparo-de-reputacao]] | procedimento · **datado** | conta já caindo em spam: segmento curto, 2-3 semanas, alvo 60-80%, text-based |
-| [[upload-para-deliverability]] | procedimento · **datado** | os 5 passos de upload e por que alt text existe |
-| [[auditoria-glockapps]] | procedimento · **datado** | teste de placement, lista de 100+ endereços, ~1x/mês se houver problema |
+| [[o-que-e]] | principio · **outro-narrador** | onde o email cai e por quê; a analogia do credit score; só duas coisas afetam |
+| [[setup-tecnico]] | procedimento · **datado** · **outro-narrador** | SPF/DMARC/DKIM no DNS, branded sending domain, verificação. **Bloqueio: sem isso, não envie nada** |
+| [[metricas-alvo]] | especificacao · **outro-narrador** | a tabela de metas verbatim; soft vs hard bounce; o conflito do unsubscribe |
+| [[so-envie-para-engajados]] | especificacao · **outro-narrador** | a definição verbatim do 90 Day Engaged List; quando apertar e quando alargar |
+| **[[warming-do-dominio]]** | procedimento · **datado** · **outro-narrador** | **a nota operacional da pasta.** Quando se aplica, fundação, segmentos-semente, rampa, cronograma, batching, correção de rota |
+| [[warming-casos-reais]] | procedimento · **só outro-narrador** | os dois casos narrados — volumes verbatim, com os números que não fecham marcados |
+| [[reparo-de-reputacao]] | procedimento · **datado** · **só outro-narrador** | conta já caindo em spam: segmento curto, 2-3 semanas, alvo 60-80%, text-based |
+| [[upload-para-deliverability]] | procedimento · **datado** · **outro-narrador** | os 5 passos de upload e por que alt text existe |
+| [[auditoria-glockapps]] | procedimento · **datado** · **outro-narrador** | teste de placement, lista de 100+ endereços, ~1x/mês se houver problema |
 
 # A ordem de execução
 

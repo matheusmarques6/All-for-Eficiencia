@@ -3,11 +3,34 @@ tipo: especificacao
 modulo: otimizacao
 assunto: subject-line-e-preview-text
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8918-8944 (transcrição), L9165-9174 (slide)"
 conflitos: [otimizacao-sl-julgar-por-abertura-ou-receita, otimizacao-teto-de-abertura, otimizacao-deck-duplicado]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8773-9109 (toda a fala do módulo de otimização) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: a lista de cinco variáveis e a ressalva sobre transferência
+(L9167-9174) são **slide** — artefato de Max. A regra de julgar por receita e o
+teto de abertura, na forma falada (L8918-8944), vêm da faixa não-Max. **Atenção
+cruzada:** a mesma tese aparece no slide de copy (L6805-6810), que é de Max, e na
+fala de copy (L6109-6121), que também é `outro-provavel` (faixa L6101-6248). Quem
+sustenta "julgue por receita" no registro de Max é o slide, não a fala.
 
 # O que compara
 
@@ -31,7 +54,7 @@ Não é cópia exata: o terceiro item sai "Ilusing" lá (L4160) e "Using" aqui
 
 # A regra de julgamento
 
-O teste se decide por receita, não por abertura (L8926-8934):
+No material, o teste se decide por receita, não por abertura (L8926-8934):
 
 > at the end of the day, what we're testing isn't really the open rates. Again,
 > you take a look at those, but at the end of the day, you still should be
@@ -46,21 +69,22 @@ leverage" (L8942-8944).
 # O teto de abertura
 
 "our best, our best subject line and preview text, you maybe see a five, 10%
-bump in open rates, which isn't bad" (L8934-8936). O que sobra do trabalho não
+bump in open rates, which isn't bad" (L8934-8936). O que sobra do trabalho, segundo a mesma fala, não
 está na abertura, está no enquadramento: "it's all about the frame and how
 people approach your brand, how people approach the email and the frame that you
 get them in prior to them opening and then reading through your email"
 (L8936-8940).
 
-O módulo de copy dá o mesmo teto por outro caminho — "at most you can get \~ 10%
-jump in opens" (L6805) — e mede o ganho em vendas: "We've had some SLs and PTs
+O módulo de copy dá o mesmo teto por outro caminho, e ali é **slide** — "at most
+you can get \~ 10% jump in opens" (L6805) — e mede o ganho em vendas: "We've had some SLs and PTs
 generate 3x more than others (same email copy and design) in A/B tests" (L6809);
-a fala de lá fala em "three to five times as many sales" (L6121). Ver
-[[copy/_index]].
+a fala de lá — também não-Max — diz "three to five times as many sales" (L6121).
+Ver [[copy/_index]].
 
 # A ressalva que o slide faz e a fala não
 
-Este é o teste cujo aprendizado menos se reaproveita (L9167):
+Esta é a única linha do assunto que sai da voz de Max — é o teste cujo
+aprendizado menos se reaproveita (L9167):
 
 > This is the obvious one, but hard to take the learnings and apply to future
 > emails since there will be a lot of variation.

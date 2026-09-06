@@ -3,11 +3,33 @@ tipo: especificacao
 modulo: otimizacao
 assunto: time-delay-de-flow
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8946-8970 (transcrição), L9176-9180 (slide)"
 conflitos: [otimizacao-onde-testar, otimizacao-metricas-do-print, otimizacao-deck-duplicado]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8773-9109 (toda a fala do módulo de otimização) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o bloco de slide (L9178-9180, repetido verbatim no deck de flows em
+L4141-4145) é artefato de Max — inclusive a frase "This is the biggest lever I'd
+say". O caso real 30min × 4h, os números lidos do print ausente e a ressalva sobre
+welcome e post-purchase (L8946-8970) vêm da faixa não-Max e **não são citáveis
+como fala dele**.
 
 # O que compara
 
@@ -29,13 +51,13 @@ deck de flows (L4141-4145).
 
 Nos flows de abandono: "think site abandoned, cart abandoned, browse abandoned,
 checkout abandoned, cart abandoned, um, the time delays in the flow"
-(L8948-8950) — ele repete cart abandoned duas vezes, provável tropeço de fala.
+(L8948-8950) — cart abandoned aparece duas vezes, provável tropeço de fala.
 A formulação do teste: "after someone abandons their cart, do we send the first
 email to them after 30 minutes or do we send it four hours later?" (L8952-8954).
 
 # O caso real
 
-30 minutos contra 4 horas. Antes do resultado, o aviso de que não há vencedor
+30 minutos contra 4 horas. Antes do resultado, o aviso, na aula, de que não há vencedor
 universal: "we've seen different results on, um, on both just depending on the
 brand and the, and the audience that we're sending to" (L8954-8956).
 
@@ -46,9 +68,9 @@ brand and the, and the audience that we're sending to" (L8954-8956).
 | receita | "about a thousand dollars in extra revenue" | L8960 |
 | click rate | "slightly higher on, on the 30 minutes, but, uh, marginal at best" | L8962 |
 
-A hesitação dele está no meio da leitura — "I don't know the exact math off the
-top of my head" (L8958-8960) — e o print, como em todos os casos deste módulo,
-não está no corpus.
+A hesitação está no meio da leitura — "I don't know the exact math off the top of
+my head" (L8958-8960) — e o print, como em todos os casos deste módulo, não está
+no corpus. A hesitação é do narrador da aula, não de Max.
 
 # A ressalva dura
 

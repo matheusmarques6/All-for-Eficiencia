@@ -3,11 +3,33 @@ tipo: especificacao
 modulo: otimizacao
 assunto: pre-condicao-e-conclusividade
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8774-8828 e L9096-9108 (transcrição), L9116-9141 (slide)"
 conflitos: [otimizacao-peso-do-basico, otimizacao-frequencia-precondicao, otimizacao-lista-pequena-quantas-repeticoes, otimizacao-onde-testar]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8773-9109 (toda a fala do módulo de otimização) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: o slide (L9116-9141) é artefato escrito de Max e continua valendo. Toda
+a fala — a pré-condição de L8786-8790, a tabela de conclusividade por volume
+(L8802-8812), o fecho de L9096-9102 — está na faixa não-Max e **não é citável como
+fala dele**. A referência cruzada ao deck de flows (L4126-4132) é slide, sem
+problema de voz.
 
 # O que é
 
@@ -39,7 +61,7 @@ don't A-B test, but it shouldn't be the primary focus" (L8782-8786).
 
 # Conclusividade se mede por volume, não por tempo
 
-A pergunta que ele diz receber, e a resposta (L8814-8816):
+A pergunta que o material diz receber, e a resposta (L8814-8816):
 
 > how long should I run an A-B test for? How many times should I run it before
 > it's conclusive? Base it off the number of recipients that are receiving.
@@ -55,9 +77,9 @@ know your results are conclusive. If you need to send multiple emails to get
 enough data to make a conclusion, that's fine."
 
 O critério de parada é repetição do mesmo resultado — "especially if you're
-constantly seeing the same results" (L8820). Ele aplica isso a si mesmo: o teste
-de send time venceu por 5x e ainda assim "I probably run it one or two more
-times just to confirm what we're seeing here" (L8854).
+constantly seeing the same results" (L8820). O material aplica isso ao próprio
+caso: o teste de send time venceu por 5x e ainda assim "I probably run it one or
+two more times just to confirm what we're seeing here" (L8854).
 
 # Duas consequências
 

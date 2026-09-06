@@ -3,11 +3,33 @@ tipo: procedimento
 modulo: deliverability
 assunto: upload-para-deliverability
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8492-8504 (transcrição), L8740-8748 (slide)"
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06. Telas do Klaviyo e do iLoveIMG podem ter mudado."
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: os 5 passos (L8744-8748) são **slide** — artefato de Max, e continuam
+valendo como procedimento. Todo o "porquê" — a definição de slice, os motivos da
+compressão, e sobretudo o racional do alt text (L8498-8504) — vem da faixa não-Max
+e **não é citável como fala dele**. O walkthrough longo a que o material remete
+está no módulo de design (L8009-8065), esse sim `max-provado`.
 
 > **Procedimento datado.** Depende de telas do Klaviyo e de um serviço externo
 > de compressão. Avise antes de executar.
@@ -25,9 +47,9 @@ Slide, verbatim (L8744-8748):
 > * Add alt text to all of your slices
 > * Add a link to all of your slices
 
-Ele mesmo desvia da própria seção: "I won't go into this too, too much. Because
+A própria narração desvia da seção: "I won't go into this too, too much. Because
 there's a much longer and better walkthrough here" (L8490-8492) — o walkthrough
-mais longo está no módulo de design, não aqui.
+mais longo está no módulo de design, não aqui, e aquele é fala de Max.
 
 # O que a fala acrescenta a cada passo
 
@@ -37,7 +59,7 @@ do Figma.
 
 **Compressão.** O slide dá só a ferramenta; a fala dá os dois motivos
 (L8494) — "Klaviyo does not like huge images" e "it's also going to take forever
-for your customers to load". Ele chama de "double-edged sword" (L8496). Nenhum
+for your customers to load". O material chama de "double-edged sword" (L8496). Nenhum
 tamanho-alvo em KB ou MB é dado.
 
 **Formato.** JPG ou PNG, "doesn't really matter" (L8744). A fala não toca no
@@ -67,7 +89,7 @@ A explicação, na fala (L8498-8500):
 > emails have a lot less HTML.
 
 O encadeamento é: **Google não lê imagem** → um email 100% imagem oferece pouco
-HTML para ler → alt text repõe um mínimo de HTML legível. Ele nomeia os dois
+HTML para ler → alt text repõe um mínimo de HTML legível. A fala nomeia os dois
 beneficiários (L8502): "for people that can't open the images or for Google to
 read".
 
@@ -90,5 +112,5 @@ warming e reparo — ver [[reparo-de-reputacao]], L8594-8597.
 - Para onde os links das fatias devem apontar.
 - Quanto HTML é "a base amount" (L8502).
 - Se o processo muda para email text-based, que por definição não tem fatias.
-- Ele promete "a more in-depth video just talking about the importance there"
-  (L8504) — não está nesta faixa do corpus.
+- O material promete "a more in-depth video just talking about the importance
+  there" (L8504) — não está nesta faixa do corpus.

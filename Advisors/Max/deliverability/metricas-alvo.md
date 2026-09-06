@@ -3,11 +3,32 @@ tipo: especificacao
 modulo: deliverability
 assunto: metricas-alvo
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8430-8452 (transcrição), L8706-8719 (slide)"
 conflitos: [deliverability-unsubscribe-afeta-ou-nao, deliverability-limiar-de-open-rate]
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota: a tabela de metas (L8713-8719) é **slide**, artefato de Max, e continua
+valendo como especificação. Tudo que vem da fala — faixa e piso de open rate
+(L8436), soft vs hard bounce (L8440-8448), a leitura do unsubscribe como métrica
+neutra (L8432-8434) — está na faixa não-Max e **não é citável como fala dele**.
 
 # A especificação
 
@@ -68,7 +89,7 @@ catalogadas em `deliverability-limiar-de-open-rate` ([[_conflitos]]). Ver
   "those ones are really going to bog you down" (L8446).
 
 A instrução operacional é indiferente ao tipo: "when you see bounce rate in
-Klaviyo, just know it should be less than 1%" (L8448). Ele promete aprofundar
+Klaviyo, just know it should be less than 1%" (L8448). O material promete aprofundar
 noutro vídeo (L8446) e não aprofunda. Também menciona que "there's ways to
 filter and exclude these people out" (L8450) sem dizer quais.
 
@@ -78,7 +99,7 @@ metric for deliverability" (L8450). A ação é exclusão (L8452):
 > if people mark you as spam, you want to make sure that you're excluding these
 > people from your campaign sends and most likely from your flows as well.
 
-Note o "most likely" — nos flows ele não afirma, hesita.
+Note o "most likely" — nos flows o material não afirma, hesita.
 
 # Onde o corpus discorda: o unsubscribe
 
@@ -95,7 +116,7 @@ Ou seja: o slide lista o unsubscribe entre as métricas que decidem
 deliverability (L8710), dá a ele um alvo (L8719) e, no mesmo campo, nega que ele
 afete deliverability (L8719). Não há como conciliar isso sem inventar.
 
-O que ele diz que o unsubscribe **serve** para medir (L8434):
+O que a fala diz que o unsubscribe **serve** para medir (L8434):
 
 > that's a really good indicator if you're sending too many emails, honestly, or
 > if your filters are messed up in your flows, because people will start

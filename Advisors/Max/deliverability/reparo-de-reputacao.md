@@ -3,11 +3,33 @@ tipo: procedimento
 modulo: deliverability
 assunto: reparo-de-reputacao
 autor: max-sturtevant
-registro: [transcricao]
+registro: [outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8589-8597 (transcrição). Sem contraparte de slide."
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06."
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota **não sobra nada de Max**: L8589-8597 é fala, dentro da faixa não-Max, e
+não há contraparte de slide. Todo o procedimento de reparo — segmento curto, 2-3
+semanas, alvo de 60-80%, prioridade a text-based — é **material do curso**, e
+nenhuma frase daqui é citável como fala dele. O conhecimento continua valendo;
+muda quem pode ser citado como autor.
 
 > **Registro único.** Este trecho existe só na fala. O deck de warming não foi
 > exportado (ver [[warming-do-dominio]]) e o deck de deliverability não trata de
@@ -15,7 +37,7 @@ status: rascunho
 
 # Quando se aplica
 
-Conta que já está caindo em spam, não conta nova. O quadro que ele descreve
+Conta que já está caindo em spam, não conta nova. O quadro descrito na aula
 (L8589):
 
 > let's say you're consistently seeing yourself landing in spam, and you're
@@ -52,8 +74,8 @@ muda o número de dias e entra o parâmetro adicional. Ver
 going to start to pull you and start repairing."
 
 **60-80% de abertura** é o número que começa a puxar a conta de volta —
-deliberadamente acima do alvo de operação normal (`Greater than 50%`, L8715). O
-racional (L8593):
+deliberadamente acima do alvo de operação normal (`Greater than 50%`, L8715 —
+este, sim, slide de Max). O racional apresentado (L8593):
 
 > you want to aggressively put that in the other direction where your engagement
 > is so high that it's going to actually start to repair and send more favorable
@@ -77,20 +99,21 @@ lê texto, não lê imagem (L8595-8597):
 > Google doesn't see it as much of that. They just see an image file, opposed to
 > actually seeing the text that we're sending out.
 
-A ressalva é dele, e é importante: **email image-based não é erro** — "that's
-something that we do very consistently" (L8596). A troca para text-based é
+A ressalva é do material, e é importante: **email image-based não é erro** —
+"that's something that we do very consistently" (L8596). A troca para text-based é
 situacional, ligada a warming e a problema de deliverability, não é doutrina
 permanente. No caso real de pré-lançamento sem dado nenhum, os emails de warming
 foram "all text-based" (L8625).
 
 # O caso vizinho: promotions, não spam
 
-Se o problema é cair em **promotions** e não em spam, ele aponta outra saída —
+Se o problema é cair em **promotions** e não em spam, o material aponta outra
+saída —
 uma ferramenta de terceiros que reescreve o HTML no backend. **O nome dela não
 está no corpus** (L8641-8643); a transcrição pula ~41 segundos exatamente onde a
 apresentação estaria. Detalhes em [[warming-do-dominio]].
 
-Escopo declarado por ele: essa ferramenta "will not help you in the warming,
+Escopo declarado na aula: essa ferramenta "will not help you in the warming,
 will not help you if your primary issue is you're landing in spam, those you
 have to take the different approaches that we talked about earlier" (L8643) — as
 "different approaches" são justamente o procedimento desta nota.

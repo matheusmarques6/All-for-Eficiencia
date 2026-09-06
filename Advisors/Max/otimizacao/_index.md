@@ -3,7 +3,7 @@ tipo: indice
 modulo: otimizacao
 assunto: mapa-local
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8760-9109 (transcrição), L9110-9211 (slide)"
 status: rascunho
 ---
@@ -17,16 +17,29 @@ entrega a maior parte do resultado — não mora aqui: está em
 
 Os cinco testes de topo não são uma lista teórica: são, na descrição da aula,
 "the tests that our team runs consistently that we always run with our new
-accounts" (L8796-8798).
+accounts" (L8796-8798) — declaração da equipe que narra, não dele.
 
-**Aviso de autoria.** A transcrição deste módulo (L8774-9108) abre com "Yo, yo,
-what is going on?" (L8774) e fecha com "feel free to hit us up" (L9108) — o par
-de assinaturas que `doutrina-narrador-da-aula-de-ia` atribui ao **segundo
-narrador**, não a Max. Só L5667-5865 tem prova textual; aqui é inferência por
-assinatura. As notas desta pasta ainda dizem "ele" e trazem
-`autor: max-sturtevant`, como o resto do corpus. Ao responder a partir do
-registro `transcricao` deste módulo, dizer "o material do curso diz", não "o Max
-diz". O registro `slide` (L9110-9211) é neutro e não carrega o problema.
+# Aviso de autoria — a pasta inteira
+
+**Toda a fala deste módulo (L8773-9109) é `outro-provavel`: não é Max.** As sete
+notas derivam dela. Sem prova nominal: a classificação é **estilométrica** — o
+bloco pertence ao aglomerado do único bloco `outro-provado` (L5617-5866) e não
+traz um só marcador do idioleto de Max. `outro-provavel` não é `outro-provado`.
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my
+favorite" e "I like to", presença de "at the end of the day" (3×) e "obviously"
+(9× em 3.121 palavras, a maior taxa do módulo), mais o fecho coletivo "feel free
+to hit us up" (L9108). **A saudação de abertura não é critério e não pode ser
+citada como evidência:** o laudo testou e ela caiu — o walkthrough de Figma abre
+com "Hello, hello" e é comprovadamente Max ([[_autoria]] §5). O "Yo, yo" de L8774
+não prova nada, nem a favor nem contra.
+
+O que sobra de Max é o deck L9110-9212 — e mesmo ele tem agravante já registrado
+em [[_fontes]]: é cópia quase verbatim do deck de Flows. A frase "the tests that
+our team runs consistently" (L8798) é da equipe narrada, não uma declaração dele.
+
+Ao responder a partir do registro `transcricao` deste módulo, dizer "o material do
+curso diz", nunca "o Max diz".
 
 | Nota | Para quê |
 |---|---|

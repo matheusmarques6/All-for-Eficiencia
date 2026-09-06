@@ -3,12 +3,36 @@ tipo: procedimento
 modulo: deliverability
 assunto: warming-do-dominio
 autor: max-sturtevant
-registro: [transcricao, slide]
+registro: [slide, outro-narrador]
 fonte: "CONTEUDO BRUTO/max.md — L8518-8645 (transcrição); L8522-8526 (bullets do deck). O corpo do deck de warming NÃO foi exportado."
 conflitos: [deliverability-limiar-de-open-rate, deliverability-passo-de-escalonamento, deliverability-primeiro-degrau-da-rampa]
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06."
 status: rascunho
 ---
+
+
+# Aviso de autoria
+
+**Faixa L8381-8646 (toda a fala do módulo de deliverability) — `outro-provavel`.**
+Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
+do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
+`outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
+estabelecido que é muito improvável ([[_autoria]] §7.3).
+
+Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
+"thank you guys… see you in the next one". **A saudação de abertura não é critério e
+não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
+Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
+diz "tags me" ([[_autoria]] §5).
+
+Nesta nota a exposição é quase total. Os cinco bullets do deck (L8522-8526) e o
+limiar de 60%+ do deck de deliverability (L8728) são **slide** — artefato de Max.
+Todo o resto — fundação, segmentos-semente, rampa, passo de escalonamento,
+cadência, batching, cronograma por semanas, regra de ouro e correção de rota —
+está em L8532-8646, faixa não-Max, e **não é citável como fala dele**. Como o deck
+de warming nunca foi exportado, este procedimento fica sem nenhum registro de Max
+que o confirme: é a peça do corpus com menor lastro de autoria.
 
 > **Lacuna estrutural desta nota.** O deck citado no vídeo — "Email Warming
 > Deliverability Deep Dive", `https://gamma.app/docs/Email-Warming-Deliverability-Deep-Dive-ex6p9skikw53x06`
@@ -43,7 +67,7 @@ ends up going to spam". O custo do erro (L8555, L8606): "it's much easier to
 build your sender reputation and deliverability warming up than it is to fix it
 when it's already in a poor position."
 
-A imagem que ele usa (L8541): "it's like building a house. You have to establish
+A imagem usada na aula (L8541): "it's like building a house. You have to establish
 the infrastructure through warming before you get really creative."
 
 # A fundação, antes de qualquer campanha
@@ -52,7 +76,7 @@ Duas coisas ligadas antes de começar a rampa.
 
 **1. Flows de alta intenção rodando** (L8545): "Welcome Flow, Post-Purchase,
 Abandoned Card [*Cart*], Abandoned Checkout, Browse, Site Abandonment, I'll list
-the other ones" — ele não lista as outras. Racional (L8549-8551): são pessoas em
+the other ones" — as outras nunca são listadas. Racional (L8549-8551): são pessoas em
 estágios diferentes da jornada, "these are points where we obviously want to
 target people", e ficam rodando evergreen.
 
@@ -85,9 +109,9 @@ deliverability ruim (L8563). "You always want to stick with your email data"
 > once or twice in the last week, people that have clicked an email in the last
 > week
 
-Ressalva dele (L8565-8567): não existe solução única — o segmento que ele
-sugerir pode estar vazio, ou ter "seventy-eight people in there, which isn't
-really going to move the needle".
+Ressalva do material (L8565-8567): não existe solução única — o segmento sugerido
+pode estar vazio, ou ter "seventy-eight people in there, which isn't really going
+to move the needle".
 
 **Sem dado de email** — dado comportamental do Shopify, que integra com o
 Klaviyo (L8571). "It's also one that you have to be a little bit careful about"
@@ -101,15 +125,15 @@ indicator of future behavior is past performance."
 
 # A rampa
 
-**Primeiro envio** (L8569): "I always err on the side of caution, maybe a
+**Primeiro envio** (L8569), na voz do material: "I always err on the side of caution, maybe a
 hundred people, two hundred people, three hundred people, somewhere in that
 range." É o único volume de degrau 1 que o corpus entrega íntegro — o da
 cadência (L8587) está corrompido, ver abaixo.
 
 **Passo de escalonamento** — CONFLITO, e o mais caro de errar aqui depois do
-degrau 1. Em 05:30 ele diz "gradually increase from 25 to 50 percent percent
+degrau 1. Em 05:30 a fala dá "gradually increase from 25 to 50 percent percent
 based on performance" (L8556 — o "percent percent" é gagueira de ASR, o número
-não). Em 08:08 ele diz "you scale up by about fifty to, by about fifty percent
+não). Em 08:08 dá "you scale up by about fifty to, by about fifty percent
 each send, as long as you're still getting the metrics that you want"
 (L8569-8570). **Os dois são transcrição** — o deck de warming não foi exportado,
 então não há registro de slide para desempatar, e não se deve tratar L8556 como
@@ -218,7 +242,8 @@ Quando a abertura despenca depois de alargar (L8601-8604):
 > mark.
 
 Duas saídas, portanto: voltar e esperar, **ou** repetir o salto com passo menor
-(30 → 45 em vez de 30 → 60). Ele não dá critério para escolher entre as duas.
+(30 → 45 em vez de 30 → 60). O material não dá critério para escolher entre as
+duas.
 
 # Os dois casos reais
 
@@ -231,12 +256,12 @@ Em [[warming-casos-reais]], com os volumes verbatim. Em uma linha cada:
   starting from scratch" (L8612-8613).
 - **Zero dado, pré-lançamento** (L8623-8639) — só waitlist e lista de marca
   irmã. Emails de warming **todos text-based**, lotes pequenos, primeiro envio
-  ~200 pessoas. Contém a autocrítica dele: "we actually weren't even including
-  any CTAs, which was a bad idea on our end" (L8635).
+  ~200 pessoas. Contém a autocrítica da equipe narrada: "we actually weren't
+  even including any CTAs, which was a bad idea on our end" (L8635).
 
 # A ferramenta que nunca é nomeada
 
-No fim do vídeo ele recomenda uma ferramenta de terceiros para quem cai em
+No fim do vídeo o material recomenda uma ferramenta de terceiros para quem cai em
 promotions — e **o nome dela não está no corpus**. O trecho (L8641-8643):
 
 > If your emails are landing in spam, don't use this, but if your emails are
