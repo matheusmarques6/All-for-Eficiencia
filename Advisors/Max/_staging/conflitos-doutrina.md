@@ -16,6 +16,14 @@ fala do Max.**
 
 ## doutrina-narrador-da-aula-de-ia
 
+> **SUPERADO EM PARTE POR [[_autoria]].** A conclusão de que há dois narradores
+> continua de pé (L5753). **O padrão de assinatura de abertura, abaixo, foi
+> testado e caiu** ([[_autoria]] §5): o walkthrough de Figma (L7590-7840) abre com
+> "Hello, hello" e é comprovadamente Max — em L7817 ele digita `@max` e diz "tags
+> me". O pronome coletivo também caiu (§5.2): "our copywriters" está no deck de
+> Max, L6790. O critério válido é o **idioleto** (§2.1). A tabela de assinaturas
+> abaixo fica como registro do que foi tentado, **não como evidência**.
+
 O corpus tem pelo menos dois narradores. Há uma prova textual e um padrão de
 assinatura que se estende a nove vídeos.
 

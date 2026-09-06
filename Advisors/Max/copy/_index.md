@@ -12,7 +12,9 @@ status: rascunho
 Módulo COPYWRITING. Fonte: `CONTEUDO BRUTO/max.md` — L5600-6500
 (transcrições) e L6501-6858 (deck GAMMA).
 
-**Aviso de autoria — 6 das 9 notas.** Três faixas faladas deste módulo não são
+# Aviso de autoria — 6 das 9 notas
+
+Três faixas faladas deste módulo não são
 Max: **L5667-5866** (ChatGPT Copywriting) é `outro-provado` — em L5753 o narrador
 fala de Max em terceira pessoa —, e **L5888-6082** (Utilizing Infographics) e
 **L6101-6248** (Subject Lines & Preview Texts) são `outro-provavel`, por

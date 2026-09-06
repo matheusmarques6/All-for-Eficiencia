@@ -40,7 +40,8 @@ do mesmo registro).
 | " " | `"around 40% is that sweet spot"` | transcrição | L170 | — |
 | " " | `"40% (Goal)"` | slide | L374 | — |
 | " " | `"Target is ~40%"` | slide (glossário) | L388 | — |
-| Faixa saudável | `"30 to 50% is healthy"` | transcrição + slide | L170, L374 | — |
+| Faixa saudável | `"30 to 50% is healthy"` | transcrição | L170 | — |
+| " " (slide) | `"30–50% is healthy"` | slide | L374 | — |
 | Limiar para escalar aquisição | `"If you get over 55%"` | transcrição | L170 | fundamentos-limiar-de-escalar-aquisicao |
 | " " | `">55% = time to scale acquisition"` | slide | L374 | fundamentos-limiar-de-escalar-aquisicao |
 | " " (walkthrough) | `"say you're at like 60 percent"` | transcrição | L56 | fundamentos-limiar-de-escalar-aquisicao |
@@ -323,7 +324,7 @@ off"` (L1476) · `"$10 off"` (L1726) · `"$20 off is on its last breath"` (L2208
 |---|---|---|---|---|
 | Emails | `"just one to two emails to re-engage these people is perfect"` | transcrição | L2363-2365 | — |
 | " " (slide) | `"Just 1 or 2 emails to re-engage them is perfect"` | slide | L3619 | — |
-| Delay do 1º | `"I like to wait four hours"` | transcrição | L2369 | site-abandon-delay-so-na-fala |
+| Delay do 1º | `"I like to wait four hours"` | transcrição | L2369-2371 | site-abandon-delay-so-na-fala |
 | Delay agressivo | `"a one hour time delay"` | transcrição | L2371 | site-abandon-delay-so-na-fala |
 | Desconto do E2 | `"shop 20 off today"` *(sem `%` no bruto)* | transcrição | L2425 | — |
 
@@ -599,8 +600,8 @@ L5617 a L6248 é `outro-narrador`** — inclusive L5617-5866, o único bloco
 | " " (fala) | `"generate three to five times as many sales in different AB tests"` | outro-narrador | L6121 | copy-multiplicador-de-vendas |
 | Comprimento da subject line | `"2-5 words in Length"` | slide | L6817 | copy-subject-line-comprimento |
 | SL escrita ao vivo (Gymshark) | `"no fuss dumbbell back exercises"` — 5 palavras | transcrição | L6341 | copy-subject-line-comprimento |
-| SL gerada por IA e elogiada | `"This bar will ruin all chocolate for you"` — 8 palavras | outro-narrador | L6401 | copy-subject-line-comprimento |
-| " " | `"Warning, addictively creamy inside"` — 4 palavras | outro-narrador | L6401 | copy-subject-line-comprimento |
+| SL gerada por IA e elogiada | `"This bar will ruin all chocolate for you"` — 8 palavras | transcrição | L6401 | copy-subject-line-comprimento |
+| " " | `"Warning, addictively creamy inside"` — 4 palavras | transcrição | L6401 | copy-subject-line-comprimento |
 | Emojis na subject line | `"Ends with 1-2 emojis (optional)"` | slide | L6820 | — |
 | " " (fala) | `"keeping in a couple emojis are really great"` | outro-narrador | L6157 | — |
 | Emojis nos 4 exemplos de SL | 1 emoji em cada um dos quatro | slide | L6824-6827 | — |
@@ -658,6 +659,10 @@ entram aqui porque o assunto é design, mesmo estando fora da faixa.
 | " " (fala) | `"So 75% of your efforts should go to this"` | transcrição | L7258 | design-tres-usos-de-75-por-cento |
 | Emails com botão above the fold | `"Button above the fold for 75% of your email"` | transcrição | L7027 | design-botao-above-the-fold-sempre |
 | Marcas auditadas sem botão por produto | `"75% of the brands I audit don't have individual shop now buttons"` | transcrição | L7089 | design-tres-usos-de-75-por-cento |
+
+Ressalva de leitura em L7027: o bruto escreve `"your email"` no singular. A
+leitura "75% dos seus emails" é a que o staging adotou, mas o corpus não
+desambigua entre "75% dos emails" e "75% da área do email". Registrar verbatim.
 
 ## Botão, CTA e estrutura
 
@@ -813,7 +818,7 @@ entrega os três com as linhas (ver [[_protocolo]]).
 | Listas em uso quando a conta cai em spam | `"you're sending to, you know, 90, 120 day engage list"` | outro-narrador | L8589 | — |
 | Janela de reparo | `"anywhere between 2 to 3 weeks to start"` | outro-narrador | L8591 | — |
 | Segmentos de reparo | `"7 day engage, 14 day engage, 30 day engage"` | outro-narrador | L8591 | — |
-| Parâmetro extra | `"people that have opened 2 times, 3 times in the last 14 days"` | outro-narrador | L8591 | — |
+| Parâmetro extra | `"people that have opened 2 times, 3 times in the last 14 days"` | outro-narrador | L8591-8592 | — |
 | Alvo de abertura no reparo | `"once you hit those 60% open rates, 60, 70, 80"` | outro-narrador | L8592 | — |
 
 ## Casos reais de warming

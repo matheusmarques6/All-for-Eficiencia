@@ -41,12 +41,12 @@ bruto variam de 3 a 300 palavras e a contagem de linha mente. Total do arquivo:
 | Pilares, métricas-núcleo, glossário, escolha de ESP, estado do mercado | [[fundamentos/_index]] | 10 | ambos — 7.675 pal. fala + 2.490 slide | **média** | O glossário inteiro é slide **que ele declara não ter lido** (L217, L227). Três alvos existem só ali e não têm confirmação em lugar nenhum: bounce `<2%` (L437), list cleaning `60–90+ days` (L443), largura `600–700px` (L469). |
 | Princípios transversais e processo de criação | [[doutrina/_index]] | 13 | ambos, faixa de todos os módulos | **média** | Pasta derivada, não modular. **8 das 13 notas saem de faixa não-Max** — é a pasta mais exposta ao problema de autoria, porque doutrina é justamente o que o advisor parafraseia na voz dele. |
 | Pop-up, oferta, tipos de form, captação | [[list-growth/_index]] | 11 | ambos — 16.339 pal. fala + 1.486 slide | **alta** | Único módulo com **dois** walkthroughs de tela completos (Klaviyo mobile e desktop). Contrapeso: o deck tem duas seções de tutorial vazias, "Klaviyo Pop-Up Form Creation" (L1300) e "Alia Pop-Up Form Creation" com o placeholder `[need]` (L1302-1304). |
-| Os 8 flows | [[flows/_index]] | 12 | ambos — 12.041 pal. fala + 4.921 slide | **alta para 7 flows · nula para o 8º** | Maior deck do corpus. Mas **nenhum dos oito flows tem filtro nem condição de saída declarados**, e cart/checkout abandon também não tem delay. O Sunset não tem aula (ver cobertura parcial). |
+| Os 8 flows | [[flows/_index]] | 12 | ambos — 12.041 pal. fala + 4.921 slide | **alta para 7 flows · nula para o 8º** | Maior deck do corpus. **Filtro e saída existem em três flows e faltam em cinco** (ver cobertura parcial), e cart/checkout abandon não tem delay. O Sunset não tem aula. |
 | Frequência, calendário, pilares de conteúdo, segmentação | [[campanhas/_index]] | 9 | ambos — 13.319 pal. fala + 3.859 slide | **média-alta** | **A fala inteira do módulo (L4189-5154) é `outro-provavel`.** O que sobra de Max escrito é o deck. Um loop de ASR come o racional de testimonials (L4480-4488). |
 | S.C.E., subject line, preview text, infográficos, prompt de IA | [[copy/_index]] | 9 | ambos — 26.050 pal. fala + 2.111 slide | **enganosa: alta em palavra, média em doutrina** | 20.275 das 26.050 palavras são **dois teardowns de YouTube** (Gymshark, MrBeast) sobre emails de marcas específicas — narração, não doutrina. As aulas próprias somam 5.775 palavras. Agravante: o vídeo dos princípios de copy **não foi transcrito** (L5615, o único marcador de transcrição vazio do arquivo), e 30 rótulos de exemplo vieram sem imagem. |
-| 3 princípios, doutrina por seção, transições, upload | [[design/_index]] | 13 | ambos — 11.422 pal. fala + 1.976 slide | **alta em doutrina · baixa em exemplo** | A doutrina está completa e é dupla-registrada. Nenhum dos 13 exemplos visuais do deck sobreviveu (L8173-8300). E a seção de transições promete métodos e não lista nenhum (L8302-8307). |
+| 3 princípios, doutrina por seção, transições, upload | [[design/_index]] | 13 | ambos — 11.422 pal. fala + 1.976 slide | **alta em doutrina · baixa em exemplo** | A doutrina está completa e é dupla-registrada. Nenhum dos 13 exemplos visuais do deck sobreviveu (L8173-8300). A seção de transições promete métodos e não lista nenhum **no deck** (L8302-8307) — **os quatro métodos estão na fala** (L7550-7588). Não é lacuna, é lacuna do slide. |
 | Setup técnico, warming, reparo, auditoria | [[deliverability/_index]] | 9 | ambos — 6.818 pal. fala + 852 slide | **baixa** | Segundo menor módulo. **Toda a fala é `outro-provavel`** e o deck tem 113 linhas. É o único módulo com perda de áudio mensurável: dois cortes, 41s e 29s. Recusa provável. |
-| Testes A/B | [[otimizacao/_index]] | 7 | ambos — 3.123 pal. fala + 825 slide | **baixa** | **O menor módulo do corpus.** O deck é cópia quase verbatim do deck de flows (L4141-4176 ≡ L9151-9180) — não conta como confirmação cruzada. Fala inteira `outro-provavel`. Treze testes listados sem um único número, vencedor ou caso. Recusa provável. |
+| Testes A/B | [[otimizacao/_index]] | 7 | ambos — 3.123 pal. fala + 825 slide | **baixa** | **O menor módulo do corpus.** O deck é cópia quase verbatim do deck de flows (L4141-4176 ≡ L9151-9180) — não conta como confirmação cruzada. Fala inteira `outro-provavel`. Dos treze testes listados, **três têm vencedor declarado** — time delay de abandono (4h vence 30min, "10 to 15% higher placed order rate", ~$1.000 a mais, L8952-8962), send time (11h-12h, L9148) e gráfico vs texto ("text base sale winner", sem número, L8866). Os outros dez são só hipótese. |
 | Doutrina de SMS, 5 flows, calendário, horários | [[sms/_index]] | 8 | ambos — 3.851 pal. fala + 2.184 slide | **baixa** | **Módulo invertido: o slide carrega mais que a fala.** A fala é um único vídeo de YouTube de ~16 min. Nenhum flow de SMS tem metric, trigger, filtro ou exclusão. Recusa provável, e é o módulo com o pior problema de compliance (ver §4). |
 
 **Total: 101 notas de conteúdo** em dez pastas, mais dez `_index.md` e as seis
@@ -68,14 +68,32 @@ Nem fala, nem slide, nem exemplo. Recusa inteira.
 
 | Lacuna | Evidência da ausência |
 |---|---|
-| **Filtro e condição de saída de qualquer flow.** Nenhum dos oito. | Varredura das oito notas de flow: a linha `Filtros` / `Saída` da tabela está vazia em site abandon, browse abandon, cart/checkout, post-purchase, replenishment, winback e sunset. O welcome é o único com filtro declarado (`bounce less than two times`) e nem ele tem condição de saída. |
-| **Delay de cart abandon e de checkout abandon.** | O deck de flows não declara delay nenhum para os dois, e a fala também não. Registrado em [[flows/otimizacao-de-flows]] (L124 da nota). **Nunca preencher por analogia com o welcome, que tem.** |
-| **Os métodos de transição entre seções de email.** | L8302 abre `# **Email Transitions**`, L8307 diz "Here are a few methods to do this:" e a linha seguinte já é outro heading. Zero métodos listados no deck. Conflito registrado: `design-metodos-de-transicao-ausentes`. |
-| **O racional falado do S.C.E.** | O marcador `Transcrição do Vídeo :` em L5615, sob "The Principles of Good Copy" (L5602), está **vazio** — o único do arquivo inteiro. L5617 já é a próxima seção. Só existem os bullets L5604-5611 e o link gamma. O framework que atravessa o corpus inteiro nunca foi explicado em voz. |
+| **Delay de cart abandon e de checkout abandon.** | Varredura de `time delay`/`hour`/`minute`/`wait` na fala do módulo (L2618-3020): zero. No deck (L3777-3918): zero. Registrado em [[flows/otimizacao-de-flows]]. **Nunca preencher por analogia com o welcome, que tem.** O vizinho — e é só vizinho — está no módulo de otimização: o teste que ele descreve opõe **30 minutos a 4 horas** em flows de abandono e reporta 4h vencendo "at least on the site abandoned" (L8952-8962). É o valor de um teste em outro flow, não o delay prescrito para estes dois. |
 | **Critério de escolha dentro de catálogo.** Qual filler do welcome usar; qual dos 9 tipos de infográfico; qual dos 7 tipos de bridge; qual dos 4 métodos de list growth. | Existe catálogo, não existe ordem nem árvore de decisão. Confirmado nas quatro notas: [[flows/welcome-fillers]], [[copy/infograficos]], [[design/secao-bridge]], [[list-growth/os-quatro-metodos]]. |
-| **Qualquer limiar estatístico de teste.** Amostra mínima, duração, significância, quantos testes em paralelo. | Os três módulos que tratam de teste — [[list-growth/os-sete-testes-de-form]], [[flows/otimizacao-de-flows]], [[otimizacao/quando-vale-testar]] — não têm nenhum. O único gate declarado no corpus inteiro é qualitativo: "depending on your site traffic" (L663). |
-| **Janela de medição de qualquer métrica.** Se open rate é por envio, por 30 dias ou vitalício. | Nem a tabela de metas (L372-380), nem o glossário (L384-519), nem [[fundamentos/metricas-nucleo]], nem [[deliverability/metricas-alvo]] declaram janela. Nenhuma. |
 | **Preço de qualquer ferramenta.** | `pricing` tem **uma** ocorrência no arquivo inteiro (L6001) e é sobre tiers de produto do cliente, não sobre custo de plataforma. Ver §4. |
+
+### Cinco coisas que já foram declaradas lacuna total aqui e **não são**
+
+Revisão contra o bruto. Cada uma destas foi listada como lacuna total numa
+versão anterior desta nota; cada uma tem conteúdo no corpus. **Não recusar
+nenhuma delas.** Ficam registradas para que a classificação errada não volte.
+Uma sexta — filtro e condição de saída de flow — desceu para *cobertura
+parcial*, porque lá existem três flows cobertos e cinco descobertos.
+
+O padrão dos cinco erros é o mesmo e vale como aviso: **a promessa vazia estava
+num registro e o conteúdo em outro.** O deck não lista os métodos de transição,
+a fala lista; a aula de copy não tem transcrição, a de campanhas explica o mesmo
+framework. Antes de declarar lacuna, procurar o assunto **no outro registro e no
+outro módulo** — e considerar a grafia corrompida pelo ASR ([[_fontes]] §5),
+que foi o que escondeu o S.C.E. atrás de "SDE".
+
+| Já foi chamada de lacuna | O que existe, e onde |
+|---|---|
+| Métodos de transição entre seções | **Os quatro estão na fala, L7550-7588**: gradiente (L7552-7558), formas/quebras de linha (L7560-7568), fundo consistente com elementos em primeiro plano (L7570-7578) e o favorito dele, transição atrás de foto (L7580-7586). O deck é que não lista nenhum. Já estava certo em [[design/transicoes]] e no conflito `design-metodos-de-transicao-ausentes`. |
+| Racional falado do S.C.E. | Existe, **em outra aula**: L4715-4767 percorre S, C e E com exemplo trabalhado para cada um. A busca literal falha porque o ASR escreve **"SDE framework"** em L4715. Mais o deck de campanhas, que explica letra por letra (L5504-5512). O que falta é só a transcrição da aula "The Principles of Good Copy" — ver *Perda por falha técnica*. Ressalva de voz: L4715-4767 cai na faixa `outro-provavel`. |
+| Amostra mínima de teste A/B | L8800-8820 dá a régua inteira: lista de 1.000 partida 500/500 "is not enough data"; 100k-500k → um ou dois envios bastam; 5k-10k → repetir o teste três ou quatro vezes; e a regra explícita "Base it off the number of recipients that are receiving". Já estava em [[otimizacao/quando-vale-testar]]. |
+| Cadência de teste de form | L663 declara "at least for like bi-weekly. Once every two weeks, run some sort of test". A versão anterior desta nota citava a mesma linha cortada antes dessa metade. |
+| Janela de medição — atribuição e painel | **Janela de atribuição de receita: 3 a 5 dias** após o clique (L54, verbatim: "they say somebody clicks an email and they purchase within three to five days, they count it as email revenue"). **Janela do painel: 30 dias, comparada com os 30 anteriores** (L64). Já estava em [[fundamentos/dashboard-do-klaviyo]]. |
 
 ## Cobertura parcial — existe finalidade e falta execução, ou vice-versa
 
@@ -104,9 +122,12 @@ Outros casos de cobertura parcial:
 
 | Assunto | Tem | Falta |
 |---|---|---|
+| **Filtro e condição de saída de flow** | **três dos oito.** Welcome: dois filtros — `placed order zero times since starting this flow` (L1542) e `bounce less than two times since starting this flow` (L1544) — mais a saída, verbatim: "if anybody fails to meet any of these, they'll be kicked out of the flow" (L1546). Site abandon: a saída, falada — "what's going to kick me out of this flow is if I actually view a product page" (L2349). Winback e Sunset são disparados por **segmento**, e o segmento está publicado (L5589 e o print da L9545) — o critério de entrada existe | **browse abandon, cart/checkout abandon, post-purchase e replenishment: nada.** Nem filtro nem saída, em nenhum dos dois registros. E em site abandon o filtro não existe. Ver a tabela "Gatilho, filtros e saída" de cada nota em [[flows/_index]] |
+| **Limiar de teste A/B** | amostra mínima e número de repetições por tamanho de lista (L8800-8820); cadência de teste de form, "at least bi-weekly" (L663); a regra de onde testar — campanha e não flow, "we mostly use campaigns as our testing ground" (L4128-4131) | **nenhum nível de significância, nenhum intervalo de confiança, nenhuma duração em dias e nenhum teto de testes simultâneos.** A conclusividade é medida por volume, nunca por estatística. Ver [[otimizacao/quando-vale-testar]] |
+| **Janela de medição de métrica** | a janela de atribuição de receita (3 a 5 dias após o clique, L54) e a janela de leitura do painel (30 dias contra os 30 anteriores, L64) | **a janela das métricas de meta.** Nem a tabela de metas (L372-380), nem o glossário (L384-519), nem [[fundamentos/metricas-nucleo]], nem [[deliverability/metricas-alvo]] dizem se open rate é por envio, por 30 dias ou vitalício. Nunca transpor a janela do painel para o alvo |
 | **Setup técnico de deliverability** | as siglas listadas (SPF, DKIM, DMARC, MX) e a instrução de onde ler | o que cada uma faz — nunca explicadas; nenhum valor de registro, nenhuma tela, nenhum tempo de propagação. O procedimento inteiro é "leia o artigo do Klaviyo, cheque no Glockapps". Ver [[deliverability/setup-tecnico]] |
-| **Segmentos de exclusão** | "Exclusion segments should include (**but not be limited to**): Bounced 3+ times" (L4839-4840) | a lista nunca é completada. A própria frase declara que está incompleta. Ver [[campanhas/segmentacao]] |
-| **Email Architect** | o conceito, o racional e a regra dos 80% | **nenhum exemplo do formato**, e nenhuma definição do artefato (documento? Figma? wireframe?). Os dois slots "Example \#1/\#2" (L6794-6796) vieram vazios. Ver [[copy/email-architect]] |
+| **Segmentos de exclusão** | "Exclusion segments should include (**but not be limited to**): Bounced 3+ times" (L4839-4840). O vizinho forte é a **Suppress List** do mesmo deck, essa sim completa: recebeu ≥5 emails over all time **AND** abriu zero vezes em 365 dias **OR** bounce ≥3 over all time **OR** marcou spam ≥1 (L5592), com a versão falada em L5129 | a lista de exclusão em si nunca é completada. A própria frase declara que está incompleta. Ver [[campanhas/segmentacao]] |
+| **Email Architect** | o conceito, o racional, a regra dos 80% e o **esqueleto campo a campo**, falado: headline + subheadline + CTA como hero "most generic and most commonly used" (L5823-5825), bridge section = infográfico, com o exemplo de layout de tabela "reviews, average rating, five star reviews" (L5827-5831) | **nenhum exemplo do formato em imagem** — a fala descreve uma tela que não está no texto — e nenhuma definição do artefato (documento? Figma? wireframe?). Os dois slots "Example \#1/\#2" (L6794-6796) vieram vazios. Ver [[copy/email-architect]] |
 | **Alia como alternativa ao Klaviyo** | julgamento forte ("the ROI is worth it every time", L1243) e um walkthrough falado | preço, limiar de lista ou faturamento em que passa a valer, e o material do deck — que é o placeholder `[need]` (L1304). Ver [[list-growth/alia-e-a-alternativa]] |
 | **Warming do domínio** | a rampa em duas fases e dois casos reais | o teto de frequência (a frase que o carregava foi truncada, L8560), o nome da ferramenta de HTML (corte de 41s), a duração total do warming — "weeks 1 to 3", "weeks 3 to 12" e uma "60 day window" não são a mesma unidade |
 | **Captura de telefone no checkout** | a intenção declarada e o argumento | o procedimento — o que está lá é o de email, colado. Ver *Entregue errado*, abaixo |
@@ -160,6 +181,14 @@ exemplo cada; as 20 ideias de social proof da lista de 100 (L5381-5402) cobrem
 testimonial, review, UGC e press. **O racional falado não existe** — se a
 pergunta for essa, recusar.
 
+**O único marcador de transcrição vazio — L5615.** Sob "The Principles of Good
+Copy" (L5602), o marcador `Transcrição do Vídeo :` não tem uma linha abaixo; a
+L5617 já é a próxima seção. Restam os bullets L5604-5611 e o link gamma (L5613).
+É perda de camada, não ausência de assunto: **o racional do S.C.E. existe em
+outro lugar** — falado em L4715-4767 (onde o ASR grafa "SDE framework") e no
+deck de campanhas em L5504-5512, além do deck de copy em L6558-6650. O que se
+perdeu é a versão desta aula. Ver [[doutrina/sce-o-framework-que-atravessa-tudo]].
+
 **Os ~77 rótulos de exemplo sem imagem.** O export do GAMMA trouxe as legendas e
 deixou as figuras para trás. Todos dentro de blocos de slide. Distribuição
 verificada em [[_fontes]]:
@@ -189,9 +218,15 @@ especificação, não exemplo:
   próximo heading. Era o diagrama que reconciliaria as duas sequências do
   welcome. Não sobreviveu.
 - **`**Segment Definition for 90 Day Winback Flow:**` — L4057.** Anuncia a
-  definição de segmento e entrega nada. Existe uma definição de winback em
-  L5589, mas está em outro módulo e com outra janela — não é a mesma coisa e
-  não deve ser transposta.
+  definição de segmento e entrega nada. **Mas a definição existe, e em dois
+  registros** — não é lacuna, é buraco de slide. Na fala da própria aula de
+  winback: "somebody has placed an order at least once, but they've placed an
+  order zero times in the last 90 days" (L3318). E completa no deck de
+  campanhas, sob o nome **Winback Potential Customers**: "placed order at least
+  once in the past **150 days** AND placed order zero times in the last **90
+  days**" (L5589), cuja própria coluna de uso diz "OR triggering into a Winback
+  email flow". **A janela de 90 dias é a mesma; o que a versão do slide
+  acrescenta é o piso de 150 dias.** Ver [[flows/winback]].
 
 **Frases truncadas que levaram número.** A mais custosa: **L8560** —
 "that doesn't mean send, You have to emails in 7 days". O teto de frequência do
@@ -327,11 +362,23 @@ escolha. O público declarado é ainda mais estreito: marcas acima de **$50k/mê
 
 ## Mercados fora dos EUA
 
-`Europe`, `European`, `UK`, `Canada`, `Australia`, `Germany`, `Brazil`,
-`international` = **0 ocorrências cada**. `timezone` / `time zone` = **0** — e
-isso importa, porque [[sms/calendario-e-horarios]] e [[otimizacao/send-time]]
-dão horários em absoluto, sem nenhuma palavra sobre fuso do destinatário.
-`currency` aparece uma vez e é a variável Klaviyo `currency_format` (L3910).
+`Europe`, `European`, `Australia`, `Germany`, `Brazil`, `international` = **0
+ocorrências cada**. `UK` como palavra = **0** (as 14 ocorrências de `uk` são 13
+dentro do base64 da L9545 e uma dentro de outra palavra). `timezone` /
+`time zone` = **0** — e isso importa, porque [[sms/calendario-e-horarios]] e
+[[otimizacao/send-time]] dão horários em absoluto, sem nenhuma palavra sobre
+fuso do destinatário. `currency` aparece uma vez e é a variável Klaviyo
+`currency_format` (L3910).
+
+**Duas exceções, e são as duas na mesma seção do glossário.** `Canada` tem **1**
+ocorrência: "**CASL** – Canada's anti-spam law" (L505). E a definição de GDPR
+nomeia a União Europeia: "EU law regulating data and email marketing consent"
+(L503). As duas estão dentro de `### 🔐 **Compliance & Consent**` (L499-507) —
+a mesma seção que a fala manda ignorar (L229). São definições de uma linha, sem
+nenhuma prescrição; não sustentam resposta sobre operar fora dos EUA. Mas
+**a varredura não pode ser declarada como zero**: se a pergunta for "ele fala de
+GDPR/CASL?", a resposta é "define numa linha cada, e descarta a seção", não
+"não menciona".
 
 O diagnóstico de mercado é frontalmente americano — "stimulus checks back in
 2020", "we apply that to, like, 2025 where tariffs come into play" (L9);
@@ -360,7 +407,8 @@ As três exceções, todas incidentais:
 ## Outros canais e disciplinas adjacentes
 
 `WhatsApp` 0 · `push notification` 0 · `direct mail` 0 · `sms deliverability` 0.
-`landing page` 2 e `retargeting` 1, ambos de passagem. A analogia com CRO de
+`landing page` 3 ocorrências em 2 linhas (L545 duas vezes, L549) e `retargeting`
+1 (L5081), todas de passagem. A analogia com CRO de
 site é feita uma vez (L6896) e nunca desenvolvida — ver
 [[design/por-que-design-importa]]. **Deliverability de SMS não existe no corpus**,
 apesar de o módulo inteiro de deliverability de email existir.
@@ -369,8 +417,11 @@ apesar de o módulo inteiro de deliverability de email existir.
 
 # O limite de autoria
 
-**~26% da fala do corpus não é do Max.** São 2.462 linhas, ~25.141 palavras,
-distribuídas em cinco faixas ([[_autoria]]):
+**~25% da fala do corpus não é do Max.** São **2.228 linhas**, 25.141 palavras,
+distribuídas em cinco faixas ([[_autoria]]). *(Recontado com `wc` faixa a faixa:
+250 + 966 + 382 + 282 + 348 = 2.228. As palavras conferem exatamente; a contagem
+de linhas de [[_autoria]] §6 — 2.462 — está errada e precisa ser corrigida lá.
+25.141 sobre 100.638 palavras de fala = 24,98%.)*
 
 | Faixa | Módulo | Classificação |
 |---|---|---|
@@ -398,6 +449,11 @@ acha", entregue o conteúdo marcando que essa parte do curso não é fala dele.
 [[copy/_index]] (6 de 9), [[doutrina/_index]] (8 de 13). Somando: os dois
 módulos de densidade baixa que mais concentram lacunas são também os dois em
 que **nenhuma linha falada é citável como dele**.
+
+**E onde bate de leve, mas bate:** [[flows/_index]] — **1 de 12**, só
+[[flows/winback]], por causa da definição de segmento que vem de L5057, dentro
+da faixa de Segmentation. Flows **não** é pasta limpa; não está na lista de
+terreno seguro abaixo por isso.
 
 **O que não está em causa:** os nove decks GAMMA. São artefato escrito de Max —
 carregam a bio assinada (L3419, L9269) e reivindicações em primeira pessoa

@@ -1,9 +1,0 @@
-**Sobre os blocos escritos.** O bruto tem três tipos de material escrito, não um:
-o deck GAMMA, os bullets de resumo da página do curso (antes de cada
-"Transcrição do Vídeo") e as notas de masterclass com timestamps (L5155-5180).
-Os três recebem `slide` na coluna Registro, com o qualificador entre parênteses.
-Isso importa numa consequência prática: os bullets de resumo de campanhas
-(L4191-4194), copy (L5605-5611), segmentação (L4838-4840) e otimização
-(L8764-8767) caem **dentro** das faixas que o laudo de autoria marca como
-não-Max, mas são material escrito, não fala — e o laudo manda preservar
-`slide` nas partes derivadas de slide. Por isso não levam `outro-narrador`.
