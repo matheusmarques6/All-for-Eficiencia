@@ -29,16 +29,24 @@ pergunta num email (L4472-4474).
 
 **Social Proof** — "one of the biggest movers, high leverage": testimonials de
 cliente, e qualquer coisa que traga legitimidade — aparição em jornal, revista,
-notícia (L4476-4478). **A explicação falada deste pilar está destruída por
-falha de ASR imediatamente depois** (L4480-4488): cinco parágrafos repetem
-"If you're going to include those testimonials" em loop e apagam o conteúdo.
-O que sobrou é só o começo, em L4476-4478. Ver
-`_staging/descartes-campanhas.md`.
+notícia; "Any of those publications that are featuring you want to include
+those" (L4476-4478).
 
-**Community / Branded** e **Product or Collection Highlights** — não recebem
-explicação falada própria: a transcrição sai do bloco corrompido direto para a
-distribuição mensal (L4490). O que existe dos dois vem da lista de 100 ideias
-(L4538-4542) e dos exemplos do slide.
+> **Lacuna de ASR, delimitada.** Logo depois disso, L4480-4488 repetem
+> "If you're going to include those testimonials" de 7 a 12 vezes por linha, em
+> cinco parágrafos, e a transcrição retoma só em L4490. O que se perdeu é o
+> **racional falado sobre como usar testimonials** — nada além disso. Os cinco
+> pilares em si sobrevivem intactos nos bullets do módulo (L4426-4430) e no
+> slide (L5338-5342), cada um com um exemplo. Não reconstruído. Ver
+> `_staging/descartes-campanhas.md`.
+
+**Community / Branded** e **Product or Collection Highlights** — a fala não
+para em cada um deles: depois do bloco corrompido a transcrição vai direto para
+a distribuição mensal (L4490). Ele volta a esses pilares mais adiante, ao
+comentar de passagem alguns dos 100 títulos — "why we exist, take a look inside
+launch (…) meet launch week (…) talking through the values, we're hiring"
+(L4538-4542) — e diz "product collection highlights. I won't go through all of
+these" (L4542). A definição de cada pilar está nos bullets e no slide.
 
 **Sales** — o ponto dele é que venda não é sinônimo de desconto: "there's no
 need to just go discount, discount, discount" (L4372-4374); desconto constante

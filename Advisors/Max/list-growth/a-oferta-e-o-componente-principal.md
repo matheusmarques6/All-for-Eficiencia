@@ -26,10 +26,9 @@ orders uh for your first purchase, then just put that behind like the email"
 
 > **if I was given this offer would I exchange my email for it?**
 
-Verbatim do slide (L1218); na fala, "a great test to ask yourself is if I was
-giving this offer would exchange my email for it" (L619-621). O critério de
-escolha é margem contra opt-in rate: "Try different offers based off your
-margins and opt-in rates" (L1217, L619).
+Verbatim do slide (L1218); na fala, L619-621. O critério de escolha é margem
+contra opt-in rate: "Try different offers based off your margins and opt-in
+rates" (L1217, L619).
 
 # A regra do AOV $100
 
@@ -55,25 +54,24 @@ Exemplo que ele abre ao vivo (buy.gainsinbulk.com, L621). Creatina avulsa a $39
 serve só de âncora — "Barely anybody buys this, they are trying to push people
 to the subscription" (L623). A assinatura sai $29 (−$10) e vem com free shaker,
 free funnel, um **$20 physical gift card** e 90 day money back guarantee (L625).
-Conclusão dele: "that's a no brainer offer, that's a banger, it's all about
-framing" (L627). Marcas de suplemento, reposição e assinatura têm mais espaço
-para isso (L627).
+Conclusão: "that's a no brainer offer, that's a banger, it's all about framing"
+(L627). Marcas de suplemento, reposição e assinatura têm mais espaço para isso
+(L627).
 
 # Free gift: valor percebido alto, custo baixo
 
-O padrão que ele mais elogia. "You've got a free $29 gift" — e o gift é um
-porta-joias de viagem que "probably cost them $2 to $3 to produce" (L1024-1025,
-L633-635). "So just by changing their offer and framing it as something that is
-super valuable, people are going to respond at a high rate and they're going to
-be able to keep their margins" (L1026).
+"You've got a free $29 gift" — e o gift é um porta-joias de viagem que "probably
+cost them $2 to $3 to produce" (L1024-1025, L633-635). "So just by changing their
+offer and framing it as something that is super valuable, people are going to
+respond at a high rate and they're going to be able to keep their margins"
+(L1026).
 
 # Desconto misterioso
 
 Bônus do slide: "Use a 'Mystery Discount' in your sign-up and give them one of
 the above options" (L1226). O racional é a curiosidade: 10% ou 5% off "it's not
 very enticing", mas "if you say like, hey get a mystery discount and we will send
-it to you over email, a lot of times you get higher options and you go like, oh,
-what's that?" (L635-637).
+it to you over email, a lot of times you get higher options" (L635-637).
 
 # A lista completa (slide, L1221-1230)
 

@@ -12,12 +12,10 @@ status: rascunho
 # O que é
 
 O tipo de form é o segundo passo depois da oferta (L1198). "Different forms will
-have different effectiveness based on your audience. It's important to give all
-of these forms a shot to see what resonates the best. Start with one and test
-from there" (slide L1234-1236, fala L639).
-
-Ponto de partida recomendado, idêntico nos dois registros: "Your best bet to
-start is going to be 'The Quiz' or 'The Micro Commit'" (L1237, L639).
+have different effectiveness based on your audience... Start with one and test
+from there" (slide L1234-1236, fala L639). Ponto de partida idêntico nos dois
+registros: "Your best bet to start is going to be 'The Quiz' or 'The Micro
+Commit'" (L1237, L639).
 
 # Os quatro que o material nomeia
 
@@ -32,8 +30,8 @@ dado do cliente (L999).
 
 ## The Micro-Commit
 
-Processo em duas partes: pergunta "Do you want 10% off?" antes de pedir o email;
-quem diz sim vai para o passo do email, quem diz não fecha o form (L1002, L641).
+Duas partes: pergunta "Do you want 10% off?" antes de pedir o email; quem diz sim
+vai para o passo do email, quem diz não fecha o form (L1002, L641).
 
 O mecanismo é o **commitment bias**: "once somebody starts doing something,
 they're much more likely to follow through with that action" (L1005; também
@@ -45,16 +43,16 @@ beats out the classic. I would probably say even a little bit more towards like
 
 ## The Quiz
 
-O favorito dele — "My favorite, the quiz, this is what I recommend" (L643) — e
-o veredito mais forte do material: "the quiz pop-up form, which in 2026 is the
-best performing pop-up form that you can run for your brand" (L1008); "this
-consistently is the best form style that we are seeing work in 2026" (L1013).
+O favorito dele — "My favorite, the quiz, this is what I recommend" (L643) — e o
+veredito mais forte do material: "in 2026 is the best performing pop-up form that
+you can run for your brand" (L1008); "this consistently is the best form style
+that we are seeing work in 2026" (L1013).
 
 É o micro-commit com uma pergunta no lugar do sim/não: "instead of, yes, please,
 you ask a question. You've got this discount, to claim it, tell us what problem
-you're trying to solve" (L645). Some exemplos de pergunta: "what are you shopping
-for today?", "are you shopping for myself or someone else", "select your skin
-concern" (L1014).
+you're trying to solve" (L645). Outros exemplos de pergunta: "what are you
+shopping for today?", "are you shopping for myself or someone else", "select your
+skin concern" (L1014).
 
 Mecanismo somado ao commitment bias: **personalization bias** — "Humans are much
 more likely to interact with something and then also buy from a store if they
@@ -77,21 +75,18 @@ do curso, só "A little bit more tacky um but that is something you can do"
 # Onde o corpus discorda
 
 **Quatro ou cinco?** O slide diz "Use one of the 5 form types to pick a starting
-point" (L1200). A transcrição do YouTube diz "there are four different types of
-pop-up forms that we typically will like to run" (L998) — e o material só nomeia
-quatro em qualquer lugar. A seção "Great Examples" do slide (L1292-1298) rotula
-quatro cards mas repete Micro-Commit duas vezes e não inclui spin-to-win.
-Ver `list-growth-tipos-de-form`. **Nunca afirme cinco: o quinto não existe no
-corpus.**
-
-Candidatos plausíveis para o quinto — nenhum confirmado pelo material como "tipo
-de form": o form de página cheia e o flyout aparecem como *estilos* de exibição
-no Klaviyo, não como tipos (L667, L706, L1266).
+point" (L1200). A transcrição diz "there are four different types of pop-up forms
+that we typically will like to run" (L998) — e o material só nomeia quatro em
+qualquer lugar. A seção "Great Examples" do slide (L1292-1298) rotula quatro
+cards mas repete Micro-Commit duas vezes e não inclui spin-to-win. Ver
+`list-growth-tipos-de-form`. **Nunca afirme cinco: o quinto não existe no
+corpus** — full page e flyout aparecem como *estilos* de exibição do Klaviyo, não
+como tipos (L667, L706, L1266).
 
 # O que o corpus não diz
 
 Não há critério explícito para escolher entre quiz e micro-commit numa marca
-específica além de "teste os dois". A única variável de decisão que ele levanta
-é lateral: marcas com muitos SKUs e produtos diferentes não conseguem usar algo
-tão simples quanto uma marca de produto único (L997), e quem quer volume bruto
-de lista pesa diferente de quem quer dado e engajamento (L996).
+específica além de "teste os dois". As únicas variáveis de decisão que ele
+levanta são laterais: marcas com muitos SKUs não conseguem usar algo tão simples
+quanto uma marca de produto único (L997), e quem quer volume bruto de lista pesa
+diferente de quem quer dado e engajamento (L996).

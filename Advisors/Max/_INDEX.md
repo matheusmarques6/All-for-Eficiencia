@@ -27,6 +27,8 @@ roteamento abaixo.
 
 | A pergunta é sobre... | Leia, nesta ordem |
 |---|---|
+| "por onde eu começo", visão geral da disciplina | [[fundamentos/_index]] |
+| que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] |
 | número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto |
 | montar ou corrigir um flow | [[flows/_index]] → a nota do flow → [[_conflitos]] |
 | campanha, calendário, segmentação | [[campanhas/_index]] |
@@ -40,10 +42,11 @@ roteamento abaixo.
 | configurar ferramenta (Klaviyo, Figma, Shopify) | nota `tipo: procedimento` — sempre datada, avisar antes |
 | algo que parece fora do corpus | [[_cobertura]] → recusar nomeando a lacuna |
 
-# As nove pastas
+# As dez pastas
 
 | Pasta | O que tem dentro |
 |---|---|
+| [[fundamentos/_index]] | os 3,5 pilares, métricas-núcleo, glossário, escolha de ESP, estado do mercado |
 | [[doutrina/_index]] | princípios transversais e o processo de criação dele |
 | [[list-growth/_index]] | pop-up, oferta, tipos de form, A/B de captação |
 | [[flows/_index]] | os 8 flows: gatilho, delays, filtros, sequência, template |

@@ -5,7 +5,7 @@ assunto: subject-lines
 autor: max-sturtevant
 registro: [slide, transcricao]
 fonte: "CONTEUDO BRUTO/max.md — L6099-6247 (transcrição), L6083-6095 e L6798-6827 (slide)"
-conflitos: [copy-subject-line-comprimento, copy-subject-line-reticencias, copy-open-rate-limite, copy-nao-complique-vs-framework]
+conflitos: [copy-subject-line-comprimento, copy-subject-line-reticencias, copy-medir-por-abertura, copy-open-rate-limite, copy-multiplicador-de-vendas, copy-nao-complique-vs-framework]
 status: rascunho
 ---
 
@@ -76,7 +76,7 @@ Todos esses números, com suas variações entre registros, estão em [[_numeros
 
 > * A Taste of Sunshine ☀️
 > * Myth. Busted. 👀
-> * They're Finally Here 🤩
+> * They’re Finally Here 🤩
 > * It's Literally This Easy 🤣
 >
 > — L6824-6827
@@ -99,14 +99,19 @@ pergunta são regra de **subject line**: "something ending in dot, dot, dot,
 maybe a question" (L6155-6157), reforçado em L6197. No slide, "Ends with …" é
 regra de **preview text** (L6838), e a SL termina em emoji (L6820).
 
-**Open rate importa ou não** (`copy-open-rate-limite`). O bloco de guidelines
-diz "Not about your open rates" (L6085) e, quatro linhas abaixo, "A/B test
-subject lines; **track open rates**; tweak based on what works" (L6091) —
-contra "less about opens" de L6810. E o teto do salto de abertura é 10% no
-slide (L6805) e "10%, maybe 15" na fala (L6229).
+**Medir por abertura ou por receita** (`copy-medir-por-abertura`). O bloco de
+guidelines diz "Not about your open rates" (L6085) e, seis linhas abaixo, "A/B
+test subject lines; **track open rates**; tweak based on what works" (L6091) —
+contra "less about opens" de L6810.
+
+**Teto do salto de abertura** (`copy-open-rate-limite`): ~10% no slide (L6805),
+"10%, maybe 15" na fala (L6229). E o multiplicador de vendas
+(`copy-multiplicador-de-vendas`) tem três valores: 3x no slide (L6809, L6811),
+"three to five times" na fala (L6121), e quase 4x nos dois testes descritos
+(L6133).
 
 **Framework vs. "Don't overthink it"** (`copy-nao-complique-vs-framework`).
-"Don't overthink it" aparece três vezes (L6095, L6223, L6847) ao lado de dois
+"Don't overthink it" aparece quatro vezes (L6095, L6223, L6831, L6847) ao lado de dois
 frameworks de quatro regras cada.
 
 # O que o corpus não diz
