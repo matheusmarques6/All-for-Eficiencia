@@ -140,7 +140,7 @@ L3775). Vale o slide — é artefato.
   recusar por inteiro. O conceito existe no módulo de SMS, no browse abandon:
   "you can A/B test **including a picture of the item the person browsed** to
   help them remember what they looked at. Keep in mind this is **2x-3x more
-  expensive** than just using text so review results accordingly" (L9457, slide).
+  expensive** than just using text so review results accordingly" (L9449, slide).
   É o equivalente funcional do bloco dinâmico — item do evento renderizado na
   mensagem — declarado como teste e com aviso de custo, mas **sem uma linha de
   código ou nome de variável**. Ver [[sms/flows-sms]] e

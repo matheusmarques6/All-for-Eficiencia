@@ -189,6 +189,30 @@ racionalizar depois:
 - **Max perde coerência em conversa longa** → aí sim é arquitetura de
   memória, e só aí.
 
+# 5.1 Duas leis de manutenção, aprendidas construindo
+
+Não são teoria — cada uma custou uma rodada de correção.
+
+**Corrigir a nota de controle não corrige a nota do assunto.** O limiar
+estatístico de teste foi declarado lacuna inexistente, derrubado na revisão de
+`_cobertura.md`, e **sobreviveu intacto** em `_numeros-completo.md` e em
+`flows/otimizacao-de-flows.md`. Índice e nota são cópias independentes da mesma
+afirmação. Toda correção de fato precisa de uma varredura por texto, nunca de
+uma edição no lugar onde o erro foi encontrado.
+
+**Não achar não é o mesmo que não existir.** Três vezes o corpus foi declarado
+omisso sobre algo que ele cobre: o Sunset Flow (a especificação estava num PNG
+em base64 na última linha, invisível a qualquer busca textual), o racional do
+S.C.E. (existe, mas o ASR grafa "SDE framework"), e as ocorrências de `consent`
+e `carrier` (existem, só não sobre SMS). Antes de escrever "o corpus não diz",
+procure em outro registro, em outro módulo, na grafia corrompida e em imagem
+embutida. A varredura de falsos negativos derrubou 16 de 275 afirmações de
+ausência — e em 12 delas o conteúdo estava em outro módulo.
+
+Corolário de escopo: quase nunca é verdade que "o corpus não diz". Quase sempre
+o certo é "**este deck** não diz" ou "**esta aula** não diz". A diferença decide
+se o advisor recusa ou responde.
+
 # 6. O que preciso de você quando mandar o conhecimento
 
 1. **Origem do material**: escrito por Max, transcrito dele, ou escrito

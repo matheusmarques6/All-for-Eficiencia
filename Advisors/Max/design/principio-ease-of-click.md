@@ -91,7 +91,7 @@ botão, nem o que fazer quando a marca não tem cor de contraste disponível.
 antes "não há: cor", e isso contradiz o corpo desta própria nota. A prescrição de
 cor **existe** — só é qualitativa, nunca numérica. Nos dois registros: slide,
 "Use **high-contrast colors** and simple backgrounds. Your buttons should be the
-most obvious thing in the email" (L8142) e "Avoid distracting backgrounds and use
+most obvious thing in the email" (L8141) e "Avoid distracting backgrounds and use
 **contrasting colors** to get your CTAs to stand out" (L8166); fala, o único
 contra-exemplo nominal de cor, "You don't want to use like a **blue** button
 here" (L7045-7047). O que falta é hex, faixa de contraste medida e regra para

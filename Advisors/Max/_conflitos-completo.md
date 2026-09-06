@@ -9,7 +9,7 @@ status: rascunho
 
 As **108 entradas de conflito por módulo**, na íntegra. Só se chega aqui pelo
 [[_conflitos]]: a abertura, a regra de ouro, o como-ler-uma-entrada e o **índice dos
-126 slugs canônicos** (mais os 16 redundantes e seus ponteiros) estão lá, e valem aqui
+126 slugs canônicos** (mais os 18 redundantes e seus ponteiros) estão lá, e valem aqui
 sem repetição. As outras **18** entradas canônicas — as duas seções transversais,
 "Conflitos entre módulos" e "Conflitos dentro do mesmo registro" — também ficam em
 [[_conflitos]], porque são as que têm de ser lidas antes de responder em qualquer
@@ -1985,6 +1985,7 @@ palavra sobre TCPA, consentimento expresso escrito ou texto de opt-in. **Se a pe
 for de compliance, recuse: está fora do corpus.**
 
 ---
+
 # Colisões de slug e veredictos arbitrados
 
 Registro de auditoria da consolidação. Onze arquivos de staging registraram parte dos
@@ -2010,7 +2011,7 @@ deck, é o dono do deck; quando o conflito é transversal por natureza, é `dout
 | Cadência de campanha | `campanhas-sweet-spot-de-frequencia` · `flows-frequencia-de-campanha` | `campanhas-sweet-spot-de-frequencia` | **colisão nova**; a entrada de flows era ponteiro |
 | Janela de atenção | `doutrina-segundos-de-atencao` · `copy-janela-de-atencao` · `design-segundos-de-atencao` | `doutrina-segundos-de-atencao` | **colisão nova, três vias**; o "antes" de copy e o L8201 de design entraram na tabela única — **veredictos divergentes, ver abaixo** |
 
-**15 colisões resolvidas · 16 slugs redundantes · 126 entradas canônicas.**
+**15 colisões resolvidas · 18 slugs redundantes · 126 entradas canônicas.**
 
 ## Veredicto arbitrado 1 — peso do básico
 

@@ -16,7 +16,7 @@ assunto. Toda nota que carrega contradição declara o slug no frontmatter
 `conflitos:`; os slugs vivem no índice abaixo.
 
 **Esta nota é a porta.** Ela contém o índice completo dos 126 slugs canônicos (mais os
-16 redundantes e para onde apontam) e, na íntegra, as duas seções transversais —
+18 redundantes e para onde apontam) e, na íntegra, as duas seções transversais —
 [[#Conflitos entre módulos]] e [[#Conflitos dentro do mesmo registro]] —, que são as
 que mais mudam resposta e as que o roteamento por pasta do [[_INDEX]] nunca entrega
 sozinho. **As outras 108 entradas estão em [[_conflitos-completo]]**, agrupadas por
@@ -164,6 +164,8 @@ Marcadores de tipo usados no índice:
 | `campanhas-janela-do-segmento-de-interesse` | over all time vs last 30 days | conflito |
 | `campanhas-limiar-de-hipersegmentacao` | $1M/mês e a segunda porta indefinida | conflito |
 | `campanhas-encanador-ou-eletricista` | mesma analogia, dois ofícios | conflito |
+| `campanhas-cadencia-semanal` | → `campanhas-sweet-spot-de-frequencia` | → slug |
+| `campanhas-proporcao-grafico-texto` | → `campanhas-ratio-grafico-texto` | → slug |
 
 ## copy
 
@@ -262,7 +264,7 @@ Marcadores de tipo usados no índice:
 |---|---|---|
 | `entre-modulos-tabela-de-metricas` | duas tabelas de metas em dois decks | conflito |
 
-**Total após deduplicação: 126 entradas canônicas**, mais 16 slugs redundantes
+**Total após deduplicação: 126 entradas canônicas**, mais 18 slugs redundantes
 que resolvem para elas.
 
 **Onde cada uma vive:** as **18** entradas das duas seções transversais estão nesta
@@ -285,6 +287,7 @@ marcadas assim (`welcome-contagem-de-fillers`, `list-growth-checkbox-preselecion
 [[_conflitos-completo]] e apenas uma linha de diagnóstico aqui.
 
 ---
+
 # Conflitos entre módulos
 
 Os que atravessam pastas. São os mais perigosos porque o roteamento do [[_INDEX]]
@@ -438,8 +441,8 @@ operacionalmente é o de hoje, e é ele que está em disputa entre módulos.
 ## flows-onde-testar
 
 Absorve `otimizacao-onde-testar`. As duas posições estão na **mesma página do mesmo
-deck**, doze linhas de distância — e a segunda tem cópia idêntica no deck de
-otimização.
+deck**, a poucas linhas de distância (L4128 e L4139) — e a segunda tem cópia idêntica
+no deck de otimização.
 
 | Posição | Verbatim | Registro | Linha |
 |---|---|---|---|
@@ -644,30 +647,31 @@ when it's already in a poor position" (L8555). **Na dúvida, o número mais alto
 
 ## Os demais conflitos slide-contra-slide
 
-Vivem no bloco do módulo dono; listados aqui porque a precedência do [[_INDEX]] não os
-resolve e o diagnóstico é o mesmo.
+Listados juntos porque a precedência do [[_INDEX]] não resolve nenhum deles e o
+diagnóstico é o mesmo. **A tabela é resumo, não entrada** — ela nomeia o defeito e não
+dá as versões. A maioria tem a entrada completa no bloco do módulo dono, em
+[[_conflitos-completo]]; as **seis marcadas com ↓** são canônicas desta nota e têm a
+entrada completa logo depois da tabela, na ordem em que aparecem aqui.
 
 | Slug | O defeito | Linhas | Desempate disponível |
 |---|---|---|---|
-| `deliverability-unsubscribe-afeta-ou-nao` | o rótulo da linha diz "(doesn't affect deliverability)" e a mesma tabela lhe dá meta; três linhas antes ele está na lista do que "Google, Yahoo, etc look at" | L8706-8710, L8719 | fala (L8432) confirma "neutral metric" → é métrica de **monitoramento com alvo**, não de deliverability |
+| ↓ `deliverability-unsubscribe-afeta-ou-nao` | o rótulo da linha diz "(doesn't affect deliverability)" e a mesma tabela lhe dá meta; três linhas antes ele está na lista do que "Google, Yahoo, etc look at" | L8706-8710, L8719 | fala (L8432) confirma "neutral metric" → é métrica de **monitoramento com alvo**, não de deliverability |
 | `campanhas-cadencia-alta-vs-tier-1m` | 5-7x/semana listado como faixa danosa, 5-6x/semana prescrito para $1M+/mês | L5264-5269 vs L5298 | **nenhum dentro do deck**; a reconciliação existe só na fala (L4240, L4270-4276), e essa fala é `outro-provavel` |
-| `copy-numeracao-dos-principios` | dois "Principle #2" e nenhum "#3" | L6578, L6604, L6625 | o acrônimo, dado certo três vezes (L6558-6576, L5504-5512, L4715-4717) → Engaging é o terceiro; o "#2" de L6625 é erro do slide |
-| `copy-takeaways-por-email` | heading "Limit to 1-3 Key Points Per Email" contrariado pelo corpo duas linhas abaixo | L6615 vs L6617-6618 | corpo vence: "1" aparece três vezes (L5611, L6547, L6617); a única concessão é "When you can", que não define quando |
+| ↓ `copy-numeracao-dos-principios` | dois "Principle #2" e nenhum "#3" | L6578, L6604, L6625 | o acrônimo, dado certo três vezes (L6558-6576, L5504-5512, L4715-4717) → Engaging é o terceiro; o "#2" de L6625 é erro do slide |
+| ↓ `copy-takeaways-por-email` | heading "Limit to 1-3 Key Points Per Email" contrariado pelo corpo duas linhas abaixo | L6615 vs L6617-6618 | corpo vence: "1" aparece três vezes (L5611, L6547, L6617); a única concessão é "When you can", que não define quando |
 | `welcome-contagem-de-fillers` | heading "Insert 1-4 Filler Emails" contra o corpo "the 1–5 educational emails" | L3544 vs L3547 | corpo vence: 1-5 em três lugares (L1612, L2178, L3517) |
-| `design-cta-por-produto` | a lista de regras exige botão, a página da seção aceita alternativa | L8139 vs L8282 | fala (L7458) é categórica e traz teste: "Every single time I test this if you let people know shop now… then it gets higher clicks" (L7462) → **botão** |
+| ↓ `design-cta-por-produto` | a lista de regras exige botão, a página da seção aceita alternativa | L8139 vs L8282 | fala (L7458) é categórica e traz teste: "Every single time I test this if you let people know shop now… then it gets higher clicks" (L7462) → **botão** |
 | `design-segundos-de-atencao` (parte) | "2-4 seconds" e "3 seconds" no mesmo deck, 16 linhas de distância | L8185 vs L8201 | L8201 é paráfrase dentro da faixa, não valor independente |
 | `list-growth-tipos-de-form` | slide promete "one of the 5 form types", corpus nomeia quatro | L1200 vs L1292-1298 | fala (L998) conta quatro; o próprio slide de exemplos repete um card e omite spin-to-win |
 | `list-growth-checkbox-preselecionado` | a segunda metade da linha anula a primeira | L1120 | intenção declarada (L537, L1115) → auto-marcado; o texto é colado do Shopify e não foi revisado |
 | `list-growth-friccao-na-signup-page` | "Remove as much friction as possible!" e, sete linhas depois, "enter a short description" | L1127 vs L1134 | fala vence (é julgamento): headline é o desconto (L547-549) |
 | `replenishment-desconto` | "without heavy discounts" e "15% Off Your Next Refill!" **dentro de cada registro** | L3992/L3247 vs L4035-4037/L3299 | nenhum; a conciliação possível é que o desconto entra só no email 2, marcado opcional (L3269) |
-| `otimizacao-sl-julgar-por-abertura-ou-receita` | "Not about your open rates" e, seis linhas depois, "track open rates" | L6085 vs L6091 | receita: sustentada no deck (L6810), na fala (L6229-6233, L8926-8944) e nos dados (L6127-6139). L6091 é resumo mal feito da página do curso |
-| `deliverability-registros-dns` | quatro registros na prosa, três na lista de requisitos | L8671 vs L8687-8689 | nenhum; **SPF, DMARC, DKIM** são requisito declarado, o MX aparece uma vez na prosa. Não afirme que o MX é dispensável nem obrigatório |
+| ↓ `otimizacao-sl-julgar-por-abertura-ou-receita` | "Not about your open rates" e, seis linhas depois, "track open rates" | L6085 vs L6091 | receita: sustentada no deck (L6810), na fala (L6229-6233, L8926-8944) e nos dados (L6127-6139). L6091 é resumo mal feito da página do curso |
+| ↓ `deliverability-registros-dns` | quatro registros na prosa, três na lista de requisitos | L8671 vs L8687-8689 | nenhum; **SPF, DMARC, DKIM** são requisito declarado, o MX aparece uma vez na prosa. Não afirme que o MX é dispensável nem obrigatório |
 | `welcome-estrutura-da-sequencia` | o slide promete "**Base Strategy:**" e não entrega nada | L3509 | nenhum; o diagrama não sobreviveu à extração |
 | `winback-definicao-do-segmento` | o slide promete a definição do segmento e entrega slot vazio | L4057 | a definição completa está no deck de campanhas (L5589) |
 | `design-metodos-de-transicao-ausentes` | "Here are a few methods to do this:" seguido de nada | L8307 | os quatro métodos existem só na fala (L7552-7586) |
 | `flows-receita-da-agencia` (→ `doutrina-receita-da-agencia`) | $100M e $200M no mesmo deck, nove linhas de distância | L3419 vs L3428 | nenhum; o segundo está num bloco de recomendação paga do Klaviyo |
-
----
 
 ---
 

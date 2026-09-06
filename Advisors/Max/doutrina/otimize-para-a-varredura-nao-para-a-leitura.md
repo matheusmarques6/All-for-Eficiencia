@@ -90,7 +90,7 @@ oferecer em vez de recusar — o deck de design pede que "people can clearly see
 **2-3 sections**, categorize in their head, and skim with ease" (L8196), que é o
 único número operacional do princípio. E existe o passo de conferência, embora
 seja de plataforma e não de skimmability: enviar um preview para si mesmo
-(L5234) e usar "preview and test" para ver "what it looks like for your
+(L5228) e usar "preview and test" para ver "what it looks like for your
 customers" (L2981). Ver [[design/principio-skimmability]].
 
 # Datação
