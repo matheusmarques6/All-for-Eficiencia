@@ -5,6 +5,7 @@ assunto: glossario-deliverability-e-plataforma
 autor: max-sturtevant
 registro: [slide]
 fonte: "CONTEUDO BRUTO/max.md — L441-470 (slide)"
+conflitos: [fundamentos-smart-sending, fundamentos-klaviyo-melhor-ou-pior]
 status: rascunho
 ---
 

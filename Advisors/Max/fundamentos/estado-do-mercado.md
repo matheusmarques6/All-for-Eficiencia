@@ -89,7 +89,7 @@ evidência do argumento inteiro:
 > (L9)
 
 E o fecho: "the modern c customer has changed. Ex Exhibit A: myself" (L9). As
-marcas citadas — Monster, Newtonic, e Breeze na aula seguinte (L21) — são
+marcas citadas — Monster, Newtonic, e Breeze na aula seguinte (L22) — são
 autobiografia, não case de cliente.
 
 # Quem sobrevive

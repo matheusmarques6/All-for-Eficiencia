@@ -42,8 +42,8 @@ Registro: `t` = transcrição · `s` = slide · `s-gl` = slide, seção glossár
 | Brand A — entrada mensal | "Gains 2,000 new subscribers/mo" | t, s | L21, L303 | — |
 | Brand B — lista atual | "20,000 current email subscribers" | t, s | L21, L307 | — |
 | Brand B — entrada mensal | "Gains 250 new subscribers/mo" | t, s | L21, L309 | — |
-| Janela do honeymoon | "the warmest they are is within 30 days" | t | L21 | — |
-| Autobiografia (Breeze) | "I literally got this like 7 days ago" / "bought like 2 months ago" | t | L21 | — |
+| Janela do honeymoon | "the warmest they are is within 30 days" | t | L22 | — |
+| Autobiografia (Breeze) | "I literally got this like 7 days ago" / "bought like 2 months ago" | t | L22 | — |
 | Share de flows na receita de email | "roughly 50%" | t | L22 | fundamentos-split-campanhas-flows |
 | " " (slide) | "around 50% of your total email revenue" | s | L326 | fundamentos-split-campanhas-flows |
 | Variação admitida | "60/40, 40/60, depends on the brand" | t | L22 | fundamentos-split-campanhas-flows |
@@ -67,7 +67,7 @@ Registro: `t` = transcrição · `s` = slide · `s-gl` = slide, seção glossár
 | Janela de atribuição do Klaviyo | "within three to five days" | t | L54 | — |
 | Email+SMS como % da receita total | "anywhere from 30 to 50 percent" | t | L56 | — |
 | Limiar para escalar aquisição | "say you're at like 60 percent" | t | L56 | fundamentos-limiar-de-escalar-aquisicao |
-| Piso para melhorar o email | "anywhere under 30%, um 40%" | t | L58 | fundamentos-piso-de-email-share |
+| Piso para melhorar o email | "anywhere under 30%, um 40%" | t | L56-58 | fundamentos-piso-de-email-share |
 | Split campanhas/flows | "around 50/50 or 40/60, 60/40 anywhere in that range" | t | L60 | fundamentos-split-campanhas-flows |
 | Caso ruim de flows | "you see 14% from flows" | t | L62 | — |
 | Período do print | "January 27th, 2024 to February 26th, 2024" | t | L64 | — |

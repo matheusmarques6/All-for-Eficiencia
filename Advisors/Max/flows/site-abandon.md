@@ -44,7 +44,7 @@ it for your brand" (L2369-2375). O slide não menciona delay nenhum.
 
 # A sequência
 
-**Email 1 — encorajar browsing.** Slide, L3625-3634:
+**Email 1 — encorajar browsing.** Slide, L3623-3634:
 
 > **Email Content:**
 > * Encourage browsing
@@ -68,7 +68,7 @@ e mulheres, ele colocou um botão para cada no topo (L2393-2395). E o critério 
 tom: "we don't want this to seem like another campaign, we wanted to address the
 abandonment" (L2385).
 
-**Email 2 — lembrete pessoal.** Slide, L3648-3661:
+**Email 2 — lembrete pessoal.** Slide, L3646-3661:
 
 > **Email Content:**
 > * Personal reminder
@@ -80,19 +80,23 @@ abandonment" (L2385).
 > * Find everything okay?
 > * Here to help out
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Keep it short and snappy, no one wants to read an essay
 > * Update the sender name to the founders name for a more personal feel
 
 Ele registra que este email costuma bater o primeiro: "a lot of times it
 performs better than the first one" (L2409). Exemplo lido em voz alta
-(ASR, L2417-2425):
+(ASR, L2417-2427):
 
 > hey [name], it's Michelle, the founder of Velvet [Cowder Yard]. I noticed you
 > were browsing our site and didn't find a case that you liked. We have over 200
 > plus styles (…) try checking out our best sellers for a curated collection.
-> (…) PS, if you got the new iPhone 16, you're at a 100 plus cases for it, ready
-> to ship. Shop 20% off today.
+> (…) PS, if you got the new iphone 16, you're at a 100 plus cases for it, ready
+> to ship. shop 20 off today.
+
+A marca é **Velvet Caviar**: o mesmo email reaparece no módulo de campanhas, aí
+com o nome legível — "it's Michelle, the founder of Velvet Caviar" (L5198).
+"Cowder Yard" é erro de ASR.
 
 # O racional dele
 
@@ -104,7 +108,7 @@ people is perfect" (L2361-2365).
 E o argumento de fundo — que ele repete em quase todo flow — é que o flow não
 carrega sozinho: "on top of this, this person will be receiving three to four
 campaigns per week from you, so we don't need to go too too crazy"
-(L2367).
+(L2365-2369).
 
 # Onde o corpus discorda
 

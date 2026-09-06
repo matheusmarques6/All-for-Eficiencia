@@ -4,7 +4,7 @@ modulo: flows
 assunto: conteudo-dinamico-klaviyo
 autor: max-sturtevant
 registro: [slide, transcricao]
-fonte: "CONTEUDO BRUTO/max.md — L3765-3776, L3883-3896, L3897-3914 (slide); L2589-2616, L2956-3012 (transcrição)"
+fonte: "CONTEUDO BRUTO/max.md — L3765-3776, L3883-3896, L3897-3914 (slide); L2590-2616, L2957-3011 (transcrição)"
 conflitos: [cart-checkout-bloco-dinamico]
 status: rascunho
 ---

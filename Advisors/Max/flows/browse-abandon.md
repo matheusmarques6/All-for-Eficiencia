@@ -13,8 +13,8 @@ status: rascunho
 
 O flow de quem abriu uma página de produto e parou aí. "They showed interest in
 that product, enough so to view the product page, but they didn't take action.
-So our job is to remind them of what caught their eye and guide them closer to a
-purchase" (L2448-2452).
+So our job is to remind them of what caught their high and guide them closer to a
+purchase" (L2448-2452) — "high" é ASR de *eye*, como o slide confirma (L3670).
 
 Demonstração com a Nike: navegar o site não entra; clicar no produto dispara
 (L2454-2460).
@@ -40,7 +40,7 @@ or a week, then they have lost interest" (L2478-2482).
 
 # A sequência
 
-**Email 1 — dinâmico + social proof + outros produtos.** Slide, L3684-3698:
+**Email 1 — dinâmico + social proof + outros produtos.** Slide, L3682-3698:
 
 > **Email Content:** Dynamic Klaviyo block · Give social proof · Show other products
 >
@@ -49,12 +49,12 @@ or a week, then they have lost interest" (L2478-2482).
 > * Watcha got there?
 > * Saved for you
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Make your buttons nice and big
 > * Feature multiple products that may better fit the customer
 > * Put the dynamic content block as high up in the email as possible
 
-**Email 2 — lembrete + FAQs.** Slide, L3706-3719:
+**Email 2 — lembrete + FAQs.** Slide, L3704-3719:
 
 > **Email Content:** Dynamic Klaviyo block · Simple reminder · Answer FAQs
 >
@@ -63,11 +63,11 @@ or a week, then they have lost interest" (L2478-2482).
 > * Quick reminder
 > * Don't wait on this one
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Answer only 3 FAQs to avoid overwhelm
 > * Try to sneak in some social proof (one testimonial is good)
 
-**Email 3 — o desconto.** Slide, L3727-3740:
+**Email 3 — o desconto.** Slide, L3725-3740:
 
 > **Email Content:** Discount opener · Dynamic Klaviyo block · Show other products
 >
@@ -76,7 +76,7 @@ or a week, then they have lost interest" (L2478-2482).
 > * A gift for you 🎁
 > * 10% OFF your viewed item!
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Mention the discount in the preview text or subject line
 > * Put the discount high up in the email for easy access
 
@@ -85,7 +85,7 @@ this flow, which you can make this optional if you want (…) you could send thi
 to just people who haven't bought from you before" (L2488-2490), via split no
 Klaviyo (L2550).
 
-**Email 4 — text-based last chance.** Slide, L3748-3761:
+**Email 4 — text-based last chance.** Slide, L3746-3761:
 
 > **Email Content:** Text-based last chance · Personal discount reminder · Educate on brand info
 >
@@ -94,7 +94,7 @@ Klaviyo (L2550).
 > * Hey, It's Ashley!
 > * Saved this discount for you…
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Bold your main points, especially the discount
 > * Make it seem personal, like the founder reaching out
 

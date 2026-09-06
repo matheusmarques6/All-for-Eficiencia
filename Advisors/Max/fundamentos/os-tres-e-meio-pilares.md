@@ -64,7 +64,7 @@ exigidas pelos outros pilares. Deliverability é subproduto, não trabalho.
 
 Ele mesmo se contradiz sobre isso quatro aulas adiante, na mesma faixa: sobre
 list health e deliverability, "This is where things get a little bit comm-
-complicated" (L225). E abre exceção já em L21: "if you do struggle with it,
+complicated" (L225). E abre exceção já em L22: "if you do struggle with it,
 that's what we will walk you through here in this program".
 
 # O split flows / campanhas

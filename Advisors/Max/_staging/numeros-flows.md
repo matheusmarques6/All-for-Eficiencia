@@ -42,7 +42,7 @@ Legenda de registro: `T` = transcrição falada · `S` = slide GAMMA.
 | Browse abandon — emails | "I typically like to do four emails" | T | L2472 | — |
 | Browse abandon — emails | "**4 emails works well here**, spaced out over 3-4 days" | S | L3678 | browse-abandon-janela-de-delays |
 | Browse abandon — delay do 1º | "we like to wait one hour" | T | L2476 | browse-abandon-janela-de-delays |
-| Browse abandon — delays seguintes | "one day between the rest of these emails" | T | L2477-2478 | browse-abandon-janela-de-delays |
+| Browse abandon — delays seguintes | "one day between the rest of these emails" | T | L2478 | browse-abandon-janela-de-delays |
 | Browse abandon — antipadrão | "we don't email them again for like two weeks or a week, then they have lost interest" | T | L2480-2482 | — |
 | Browse abandon — FAQs | "Answer only 3 FAQs to avoid overwhelm" | S | L3718 | — |
 | Browse abandon — FAQs | "answer only like three FAQs to avoid overwhelm" | T | L2536 | — |
@@ -65,7 +65,7 @@ Legenda de registro: `T` = transcrição falada · `S` = slide GAMMA.
 | Replenishment — desconto | "15% Off Your Next Refill!" / código "COOL15" | S | L4035-4037 | replenishment-desconto |
 | Winback — janelas de lapso | "90, 120, 180 days are the most common ones that I do" | T | L3322 | — |
 | Winback — janelas de lapso | "(90, 120, 180 days)" | S | L4053 | — |
-| Winback — segmento | "placed an order zero times in the last 90 days" | T | L3318-3319 | winback-definicao-do-segmento |
+| Winback — segmento | "placed an order zero times in the last 90 days" | T | L3318 | winback-definicao-do-segmento |
 | Winback — segmento (fora da faixa) | "placed order at least once in the past 150 days **AND** (…) zero times in the last 90 days" | S | L5589 | winback-definicao-do-segmento |
 | Winback — segmento (fora da faixa) | "placed an order in the past 150 days, but they haven't made one in the last 90" | T | L5057 | winback-definicao-do-segmento |
 | Winback — cadência | "email one, day zero" | T | L3326 | winback-cadencia |
@@ -100,12 +100,12 @@ Legenda de registro: `T` = transcrição falada · `S` = slide GAMMA.
 | Welcome last chance | "Last chance for 10% off your order" | T | L2218 |
 | Welcome last chance | "$10 off right here" | T | L2234 |
 | Welcome last chance text-based | "Use this code for 15% off" | T | L2248 |
-| Site abandon E2 | "Shop 20% off today" | T | L2426 |
+| Site abandon E2 | "shop 20 off today" *(sem `%` no bruto)* | T | L2425 |
 | Browse abandon E3 | "10% OFF your viewed item!" | S | L3735 |
 | Browse abandon E3 | "Browse 10 for 10% off" | T | L2562 |
 | Browse abandon E4 | "Claim 10% off on the item you've been [eyeing]" | T | L2578-2580 |
 | Cart/checkout E1 | "free shipping on all orders over $70" | T | L2741 |
-| Cart/checkout E3 | "Enjoy $35 off your new smile" | T | L2872 |
+| Cart/checkout E3 | "Enjoy $35 off your new smile" | T | L2871 |
 | Cart/checkout E3 | "$XX OFF Your Cart!" | S | L3850 |
 | Cart/checkout E4 | "Still 1x% off" *(ASR corrompido)* | T | L2911 |
 | Cart/checkout E4 | "you're 20% off. Not for long" | T | L2923 |
@@ -122,8 +122,8 @@ valores acima são leitura de exemplo de marca. Ver `welcome-valor-do-desconto`.
 
 | Onde | Valor verbatim | reg | linha |
 |---|---|---|---|
-| Filler FAQ — Breeze | "only being 30 calories" | T | L1893 |
-| Filler social proof | "4.8 stars out of 5 on 18,200 reviews" | T | L2031 |
+| Filler FAQ — Breeze | "only being 30 calories" | T | L1892 |
+| Filler social proof | "4.8 stars out of 5 on 18,200 reviews" | T | L2030 |
 | Site abandon E2 — Velvet | "over 200 plus styles" · "100 plus cases" · "iPhone 16" | T | L2419, L2425 |
 | Cart/checkout E2 — Live Fresh | "40 patents · 26 research studies · 12 dental experts on staff" | T | L2807-2813 |
 | Replenishment E1 — value props | "3-sec refresh, lasts 6+ hours" | S | L4020 |

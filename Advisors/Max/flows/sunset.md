@@ -3,56 +3,87 @@ tipo: especificacao
 modulo: flows
 assunto: sunset-flow
 autor: max-sturtevant
-registro: [transcricao]
-fonte: "CONTEUDO BRUTO/max.md — L3398-3403"
+registro: [transcricao, slide]
+fonte: "CONTEUDO BRUTO/max.md — L92-94 e L5127 (transcrição), L411 (slide, glossário), L3398-3402 (seção sem aula); definição do segmento lida do PNG embutido na L9545, referenciado por `![][image1]` na L3402"
 status: rascunho
 ---
 
 # O que é
 
-**Lacuna.** O corpus tem o título do Sunset Flow e nada mais.
+**Cobertura parcial, não lacuna total.** O corpus entrega a finalidade e a
+definição do segmento. Não entrega sequência, delays, número de emails nem copy.
 
-O módulo de flows lista oito flows. Sete têm aula falada e seção de slide. O
-oitavo tem seis linhas, e é isto, na íntegra (L3398-3403):
+Finalidade, verbatim do glossário (L411):
 
-```
-# Sunset Flow
+> **Sunset Flow** – Triggered when a contact is no longer engaging. Removes or
+> suppresses inactive users.
 
-Presentation: [https://gamma.app/docs/Sunset-Flow-v13borkcrsurvpv](https://gamma.app/docs/Sunset-Flow-v13borkcrsurvpv)
+Ele também aparece na lista dos oito flows configurados na conta de exemplo do
+Klaviyo — "Browse Abandon, Cart Abandon, Checkout Abandon, Post Purchase, Side
+Abandon, Sunset, Welcome, Win Back" (L92) — que ele chama de "the recommended
+flows when just starting out" (L94). Ou seja: ele recomenda e não ensina.
 
-![][image1]
-```
+# A definição do segmento
 
-Três coisas, nenhuma utilizável:
+> **Lido de print, não de texto.** A seção do Sunset Flow (L3398-3402) traz um
+> `![][image1]` que **resolve**: a referência aponta para a L9545, última linha
+> do arquivo, onde está `[image1]: <data:image/png;base64,…>` com um PNG de
+> 624×169. É a única imagem do arquivo inteiro. Print de baixa resolução, lido
+> por ampliação; onde a leitura é duvidosa, está marcado abaixo.
 
-1. **O título.** `# Sunset Flow` (L3398).
-2. **Um link de apresentação.** Aponta para um deck gamma distinto do dos outros
-   sete flows — os outros usam `Email-Flows-nccnz3vebo4vyy1`, este usa
-   `Sunset-Flow-v13borkcrsurvpv` (L3400). O conteúdo do deck não está no corpus.
-3. **Uma imagem quebrada.** `![][image1]` (L3402) — referência sem destino. É o
-   **único** marcador de imagem em toda a faixa de flows (L1307-4186); todos os
-   outros exemplos visuais foram descartados na extração sem deixar marcador.
+Print do Klaviyo. Segmento salvo com o nome `WC | Sunset`, tipo Segment,
+**93726** perfis, `Nov 13, 2024, 9:49 AM`. Quatro condições, verbatim:
 
-Não há transcrição de vídeo. Não há seção de slide correspondente na parte
-GAMMA (L3404-4186): depois do Winback (L4040-4114) o deck vai direto para Flow
-Optimization (L4115) e encerra (L4178). O Sunset Flow simplesmente não aparece
-lá.
+> * Person has Opened Email zero times in the last 180 days
+> * **AND** Person has Clicked Email zero times in the last 180 days
+> * **AND** Person has Received Email is at least 10 over all time
+> * **AND** Person has Placed Order zero times over all time
 
-# O que isso significa para o advisor
+Leitura confiável nas quatro condições e no nome do segmento. **Incerto:** o dia
+da data (`13` pode ser `18`) e se `93726` traz separador de milhar — o glifo tem
+7 px de altura e não decide. Perfis e data são de uma conta de cliente, não são
+especificação.
 
-Perguntas sobre sunset flow — limiar de inatividade, quantos emails, o que
-escrever, quando suprimir, quando remover da lista — **não têm resposta neste
-corpus**. Recusar nomeando a lacuna, conforme [[_protocolo]].
+**A quarta condição é a única surpresa útil.** `Placed Order zero times over all
+time` exclui do sunset qualquer pessoa que já tenha comprado uma vez. Quem
+comprou e sumiu vai para o [[winback]], não para o sunset. O corpus nunca diz
+isso em texto; o segmento diz.
 
-O vizinho mais próximo não é outro flow: é o material de deliverability, que
-trata de higiene de lista e engajamento, e o material de segmentação, que define
-listas por janela de engajamento (o corpus discute perfis sem abertura há 150
-dias em L5037). Nenhum dos dois é o sunset flow, e nenhum dos dois deve ser
-apresentado como se fosse.
+# Onde isso não fecha com o resto do corpus
+
+Em L5127, dentro da aula de segmentação e falando da **suppression list**, ele
+promete: "We'll talk about this more in the Sunset Flow, obviously, as well."
+A promessa nunca é cumprida. E os três limiares de inatividade que o corpus dá
+não coincidem:
+
+| Onde | Limiar | reg | linha |
+|---|---|---|---|
+| Segmento do print | 0 opens **e** 0 clicks em 180 dias · ≥10 emails recebidos · 0 pedidos over all time | print | L9545 |
+| Suppress list (fala) | "at least five to ten emails over all time, opened zero times in the last year" | transcrição | L5129 |
+| Suppress list (slide) | ≥5 recebidos · 0 aberturas em 365 dias · **OU** ≥3 bounces · **OU** ≥1 spam | slide | L5592 |
+
+Sunset e suppress list não são a mesma coisa, mas ele os apresenta juntos e dá
+números diferentes para cada um sem reconciliar. Não fazer média nem transpor um
+limiar para o outro.
 
 # O que o corpus não diz
 
-Tudo. Não há gatilho, segmento, número de emails, delay, filtro, condição de
-saída, template, subject line, critério de supressão nem racional. A ausência
-está documentada aqui para que ninguém preencha o buraco depois com boa prática
-de mercado.
+- **Nenhuma sequência.** Zero emails especificados: sem contagem, sem delay, sem
+  subject line, sem template, sem exemplo.
+- **Nenhum filtro e nenhuma condição de saída.**
+- **Remove ou suprime?** O glossário diz "removes or suppresses" (L411) e nunca
+  escolhe, nem diz o que decide entre os dois.
+- **O deck não veio.** L3400 aponta para um gamma próprio
+  (`Sunset-Flow-v13borkcrsurvpv`), diferente do `Email-Flows-nccnz3vebo4vyy1`
+  dos outros sete flows. O conteúdo desse deck não está no corpus.
+- **Não há aula.** Nenhuma transcrição de vídeo, e nenhuma seção correspondente
+  na parte GAMMA (L3404-4186): depois do Winback (L4040-4114) o deck vai direto
+  para Flow Optimization (L4115).
+
+# Como responder
+
+Recusa **parcial**, conforme [[_protocolo]]: entregar a finalidade (L411) e o
+segmento (print da L9545, sempre marcando que é print), e nomear o que falta.
+Quem perguntar "quantos emails tem o sunset flow" ou "o que escrever nele"
+recebe a lacuna — nunca uma sequência montada por analogia com [[winback]] ou
+com o material de deliverability.

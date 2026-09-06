@@ -123,7 +123,7 @@ case you forget to send campaigns for like two weeks" (L3392).
 
 - Nenhum filtro, nenhuma condição de saída.
 - O que acontece com quem sai do segmento no meio do flow.
-- O que é o "longer term winback" que ele menciona duas vezes (L3334, L3336) —
+- O que é o "longer term win back" que ele menciona duas vezes (L3332, L3334) —
   nomeia e não especifica.
 - Qual desconto usar. 10% aparece três vezes como exemplo (L3360, L4094, L4110)
   e nunca como regra.

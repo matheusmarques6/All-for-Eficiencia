@@ -66,7 +66,7 @@ the day" de B projetaria 78 ocorrências em A; observaram-se **duas**.
 Reforço independente, o **fecho de vídeo**. Os dez blocos do aglomerado B fecham
 com pedido coletivo — "hit us up" (L4420, L9108), "reach out to us" (L4674),
 "shoot us over emails, ask us questions. We're here for you" (L4827), "thank you
-guys ... see you in the next one" (L5154, L5865, L6081, L6247, L8517, L8645).
+guys ... see you in the next one" (L5153, L5865, L6081, L6247, L8516, L8645).
 Essa fórmula **não ocorre nenhuma vez** fora do aglomerado B. Os blocos
 `max-provado` fecham no singular: "let me know if you have any questions" (L677,
 L8064), "message me or the group" (L2616), "book a call with me" (L9259).
@@ -81,7 +81,7 @@ camera`, `my list` (hipotético), `my brand` (hipotético). Nada mais.
 Nas faixas `max-provado` o mesmo padrão devolve: `my link` (L34), `my checklist`
 (L617), `my resources` (L686), `my agency` (L6350), `my community my school`
 (L6279), `my designers` (L6458), `my channel` (L6499), `my company's name`
-(L8046), `my clients` (L9245), `my newsletter` (L6351), além de `my favorite`
+(L8046), `my clients` (L9237), `my newsletter` (L6350), além de `my favorite`
 14×.
 
 É essa assimetria — não a saudação — que sustenta o laudo.
@@ -98,13 +98,13 @@ Nas faixas `max-provado` o mesmo padrão devolve: `my link` (L34), `my checklist
 | 1 | AULA 1 — Profitable Ecommerce Funnel | L3–14 | Intro | `max-provavel` | idioleto A; "at the end of the day" 1× (L9) é a única fuga do aglomerado A |
 | 2 | AULA 2 — 3.5 Pillars | L15–23 | Intro | `max-provavel` | idioleto A; nenhum marcador B |
 | 3 | AULA 3 — Setting Up Your ESP | L24–39 | Intro | **`max-provado`** | **L34: "if you use my link below right here, which is uh omnisend.com/max"** — o narrador é dono do link `omnisend.com/max` (idem deck L358) |
-| 4 | AULA 4 — Klaviyo Walkthrough | L40–157 | Intro | `max-provavel` | continuidade anunciada em 1ª pessoa por bloco `max-provado`: L36 "I'm going to walk through a Klaviyo tutorial"; L82 "that's how I recommend creating your emails" |
+| 4 | AULA 4 — Klaviyo Walkthrough | L40–157 | Intro | `max-provavel` | continuidade anunciada em 1ª pessoa por bloco `max-provado` (#3): L36 "I'm going to walk through a Klaviyo tutorial"; L82 "that's how I recommend creating your emails" |
 | 5 | AULA 5 — Core Metrics | L158–211 | Intro | `max-provavel` | idioleto A; zero marcadores B em 1.045 palavras |
-| 6 | AULA 6 — Glossary | L212–236 | Intro | `max-provavel` | "yada yada" 2× (L218); zero marcadores B |
+| 6 | AULA 6 — Glossary | L212–236 | Intro | `max-provavel` | "yada yada" (L227); zero marcadores B |
 | 7 | AULA 1 — Types of List Growth | L525–562 | List Growth | `max-provavel` | zero marcadores B |
 | 8 | AULA 2 — Importance of Pop-Ups | L563–604 | List Growth | `max-provavel` | zero marcadores B |
 | 9 | AULA 3 — Effective Pop-Up Forms | L605–678 | List Growth | **`max-provado`** | **L631: "If you ask me, Hey Max, do you want 10% off? ... if you went up to me and said, Hey Max, $20 off"** — o falante se põe como o interlocutor chamado Max. Reforço: L617 "run your form through my checklist" ≡ deck L1206/L1208; L615 "I've tested this across multiple different brands" |
-| 10 | AULA 4 — Klaviyo Pop-Up Walkthrough | L679–959 | List Growth | **`max-provado`** | anunciado como próprio pelo bloco `max-provado` #9: **L677 "physically step-by-step how I'm creating these inside of Klaviyo"**; L686 "the rest of my resources on um forms"; L688 "my favorite form" |
+| 10 | AULA 4 — Klaviyo Pop-Up Walkthrough | L679–959 | List Growth | **`max-provado`** | anunciado como próprio pelo bloco `max-provado` #9: **L677 "physically step-by-step how I'm creating these inside of Klaviyo"**; L686 "the rest of my resources on um forms" e "my favorite form" (mesma linha) |
 | 11 | AULA 5 — Alia Walkthrough | L960–985 | List Growth | `max-provavel` | mesmo anúncio L677 ("all the pop-up form creation I'm going to be providing"); L984 "I love Olea" |
 | 12 | AULA 6 — YouTube Pop-Ups | L986–1084 | List Growth | **`max-provado`** | **L1014: "Just say that Max sent you a 30-day free trial"** ≡ deck L1245 "Say Max sent you when you book a call"; L1029 pitch da agência em 1ª pessoa do plural com CTA próprio |
 | 13 | Welcome Flow | L1309–2325 | Flows | `max-provavel` | idioleto A denso: "I like to" 4× (L1440, L1520+), "boom" 13×, "yada" 8×; zero marcadores B em 4.394 palavras |
@@ -118,7 +118,7 @@ Nas faixas `max-provado` o mesmo padrão devolve: `my link` (L34), `my checklist
 | 21 | Campaign Strategy | L4189–4421 | Campaigns | `outro-provavel` | "at the end of the day" 5× (L4208, L4240, L4242, L4336, L4386), "obviously" 7×, "I recommend"/"my favorite"/"I like to" **0×** em 2.875 palavras; fecho L4420 "feel free to hit us up" |
 | 22 | Campaign Calendar Creation | L4422–4675 | Campaigns | `outro-provavel` | "at the end of the day" 2× (L4448, L4658), "obviously" 6×, zero idioleto A; fecho L4674 "feel free to reach out to us" |
 | 23 | Creating Great Campaigns | L4676–4828 | Campaigns | `outro-provavel` | "at the end of the day" (L4747), "obviously" 2×, zero idioleto A; fecho L4827 "shoot us over emails, ask us questions. We're here for you"; L4823 "results for our clients" |
-| 24 | Segmentation | L4829–5154 | Campaigns | `outro-provavel` | "at the end of the day" (L4919), "obviously" 3×, zero idioleto A em 2.745 palavras; fecho L5154 "thank you guys very much for watching, and we'll see you in the next one" |
+| 24 | Segmentation | L4829–5154 | Campaigns | `outro-provavel` | "at the end of the day" (L4919), "obviously" 3×, zero idioleto A em 2.745 palavras; fecho L5153 "thank you guys very much for watching, and we'll see you in the next one" |
 | 25 | Text Based Email Masterclass (YT) | L5155–5236 | Campaigns | **`max-provado`** | **L5212: "you can get access to my custom GPT right here called the email marketing brain"** — 1ª pessoa sobre o mesmo artefato que L5753 atribui a terceiro; L5204 credencial "$200 million" em 1ª pessoa |
 | 26 | The Principles of Good Copy | L5602–5616 | Copywriting | `indeterminado` | marcador de transcrição vazio (L5615) — o único do arquivo; só bullets e link |
 | 27 | ChatGPT Copywriting | L5617–5866 | Copywriting | **`outro-provado`** | **L5753: "something that Max had put together himself"** — ver §4.1 |
@@ -132,10 +132,10 @@ Nas faixas `max-provado` o mesmo padrão devolve: `my link` (L34), `my checklist
 | 35 | Figma Email Design Walkthrough | L7590–7840 | Design | **`max-provado`** | **L7817–7818: "You could be, 'Hey, at max, this is terrible.' Let me just make sure it actually tags me"** — ver §5, é a contraprova do laudo |
 | 36 | Designing Walkthroughs | L7841–8008 | Design | `max-provavel` | **L7871: "these are my websites for finding emails to steal from"** ≡ deck L8311/L8317 "My Best Tip For Design: STEAL! / Use These Websites For Finding Emails to Steal From" — alinhamento em 1ª pessoa com o slide; L7875, L7883, L7905, L7957 "my favorite" 4× |
 | 37 | Uploading Designs (YT) | L8009–8065 | Design | **`max-provado`** | **L8044: "You get a 30%, uh, discount if you use me"** (= `omnisend.com/max`, L34/L358); **L8046: "I'll say well copy because that's my company's name"** |
-| 38 | What is Deliverability? | L8365–8517 | Deliverability | `outro-provavel` | "at the end of the day" 4× (L8386, L8392, L8468, L8490), "essentially" 8×, zero "I recommend"/"my favorite"; L8416 "feel free to message our team as well"; fecho L8517 "let us know if you guys have any questions" |
+| 38 | What is Deliverability? | L8365–8517 | Deliverability | `outro-provavel` | "at the end of the day" 4× (L8386, L8392, L8468, L8490), "essentially" 8×, zero "I recommend"/"my favorite"; L8416 "feel free to message our team as well"; fecho L8516 "let us know if you guys have any questions" |
 | 39 | Warming Your Domain | L8518–8646 | Deliverability | `outro-provavel` | "at the end of the day" (L8542), "obviously" 4×, zero idioleto A em 4.204 palavras; fecho L8645 "please let us know if you have any questions" |
 | 40 | High Leverage A/B Tests | L8762–9109 | Optimization | `outro-provavel` | "obviously" **9×** em 3.121 palavras, "at the end of the day" 3× (L8928, L8932, L8936), zero idioleto A; L8798 "the tests that our team runs"; fecho L9108 "feel free to hit us up" |
-| 41 | SMS Marketing Masterclass (YT) | L9215–9260 | SMS | **`max-provado`** | **L9258: "in the doc I have a swipe file of 30 SMS messages which I handpicked"** ≡ deck L9522 "I went through Attentive's SMS database and picked 30 of my favorite SMS messages"; **L9259 "you can book a call with me"**; L9245 "for all of my clients" |
+| 41 | SMS Marketing Masterclass (YT) | L9215–9260 | SMS | **`max-provado`** | **L9258: "in the doc I have a swipe file of 30 SMS messages which I handpicked"** ≡ deck L9522 "I went through Attentive's SMS database and picked 30 of my favorite SMS messages"; **L9259 "you can book a call with me"**; L9237 "I like to always have that for all of my clients" |
 
 **Contagem:** 9 `max-provado` · 20 `max-provavel` · 1 `outro-provado` ·
 9 `outro-provavel` · 2 `indeterminado`.
@@ -235,7 +235,7 @@ que só o dono exerce:
 
 - **L6279** — "**Community we have over 450 people**, he sent this in of an
   email he did himself and I absolutely love this, **shout out to you Dominic**."
-  (A comunidade é `skool.com/email-marketerz`, L3459.)
+  (A comunidade é `skool.com/email-marketerz`, L3465.)
 - **L6458** — "I'd be lying if I said I didn't consult with **one of my
   designers** on hand to put this together… **Shout out Diana**."
 - **L6350** — "the exact process that we use at **my agency** which has generated

@@ -3,14 +3,16 @@ tipo: indice
 modulo: flows
 assunto: mapa-de-flows
 autor: max-sturtevant
+registro: [transcricao, slide]
 fonte: "CONTEUDO BRUTO/max.md — L1307-3403 (transcrição), L3404-4186 (slide GAMMA)"
 status: rascunho
 ---
 
 # O que tem aqui
 
-O módulo de flows do curso: oito flows nomeados, sete com aula, um só com
-título. Mais três notas auxiliares.
+O módulo de flows do curso: oito flows nomeados, sete com aula. O oitavo
+(sunset) não tem aula, mas tem finalidade e segmento fora desta faixa. Mais três
+notas auxiliares.
 
 | Nota | O que tem dentro |
 |---|---|
@@ -23,9 +25,9 @@ título. Mais três notas auxiliares.
 | [[post-purchase]] | `Placed Order`, 2 emails base, split por número de compras, três escopos temporais em conflito |
 | [[replenishment]] | 21 dias + 7 dias, exclusivo-ish de CPG, o desconto que contradiz a promessa do flow |
 | [[winback]] | o único disparado por **segmento**, não por metric; 90/120/180 dias |
-| [[sunset]] | **lacuna declarada** — o corpus tem só o título, um link gamma e uma imagem quebrada |
+| [[sunset]] | **cobertura parcial** — finalidade (L411) e o segmento lido do print embutido na L9545; nenhuma sequência, delay ou copy |
 | [[conteudo-dinamico-klaviyo]] | as três fórmulas de bloco dinâmico, verbatim, e por que a de checkout é estruturalmente diferente |
-| [[otimizacao-de-flows]] | só no slide: campanha como campo de teste, migrar vencedoras para flows, os 4 testes de flow |
+| [[otimizacao-de-flows]] | só no slide: campanha como campo de teste, migrar vencedoras para flows, os 5 testes de flow (4 deles duplicados do deck de otimização) |
 
 # A tabela comparativa dos 8 flows
 
@@ -34,20 +36,23 @@ flow. A ausência é informação, não erro de extração.
 
 | Flow | Gatilho | Nº de emails | Delay do 1º | Delays seguintes | Filtros | Condição de saída |
 |---|---|---|---|---|---|---|
-| **Welcome** | opt-in na lista *(metric nunca nomeada)* | 3 mín. · 4-5 · 6 · até 15 · 3-4 ou 6-8 | imediato (L1420, L3492) | 1-2 dias (L1458, L3494) — contra "every day" (L1468-1472) | `placed order zero times since starting this flow` (L1542) · `bounce less than two times since starting this flow` (L1544) | falhar qualquer filtro (L1546) |
+| **Welcome** | opt-in na lista *(metric nunca nomeada)* | 3 mín. · 4-5 · 6 · casos de 15 · 3-4 ou 6-8 | imediato (L1420, L3492) | 1-2 dias (L1458, L3494) — contra "every day" (L1468-1472) | `placed order zero times since starting this flow` (L1542) · `bounce less than two times since starting this flow` (L1544) | falhar qualquer filtro (L1546) |
 | **Site abandon** | `Active on Site` (L2345, L3613) | 1-2 (L2363-2365, L3619) | 4h padrão · 1h agressivo (L2369-2371) | | | ver página de produto (L2347-2355) |
 | **Browse abandon** | `Viewed Product` (L2452, L3671) | 4 (L2472, L3678) | 1 hora (L2476) | 1 dia entre os demais (L2476-2478); slide: "over 3-4 days" (L3678) | | |
 | **Cart abandon** | `Added to Cart` (L2669, L3784) | 4 (L3798-3881) | | | | |
 | **Checkout abandon** | `Started Checkout` (L3790) / "checkout started" (L2671) | 4 (L3798-3881) | | | | |
-| **Post-purchase** | `Placed Order` — Shopify (L3032, L3920) | 2 base, "add more" (L3156, L3969) | imediato (L3064) | "a couple days" (L3066) | | |
+| **Post-purchase** | `Placed Order` — Shopify (L3032, L3920) | 2 base, "add more" (L3156, L3968) | imediato (L3064) | "a couple days" (L3066) | | |
 | **Replenishment** | `placed order` (L3251) — só na fala | 2 (L3255, L4003) | 21 dias (L3251); janela citada 30-60 / 21-60 (L3233-3235) | 7 dias (L3257-3259, L4003); depois "set whatever time delay you want" (L3289) | | não ter recomprado — implícito (L4003), nunca especificado |
 | **Winback** | **segmento**, não metric (L3314, L4053) | 3 (L3334, L4063-4065) | Day 0 (L3326, L4063) | Day 7 e Day 10 (L4065) — só no slide | | |
-| **Sunset** | | | | | | |
+| **Sunset** | **segmento**, definido só no print da L9545: `Opened Email zero times in the last 180 days` **AND** `Clicked Email zero times in the last 180 days` **AND** `Received Email is at least 10 over all time` **AND** `Placed Order zero times over all time` | | | | | |
 
 Notas da tabela:
 
-- **Sunset está inteiramente vazio** e isso não é falha de leitura: o corpus tem
-  seis linhas sobre ele (L3398-3403). Ver [[sunset]].
+- **Sunset tem gatilho e nada mais.** A faixa de flows traz só cinco linhas sobre
+  ele (L3398-3402, sem aula e sem seção no deck GAMMA), mas a finalidade está no
+  glossário (L411) e o segmento está legível no PNG embutido na L9545, para onde
+  o `![][image1]` da L3402 aponta. Sequência, delays, filtros, condição de saída
+  e copy não existem em nenhum registro. Ver [[sunset]].
 - **Cart e checkout são a lacuna mais cara**: quatro emails especificados, com
   subject lines e quick tips, e nenhum delay, filtro ou condição de saída em
   nenhum dos dois registros (L2618-3019 e L3777-3914).
@@ -67,15 +72,19 @@ Notas da tabela:
 | bloco dinâmico, variável Klaviyo | [[conteudo-dinamico-klaviyo]] |
 | o que testar num flow | [[otimizacao-de-flows]] |
 | copy/subject line de flow | a nota do flow, bloco `# A sequência` ou `# Templates` |
-| sunset flow | [[sunset]] — e recusar |
+| sunset flow | [[sunset]] — recusa **parcial**: finalidade e segmento existem, sequência não |
 
 # Duas advertências de leitura
 
 1. **Os exemplos de copy são ASR.** Quase todo exemplo de email neste módulo foi
    lido em voz alta em cima de uma imagem que não sobreviveu à extração. A
    transcrição erra nomes de marca e números ("Mints versus facts" por *Myths vs
-   Facts*, "1x% off" por *10% off*). Onde a nota marca "(ASR)", a fidelidade é
-   menor que a de um artefato de slide.
-2. **Nenhuma imagem sobreviveu.** Há um único marcador de imagem em toda a faixa
-   L1307-4186, e é o do Sunset Flow (L3402). Todos os slots
-   "**Email Example:**" do deck vieram vazios.
+   Facts* — confirmado em L3565; "velvet cowder yard" por *Velvet Caviar* —
+   confirmado em L5198; "1x% off" por provavelmente *10% off*, este sem
+   confirmação). Onde a nota marca "(ASR)", a fidelidade é menor que a de um
+   artefato de slide.
+2. **Uma única imagem sobreviveu, e é a do sunset.** Há um único marcador de
+   imagem em toda a faixa L1307-4186 — o `![][image1]` da L3402 — e ele
+   **resolve**: a definição `[image1]: <data:image/png;base64,…>` está na L9545,
+   última linha do arquivo. Todos os 12 slots "**Email Example:**" do deck
+   vieram vazios.

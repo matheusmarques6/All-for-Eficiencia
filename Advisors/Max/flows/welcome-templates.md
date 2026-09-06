@@ -4,7 +4,7 @@ modulo: flows
 assunto: welcome-templates
 autor: max-sturtevant
 registro: [slide, transcricao]
-fonte: "CONTEUDO BRUTO/max.md — L3529-3606 (slide), L1668-1776 e L2183-2306 (transcrição)"
+fonte: "CONTEUDO BRUTO/max.md — L3529-3606 (slide), L1668-1776 e L2184-2306 (transcrição)"
 status: rascunho
 ---
 
@@ -39,9 +39,9 @@ you. They just want the discount." (L1682-1686). E fecha com um aviso:
 "don't overthink your welcome email number one" (L1774).
 
 Exemplos que ele percorre (lidos em voz alta, ASR): Chamberlain Coffee
-(L1705-1719), Surefire CPR — "become a real life hero today, $10 off"
-(L1723-1737), uma marca THC — "a place to connect, learn, and explore conscious
-cannabis without judgment" (L1741-1760). O padrão que ele elogia nos três é o
+(L1704-1720), Surefire CPR — "become a real life hero today, $10 off"
+(L1722-1738), uma marca THC — "a place to connect, learn, and explore conscious
+cannabis without judgment" (L1740-1760). O padrão que ele elogia nos três é o
 mesmo: código de desconto e botão no topo, informação de marca depois, produtos
 por último (L1750-1752).
 
@@ -66,7 +66,7 @@ here" (L2200-2202) e "don't distract" (L2224). Headlines de exemplo que ele lê:
 10% off your order" (L2218). Ele registra que countdown timer funciona: "if you
 can include a countdown timer, those work well" (L2230-2232).
 
-Existe uma variação text-based do last chance (L2238-2249), diferente do
+Existe uma variação text-based do last chance (L2238-2248), diferente do
 support email que fecha o flow: "quick reminder. Welcome discount expires
 tonight. (…) use this code for 15% off".
 

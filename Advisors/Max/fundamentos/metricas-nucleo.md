@@ -68,9 +68,11 @@ numbers, then I would be concerned" (L186).
 
 **Unsubscribe < 0,3%.** Diagnóstico de causa única: "if you have a lot of
 unsubscribes, then you have a content problem and you need to fix your content"
-(L190). Nesse ponto ele corrige o próprio slide ao vivo, porque o sinal estava
-invertido na tela: "that should be the other way around (…) Um let me actually
-fix that right now" (L188).
+(L190). Nesse ponto ele corrige o próprio slide ao vivo, porque a tela mostrava
+o inverso do que ele queria dizer — ele não detalha o quê, e a frase do meio é
+ininteligível no áudio: "that should be the other way around (…) Um let me
+actually fix that right now" (L188). O slide publicado já sai corrigido
+(`<0.3%`, L378), então não há como saber o que estava na tela antes.
 
 **Spam complaint < 0,01%.** Duas causas, e a segunda é hesitante: "then you have
 a content problem, potentially a segmentation problem" (L192).

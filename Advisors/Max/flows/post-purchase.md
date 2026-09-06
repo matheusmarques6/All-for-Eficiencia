@@ -24,7 +24,7 @@ cross-sells and up-sells" (L3040-3046).
 | Campo | Valor |
 |---|---|
 | Gatilho | `Placed Order` — metric do Shopify (L3032, L3920) |
-| Nº de emails | 2 na base ("feel free to add more", L3156, L3969) |
+| Nº de emails | 2 na base ("feel free to add more", L3156, L3968) |
 | Delay do 1º | imediato — "immediate post-purchase thank you" (L3064) |
 | Delay do 2º | "we'll wait a couple days" (L3066) |
 | Filtros | *(o corpus não informa)* |
@@ -39,7 +39,7 @@ message for authenticity" (L3939).
 
 # A sequência
 
-**Email 1 — agradecimento pessoal.** Slide, L3936-3946:
+**Email 1 — agradecimento pessoal.** Slide, L3934-3946:
 
 > **Purpose & Content**
 > * Create a personalized customer experience right after purchase
@@ -53,16 +53,16 @@ message for authenticity" (L3939).
 > * **Support note**: Offer help or next steps (FAQs, contact info, onboarding)
 > * **CTA**: Gentle push to shop again (tailored reccs or upsell)
 
-É text-based, do founder (L3080-3081). O PS de upsell é o único número de
+É text-based, do founder (L3080). O PS de upsell é o único número de
 performance que ele dá no flow inteiro: "just a subtle, that right there, helps
 get like 2% to 3% placed order rates. It's honestly crazy how many people buy
-from this" (L3116-3118). O PS, verbatim do exemplo (ASR, L3110-3113): "P.S. If
+from this" (L3116-3118). O PS, verbatim do exemplo (ASR, L3110-3112): "P.S. If
 you want to add more to your order, you can do so here."
 
 Ele abre a porta para versões agressivas — free shipping na segunda compra, ou
 cross-sell condicionado ao produto comprado (L3120-3124) — mas não especifica.
 
-**Email 2 — como aproveitar o produto.** Slide, L3954-3964:
+**Email 2 — como aproveitar o produto.** Slide, L3952-3964:
 
 > **Purpose & Content**
 > * Improve customer experience + product enjoyment
@@ -91,8 +91,8 @@ Só o primeiro ganha especificação, e ela vale registrar porque muda o flow:
 shipped or product fulfilled" (L3170). Ou seja, o "order on the way" **não
 é um email deste flow** — é outro flow.
 
-O Founder Check-In é o único com exemplo (ASR, L3196-3209): "hope you're doing
-well and keeping in good health. It's been nearly three weeks since you started
+O Founder Check-In é o único com exemplo (ASR, L3196-3208): "hope you're doing
+well and keeping a good health. It's been nearly three weeks since you started
 your journey and I want to personally follow up with you."
 
 # O racional dele

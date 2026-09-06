@@ -62,13 +62,13 @@ citado, ou foi citado com a marca do ruído.
 | Linha | Ruído | Leitura correta |
 |---|---|---|
 | L9 | "seamless checks" | *stimmy checks*, como o slide grafa em L248 |
-| L11 | "Ads are just way too expansive" | *expensive* |
+| L12 | "Ads are just way too expansive" | *expensive* |
 | L78 | "typically you want to send that off" | *turn that off* |
 | L92 | "Side Abandon" na lista de flows da conta | *Site Abandon*, cf. glossário L405 |
 | L94 | "you'll be able to see the revenue, oops, revenue, revenue per recipient" | repetição de fala |
 | L174 | "or 60% campaigns, 40% follows" | *flows* |
 | L196 | "that we are going to be teaching you to do for via." | frase truncada; o fim da aula 5 não fecha |
-| L21 | "new tonic" / "Newtonic" | mesma marca, duas grafias na mesma linha |
+| L9, L22 | "Newtonic" (L9) / "new tonic" (L22) | mesma marca, duas grafias em aulas diferentes |
 
 **L148** — `"here if you want custom reports to be sent to your email, and then"`.
 Duplicata parcial de L144, cortada no mesmo ponto. Fragmento de ASR, sem
@@ -111,7 +111,7 @@ interesse), a nota declara o incentivo em vez de repetir a chamada.
 | Linha | Conteúdo | Motivo |
 |---|---|---|
 | L1 | `# INTRO` | marcador estrutural |
-| L5, L17, L26, L160, L214 | `link do gamma :` + a **mesma URL** repetida cinco vezes | metadado de origem, não conteúdo |
+| L5, L17, L26, L160, L214 | `link do gamma :` + o **mesmo doc gamma** cinco vezes (L5 com `?mode=doc` no fim; as outras quatro sem) | metadado de origem, não conteúdo |
 | L7, L19, L28, L162 | `Transcrição da Aula :` | rótulo de seção |
 | L42 | `link do gamma app :` — **campo vazio**, sem URL | registrado em [[dashboard-do-klaviyo]] como defeito do bruto |
 | L44 | `Transcrição da Loja :` — rótulo errado, deveria ser "da Aula" | idem |

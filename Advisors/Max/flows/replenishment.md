@@ -48,7 +48,7 @@ semanas, skincare durando 60 dias.
 
 # A sequência
 
-**Email 1 — timing e conveniência.** Slide, L4011-4022:
+**Email 1 — timing e conveniência.** Slide, L4009-4022:
 
 > **Purpose & Content**
 > * Remind customers it's time to restock before they run out
@@ -63,7 +63,7 @@ semanas, skincare durando 60 dias.
 > * **Product showcase**: Flavor options + bundles to encourage variety or higher order value
 > * **CTA**: Strong, clear button ("Refresh Your Breath" / "Shop Now")
 
-**Email 2 — incentivo.** Slide, L4028-4038:
+**Email 2 — incentivo.** Slide, L4026-4038:
 
 > **Purpose & Content**
 > * Create urgency for customers who haven't reordered after the first reminder

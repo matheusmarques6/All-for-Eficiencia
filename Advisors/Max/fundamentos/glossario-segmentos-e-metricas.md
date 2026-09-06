@@ -5,6 +5,7 @@ assunto: glossario-segmentos-e-metricas
 autor: max-sturtevant
 registro: [slide]
 fonte: "CONTEUDO BRUTO/max.md — L413-439 (slide)"
+conflitos: [fundamentos-open-rate-glossario, fundamentos-unsubscribe-glossario, fundamentos-spam-glossario, fundamentos-click-rate-glossario]
 status: rascunho
 ---
 

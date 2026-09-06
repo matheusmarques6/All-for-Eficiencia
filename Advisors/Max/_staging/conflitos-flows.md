@@ -93,8 +93,9 @@ o material em silêncio.
 | 14 ângulos citados | T | L2136-2166 |
 
 **Como responder:** o slide vence, é artefato. A lista falada é subconjunto da
-do slide mais um item que só ela tem ("even more testimonials", L2148) e não
-inclui Research Study Highlight, Media Publications, Behind The Scenes, Tips and
+do slide — subconjunto estrito, sem nenhum item exclusivo ("even more
+testimonials", L2148, é o `Testimonials` do slide, L3563). Não inclui Research
+Study Highlight, Media Publications, Behind The Scenes, Tips and
 Tricks, UGC Content, Staff Picks nem Brand Values. Não há hierarquia entre os
 ângulos em nenhum dos dois: é catálogo, não ranking. A única preferência
 explícita do corpus inteiro é pelo Our Story — "I love to include these"
@@ -316,7 +317,7 @@ racional que ele dá é qualitativo, a progressão emocional → incentivo → u
 | Versão | Verbatim | reg | linha |
 |---|---|---|---|
 | slot vazio | "**Segment Definition for 90 Day Winback Flow:**" seguido de nada | S | L4057 |
-| metade recente | "placed an order at least once, but they've placed an order zero times in the last 90 days" | T | L3318-3319 |
+| metade recente | "placed an order at least once, but they've placed an order zero times in the last 90 days" | T | L3318 |
 | completa (fora da faixa) | "subscribed **AND** placed order at least once in the past 150 days **AND** placed order zero times in the last 90 days" | S | L5589 |
 | completa (fora da faixa) | "placed an order in the past 150 days, but they haven't made one in the last 90" | T | L5057 |
 

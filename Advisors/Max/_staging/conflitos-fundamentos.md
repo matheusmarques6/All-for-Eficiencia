@@ -1,6 +1,6 @@
 # Conflitos — fundamentos
 
-Dezesseis entradas. Faixa: L1-236 (transcrição) e L237-522 (slide GAMMA).
+Dezessete entradas. Faixa: L1-236 (transcrição) e L237-522 (slide GAMMA).
 Linhas de fora da faixa aparecem quando o conflito atravessa módulos.
 
 **Particularidade desta faixa:** quatro conflitos são internos ao **mesmo deck** —
@@ -44,14 +44,14 @@ O teto de unsubscribe.
 | Valor | Registro | Linha |
 |---|---|---|
 | "Unsubscribe rates, less than 0.3%" | T | L186 |
-| "we want it to be less than 0.3%" (repetido três vezes em L188-190) | T | L188-190 |
+| "we want it to be less than 0.3%" (o valor aparece uma vez em cada uma das três linhas L186, L188 e L190) | T | L186-190 |
 | "\<0.3%" | S | L378 |
 | "Target: \<0.2%" | S-GL | L436 |
 
 **Como responder:** **0,3%**. É o valor mais repetido do módulo — ele o diz três
-vezes seguidas, e no meio disso corrige o próprio slide ao vivo porque o sinal
-estava invertido na tela ("that should be the other way around (…) let me
-actually fix that right now", L188). O 0,2% do glossário não tem defesa falada. O
+vezes seguidas, e no meio disso corrige o próprio slide ao vivo porque a tela
+mostrava o inverso do que ele queria dizer — não detalha o quê ("that should be
+the other way around (…) let me actually fix that right now", L188). O 0,2% do glossário não tem defesa falada. O
 diagnóstico associado vale para os dois: muitos unsubscribes = problema de
 conteúdo (L190).
 
@@ -192,12 +192,12 @@ Abaixo de que share o email é o problema.
 
 | Valor | Registro | Linha |
 |---|---|---|
-| "If you're anywhere under 30%, um 40%, then that tells you, okay, our email systems can be improved" | T (dashboard) | L58 |
+| "If you're anywhere under 30%, um 40%, then that tells you, okay, our email systems can be improved" | T (dashboard) | L56-58 |
 | "if we have less than like 30% then we need to be doing better with our email marketing" | T (métricas) | L172 |
 | "30–50% is healthy" | S, T | L374, L170 |
 
 **Como responder:** **30%** é o piso, sustentado pela aula de métricas e pela
-faixa saudável dos dois registros. O "under 30%, um 40%" de L58 é hesitação de
+faixa saudável dos dois registros. O "under 30%, um 40%" de L56-58 é hesitação de
 fala: ele começa em 30 e emenda 40 sem completar a frase. Não tratar 40% como
 piso alternativo — 40% é a **meta** (L168, L374, L388), não o piso.
 
@@ -329,7 +329,7 @@ Deliverability é fácil ou é a parte complicada.
 | "Deliverability is like a half. Just because it's so easy" | T | L21 |
 | "Why only a 3.5 pillar? Because it's easy\!" | S | L348 |
 | "with health and deliverability. This is where things get a little bit comm- complicated" | T | L225 |
-| "if you do struggle with it, that's what we will walk you through here in this program" | T | L21 |
+| "if you do struggle with it, that's what we will walk you through here in this program" | T | L22 |
 
 **Como responder:** as quatro linhas estão na **mesma faixa**, a 200 linhas de
 distância. A tese do meio pilar é dele e é sustentada nos dois registros — mas a
@@ -339,7 +339,7 @@ de linhas para ensinar, com rampa de warming, registros DNS e reparo. Responder:
 para ele deliverability é meio pilar porque a **condição de sucesso é
 subproduto** dos outros três, não porque o assunto seja simples — e ele próprio
 chama a terminologia de complicada (L225) e abre exceção para quem já está em
-apuros (L21). Ver [[deliverability/_index]].
+apuros (L22). Ver [[deliverability/_index]].
 
 ---
 
@@ -351,7 +351,7 @@ Se subject line afeta open rate.
 |---|---|---|
 | "It's not your subject line or preview text. It is your segmentation (…) they're going to open your email, **no matter what your subject line says**" | T | L180 |
 | "at most you can get \~ 10% jump in opens" | S (copy) | L6805 |
-| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | T (copy) | L6229 |
+| "The biggest open rate difference we've had on an A-B test is… 10%, maybe 15" | T (copy) | L6227-6229 |
 | "our best, our best subject line and preview text, you maybe see a five, 10% bump in open rates" | T (otimização) | L8934-8936 |
 
 **Como responder:** não é contradição frontal — 10 a 15 pontos não tiram uma

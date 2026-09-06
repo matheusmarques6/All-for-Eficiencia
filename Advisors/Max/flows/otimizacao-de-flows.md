@@ -16,7 +16,9 @@ falada correspondente: a aula de Winback termina em L3396 e o corpus emenda
 direto no Sunset Flow (L3398) e depois na parte GAMMA.
 
 **Metade desta seção é duplicada.** Quatro dos cinco testes que o deck de flows
-lista aparecem palavra por palavra no deck de otimização (L9151-9180). Eles
+lista aparecem palavra por palavra no deck de otimização (L9151-9180) — a única
+diferença é um typo a mais no deck de flows (L4160, "Ilusing"), mapeado em
+`_staging/descartes-flows.md`. Eles
 estão detalhados em [[otimizacao/_index]] e **não** são repetidos aqui — repetir
 faria dois decks parecerem duas fontes independentes da mesma regra, e não são.
 O mapa de âncoras está em `_staging/descartes-flows.md`.

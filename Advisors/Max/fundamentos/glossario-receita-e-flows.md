@@ -5,6 +5,7 @@ assunto: glossario-receita-e-flows
 autor: max-sturtevant
 registro: [slide]
 fonte: "CONTEUDO BRUTO/max.md — L386-411 (slide)"
+conflitos: [fundamentos-roi-do-email]
 status: rascunho
 ---
 

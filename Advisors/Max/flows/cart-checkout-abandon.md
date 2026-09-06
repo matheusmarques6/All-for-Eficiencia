@@ -30,7 +30,7 @@ na página de checkout dispara o outro (L2647-2659).
 "Most brands I audit only have a checkout abandoned flow, but it's labeled as
 cart abandoned. **For whatever reason, Klaviyo, their base templates, they
 labeled them wrong.** So everybody has it wrong, and they miss out on a ton of
-revenue." (L2681-2686). É a única vez, na faixa inteira de flows, em que ele
+revenue." (L2681-2685). É a única vez, na faixa inteira de flows, em que ele
 aponta erro na ferramenta que recomenda.
 
 # Gatilho, filtros e saída
@@ -63,7 +63,7 @@ Uma sequência única, aplicada aos dois flows (L3798-3881).
 >
 > **Subject Line Ideas:** Your order is ready to ship · One click away! · Your cart is waiting
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Include relevant shipping information (should as free shipping threshold)
 > * Have the button and dynamic content at the very top of the email so the customer doesn't need to scroll
 
@@ -76,7 +76,7 @@ Fala: "let's not distract from anything besides, here's your product, go buy it"
 >
 > **Subject Line Ideas:** Quick check-in · Holding onto your order · Have any questions with your order?
 >
-> **Quick Tips:**
+> Quick Tips:
 > * List out just a couple social proof points
 > * Avoid using too many CTAs, keep it simple
 
@@ -91,7 +91,7 @@ United States Department of Defense, 12 dental experts on staff".
 >
 > **Subject Line Ideas:** $XX OFF Your Cart! · Limited time discount on your order · Just for you 🎁
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Feature the discount code and offer at the very top of the email
 > * Keep it as simple as possible… the discount should be the main aspect of the email
 
@@ -105,7 +105,7 @@ off, giving a free gift, giving free shipping. Test all these things out"
 >
 > **Subject Line Ideas:** Last chance · Still want XX% OFF? · Your cart is expiring (and your gift)
 >
-> **Quick Tips:**
+> Quick Tips:
 > * Add a PS section offering support
 > * Bold your main points and discounts for the customer
 > * Avoid too many CTAs that will cause overwhelm

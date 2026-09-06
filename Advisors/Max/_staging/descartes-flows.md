@@ -12,7 +12,7 @@ título que mente.
 | L3426-3429 | "Sign Up For Klaviyo For Email Marketing" — link de afiliado com "free to start and takes 2 minutes to setup" | CTA comercial. O `$200M` de L3428 está registrado em `numeros-flows.md` e em `conflitos-flows.md` justamente porque a origem é promocional. |
 | L3458-3465 | "Join My Email Course / Community" — 30+ módulos, 250+ templates, calls semanais, link Skool | CTA comercial puro. Os números não são especificação de nada. |
 | L4178-4185 | "That's It For This One!", "Want More Help?", consultoria para marcas de $50k/mo | Fechamento comercial. O piso de $50k/mo entrou em `numeros-flows.md` por ser número declarado, mas não sustenta nenhuma nota. |
-| L2613-2616 | "feel free to message me or the group as well and we'll get you get a fix for you" | Oferta de suporte, não instrução. |
+| L2614-2616 | "feel free to message me or the group as well and we'll get you get a fix for you" | Oferta de suporte, não instrução. |
 
 ## 2. Placeholders mortos — o slide promete e não entrega
 
@@ -25,7 +25,7 @@ título que mente.
 | L3817, L3838, L3859, L3881 | "**Email Example:**" do cart/checkout | vazio |
 | L3948, L3966 | "**Email Example:**" do post-purchase | vazio |
 | L4170, L4176 | "Example of Text Based sale email winner:" e "Example of categories performing better:" | vazio |
-| L3402 | `![][image1]` no Sunset Flow | referência de imagem sem destino — **único** marcador de imagem em toda a faixa L1307-4186 |
+| L3402 | `![][image1]` no Sunset Flow | **não é placeholder morto**: a referência resolve para a L9545, onde está `[image1]: <data:image/png;base64,…>` — PNG 624×169 com o print do segmento `WC \| Sunset`. Único marcador de imagem em toda a faixa L1307-4186. Lido e transcrito em [[sunset]] |
 
 Todos os 14 slots vazios estão declarados nas notas correspondentes, na seção
 `# O que o corpus não diz`. O fato de o welcome ser o único flow do deck **sem**
@@ -52,14 +52,14 @@ Descartado como texto, mas registrado onde afeta a leitura de um artefato.
 | L1818 | "an R story email" | *our story email* | nome do filler — corrigido em [[welcome-fillers]] com o nome do slide |
 | L2152 | "Mints versus facts" | *Myths vs Facts* (confirmado em L3565) | catálogo de fillers |
 | L2363 | "like a card abandoned" | *cart abandoned* | comparação de intenção em [[site-abandon]] |
-| L2400, L2403, L2429 | "side abandoned", "side of band", "side of Bain and Flow" | *site abandon* | nome do flow |
-| L2419 | "Velvet Cowder Yard" | nome de marca não identificável | exemplo do site abandon E2 |
-| L2912 | "Still 1x% off" | provavelmente *10% off* | valor de desconto — mantido verbatim em `numeros-flows.md` com marca de corrupção |
+| L2401, L2403, L2429, L2496 | "side abandoned", "side of band", "side of band and flow", "side of Bain and Flow" | *site abandon* | nome do flow |
+| L2417 | "velvet cowder yard" | *Velvet Caviar* — o mesmo exemplo reaparece identificado em L5198 | exemplo do site abandon E2 |
+| L2911 | "Still 1x% off" | provavelmente *10% off* | valor de desconto — mantido verbatim em `numeros-flows.md` com marca de corrupção |
 | L2987 | "For Bannon checkout" | *for abandoned checkout* | bloco dinâmico |
 | L2995-2997 | "With this row collection and row alias. Alias." | repetição de ASR | fórmula do checkout — a versão boa está no slide L3903-3904 |
-| L3160-3163 | "You know your brand / post-purchase flow as within 14 days" | frase truncada entre dois parágrafos | escopo temporal do post-purchase — confirmado pelo slide L3971 |
-| L2081-2083 | "Baby carriers. Oopsies." | ele se corrigindo em voz alta | exemplo de filler |
-| L2818 | "Sorry, I got really excited there." | comentário fora de conteúdo | exemplo do cart E2 |
+| L3160-3162 | "You know your brand / post-purchase flow as within 14 days" | frase truncada entre dois parágrafos | escopo temporal do post-purchase — confirmado pelo slide L3971 |
+| L2080-2082 | "Baby carriers. Oopsies." | ele se corrigindo em voz alta | exemplo de filler |
+| L2817 | "Sorry, I got really excited there." | comentário fora de conteúdo | exemplo do cart E2 |
 | L3120 | "You can get more aggressive." repetido três vezes na mesma linha | gagueira de ASR | post-purchase |
 
 **Erros de digitação do slide, mantidos verbatim nas notas:** "Ilusing '…' or
@@ -82,7 +82,7 @@ sinalizado.
 | L3446-3452 | "Already Have Flows?" — diagnóstico de flows desatualizados | `doutrina/` |
 | L2367, L3384-3386 | Frequência de campanha (3-4/semana, 3x/semana) | `campanhas/` — números registrados, conflito aberto |
 | L5057, L5589 | Definição completa do segmento de winback | `campanhas/` (segmentação) — citada em [[winback]] por necessidade |
-| L2512-2521, L2744-2746 | Doutrina de above the fold e hierarquia de seção | `design/` — o recorte de abandono ficou em [[browse-abandon]] |
+| L2512-2522, L2743-2745 | Doutrina de above the fold e hierarquia de seção | `design/` — o recorte de abandono ficou em [[browse-abandon]] |
 | L3148 | Bloco "recommended Klaviyo products" | `design/` ou procedimento — sem instrução no corpus |
 
 ## 6. O que foi mantido apesar de parecer descartável
@@ -131,6 +131,7 @@ nota aponta para `otimizacao/` e guarda só as âncoras.
 | "Long Form vs Short Form" | L4147-4151 | `grep -n "Long Form vs Short Form"` → só L4147 |
 | "especially in flows like abandonments when people have objections" | L4150 | ocorrência única no bruto inteiro |
 
-Nota lateral: "Don't reinvent the wheel\!" (L4137) tem um quase-homônimo em
-L8315 — "Don't reinvent the wheel, stick with what is proven to work" — em outro
-módulo e outro contexto. Frase diferente, não é duplicata.
+Nota lateral: "Don't reinvent the wheel\!" (L4137) tem dois quase-homônimos
+fora da faixa — "really no need to reinvent the wheel" (L7865) e "Don't reinvent
+the wheel, stick with what is proven to work" (L8315) — em outros módulos e
+outros contextos. Frases diferentes, não são duplicatas.

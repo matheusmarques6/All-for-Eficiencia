@@ -5,7 +5,7 @@ assunto: glossario
 autor: max-sturtevant
 registro: [slide]
 fonte: "CONTEUDO BRUTO/max.md — L384-519 (slide); L217-229 (transcrição)"
-conflitos: [fundamentos-open-rate-glossario, fundamentos-unsubscribe-glossario, fundamentos-spam-glossario, fundamentos-click-rate-glossario, fundamentos-roi-do-email]
+conflitos: [fundamentos-open-rate-glossario, fundamentos-unsubscribe-glossario, fundamentos-spam-glossario, fundamentos-click-rate-glossario, fundamentos-roi-do-email, fundamentos-smart-sending, fundamentos-klaviyo-melhor-ou-pior]
 status: rascunho
 ---
 
@@ -49,10 +49,10 @@ que boa parte é óbvia — "some of these are going to be pretty straightforwar
 deliverability. This is where things get a little bit comm- complicated" (L225).
 
 **Consequência prática:** o glossário é `registro: slide` puro. Fora das duas
-exceções de L225, nenhuma definição aqui tem fala do Max por trás — e **nenhum
-alvo numérico do glossário é falado em lugar nenhum do corpus**. Onde uma
-definição do glossário discordar de algo que ele **falou**, a fala vence, porque
-ele nunca defendeu estas linhas.
+exceções de L225, nenhuma definição aqui tem fala do Max sustentando a redação —
+e **nenhum dos quatro alvos que divergem da tabela de metas** (45%, 2–4%+, \<0.2%,
+\<0.1%) foi dito em voz alta. Onde uma definição do glossário discordar de algo
+que ele **falou**, a fala vence, porque ele nunca defendeu estas linhas.
 
 # Onde o glossário contradiz o próprio módulo
 
