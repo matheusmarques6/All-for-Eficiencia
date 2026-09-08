@@ -54,67 +54,62 @@ apelo de jogo, e o quiz adiciona um passo antes do e-mail. Pode perder.
 
 ## As duas variantes
 
-**Redesign aplicado nas duas** (1ª versão foi reprovada: caixa de 350 px, sem
-imagem, botões finos, tipografia pequena). Referência: os popups da Alia
-(Lemme, Nécessaire, Kopari) — foto de verdade, tipografia grande, botões pill de
-alto contraste, link de recusa.
+**Terceira versão do design.** As duas primeiras foram reprovadas: caixa de
+350 px sem imagem, e depois Montserrat + dourado + faixa branca quebrada.
+
+O que estava errado, e a correção:
+
+| Erro | Correção |
+|---|---|
+| Montserrat (geométrica, larga, ruim em corpo pequeno) | **Open Sans** — humanista, a mais próxima da **Assistant**, que é a fonte real de treuquell.de. Assistant não existe na lista do Omnisend. |
+| Dourado `#E0A82E` como cor principal | Branco sobre `#121212` — o preto real do site. Dourado sobra só no link legal. |
+| Bloco de imagem em seção própria → **faixa branca gigante** | O bloco de imagem do Omnisend falhou. Trocado por `generalSettings.backgroundImage` com `position: top`, `fit: cover`, `size: 168px` — mecanismo nativo, caminho diferente. |
+| Sem hierarquia, tudo competindo | Foto (168 px) → wordmark → "Sie haben" 20 px → **10 % RABATT 40 px** → pergunta 14 px → botões → recusa 11 px. |
 
 Casca compartilhada, idêntica nas duas:
 
 | Elemento | Valor |
 |---|---|
-| Largura | **400 px** (era 350) |
-| Fundo / raio | `#151515`, raio 16 px |
-| Wordmark | TREUQUELL, 12 px, letter-spacing 4 px |
-| Headline | "Sie haben" 24 px branco + **"10 % RABATT" 36 px em `#E0A82E`** |
-| Botões / campos | pill (raio 50 px), branco sólido, texto `#151515` 16 px bold |
-| Recusa | "Nein danke, ich zahle den vollen Preis", 11 px, sublinhado |
-| Hero | banner da home (`BannerTreuquell_cleanup`) em faixa full-bleed no rodapé |
+| Largura / raio | 400 px, raio 4 px |
+| Fundo | `#121212` (preto do site) |
+| Fonte | Open Sans, Helvetica Neue, Helvetica, Arial |
+| Hero | banner da home no topo, 168 px, `fit: cover` |
+| Escolhas do quiz | pill vazada, borda `#6E6E6E`, texto branco 15 px |
+| CTA | pill branca sólida, texto `#121212` 15 px bold |
+| Recusa | 11 px `#6E6E6E` sublinhado |
 | Gatilho | 12 s + scroll 70 % + exit intent, 1×/dia, exclui /cart e /checkout |
 
-O logo do site **não** foi usado: é preto sobre branco (2045×584) e vira uma
-barra branca no fundo escuro. O wordmark em texto é o que o próprio header do
-site mostra.
-
-Imagens de produto também foram descartadas: são collages com a marca
-**KLARWEN** impressa (fornecedor), não Treuquell.
+Descartados: o logo do site (preto sobre branco — vira barra branca no escuro) e
+as fotos de produto (trazem a marca **KLARWEN**, do fornecedor, impressa).
 
 **Só o mecanismo muda entre A e B.**
 
 ### A — CONTROLE (roleta, 1 campo)
-Passo único: wordmark · "Sie haben" · **10 % RABATT** · roleta (62 % da largura)
-· "E-Mail eingeben und drehen" · campo e-mail · botão **RAD DREHEN** · recusa ·
-rodapé legal · faixa de foto.
-Sucesso: "10 % gewonnen". Tags: `form_subscriber`, `wheel_10`.
-Altura ≈ 800 px.
+Foto · wordmark · "Sie haben" · **10 % RABATT** · roleta 58 % em branco/cinza
+(sem dourado) · "E-Mail eingeben und drehen" · e-mail · **RAD DREHEN** · recusa
+· legal. Sucesso: "10 % gewonnen". Tags: `form_subscriber`, `wheel_10`.
 
 ### B — QUIZ (2 passos)
+**Passo 1** (nenhum campo): foto · wordmark · "Sie haben" · **10 % RABATT** ·
+**Wofür shoppen Sie heute?** · três pills com as coleções reais da loja
+(`Werkzeuge & Haushalt`, `Beleuchtung & Energie`, `Garten & Reinigung`) · recusa.
+**Passo 2** (um input): "Fast geschafft" · **10 % RABATT** · "Wohin schicken wir
+Ihren Code?" · e-mail · **RABATT SICHERN** · recusa · legal.
+Sucesso: "Willkommen an Bord". Tags: `form_subscriber`, `quiz_10`.
 
-**Passo 1** — nenhum campo, só decisão:
-- wordmark · "Sie haben" · **10 % RABATT**
-- **Wofür shoppen Sie heute?** ← *"To claim your discount, tell us what you're
-  shopping for"* de [[copy-do-form]]
-- três pills (`nextStep`) com as **coleções reais da loja**:
-  `Werkzeuge & Haushalt` · `Beleuchtung & Energie` · `Garten & Reinigung`
-- recusa · faixa de foto
+Copy ancorada em [[copy-do-form]]: "Sie haben 10 % Rabatt" é o *"You've got 10%
+off"* (posse + loss aversion); "Wofür shoppen Sie heute?" é o *"tell us what
+you're shopping for"*; **RABATT SICHERN** é o *"Claim now"*, nunca *"Continue"*.
 
-**Passo 2** — um input só:
-- wordmark · "Fast geschafft" · **10 % RABATT** · "Wohin schicken wir Ihren Code?"
-- campo e-mail · botão **RABATT SICHERN** ← *"Claim now"*, nunca *"Continue"*
-- recusa · rodapé legal · faixa de foto
+**Pendência:** confirmar no painel se a foto de fundo renderiza. A imagem subida
+pela API (`6aa093bc97f14cdaac6b0953`) serve 1×1 px quando acessada direto; se
+aparecer em branco, subir a foto pelo painel e trocar o id.
 
-Sucesso: "Willkommen an Bord" + instrução de checar a caixa de entrada.
-Tags: `form_subscriber`, `quiz_10`. Altura ≈ 580 px.
+**O botão de recusa entrou nas duas** — alavanca #3 de Max ("Always performs
+better", [[checklist-do-form]]); como está nas duas, não contamina. O X continua
+visível nas duas.
 
-**Headline "Sie haben 10 % RABATT"** é o *"You've got 10% off"* de
-[[copy-do-form]]: personalização + *loss aversion* — fechar o popup passa a ser
-abrir mão de algo que já é seu.
-
-**O botão de recusa entrou nas duas.** É a alavanca #3 de Max ("Always performs
-better", [[checklist-do-form]]) e, como está nas duas, não contamina o teste.
-O X continua visível nas duas — esconder o X fica para o teste seguinte.
-
-> **Atenção na leitura dos números.** Como a casca mudou nas duas variantes, a
+> **Atenção na leitura dos números.** A casca mudou nas duas variantes, então a
 > taxa absoluta deste teste **não é comparável** com os 1,92 % do teste 3. Só o
 > delta A × B deste teste é leitura válida.
 
