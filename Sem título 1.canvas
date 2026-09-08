@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"b0cee7af20fc9655","x":-260,"y":-160,"width":250,"height":60,"type":"text","text":"GERAÇÃO DE RMAIL "},
+		{"id":"b0cee7af20fc9655","x":-320,"y":-200,"width":260,"height":60,"type":"text","text":"GERAÇÃO DE EMAIL "},
 		{"id":"8754a6d2e6a00d44","x":-260,"y":100,"width":250,"height":216,"type":"text","text":"tenho que fazer os agentes pensarem e refletirem no que estão fazendo e no que foi pedido "},
 		{"id":"bc2c35f6ea8e2b42","x":50,"y":100,"width":250,"height":202,"type":"text","text":"pedir o próprio claude para analisar o que pode melhorar no flow de geração "},
 		{"id":"f211ff4ec31bd0cb","x":-260,"y":360,"width":250,"height":292,"type":"text","text":"pedir para ele analisar o que eu quero, o que está gerando para ver o que pode ser melhorado "},
