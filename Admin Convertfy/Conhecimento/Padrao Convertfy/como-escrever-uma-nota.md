@@ -57,6 +57,21 @@ painel de saúde conta uma nota a menos sem dizer qual.
 **Regra**: frontmatter mínimo é `tipo`, `modulo`, `assunto`, `autor`,
 `status: aprovado`.
 
+# 5. `_index.md` e `readme.md` são DESCARTADOS
+
+O sincronizador trata como faxina: pasta oculta, `templates/`,
+`_templates/`, `readme.md` e **`_index.md`**. Medido no vault hoje: são
+**11 arquivos `_index.md`** escritos como mapa de pasta, e **nenhum
+está na base** — 135 notas no Obsidian, 124 na base, e a diferença é
+exatamente essa.
+
+O mapa de uma pasta é conteúdo útil: diz o que existe ali e por onde
+começar. Ele só não pode se chamar `_index`.
+
+**Regra**: mapa de pasta é `mapa-do-<assunto>.md`. O `_index.md`
+continua servindo para a navegação do Obsidian, se você quiser os dois
+— só não conte com ele na base.
+
 # Esqueleto
 
 ```

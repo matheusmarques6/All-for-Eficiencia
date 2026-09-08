@@ -1,6 +1,5 @@
 ---
 tipo: indice
-title: Padrão Convertfy — mapa
 modulo: padrao-convertfy
 assunto: mapa-do-padrao
 autor: convertfy

@@ -1,6 +1,5 @@
 ---
 tipo: indice
-title: Direção de arte — mapa
 modulo: padrao-convertfy
 assunto: mapa-da-direcao-de-arte
 autor: convertfy

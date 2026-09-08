@@ -1,6 +1,5 @@
 ---
 tipo: indice
-title: Peças — mapa
 modulo: padrao-convertfy
 assunto: mapa-das-pecas
 autor: convertfy
