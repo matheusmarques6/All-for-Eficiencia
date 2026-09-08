@@ -2,9 +2,9 @@
 	"nodes":[
 		{"id":"b0cee7af20fc9655","x":-320,"y":-200,"width":260,"height":60,"type":"text","text":"GERAÇÃO DE EMAIL "},
 		{"id":"8754a6d2e6a00d44","x":-260,"y":100,"width":250,"height":216,"type":"text","text":"tenho que fazer os agentes pensarem e refletirem no que estão fazendo e no que foi pedido "},
-		{"id":"bc2c35f6ea8e2b42","x":50,"y":100,"width":250,"height":202,"type":"text","text":"pedir o próprio claude para analisar o que pode melhorar no flow de geração "},
 		{"id":"f211ff4ec31bd0cb","x":-260,"y":360,"width":250,"height":292,"type":"text","text":"pedir para ele analisar o que eu quero, o que está gerando para ver o que pode ser melhorado "},
-		{"id":"f401b818b1be5c2c","x":52,"y":361,"width":250,"height":259,"type":"text","text":"eles tem que conversar entre si da maneira mais eficiente possível para que o melhor output saia "}
+		{"id":"bc2c35f6ea8e2b42","x":100,"y":100,"width":250,"height":202,"type":"text","text":"pedir o próprio claude para analisar o que pode melhorar no flow de geração "},
+		{"id":"f401b818b1be5c2c","x":100,"y":360,"width":250,"height":259,"type":"text","text":"eles tem que conversar entre si da maneira mais eficiente possível para que o melhor output saia "}
 	],
 	"edges":[
 		{"id":"0a59a95a2c6d9067","fromNode":"b0cee7af20fc9655","fromSide":"bottom","toNode":"8754a6d2e6a00d44","toSide":"top"},
