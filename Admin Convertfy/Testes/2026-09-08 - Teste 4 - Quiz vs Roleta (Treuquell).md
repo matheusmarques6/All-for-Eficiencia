@@ -54,38 +54,69 @@ apelo de jogo, e o quiz adiciona um passo antes do e-mail. Pode perder.
 
 ## As duas variantes
 
-Tudo idêntico entre A e B — cores, fonte, largura 350 px, gatilho (12 s +
-scroll 70 % + exit intent), frequência 1/dia, exclusão de /cart e /checkout,
-X visível, sem double opt-in. **Só o tipo de form muda.**
+**Redesign aplicado nas duas** (1ª versão foi reprovada: caixa de 350 px, sem
+imagem, botões finos, tipografia pequena). Referência: os popups da Alia
+(Lemme, Nécessaire, Kopari) — foto de verdade, tipografia grande, botões pill de
+alto contraste, link de recusa.
+
+Casca compartilhada, idêntica nas duas:
+
+| Elemento | Valor |
+|---|---|
+| Largura | **400 px** (era 350) |
+| Fundo / raio | `#151515`, raio 16 px |
+| Wordmark | TREUQUELL, 12 px, letter-spacing 4 px |
+| Headline | "Sie haben" 24 px branco + **"10 % RABATT" 36 px em `#E0A82E`** |
+| Botões / campos | pill (raio 50 px), branco sólido, texto `#151515` 16 px bold |
+| Recusa | "Nein danke, ich zahle den vollen Preis", 11 px, sublinhado |
+| Hero | banner da home (`BannerTreuquell_cleanup`) em faixa full-bleed no rodapé |
+| Gatilho | 12 s + scroll 70 % + exit intent, 1×/dia, exclui /cart e /checkout |
+
+O logo do site **não** foi usado: é preto sobre branco (2045×584) e vira uma
+barra branca no fundo escuro. O wordmark em texto é o que o próprio header do
+site mostra.
+
+Imagens de produto também foram descartadas: são collages com a marca
+**KLARWEN** impressa (fornecedor), não Treuquell.
+
+**Só o mecanismo muda entre A e B.**
 
 ### A — CONTROLE (roleta, 1 campo)
-Passo único: `TREUQUELL` · **DREHEN & GEWINNEN** · "Bis zu 10 % Rabatt auf Ihre
-erste Bestellung." · roleta · "E-Mail eingeben und auf RAD DREHEN tippen." ·
-campo e-mail · botão **RAD DREHEN**.
-Tags: `form_subscriber`, `wheel_10`.
+Passo único: wordmark · "Sie haben" · **10 % RABATT** · roleta (62 % da largura)
+· "E-Mail eingeben und drehen" · campo e-mail · botão **RAD DREHEN** · recusa ·
+rodapé legal · faixa de foto.
+Sucesso: "10 % gewonnen". Tags: `form_subscriber`, `wheel_10`.
+Altura ≈ 800 px.
 
 ### B — QUIZ (2 passos)
 
-**Passo 1** — sem nenhum campo, só decisão:
-- `TREUQUELL`
-- **Sie haben 10 % Rabatt** ← tradução direta do *"You've got 10% off"* de
-  [[copy-do-form]]: posse + *loss aversion* (fechar o popup = abrir mão de algo
-  que já é seu).
-- **Zum Einlösen: Wofür shoppen Sie heute?** ← *"To claim your discount, tell us
-  what you're shopping for"*.
-- Três botões (`nextStep`), montados a partir do catálogo real da loja:
-  `Reparieren & Abdichten` · `Licht & Solar` · `Haus, Garten & Outdoor`
+**Passo 1** — nenhum campo, só decisão:
+- wordmark · "Sie haben" · **10 % RABATT**
+- **Wofür shoppen Sie heute?** ← *"To claim your discount, tell us what you're
+  shopping for"* de [[copy-do-form]]
+- três pills (`nextStep`) com as **coleções reais da loja**:
+  `Werkzeuge & Haushalt` · `Beleuchtung & Energie` · `Garten & Reinigung`
+- recusa · faixa de foto
 
 **Passo 2** — um input só:
-- **Fast geschafft** · "Wohin dürfen wir Ihre 10 % schicken?"
-- campo e-mail
-- botão **RABATT SICHERN** ← *"Claim now"*, nunca *"Continue"* ([[copy-do-form]]:
-  "continue implies that there's going to be more that the person has to do").
-- rodapé legal + link de privacidade
+- wordmark · "Fast geschafft" · **10 % RABATT** · "Wohin schicken wir Ihren Code?"
+- campo e-mail · botão **RABATT SICHERN** ← *"Claim now"*, nunca *"Continue"*
+- recusa · rodapé legal · faixa de foto
 
-**Sucesso:** "Willkommen bei TREUQUELL" + instrução de checar a caixa de entrada
-(engajamento na primeira mensagem ajuda reputação — [[copy-do-form]]).
-Tags: `form_subscriber`, `quiz_10`.
+Sucesso: "Willkommen an Bord" + instrução de checar a caixa de entrada.
+Tags: `form_subscriber`, `quiz_10`. Altura ≈ 580 px.
+
+**Headline "Sie haben 10 % RABATT"** é o *"You've got 10% off"* de
+[[copy-do-form]]: personalização + *loss aversion* — fechar o popup passa a ser
+abrir mão de algo que já é seu.
+
+**O botão de recusa entrou nas duas.** É a alavanca #3 de Max ("Always performs
+better", [[checklist-do-form]]) e, como está nas duas, não contamina o teste.
+O X continua visível nas duas — esconder o X fica para o teste seguinte.
+
+> **Atenção na leitura dos números.** Como a casca mudou nas duas variantes, a
+> taxa absoluta deste teste **não é comparável** com os 1,92 % do teste 3. Só o
+> delta A × B deste teste é leitura válida.
 
 ## Limitação conhecida — segmentação
 
@@ -125,16 +156,18 @@ se der um resultado apertado, rodar de novo antes de mudar o form principal.
 
 Ordem de alavanca de [[os-sete-testes-de-form]], descontando o que já rodou:
 
-1. **Fechar o form** (alavanca #3, nunca testada). Hoje o X está visível e não
-   existe botão de recusa. Testar X contra **"Nein danke, ich zahle den vollen
-   Preis"** com o X escondido. Max: *"Always performs better"*.
+1. **Esconder o X** (resto da alavanca #3). O botão de recusa já entrou nas
+   duas variantes deste teste; falta testar **X visível contra X escondido**,
+   forçando a decisão pelo botão. Max: *"Hide that X (…) Always performs
+   better"*.
 2. **Gatilho** (alavanca #4, nunca testada). Hoje: 12 s + scroll 70 % + exit
    intent. Testar contra **4 s**, que é o único valor comum às três faixas do
    corpus. Critério: **submits totais, não taxa**.
 3. **Oferta** (alavanca #1). AOV da loja é ~€20–50, abaixo do corte de $100 →
    **% OFF é o formato certo** ([[a-oferta-e-o-componente-principal]]). O que
    falta testar não é o formato, é o valor (10 % vs 15 %) e o frete grátis.
-4. **Foto** (alavanca #5). Nenhuma das variantes usa imagem hoje.
+4. **Foto** (alavanca #5). As duas variantes agora usam o mesmo banner da home.
+   Testar contra foto de produto, ou foto como fundo em vez de faixa.
 
 ## IDs no Omnisend
 
@@ -145,6 +178,7 @@ Ordem de alavanca de [[os-sete-testes-de-form]], descontando o que já rodou:
 | Variante A — controle roleta | `6aa08fd3b768dbb66a45e35b` |
 | Variante B — quiz | `6aa08fd3b768dbb66a45e35c` |
 | A/B setup encerrado (teste 3) | `6a8ef9a92040b45f06495db5` |
+| Imagem hero no Omnisend | `6aa093bc97f14cdaac6b0953` |
 
 Split 50/50. **Ainda não iniciado.** Para lançar:
 `post_form_ab_setups_ab_setup_id_start` com o setup acima, ou o play no painel.
