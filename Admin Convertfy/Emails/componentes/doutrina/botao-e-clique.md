@@ -31,4 +31,4 @@ Resumo dele: "Large, clear buttons above the fold that are ideally centered" (L7
 
 # Onde entra na decisão
 
-Passo 3 do [[_protocolo-de-selecao]] (`schema_campos > 0`: sem slot, não há botão para escrever). Passo 4 (`exige: cor-de-acento-definida`). Passo 7, eixo `papel_na_peca`: [[abre]] carrega o botão do topo, [[fecha]] carrega o CTA dominante. Passo 8 é onde "2–3 repetições" se confere contra o aprendizado. Fase 2 (copy do botão): "clear" é label, não decoração.
+Passo 3 do [[_protocolo-de-selecao]] (`schema_campos > 0`: sem slot, não há botão para escrever). Passo 4 (`exige: cor-de-acento-definida`). Passo 7, eixo `papel_na_peca`: [[abre]] carrega o botão do topo, [[fecha]] carrega o CTA dominante. Passo 8 é onde "2–3 repetições" se confere contra o aprendizado. Fase 2 (copy do botão): o Max não fala do label — "clear" nele é visibilidade (contraste, fundo simples, L8163-8166), não copy.

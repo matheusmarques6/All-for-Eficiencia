@@ -21,13 +21,16 @@ sincronizador aponta. A tarefa T8 do briefing de reorganização cria seis
 pastas `intencoes/<flow_type>/` com `_flow.md` cada — o caminho é fixado pela
 regra 2 do próprio briefing, então renomear não é opção.
 
-Medido em 2026-09-09: 40 ocorrências de `[[_flow]]` e `[[_progressao]]` em
-21 notas — seis eixos de objeção (`adesao-social`, `composicao-formulacao`,
-`confianca-no-canal`, `disponibilidade-urgencia`, `preco-valor`,
-`qualidade-eficacia`), o eixo `fecha` de papel-na-peça, a estrutura
-`avelmore-deadline-objecao`, a lacuna `exige-cupom-sem-perfil-de-ativos`, as
-oito intenções do welcome, o `_flow` e a `_progressao` entre si, e o
-`_julgamento`. Todas hoje significam "o flow do welcome".
+Medido em 2026-09-09 (recontado na revisão de T4): 40 ocorrências — 26 de
+`[[_flow]]` e 14 de `[[_progressao]]` — em **25 notas**: seis eixos de
+objeção (`adesao-social`, `composicao-formulacao`, `confianca-no-canal`,
+`disponibilidade-urgencia`, `preco-valor`, `qualidade-eficacia`), os eixos de
+momento `welcome-1`, `welcome-meio` e `welcome-tardio`, o eixo `fecha` de
+papel-na-peça, a estrutura `avelmore-deadline-objecao`, os aprendizados
+`deadline-falso-queima-o-proximo` e `extensao-declarada-quatro-condicoes`, a
+lacuna `exige-cupom-sem-perfil-de-ativos`, as oito intenções do welcome, o
+`_flow` e a `_progressao` entre si, e o `_julgamento` — que sozinho tem seis,
+a nota com mais links do vault. Todas hoje significam "o flow do welcome".
 
 # Por que importa
 
