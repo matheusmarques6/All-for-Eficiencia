@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L8382-8396 (transcrição), L8655-8679 (slide)
 status: aprovado
 ---
 
+O que é entregabilidade: por que o email cai em primary, promotions ou spam, a analogia do credit score com os provedores no lugar dos bancos, e as duas únicas coisas que a afetam — setup técnico e reputação de remetente.
+
 
 # Aviso de autoria
 

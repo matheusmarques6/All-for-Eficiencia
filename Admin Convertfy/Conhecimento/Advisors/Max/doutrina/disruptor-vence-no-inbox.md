@@ -9,6 +9,8 @@ conflitos: [doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+O que destoa do padrão do inbox atrai o olho — subject line sem preview text, emoji, pergunta. Mas a vantagem é posicional e evapora quando o recurso vira norma: rotacionar, não adotar. E o teto do ganho é a abertura, métrica que o próprio material rebaixa.
+
 # Aviso de autoria
 
 **Faixa L6101-6248 (Subject Lines & Preview Texts) — `outro-provavel`.**

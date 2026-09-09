@@ -9,6 +9,8 @@ conflitos: [copy-numeracao-dos-principios]
 status: aprovado
 ---
 
+O E do S.C.E.: por que o email precisa gerar dopamina para render aberturas e vendas futuras, as três regras que compõem isso — punchy, informativo e divertido — e por que ser repetitivo é o pior erro possível.
+
 
 # Aviso de autoria
 

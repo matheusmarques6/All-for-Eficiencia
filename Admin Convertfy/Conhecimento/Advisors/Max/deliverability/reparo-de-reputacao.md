@@ -9,6 +9,8 @@ validade: "procedimento — o corpus não data a gravação. Extraído em 2026-0
 status: aprovado
 ---
 
+O que fazer quando a conta já está caindo em spam: reduzir o envio ao segmento mais engajado por 2 a 3 semanas, mirar 60-80% de abertura e priorizar email de texto até a reputação voltar. Também o caso vizinho de cair em promotions.
+
 
 # Aviso de autoria
 

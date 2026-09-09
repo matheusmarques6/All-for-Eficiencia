@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L7851-7955, L8003, L6270, L6278-6279, L6446-64
 status: aprovado
 ---
 
+Por que partir de peça alheia é método e não preguiça: se uma marca grande e com verba manda um certo tipo de email, é porque aquilo funciona — baixar e recriar poupa o tempo e a banda mental que a folha em branco consome.
+
 # Aviso de autoria
 
 **Sem exposição a faixa não-Max. Esta nota é inteiramente de Max.**

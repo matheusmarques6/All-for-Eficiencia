@@ -9,6 +9,8 @@ conflitos: [otimizacao-lista-redundante, otimizacao-grafico-numero-de-variantes,
 status: aprovado
 ---
 
+O catálogo dos 13 testes A/B restantes — preço visível, desconto misterioso, imagem lifestyle, GIF, posição de CTA, from name, comprimento do email e outros: o que cada um compara e a alavanca declarada para rodar.
+
 
 # Aviso de autoria
 

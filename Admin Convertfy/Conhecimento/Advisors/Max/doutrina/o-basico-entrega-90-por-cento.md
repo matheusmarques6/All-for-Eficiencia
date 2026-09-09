@@ -9,6 +9,8 @@ conflitos: [doutrina-proporcao-basico-avancado, doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+Cerca de 90% do resultado vem do básico — flows base no ar, campanhas semanais consistentes, pop-up rodando, entregabilidade boa — e só o resto de A/B test e otimização. Testar antes de ter os cores em pé é gastar tempo na alavanca errada.
+
 # Aviso de autoria
 
 **Faixa L8773-9109 (High Leverage A/B Tests) — `outro-provavel`.**

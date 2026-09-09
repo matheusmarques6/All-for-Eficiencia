@@ -9,6 +9,8 @@ conflitos: [deliverability-unsubscribe-afeta-ou-nao, deliverability-limiar-de-op
 status: aprovado
 ---
 
+Os alvos numéricos de engajamento que sustentam a entregabilidade — abertura, clique, bounce, spam complaint e unsubscribe: qual é a meta de cada um, o que a aula acrescenta sobre bounce e spam, e onde o corpus se contradiz sobre o unsubscribe.
+
 
 # Aviso de autoria
 

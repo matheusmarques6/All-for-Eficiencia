@@ -9,6 +9,7 @@ conflitos: [winback-cadencia, winback-definicao-do-segmento]
 status: aprovado
 ---
 
+Automação para quem já comprou e sumiu, disparada pela entrada num segmento e não por métrica: três emails que vão da lembrança emocional ao desconto e ao último aviso, com janela de lapso de 90, 120 ou 180 dias.
 
 # Aviso de autoria
 

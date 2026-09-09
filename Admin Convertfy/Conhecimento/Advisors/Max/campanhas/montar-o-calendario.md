@@ -9,6 +9,8 @@ conflitos: [campanhas-sweet-spot-de-frequencia]
 status: aprovado
 ---
 
+Como montar o calendário mensal de campanhas em quatro passos: espionar concorrente, swipe file, banco de ideias e IA. Traz o prompt usado, a regra de três emails por promoção e para qual segmento enviar cada coisa.
+
 
 # Aviso de autoria
 

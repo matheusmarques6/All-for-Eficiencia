@@ -8,6 +8,7 @@ fonte: "CONTEUDO BRUTO/max.md — L92-94 e L5127 (transcrição), L411 (slide, g
 status: aprovado
 ---
 
+Automação disparada quando o contato deixa de engajar, para remover ou suprimir inativos. O corpus entrega a finalidade e a definição do segmento, lida de um print, mas nenhuma sequência, delay, contagem de emails ou copy.
 
 # Aviso de autoria
 

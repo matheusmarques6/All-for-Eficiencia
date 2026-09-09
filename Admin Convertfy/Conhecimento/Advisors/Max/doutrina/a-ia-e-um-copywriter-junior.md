@@ -9,6 +9,8 @@ conflitos: [doutrina-narrador-da-aula-de-ia, doutrina-ia-primeiro-rascunho]
 status: aprovado
 ---
 
+A IA entra como copywriter júnior: gera esqueleto, variações e ideias, mas quem descarta, recombina e reescreve é o humano — nada é publicado como veio. A regra "framework, não primeiro rascunho" é do material do curso, e a prática filmada a contradiz.
+
 # Aviso de autoria
 
 **Faixa L5667-5866 (ChatGPT Copywriting) — `outro-provado`.**

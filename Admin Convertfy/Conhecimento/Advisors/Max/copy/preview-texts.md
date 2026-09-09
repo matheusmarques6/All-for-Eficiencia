@@ -9,6 +9,8 @@ conflitos: [copy-preview-text-obrigatorio, copy-nao-complique-vs-framework]
 status: aprovado
 ---
 
+As quatro regras do preview text e os exemplos prontos, por que ele não é enchimento da subject line, e quando deixá-lo vazio de propósito funciona como disrupção no inbox — além do caso em que ele nem existe.
+
 
 # Aviso de autoria
 

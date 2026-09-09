@@ -9,6 +9,8 @@ conflitos: [otimizacao-peso-do-basico, otimizacao-frequencia-precondicao, otimiz
 status: aprovado
 ---
 
+Quando A/B test vale a pena: o que precisa estar de pé antes, por que lista pequena é despriorização e não impedimento, e como medir conclusividade pelo volume de destinatários em vez de por tempo de teste.
+
 
 # Aviso de autoria
 

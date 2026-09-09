@@ -9,6 +9,8 @@ conflitos: [copy-nomes-dos-infograficos, copy-janela-de-atencao]
 status: aprovado
 ---
 
+Os nove tipos de infográfico — checklist, ícones, diagrama de features, timeline, lista numerada, comparativo, tabela, fluxograma e gráfico —, o que cada um resolve, e em que tipo de email cada um costuma entrar.
+
 
 # Aviso de autoria
 

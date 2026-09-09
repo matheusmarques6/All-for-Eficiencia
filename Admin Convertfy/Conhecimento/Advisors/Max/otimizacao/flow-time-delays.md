@@ -9,6 +9,8 @@ conflitos: [otimizacao-onde-testar, otimizacao-metricas-do-print, otimizacao-dec
 status: aprovado
 ---
 
+O teste de tempo dentro dos flows: quanto esperar entre a ação do cliente e o primeiro email, e entre um email e o outro; o caso de 30 minutos contra 4 horas no site abandoned, e por que welcome e post-purchase ficam de fora.
+
 
 # Aviso de autoria
 

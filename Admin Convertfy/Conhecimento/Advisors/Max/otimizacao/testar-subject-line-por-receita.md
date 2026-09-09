@@ -9,6 +9,8 @@ conflitos: [otimizacao-sl-julgar-por-abertura-ou-receita, otimizacao-teto-de-abe
 status: aprovado
 ---
 
+O teste de subject line e preview text: as cinco variáveis a variar, por que julgar o resultado por receita e pedidos em vez de abertura, e o teto de ganho de abertura que esse teste consegue.
+
 
 # Aviso de autoria
 

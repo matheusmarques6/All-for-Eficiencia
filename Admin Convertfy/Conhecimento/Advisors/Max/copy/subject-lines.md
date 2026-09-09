@@ -9,6 +9,8 @@ conflitos: [copy-subject-line-comprimento, copy-subject-line-reticencias, copy-m
 status: aprovado
 ---
 
+As regras de subject line — comprimento, Title Case, curiosidade, emoji —, por que medir o teste por receita e não por abertura, e qual é o teto do que dá para ganhar de abertura mexendo só nela.
+
 
 # Aviso de autoria
 

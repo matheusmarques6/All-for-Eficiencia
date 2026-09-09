@@ -9,6 +9,8 @@ validade: "procedimento — o corpus não data a gravação. Extraído em 2026-0
 status: aprovado
 ---
 
+Como usar o Glockapps para medir em qual caixa os emails estão caindo — primary, promotions ou spam: o que a ferramenta faz, os três passos do teste de placement, com que cadência rodar e por que não confundir com o domain-checker.
+
 
 # Aviso de autoria
 

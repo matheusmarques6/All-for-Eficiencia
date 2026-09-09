@@ -9,6 +9,8 @@ conflitos: [doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+Desconto constante não custa margem, custa expectativa: a lista aprende a só comprar em promoção e não volta atrás. O substituto é educar sobre o problema e posicionar o produto como solução. Proíbe-se a cadência, não o desconto — e vale para campanha, não para captação.
+
 # Aviso de autoria
 
 **Faixa L4202-4421 (Campaign Strategy) — `outro-provavel`.**

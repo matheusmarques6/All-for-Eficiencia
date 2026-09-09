@@ -5,6 +5,8 @@ fonte: "CONTEUDO BRUTO/max.md — L8760-9109 (transcrição), L9110-9211 (slide)
 status: aprovado
 ---
 
+O que ficou de fora das notas do módulo de otimização e por quê: capas e títulos de deck, meta-anúncios e encerramento de aula, artefatos de ASR normalizados e prints de casos citados em voz e ausentes do corpus.
+
 # Descartes do módulo otimizacao
 
 Faixa lida na íntegra: L8760-9211. O que ficou de fora das notas, e por quê.

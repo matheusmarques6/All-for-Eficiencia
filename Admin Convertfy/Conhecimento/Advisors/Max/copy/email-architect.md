@@ -9,6 +9,8 @@ conflitos: [copy-narrador-nao-e-max]
 status: aprovado
 ---
 
+Por que entregar copy como tabela de campos produz design fora da intenção do email, e a regra de o copywriter desenhar como o email deve parecer. Traz o esqueleto de oito campos e a função do bridge section.
+
 
 # Aviso de autoria
 

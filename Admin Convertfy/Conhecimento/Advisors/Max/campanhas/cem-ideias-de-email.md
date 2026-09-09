@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L5356-5472 (slide, o artefato); L4516-4542 (tr
 status: aprovado
 ---
 
+Banco de 100 ideias de campanha em cinco categorias — educacional, prova social, marca e comunidade, destaque de produto e vendas —, cada uma com título e uma linha explicando o ângulo. Serve para quando falta pauta de envio.
+
 
 # Aviso de autoria
 

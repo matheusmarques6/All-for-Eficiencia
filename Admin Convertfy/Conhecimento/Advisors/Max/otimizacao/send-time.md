@@ -9,6 +9,8 @@ conflitos: [otimizacao-horarios-a-testar, otimizacao-metricas-do-print]
 status: aprovado
 ---
 
+Como testar o horário de envio das campanhas: os horários que o material manda testar, por que fixar um só depois de achar o melhor, como o perfil do público prevê a janela, e o caso em que 1:45pm bateu 11am.
+
 
 # Aviso de autoria
 

@@ -9,6 +9,8 @@ conflitos: [campanhas-limiar-de-hipersegmentacao, campanhas-share-do-90-day-enga
 status: aprovado
 ---
 
+Por que hipersegmentar custa mais alcance do que ganha em conversão, o confronto entre campanhas estreitas e campanhas amplas, e a partir de que faturamento faz sentido abrir segmentos além do engajamento.
+
 
 # Aviso de autoria
 

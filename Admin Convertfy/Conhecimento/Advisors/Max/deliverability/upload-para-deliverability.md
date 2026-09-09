@@ -9,6 +9,8 @@ validade: "procedimento — o corpus não data a gravação. Extraído em 2026-0
 status: aprovado
 ---
 
+Como preparar as imagens do email para não prejudicar a entrega: fatiar o design, comprimir, subir na plataforma e por que alt text e link em toda fatia importam — o provedor lê HTML, não lê imagem.
+
 
 # Aviso de autoria
 

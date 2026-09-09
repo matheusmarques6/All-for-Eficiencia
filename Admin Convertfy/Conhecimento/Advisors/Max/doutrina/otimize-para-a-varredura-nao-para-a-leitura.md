@@ -9,6 +9,8 @@ conflitos: [doutrina-segundos-de-atencao, doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+Ninguém lê email sentado: lê andando, entre duas tarefas, em poucos segundos. Por isso o teste de aceitação não é "está bom de ler?", e sim "dá para entender sem ler?" — quebras de linha, negrito carregando o argumento e seções claras.
+
 # Aviso de autoria
 
 **Faixa L4686-4828 (Creating Great Campaigns) — `outro-provavel`.**

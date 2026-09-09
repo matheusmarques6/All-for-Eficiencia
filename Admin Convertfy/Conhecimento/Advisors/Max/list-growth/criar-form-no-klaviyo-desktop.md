@@ -9,6 +9,8 @@ conflitos: [list-growth-imagem-lateral, list-growth-popup-vs-full-page, list-gro
 status: aprovado
 ---
 
+Como montar a versão desktop do pop-up de captura no Klaviyo clonando o form mobile já pronto: dimensão 1000x600, pop-up em vez de full page, X transparente, imagem à direita e compressão do arquivo.
+
 > **PROCEDIMENTO DATADO.** Mesma ressalva de [[criar-form-no-klaviyo]]: é
 > gravação de tela do Klaviyo, a interface muda. Os valores são a doutrina; os
 > cliques, aproximação.

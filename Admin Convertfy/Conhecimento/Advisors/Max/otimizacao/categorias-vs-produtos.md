@@ -9,6 +9,8 @@ conflitos: [otimizacao-metricas-do-print, otimizacao-deck-duplicado]
 status: aprovado
 ---
 
+O teste A/B entre montar o email por categorias ou por produtos individuais: onde a decisão pesa na montagem das seções, o caso em que categorias venceram, e por que o dado desse teste serve também fora do email.
+
 
 # Aviso de autoria
 

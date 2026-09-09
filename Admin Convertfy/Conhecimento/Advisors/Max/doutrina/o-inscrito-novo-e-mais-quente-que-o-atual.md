@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L9, L22 (transcrição); L317-319 (slide)"
 status: aprovado
 ---
 
+Tese de que o contato recém-inscrito vale mais que o antigo: o opt-in e a compra abrem uma janela de cerca de 30 dias de propensão máxima, e é ela que justifica priorizar flows sobre o calendário de campanhas.
+
 # A observação
 
 Ele enuncia a crença contrária antes de derrubá-la:

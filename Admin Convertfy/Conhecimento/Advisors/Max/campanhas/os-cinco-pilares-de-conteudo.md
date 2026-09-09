@@ -9,6 +9,7 @@ conflitos: [campanhas-distribuicao-dos-pilares]
 status: aprovado
 ---
 
+As cinco categorias de conteúdo que preenchem o calendário de campanhas — Educational, Social Proof, Community/Branded, Product Highlights e Sales — com o exemplo de cada uma e a divisão sugerida ao longo de dez emails no mês.
 
 # Aviso de autoria
 

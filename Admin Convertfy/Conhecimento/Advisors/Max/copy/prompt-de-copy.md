@@ -9,6 +9,8 @@ conflitos: [copy-papel-da-ia, copy-narrador-nao-e-max]
 status: aprovado
 ---
 
+O prompt pronto para gerar copy de email com IA: os oito campos na ordem exigida, os guardrails de saída e os quatro slots de informação sobre a marca — e por que o trabalho está no input, não no prompt.
+
 
 # Aviso de autoria
 

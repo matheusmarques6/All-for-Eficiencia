@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L8363-8646 (transcrição), L8647-8759 (slide)
 status: aprovado
 ---
 
+Mapa da pasta de entregabilidade: onde o email cai e por quê, o setup de SPF/DKIM/DMARC no DNS, a rampa de warming do domínio, o reparo de conta que já caiu em spam, as metas de métrica e a auditoria de placement — e em que ordem ler.
+
 # Aviso de autoria — a pasta inteira
 
 **Toda a fala deste módulo (L8381-8646) é `outro-provavel`: não é Max.** As nove

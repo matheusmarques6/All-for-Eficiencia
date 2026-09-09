@@ -9,6 +9,8 @@ validade: "procedimento — o corpus não data a gravação. Extraído em 2026-0
 status: aprovado
 ---
 
+O setup técnico de DNS que precisa estar pronto antes de enviar qualquer email: quais registros o material exige (SPF, DMARC, DKIM), o papel do branded sending domain no Klaviyo e como verificar se falta algum.
+
 
 # Aviso de autoria
 

@@ -8,6 +8,8 @@ fonte: "CONTEUDO BRUTO/max.md — L21-22 (transcrição); L295-319 (slide)"
 status: aprovado
 ---
 
+Por que a taxa de entrada de novos inscritos pesa mais que o tamanho da lista: a base sofre churn natural, e só repor mais rápido do que se perde sustenta a receita — daí list growth vir antes de flows e campanhas.
+
 # A observação
 
 Ele abre o pilar #1 com uma comparação, idêntica na fala (L21) e no slide

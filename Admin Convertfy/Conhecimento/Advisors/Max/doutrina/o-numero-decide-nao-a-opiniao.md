@@ -9,6 +9,8 @@ conflitos: [doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+Opinião do operador não é input de decisão, nem a dele: quem discorda de uma cadência, de um subject line ou de um layout recebe teste como resposta, e o critério de sucesso é receita, não taxa de abertura.
+
 # Aviso de autoria
 
 **Faixas L6101-6248 e L8773-9109 — `outro-provavel`.**

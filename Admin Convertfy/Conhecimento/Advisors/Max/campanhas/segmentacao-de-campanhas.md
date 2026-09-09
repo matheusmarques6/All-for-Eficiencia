@@ -9,6 +9,8 @@ conflitos: [campanhas-limiar-vip, campanhas-suppress-list, campanhas-share-do-90
 status: aprovado
 ---
 
+A diferença entre lista e segmento e os seis segmentos-chave do Klaviyo — engajados de 90 dias, alto potencial, winback, VIP, interesse por categoria e suppress list — com a sintaxe exata das condições de cada um.
+
 
 # Aviso de autoria
 

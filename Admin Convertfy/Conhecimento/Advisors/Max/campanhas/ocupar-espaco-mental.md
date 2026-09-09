@@ -9,6 +9,8 @@ conflitos: [campanhas-encanador-ou-eletricista]
 status: aprovado
 ---
 
+Por que a cadência alta se justifica pela lembrança de marca, e não pela venda do dia: o email que funciona mesmo sem ser aberto, os pontos de contato até a compra e a analogia do prestador que bate à porta.
+
 
 # Aviso de autoria
 

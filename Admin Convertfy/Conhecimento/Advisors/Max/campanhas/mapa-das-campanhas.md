@@ -7,6 +7,8 @@ fonte: "CONTEUDO BRUTO/max.md — L4187-5236 (transcrição), L5237-5599 (slide 
 status: aprovado
 ---
 
+Mapa da pasta de campanhas — o envio pontual para a lista, o oposto do flow: quantas enviar por semana, que conteúdo enviar, como montar o calendário e para quem segmentar. Traz a tabela de frequência e os seis segmentos num lugar só.
+
 # Aviso de autoria — 8 das 9 notas
 
 **Os quatro vídeos falados deste módulo — Campaign Strategy (L4202-4421), Campaign

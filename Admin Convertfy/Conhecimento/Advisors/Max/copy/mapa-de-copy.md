@@ -7,6 +7,8 @@ registro: [slide, transcricao, outro-narrador]
 status: aprovado
 ---
 
+Mapa da pasta de copywriting: o que evitar no texto, os três princípios do S.C.E., subject lines, preview texts, infográficos e os artefatos de IA — o prompt de copy e o esqueleto de oito campos do email.
+
 # copy/
 
 Módulo COPYWRITING. Fonte: `CONTEUDO BRUTO/max.md` — L5600-6500

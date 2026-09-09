@@ -9,6 +9,8 @@ conflitos: [doutrina-sce-numeracao-dos-principios, doutrina-narrador-da-aula-de-
 status: aprovado
 ---
 
+S.C.E. — Skimmable, Clear & Concise, Engaging — é o único framework reaplicado em copy, design, campanha, flow e pop-up: todo email passa pelos três filtros antes de sair. O material nunca arbitra qual letra vence quando duas se chocam.
+
 # Aviso de autoria
 
 **Faixa L4686-4828 (Creating Great Campaigns) — `outro-provavel`.**

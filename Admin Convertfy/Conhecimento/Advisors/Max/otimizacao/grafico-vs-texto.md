@@ -9,6 +9,8 @@ conflitos: [otimizacao-grafico-numero-de-variantes, otimizacao-deck-duplicado]
 status: aprovado
 ---
 
+O teste entre email gráfico e email de texto puro: por que o vencedor varia por lista, quando reservar o texto puro para os emails-chave de drop e de sale, e o exemplo de uma sequência de fim de semana de sexta a domingo.
+
 
 # Aviso de autoria
 

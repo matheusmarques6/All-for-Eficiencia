@@ -10,6 +10,8 @@ validade: "procedimento — o corpus não data a gravação. Extraído em 2026-0
 status: aprovado
 ---
 
+Dois casos narrados de aquecimento de domínio — uma migração do MailChimp com dado antigo e um pré-lançamento sem dado nenhum: volumes por envio, aberturas obtidas e os erros assumidos. Ilustração de método, não benchmark de volume.
+
 
 # Aviso de autoria
 

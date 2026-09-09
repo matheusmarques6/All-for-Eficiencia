@@ -9,6 +9,8 @@ conflitos: [copy-numeracao-dos-principios]
 status: aprovado
 ---
 
+O S do S.C.E.: otimizar para a passada de olho, não para a leitura. As três regras — evitar blocos de texto, negritar os pontos principais até que sozinhos contem a mensagem, e encurtar antes de quebrar linha.
+
 
 # Aviso de autoria
 

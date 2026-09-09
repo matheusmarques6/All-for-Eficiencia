@@ -9,6 +9,8 @@ conflitos: [deliverability-limiar-de-open-rate, deliverability-lista-base-padrao
 status: aprovado
 ---
 
+Por que enviar quase só para quem engajou nos últimos 90 dias, como esse segmento é definido condição por condição, quando apertar ou alargar a janela conforme a taxa de abertura, e a exceção das grandes datas.
+
 
 # Aviso de autoria
 

@@ -9,6 +9,8 @@ conflitos: [campanhas-ratio-grafico-texto, campanhas-frequencia-de-texto-puro]
 status: aprovado
 ---
 
+Quantos emails de texto puro enviar para cada email gráfico, o piso de dois textos por mês, o limite acima do qual texto puro passa a irritar, e por que as três versões do ratio no material não fecham entre si.
+
 
 # Aviso de autoria
 

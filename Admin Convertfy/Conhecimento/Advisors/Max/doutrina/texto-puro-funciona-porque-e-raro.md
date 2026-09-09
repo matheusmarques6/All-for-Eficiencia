@@ -9,6 +9,8 @@ conflitos: [doutrina-narrador-da-aula-de-ia]
 status: aprovado
 ---
 
+Email de texto puro converte por contraste, não por estética: é raro num inbox saturado de peças desenhadas e parece mensagem de uma pessoa. Por isso a proporção faz parte do mecanismo — se virar o padrão da marca, o gráfico passa a ser o diferencial.
+
 # Aviso de autoria
 
 **Faixa L4202-4421 (Campaign Strategy) — `outro-provavel`.**

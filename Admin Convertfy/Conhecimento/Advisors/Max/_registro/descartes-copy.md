@@ -5,6 +5,8 @@ assunto: descartes
 status: aprovado
 ---
 
+O que foi lido no módulo de copy e não virou nota: rótulos de exemplo sem imagem no deck exportado, links para docs e ferramentas, aberturas e fechos de vídeo e trechos de ASR corrompido — com o motivo de cada descarte.
+
 # Descartes do módulo copy
 
 Faixa auditada: L5600-6500 (transcrição) e L6501-6858 (slide GAMMA). Tudo que

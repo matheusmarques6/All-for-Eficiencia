@@ -13,11 +13,11 @@ Três e-mails da Well Copy defendem a mesma tese: num depoimento o que decide n�
 
 A grade é o formato que o cliente aprendeu a pular: simétrica, cinco estrelas idênticas, tipografia da marca, recorte de 20 palavras — tudo nela anuncia edição. Os três formatos atacam esse sinal:
 
-- **The Looong Testimonial** quebra a simetria — ninguém escreve 400 palavras por encomenda; custa o e-mail inteiro.
-- **Native Social Media Reviews** quebram o design — avatar, timestamp, emoji, erro de digitação; custam nitidez.
-- **The Reddit** quebra a autoria — território de terceiros; na peça, porém, é **recriação da marca**.
+- **The Looong Testimonial** quebra a simetria (ninguém escreve 400 palavras por encomenda); custa o e-mail inteiro.
+- **Native Social Media Reviews** quebram o design (avatar, timestamp, emoji, typo); custam nitidez.
+- **The Reddit** quebra a autoria; na peça, porém, é **recriação da marca**.
 
-Racional do autor para o primeiro: *"Stacking 5-10 very small testimonials in an email don't do too much and customers usually skip over them. Including one very long, passionate customer review really stands out. People can connect to the story of the writer. More emotional and effective."*
+Racional do autor: *"Stacking 5-10 very small testimonials in an email don't do too much and customers usually skip over them. Including one very long, passionate customer review really stands out. People can connect to the story of the writer. More emotional and effective."*
 
 Para o segundo: *"They are more believable, unaltered, and personal. They stand out from the typical designed testimonial. Just go look through your social posts, ads, and DMs and screenshot any positive feedback."*
 
@@ -45,7 +45,7 @@ CTA: *"BECOME A SOAP ADDICT"*. Depois dele a marca responde pelo nome: *"THANK Y
 
 Hero: *"You heard it here first."* / *"From sustained energy to better focus, our members are seeing it every day… and you can too."* / CTA *"Experience sharper focus"*.
 
-Abaixo, oito prints em duas colunas — DMs em tema claro e escuro, comentários de Instagram com handle e timestamp:
+Oito prints em duas colunas — DMs em tema claro e escuro, comentários de Instagram com handle e timestamp:
 
 > "This is the first day in years that I've had no brain fog. And I've only had two day's worth of shots so far. I'm shook wow"
 
@@ -67,7 +67,7 @@ CTA final: *"Try It 100-Day Risk-Free"*. Rodapé: *"Learn More"* / *"Testimonial
 
 **The Reddit — marca: Anthros** (cadeiras ergonômicas; rodapé *"BUILT IN GRAND RAPIDS, MICHIGAN"* / *"Copyright © 2025 ANTHROS. All rights reserved."*).
 
-Topo: *"FREE USA SHIPPING • USE CODE: ATH838"*. O bloco imita a página de um subreddit — banner, avatar circular, *"r/OfficeChairs"*, tagline *"Reviews With Context"* — com um review único:
+Topo: *"FREE USA SHIPPING • USE CODE: ATH838"*. O bloco imita a página de um subreddit — banner, avatar, *"r/OfficeChairs"*, tagline *"Reviews With Context"* — com um review único:
 
 > **"First day with Anthros"**
 >
@@ -95,19 +95,19 @@ CTA: *"SHOP ANTHROS"* / *"12-YEAR WARRANTY · 30-DAY TRIAL"*. Abaixo, **três ca
 
 > Russell A. ✓ 3w — **"After 15 years on an Aeron…"** / "After 15 years on an Aeron chair, I am loving this chair. It goes beyond a traditional lumbar support and really feels good on my back. I also like supporting a Wisconsin company and a product that is made in the USA."
 
-Fecho: *"ORDER NOW"* / *"12-YEAR WARRANTY · 30-DAY TRIAL"*, headline de rodapé *"FIX YOUR SIT."* e quatro botões: *"GAMING CHAIR"*, *"HOME & OFFICE CHAIR"*, *"FREE CONSULTATION"*, *"TRY IT IN PERSON"*.
+Fecho: *"ORDER NOW"* / *"12-YEAR WARRANTY · 30-DAY TRIAL"*, rodapé *"FIX YOUR SIT."* e quatro botões: *"GAMING CHAIR"*, *"HOME & OFFICE CHAIR"*, *"FREE CONSULTATION"*, *"TRY IT IN PERSON"*.
 
 # Os detalhes de execução que a fonte registra
 
 - **O review é o corpo inteiro** nos três e-mails: produto e oferta só entram depois do CTA.
-- **A marca responde pelo nome e cita o detalhe constrangedor** ("THANK YOU, INGRID", "smelling your pits") — prova implícita de que não escreveu o texto; o conceito criativo sai do próprio review ("addict", "side effects").
+- **A marca responde pelo nome e cita o detalhe constrangedor** ("THANK YOU, INGRID", "smelling your pits") — prova implícita de que não escreveu o texto; o conceito criativo sai do review ("addict", "side effects").
 - **A sujeira é deliberada:** nos prints, "43m", "10w", "❤ by author", likes, emoji, temas alternados; no Anthros, um sans neutro diferente da fonte de marca sob o cabeçalho de subreddit.
 
 # Onde o racional do autor diverge da peça
 
 **O que se vê é uma recriação do formato feita pela marca, não um post do Reddit.** O avatar do "subreddit" é o **logo da própria Anthros**, o mesmo do rodapé — não o mascote do Reddit. Nada da interface real: nenhum `u/` autor, nenhum voto, nenhum comentário, nenhum link, nenhuma data. *"Reviews With Context"* é tagline de marca.
 
-Isso ataca a premissa do racional: *"clearly unbiased and made by someone separate from the brand"* descreve post de terceiro, e a peça não identifica terceiro nenhum. O **texto** tem marcas nativas de Reddit (*"Edit: for reference…"*, *"without affiliate commissions"*, *"Happy chair hunting!"*, o elogio morno aos apoios de braço) e lê como review real reaproveitado, mas a peça não prova origem. **Imparcialidade aqui é efeito de layout, não fato verificável.**
+Isso ataca a premissa: *"clearly unbiased and made by someone separate from the brand"* descreve post de terceiro, e a peça não identifica terceiro nenhum. O **texto** tem marcas nativas de Reddit (*"Edit: for reference…"*, *"without affiliate commissions"*, *"Happy chair hunting!"*, o elogio morno aos apoios de braço) e lê como review real reaproveitado, mas a peça não prova origem. **Imparcialidade aqui é efeito de layout, não fato verificável.**
 
 E o e-mail **não substitui** o depoimento padrão pelo Reddit: empilha os dois — o formato que a fonte diz vencer divide peça com o formato que ele deveria vencer.
 
@@ -115,10 +115,10 @@ E o e-mail **não substitui** o depoimento padrão pelo Reddit: empilha os dois 
 
 Nada aqui é medição. **Zero número, zero amostra, zero recorte de tempo, zero teste A/B.** A fonte diz que os 29 e-mails *"performed high above expectation"* e, no Reddit, *"We see these perform better than standard testimonials"* — sem quantos, sem qual marca, sem qual métrica. "Increase in performance", no racional dos prints, não tem denominador: open, click ou receita, não se sabe.
 
-A comparação central — um depoimento longo vence cinco curtos — **não foi testada em lugar nenhum que a fonte mostre.** Opinião de praticante. E a amostra são três e-mails, todos de produto de experiência corporal (sabonete, shot, cadeira), onde o relato emocional é natural.
+A comparação central — um longo vence cinco curtos — **não foi testada em lugar nenhum que a fonte mostre.** Opinião de praticante. E a amostra são três e-mails, todos de produto de experiência corporal, onde o relato emocional é natural.
 
 # Onde isso encosta no corpus do Max
 
-- **Concorda com [[emails-baseados-em-imagem]]:** só o e-mail desenhado fora da plataforma permite colar print de DM — ou recriar uma tela de Reddit — sem quebrar renderização.
+- **Concorda com [[emails-baseados-em-imagem]]:** só o e-mail desenhado fora da plataforma permite colar print de DM ou recriar tela de Reddit sem quebrar renderização.
 - **Briga com [[secao-bridge]]:** lá o depoimento é um dos sete tipos de conteúdo da bridge e o default é outro ("use the Infographics"). Aqui ele não ocupa seção, ocupa o e-mail.
 - **Briga com [[principio-skimmability]]** ("2-4 seconds to get your point across"): um review de 400 palavras é o caso limite do que o princípio proíbe.

@@ -9,6 +9,8 @@ conflitos: [campanhas-sweet-spot-de-frequencia, campanhas-tier-250k-1m, campanha
 status: aprovado
 ---
 
+Quantas campanhas por semana enviar conforme o faturamento ou o tráfego mensal da loja, o piso de 2x por semana, por que enviar de menos e de mais falha, e onde a tabela do slide diverge do que a aula fala.
+
 
 # Aviso de autoria
 

@@ -24,7 +24,7 @@ Hero:
 >
 > Because you chose everything in your cart for a reason, and your stress-free beauty routine deserves follow-through.
 
-Bloco de carrinho marcado `[Klaviyo Dynamic Block]`, botão `"Complete My Order"`, e três selos: `"Free Shipping On Orders Over $140"` · `"Secure, seamless checkout"` · `"90 Day Money Back Guarantee"`.
+Carrinho marcado `[Klaviyo Dynamic Block]`, botão `"Complete My Order"`, três selos: `"Free Shipping On Orders Over $140"` · `"Secure, seamless checkout"` · `"90 Day Money Back Guarantee"`.
 
 Educação, sobre foto de produto:
 
@@ -45,7 +45,7 @@ Botão `"Complete Checkout"`. Prova social sob `"*Loved* - Again And Again"`, qu
 > **Harmon S.** — "Alleyoop developed the best tubing mascara ever, such clean lightweight application, no mess no fuss."
 > **Donna Burke** — "Their products are top-notch and their customer support is wonderful!! Cudos!!"
 
-Fecho: `"Finish your order and fall in love with your routine all over again."` + botão `"Return To Checkout"`. Rodapé com nav `Face · Eye · Lip · Cheek`.
+Fecho: `"Finish your order and fall in love with your routine all over again."` + botão `"Return To Checkout"`. Rodapé, nav `Face · Eye · Lip · Cheek`.
 
 ## Abandonment Mystery Discount — neutonic
 
@@ -57,7 +57,7 @@ Hero, fundo laranja:
 >
 > **Access expires in 24 hours**
 
-Lista de carrinho com nome, quantidade e preço por item (`"Nootropicks - Free gift — Quantity: 1 — Total: $3.90"`, `"Mixed Flavours - 12 Cans — Quantity: 1 — Total: $32.99"`, `"Productivity Drink - 12 Cans — Quantity: 1 — Total: $29.99"`). Botão `"RETURN TO CART"`.
+Carrinho com nome, quantidade e preço por item: `"Nootropicks - Free gift — Quantity: 1 — Total: $3.90"`, `"Mixed Flavours - 12 Cans — ... $32.99"`, `"Productivity Drink - 12 Cans — ... $29.99"`. Botão `"RETURN TO CART"`.
 
 Educação em três cards com ícone, **depois** do botão:
 
@@ -65,7 +65,7 @@ Educação em três cards com ícone, **depois** do botão:
 > · Smooth, steady energy boost without the jitters or crash.
 > · Zero sugar
 
-Ticker: `"[...] AN ENERGY CRASH ✦ 4M+ CANS SOLD WORLD[WIDE]"` (bordas cortadas na captura). Rodapé com nav vertical: `Shop All · Productivity Drink · Focus Blend · Brain Capsules · Creatine · Accessories · Bundle & Save`.
+Ticker: `"[...] AN ENERGY CRASH ✦ 4M+ CANS SOLD WORLD[WIDE]"` (bordas cortadas na captura). Rodapé, nav vertical: `Shop All · Productivity Drink · Focus Blend · Brain Capsules · Creatine · Accessories · Bundle & Save`.
 
 ## Custom Order Confirmation — Instant Hydration
 
@@ -82,7 +82,7 @@ Seção `"What's *Next:*"`, numerada 01/02/03:
 > **02.** For maximum hydration benefits, we recommend enjoying 1–2 stick packs per day.
 > **03.** As a first-time subscriber, your order includes a free gift.
 
-Faixa verde: `"A daily dose of electrolytes is a simple yet powerful habit for better energy, recovery, mental clarity, digestion and more. And you're on your way."` + botão `"View Your Order"`. Rodapé: `"Connect With Us"` + `"instanthydration.com — Follow @instanthydration"` + nav `SHOP · SCIENCE · CONTACT`.
+Faixa verde: `"A daily dose of electrolytes is a simple yet powerful habit for better energy, recovery, mental clarity, digestion and more. And you're on your way."` + botão `"View Your Order"`. Rodapé: `"Connect With Us"`, `"Follow @instanthydration"`, nav `SHOP · SCIENCE · CONTACT`.
 
 ## Magic Button In Footer — BRĒZ
 

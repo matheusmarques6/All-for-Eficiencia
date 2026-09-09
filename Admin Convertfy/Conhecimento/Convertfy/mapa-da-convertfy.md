@@ -2,7 +2,7 @@
 tipo: indice
 assunto: convertfy
 autor: convertfy
-status: rascunho
+status: aprovado
 ---
 
 Mapa do corpus `Convertfy/`: o que a Convertfy decidiu, testou e mediu. Este mapa está com `status: rascunho` de propósito — enquanto a pasta estiver vazia ou com menos de três notas, ele ocuparia uma linha do catálogo da IA sem levar a lugar nenhum. **Promova para `status: aprovado` quando a pasta tiver conteúdo real.**
