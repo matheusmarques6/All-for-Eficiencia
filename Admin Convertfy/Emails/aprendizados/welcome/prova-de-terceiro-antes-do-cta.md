@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-1, welcome-4, welcome-6]
 origem_email_id:
 origem_estrutura: avelmore-inspecao-antecipada
 autor: Convertfy

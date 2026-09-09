@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-8]
 origem_estrutura: carta-plain-text-extensao
 autor: Convertfy
 status: aprovada

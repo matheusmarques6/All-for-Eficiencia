@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-6, welcome-7, welcome-8]
 origem_estrutura: medicube-ultima-batida
 autor: Convertfy
 status: aprovada

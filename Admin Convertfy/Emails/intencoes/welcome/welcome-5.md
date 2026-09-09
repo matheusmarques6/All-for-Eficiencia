@@ -4,6 +4,20 @@ flow_type: welcome
 email_number: 5
 status: aprovada
 revisado_por: Convertfy
+modo: varredura_de_canal
+n_objecoes: [3, 6]
+fonte_das_objecoes: medos_de_categoria
+riscos_elegiveis: [seguranca, tempo, psicologico, financeiro]
+profundidade_minima: afirmacao
+aliviadores_admissiveis: [transparencia_de_politica, reputacao_da_loja, seguranca_de_pagamento, garantia_de_devolucao, prova_por_volume]
+trabalhos_fixos: [lembrete_de_incentivo_vivo]
+permite_reataque: false
+dimensao_alvo: integridade
+proibicoes:
+  - nomear concorrente específico — comparar contra a categoria
+  - repetir o registro dos toques anteriores (tese, varredura, mecanismo, prova)
+  - superlativo vazio
+  - alegar o que a operação não sustenta — cada medo riscado é uma promessa
 ---
 
 # Welcome 5 — A razão competitiva

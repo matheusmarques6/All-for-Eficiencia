@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-2, welcome-3, welcome-4]
 origem_estrutura: avelmore-deadline-objecao
 confirmado_em: [avelmore-mecanismo-e-origem, avelmore-prova-social-cirurgica]
 status_evidencia: agravada

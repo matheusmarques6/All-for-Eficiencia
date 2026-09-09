@@ -4,6 +4,18 @@ flow_type: welcome
 email_number: 6
 status: aprovada
 revisado_por: Convertfy
+modo: fechamento_de_ciclo
+n_objecoes: [0, 0]
+riscos_elegiveis: []
+profundidade_minima: prova_de_terceiro
+trabalhos_fixos: [prazo_com_hora, prova_secundaria, remocao_de_risco]
+permite_reataque: false
+dimensao_alvo: integridade
+proibicoes:
+  - reargumentar ou reabrir deliberação
+  - aumentar o incentivo
+  - números de escassez sem lastro real
+  - prazo que o toque seguinte não vá honrar
 ---
 
 # Welcome 6 — Fechar o ciclo da oferta

@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-6, welcome-7]
 origem_estrutura: medicube-escassez-com-prova-de-demanda
 autor: Convertfy
 status: aprovada

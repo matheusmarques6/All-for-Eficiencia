@@ -4,6 +4,19 @@ flow_type: welcome
 email_number: 8
 status: aprovada
 revisado_por: Convertfy
+modo: fechamento_de_ciclo
+n_objecoes: [0, 0]
+riscos_elegiveis: []
+trabalhos_fixos: [prazo_com_hora]
+permite_reataque: false
+dimensao_alvo: benevolencia
+promessa_a_pagar: a extensão é única e definitiva — depois dela, nunca mais
+proibicoes:
+  - fingir que o prazo não venceu
+  - estender duas vezes
+  - aparato visual de campanha — a quebra de formato é o mecanismo
+  - pedir desculpas pelo prazo
+  - reargumentar
 ---
 
 # Welcome 8 — Epílogo humano: a exceção declarada

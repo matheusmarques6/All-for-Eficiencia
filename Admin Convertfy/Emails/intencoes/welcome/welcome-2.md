@@ -4,6 +4,21 @@ flow_type: welcome
 email_number: 2
 status: aprovada
 revisado_por: Convertfy
+modo: varredura_de_objecoes
+n_objecoes: [4, 5]
+fonte_das_objecoes: nao_atacadas
+riscos_elegiveis: [desempenho, financeiro, tempo, adequacao, seguranca]
+riscos_vetados: []
+profundidade_minima: afirmacao
+aliviadores_admissiveis: [todos]
+aliviadores_vetados: [prova_de_terceiro, prova_por_volume]
+trabalhos_fixos: [custo_de_adiar_sem_hora, remocao_de_risco]
+permite_reataque: false
+proibicoes:
+  - repetir a tese do toque 1 no mesmo registro
+  - prazo com hora fechada
+  - aumentar ou sinalizar melhora do incentivo
+  - depender de prova social — o assunto é decisão, não confiança
 ---
 
 # Welcome 2 — Converter cupom aberto em decisão

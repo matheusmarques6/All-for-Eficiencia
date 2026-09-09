@@ -4,6 +4,17 @@ flow_type: welcome
 email_number: 7
 status: aprovada
 revisado_por: Convertfy
+modo: fechamento_de_ciclo
+n_objecoes: [0, 0]
+riscos_elegiveis: []
+trabalhos_fixos: [prazo_com_hora]
+permite_reataque: false
+dimensao_alvo: integridade
+proibicoes:
+  - qualquer argumento, prova, catálogo ou história
+  - repetir escassez numérica do toque 6
+  - existir em outro dia que não o do toque 6
+  - mudar o incentivo ou o prazo
 ---
 
 # Welcome 7 — O sino

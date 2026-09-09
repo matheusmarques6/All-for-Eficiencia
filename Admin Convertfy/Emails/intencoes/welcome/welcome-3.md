@@ -4,6 +4,21 @@ flow_type: welcome
 email_number: 3
 status: aprovada
 revisado_por: Convertfy
+modo: quebra_de_objecao
+n_objecoes: [1, 1]
+fonte_das_objecoes: nao_atacadas
+riscos_elegiveis: [desempenho, financeiro, psicologico]
+profundidade_minima: mecanismo
+aliviadores_admissiveis: [demonstracao_de_mecanismo, comparacao_de_categoria, transparencia_de_politica, garantia_de_devolucao]
+veiculos_exigidos: [origem_da_marca, economia_do_preco, operacao_por_pedido]
+trabalhos_fixos: [lembrete_de_incentivo_vivo, remocao_de_risco]
+permite_reataque: true
+dimensao_alvo: competencia
+proibicoes:
+  - urgência nova
+  - aumentar o incentivo — não recompensar a espera
+  - reapresentar a varredura do toque 2
+  - esconder a saída rápida de quem já decidiu
 ---
 
 # Welcome 3 — Convicção para o cético

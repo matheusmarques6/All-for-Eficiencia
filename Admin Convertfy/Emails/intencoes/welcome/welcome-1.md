@@ -4,6 +4,22 @@ flow_type: welcome
 email_number: 1
 status: aprovada
 revisado_por: Convertfy
+modo: quebra_de_objecao
+n_objecoes: [1, 1]
+fonte_das_objecoes: nao_atacadas
+exige_dominante_da_categoria: true
+riscos_elegiveis: [desempenho, psicologico, financeiro, adequacao, seguranca]
+profundidade_minima: afirmacao
+aliviadores_admissiveis: [todos]
+trabalhos_fixos: [entrega_de_incentivo, prova_secundaria, remocao_de_risco]
+permite_reataque: false
+dimensao_alvo: competencia
+proibicoes:
+  - história longa da fundação (profundidade tem toque próprio)
+  - pedido de engajamento paralelo (rede social, preferências) — um pedido só
+  - urgência artificial
+  - esgotar os argumentos — uma objeção só, bem atacada
+  - condição nova no incentivo
 ---
 
 # Welcome 1 — Entregar a promessa e trocar o motivo

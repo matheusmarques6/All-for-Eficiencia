@@ -4,6 +4,19 @@ flow_type: welcome
 email_number: 4
 status: aprovada
 revisado_por: Convertfy
+modo: confirmacao_por_terceiros
+n_objecoes: [2, 3]
+fonte_das_objecoes: ja_atacadas
+profundidade_minima: prova_de_terceiro
+aliviadores_admissiveis: [prova_de_terceiro, prova_por_volume]
+trabalhos_fixos: [lembrete_de_incentivo_vivo, espelho_do_cetico]
+permite_reataque: true
+dimensao_alvo: competencia
+proibicoes:
+  - argumentar em voz de marca
+  - empurrar catálogo
+  - mexer no incentivo
+  - pedir mais do que segundos de leitura
 ---
 
 # Welcome 4 — Inversão de voz: terceiros falam
