@@ -36,9 +36,9 @@ Backup íntegro do estado anterior em `/Users/brunopinheiro/Documents/_backup-va
 
 # Três bugs que já existiam e foram corrigidos de passagem
 
-- **`[[_INDEX]]` apontava para lugar nenhum** — 18 ocorrências em 6 arquivos. Não existe `_INDEX.md` em `Conhecimento/`; o único do vault está em `Emails/`, o sistema que o próprio mapa declara que jamais deve se cruzar com este corpus. Redirecionado para `mapa-do-corpus-do-max`.
-- **`[[_numeros-completo#Colisões de slug e veredictos arbitrados]]`** apontava para uma âncora que nunca existiu naquele arquivo — o título vive no registro de conflitos.
-- **`[[_conflitos#Claims institucionais]]`** — mesma coisa, âncora inexistente.
+- **``_INDEX`` apontava para lugar nenhum** — 18 ocorrências em 6 arquivos. Não existe `_INDEX.md` em `Conhecimento/`; o único do vault está em `Emails/`, o sistema que o próprio mapa declara que jamais deve se cruzar com este corpus. Redirecionado para `mapa-do-corpus-do-max`.
+- **``_numeros-completo#Colisões de slug e veredictos arbitrados``** apontava para uma âncora que nunca existiu naquele arquivo — o título vive no registro de conflitos.
+- **``_conflitos#Claims institucionais``** — mesma coisa, âncora inexistente.
 
 # O que NÃO foi feito, de propósito
 
