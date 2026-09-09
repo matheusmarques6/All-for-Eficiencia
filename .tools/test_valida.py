@@ -224,6 +224,15 @@ def testa_modo_completo() -> None:
             erros = valida.rodar(raiz)
             assert any("direcao_fotografica" in e for e in erros), erros
 
+            # fonte != inventário: prosa revista contra o HTML não é cobrada verbatim
+            nota.write_text(
+                nota_completa(CORPO_CERTO.replace("Foto de teste.", "Foto ALTERADA."))
+                .replace("fonte: inventario-2026-08-31", "fonte: revisao-html-2026-09-09"),
+                encoding="utf-8",
+            )
+            erros = valida.rodar(raiz)
+            assert not any("diverge" in e for e in erros), erros
+
             # regra 6: prosa presente não pode ser sem-julgamento
             nota.write_text(
                 nota_completa(CORPO_CERTO, status="sem-julgamento"), encoding="utf-8"
@@ -240,7 +249,7 @@ def testa_modo_completo() -> None:
         finally:
             valida.FONTE = fonte_original
 
-    print("ok: modo completo cobre as regras 1, 5, 6 e o frontmatter ilegível")
+    print("ok: modo completo cobre as regras 1, 5, 6, o pulo por fonte e o frontmatter ilegível")
 
 
 if __name__ == "__main__":

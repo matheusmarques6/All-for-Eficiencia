@@ -43,7 +43,7 @@ Pitch de gift card digital com headline anti-objeção, dois parágrafos curtos 
 
 ## Descrição detalhada
 
-Bloco de texto 100% vivo sobre fundo branco, em container fixo de 600px: título de 50px em duas linhas, dois parágrafos de 24px e CTA bulletproof de 354 × 61px (fundo preto, cantos de 8px; VML no Outlook, degrada reto). Abaixo, uma faixa de 542px com três círculos de 166px — `<td>` com fundo cinza `#8B8B8B` e `border-radius: 83px`, 22px de vão entre eles — contendo texto vivo em branco (o valor da marca). Não há `<img>` no bloco: os selos são célula + texto, não PNG; com imagens bloqueadas nada some, e no Outlook o círculo vira quadrado com o texto dentro. Sem media query: o container é `min-width: 600px` e os três selos não empilham no mobile. Os dois módulos (pitch / selos) são linhas separadas da mesma tabela — a faixa de selos pode ser reaproveitada sozinha como assinatura em outros e-mails.
+Bloco de texto 100% vivo sobre fundo branco, em container fixo de 600px: título de 50px em duas linhas, dois parágrafos de 24px e CTA bulletproof de 354 × 61px (fundo preto, cantos de 8px; `v:roundrect` mantém os cantos no Outlook). Abaixo, uma faixa de 542px com três círculos de 166px — `<td>` com fundo cinza `#8B8B8B` e `border-radius: 83px`, 22px de vão entre eles — contendo texto vivo em branco (o valor da marca). Não há `<img>` no bloco: os selos são célula + texto, não PNG; com imagens bloqueadas nada some, e no Outlook o círculo vira quadrado com o texto dentro. Sem media query: o container é `min-width: 600px` e os três selos não empilham no mobile. Os dois módulos (pitch / selos) são linhas separadas da mesma tabela — a faixa de selos pode ser reaproveitada sozinha como assinatura em outros e-mails.
 
 ## Quando usar
 

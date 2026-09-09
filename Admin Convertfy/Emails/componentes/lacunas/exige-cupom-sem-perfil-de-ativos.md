@@ -30,14 +30,17 @@ quatro são exatamente as que declaram `momento: [welcome-1]`. As outras
 cinco não chegam ao toque 1: hero-7 e hero-9 listam `welcome-1` em
 `momento_vetado`; hero-2, hero-8 e hero-10 declaram `momento` não vazio
 sem `welcome-1` e caem no passo 5. Para uma loja sem cupom confirmado, o
-universo de hero do welcome-1 é **zero** — e o único offer do toque,
-[[offer-4-manifesto-antes-do-cupom]], também exige `cupom-ativo`.
+universo de hero do welcome-1 é **zero** — e o único offer que declara
+`momento: [welcome-1]`, [[offer-4-manifesto-antes-do-cupom]], também exige
+`cupom-ativo` e está `ativa: false`: o toque 1 não tem offer ativo, com ou
+sem cupom.
 
 O que a loja tem para responder: nada. [[cupom-ativo]] é
 `verificavel_hoje: false` ("Não verifica automaticamente hoje. Nenhum
 campo de `client_stores` responde a esta pergunta"). A Parte 2 de
 [[_parametros-da-loja]] diz por quê: "não existe em `client_stores`
-nenhuma coluna ou tabela que responda 'esta loja tem cupom ativo?'", e na
+nenhuma coluna ou tabela que responda 'esta loja tem cupom ativo? UGC
+autorizado? estoque integrado?'", e na
 tabela "Comercial (8)" a linha de `cupom-ativo` tem veredito "nenhum campo
 de `client_stores` responde". [[o-que-o-curador-ainda-nao-tem]] fecha o
 circuito nos itens 1 e 4: o catálogo enviado ao Curador **não inclui

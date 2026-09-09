@@ -47,10 +47,10 @@ fecha com "faixa de 3 selos circulares com valores da marca", mas é pitch
 de vale-presente (`exige: [gift-card-digital]`, `objecao: []`, momento
 `gift-card`/`sazonal-data-comemorativa`) e os selos são valores, não
 garantias; [[offer-5-tres-diferenciais-e-cupom]] cobre "o risco
-(garantia, devolução)" como um de três diferenciais, mas é `momento:
-[welcome-meio]`, `objecao: [preco-valor]` e `exige: [cupom-ativo,
-tres-diferenciais-concretos]`. Os requisitos que o bloco novo pediria
-também não existem: dos 52 em `requisitos/` (tabela de
+(garantia, devolução)" como um de três diferenciais, mas está `ativa:
+false` e é `momento: [welcome-meio]`, `objecao: [preco-valor]` e `exige:
+[cupom-ativo, tres-diferenciais-concretos]`. Os requisitos que o bloco novo
+pediria também não existem: dos 52 em `requisitos/` (tabela de
 [[_parametros-da-loja]]), nenhum cobre garantia de devolução, política de
 troca publicada ou selo de segurança — só `selo-compra-verificada` e
 `canto-livre-para-selo` falam de selo.
@@ -78,8 +78,9 @@ mesmo zero para a objeção do canal no toque 5 — e o contrato de
 objeção dominante é a loja e não o produto, os dois caminhos que o vault
 conhece — comparar contra a categoria (body-5) ou garantir (a faixa que
 não existe) — terminam no template global. A própria
-`avelmore-inspecao-antecipada` diz "não usar quando a objeção dominante é
-da LOJA/canal — a comparação serve melhor" e aponta para
+`avelmore-inspecao-antecipada` diz para não usar quando "a objeção
+dominante é da LOJA/canal (legitimidade, entrega, falsificação) — aí a
+comparação contra a categoria serve melhor" e aponta para
 [[medicube-comparacao-categoria]], cuja única variante está inativa.
 
 # O que se perde hoje
