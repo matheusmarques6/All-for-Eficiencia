@@ -18,7 +18,7 @@ _LINHAS = [
     ("85006b06-b7db-498e-af9d-4db11be4fd5f", "hero", "hero-9-atendimento-proativo"),  # 2.9
     ("d5fb804f-8934-4c39-b011-950e20802498", "body", "body-2-colagem-de-data-comemorativa"),  # 3.1
     ("4e9726d1-40fe-40ce-aa81-c2a33b062603", "body", "body-3-pitch-de-gift-card"),  # 3.2
-    ("63736c6c-7d1b-4c7c-83ea-bae15599f1d7", "body", "body-4-tutorial-de-uso"),  # 3.3
+    ("63736c6c-7d1b-4c7c-83ea-bae15599f1d7", "body", "body-4-comparativo-em-duas-colunas"),  # 3.3
     ("7d1c214a-abb1-44b6-bb5e-95777fb0f306", "body", "body-5-comparacao-nos-vs-eles"),  # 3.4
     ("35a68bb0-7a74-40bc-a342-32ef68605aaf", "body", "body-6-skin-minimalism-101"),  # 3.5
     ("d699e212-57df-4b68-a80c-2b2aa81372c0", "body", "body-7-faq"),  # 3.6

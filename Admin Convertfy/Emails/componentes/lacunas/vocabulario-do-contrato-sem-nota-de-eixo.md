@@ -54,10 +54,11 @@ ou texto livre — não são eixo e não precisam de nota.
 # Por que importa
 
 O Seletor lê `dimensao_alvo: benevolencia` em [[welcome-8]] e não tem onde
-abrir "benevolência": a definição vive só no briefing em `.tools/`, que o
-sincronizador não lê. O mesmo vale para `espelho_do_cetico`, cuja única
-descrição está enterrada na prosa de [[welcome-4]], sem nota com esse nome
-que o índice possa oferecer. Seis valores (`manutencao_de_confianca`,
+abrir "benevolência": o valor só está enumerado no briefing em `.tools/`, que
+o sincronizador não lê — e nem lá há definição. O mesmo vale para
+`espelho_do_cetico`, descrito só de passagem na prosa de [[welcome-4]] e de
+[[adesao-social]], sem nota com esse nome que o índice possa oferecer. Seis
+valores (`manutencao_de_confianca`,
 `social`, `garantia`, `mecanismo_unico`, `amostra_ou_teste`,
 `dado_de_adequacao`) não aparecem em nenhuma intenção e portanto não
 existem em lugar nenhum que o pipeline sirva — e o primeiro deles é o modo

@@ -31,7 +31,7 @@ aprendizados: ["[[posicao-muda-o-efeito-do-dispositivo]]", "[[cada-alegacao-e-um
 serve_estruturas: []
 
 # --- proveniência ---
-fonte: inventario-2026-08-31
+fonte: revisao-html-2026-09-09
 densidade_no_banco: null
 schema_campos: 18
 status: aprovada
@@ -48,11 +48,11 @@ status: aprovada
 
 ## Descrição curta
 
-Comparativo direto contra a concorrência em duas colunas: a marca de um lado, "os outros" do outro, cada coluna com foto no topo, título e uma lista de atributos numerados — afirmativos na coluna da marca, o inverso na genérica. Fecha com uma linha-resumo e um CTA de compra.
+Comparativo direto contra a concorrência em duas colunas: a marca de um lado, "os outros" do outro, cada coluna com foto circular no topo, título e uma lista de atributos numerados — afirmativos na coluna da marca, o inverso na genérica. Fecha com uma linha-resumo e um CTA de compra.
 
 ## Descrição detalhada
 
-Título de seção centralizado sobre fundo branco. Abaixo, duas colunas de 272px lado a lado: cada uma abre com uma imagem 5:4 (272 × 212px) e continua num painel de cor sólida com cantos inferiores arredondados (26px) — painel A (marca) e painel B (genérico) em tons diferentes. Dentro de cada painel, um título em caixa alta e uma lista de atributos numerados (5 na coluna A, 6 na B), uma linha por atributo. A coluna B começa 23px mais baixa que a A, de propósito: o desalinhamento sugere "a outra opção". Depois das colunas, uma linha de fechamento de até duas linhas resumindo a escolha e um CTA bulletproof de 418 × 59px. Mobile: as colunas empilham (A sobre B) — a comparação lado a lado vira sequência, aceitável. Sem slot de oferta, sem cupom, sem preço.
+Container fixo de 600px sobre fundo branco. Título de seção em caixa alta (56px, duas linhas) alinhado à esquerda no topo da coluna esquerda — não é centralizado nem atravessa a largura toda. Abaixo, duas colunas lado a lado (células de 290px e 308px), cada uma com um painel de 272px: o painel abre com uma imagem 5:4 (272 × 212px — o círculo com a foto e os cantos superiores arredondados vêm compostos no arquivo) e continua num bloco de cor sólida com cantos inferiores arredondados (26px) — painel A (marca, `#BEBEBE`) e painel B (genérico, `#D1D1D1`). Dentro de cada painel, um título em caixa alta e uma lista de atributos numerados em círculos brancos de 27px (5 na coluna A, 6 na B), uma linha de texto por atributo. O painel B começa a 79px do topo, ao lado do título; o painel A só começa depois do título (~230px) — o degrau faz parte do desenho: título e painel B dividem a primeira dobra, o painel A entra abaixo. Depois das colunas, uma linha de fechamento de até duas linhas resumindo a escolha e um CTA bulletproof de 418 × 59px (pílula preta, `SHOP NOW`). Sem media query: o container é `min-width: 600px` e as colunas não empilham no mobile. Sem slot de oferta, sem cupom, sem preço.
 
 ## Quando usar
 

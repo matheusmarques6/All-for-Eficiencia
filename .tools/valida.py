@@ -139,6 +139,14 @@ def rodar(raiz: Path, so_estrutura: bool = False) -> list[str]:
         if not nota.exists():
             erros.append(f"variantes/{v.secao}/{slug}.md: nota ausente")
             continue
+        try:
+            fm = frontmatter(nota)
+        except FrontmatterInvalido as erro:
+            erros.append(f"variantes/{v.secao}/{slug}.md: frontmatter ilegível — {erro}")
+            continue
+        if fm.get("fonte") != "inventario-2026-08-31":
+            continue  # prosa revista contra o HTML depois do dump: a nota é a fonte, não o inventário
+
         corpo = _corpo(nota)
         for campo, titulo in CAMPO_PARA_TITULO.items():
             esperado = v.prosa[campo]
@@ -146,11 +154,6 @@ def rodar(raiz: Path, so_estrutura: bool = False) -> list[str]:
             if esperado != veio:
                 erros.append(f"variantes/{v.secao}/{slug}.md: `{campo}` diverge do inventário")
 
-        try:
-            fm = frontmatter(nota)
-        except FrontmatterInvalido as erro:
-            erros.append(f"variantes/{v.secao}/{slug}.md: frontmatter ilegível — {erro}")
-            continue
         vazia = all(x is None for x in v.prosa.values())
         if vazia and fm.get("status") != "sem-julgamento":
             erros.append(f"variantes/{v.secao}/{slug}.md: prosa vazia exige status sem-julgamento")

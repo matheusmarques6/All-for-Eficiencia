@@ -1,6 +1,6 @@
 ---
 tipo: catalogo
-gerado_em: 2026-08-31
+gerado_em: 2026-09-09
 variantes: 44
 status: gerado
 ---
@@ -34,7 +34,7 @@ Legenda: — = lista vazia (não discrimina) · ✓/✗ = `ativa`.
 | [[products-2-tres-ingredientes]] | products | ✓ | 6 | consideracao | carrinho-abandonado, checkout-abandonado, transacional | composicao-formulacao | — | — | — | meio | tres-provas-verificaveis, produto-com-composicao-relevante, corredores-livres-nas-laterais | 0 | 3–3 | medio · 716px | — |
 | [[products-3-arco-de-novidades]] | products | ✓ | 9 | lancamento | carrinho-abandonado, checkout-abandonado, transacional | — | — | — | escuro-saturado | meio | foto-de-campanha-propria | 1 | 4–4 | pesado · 1359px | — |
 | [[products-4-produto-unico-com-prazo]] | products | ✓ | 10 | campanha-promocional | carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio | preco-valor | — | luxo | escuro-saturado, com-acento-definido | meio | prazo-real | 1 | 1–1 | medio · 963px | — |
-| [[products-5-tres-com-selo-de-percentual]] | products | ✓ | 17 | campanha-promocional | carrinho-abandonado, checkout-abandonado, transacional | escolha-variedade | premium-editorial | — | — | meio | desconto-percentual, canto-livre-para-selo | 3 | 3–3 | peca-inteira · 2994px | exige-hero-ou-contexto-acima |
+| [[products-5-tres-com-selo-de-percentual]] | products | ✓ | 23 | campanha-promocional | carrinho-abandonado, checkout-abandonado, transacional | escolha-variedade | premium-editorial | — | — | meio | desconto-percentual, canto-livre-para-selo | 3 | 3–3 | peca-inteira · 2994px | exige-hero-ou-contexto-acima |
 | [[products-6-vitrine-de-sale]] | products | ✓ | 8 | sale-recorrente | carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio | — | — | — | — | meio | ornamento-grafico-de-identidade | 2 | 2–2 | medio · 974px | — |
 | [[products-7-dois-com-galeria-de-angulos]] | products | ✓ | 16 | lancamento | carrinho-abandonado, checkout-abandonado, transacional | qualidade-eficacia | — | volume-impulso | — | meio | acervo-por-angulo, colecao-ou-kit | 2 | 2–2 | peca-inteira · 3298px | — |
 | [[products-8a-quatro-recomendacoes]] | products | ✓ | 13 | cross-sell, catalogo-mais-vendidos | carrinho-abandonado, checkout-abandonado, welcome-1, transacional | escolha-variedade | — | luxo, premium-editorial | — | meio | fragmentos-de-contorno | 4 | 4–4 | peca-inteira · 2196px | — |
@@ -50,8 +50,8 @@ Legenda: — = lista vazia (não discrimina) · ✓/✗ = `ativa`.
 | [[offer-1-condicao-sem-imagem]] | offer | ✓ | 3 | campanha-promocional | — | — | — | — | — | fecha, ponte | — | 0 | — | leve · 400px | exige-hero-ou-contexto-acima |
 | [[offer-2-duas-ofertas-sazonais]] | offer | ✓ | 12 | sazonal-data-comemorativa | nutricao-de-conteudo | — | — | — | — | — | duas-ofertas-simultaneas, motivo-sazonal, prazo-real, foto-de-cena-ambiente | 0 | — | pesado · 1440px | — |
 | [[offer-3-lembrete-de-cupom]] | offer | ✓ | 7 | browse-abandonment, carrinho-abandonado | — | — | — | — | — | peca-inteira | cupom-ativo | 0 | — | medio · 639px | — |
-| [[offer-4-manifesto-antes-do-cupom]] | offer | ✓ | 9 | welcome-1 | campanha-promocional | pertencimento | premium-editorial | popular-informal | — | peca-inteira, fecha | cupom-ativo, manifesto-de-marca-escrito | 0 | — | medio · 682px | — |
-| [[offer-5-tres-diferenciais-e-cupom]] | offer | ✓ | 11 | welcome-meio | campanha-promocional | preco-valor | premium-editorial | — | — | — | cupom-ativo, tres-diferenciais-concretos | 0 | — | medio · 691px | — |
+| [[offer-4-manifesto-antes-do-cupom]] | offer | ✗ | 9 | welcome-1 | campanha-promocional | pertencimento | premium-editorial | popular-informal | — | peca-inteira, fecha | cupom-ativo, manifesto-de-marca-escrito | 0 | — | medio · 682px | — |
+| [[offer-5-tres-diferenciais-e-cupom]] | offer | ✗ | 11 | welcome-meio | campanha-promocional | preco-valor | premium-editorial | — | — | — | cupom-ativo, tres-diferenciais-concretos | 0 | — | medio · 691px | — |
 | [[offer-6-carrinho-preto-e-branco]] | offer | ✓ | 9 | carrinho-abandonado, checkout-abandonado | — | — | bold-alto-contraste | — | preto-e-branco | peca-inteira | cupom-ativo, bloco-dinamico-de-carrinho | 0 | — | medio · 852px | — |
 | [[footer-1-menu-outline]] | footer | ✓ | 3 | — | transacional | — | minimalista-leve | — | claro | fecha | — | 0 | 4–6 | medio · 1040px | — |
 | [[footer-2-menu-solido]] | footer | ✓ | 3 | — | — | — | bold-alto-contraste | minimalista-leve | claro | fecha | — | 0 | 5–5 | medio · 1113px | — |
