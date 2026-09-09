@@ -2,7 +2,7 @@
 tipo: referencia
 assunto: transformar-objecao-em-argumento
 autor: well-copy
-status: rascunho
+status: aprovado
 fonte: 'Figma "Best Performing Email Concepts Of All Time" — 29 e-mails da Well Copy e de marcas diversas, capturados até 2026-02'
 validade: 2027-02-24
 ---

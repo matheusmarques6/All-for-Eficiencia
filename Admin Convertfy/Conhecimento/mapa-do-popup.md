@@ -75,7 +75,9 @@ O que entra aqui: decisão com número (trocamos X por Y e a conversão foi de A
 
 # Referências — peças reais
 
-Pasta: `Referencias/popup/`. Vazia hoje.
+Pasta: `Referencias/popup/`. Vazia hoje — nenhum pop-up capturado ainda.
+
+**Mas há um item de pop-up na coleção de e-mail.** "Split Welcome Flow By Pop-Up Answer" segmenta a trilha do welcome pela resposta que a pessoa deu no formulário: o pop-up pergunta que problema ela quer resolver, e o flow entrega conteúdo específico para aquela resposta. É o único ponto de toda a coleção da Well Copy que liga captação a flow. Está em [[padroes-estruturais-de-flow]], e o **como** já existe no corpus do Max, em [[segmentacao-vinda-do-form]] — hidden field vira profile property, que vira split no flow.
 
 O que entra aqui: pop-up capturado no mercado, com marca, data, copy literal e o julgamento do que vale roubar. Referência sem julgamento é arquivo morto.
 
