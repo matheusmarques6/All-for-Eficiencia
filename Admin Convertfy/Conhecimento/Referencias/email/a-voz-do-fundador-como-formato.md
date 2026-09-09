@@ -1,42 +1,29 @@
 ---
 tipo: referencia
-assunto: voz-do-fundador
+assunto: a-voz-do-fundador-como-formato
 autor: well-copy
 status: aprovado
 fonte: 'Figma "Best Performing Email Concepts Of All Time" — 29 e-mails da Well Copy e de marcas diversas, capturados até 2026-02'
 validade: 2027-02-24
 ---
 
-Vir do fundador não é assinatura, é formato. Muda o remetente, muda o registro da escrita — texto simples em vez de peça desenhada — e muda o que a peça pode fazer: pedir resposta, admitir uma objeção em voz alta, contar o motivo de a empresa existir. Uma peça desenhada não faz isso sem soar falsa. Esta nota reúne os seis e-mails de uma coleção do Figma da Well Copy que usam esse formato em cinco momentos do ciclo — campanha de preço, abandono (×2), pós-compra imediato e pós-compra três semanas depois. Se o mesmo desenho ganha em momentos tão distantes, o ganho está no formato, não no momento. Quatro dos seis são de flow, não de campanha, e a fonte afirma bons índices de resposta, o que liga isso a engajamento e reputação de envio, não só a conversão. Aviso desde já: apenas um dos seis tem imagem capturada.
+Vir do fundador não é assinatura, é formato: muda o remetente, muda o registro da escrita e muda o que a peça pode fazer — admitir em voz alta que o produto é caro, contar por que a empresa existe, pedir resposta. Uma peça institucional não faz isso sem soar falsa. Esta nota carrega o mecanismo e os dois usos em CAMPANHA de uma coleção do Figma da Well Copy: um reenquadramento de preço em carta de texto puro (Sundays, comida para cães) e um recado em áudio do fundador numa promoção de Black Friday (HQ Germany, equipamento de treino). Os quatro usos em FLOW — abandono ×2, pós-compra imediato e check-in de 3 semanas — estão em [[o-fundador-nos-flows]], com a copy verbatim de cada um. Se o mesmo desenho aparece em campanha e em quatro pontos de flow, o ganho está no formato, não no momento.
 
 # O mecanismo
 
 Três camadas, separáveis:
 
-1. **Remetente.** Uma pessoa com cargo, não a marca — no único e-mail com imagem, `Dr. Tory Waxman / Founder & Chief Veterinary Officer`.
-2. **Registro.** Texto corrido, sem hero, sem grid de produto, um link só.
-3. **Permissões que o formato abre.** Uma pessoa pode admitir que o produto é caro, listar objeções e respondê-las, dizer por que fundou a empresa, pedir resposta. A marca institucional não pode — ou pode, mas soa como roteiro.
+1. **Remetente.** Uma pessoa com cargo, não a marca — `Dr. Tory Waxman / Founder & Chief Veterinary Officer` no Sundays; `IT'S SEVERIN FROM HQ GERMANY` no outro.
+2. **Registro.** Primeira pessoa do singular, admitindo coisas que a marca não admite.
+3. **Permissões que o formato abre.** Uma pessoa pode dizer que o produto é caro e explicar por quê, pode contar o motivo de ter fundado a empresa, pode pedir resposta. A marca institucional não pode — ou pode, e soa como roteiro.
 
-A terceira camada carrega o resultado; as duas primeiras a tornam crível.
-
-# Os seis usos, por momento do ciclo
-
-| E-mail | Momento do ciclo | O que a fonte afirma (verbatim) | Tem imagem? |
-|---|---|---|---|
-| Price Reframe From Founder | Campanha — objeção de preço | "Overcome the price objection with a note from the founder" | **Sim** |
-| Voice Note From The Founder | Campanha — promoção/sale | "This personal feel is a great way to stand out and performs really well" | Não |
-| Abandonment FAQ Email From Founder | Flow de abandono | "Coming from the founder makes it more personal and hold more weight" | Não |
-| Abandonment Check-In From Founder | Flow de abandono, e-mail 2 ou 3 | "Reach out from the founder as a personal touch" | Não |
-| Post-Purchase Thank You | Pós-compra, imediato | "absolutely crushes" | Não |
-| Founder Check-in 3 Weeks After Purchase | Pós-compra, +3 semanas | "The repeat purchases on this email are very high"; "Good reply rates and feedback for support team" | Não |
-
-Quatro de seis são flow — infraestrutura que roda sozinha, sem custo de calendário. Se funciona em flow, é ativo permanente, não ideia de campanha.
-
-E a fonte reivindica **resposta**, não clique: "Good reply rates and feedback for support team". Resposta é o sinal mais caro de conseguir e o mais valioso de ter — mexe em reputação de envio, não só em receita da peça. É a afirmação mais interessante da coleção.
+A terceira camada carrega o resultado; as duas primeiras a tornam crível. **Texto puro não é uma delas.** O HQ Germany prova: é um e-mail gráfico escuro completo, com grade de produto, e o mecanismo continua lá porque há rosto, nome e primeira pessoa. Texto puro amplifica; não é condição.
 
 # A copy que carrega o mecanismo
 
-Único e-mail com imagem. Marca identificável pelo corpo do texto: **Sundays** (comida para cães) — "Use Sundays as a topper", "I didn't create Sundays for the money". Transcrição verbatim, em inglês:
+## Price Reframe From Founder — Sundays
+
+Marca identificada pelo corpo do texto ("Use Sundays as a topper", "I didn't create Sundays for the money"). Verbatim, em inglês:
 
 > Hi friend,
 >
@@ -76,45 +63,61 @@ E a fonte reivindica **resposta**, não clique: "Good reply rates and feedback f
 > Dr. Tory Waxman
 > Founder & Chief Veterinary Officer
 
-Nada ilegível: as duas fatias cobrem do "Hi friend" à assinatura.
+## Voice Note From The Founder — HQ Germany
 
-As frases que o racional do autor destaca, entre aspas, no cartão de notas:
+Peça gráfica, fundo preto e dourado, foto do fundador. Todo o texto legível:
 
-- Price Reframe: `"Less than your morning latte"` · `"$3/day"`
-- Justify / Explain Price: `"We spend 50 times more on our ingredients"` · `"Human grade standards"`
-- Reframe Benefits — More Than Dog Food: `"You're investing in more healthy years together, more energy for walks, fewer vet visits, and the peace of mind that comes with knowing you're giving them the best"`
+> **HEY — IT'S SEVERIN FROM HQ GERMANY.**
+>
+> I wanted to leave you a quick note now that our **Early Access Black Friday Sale** is officially live.
+>
+> This time of year means a lot to me — it's when we get to thank everyone who's supported HQ Germany from day one.
+>
+> Every piece we make is designed to perform and built to last — and right now, you can
+>
+> **GET 22% OFF** — with the code **BFCM2025-VIP**
+>
+> *(bloco dourado imitando um player de áudio: ícone de play, forma de onda, `0:35`)*
+>
+> Thanks for being a part of HQ Germany.
+>
+> **[LISTEN & SHOP NOW]**
 
-**Duas divergências entre cartão e peça**, que provam que o cartão é paráfrase, não transcrição: o cartão escreve `"comes with knowing"`, o e-mail diz `comes from knowing`; e o cartão vende a âncora como `"$3/day"`, expressão que não aparece no e-mail — lá o número entra como `That $3 you spend today`. Cite o e-mail, não o cartão.
+Depois disso, quatro blocos de produto com CTA em alemão — `KETTLEBELLS / JETZT SHOPPEN`, `KURZHANTELN`, `HANTELSCHEIBEN`, `SPORTBODEN` — e barra de navegação `EQUIPMENT · SETS · PRODUKTDETAILS & ANTWORTEN · SPORTBODEN · WEARABLES`, redes sociais e `Copyright © 2025 HQ Germany`.
 
+# Onde o racional do autor diverge da peça
 
-# O que falta nesta nota
+**Price Reframe — duas divergências.** O cartão escreve `"the peace of mind that comes with knowing"`; a peça diz `comes from knowing`. E o cartão vende a âncora como `"$3/day"` — expressão que **não existe** no e-mail: lá o número aparece uma vez, como `That $3 you spend today`, e a âncora de fato usada é `For less than your morning latte`.
 
-**Cinco dos seis e-mails não têm imagem capturada** — o download bateu no limite de chamadas do Figma. São eles:
+**Voice Note — três divergências.** (1) O cartão diz `"This personal feel is a great way to stand out"`; a peça é um e-mail de Black Friday inteiramente desenhado, com grade de quatro produtos e barra de navegação — o "personal" ocupa a primeira dobra e some. (2) O cartão explica a mecânica (`"embed a voice note on a page on your site OR... a simple Google Drive"`); a peça mostra apenas **uma imagem de player** com `0:35` — para onde o botão leva não é visível. (3) O cartão diz `"talking about the sale or any campaign really"`; a peça é bilíngue, corpo em inglês e CTAs em alemão, detalhe que o cartão não registra e que muda o que dá para copiar.
 
-- Voice Note From The Founder
-- Abandonment FAQ Email From Founder
-- Abandonment Check-In From Founder
-- Post-Purchase Thank You
-- Founder Check-in 3 Weeks After Purchase
+Padrão: o cartão do autor é paráfrase de memória, não transcrição. **Cite a peça, nunca o cartão.**
 
-Para esses cinco, **a copy não foi verificada**. Tudo que esta nota traz deles é o racional escrito do autor no cartão de notas — e o parágrafo acima mostrou que o cartão diverge da peça quando dá para conferir. Nada foi inferido sobre conteúdo, assunto, comprimento ou desenho dessas peças, e nada deve ser: não as vi.
+# Os detalhes de execução que a peça revela
 
-O material está no Figma **"Best Performing Email Concepts Of All Time"** caso queiram completar a captura — prioridade nos dois de pós-compra, que carregam as afirmações mais fortes.
+| | Price Reframe (Sundays) | Voice Note (HQ Germany) |
+|---|---|---|
+| Assinatura | Nome + cargo completo | Nome no hero, sem assinatura no rodapé |
+| Desenho | Texto puro, sem hero, sem produto | Peça gráfica completa, grade de produto |
+| CTA | Um link em texto | `LISTEN & SHOP NOW` + 4 `JETZT SHOPPEN` + nav |
+| Pede resposta? | Não | Não |
+| Palavras | **340** | **86** |
+| Oferta | Nenhuma; só garantia de 14 dias | 22% OFF, código `BFCM2025-VIP` |
+
+O contraste é o achado: o mesmo "formato fundador" aparece uma vez como carta de 340 palavras sem oferta e outra como abertura de 86 palavras em cima de uma promoção. São dois usos diferentes do mesmo remetente, não uma receita só.
+
+Nada ilegível nestas duas peças.
 
 # O que esta nota NÃO prova
 
-Zero números. A evidência de performance desta coleção, inteira, é: **"absolutely crushes"**, **"very high"**, **"performs really well"**, **"hold more weight"**, **"Good reply rates"**. O cabeçalho diz que as peças "performed high above expectation" e não diz de quem era a expectativa.
+Zero números. A evidência inteira, para os dois, é `"performs really well"` e o cabeçalho do arquivo dizendo que as peças "performed high above expectation" — sem dizer de quem era a expectativa. Não há baseline, controle, amostra, tamanho de lista, período nem métrica nomeada. E o arquivo tem interesse comercial declarado: fecha com auditoria grátis, "book a call" e comunidade paga.
 
-Não há em nenhum dos seis: baseline, controle, amostra, tamanho de lista, marca (exceto onde deduzi do corpo do texto), período, vertical, métrica nomeada, nem definição de "high". "Very high" comparado a quê? "Good reply rates" sobre quantos envios? Não dá para saber com o que está no arquivo.
-
-E o arquivo tem interesse comercial declarado: fecha com CTA de auditoria grátis, "book a call" e comunidade paga. Isso não invalida os e-mails — a copy do Sundays é boa e a estrutura é copiável de qualquer jeito —, mas invalida qualquer uso das afirmações de performance como argumento. **A coleção é catálogo de formatos para testar, não corpo de evidência.** Se entrar em deck ou proposta, entra como referência de execução; a prova vem da conta do cliente.
+Isso não invalida a copy — a carta do Sundays é boa e a estrutura é copiável de qualquer jeito. Invalida usar as afirmações de performance como argumento. **É catálogo de formatos para testar, não corpo de evidência.** Em deck ou proposta entra como referência de execução; a prova vem da conta do cliente.
 
 # Onde isso encosta no corpus do Max
 
-**Concordância.** [[texto-puro-funciona-porque-e-raro]] chega no mesmo lugar por outro caminho — "If people feel like they're getting an email from the founder... Those are awesome" — e registra que esse efeito **não depende de escassez**, enfraquecendo a raridade como causa única. A coleção da Well Copy é o dado que falta lá: seis peças do formato-fundador em cinco momentos distintos. Se o mecanismo fosse raridade, não sobreviveria a ser usado seis vezes no mesmo ciclo de vida do mesmo cliente.
+**Concordância.** [[texto-puro-funciona-porque-e-raro]] chega ao mesmo lugar por outro caminho — "If people feel like they're getting an email from the founder... Those are awesome" — e registra que o efeito **não depende de escassez**. A coleção da Well Copy é o dado que falta lá: seis peças do mesmo formato em cinco momentos do ciclo. Se o mecanismo fosse raridade, não sobreviveria a ser usado seis vezes com o mesmo cliente. O HQ Germany reforça mais ainda: funciona até dentro de peça gráfica, onde raridade nenhuma existe.
 
-**Concordância mais específica.** [[post-purchase]] já prevê os dois pós-compra desta coleção: o e-mail 1 é "text-based, do founder", com hero de "sincere thank-you from the founder", e o "Founder Check-In" está entre os opcionais, com exemplo em ~3 semanas ("It's been nearly three weeks since you started your journey and I want to personally follow up with you"). A coleção confirma, não inventa. Acrescenta a afirmação de **reply rate**, ausente no corpus do Max — e perde no que o Max tem: o PS de upsell rendendo "like 2% to 3% placed order rates". Um número medido vale mais que cinco superlativos.
+**Atrito medido.** [[email-de-texto-puro]] fixa "Do not make this over 250 words" e "one to two at most call to actions". O Price Reframe respeita o teto de CTA (um link) e **estoura o de palavras em 36%** — 340 contra 250. Contei também os quatro de flow: só o FAQ do SNOW estoura (298); os outros três cabem folgados (ver [[o-fundador-nos-flows]]). Ou a regra das 250 vale para a campanha de texto puro e não para a carta contra objeção de preço, ou uma das fontes erra. Conflito aberto.
 
-**Atrito.** [[o-numero-decide-nao-a-opiniao]] reprova a coleção inteira: "It doesn't matter what you think. It matters what the numbers say". Pelo padrão do Max, "absolutely crushes" é opinião, e nenhum dos seis passaria. O uso correto desta nota inverte o que o Figma sugere: não adotar porque funcionou, e sim **testar porque a estrutura é boa** — com baseline, contra a versão gráfica, na conta do cliente.
-
-**Atrito secundário.** [[email-de-texto-puro]] fixa "Do not make this over 250 words" e "one to two at most call to actions". O Price Reframe respeita o limite de CTA (um link) e **estoura o de palavras com folga** — é e-mail de leitura, não de varredura. Ou a regra das 250 palavras vale para a campanha de texto puro e não para a carta do fundador contra objeção de preço, ou uma das fontes erra. Fica como conflito aberto.
+**Reprovação.** [[o-numero-decide-nao-a-opiniao]] derruba a coleção inteira: "It doesn't matter what you think. It matters what the numbers say". O uso correto desta nota inverte o que o Figma sugere — não adotar porque funcionou, e sim **testar porque a estrutura é boa**, com baseline, contra a versão gráfica, na conta do cliente.

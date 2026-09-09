@@ -19,13 +19,14 @@ Consequência prática, que não se negocia: a IA pode dizer **"a Well Copy sele
 
 Um segundo achado rebaixa ainda mais a confiança nos racionais. No único caso em que deu para comparar racional e peça lado a lado, **o racional cita errado o próprio e-mail**: escreve *"comes with knowing"* onde a peça diz *comes from knowing*, e vende uma âncora de *"$3/day"* que não existe no e-mail. Os racionais são paráfrase, não transcrição — e é só isso que temos para 13 dos 29.
 
-# As sete notas
+# As oito notas
 
 | Nota | Mecanismo | Conceitos |
 |---|---|---|
 | [[reenquadrar-a-mesma-oferta]] | a oferta é economicamente idêntica; muda a moldura | Store Credit · Loyalty Points · "On Us" · Mystery Discount |
 | [[curiosidade-e-oferta-oculta]] | a oferta é ocultada para forçar uma ação intermediária | First X Customers · Order Lottery · Mystery Discount · What's The Discount Code · Free Mystery Gift |
-| [[a-voz-do-fundador-como-formato]] | trocar remetente e registro muda o que a peça pode fazer | Price Reframe · Voice Note · Abandonment FAQ · Abandonment Check-In · Post-Purchase Thank You · Founder Check-in 3 semanas |
+| [[a-voz-do-fundador-como-formato]] | trocar remetente e registro muda o que a peça pode fazer | Price Reframe · Voice Note |
+| [[o-fundador-nos-flows]] | o mesmo formato dentro de flow, com quatro peças transcritas | Abandonment FAQ · Abandonment Check-In · Post-Purchase Thank You · Founder Check-in 3 semanas |
 | [[formato-da-prova-social]] | o formato da prova importa mais que a quantidade | The Looong Testimonial · Native Social Media Reviews · The Reddit |
 | [[urgencia-fabricada-por-formato]] | o gênero do e-mail carrega a urgência sozinho | Breaking News · Leaked Slack · Back In Stock |
 | [[transformar-objecao-em-argumento]] | atacar a objeção de frente em vez de contorná-la | Our Stuff Isn't Cheap · What's Hiding In Your X |

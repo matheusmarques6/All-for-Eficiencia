@@ -7,7 +7,7 @@ fonte: 'Figma "Best Performing Email Concepts Of All Time" — 29 e-mails da Wel
 validade: 2027-02-24
 ---
 
-Esta nota reúne cinco formatos de campanha de e-mail em que a oferta não é declarada de forma direta — ela é escondida, sorteada ou condicionada a um código — junto com a copy verbatim de quatro e-mails reais que usam o mecanismo e o racional do autor da fonte. Serve para escrever campanha promocional quando o desconto simples já não gera ação, e para saber exatamente o que a fonte prova e o que ela apenas afirma sem lastro nenhum.
+Esta nota reúne cinco formatos de campanha de e-mail em que a oferta não é declarada de forma direta — ela é escondida, sorteada ou condicionada a um código — junto com a copy verbatim dos cinco e-mails reais que usam o mecanismo e o racional do autor da fonte. Serve para escrever campanha promocional quando o desconto simples já não gera ação, e para saber exatamente o que a fonte prova e o que ela apenas afirma sem lastro nenhum.
 
 # O mecanismo
 
@@ -19,7 +19,7 @@ Tese comum aos cinco formatos: **a oferta é ocultada ou condicionada para forç
 | Order Lottery Offer | quem ganha (sorteio pós-compra) | **comprar** — a compra é o bilhete | possibilidade de custo zero |
 | Mystery Discount Campaign | qual dos três percentuais teasados você recebe | chegar ao checkout e aplicar o código | curiosidade sobre o próprio prêmio |
 | What's The Discount Code | qual dos códigos é o válido | escolher item, ir ao checkout, tentar o código | jogo / tentativa e erro |
-| Free Mystery Gift | qual é o brinde | ir à landing page ou aplicar o código | curiosidade sobre o objeto |
+| Free Mystery Gift | qual é o brinde | ir ao site — a peça não diz como se revela | curiosidade sobre o objeto |
 
 Os dois primeiros somam **urgência estrutural**. O racional do autor sobre por que o desconto plano falha: `"A simple sale like 10% OFF for 72 hours doesn't create urgency for the user to buy NOW... they typically will delay for the last minute."`
 
@@ -75,9 +75,17 @@ E-mail de **texto puro**, do fundador, sem imagem de produto. O mecanismo está 
 - CTAs: `"Choose your weapon:"` — `"STEEL"`, `"ALUMINUM"`, `"WOOD"`, `"EXPLORE ALL"`
 - Descadastro: `"Want to see less of us? Manage Preferences"` / `"Want us out of your inbox? Unsubscribe"`
 
-## Free Mystery Gift — **sem imagem**
+## Free Mystery Gift — marca: **Benchmark Abrasives**
 
-O download do Figma bateu no limite e **este e-mail não foi capturado**. Só existe o racional do autor: `"You may notice a them here... mystery offers. This mystery gift campaign gets great engagement as people are super curious on what it is. Set this up by taking users to a landing page showing the free gift OR just do a discount code that adds the free gift"`. Sem copy, headline, CTA ou marca.
+Mesma marca do "What's The Discount Code": dois dos cinco formatos saem do mesmo remetente. E-mail curtíssimo — logo, arte, uma frase, um botão, rodapé.
+
+- Barra/headline: `"WHAT'S"` / `"THAT"` / `"FREE"` / `"GIFT?!"`, ao lado de um ponto de interrogação gigante
+- Subhead: `"We're not saying what it is… but it might just spark your next project."`
+- CTA único: `"SHOP NOW & REVEAL IT NOW"`
+- Navegação do rodapé: `"SANDING BELTS"`, `"BONDED ABRASIVES"`, `"COATED ABRASIVES"`, `"CARBIDE BURRS"`, `"CUTTING TOOLS"`, `"POWER BRUSHES"`
+- Descadastro, idêntico ao outro e-mail da marca: `"Want to see less of us? Manage Preferences"` / `"Want us out of your inbox? Unsubscribe"`
+
+O brinde aparece como **silhueta preta** sobre uma explosão de raios amarelos: a foto do produto foi escurecida até virar recorte. Ampliada, a palavra `"STICKERS"` ainda vaza no topo da cartela — a ocultação é imperfeita. O resto do que está impresso nela fica **[ilegível]**. Não há subject line na captura, nem código de desconto, nem menção a landing page.
 
 # Os detalhes de execução que a fonte registra
 
@@ -89,7 +97,15 @@ Regras acionáveis, todas do racional do autor — nenhuma medida.
 4. **4 a 10 códigos, um só válido.** `"Give 4-10 different discount codes but only one of them unlocks the offer your are highlighting"`. Benchmark usou 8. `"You only get one shot…"` é copy, não mecânica.
 5. **Loteria se opera manualmente no Shopify.** `"Simply send a follow up email to everybody who bought and announce who the winners are, and give them a refund in Shopify"` — sem follow-up, é promessa não cumprida.
 6. **Condições da loteria: numéricas e curtas** — Holy Pals fixa `"3 orders"` e `"24 hours"`.
-7. **Free Mystery Gift:** landing page mostrando o brinde, ou código que o adiciona ao carrinho.
+7. **Free Mystery Gift:** landing page mostrando o brinde, ou código que o adiciona ao carrinho — nenhuma das duas variantes está declarada na peça (ver abaixo).
+
+# Onde o racional do autor diverge da peça
+
+Os racionais da fonte são paráfrase, não transcrição. No Free Mystery Gift:
+
+- **A mecânica prometida não aparece no e-mail.** O autor manda `"a landing page showing the free gift OR just do a discount code that adds the free gift"`. A peça não mostra código e não nomeia landing page: `"SHOP NOW & REVEAL IT NOW"` só promete a revelação do outro lado do clique. O e-mail não diz como obter o brinde, nem sob que condição (compra mínima, prazo, elegibilidade).
+- **A ocultação é gráfica, e o racional omite isso.** A curiosidade não é feita pela copy — é a foto do brinde apagada em silhueta dentro da explosão. É essa execução que se copia.
+- **A silhueta vaza:** `"STICKERS"` segue legível no arquivo exportado. Escurecer não é mascarar.
 
 # O que esta nota NÃO prova
 

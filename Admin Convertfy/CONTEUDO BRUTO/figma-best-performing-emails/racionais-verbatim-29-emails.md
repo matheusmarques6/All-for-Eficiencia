@@ -42,9 +42,9 @@ Rodapé verbatim:
 | 14 | What's Hiding In Your X | 4:4896 | sim |
 | 15 | The "Back In Stock" | 87:1171 | sim |
 | 16 | What's The Discount Code Campaign | 4:5710 | sim |
-| 17 | Voice Note From The Founder | 4:5052 | **não** |
-| 18 | Free Mystery Gift | 4:5548 | **não** |
-| 19 | The Reddit | 87:1164 | **não** |
+| 17 | Voice Note From The Founder | 4:5052 | sim |
+| 18 | Free Mystery Gift | 4:5548 | sim |
+| 19 | The Reddit | 87:1164 | sim |
 
 **1. Store Credit Offer**
 > You can use this email as a campaign to your list or in flows such as the winback flow or abandonment flows · The psychology of having credit in your account hits differently than 10% OFF · Using an email that looks automated and uses a random number like $17.63 makes it stand out and look official · Utilizes a simple discount code... it essentially is just $17.63 OFF but framed as store credit
@@ -107,16 +107,16 @@ Rodapé verbatim:
 
 | # | Conceito | node id | imagem baixada |
 |---|---|---|---|
-| 20 | Split Welcome Flow By Pop-Up Answer | 87:492 | **não** |
-| 21 | The Optimized Welcome Email | 87:767 | **não** |
-| 22 | Welcome Flow Check-In | 3:4452 | **não** |
-| 23 | Abandoned Cart (Abandoned Checkout #1) | 3:4568 | **não** |
-| 24 | Abandonment FAQ Email From Founder | 3:4445 | **não** |
-| 25 | Abandonment Check-In From Founder | 3:4553 | **não** |
-| 26 | Abandonment Mystery Discount | 4:4628 | **não** |
-| 27 | Custom Order Confirmation | 87:1157 | **não** |
-| 28 | Post-Purchase Thank You | 3:4561 | **não** |
-| 29 | Founder Check-in 3 Weeks After Purchase | 3:764 | **não** |
+| 20 | Split Welcome Flow By Pop-Up Answer | 87:492 | sim |
+| 21 | The Optimized Welcome Email | 87:767 | sim |
+| 22 | Welcome Flow Check-In | 3:4452 | sim |
+| 23 | Abandoned Cart (Abandoned Checkout #1) | 3:4568 | sim |
+| 24 | Abandonment FAQ Email From Founder | 3:4445 | sim |
+| 25 | Abandonment Check-In From Founder | 3:4553 | sim |
+| 26 | Abandonment Mystery Discount | 4:4628 | sim |
+| 27 | Custom Order Confirmation | 87:1157 | sim |
+| 28 | Post-Purchase Thank You | 3:4561 | sim |
+| 29 | Founder Check-in 3 Weeks After Purchase | 3:764 | sim |
 
 **20. Split Welcome Flow By Pop-Up Answer**
 > We run a lot of pop-up forms that ask the customer a question such as what problem they are looking to solve with their product... · You can segment your welcome flow based on the answer that they person gave in the pop-up and give them specific information · We've noticed a meaningful impact on conversions doing this
@@ -150,6 +150,14 @@ Rodapé verbatim:
 
 # Estado da captura de imagem
 
-16 dos 29 e-mails foram baixados em resolução nativa (800px de largura) antes de a conta bater no **limite de chamadas do plano Starter do Figma**. Os 13 restantes — que incluem **os 10 e-mails de flow**, os mais operacionais da coleção — têm só o racional acima. Os PNGs estão nesta pasta, e as fatias legíveis em `fatias/`.
+**Os 29 e-mails foram capturados** em resolução nativa (800px de largura; o Split Welcome tem 2.890px por conter quatro variantes lado a lado). Os PNGs estão nesta pasta e as fatias legíveis em `fatias/`.
 
-Para completar: liberar mais chamadas no Figma, ou exportar manualmente os 13 node ids marcados como "não" nas tabelas acima.
+A captura foi feita em duas etapas: 16 peças pelo arquivo original, e as 13 restantes depois de a conta do Figma ser trocada — a primeira tinha assento *View* em plano *starter* e bateu no limite de chamadas do MCP no meio do processo.
+
+# Por que a imagem importa mesmo tendo o racional
+
+Os cartões "Notes" acima são **paráfrase, não transcrição**. Está provado: no Price Reframe From Founder, o racional escreve `"comes with knowing"` onde a peça diz `comes from knowing`, e vende uma âncora de `"$3/day"` que não aparece em lugar nenhum do e-mail (lá está `That $3 you spend today`).
+
+Consequência: **nenhuma frase entre aspas nos racionais acima pode ser tratada como copy real** sem conferir contra a peça. As notas de `Referencias/email/` fazem essa checagem e registram cada divergência encontrada.
+
+_Última atualização: 2026-09-09_
