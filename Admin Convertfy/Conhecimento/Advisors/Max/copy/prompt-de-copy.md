@@ -16,14 +16,14 @@ status: aprovado
 **Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
 pessoa: "So we have a email marketing brain, something that **Max had put together
 himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
-Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
+Ressalva registrada no laudo — L5753 vem de ASR ([[mapa-da-autoria]] §4.1).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: **o prompt é artefato escrito e aparece duas vezes** — L5627-5661
 (bloco de documento, dentro da faixa do vídeo mas antes do marcador de
@@ -143,7 +143,7 @@ O slide correspondente reivindica o artefato em primeira pessoa — "Lucky for y
 atribui a um terceiro (L5753). Os dois não podem ser a mesma pessoa. O laudo
 fecha a triangulação com L5212 ("my custom GPT", `max-provado`) e L6387 ("I
 actually made this with over 500 docs", `max-provado`): quatro reivindicações em
-primeira pessoa contra uma atribuição em terceira. Ver [[_autoria]] §4.1.
+primeira pessoa contra uma atribuição em terceira. Ver [[mapa-da-autoria]] §4.1.
 
 # Onde o corpus discorda
 
@@ -151,7 +151,7 @@ primeira pessoa contra uma atribuição em terceira. Ver [[_autoria]] §4.1.
 like hiring a junior copywriter. And you can get the first draft"; e em L5855,
 "use it as a framework builder, not a first draft machine". Nos walkthroughs ao
 vivo, o uso real é gerar rascunho e escolher entre as saídas (L6399-6402). Ver
-[[_conflitos]] e [[doutrina/o-processo-de-criacao]].
+[[mapa-dos-conflitos]] e [[doutrina/o-processo-de-criacao]].
 
 # O que o corpus não diz
 

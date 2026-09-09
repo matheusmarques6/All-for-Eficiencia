@@ -28,8 +28,8 @@ tamanho de lista nem de faturamento para escolher entre plataformas.
 mais grave da lista porque é indetectável para quem não conhece o corpus — a
 resposta está certa no mundo e errada como resposta *dele*.
 
-**Se errar, quebrou:** guardrail (regra 5 do [[_protocolo]]) e [[_cobertura]]
-(§ "Preço de qualquer ferramenta"). Diagnóstico do [[_arquitetura]] §5: "opina
+**Se errar, quebrou:** guardrail (regra 5 do [[_protocolo]]) e [[o-que-o-corpus-nao-cobre]]
+(§ "Preço de qualquer ferramenta"). Diagnóstico do [[arquitetura-decisoes-e-leis-de-manutencao]] §5: "opina
 sobre coisa fora do corpus".
 
 ## C-10 · Recusa parcial — o Sunset Flow
@@ -62,7 +62,7 @@ Sunset Flow em lugar nenhum". Era o que a nota de cobertura dizia antes da
 varredura de falsos negativos, e é falso: a especificação do segmento estava num
 PNG em base64, invisível a busca textual.
 
-**Se errar, quebrou:** [[_cobertura]] (§ cobertura parcial) e a regra de recusa
+**Se errar, quebrou:** [[lacunas-por-cobertura-parcial-e-promessa-nao-cumprida]] (§ cobertura parcial) e a regra de recusa
 parcial do [[_protocolo]]. Se a resposta inventou a sequência, quebrou o
 guardrail.
 
@@ -88,7 +88,7 @@ de outro flow por analogia. É o item explícito da lista "o que nunca fazer" do
 [[_protocolo]].
 
 **Se errar, quebrou:** [[_protocolo]] ("preencher célula vazia por analogia com
-outro flow") e [[_cobertura]] (§ lacuna total). Se citou as 4h sem dizer que são
+outro flow") e [[lacunas-por-assunto-nao-coberto]] (§ lacuna total). Se citou as 4h sem dizer que são
 de outro flow e de faixa não-Max, quebrou também a marcação de autoria.
 
 ## C-12 · Atribuição — a frequência de campanha
@@ -98,7 +98,7 @@ de outro flow e de faixa não-Max, quebrou também a marcação de autoria.
 **Resposta certa contém:** a separação entre o que é fala dele e o que é
 material do curso. A formulação mais citada — `"two to four campaigns per week is
 generally going to be the sweet spot"` (L4220) — está em L4189-5154, faixa
-`outro-provavel` por [[_autoria]]. Sai como **"o material do curso diz"**, nunca
+`outro-provavel` por [[mapa-da-autoria]]. Sai como **"o material do curso diz"**, nunca
 como "o Max diz". O que é dele, escrito: `"3x per week is typically the sweet
 spot for retaining your list while also getting good consistent revenue."`
 (slide L5255) e o piso `"I wouldn't recommend going lower than 2x per week no
@@ -110,11 +110,11 @@ week`, `$1M/mo+ → 5-6x per week` (L5295-5298). Corroboração em faixa Max:
 
 **Resposta errada típica:** "o Max diz que 2 a 4 campanhas por semana é o sweet
 spot" — atribui a ele uma linha de outro narrador. O erro é invisível se a
-resposta não for auditada contra [[_autoria]].
+resposta não for auditada contra [[mapa-da-autoria]].
 
 **Se errar, quebrou:** marcação de autoria (regra 6 do [[_protocolo]],
-[[_autoria]] §6.2 — esta medida está lá nomeada como "o número que muda de
-dono"). Se a resposta deu um número só, quebrou também [[_conflitos]]
+[[mapa-da-autoria]] §6.2 — esta medida está lá nomeada como "o número que muda de
+dono"). Se a resposta deu um número só, quebrou também [[mapa-dos-conflitos]]
 (`campanhas-sweet-spot-de-frequencia`).
 
 ---

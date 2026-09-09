@@ -93,7 +93,7 @@ ordenar os produtos, ou o que a "underline" do título deve parecer. O deck
 promete "Optimized Product Section Example:" (L8289) e não mostra nenhum — a
 linha seguinte já é `# **Footer**`. Nota de inventário: **este rótulo e o
 "Great Examples That Follow Best Practices" (L8143) faltavam na contagem de
-legendas vazias de GAMMA DESIGN** de [[_fontes]] e [[_cobertura]], que diziam 13.
+legendas vazias de GAMMA DESIGN** de [[descartes-cta-comercial-e-placeholders]] e [[lacunas-por-falha-tecnica-e-entrega-errada]], que diziam 13.
 São 15. Corrigido lá.
 
 Ver [[secao-footer]] — o footer repete a lógica do catch-all com botões de

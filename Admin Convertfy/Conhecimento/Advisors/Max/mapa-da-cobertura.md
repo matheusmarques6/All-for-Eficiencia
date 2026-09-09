@@ -30,7 +30,7 @@ resposta aceitável deste advisor.
 
 **Lacuna não é descarte.** Descarte é ruído que tiramos de propósito — pangrama
 de teste de microfone, CTA de afiliado, contaminação de outra gravação. Está
-todo listado em [[_fontes]] e nos `_registro/descartes-*`. Lacuna é conteúdo do
+todo listado em [[descartes-contaminacao-e-falha-de-asr]] e [[descartes-cta-comercial-e-placeholders]] e nos `_registro/descartes-*`. Lacuna é conteúdo do
 curso que **falta**. Nunca confundir os dois: nenhuma linha descartada vira
 lacuna, e nenhuma lacuna se explica dizendo "isso a gente tirou".
 

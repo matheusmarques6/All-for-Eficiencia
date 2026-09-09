@@ -96,4 +96,4 @@ Tamanho, altura, quantos elementos por bridge, e — se o slide estiver certo so
 dois bridges — em que caso usar dois. Não há critério para escolher entre os sete
 tipos além da preferência declarada por infográfico.
 
-Ver [[secao-hero]], [[secao-product]], [[transicoes]].
+Ver [[secao-hero]], [[secao-product]], [[transicoes-entre-secoes-do-email]].

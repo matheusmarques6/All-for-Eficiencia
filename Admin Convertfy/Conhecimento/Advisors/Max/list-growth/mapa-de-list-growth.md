@@ -49,11 +49,11 @@ Ordem de leitura para quem vai montar um pop-up do zero:
 | Cadência de A/B test | ao menos quinzenal | transcrição | L663 |
 | Corte de formato da oferta | AOV **$100** | ambos | L627-631, L1222-1223 |
 
-Tabela completa em [[_numeros-completo#List-growth]].
+Tabela completa em [[numeros-de-list-growth]].
 
 # Onde este módulo se contradiz
 
-Treze entradas em [[_conflitos-completo#list-growth]]. As que mais mudam uma
+Treze entradas em [[conflitos-de-list-growth-popup-e-formularios]]. As que mais mudam uma
 resposta:
 
 - **`list-growth-tipos-de-form`** — o slide diz "5 form types" (L1200) e o
@@ -89,7 +89,7 @@ A **aula 6** (L986-1083) é a transcrição de um vídeo público do YouTube, n�
 aula do curso. É voz do Max, mas com registro comercial: contém CTA de agência,
 números de case de abertura e o link de booking (L993-994, L1028-1029, L1083).
 Os números dela estão marcados como tal em
-[[_numeros-completo#Métodos de captação e o case da agência]].
+[[numeros-de-list-growth#Métodos de captação e o case da agência]].
 
 A faixa **L860-958** — ~50 linhas entre a aula 4 e a aula 5 — é contaminação
 integral (testes de microfone, conversa doméstica, mandarim, release note sem

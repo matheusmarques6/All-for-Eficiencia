@@ -14,7 +14,7 @@ Faixa: L8760-9109 (transcrição) e L9110-9211 (slide GAMMA). O registro `resumo
 módulo` é o bloco de bullets da página do curso (L8760-8769) que antecede a
 transcrição e termina no link para o deck (L8769) — **não é slide GAMMA**. Essa
 distinção decide o primeiro conflito abaixo. `otimizacao-onde-testar` resolve para
-`flows-onde-testar` ([[_conflitos#Conflitos entre módulos]]);
+`flows-onde-testar` ([[conflitos-entre-modulos-onde-testar-frequencia-e-pontas-soltas]]);
 `otimizacao-sl-julgar-por-abertura-ou-receita` está em [[#Conflitos dentro do mesmo
 registro]]; `otimizacao-teto-de-abertura` resolve para `copy-open-rate-limite`.
 
@@ -23,7 +23,7 @@ registro]]; `otimizacao-teto-de-abertura` resolve para `copy-open-rate-limite`.
 
 Absorve `doutrina-proporcao-basico-avancado`. **Veredicto arbitrado nesta
 consolidação** — as duas unidades divergiam; ver a seção
-[[#Colisões de slug e veredictos arbitrados]].
+[[colisoes-de-slug-e-veredictos-arbitrados]].
 
 | Valor | Registro | Linha |
 |---|---|---|
@@ -37,9 +37,9 @@ consolidação** — as duas unidades divergiam; ver a seção
 1. É a versão do deck GAMMA (L9120-9121), que é artefato escrito dele, e do bloco de
    resumo da página do curso que aponta para esse mesmo deck (L8764 → L8769). Não são
    duas fontes independentes: são o deck e o resumo do deck.
-2. O conflito é sobre **número**, e a precedência do [[_INDEX]] dá o slide.
+2. O conflito é sobre **número**, e a precedência do [[mapa-do-corpus-do-max]] dá o slide.
 3. As duas versões que dizem 80% (L8778-8780 e L9098) estão dentro do bloco de fala
-   L8762-9109, classificado **`outro-provavel`** por [[_autoria]] — por **idioleto**:
+   L8762-9109, classificado **`outro-provavel`** por [[mapa-da-autoria]] — por **idioleto**:
    zero "I recommend" / "my favorite" / "I like to", "obviously" 9×, fecho coletivo
    "hit us up" em L9108. Não são citáveis como fala do Max.
 
@@ -52,7 +52,7 @@ etapa 1 é a lista de básicos de L8786-8790 e L9098-9100.
 
 ## otimizacao-frequencia-precondicao
 
-Ver também [[_conflitos#Conflitos entre módulos]], onde a frequência de campanha aparece com
+Ver também [[conflitos-entre-modulos-onde-testar-frequencia-e-pontas-soltas]], onde a frequência de campanha aparece com
 todas as versões dos cinco módulos.
 
 | Valor | Registro | Linha |

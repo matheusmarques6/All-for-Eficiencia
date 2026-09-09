@@ -12,7 +12,7 @@ status: aprovado
 # O que é
 
 Os emails educacionais entre o welcome email #1 e o last chance de
-[[welcome]]. Ele reconhece que o nome é ruim: "filler gives it a bad kind of
+[[welcome-flow]]. Ele reconhece que o nome é ruim: "filler gives it a bad kind of
 like word where it's like not necessary. But these are essentially educational
 emails" (L1612-1616).
 

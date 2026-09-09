@@ -5,51 +5,13 @@ autor: max-sturtevant
 status: aprovado
 ---
 
-# Como usar esta tabela
-
-Três regras, e elas não têm exceção.
-
-**1. Verbatim.** O valor sai desta tabela exatamente como está escrito. Nunca
-arredondar, converter, normalizar nem traduzir. "three acts per week" é o que o
-bruto diz — o ruído de ASR fica.
-
-**2. Registro identificado.** Todo valor carrega de onde veio:
-`transcrição` (ele falando) · `slide` (deck GAMMA e demais blocos escritos da
-página do curso) · `outro-narrador` (faixa que o laudo [[_autoria]] classifica
-como não atribuível a Max: L4189–5154, L5617–6248, L8365–8646, L8762–9109).
-Valor marcado `outro-narrador` **não é citável como fala do Max**.
-
-**3. Nada de média.** Duas versões são duas linhas. Se o corpus diz 3, 4-5, 6 e
-15, a resposta é "o piso é 3 e o critério é este", nunca "cerca de 5". A coluna
-Conflito traz o slug de [[_conflitos]] quando existe entrada lá.
-
----
-
-# Os números mais pedidos
-
-Dezessete medidas. Se a pergunta é uma destas, pare aqui.
-
-| Pergunta | Resposta curta | Onde está a versão completa |
-|---|---|---|
-| Quantas campanhas por semana, pelo meu faturamento? | tabela de 4 faixas: `$0-50k/mo` → `2x per week` · `$50k-250k/mo` → `3x per week` · `$250k-1M/mo` → `4x per week` · `$1M/mo+` → `5-6x per week` (slide, L5295-5298) | [[_numeros-completo#Frequência de campanha]] |
-| E a regra geral, sem faixa? | `"3x per week is typically the sweet spot"` (slide, L5255) · piso `"I wouldn't recommend going lower than 2x per week"` (slide, L5256). A faixa `2-4x` aparece nos dois registros. Quatro formulações faladas de "sweet spot" são `outro-narrador`. | [[_numeros-completo#Frequência de campanha]] |
-| Quantos emails no welcome flow? | piso `"at least three emails"` / `"At least 3 emails long"` (T+S, L1436/L3493) · sweet spot `"four to five emails"` (T, L1440) · faixas `"3-4 emails others should be 6-8 emails"` (S, L3502) · extremo `"15 emails"` (T, L1446) | [[_numeros-completo#Welcome flow]] |
-| Qual o delay entre os emails do welcome? | `"Emails 1-2 days apart"` (S, L3494); o primeiro `"fires immediately upon sign-up"` (S, L3492). Contra: `"hit them every single day"` (T, L1468-1472). | [[_numeros-completo#Welcome flow]] |
-| Delay do site abandon? | `"I like to wait four hours"` (T, L2369-2371); alternativa agressiva `"a one hour time delay"` (T, L2371). **O slide não dá delay.** | [[_numeros-completo#Site abandon]] |
-| Delay do browse abandon? | `"we like to wait one hour"` + `"one day between the rest"` (T, L2476-2478) · `"4 emails works well here, spaced out over 3-4 days"` (S, L3678) | [[_numeros-completo#Browse abandon]] |
-| Delay do cart / checkout abandon? | **O corpus não informa.** Quatro emails especificados no slide (L3798-3881), zero delay e zero filtro. Não preencher por analogia. | [[_numeros-completo#Cart / checkout abandon]] |
-| Que open rate eu tenho que bater? | `"we need to be above 50%"` / `"if you're below 50%, you're fucking something up"` (T, L178) · `"50%+"` (S, L376). O glossário diverge: `"Target: 45%+ for engaged segments"` (S, L430). | [[_numeros-completo#Tabela de metas e glossário]] |
-| Metas de deliverability? | Open `"Greater than 50%"` · Click `"Greater than 0.75%"` · Bounce `"Less than 1%"` · Spam `"Less than 0.01%"` · Unsub `"Less than 0.4%"` (S, L8715-8719). Toda a fala do módulo é `outro-narrador`. | [[_numeros-completo#Metas de métrica (deliverability)]] |
-| Que % da receita tem que vir de email? | `"The goal is 40%"` (T, L168) · `"40% (Goal)"` (S, L374) · saudável `"30 to 50% is healthy"` (T, L170) / `"30–50% is healthy"` (S, L374) · `">55% = time to scale acquisition"` (S, L374). Não confundir com L56, que é email **+ SMS**. | [[_numeros-completo#Tabela de metas e glossário]] |
-| Split campanhas × flows? | `"Campaigns: 40–60% of email revenue / Flows: 40–60% of email revenue"` (S, L375) · `"roughly 50%"` (T, L22) | [[_numeros-completo#Tabela de metas e glossário]] |
-| Click rate, unsubscribe, spam? | campanhas `0.5%+` · flows `2%+` · unsub `<0.3%` · spam `<0.01%` (S, L377-379). O glossário dá `2–4%+`, `<0.2%`, `<0.1%` — divergência de dez vezes no spam. | [[_numeros-completo#Tabela de metas e glossário]] |
-| Que taxa o pop-up tem que converter? | `"around 6 to 12%"` · `"a minimum 6%"` · `"ideally 10% plus"` (T, L194) · `"6-12%"` (S, L380) · `"10%+ opt in rates"` (S, L1186) | [[_numeros-completo#Benchmarks de captação]] |
-| Time delay do pop-up? | `"Time delay is 4-12 seconds"` (S, L1251) · `"4 seconds, 12 seconds, 8 seconds, 10 seconds. One of those"` (T, L655) · `"start off with four"` (T, L820). Sete formulações ao todo. | [[_numeros-completo#Especificação do form]] |
-| Quantos SMS por semana? | `"1-2 sms messages per week"` (S, L9367) · `"try not to send more than once per week every now and again you can do twice"` (T, L9228) | [[_numeros-completo#Frequência de SMS]] |
-| Limite de caracteres do SMS e custo de MMS? | `160 characters`; em `161` a `"price of your message doubles"` (S, L9390-9392) · MMS é `"2-3x MORE expensive"` e precisa gerar `"2x-3x more revenue"` (S, L9383-9384) · emoji custa `"35-50 characters"` (S, L9405) | [[_numeros-completo#Custo e tamanho da mensagem]] |
-| Winback e replenishment — janelas? | Winback: gatilho `"90, 120, 180 days"` (T+S, L3322/L4053), sequência `"Email 1 (Day 0) · Email 2 (Day 7) · Email 3 (Day 10)"` (S, L4063-4065). Replenishment: `"just wait 21 days"` (T, L3251), segundo email `"seven days later"` (T+S, L3257/L4003). | [[_numeros-completo#Winback]] · [[_numeros-completo#Replenishment]] |
-
----
+Citar um número do corpus sem dizer do que ele é produz resposta errada: o
+mesmo "75%", "50%", "80%" e "90%" aparece medindo coisas diferentes em módulos
+diferentes, alguns valores chegaram corrompidos pelo ASR e são irrecuperáveis,
+outros têm versão limpa em outra linha, e há caso em que a mesma peça dá dois
+números para o mesmo envio. Esta nota lista essas armadilhas uma a uma, com a
+linha do bruto e o que fazer em cada uma, e fecha com o índice das 44 tabelas
+do arquivo completo de números.
 
 # Armadilhas de número
 
@@ -66,7 +28,7 @@ Casos em que citar o número sem o referente produz resposta errada.
 Existe um quarto, em outro módulo: `"Form covers at least 75% of screen"`
 (S, L1253 / T, L657) — cobertura de tela do pop-up. **Nunca responder "75%" sem
 dizer 75% de quê.** Ver `design-tres-usos-de-75-por-cento` e a ressalva de
-leitura de L7027 em [[_numeros-completo#Os três "75%"]].
+leitura de L7027 em [[numeros-de-design#Os três "75%"]].
 
 ## L4652 — "That's your 80% list" não é percentual
 
@@ -182,7 +144,7 @@ consenso no "antes", trabalhando com três das quatro ocorrências.
 `$40 million` (L6260, L6350) · `over $100M` (L3419, L9269) ·
 `$100 million` (L6359) · `$200M` (L3428, L5204). São claims de bio e CTA
 comercial, não benchmark. Ver `doutrina-receita-da-agencia` e
-`flows-receita-da-agencia`, e a tabela [[#Claims institucionais]].
+`flows-receita-da-agencia`, e a tabela [[numeros-de-claims-institucionais]].
 
 ## Ruído de ASR que fica como está
 
@@ -196,17 +158,18 @@ comercial, não benchmark. Ver `doutrina-receita-da-agencia` e
 
 # O arquivo completo
 
-As 44 tabelas, 610 medidas, estão em [[_numeros-completo]] — mesmas colunas.
-Desça **só** quando a medida não estiver entre as dezessete acima.
+As 44 tabelas, 610 medidas, estão em [[mapa-dos-numeros-por-modulo]] — mesmas colunas.
+Desça **só** quando a medida não estiver entre as dezessete de
+[[numeros-de-email-marketing-mais-pedidos]].
 
-- [[_numeros-completo#Fundamentos]] — metas e glossário · só-glossário · mercado · 3,5 pilares · Klaviyo
-- [[_numeros-completo#List-growth]] — benchmarks · form · A/B · oferta · métodos e case
-- [[_numeros-completo#Flows]] — welcome · site · browse · cart/checkout · post-purchase · replenishment · winback · negócio
-- [[_numeros-completo#Campanhas]] — frequência · atenção · benchmarks · gráfico × texto · calendário · segmentação
-- [[_numeros-completo#Copy]] — densidade · subject e preview · prompt de IA
-- [[_numeros-completo#Design]] — prova · os três "75%" · botão e CTA · arquivo e upload
-- [[_numeros-completo#Deliverability]] — metas · diagnóstico · warming · reparo · casos reais · ferramentas
-- [[_numeros-completo#Otimização]] — tabela única, 34 medidas
-- [[_numeros-completo#SMS]] — case · frequência · custo · flows · lista · horários
-- [[_numeros-completo#Claims institucionais]] — bio e CTA comercial. Não são benchmark.
-- [[_numeros-completo#Números que o corpus não tem e alguém vai pedir]] — lacunas, para recusar nomeando.
+- [[numeros-de-fundamentos-metas-e-glossario]] — metas e glossário · só-glossário · mercado · 3,5 pilares · Klaviyo
+- [[numeros-de-list-growth]] — benchmarks · form · A/B · oferta · métodos e case
+- [[numeros-de-flows-welcome]] — welcome · site · browse · cart/checkout · post-purchase · replenishment · winback · negócio
+- [[numeros-de-campanhas-frequencia-e-calendario]] — frequência · atenção · benchmarks · gráfico × texto · calendário · segmentação
+- [[numeros-de-copy]] — densidade · subject e preview · prompt de IA
+- [[numeros-de-design]] — prova · os três "75%" · botão e CTA · arquivo e upload
+- [[numeros-de-deliverability-metas-e-diagnostico]] — metas · diagnóstico · warming · reparo · casos reais · ferramentas
+- [[numeros-de-otimizacao]] — tabela única, 34 medidas
+- [[numeros-de-sms]] — case · frequência · custo · flows · lista · horários
+- [[numeros-de-claims-institucionais]] — bio e CTA comercial. Não são benchmark.
+- [[mapa-dos-numeros-por-modulo#Números que o corpus não tem e alguém vai pedir]] — lacunas, para recusar nomeando.

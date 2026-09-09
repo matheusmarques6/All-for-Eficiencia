@@ -20,9 +20,9 @@ fires immediately upon sign-up"` (L3492). Fala, categórica: `"The first email i
 the welcome flow needs to fire automatically upon signing up."` (L1420) e
 `"Don't wait some bullshit 10 minutes or wait one hour. No."` (L1422-1424). O
 motivo dado por ele: `"Give people the discount code that they signed up for
-immediately."` (L1426). Caminho de leitura esperado: [[_INDEX]] →
-[[_numeros]] (linha "Qual o delay entre os emails do welcome?") →
-[[flows/welcome]]. Três notas, no máximo quatro com [[_conflitos]] — o conflito
+immediately."` (L1426). Caminho de leitura esperado: [[mapa-do-corpus-do-max]] →
+[[numeros-de-email-marketing-mais-pedidos]] (linha "Qual o delay entre os emails do welcome?") →
+[[flows/welcome-flow]]. Três notas, no máximo quatro com [[mapa-dos-conflitos]] — o conflito
 `welcome-cadencia` é sobre o intervalo **entre** os emails, não sobre o
 primeiro.
 
@@ -32,7 +32,7 @@ todas as letras. Ou uma resposta correta obtida depois de varrer as doze notas
 de `flows/`.
 
 **Se errar, quebrou:** roteamento (passos 1-2 do [[_protocolo]]) se a resposta
-saiu de leitura ampla; [[_numeros]] (passo 3) se o delay não veio da tabela;
+saiu de leitura ampla; [[numeros-de-email-marketing-mais-pedidos]] (passo 3) se o delay não veio da tabela;
 guardrail se veio de conhecimento geral.
 
 ---
@@ -71,8 +71,8 @@ não ensina.
 passos como se fossem de SMS. Variante oposta e também errada: recusar por
 inteiro, quando o corpus tem posição declarada — só não tem fundamento.
 
-**Se errar, quebrou:** [[_cobertura]] (§ compliance de SMS, a lacuna mais grave
-do corpus, e § "entregue errado") e [[_conflitos]]
+**Se errar, quebrou:** [[o-que-o-corpus-nao-cobre]] (§ compliance de SMS, a lacuna mais grave
+do corpus, e § "entregue errado") e [[mapa-dos-conflitos]]
 (`sms-instrucoes-de-optin-sao-de-email`, `sms-auto-check-e-a-lei`).
 
 ### C-25 · Ruído de ASR que fica como está
@@ -98,7 +98,7 @@ do destinatário.
 limpou o ruído e converteu a notação. Ou dar os horários como se valessem para
 qualquer fuso, que é o que o corpus assume sem dizer.
 
-**Se errar, quebrou:** [[_numeros]] (§ "Ruído de ASR que fica como está", que
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (§ "Ruído de ASR que fica como está", que
 lista `"11:00 a.m. to 2: p.m."` e `"400 p.m."` nominalmente) e regra 1 (verbatim,
 nunca converter). Se anexou fuso horário, quebrou o guardrail.
 

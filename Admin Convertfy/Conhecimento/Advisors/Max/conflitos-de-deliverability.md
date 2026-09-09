@@ -12,9 +12,9 @@ Registro dos conflitos do módulo `deliverability` do corpus de Max Sturtevant s
 
 Faixa: L8363-8646 (transcrição) e L8647-8759 (slide). **Atenção de atribuição:** os
 dois blocos de fala (L8365-8517, L8518-8646) são classificados `outro-provavel` por
-[[_autoria]]. `deliverability-limiar-de-open-rate`,
+[[mapa-da-autoria]]. `deliverability-limiar-de-open-rate`,
 `deliverability-unsubscribe-afeta-ou-nao` e `deliverability-registros-dns` estão em
-[[_conflitos#Conflitos dentro do mesmo registro]].
+[[conflitos-no-mesmo-registro-deliverability-unsubscribe-e-dns]].
 
 
 ## deliverability-passo-de-escalonamento

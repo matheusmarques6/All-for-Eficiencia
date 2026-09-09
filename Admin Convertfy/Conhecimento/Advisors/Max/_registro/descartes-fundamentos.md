@@ -7,7 +7,7 @@ status: aprovado
 O que existe em L1-522 e **não** entrou em nenhuma nota, com o motivo.
 
 Total: **17 linhas** de conteúdo não vazio descartadas integralmente, das quais 15 são
-ruído de gravação em quatro blocos. Consistente com o registrado em `_fontes.md`
+ruído de gravação em quatro blocos. Consistente com o registrado em `mapa-das-fontes.md`
 (L117-120).
 
 ---

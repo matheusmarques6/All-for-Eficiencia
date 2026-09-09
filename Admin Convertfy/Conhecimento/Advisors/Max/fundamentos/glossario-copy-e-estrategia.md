@@ -10,7 +10,7 @@ status: aprovado
 
 # Copy, testes, analytics, compliance e estratégia
 
-Parte do glossário do módulo. Índice e ressalvas em [[glossario]].
+Parte do glossário do módulo. Índice e ressalvas em [[glossario-de-email-marketing]].
 **Verbatim, em inglês, do deck GAMMA.** Não traduzir, não resumir, não corrigir.
 
 34 termos, 5 categorias (L472-519).

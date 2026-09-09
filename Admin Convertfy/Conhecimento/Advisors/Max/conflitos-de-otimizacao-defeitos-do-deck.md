@@ -14,7 +14,7 @@ Faixa: L8760-9109 (transcrição) e L9110-9211 (slide GAMMA). O registro `resumo
 módulo` é o bloco de bullets da página do curso (L8760-8769) que antecede a
 transcrição e termina no link para o deck (L8769) — **não é slide GAMMA**. Essa
 distinção decide o primeiro conflito abaixo. `otimizacao-onde-testar` resolve para
-`flows-onde-testar` ([[_conflitos#Conflitos entre módulos]]);
+`flows-onde-testar` ([[conflitos-entre-modulos-onde-testar-frequencia-e-pontas-soltas]]);
 `otimizacao-sl-julgar-por-abertura-ou-receita` está em [[#Conflitos dentro do mesmo
 registro]]; `otimizacao-teto-de-abertura` resolve para `copy-open-rate-limite`.
 

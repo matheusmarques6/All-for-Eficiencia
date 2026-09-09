@@ -45,7 +45,7 @@ dado que a transcrição retoma no assunto seguinte. Não se perdeu:
   testimonials, review, UGC e press em detalhe.
 
 **Decisão:** registrado como lacuna delimitada em
-`campanhas/os-cinco-pilares-de-conteudo.md` e em `campanhas/_index.md`. Não
+`campanhas/os-cinco-pilares-de-conteudo.md` e em `campanhas/mapa-das-campanhas.md`. Não
 reconstruído, não parafraseado, não preenchido por analogia com o slide.
 
 **Nota de procedência.** O brief de construção localizava este loop em
@@ -92,7 +92,7 @@ confirmada pelo coordenador durante a execução.
 
 **Mantidos apesar do enquadramento promocional**, porque são números citados:
 $255,000 e $100,000 de um email (L5182-5183) e "$200 million for brands"
-(L5204). Estão em [[_numeros-completo#Claims institucionais]] marcados como claim promocional. São
+(L5204). Estão em [[numeros-de-claims-institucionais]] marcados como claim promocional. São
 alegações do vídeo de YouTube, sem verificação no corpus.
 
 ---
@@ -122,7 +122,7 @@ campanhas, escolher audiência, o mockup da Calvin Klein, "subject line, test,
 preview text, test, WellCopy, max, next". Não há passo replicável nem
 configuração — é narração de tela com dados de teste. O único fato retido dessa
 faixa são as métricas de campanha (L4236), que foram para
-[[_numeros-completo#Benchmarks de campanha]].
+[[numeros-de-campanhas-benchmarks-e-formato#Benchmarks de campanha]].
 
 ---
 
@@ -134,8 +134,8 @@ Lido, não escrito aqui, para não duplicar:
 |---|---|---|
 | L4676-4680, L4687-4757, L5493-5521 | S.C.E. (Skimmable / Clear & Concise / Engaging), cliente 2025-2026, 3 segundos de atenção | `doutrina/sce-o-framework-que-atravessa-tudo` |
 | L4759-4813, L5523-5527 | Infográficos: checklist, feature diagram, timeline, numbered list, comparison chart, table, flow chart, graph | `copy/` ou `design/` |
-| L4236 | Benchmarks de open rate, click rate, placed order rate | `otimizacao/` ou `deliverability/` — registrados em [[_numeros-completo#Benchmarks de campanha]] |
-| L4889, L4919-4945 | Sender reputation, analogia do score de crédito, como o Gmail classifica | `deliverability/` — o essencial ficou em `segmentacao.md` porque é o argumento dele para segmentar |
+| L4236 | Benchmarks de open rate, click rate, placed order rate | `otimizacao/` ou `deliverability/` — registrados em [[numeros-de-campanhas-benchmarks-e-formato#Benchmarks de campanha]] |
+| L4889, L4919-4945 | Sender reputation, analogia do score de crédito, como o Gmail classifica | `deliverability/` — o essencial ficou em `segmentacao-de-campanhas.md` porque é o argumento dele para segmentar |
 | L5127 | "We'll talk about this more in the Sunset Flow" | promessa nunca cumprida no corpus; já registrada como lacuna conhecida em `_protocolo.md` |
 
 ---

@@ -74,7 +74,7 @@ late" (L9257).
 - **Frequência.** O calendário soma 6-7 mensagens em 31 dias e é chamado de
   "perfect" (L9255), com dois envios em dias consecutivos — contra o teto de
   "one maybe two SMS messages per week" (L9227) e "once per weekish" (L9248). Ver
-  `sms-frequencia` e [[frequencia]].
+  `sms-frequencia` e [[frequencia-de-sms]].
 - **Last chance.** 6-7pm na fala (L9257) contra 6:30-7pm no slide (L9515). Ver
   `sms-horario-de-last-chance`.
 - **Fim de tarde.** A fala dá 5pm *e* 4pm (L9256-9257); o slide só 5pm (L9509).

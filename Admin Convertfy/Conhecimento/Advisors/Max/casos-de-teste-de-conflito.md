@@ -42,9 +42,9 @@ preenche o "base amount". O corpus **não quantifica** quanto é "a base amount"
 `design/` diz "não precisa de HTML" e quem entra por `deliverability/` diz
 "precisa" —, ou atribuir a Max a frase sobre deliverability.
 
-**Se errar, quebrou:** [[_conflitos]] § "Conflitos entre módulos"
+**Se errar, quebrou:** [[mapa-dos-conflitos]] § "Conflitos entre módulos"
 (`design-html-vs-imagem`), que existe exatamente porque o roteamento por pasta
-do [[_INDEX]] entrega uma pasta só. Se atribuiu L8500-8504 a Max, quebrou também
+do [[mapa-do-corpus-do-max]] entrega uma pasta só. Se atribuiu L8500-8504 a Max, quebrou também
 a marcação de autoria.
 
 ## C-16 · Conflito entre módulos — o open rate de email dentro do SMS
@@ -67,7 +67,7 @@ mercado (30% de email, 98% de SMS) tem fonte citada no corpus.
 **Resposta errada típica:** aceitar os 30% como linha de base de email e
 construir a comparação em cima disso.
 
-**Se errar, quebrou:** [[_conflitos]] § "Conflitos entre módulos"
+**Se errar, quebrou:** [[mapa-dos-conflitos]] § "Conflitos entre módulos"
 (`sms-open-rate-de-email`).
 
 ## C-17 · Conflito dentro do mesmo registro — a tabela contra o glossário
@@ -94,7 +94,7 @@ dele e fica.
 perigosa do corpus: é a diferença entre uma conta saudável e uma conta em risco
 de bloqueio.
 
-**Se errar, quebrou:** [[_conflitos]] § "Conflitos dentro do mesmo registro"
+**Se errar, quebrou:** [[mapa-dos-conflitos]] § "Conflitos dentro do mesmo registro"
 (`fundamentos-spam-glossario`) e regra 2 do [[_protocolo]]. Se a resposta
 aplicou a precedência slide-vence-fala e ficou com o glossário, quebrou o
 entendimento de que a precedência só vale **entre** registros.
@@ -130,7 +130,7 @@ material sustentado contra material entregue. Toda a fala é `outro-provavel`.
 qualquer dos dois casos sem mostrar que o corpus diz as duas coisas. Pior
 variante: "o alvo é uns 55%", que é a média dos três números do slide.
 
-**Se errar, quebrou:** [[_conflitos]] § "Conflitos dentro do mesmo registro"
+**Se errar, quebrou:** [[mapa-dos-conflitos]] § "Conflitos dentro do mesmo registro"
 (`deliverability-limiar-de-open-rate`) e a seção "Quando o conflito é dentro do
 mesmo registro" do [[_protocolo]], que usa este caso como exemplo-limite.
 

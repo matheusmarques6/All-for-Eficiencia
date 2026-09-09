@@ -10,8 +10,8 @@ status: aprovado
 Registro dos conflitos do módulo `design` do corpus de Max Sturtevant sobre as ferramentas de produção do email: Klaviyo contra Omnisend, os passos do upload do design e os plugins do Figma. Cada entrada lista os valores divergentes por registro e fecha com um "Como responder".
 
 
-`design-html-vs-imagem` está em [[_conflitos#Conflitos entre módulos]];
-`design-cta-por-produto` em [[_conflitos#Conflitos dentro do mesmo registro]];
+`design-html-vs-imagem` está em [[conflitos-entre-modulos-html-imagem-e-janela-de-atencao]];
+`design-cta-por-produto` em [[conflitos-no-mesmo-registro-copy-design-e-otimizacao]];
 `design-segundos-de-atencao` e `design-nomes-de-marca` resolvem para outros slugs.
 
 

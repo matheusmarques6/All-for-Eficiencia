@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: **a tabela receita × tráfego (L5295-5298), o piso de 2x (L5256) e o
 "3x per week is typically the sweet spot" (L5255) são slide** — artefato escrito
@@ -31,8 +31,8 @@ de Max, e prevalecem em especificação. Tudo o que vem da fala — o "two to fo
 sweet spot" (L4220, L4242, L4404), o tier "three to four" (L4268), o gate por
 tamanho de lista (L4276) e a carga da equipe (L4244) — está na faixa não-Max e
 **não é citável como fala dele**. Os bullets do módulo (L4191-4192) são texto
-escrito, não fala. Consequência registrada em [[_autoria]] §6.2 e em
-[[_numeros]]: a corroboração falada do 3x/semana continua existindo, mas vem de
+escrito, não fala. Consequência registrada em [[mapa-da-autoria]] §6.2 e em
+[[numeros-de-email-marketing-mais-pedidos]]: a corroboração falada do 3x/semana continua existindo, mas vem de
 L2367 (Site Abandon Flow, faixa Max), não daqui.
 
 # O que é
@@ -107,7 +107,7 @@ diziam mais do que podiam.
   real de 11h contra 13h45 (L8846-8852). Dia da semana: não há dia prescrito,
   mas há **método** — "you can always export all the data from Klaviyo (…)
   placed order, average placed order and break things down by day"
-  (L9034-9036). Ver [[otimizacao/send-time]] e [[otimizacao/outros-testes]].
+  (L9034-9036). Ver [[otimizacao/send-time]] e [[otimizacao/outros-testes-de-ab]].
 - **Rampa existe, mas é de volume, não de frequência.** O módulo de
   deliverability prescreve uma: "start small, gradually increase from 25 to 50
   percent based on performance" (L8556) e a cadência de warming "3-4x por
@@ -117,4 +117,4 @@ diziam mais do que podiam.
 
 # Ligações
 
-[[ocupar-espaco-mental]] · [[mix-grafico-e-texto]] · [[segmentacao]]
+[[ocupar-espaco-mental]] · [[mix-grafico-e-texto]] · [[segmentacao-de-campanhas]]

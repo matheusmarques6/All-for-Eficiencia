@@ -82,7 +82,7 @@ que não fecham:
 
 O centro é 50/50 e a tolerância é 40/60 nos dois sentidos — mas 40-60% *cada*
 (L172, L375) e 40/60 *ou* 60/40 (L22, L60) não são a mesma afirmação. Ver
-[[_conflitos-completo#fundamentos-split-campanhas-flows]].
+[[conflitos-de-fundamentos-receita-e-aquisicao#fundamentos-split-campanhas-flows]].
 
 E o caso extremo troca de denominador no meio da frase:
 

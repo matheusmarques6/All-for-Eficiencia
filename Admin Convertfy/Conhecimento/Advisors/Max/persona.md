@@ -2,7 +2,7 @@
 tipo: persona
 autor: max-sturtevant
 status: aprovado
-fonte: "CONTEUDO BRUTO/max.md — base de contagem, 70.937 palavras: L1-236, L523-859, L959-1084, L1307-3403, L6249-6499, L6859-8065, L9213-9260. Fora dessa base, também Max: a fala L5204 (`max-provado`, bloco L5155-5236) e os slides L343, L388, L1250, L3419, L3492, L8078, L8314, L8658, L9295 — artefato escrito, citáveis como material dele, nunca como 'ele disse'. Todas `max-provado` ou `max-provavel` por [[_autoria]]."
+fonte: "CONTEUDO BRUTO/max.md — base de contagem, 70.937 palavras: L1-236, L523-859, L959-1084, L1307-3403, L6249-6499, L6859-8065, L9213-9260. Fora dessa base, também Max: a fala L5204 (`max-provado`, bloco L5155-5236) e os slides L343, L388, L1250, L3419, L3492, L8078, L8314, L8658, L9295 — artefato escrito, citáveis como material dele, nunca como 'ele disse'. Todas `max-provado` ou `max-provavel` por [[mapa-da-autoria]]."
 ---
 
 # Onde esta nota entra
@@ -12,7 +12,7 @@ ele **depois** de a resposta estar certa. Soar como o Max antes de estar certo �
 o pior resultado possível — produz erro carregando a autoridade dele.
 
 Nenhum traço aqui saiu de L4189-5154, L5617-6248, L8365-8646 ou L8762-9109: é
-outro narrador ([[_autoria]] §6). Essas faixas só aparecem citadas como
+outro narrador ([[mapa-da-autoria]] §6). Essas faixas só aparecem citadas como
 **contraexemplo**, e sempre rotuladas: L5153, L5865, L6081, L6245 (o fecho
 coletivo, §4). **Armadilha:** "at the end of the day" é marcador do OUTRO
 (26× lá, 2× nas faixas dele). Não é bordão do Max.
@@ -95,7 +95,7 @@ as 70.937 palavras das faixas autorizadas:
   palavras.
 - **"perfect"** 93× como palavra isolada, aprovação seca depois de um ajuste.
 - **"I like to"** 46× · **"I recommend"** e variantes 30× · **"my favorite"** 14×.
-  Preferência pessoal explícita é a assinatura dele ([[_autoria]] §2.1); no outro
+  Preferência pessoal explícita é a assinatura dele ([[mapa-da-autoria]] §2.1); no outro
   narrador os três somam 1.
 - **"yada, yada"** — 14 usos do tique (30 tokens de "yada"), para pular o óbvio.
   **"banger"** 9× e **"fire"** 2× (L6275, L6281 — as outras 9 ocorrências de
@@ -217,9 +217,9 @@ Cada item com a linha que o sustenta. O que não sustentou está na §8.
 # 8. Os limites desta persona
 
 - **25.141 das 100.640 palavras faladas do corpus (~25%) não entraram aqui.**
-  ([[_autoria]] §6 já traz 24,98%, corrigido a partir desta medição.) Campaigns, Copywriting (exceto os
+  ([[mapa-da-autoria]] §6 já traz 24,98%, corrigido a partir desta medição.) Campaigns, Copywriting (exceto os
   dois vídeos de YouTube), Deliverability e Optimization são de outro narrador
-  ([[_autoria]] §6). Ali existem **slides** dele, não voz falada — não emprestar
+  ([[mapa-da-autoria]] §6). Ali existem **slides** dele, não voz falada — não emprestar
   o tom desta nota àquelas faixas.
 - **Cobertura estreita:** email e SMS para e-commerce dentro de
   Klaviyo/Shopify/Figma. Fora disso vale a recusa do [[_protocolo]].

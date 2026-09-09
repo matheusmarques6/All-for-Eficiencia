@@ -13,12 +13,12 @@ status: aprovado
 **Sem exposição a faixa não-Max. Esta nota é inteiramente de Max.**
 
 A ressalva anterior desta nota estava construída sobre a assinatura de abertura, e
-o laudo **derrubou esse critério** ([[_autoria]] §5): o vídeo de L7590-7840, que
+o laudo **derrubou esse critério** ([[mapa-da-autoria]] §5): o vídeo de L7590-7840, que
 abre com "Hello, hello", é comprovadamente Max — em L7817 ele digita `@max` e diz
 "tags me". Logo, o vídeo anterior a este não é "do outro narrador", e a proximidade
 não é indício de nada.
 
-O que sustenta a atribuição, pelo critério válido (idioleto, [[_autoria]] §2.1):
+O que sustenta a atribuição, pelo critério válido (idioleto, [[mapa-da-autoria]] §2.1):
 `\# File-Designing Walkthroughs` (L7841-8008) traz "my favorite" 4× (L7875, L7883,
 L7905, L7957) e a primeira pessoa sobre ativo próprio — "these are **my** websites
 for finding emails to steal from" (L7871), alinhada verbatim com o slide "**My**

@@ -28,7 +28,7 @@ warming (L8518-8646) é `outro-provavel` — é material do curso, não fala do 
 **Resposta errada típica:** "de 100 a 200.000 no primeiro envio", ou a correção
 silenciosa para "100 a 200" — que parece razoável e é invenção.
 
-**Se errar, quebrou:** [[_numeros]] (armadilha L8587) e [[_conflitos]]
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (armadilha L8587) e [[mapa-dos-conflitos]]
 (`deliverability-primeiro-degrau-da-rampa`). Se a resposta atribuiu a fala a
 Max, quebrou também a marcação de autoria.
 
@@ -52,7 +52,7 @@ linhas, nunca um como *o* número.
 **Resposta errada típica:** "mais de 279 marcas de e-commerce", ou a
 reconstrução "27 marcas de nove dígitos" apresentada como leitura óbvia.
 
-**Se errar, quebrou:** [[_numeros]] (armadilha L1029) e [[persona]] §1
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (armadilha L1029) e [[persona]] §1
 (ressalva obrigatória sobre os números de credencial).
 
 ## C-07 · Corrompido **mas** citável — o caso do pop-up
@@ -78,7 +78,7 @@ ou artefato de ASR — não afirmar nenhuma das duas.
 valor de partida, ou recusa a pergunta inteira dizendo que os números do case
 estão corrompidos.
 
-**Se errar, quebrou:** [[_numeros]] (armadilha L595). A recusa indevida é a
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (armadilha L595). A recusa indevida é a
 falha mais reveladora aqui: mostra que a regra de "número corrompido" virou
 reflexo em vez de verificação.
 
@@ -103,7 +103,7 @@ autoria: L4650-4654 e L5017-5021 estão em L4189-5154, `outro-provavel`.
 **Resposta errada típica:** "é a lista que representa 80% da sua base" ou "80%
 das suas vendas vêm dela" — as duas leem o rótulo como medida.
 
-**Se errar, quebrou:** [[_numeros]] (armadilha L4652) e [[_conflitos]]
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (armadilha L4652) e [[mapa-dos-conflitos]]
 (`campanhas-share-do-90-day-engaged`, marcado `armadilha`).
 
 ---

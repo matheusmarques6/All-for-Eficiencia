@@ -23,8 +23,8 @@ Regra que não se quebra: **quando duas fontes discordam, cite as duas e diga qu
 | A pergunta é sobre... | Comece por |
 |---|---|
 | pop-up, captação de lista, form | [[mapa-do-popup]] |
-| email marketing em geral, "por onde eu começo" | [[mapa]] (corpus do Max) |
-| um número, prazo, taxa ou frequência | [[numeros-mais-pedidos]] → [[armadilhas-ao-citar-numero]] |
+| email marketing em geral, "por onde eu começo" | [[mapa-do-corpus-do-max]] (corpus do Max) |
+| um número, prazo, taxa ou frequência | [[numeros-de-email-marketing-mais-pedidos]] → [[armadilhas-ao-citar-numero]] |
 | se o corpus se contradiz nesse ponto | [[mapa-dos-conflitos]] |
 | se o corpus sequer cobre o assunto | [[mapa-da-cobertura]] |
 | quem de fato disse aquilo | [[mapa-da-autoria]] |

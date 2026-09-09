@@ -34,8 +34,8 @@ vivo — `"if an image doesn't load for someone, it'll show this alt text"` e
 Klaviyo. Ou dar o aviso no fim, quando o usuário já leu a receita.
 
 **Se errar, quebrou:** regra 4 do [[_protocolo]] (procedimento é datado e diz
-qual ferramenta foi demonstrada de fato), [[_cobertura]] (§ "entregue errado") e
-[[_conflitos]] (`design-klaviyo-vs-omnisend`).
+qual ferramenta foi demonstrada de fato), [[lacunas-por-falha-tecnica-e-entrega-errada]] (§ "entregue errado") e
+[[mapa-dos-conflitos]] (`design-klaviyo-vs-omnisend`).
 
 ## C-14 · Artefato verbatim — subject line não se traduz
 
@@ -57,7 +57,7 @@ subject line dele. Variante igualmente errada: inventar seis subject lines novas
 no mesmo espírito.
 
 **Se errar, quebrou:** regra 3 do [[_protocolo]] e a convenção `tipo: artefato`
-do [[_INDEX]] ("verbatim, em inglês, nunca traduzir").
+do [[mapa-do-corpus-do-max]] ("verbatim, em inglês, nunca traduzir").
 
 ---
 

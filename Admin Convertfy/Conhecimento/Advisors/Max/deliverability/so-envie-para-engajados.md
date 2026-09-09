@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: a definição verbatim do 90 Day Engaged List (L8732-8734) e a regra de
 ajuste (L8725-8729) são **slide** — artefato de Max, e prevalecem em especificação.
@@ -129,7 +129,7 @@ A exceção à regra, e a única declarada (L8462-8466):
   (L8728). A fala dá 50-60% como zona de acerto (L8468) e, na aula de warming,
   50+ (L8579), 40-50 (L8580), 45-50+ (L8582), 40-50 (L8588) e 40-50 de novo na
   correção de rota (L8604). São **dez formulações**, todas em
-  `deliverability-limiar-de-open-rate` em [[_conflitos]].
+  `deliverability-limiar-de-open-rate` em [[mapa-dos-conflitos]].
 - **Lista base padrão.** O slide recomenda 90 dias como ponto de partida
   (L8734); a fala usa 60 dias como envio normal (L8462).
 
@@ -144,5 +144,5 @@ A exceção à regra, e a única declarada (L8462-8466):
   finalidade no glossário (L411) e a definição do segmento no print da L9545
   (180 dias sem abrir · 180 sem clicar · ≥10 emails recebidos · 0 pedidos),
   em [[flows/sunset]]; e a **Suppress List** completa do deck de campanhas
-  (L5592), em [[campanhas/segmentacao]]. O que continua faltando é a sequência
+  (L5592), em [[campanhas/segmentacao-de-campanhas]]. O que continua faltando é a sequência
   do sunset e a decisão entre "remove **or** suppress".

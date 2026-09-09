@@ -67,7 +67,7 @@ get your account and number setup, so I won't cover that" (L9316).
 
 Ou seja: **não existe procedimento de setup de plataforma no corpus.** O único
 passo a passo do módulo é o do checkbox de checkout, e ele tem um problema —
-ver [[crescer-a-lista]].
+ver [[crescer-a-lista-de-sms]].
 
 # O que o corpus não diz
 
@@ -86,6 +86,6 @@ ver [[crescer-a-lista]].
   Opt-In, Double Opt-In, GDPR, CAN-SPAM, CASL, Unsubscribe Link, Preference
   Center. Duas ressalvas ao usá-la: são todas de email, e a fala manda ignorar a
   seção — "compliance and consent. **which you really don't, don't need to know
-  these**" (L229). Ver [[fundamentos/glossario]] e [[_cobertura]] §"Consentimento
+  these**" (L229). Ver [[fundamentos/glossario-de-email-marketing]] e [[o-que-o-corpus-nao-cobre]] §"Consentimento
   e compliance de SMS".
 - Nenhum critério para migrar de plataforma depois de escolhida.

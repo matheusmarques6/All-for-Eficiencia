@@ -13,7 +13,7 @@ campanha ou a uma tela de ferramenta — todos reaparecem em vários lugares do
 curso. Quando a pergunta é "por que ele defende isso", a resposta começa aqui.
 
 Todas as notas são `tipo: principio`, logo podem ser parafraseadas. Número dentro
-delas, não: número sai de [[_numeros]].
+delas, não: número sai de [[numeros-de-email-marketing-mais-pedidos]].
 
 # Antes de citar qualquer coisa daqui: quem está falando
 
@@ -22,12 +22,12 @@ está em L5753, onde o narrador de ChatGPT Copywriting se refere a Max em tercei
 pessoa: "something that **Max had put together himself**".
 
 **A tabela de assinaturas de abertura que ficava aqui foi removida: o critério
-caiu.** O laudo o testou e ele falhou ([[_autoria]] §5) — o walkthrough de Figma
+caiu.** O laudo o testou e ele falhou ([[mapa-da-autoria]] §5) — o walkthrough de Figma
 abre com "Hello, hello" e é comprovadamente Max, porque em L7817 ele digita `@max`
 e diz "tags me". Saudação não separa narrador, e o pronome coletivo também não
 ("our copywriters" está no deck de Max, L6790).
 
-O critério que sobreviveu é o **idioleto** ([[_autoria]] §2.1): ausência de "I
+O critério que sobreviveu é o **idioleto** ([[mapa-da-autoria]] §2.1): ausência de "I
 recommend", "my favorite" e "I like to"; presença de "at the end of the day" e
 "obviously"; e o fecho coletivo "thank you guys… see you in the next one".
 
@@ -42,14 +42,14 @@ Faixas faladas **não atribuíveis a Max**:
 | L8773-9109 | `outro-provavel` | Optimization |
 
 `outro-provavel` **não é** `outro-provado`: só L5667-5866 tem prova nominal; o
-resto é estilometria, forte mas não conclusiva ([[_autoria]] §7.3).
+resto é estilometria, forte mas não conclusiva ([[mapa-da-autoria]] §7.3).
 
 Oito das treze notas carregam `# Aviso de autoria` no topo dizendo o que é dele e
 o que é do material. [[roubar-e-o-metodo]] carrega um aviso do tipo oposto: a
 ressalva antiga dela argumentava pela assinatura e foi **anulada** — a nota é
 inteiramente de Max. Slides são artefato escrito dele e não têm esse problema.
 
-Detalhamento em [[_autoria]] e em `doutrina-narrador-da-aula-de-ia`.
+Detalhamento em [[mapa-da-autoria]] e em `doutrina-narrador-da-aula-de-ia`.
 
 # Economia do canal — por que email
 
@@ -86,11 +86,11 @@ Detalhamento em [[_autoria]] e em `doutrina-narrador-da-aula-de-ia`.
 
 # Onde esta pasta se contradiz
 
-Sete conflitos abertos, todos registrados em [[_conflitos]]:
+Sete conflitos abertos, todos registrados em [[mapa-dos-conflitos]]:
 
 | Slug | Em uma linha |
 |---|---|
-| `doutrina-narrador-da-aula-de-ia` | quem narra o quê; L5753 fala de Max em terceira pessoa. **Superado por [[_autoria]]** nas partes que argumentam por assinatura de abertura |
+| `doutrina-narrador-da-aula-de-ia` | quem narra o quê; L5753 fala de Max em terceira pessoa. **Superado por [[mapa-da-autoria]]** nas partes que argumentam por assinatura de abertura |
 | `doutrina-sce-numeracao-dos-principios` | o deck de copy numera dois princípios como "#2"; não existe "#3" |
 | `doutrina-segundos-de-atencao` | 3s, 2-4s e 2-3s para a mesma janela de atenção |
 | `doutrina-proporcao-basico-avancado` | 90/10, "80, 90%" e 80% para a mesma proporção |
@@ -102,7 +102,7 @@ Sete conflitos abertos, todos registrados em [[_conflitos]]:
 # Duas coisas para não fazer com esta pasta
 
 1. **Não converter princípio em especificação.** Aqui não há delay, filtro nem
-   gatilho. Quando a pergunta pede número, a rota é [[_numeros]] e a nota do
+   gatilho. Quando a pergunta pede número, a rota é [[numeros-de-email-marketing-mais-pedidos]] e a nota do
    módulo específico — esta pasta explica o porquê, não o quanto.
 2. **Não apresentar como consenso de mercado.** Várias destas posições são dele
    contra a prática comum — a de que inscrito novo vale mais que inscrito antigo,

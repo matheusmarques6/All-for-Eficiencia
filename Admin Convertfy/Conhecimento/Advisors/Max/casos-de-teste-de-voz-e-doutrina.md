@@ -37,7 +37,7 @@ consultivo e é exatamente o registro que ele reserva para preferência, não pa
 eliminatório. Segunda variante: aplicar a regra também ao SMS.
 
 **Se errar, quebrou:** [[persona]] (§2 separar eliminatório de preferência, §7.4
-e §7.12). Diagnóstico do [[_arquitetura]] §5: "acerta o fato mas soa genérico".
+e §7.12). Diagnóstico do [[arquitetura-decisoes-e-leis-de-manutencao]] §5: "acerta o fato mas soa genérico".
 
 ## C-20 · Doutrina qualificada — desconto não é uma posição só
 

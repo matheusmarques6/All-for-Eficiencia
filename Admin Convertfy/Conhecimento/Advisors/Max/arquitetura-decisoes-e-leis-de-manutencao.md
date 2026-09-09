@@ -5,6 +5,14 @@ data: 2026-09-06
 fonte: dossiê "Clones de IA de Pessoas Reais" + dossiê "Como organizar grandes corpora para agentes"
 ---
 
+> **Registro datado.** Esta nota descreve o vault como ele estava quando o
+> dossiê foi escrito, e cita nomes de arquivo que **mudaram desde então**
+> (`_INDEX.md`, `_casos-de-teste.md`, `_cobertura.md`, `_numeros-completo.md`,
+> `_conflitos*.md`, os `_index.md` de pasta). Esses nomes ficaram como estavam
+> de propósito: reescrevê-los falsificaria a medição. Para o estado atual, veja
+> [[mapa-do-corpus-do-max]] e [[mapa-do-conhecimento]]. Reorganização aplicada
+> em 2026-09-08.
+
 Segunda metade do relatório de internalização que decidiu a arquitetura do advisor Max: o que vai ser implementado e em que ordem, o que **não** vai ser implementado e o gatilho que mudaria isso, os limiares que dizem se está funcionando (§5), as duas leis de manutenção aprendidas construindo (§5.1) e o que é preciso do lado humano quando o conhecimento chegar. A numeração das seções é a do documento original. A razão medida de cada decisão está em [[arquitetura-diagnostico-e-o-que-aprendi]].
 
 # 3. O que vou implementar

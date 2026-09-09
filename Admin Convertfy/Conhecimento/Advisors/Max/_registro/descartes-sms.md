@@ -26,7 +26,7 @@ listados individualmente — são índice, não conteúdo.
 | L9540-9543 | "**Want More Help?** / If you're an ecommerce brand doing at least $50k/mo - book a free consultation call." + repetição do título do deck | venda de consultoria |
 
 O filtro de $50k/mês aparece nos dois registros (L9259, L9542) e é o mesmo
-número; está em [[_numeros-completo#Claims institucionais]] marcado como oriundo de CTA, para
+número; está em [[numeros-de-claims-institucionais]] marcado como oriundo de CTA, para
 rastreabilidade, com a instrução de não usar em resposta.
 
 ## 2. Bio, socials e cross-promo
@@ -51,13 +51,13 @@ promete algo que não entrega.
 | Linhas | Placeholder | Status |
 |---|---|---|
 | L9284 | "**Video Training**" — heading sozinho | descarte |
-| L9348-9350 | "**Step 1**" / "**Step 2**" — os prints do pop-up de duas etapas | lacuna em [[sms/crescer-a-lista]] |
-| L9352-9355 | "**Klaviyo Form Tutorials** / **Mobile:** / **Desktop:**" — os dois campos estão vazios | lacuna em [[sms/crescer-a-lista]] |
+| L9348-9350 | "**Step 1**" / "**Step 2**" — os prints do pop-up de duas etapas | lacuna em [[sms/crescer-a-lista-de-sms]] |
+| L9352-9355 | "**Klaviyo Form Tutorials** / **Mobile:** / **Desktop:**" — os dois campos estão vazios | lacuna em [[sms/crescer-a-lista-de-sms]] |
 | L9357 | "**Pop-Up Form Mastery 1 Hour Video**" — heading sozinho | descarte |
 | L9397-9399 | "**1 SMS Long**" / "**3 SMS Long (triple the cost)**" — exemplos visuais de contagem de caracteres | lacuna em [[sms/custo-e-tamanho-da-mensagem]] |
 | L9412 (parcial) | "(like the below contributing to 15% of total store revenue)" — o print não existe | número registrado, print ausente; ver `sms-quinze-por-cento` |
 | L9503 (parcial) | "Here's what a solid monthly SMS calendar may look like (below)" — a imagem do calendário não existe | lacuna em [[sms/calendario-e-horarios]]; o calendário foi reconstruído só da fala |
-| L9518-9523 | "**SMS Swipefile**" / "**30 SMS Campaigns Swipe File**" — as 30 mensagens não estão no arquivo | **lacuna obrigatória**, declarada em [[sms/o-que-enviar]] |
+| L9518-9523 | "**SMS Swipefile**" / "**30 SMS Campaigns Swipe File**" — as 30 mensagens não estão no arquivo | **lacuna obrigatória**, declarada em [[sms/o-que-enviar-por-sms]] |
 
 ## 4. Ponteiros para material externo
 
@@ -108,5 +108,5 @@ lado. Lista para quem for auditar uma citação e achar que a nota errou:
 **L9328, "Instructions for Post Purchase Opt-Ins"**, dentro da seção "How To Grow
 Your SMS List" (L9318): os quatro passos são de opt-in de **email** (L9330-9333),
 não de SMS. Não foi descartado porque é o único passo a passo do módulo — entrou
-em [[sms/crescer-a-lista]] com a armadilha explicitada e virou o conflito
+em [[sms/crescer-a-lista-de-sms]] com a armadilha explicitada e virou o conflito
 `sms-instrucoes-de-optin-sao-de-email`.

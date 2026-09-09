@@ -4,12 +4,18 @@ modulo: deliverability
 assunto: warming-do-dominio
 autor: max-sturtevant
 registro: [slide, outro-narrador]
-fonte: "CONTEUDO BRUTO/max.md — L8518-8645 (transcrição); L8522-8526 (bullets do deck). O corpo do deck de warming NÃO foi exportado."
+fonte: "CONTEUDO BRUTO/max.md — L8556-8604 (transcrição); L8728 (slide do deck de deliverability). O corpo do deck de warming NÃO foi exportado."
 conflitos: [deliverability-limiar-de-open-rate, deliverability-passo-de-escalonamento, deliverability-primeiro-degrau-da-rampa]
 validade: "procedimento — o corpus não data a gravação. Extraído em 2026-09-06."
 status: aprovado
 ---
 
+A rampa de warming do domínio é o escalonamento de volume que aquece o domínio
+de envio: primeiro envio, passo de escalonamento, cadência, batching, cronograma
+por semanas e o que fazer quando a abertura despenca depois de alargar a lista.
+Registra também que o limiar de open rate para alargar tem **seis valores em
+conflito** no corpus. O que precede a rampa está em
+[[preparacao-para-o-warming-do-dominio]].
 
 # Aviso de autoria
 
@@ -17,14 +23,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota a exposição é quase total. Os cinco bullets do deck (L8522-8526) e o
 limiar de 60%+ do deck de deliverability (L8728) são **slide** — artefato de Max.
@@ -43,86 +49,6 @@ que o confirme: é a peça do corpus com menor lastro de autoria.
 > batching, casos — existe **apenas na transcrição falada**. É a única parte
 > crítica do corpus sem segundo registro para conferir número.
 
-# Quando se aplica
-
-Bullets do deck, verbatim (L8522-8526):
-
-> * **This if for you if:**
->   * You have sent no emails before from your Klaviyo account AND Your
->     technical setup / branded sending domain is set up
->   * OR, your deliverability is poor. This same method can be used to improve
->     it (with a few tweaks)
-> * **Technical Setup: [Setting up branded sending domain >>>](https://help.klaviyo.com/hc/en-us/articles/115000357752)**
->   * If this isn't done, do this before sending ANY emails
-
-Dois casos, portanto: conta nova **ou** deliverability ruim — "This same method
-can be used to improve it (with a few tweaks)" (L8524). Os *tweaks* nunca são
-enumerados como lista; o que existe é [[reparo-de-reputacao]]. O setup técnico é
-pré-condição, não etapa: ver [[setup-tecnico]].
-
-O que se está prevenindo (L8533-8534): abrir conta no Klaviyo, importar a lista
-de clientes e leads e disparar para todo mundo — "nobody opens them, no one
-engages, you get super low rates, and then basically everything going forward
-ends up going to spam". O custo do erro (L8555, L8606): "it's much easier to
-build your sender reputation and deliverability warming up than it is to fix it
-when it's already in a poor position."
-
-A imagem usada na aula (L8541): "it's like building a house. You have to establish
-the infrastructure through warming before you get really creative."
-
-# A fundação, antes de qualquer campanha
-
-Duas coisas ligadas antes de começar a rampa.
-
-**1. Flows de alta intenção rodando** (L8545): "Welcome Flow, Post-Purchase,
-Abandoned Card [*Cart*], Abandoned Checkout, Browse, Site Abandonment, I'll list
-the other ones" — as outras nunca são listadas. Racional (L8549-8551): são pessoas em
-estágios diferentes da jornada, "these are points where we obviously want to
-target people", e ficam rodando evergreen.
-
-**2. Pop-up convertendo** (L8546): "no matter what, if it's a new account or
-whenever, you want to make sure your pop-up form is converting."
-
-E dentro do pop-up, uma regra explícita de onde **não** colocar o código
-(L8548-8549):
-
-> it's important to not put that discount code or whatever, if there is a code.
-> In the form itself, you want to strategically place that in welcome email 1,
-> 2, 3, 4, so that people are prompted and conditioned from the beginning to
-> expect value coming from their emails and they're forced to open and click
-> that link.
-
-O objetivo é warming, não conversão: o desconto vira o isco que garante open e
-click nos primeiros quatro emails.
-
-# De onde tirar o primeiro público
-
-Depende do dado que existe. "It's not always going to be the same solution or
-the same exact segment" (L8553).
-
-**Com dado de email** — migração de MailChimp ou OmniSend, ou conta antiga com
-deliverability ruim (L8563). "You always want to stick with your email data"
-(L8563-8564). Os quatro segmentos-semente citados (L8564-8565), verbatim:
-
-> people who have opened three times in the last thirty days, people who have
-> opened five times in the last sixty days, people that have opened an email
-> once or twice in the last week, people that have clicked an email in the last
-> week
-
-Ressalva do material (L8565-8567): não existe solução única — o segmento sugerido
-pode estar vazio, ou ter "seventy-eight people in there, which isn't really going
-to move the needle".
-
-**Sem dado de email** — dado comportamental do Shopify, que integra com o
-Klaviyo (L8571). "It's also one that you have to be a little bit careful about"
-(L8572). Os três sinais citados (L8574), verbatim:
-
-> people that have viewed a product in the last three days, placed an order in
-> the last week, and started checkout in the last week
-
-E a migração de volta assim que houver dado de email (L8576): "the best
-indicator of future behavior is past performance."
-
 # A rampa
 
 **Primeiro envio** (L8569), na voz do material: "I always err on the side of caution, maybe a
@@ -140,7 +66,7 @@ então não há registro de slide para desempatar, e não se deve tratar L8556 c
 bullet do deck só porque soa como um. Como o passo é aplicado a cada envio, a
 diferença entre 25% e 50% **compõe** — as duas rampas divergem a cada degrau, não
 ficam paralelas. Dar os dois números e não escolher. Ver
-`deliverability-passo-de-escalonamento` em [[_conflitos]].
+`deliverability-passo-de-escalonamento` em [[mapa-dos-conflitos]].
 
 **Cadência de rampa**, verbatim (L8587-8588):
 
@@ -211,7 +137,7 @@ contradiz.
 
 Seis aqui — o conflito completo, com as dez formulações que o corpus dá para
 "qual lista usar / quando alargar", está em `deliverability-limiar-de-open-rate`
-([[_conflitos]]). Nenhuma é marcada como superior. As seis que tratam
+([[mapa-dos-conflitos]]). Nenhuma é marcada como superior. As seis que tratam
 especificamente de **alargar**, verbatim:
 
 | Valor | Contexto | Linha |
@@ -227,7 +153,7 @@ O slide é o mais exigente (60%+), mas não desempata: ele está no deck de
 deliverability — não no de warming, que não foi exportado — e discorda de si
 mesmo, porque duas e três linhas antes já disse "consistent 50% open rates"
 (L8725) e "Whatever list gets you 50-60% opens" (L8727). Ver
-`deliverability-limiar-de-open-rate` em [[_conflitos]].
+`deliverability-limiar-de-open-rate` em [[mapa-dos-conflitos]].
 
 # Correção de rota
 
@@ -245,55 +171,9 @@ Duas saídas, portanto: voltar e esperar, **ou** repetir o salto com passo menor
 (30 → 45 em vez de 30 → 60). O material não dá critério para escolher entre as
 duas.
 
-# Os dois casos reais
+# Continua em
 
-Em [[warming-casos-reais]], com os volumes verbatim. Em uma linha cada:
-
-- **Migração de MailChimp** (L8607-8622) — havia dado de email fora do Klaviyo,
-  mas trataram como conta nova: **amostra aleatória** dentro do 30 dias
-  engajados, começando com 1.000 pessoas e 46.22% de abertura. "Even if you have
-  that data, it's still different platform (…) you always end up somewhat
-  starting from scratch" (L8612-8613).
-- **Zero dado, pré-lançamento** (L8623-8639) — só waitlist e lista de marca
-  irmã. Emails de warming **todos text-based**, lotes pequenos, primeiro envio
-  ~200 pessoas. Contém a autocrítica da equipe narrada: "we actually weren't
-  even including any CTAs, which was a bad idea on our end" (L8635).
-
-# A ferramenta que nunca é nomeada
-
-No fim do vídeo o material recomenda uma ferramenta de terceiros para quem cai em
-promotions — e **o nome dela não está no corpus**. O trecho (L8641-8643):
-
-> If your emails are landing in spam, don't use this, but if your emails are
-> landing in promotions very heavily, this is a great tool that runs in the
-> backend and optimizes all that HTML and things to make sure that you are
-> landing in the primary inbox (…) they are a very, very good tool to work with
-> a lot of very well-known brands as well.
-
-Escopo declarado: serve para **promotions**, não serve para spam nem para
-warming (L8643).
-
-A ausência do nome é comprovável, não suposta. Duas evidências:
-
-1. **O salto de tempo.** A transcrição vai de 21:52 (L8641) para 22:33 (L8642):
-   41 segundos. É o **maior salto do vídeo inteiro** — a mediana entre marcas de
-   tempo consecutivas nessa transcrição é de 11 segundos e o percentil 90 é 18.
-2. **A emenda dentro de L8641.** A linha costura duas frases de assuntos
-   diferentes sem pontuação: "…I'll be happy to answer questions that I can help
-   **If your emails are landing in spam, don't use this…**". O corte está dentro
-   da própria linha, e é ali que a ferramenta seria apresentada.
-
-Irrecuperável. Nunca preencher esse nome por dedução.
-
-# O que o corpus não diz
-
-- O corpo do deck de warming (ver o aviso no topo).
-- Quantos emails por semana é "demais" — o teto de diminishing returns perdeu o
-  número (L8560).
-- Quais são os "few tweaks" que adaptam o método para conta com deliverability
-  ruim (L8524).
-- Que porcentagem de queda de open rate obriga a recuar. O exemplo é 50% → 25%
-  (L8601), não é regra.
-- O nome da ferramenta de otimização de HTML (L8641-8643).
-- Quanto tempo o warming inteiro leva. Há "weeks 1 to 3" e "weeks 3 to 12"
-  (L8578-8580) e uma "60 day window" num caso (L8611) — não são a mesma unidade.
+A preparação que antecede a rampa — quando o método se aplica, fundação e
+segmentos-semente — está em [[preparacao-para-o-warming-do-dominio]]. Os dois
+casos reais, a ferramenta nunca nomeada e as lacunas declaradas estão em
+[[evidencia-e-lacunas-do-warming-do-dominio]].

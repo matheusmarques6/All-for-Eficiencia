@@ -29,11 +29,11 @@ dentro do mesmo registro** ([[conflitos-no-mesmo-registro-metas-e-open-rate]],
 [[conflitos-no-mesmo-registro-resumo-slide-contra-slide]],
 [[conflitos-no-mesmo-registro-deliverability-unsubscribe-e-dns]],
 [[conflitos-no-mesmo-registro-copy-design-e-otimizacao]]) —, que são as que mais mudam
-resposta e as que o roteamento por pasta do [[_INDEX]] nunca entrega sozinho. **As outras 108 entradas estão em [[_conflitos-completo]]**, agrupadas por
+resposta e as que o roteamento por pasta do [[mapa-do-corpus-do-max]] nunca entrega sozinho. **As outras 108 entradas estão em [[mapa-dos-conflitos-por-modulo]]**, agrupadas por
 módulo, com o mesmo cabeçalho `## slug`.
 
 **A regra de busca é uma só:** ache o slug num dos dois índices; se o `## slug` não
-estiver nas notas transversais listadas acima, ele está em [[_conflitos-completo]]. Não
+estiver nas notas transversais listadas acima, ele está em [[mapa-dos-conflitos-por-modulo]]. Não
 existe slug fora dessas notas, e nenhuma entrada existe em duas delas.
 
 **A regra de ouro: nenhum conflito é resolvido por média.** Se o corpus dá 3, 6
@@ -54,13 +54,13 @@ Cada entrada tem duas partes:
    com a linha, e o critério dele para decidir quando existe. O critério real
    quase nunca é numérico: é tipo de produto, tamanho de lista, faturamento.
 
-**Precedência** ([[_INDEX]]): slide vence em especificação, fala vence em
+**Precedência** ([[mapa-do-corpus-do-max]]): slide vence em especificação, fala vence em
 julgamento. Ela só funciona **entre** registros. Boa parte dos conflitos deste
 corpus é slide contra slide no mesmo deck — esses estão reunidos em
 [[conflitos-no-mesmo-registro-resumo-slide-contra-slide]] e nas notas que ele aponta, e
 a precedência não os resolve.
 
-**Atribuição:** o laudo [[_autoria]] classifica dez blocos de fala como
+**Atribuição:** o laudo [[mapa-da-autoria]] classifica dez blocos de fala como
 `outro-provavel` ou `outro-provado`. Onde um lado do conflito cai num desses
 blocos, a entrada avisa — porque isso muda o peso da versão, e às vezes decide.
 

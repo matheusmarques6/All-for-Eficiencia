@@ -20,7 +20,7 @@ fala de Max em terceira pessoa —, e **L5888-6082** (Utilizing Infographics) e
 **L6101-6248** (Subject Lines & Preview Texts) são `outro-provavel`, por
 estilometria. `outro-provavel` não é `outro-provado`. **A saudação de abertura não
 é critério e não pode ser citada como evidência** — o laudo testou e ela caiu
-([[_autoria]] §5). Escapam os dois vídeos de YouTube (L6253-6352 Gymshark e
+([[mapa-da-autoria]] §5). Escapam os dois vídeos de YouTube (L6253-6352 Gymshark e
 L6353-6500 MrBeast), que são `max-provado`, e todo o deck L6501-6858. As notas
 marcadas com ⚠ abaixo trazem `# Aviso de autoria` no topo.
 
@@ -34,7 +34,7 @@ cada princípio e os artefatos.
 
 | Nota | O que resolve | Registro |
 |---|---|---|
-| [[o-que-evitar]] | os três ❌ — informação desnecessária, copy demais, pontos demais; e a premissa de que ninguém está lendo | slide |
+| [[o-que-evitar-na-copy]] | os três ❌ — informação desnecessária, copy demais, pontos demais; e a premissa de que ninguém está lendo | slide |
 | [[principio-skimmable]] ⚠ | o **S**: "optimize for the skim, not the read"; evitar blocos, negritar pontos principais, encurtar | slide + fala não-Max |
 | [[principio-clear-e-conciso]] | o **C**: zombie brain, 1-2 scrolls, 1 (ou 1-3) takeaway | slide |
 | [[principio-engaging]] ⚠ | o **E**: punchy, informational, entertaining; dopamina como ativo; repetição é o pior erro | slide + 1 citação não-Max (L6219) |
@@ -59,7 +59,7 @@ followed to some extent" (L5731). Aparece idêntico no prompt de IA
 
 # Onde este módulo se contradiz
 
-Treze conflitos registrados em [[_conflitos]]:
+Treze conflitos registrados em [[mapa-dos-conflitos]]:
 `copy-numeracao-dos-principios` · `copy-takeaways-por-email` ·
 `copy-janela-de-atencao` · `copy-subject-line-comprimento` ·
 `copy-subject-line-reticencias` · `copy-medir-por-abertura` ·
@@ -86,7 +86,7 @@ Dois merecem aviso antes de qualquer resposta:
    L5888-6082 e L6101-6248 são `outro-provavel` — o que atinge
    [[infograficos]], [[subject-lines]], [[preview-texts]],
    [[principio-skimmable]] e uma citação de [[principio-engaging]]. Ver
-   [[_autoria]] e `_registro/aplicacao-autoria.md`.
+   [[mapa-da-autoria]] e `_registro/aplicacao-autoria-em-campanhas-e-copy.md`.
 
 # Lacuna estrutural
 
@@ -94,4 +94,4 @@ O deck referencia **30 exemplos visuais que não existem no export** — rótulo
 "Ex. …", "Example \#1/\#2", "Step 1/2/3", "Output" e "Example Below" sem
 imagem (L6550-6554, L6600-6602, L6621-6623, L6648-6650, L6676-6727,
 L6779-6785, L6794-6796, L6811). E L5615 anuncia "Transcrição do Vídeo :" sob
-`The Principles of Good Copy` sem transcrição alguma. Ver [[_cobertura]].
+`The Principles of Good Copy` sem transcrição alguma. Ver [[lacunas-por-falha-tecnica-e-entrega-errada]].

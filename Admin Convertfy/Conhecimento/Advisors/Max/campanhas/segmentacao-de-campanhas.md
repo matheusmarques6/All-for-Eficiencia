@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: **os seis segmentos com a sintaxe verbatim (L5585-5592) e a distinção
 lista × segmento (L5539-5540) são slide** — artefato escrito de Max, e continuam
@@ -179,7 +179,7 @@ aqui. Fora daqui o corpus dá três coisas:
   `![][image1]` na L3402): 180 dias sem abrir · 180 dias sem clicar · ≥10 emails
   recebidos · zero pedidos over all time.
 
-Ver [[flows/sunset]], que já tinha isso, e [[_cobertura]] — onde o Sunset é o
+Ver [[flows/sunset]], que já tinha isso, e [[lacunas-por-cobertura-parcial-e-promessa-nao-cumprida]] — onde o Sunset é o
 caso-escola de **cobertura parcial**, não de lacuna total. O que falta mesmo é
 sequência, delay, contagem de emails e copy. E cuidado ao responder: sunset e
 suppress list **não** são a mesma coisa e dão limiares diferentes (180 dias aqui,

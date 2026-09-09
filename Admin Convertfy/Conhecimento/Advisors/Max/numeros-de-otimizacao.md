@@ -16,7 +16,7 @@ linha; toda a fala do módulo é `outro-narrador`. Índice da série:
 [[mapa-dos-numeros-por-modulo]].
 
 Faixa: L8760-9109 (transcrição), L9110-9211 (slide GAMMA). **Toda a fala do
-módulo é `outro-narrador`.** Agravante registrado em [[_fontes]]: o deck de
+módulo é `outro-narrador`.** Agravante registrado em [[armadilhas-da-fonte-bruta]]: o deck de
 Optimization é cópia quase verbatim do deck de Flows
 (`otimizacao-deck-duplicado`).
 
@@ -61,7 +61,7 @@ Optimization é cópia quase verbatim do deck de Flows
 × text-based é anunciada nos dois registros (L8866, L9157) e nunca informada.
 Nenhum dos 13 testes de **fechamento** (L9184-9209) traz número — mas dois deles
 são re-listagens de testes que têm caso numerado antes, no mesmo módulo: send
-time (L8846-8852) e gráfico × texto (L8866). Ver [[otimizacao/outros-testes]].
+time (L8846-8852) e gráfico × texto (L8866). Ver [[otimizacao/outros-testes-de-ab]].
 
 **Correção de escopo (varredura de falsos negativos).** A frase anterior dizia
 "não há **nenhum** limiar estatístico em todo o módulo: sem significância, sem
@@ -71,4 +71,4 @@ L8800-8812 dá a régua por número de destinatários — 500/500 numa lista de 
 repetir três ou quatro vezes — com a regra explícita "Base it off the number of
 recipients that are receiving" (L8814-8816). O que **de fato** não existe é
 significância, p-valor, intervalo de confiança e duração em dias. Ver
-[[otimizacao/quando-vale-testar]] e [[_cobertura]].
+[[otimizacao/quando-vale-testar]] e [[lacunas-por-cobertura-parcial-e-promessa-nao-cumprida]].

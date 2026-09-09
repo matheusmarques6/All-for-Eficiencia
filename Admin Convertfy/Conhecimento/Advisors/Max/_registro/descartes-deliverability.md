@@ -60,9 +60,9 @@ conteúdo doutrinário.
 |---|---|---|
 | L8476 | "because if you start sending to the wrong list too many times, you start, your deliverability starts to" | a frase morre. O sentido é óbvio mas o corpus não o diz — registrado como truncamento na nota, não completado |
 | L8508 | "But for the purposes here, you guys probably shouldn't" | morre antes do complemento |
-| L8560 | "that doesn't mean send, You have to emails in 7 days" | **o número do teto de frequência se perdeu**. Registrado em [[_numeros-completo#Warming — rampa e cadência]] como valor ausente |
+| L8560 | "that doesn't mean send, You have to emails in 7 days" | **o número do teto de frequência se perdeu**. Registrado em [[numeros-de-deliverability-warming#Warming — rampa e cadência]] como valor ausente |
 | L8593 | "you want to aggressively put that in the other direction where you're not your, your engagement is so high" | autocorreção no meio; a segunda metade da frase é a boa e foi citada |
-| L8638 | "Click here, vote, and winner is going get a free $3 engagement" | repetição corrompida da frase imediatamente anterior, **na mesma linha L8638** ("a free $3 gift card"). O valor `$3` aparece **duas vezes na linha**, mas foi contado **uma vez só** em [[_numeros-completo#Casos reais de warming]]. A repetição é evidência a favor do número, não contra |
+| L8638 | "Click here, vote, and winner is going get a free $3 engagement" | repetição corrompida da frase imediatamente anterior, **na mesma linha L8638** ("a free $3 gift card"). O valor `$3` aparece **duas vezes na linha**, mas foi contado **uma vez só** em [[numeros-de-deliverability-warming#Casos reais de warming]]. A repetição é evidência a favor do número, não contra |
 
 ## Gaps de transcrição — conteúdo ausente do corpus
 

@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: o slide (L9116-9141) é artefato escrito de Max e continua valendo. Toda
 a fala — a pré-condição de L8786-8790, a tabela de conclusividade por volume

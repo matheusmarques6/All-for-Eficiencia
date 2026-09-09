@@ -25,14 +25,14 @@ justamente em mostrar as duas versões.
 
 ## O que fazer com cada tipo de falha
 
-Mapeado aos limiares do [[_arquitetura]] §5, que foram definidos **antes** de
+Mapeado aos limiares do [[arquitetura-decisoes-e-leis-de-manutencao]] §5, que foram definidos **antes** de
 medir exatamente para que a decisão não seja racionalizada depois.
 
 | Sintoma | Casos que o pegam | Peça a consertar | O que **não** mexer |
 |---|---|---|---|
-| **Erro de fato** — número errado, linha errada, conteúdo que existe declarado ausente | C-01 a C-08, C-21, C-22, C-23, C-25 | **Recuperação**: caminho de leitura, nomes de nota, frontmatter, tabelas de [[_numeros]] e o índice de slugs de [[_conflitos]] | prompt e modelo |
+| **Erro de fato** — número errado, linha errada, conteúdo que existe declarado ausente | C-01 a C-08, C-21, C-22, C-23, C-25 | **Recuperação**: caminho de leitura, nomes de nota, frontmatter, tabelas de [[numeros-de-email-marketing-mais-pedidos]] e o índice de slugs de [[mapa-dos-conflitos]] | prompt e modelo |
 | **Soa genérico** — o fato está certo, a resposta poderia ser de qualquer consultor | C-19, C-20 | **[[persona]]**: aprofundar o expert reflection, principalmente §7 "o que Max nunca diria" e §2 "como ele decide" | recuperação |
-| **Opina fora do corpus** — completa lacuna com boa prática de mercado | C-09, C-24 | **Guardrail** (regra 5 do [[_protocolo]] + [[_cobertura]]). É a falha mais grave da lista: indetectável para quem não conhece o assunto | nada mais, antes de fechar esta |
+| **Opina fora do corpus** — completa lacuna com boa prática de mercado | C-09, C-24 | **Guardrail** (regra 5 do [[_protocolo]] + [[mapa-da-cobertura]]). É a falha mais grave da lista: indetectável para quem não conhece o assunto | nada mais, antes de fechar esta |
 | **Perde coerência em conversa longa** — contradiz o que ele mesmo disse três turnos atrás | nenhum caso isolado pega; aparece rodando a bateria inteira numa sessão só | **Arquitetura de memória** — e só aqui | prompt, corpus, persona |
 
 Três leituras que mudam o conserto e não estão na tabela:
@@ -45,11 +45,11 @@ porque é silencioso: ninguém audita uma resposta que nunca foi dada.
 **Erro de atribuição é peça própria.** C-12, e o lado de atribuição de C-05,
 C-08, C-11, C-15, C-18, C-21 e C-23. O fato pode estar certo e a resposta ainda
 assim errada, se material de faixa `outro-provavel` sair como *"o Max diz"*. O
-conserto é em [[_autoria]] e no frontmatter `registro:` das notas afetadas —
+conserto é em [[mapa-da-autoria]] e no frontmatter `registro:` das notas afetadas —
 nunca em [[persona]].
 
 **Corrigir a nota de controle não corrige a nota do assunto.** Primeira lei de
-manutenção do [[_arquitetura]] §5.1. Índice e nota são cópias independentes da
+manutenção do [[arquitetura-decisoes-e-leis-de-manutencao]] §5.1. Índice e nota são cópias independentes da
 mesma afirmação: toda correção derivada de uma falha aqui precisa de varredura
 por texto no corpus inteiro, nunca de uma edição no lugar onde o erro apareceu.
 Depois de corrigir, **rodar o caso de novo** — e rodar também os casos vizinhos

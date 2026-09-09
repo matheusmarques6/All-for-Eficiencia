@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: os horários (L9148-9149) são **slide** — artefato de Max. O perfil
 demográfico, o caso real 11am × 1:45pm e a leitura dos números (L8828-8860) vêm da
@@ -101,7 +101,7 @@ destinatários que compraram, não destinatários do envio —
 
 Fuso horário, listas internacionais, e nada sobre a função de otimização de
 horário do Klaviyo. Dia da semana é tratado como teste separado, em
-[[outros-testes]].
+[[outros-testes-de-ab]].
 
 **Evidência da varredura (falsos negativos).** Procurado no arquivo inteiro e
 não achado: `time zone` = 0 · `timezone` = 0 · `send time optimization` = 0 ·
@@ -110,4 +110,4 @@ ocorrência e **é outra coisa** — "**Smart Sending** – Klaviyo feature that
 sending to people recently emailed. **Turn off for flows!**" (L447, glossário):
 é trava de frequência, não otimização de horário, e a única prescrição associada
 é desligá-la em flow. Os horários desta nota, portanto, são absolutos e sem
-recorte geográfico. Ver [[_cobertura]] §"Mercados fora dos EUA".
+recorte geográfico. Ver [[o-que-o-corpus-nao-cobre]] §"Mercados fora dos EUA".

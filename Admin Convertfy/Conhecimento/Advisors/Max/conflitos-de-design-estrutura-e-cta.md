@@ -10,8 +10,8 @@ status: aprovado
 Registro dos conflitos do módulo `design` do corpus de Max Sturtevant sobre a estrutura do email e o CTA: botão above the fold, repetição de CTA, quantidade de produtos e de bridges, seções bridge e product opcionais, altura do slice, o estilo blocky, métodos de transição ausentes e os três usos do número 75%. Cada entrada lista os valores divergentes por registro e fecha com um "Como responder".
 
 
-`design-html-vs-imagem` está em [[_conflitos#Conflitos entre módulos]];
-`design-cta-por-produto` em [[_conflitos#Conflitos dentro do mesmo registro]];
+`design-html-vs-imagem` está em [[conflitos-entre-modulos-html-imagem-e-janela-de-atencao]];
+`design-cta-por-produto` em [[conflitos-no-mesmo-registro-copy-design-e-otimizacao]];
 `design-segundos-de-atencao` e `design-nomes-de-marca` resolvem para outros slugs.
 
 

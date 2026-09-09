@@ -14,10 +14,10 @@ da atribuição e obrigam ao carimbo de data. Índice em [[mapa-da-cobertura]].
 # O limite de autoria
 
 **~25% da fala do corpus não é do Max.** São **2.228 linhas**, 25.141 palavras,
-distribuídas em cinco faixas ([[_autoria]]). *(Recontado com `wc` faixa a faixa:
-250 + 966 + 382 + 282 + 348 = 2.228. As palavras conferem exatamente; [[_autoria]] §6
+distribuídas em cinco faixas ([[mapa-da-autoria]]). *(Recontado com `wc` faixa a faixa:
+250 + 966 + 382 + 282 + 348 = 2.228. As palavras conferem exatamente; [[mapa-da-autoria]] §6
 já traz 2.228 — a correção pedida por uma versão anterior desta linha foi aplicada lá.
-25.141 sobre 100.638 palavras de fala = 24,98%; [[_autoria]] escreve 100.640 no mesmo
+25.141 sobre 100.638 palavras de fala = 24,98%; [[mapa-da-autoria]] escreve 100.640 no mesmo
 lugar, divergência de duas palavras que nenhum dos dois arquivos resolve.)*
 
 | Faixa | Módulo | Classificação |
@@ -54,7 +54,7 @@ terreno seguro abaixo por isso.
 
 **O que não está em causa:** os nove decks GAMMA. São artefato escrito de Max —
 carregam a bio assinada (L3419, L9269) e reivindicações em primeira pessoa
-(L358, L1208, L5475, L6774, L8311, L9522). Ressalva de [[_autoria]] §7.5: não
+(L358, L1208, L5475, L6774, L8311, L9522). Ressalva de [[mapa-da-autoria]] §7.5: não
 dá para distinguir "Max escreveu usando 'nós'" de "a equipe escreveu e Max
 assinou", e por isso convém não citar um slide como *"ele disse"* — o deck é
 artefato dele, não fala dele.
@@ -96,7 +96,7 @@ Outras âncoras temporais, todas verificadas:
    **antes** dos passos, nunca depois — regra 4 do [[_protocolo]].
 2. **Os links de afiliado.** `omnisend.com/max`, o link Klaviyo com
    `utm_source=001Nu0000022YR4IAM`, `aliapops.com`, `alialearn.com`,
-   `wellcopy.net/gpt`, o Skool. Todos descartados como CTA ([[_fontes]]), mas
+   `wellcopy.net/gpt`, o Skool. Todos descartados como CTA ([[descartes-cta-comercial-e-placeholders]]), mas
    registrados aqui porque as **ofertas** que eles prometem ("30% OFF first 3
    months", L358/L8044; "Say Max sent you when you book a call and you'll get a
    gift ;)", L1245) são datadas e podem não existir mais.

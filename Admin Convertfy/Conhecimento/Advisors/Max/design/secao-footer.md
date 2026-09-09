@@ -71,7 +71,7 @@ Required link to opt out of future emails" (L506) e "**Preference Center** – P
 where users can choose what types of emails they want to receive" (L507). São
 definições de uma linha, sem prescrição de layout, e a fala manda ignorar a seção
 (L229) — mas são o vizinho, e recusar sem oferecê-las é erro. Ver
-[[fundamentos/glossario]]. A única menção a
+[[fundamentos/glossario-de-email-marketing]]. A única menção a
 unsubscribe e preferences no módulo está no vídeo de upload, como passo de
 plataforma e não como doutrina de design: "You're going to need to add a footer
 down here in terms of just like the copy just this information about the brand.

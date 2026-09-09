@@ -63,7 +63,7 @@ acompanhada de aviso ativo, e não só do vizinho: o material recomenda uma
 prática de consentimento e não cobre o regime que a governa. Entregar o que ele
 diz, marcar que ele não fundamenta, e nomear que o corpus não tem TCPA, CTIA,
 10DLC, short code nem texto de consentimento. Ver [[sms/setup-e-plataforma]] e
-[[sms/crescer-a-lista]].
+[[sms/crescer-a-lista-de-sms]].
 
 ## Preço de qualquer ferramenta
 

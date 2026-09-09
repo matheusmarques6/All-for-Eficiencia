@@ -16,7 +16,7 @@ alta, e que a cobertura precisa ser verificada antes de formular. Índice em
 
 **Como a densidade foi medida.** Por palavras, não por linhas — as linhas do
 bruto variam de 3 a 300 palavras e a contagem de linha mente. Total do arquivo:
-121.344 palavras ([[_fontes]]).
+121.344 palavras ([[mapa-das-fontes]]).
 
 | Assunto | Pasta | Notas | Registro disponível | Densidade | Observação |
 |---|---|---|---|---|---|
@@ -31,7 +31,7 @@ bruto variam de 3 a 300 palavras e a contagem de linha mente. Total do arquivo:
 | Testes A/B | [[mapa-de-otimizacao]] | 7 | ambos — 3.123 pal. fala + 825 slide | **baixa** | **O menor módulo do corpus.** O deck é cópia quase verbatim do deck de flows (L4141-4176 ≡ L9151-9180) — não conta como confirmação cruzada. Fala inteira `outro-provavel`. Dos treze testes listados, **três têm vencedor declarado** — time delay de abandono (4h vence 30min, "10 to 15% higher placed order rate", ~$1.000 a mais, L8952-8962), send time (11h-12h, L9148) e gráfico vs texto ("text base sale winner", sem número, L8866). Os outros dez são só hipótese. |
 | Doutrina de SMS, 5 flows, calendário, horários | [[mapa-de-sms]] | 8 | ambos — 3.851 pal. fala + 2.184 slide | **baixa** | **Módulo invertido: o slide carrega mais que a fala.** A fala é um único vídeo de YouTube de ~16 min. Nenhum flow de SMS tem metric, trigger, filtro ou exclusão. Recusa provável, e é o módulo com o pior problema de compliance (ver §4). |
 
-**Total: 101 notas de conteúdo** em dez pastas, mais dez `_index.md` e as seis
+**Total: 101 notas de conteúdo** em dez pastas, mais dez `mapa-de-<assunto>.md` e as seis
 notas de controle.
 
 **Leitura operacional da coluna densidade.** Baixa não significa "não responda";

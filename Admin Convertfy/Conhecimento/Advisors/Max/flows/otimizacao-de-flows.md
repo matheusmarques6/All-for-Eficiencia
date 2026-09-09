@@ -118,7 +118,7 @@ as our testing ground (…) rather than waiting for results like you have to do 
 flows" (L4128-4131). E na mesma página, doze linhas depois, o teste de time
 delay — que só existe dentro do flow — é "the biggest lever I'd say" (L4143),
 frase que o deck de otimização repete idêntica (L9178). Ver `flows-onde-testar`
-em [[_conflitos]].
+em [[mapa-dos-conflitos]].
 
 **Uma tensão de cobertura.** O deck manda testar time delay como maior alavanca
 e o corpus não declara delay nenhum para cart abandon nem para checkout abandon

@@ -29,7 +29,7 @@ across" (L6518).
 
 Janela declarada: antes, "an average of 5-10 seconds of attention per email";
 hoje, "you *maybe* have 3 seconds" (L6516-6517). O número do "antes" diverge
-da fala — ver [[_conflitos]], `copy-janela-de-atencao`.
+da fala — ver [[mapa-dos-conflitos]], `copy-janela-de-atencao`.
 
 # As três coisas a evitar
 
@@ -77,7 +77,7 @@ escolha de gastar toda a atenção disponível provando **um** benefício.
 
 O piso de takeaways não é estável. Aqui e em L5611 é **1**; no slide de
 Clear & Concise o título diz "Limit to 1-3 Key Points Per Email" (L6615). Ver
-[[principio-clear-e-conciso]] e [[_conflitos]] (`copy-takeaways-por-email`).
+[[principio-clear-e-conciso]] e [[mapa-dos-conflitos]] (`copy-takeaways-por-email`).
 
 # O que o corpus não diz
 

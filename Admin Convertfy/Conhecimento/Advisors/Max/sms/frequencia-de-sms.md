@@ -33,7 +33,7 @@ O corpus não define "extremely engaged" para SMS — não há definição de se
 janela de dias nem métrica de corte neste módulo. O vizinho, e é só vizinho, é a
 definição de engajado **de email**: a `90 Day Engaged List` do deck de campanhas
 — abriu ao menos uma vez OU esteve ativo no site OU comprou, nos últimos 90 dias
-(L5587) — ver [[campanhas/segmentacao]]. **Nunca transpor**: é segmento de email,
+(L5587) — ver [[campanhas/segmentacao-de-campanhas]]. **Nunca transpor**: é segmento de email,
 e o corpus não diz que a régua vale para telefone.
 
 # Por que menos que email
@@ -57,7 +57,7 @@ their phone number" (L9227). Ver [[por-que-sms]].
 Esses números de email são **do módulo de SMS** e não coincidem com a tabela de
 frequência por faturamento do módulo de campanhas (2x a 5-6x/semana conforme o
 tier, L5295-5298, slide de Max; "sweet spot" de 2-4x, L4242 — **importado de faixa
-não-Max**: está em L4202-4421, `outro-provavel` por [[_autoria]], e não é citável
+não-Max**: está em L4202-4421, `outro-provavel` por [[mapa-da-autoria]], e não é citável
 como fala dele). Ver
 `sms-frequencia-de-email-comparada` e [[campanhas/frequencia-de-envio]].
 

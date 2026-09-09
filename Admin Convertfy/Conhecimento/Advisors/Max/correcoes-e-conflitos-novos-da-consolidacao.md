@@ -3,7 +3,6 @@ tipo: indice
 modulo: auditoria
 assunto: correcoes-e-conflitos-novos-da-consolidacao
 autor: max-sturtevant
-conflitos: []
 status: aprovado
 ---
 

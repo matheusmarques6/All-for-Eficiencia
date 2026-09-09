@@ -28,7 +28,7 @@ is going to be different than a brand selling protein supplements"` (L1378).
 inventada a partir de 3, 4-5, 6-8 e 15 — indistinguível de conhecimento real e
 impossível de auditar depois.
 
-**Se errar, quebrou:** [[_numeros]] regra 3 e [[_conflitos]]
+**Se errar, quebrou:** [[numeros-de-email-marketing-mais-pedidos]] regra 3 e [[mapa-dos-conflitos]]
 (`welcome-contagem-de-emails`). Se a resposta deu só um dos valores, o passo 4
 do [[_protocolo]] não rodou.
 
@@ -46,15 +46,15 @@ expensive than sending an sms."` (L9383) e a exigência que ele deriva disso —
 `"you'd have to make 2x-3x more revenue with your mms messages to outperform sms
 message ROI"` (L9384), com a recomendação `"sticking to SMS text only messages"`
 (L9386). E o emoji: `"the equivalent of 35-50 characters in your message"`
-(L9405). Registro: tudo slide. Não existe entrada em [[_conflitos]] para
+(L9405). Registro: tudo slide. Não existe entrada em [[mapa-dos-conflitos]] para
 nenhum destes valores.
 
 **Resposta errada típica:** arredondar ("uns 160, mais ou menos"), converter
 ("mais ou menos 2 a 3 linhas de texto") ou responder em português traduzindo os
 verbatins.
 
-**Se errar, quebrou:** [[_numeros]] regra 1 (verbatim). Se a resposta inventou
-um conflito que não existe, quebrou o passo 4 — [[_conflitos]] não tem entrada
+**Se errar, quebrou:** [[numeros-de-email-marketing-mais-pedidos]] regra 1 (verbatim). Se a resposta inventou
+um conflito que não existe, quebrou o passo 4 — [[mapa-dos-conflitos]] não tem entrada
 para tamanho de mensagem.
 
 ## C-04 · Armadilha de referente — os três "75%" do design
@@ -80,7 +80,7 @@ que 75% do email fica acima da dobra.
 **Resposta errada típica:** "sim, 75% do conteúdo tem que estar acima da dobra"
 — cita o número sem o referente e funde os três numa regra que o corpus não tem.
 
-**Se errar, quebrou:** [[_numeros]] (seção Armadilhas de número) e
-[[_conflitos]] (`design-tres-usos-de-75-por-cento`, marcado `armadilha`, não
+**Se errar, quebrou:** [[armadilhas-ao-citar-numero]] (seção Armadilhas de número) e
+[[mapa-dos-conflitos]] (`design-tres-usos-de-75-por-cento`, marcado `armadilha`, não
 `conflito`).
 

@@ -54,7 +54,7 @@ perdeu é a versão desta aula. Ver [[doutrina/sce-o-framework-que-atravessa-tud
 
 **Os ~77 rótulos de exemplo sem imagem.** O export do GAMMA trouxe as legendas e
 deixou as figuras para trás. Todos dentro de blocos de slide. Distribuição
-verificada em [[_fontes]]:
+verificada em [[descartes-cta-comercial-e-placeholders]]:
 
 - **12 `**Email Example:**` em GAMMA FLOWS** — L3642, 3663 (site abandon);
   L3700, 3721, 3742, 3763 (browse abandon); L3817, 3838, 3859, 3881
@@ -70,7 +70,7 @@ verificada em [[_fontes]]:
   `#### **Great Examples That Follow Best Practices**` (L8143) e
   `#### **Optimized Product Section Example:**` (L8289). São **âncoras vazias:
   não sustentam afirmação nenhuma.** *(Contagem anterior: 13. O total geral de
-  rótulos órfãos passa de 77 para 79 — corrigido em [[_fontes]].)*
+  rótulos órfãos passa de 77 para 79 — corrigido em [[descartes-cta-comercial-e-placeholders]].)*
 - **8 `**Step 1/2/3**`** — L5480-5484 (calendário com IA), L6779-6783 (prompt de
   copy), L9348-9350 (captação de SMS), fechando `**Results**` (L5486) e
   `**Output**` (L6785). O processo do Email Marketing Brain não é demonstrável.

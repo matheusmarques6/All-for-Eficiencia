@@ -11,7 +11,7 @@ Registro dos conflitos do módulo `flows` do corpus de Max Sturtevant sobre pós
 
 
 Faixa: L1307-3403 (transcrição) e L3404-4186 (slide GAMMA). `flows-onde-testar`
-está em [[_conflitos#Conflitos entre módulos]].
+está em [[conflitos-entre-modulos-onde-testar-frequencia-e-pontas-soltas]].
 
 
 ## post-purchase-escopo-temporal

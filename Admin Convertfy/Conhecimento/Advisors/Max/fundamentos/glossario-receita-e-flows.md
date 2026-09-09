@@ -11,7 +11,7 @@ status: aprovado
 
 # Receita, tipos de email e os 8 flows
 
-Parte do glossário do módulo. Índice e ressalvas em [[glossario]].
+Parte do glossário do módulo. Índice e ressalvas em [[glossario-de-email-marketing]].
 **Verbatim, em inglês, do deck GAMMA.** Não traduzir, não resumir, não corrigir.
 
 18 termos, 3 categorias (L386-411).

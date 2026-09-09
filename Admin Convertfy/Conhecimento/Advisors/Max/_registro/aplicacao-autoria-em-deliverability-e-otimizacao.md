@@ -5,7 +5,7 @@ autor: max-sturtevant
 status: aprovado
 ---
 
-Tabela nota a nota da aplicação do laudo [[_autoria]] às pastas `deliverability/` (9 de 9 notas + índice) e `otimizacao/` (7 de 7 + índice), as duas pastas em que a exposição a faixa não-Max é total. Para cada nota: a exposição encontrada por âncora, o `registro:` antes → depois e o que mudou na prosa. O método e as ressalvas estão em [[mapa-da-aplicacao-de-autoria]].
+Tabela nota a nota da aplicação do laudo [[mapa-da-autoria]] às pastas `deliverability/` (9 de 9 notas + índice) e `otimizacao/` (7 de 7 + índice), as duas pastas em que a exposição a faixa não-Max é total. Para cada nota: a exposição encontrada por âncora, o `registro:` antes → depois e o que mudou na prosa. O método e as ressalvas estão em [[mapa-da-aplicacao-de-autoria]].
 
 # `deliverability/` — 9 de 9 + índice
 

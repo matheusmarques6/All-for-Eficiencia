@@ -11,7 +11,7 @@ validade: <AAAA-MM-DD — peças reais envelhecem>
 
 # A peça
 
-<Descrição concreta e literal do que se vê. Copy exata entre aspas. Dimensões, cores, posição dos elementos. Se houver imagem no vault, use ![[arquivo.png]].>
+<Descrição concreta e literal do que se vê. Copy exata entre aspas. Dimensões, cores, posição dos elementos. Se houver imagem no vault, use a sintaxe de embed de imagem do Obsidian.>
 
 # Por que está aqui
 

@@ -18,7 +18,7 @@ disso — a passagem é escrita como refutação.
 # Contra o rumor
 
 A refutação citada abaixo **não é fala de Max**: vem do módulo de deliverability
-(L8381-8646), classificado `outro-provavel` por [[_autoria]] — outro narrador, por
+(L8381-8646), classificado `outro-provavel` por [[mapa-da-autoria]] — outro narrador, por
 estilometria, sem prova nominal. A nota é de Max (o núcleo sai de L8022-8032,
 faixa `max-provado`); só esta citação é importada de faixa não-Max e entra como
 material do curso, não como fala dele.

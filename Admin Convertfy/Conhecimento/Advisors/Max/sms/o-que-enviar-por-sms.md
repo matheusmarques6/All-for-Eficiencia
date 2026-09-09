@@ -35,7 +35,7 @@ those but we're also mixing in a ton of nurtur and educational content"
 welcome de email (L9431-9432, ver [[flows-sms]]).
 
 O SMS carrega o pico; o email carrega a relação. Ele resume a comparação de
-cadência assim: email 4x por semana, SMS 1-2 (L9490-9491, ver [[frequencia]]).
+cadência assim: email 4x por semana, SMS 1-2 (L9490-9491, ver [[frequencia-de-sms]]).
 
 # Fabricar importância é permitido
 

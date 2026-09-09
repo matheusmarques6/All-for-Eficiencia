@@ -15,8 +15,8 @@ número, os cinco flows com os templates prontos, o que pode ser enviado e o
 calendário com os horários.
 
 Ordem de leitura para quem vai montar SMS do zero: [[por-que-sms]] →
-[[custo-e-tamanho-da-mensagem]] → [[setup-e-plataforma]] → [[crescer-a-lista]] →
-[[flows-sms]] → [[frequencia]] → [[o-que-enviar]] → [[calendario-e-horarios]].
+[[custo-e-tamanho-da-mensagem]] → [[setup-e-plataforma]] → [[crescer-a-lista-de-sms]] →
+[[flows-sms]] → [[frequencia-de-sms]] → [[o-que-enviar-por-sms]] → [[calendario-e-horarios]].
 
 **Neste módulo o slide vale mais que a fala.** São 284 linhas de deck contra 41
 de transcrição, e os artefatos — os quatro templates de copy, os delays dos
@@ -30,11 +30,11 @@ imagem não sobreviveu à extração.
 |---|---|---|
 | [[por-que-sms]] | principio | por que SMS: 98% de open rate, lista como ativo proprietário, e por que "simple" não é "easy" |
 | [[custo-e-tamanho-da-mensagem]] | especificacao | 160 caracteres, a dobra de preço em 161, MMS 2-3x, emoji = 35-50 caracteres |
-| [[frequencia]] | especificacao | 1-2 por semana, o que acontece acima disso, e a única escapatória (segmentar) |
+| [[frequencia-de-sms]] | especificacao | 1-2 por semana, o que acontece acima disso, e a única escapatória (segmentar) |
 | [[setup-e-plataforma]] | procedimento | Klaviyo, Attentive, Postscript — e por que ele diz que a escolha não decide nada |
-| [[crescer-a-lista]] | procedimento | checkbox de checkout e pop-up; **a armadilha**: os passos do Shopify são de email |
+| [[crescer-a-lista-de-sms]] | procedimento | checkbox de checkout e pop-up; **a armadilha**: os passos do Shopify são de email |
 | [[flows-sms]] | artefato | os cinco flows, os delays e os quatro templates de copy verbatim |
-| [[o-que-enviar]] | principio | só transacional; nada de nurture nem prova social; o restock como coringa |
+| [[o-que-enviar-por-sms]] | principio | só transacional; nada de nurture nem prova social; o restock como coringa |
 | [[calendario-e-horarios]] | especificacao | o mês de outubro reconstruído, a regra de lacuna e as janelas de envio |
 
 # Os números que mais são perguntados
@@ -55,13 +55,13 @@ imagem não sobreviveu à extração.
 | Trigger do pop-up | **6-10s** após page load (ele usa 6) | transcrição | L9239-9240 |
 | Janela base de envio | **11am-2pm** | ambos | L9256, L9509 |
 
-Tabela completa em [[_numeros-completo#SMS]].
+Tabela completa em [[numeros-de-sms]].
 
 # Onde este módulo se contradiz
 
-Treze entradas canônicas: onze em [[_conflitos-completo#sms]] e duas —
+Treze entradas canônicas: onze em [[conflitos-de-sms-frequencia-e-captacao]] e duas —
 `sms-open-rate-de-email` e `sms-frequencia-de-email-comparada` — em
-[[_conflitos#Conflitos entre módulos]]. As que mais mudam uma
+[[mapa-dos-conflitos]]. As que mais mudam uma
 resposta:
 
 - **`sms-frequencia`** — 1-2/semana × "once per weekish" × o calendário-exemplo
@@ -104,7 +104,7 @@ resposta:
 # Nota de tamanho
 
 Três notas passam do teto de 4 KB do brief: [[flows-sms]] (5,7 KB),
-[[crescer-a-lista]] (4,9 KB) e [[calendario-e-horarios]] (4,7 KB). As duas
+[[crescer-a-lista-de-sms]] (4,9 KB) e [[calendario-e-horarios]] (4,7 KB). As duas
 primeiras carregam artefato verbatim que não pode ser resumido — os quatro
 templates de copy e os quatro passos do Shopify. A terceira carrega o calendário
 reconstruído linha a linha mais a tabela de horários, e é a única das três que

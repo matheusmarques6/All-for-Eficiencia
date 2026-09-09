@@ -5,11 +5,11 @@ autor: max-sturtevant
 status: aprovado
 ---
 
-Registro de execução da aplicação do laudo de autoria [[_autoria]] às notas do corpus: o que a unidade mudou, como a exposição a faixa não-Max foi apurada âncora por âncora, e onde está a tabela nota a nota de cada pasta afetada. Nenhum conhecimento foi apagado — só mudou quem pode ser citado como autor.
+Registro de execução da aplicação do laudo de autoria [[mapa-da-autoria]] às notas do corpus: o que a unidade mudou, como a exposição a faixa não-Max foi apurada âncora por âncora, e onde está a tabela nota a nota de cada pasta afetada. Nenhum conhecimento foi apagado — só mudou quem pode ser citado como autor.
 
 # O que esta unidade fez
 
-Aplicou [[_autoria]] às notas. O laudo estabelece **quem fala**; esta unidade
+Aplicou [[mapa-da-autoria]] às notas. O laudo estabelece **quem fala**; esta unidade
 mudou `registro:`, a prosa de atribuição e os `_index.md` para que a saída do
 advisor nunca cite como fala de Max o que não é.
 

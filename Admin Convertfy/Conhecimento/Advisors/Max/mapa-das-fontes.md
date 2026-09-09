@@ -35,8 +35,8 @@ não é para republicação. O corpus em `Advisors/Max/` existe para uso interno
 e por isso preserva a procedência linha a linha: toda afirmação sai de uma
 linha identificável deste arquivo, e todo descarte está listado em
 [[descartes-contaminacao-e-falha-de-asr]] e
-[[descartes-cta-comercial-e-placeholders]], com o motivo. Sem esse rastro o corpus vira opinião anônima e deixa de ser
-auditável.
+[[descartes-cta-comercial-e-placeholders]], com o motivo. Sem esse rastro o
+corpus vira opinião anônima e deixa de ser auditável.
 
 # Mapa de módulos
 

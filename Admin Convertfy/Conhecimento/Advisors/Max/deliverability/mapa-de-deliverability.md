@@ -21,12 +21,12 @@ Sem prova nominal: a classificação é **estilométrica**, não provada — o b
 traz um só marcador do idioleto de Max ("I recommend", "my favorite", "I like to")
 e traz os do outro aglomerado ("at the end of the day" 5×, fechos coletivos em
 L8516 e L8645). `outro-provavel` **não é** `outro-provado`: não está provado que a
-voz não é dele, só que é altamente improvável ([[_autoria]] §7.3).
+voz não é dele, só que é altamente improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: idioleto ([[_autoria]] §2.1). **Saudação de abertura não é critério** —
+Critério: idioleto ([[mapa-da-autoria]] §2.1). **Saudação de abertura não é critério** —
 o laudo testou e derrubou: o walkthrough de Figma abre com "Hello, hello" e é
 comprovadamente Max, porque em L7817 ele digita `@max` e diz "tags me"
-([[_autoria]] §5). Ao responder a partir do registro
+([[mapa-da-autoria]] §5). Ao responder a partir do registro
 `transcricao` deste módulo, dizer "o material do curso diz", nunca "o Max diz".
 
 # A pasta de maior risco do corpus
@@ -40,7 +40,7 @@ corpus dá dez valores para a mesma coisa — e dá —, a resposta dá os dez.
 
 | Nota | tipo | O que responde |
 |---|---|---|
-| [[o-que-e]] | principio · **outro-narrador** | onde o email cai e por quê; a analogia do credit score; só duas coisas afetam |
+| [[o-que-e-deliverability]] | principio · **outro-narrador** | onde o email cai e por quê; a analogia do credit score; só duas coisas afetam |
 | [[setup-tecnico]] | procedimento · **datado** · **outro-narrador** | SPF/DMARC/DKIM no DNS, branded sending domain, verificação. **Bloqueio: sem isso, não envie nada** |
 | [[metricas-alvo]] | especificacao · **outro-narrador** | a tabela de metas verbatim; soft vs hard bounce; o conflito do unsubscribe |
 | [[so-envie-para-engajados]] | especificacao · **outro-narrador** | a definição verbatim do 90 Day Engaged List; quando apertar e quando alargar |
@@ -97,8 +97,8 @@ lista** — "If it starts dipping below 40, I definitely wouldn't be expanding i
   fora dela e são o vizinho: [[flows/sunset]] (finalidade em L411, segmento no
   print da L9545) e a **Suppress List** completa do deck de campanhas, ≥5 emails
   recebidos AND 0 aberturas em 365 dias OR ≥3 bounces OR ≥1 spam (L5592) — ver
-  [[campanhas/segmentacao]]. O glossário ainda dá um alvo de `List Cleaning`,
-  "60–90+ days" (L443), que **só existe ali** ([[fundamentos/glossario]]).
+  [[campanhas/segmentacao-de-campanhas]]. O glossário ainda dá um alvo de `List Cleaning`,
+  "60–90+ days" (L443), que **só existe ali** ([[fundamentos/glossario-de-email-marketing]]).
 - SMS deliverability. Nada nesta faixa.
 - O que fazer quando click rate, bounce rate ou spam complaint furam o alvo. Há
   meta, não há protocolo de reação — só para o caso de spam

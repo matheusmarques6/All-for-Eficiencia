@@ -5,7 +5,7 @@ autor: max-sturtevant
 status: aprovado
 ---
 
-Os três casos em que o laudo [[_autoria]] e a âncora real do corpo discordaram na aplicação, a confirmação por amostragem das pastas declaradas limpas, e o que a unidade de aplicação deliberadamente **não** fez. Em nenhum dos três casos a discordância inverte a conclusão do laudo. As tabelas nota a nota estão em [[mapa-da-aplicacao-de-autoria]].
+Os três casos em que o laudo [[mapa-da-autoria]] e a âncora real do corpo discordaram na aplicação, a confirmação por amostragem das pastas declaradas limpas, e o que a unidade de aplicação deliberadamente **não** fez. Em nenhum dos três casos a discordância inverte a conclusão do laudo. As tabelas nota a nota estão em [[mapa-da-aplicacao-de-autoria]].
 
 # Onde o laudo e a âncora real discordaram
 
@@ -73,4 +73,4 @@ Nenhuma dessas notas tem `fonte:` em faixa não-Max.
 - **Não tocou em `design/`, `fundamentos/`, `list-growth/` e `sms/`**, por
   instrução — ver o caso 3 acima.
 - **Não reescreveu a entrada de conflito de doutrina** (hoje em
-  [[_conflitos-completo#doutrina]]), só marcou a parte superada.
+  [[conflitos-de-doutrina]]), só marcou a parte superada.

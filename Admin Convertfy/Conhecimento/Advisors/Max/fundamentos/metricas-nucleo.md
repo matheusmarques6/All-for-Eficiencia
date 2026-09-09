@@ -98,7 +98,7 @@ valor. Se perguntarem, a resposta é a recusa dele, não um número.
 
 **Quatro conflitos entre esta tabela e o glossário do mesmo módulo.** Os dois são
 slide, no mesmo deck: é conflito **dentro** do mesmo registro, e a precedência
-do [[_INDEX]] ("slide vence em especificação") **não se aplica** — ela só vale
+do [[mapa-do-corpus-do-max]] ("slide vence em especificação") **não se aplica** — ela só vale
 entre registros diferentes. O desempate aqui é por evidência de autoria dentro
 do próprio material: em L217 ele declara que vai pular o glossário ("So I am
 going to gloss over this glossary… You can use these if you want"), enquanto
@@ -106,7 +106,7 @@ defendeu esta tabela linha por linha na fala (L168-194). **A tabela é material
 que ele sustentou; o glossário é material que ele entregou — onde os dois
 divergem, vale a tabela.** Registrar os dois lados sempre, e nunca dar a
 divergência como faixa: `<0.01%` é a posição sustentada, `<0.1%` é registro
-divergente. Ver [[_conflitos]] § "Conflitos dentro do mesmo registro".
+divergente. Ver [[mapa-dos-conflitos]] § "Conflitos dentro do mesmo registro".
 
 | Métrica | Tabela + fala | Glossário |
 |---|---|---|
@@ -123,7 +123,7 @@ contra "anywhere under 30%, um 40%" (L56-58).
 **Um cross-módulo.** L180 nega que subject line mova open rate. Os módulos de
 copy e otimização quantificam exatamente esse efeito: "at most you can get \~ 10%
 jump in opens" (L6805, slide de Max) e "10%, maybe 15" (L6229 — **importado de
-faixa não-Max**: está em L6101-6248, `outro-provavel` por [[_autoria]], logo é o
+faixa não-Max**: está em L6101-6248, `outro-provavel` por [[mapa-da-autoria]], logo é o
 módulo de subject lines que diz isso, não Max). Não é contradição frontal — um
 salto de 10 pontos não tira ninguém de 30% para 50% — mas a negação de L180 é
 absoluta e o resto do corpus não é. Ver `copy-open-rate-limite` e

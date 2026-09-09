@@ -11,8 +11,8 @@ Registro dos conflitos do módulo `fundamentos` do corpus de Max Sturtevant sobr
 
 
 As quatro entradas `*-glossario` estão na seção
-[[_conflitos#Conflitos dentro do mesmo registro]], porque são slide contra slide no mesmo
-deck. `fundamentos-o-que-move-o-open-rate` está em [[_conflitos#Conflitos entre módulos]].
+[[conflitos-no-mesmo-registro-metas-e-open-rate]], porque são slide contra slide no mesmo
+deck. `fundamentos-o-que-move-o-open-rate` está em [[conflitos-entre-modulos-metas-e-open-rate]].
 
 
 ## fundamentos-roi-do-email

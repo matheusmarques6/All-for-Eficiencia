@@ -30,7 +30,7 @@ Faixa de origem: aulas 1 a 6 do curso (L1-236) e o deck GAMMA correspondente
 | [[estado-do-mercado]] | principio | o diagnóstico datado de conjuntura que sustenta "por que email" |
 | [[escolha-do-esp]] | principio | Klaviyo vs Omnisend, a objeção de preço, e o conflito de interesse dos links |
 | [[dashboard-do-klaviyo]] | procedimento | como ler o painel como diagnóstico; criar segmento passo a passo. **Datado** |
-| [[glossario]] | artefato | índice das 4 partes; 99 termos em 12 categorias, verbatim em inglês |
+| [[glossario-de-email-marketing]] | artefato | índice das 4 partes; 99 termos em 12 categorias, verbatim em inglês |
 | ↳ [[glossario-receita-e-flows]] | artefato | 💰 receita · 📬 tipos de email · 🔄 os 8 flows |
 | ↳ [[glossario-segmentos-e-metricas]] | artefato | 🎯 segmentação · 📈 métricas de performance |
 | ↳ [[glossario-deliverability-e-plataforma]] | artefato | 🧼 saúde de lista e deliverability · 🛠 plataforma e design |
@@ -62,9 +62,9 @@ módulo:
 # Antes de responder qualquer número desta pasta
 
 Esta faixa é a mais conflitante do corpus em proporção ao tamanho: onze entradas
-em [[_conflitos-completo#fundamentos]] e mais cinco em [[_conflitos]] — as quatro
+em [[conflitos-de-fundamentos-receita-e-aquisicao]] e mais cinco em [[mapa-dos-conflitos]] — as quatro
 entre a tabela de metas e o glossário do **mesmo deck**, mais
-`fundamentos-o-que-move-o-open-rate`. Abrir [[_numeros]] e [[_conflitos]] antes da nota,
+`fundamentos-o-que-move-o-open-rate`. Abrir [[numeros-de-email-marketing-mais-pedidos]] e [[mapa-dos-conflitos]] antes da nota,
 sempre — em especial para open rate, unsubscribe, spam complaint e click rate.
 
 # O que esta pasta declaradamente não cobre

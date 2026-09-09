@@ -10,7 +10,7 @@ status: aprovado
 Registro dos conflitos do módulo `doutrina` do corpus de Max Sturtevant: quem narra a aula de IA, o papel da IA como primeiro rascunho, o formato do slice, a receita que a agência declara e a grafia da lista de marcas atendidas. Cada entrada lista os valores divergentes por registro e fecha com um "Como responder".
 
 
-`doutrina-segundos-de-atencao` está em [[_conflitos#Conflitos entre módulos]].
+`doutrina-segundos-de-atencao` está em [[conflitos-entre-modulos-html-imagem-e-janela-de-atencao]].
 
 
 ## doutrina-narrador-da-aula-de-ia
@@ -29,13 +29,13 @@ O corpus tem pelo menos dois narradores. Absorve `copy-narrador-nao-e-max`.
 
 **A assinatura de abertura caiu como critério.** A tabela que ficava aqui separava
 os narradores por "Hello, hello" / "Yo, yo" e listava **L7603** entre os do outro
-narrador. [[_autoria]] §5 provou o contrário: L7603 abre o walkthrough de Figma
+narrador. [[mapa-da-autoria]] §5 provou o contrário: L7603 abre o walkthrough de Figma
 com "Hello, hello" e é comprovadamente Max — em **L7817** ele digita `@max` e diz
 "Let me just make sure it actually **tags me**". O pronome coletivo também caiu:
 "our copywriters" está no deck escrito de Max (L6790) e "message our team" em
 L8692.
 
-O critério que sobreviveu é o **idioleto** ([[_autoria]] §2.1): ausência de "I
+O critério que sobreviveu é o **idioleto** ([[mapa-da-autoria]] §2.1): ausência de "I
 recommend" / "my favorite" / "I like to", presença de "at the end of the day" e
 "obviously", mais o fecho coletivo "thank you guys… see you in the next one".
 
@@ -54,8 +54,8 @@ clarify." (L9108).
 
 **Como responder:** só L5667-5866 tem prova nominal (`outro-provado`). As outras
 nove faixas são `outro-provavel`: inferência **estilométrica**, forte e auditável,
-mas não prova — não está provado que a voz não é dele ([[_autoria]] §7.3). O laudo
-bloco a bloco está em [[_autoria]]. A regra prática:
+mas não prova — não está provado que a voz não é dele ([[mapa-da-autoria]] §7.3). O laudo
+bloco a bloco está em [[mapa-da-autoria]]. A regra prática:
 
 1. Nada de L5667-5865 é citável como fala do Max. `registro: outro-narrador`.
 2. Trechos dos outros oito vídeos: citar como "o material do curso diz", não "o

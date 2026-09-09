@@ -80,7 +80,7 @@ escape.
 the email welcome flow, so don't try to do anything fancy with education or
 anything like that. I like to simply do welcome message with the discount then a
 closer saying the discount is expiring" (L9431-9432). É a regra de divisão de
-trabalho entre canais: educação é do email — ver [[o-que-enviar]].
+trabalho entre canais: educação é do email — ver [[o-que-enviar-por-sms]].
 
 **Browse abandon.** "This is one that not everybody has but is extremely
 profitable for getting customers re-engaged" (L9448).
@@ -129,7 +129,7 @@ discount and keep it general" (L9475).
   **restocks**, etc" (L9498) e, no calendário de exemplo, "Notice the use of
   reminders and filling in an empty space with a product restock. **Restocks are
   a great way to get traction when you aren't sure what to send**" (L9504-9505).
-  Já estava em [[o-que-enviar]] e [[calendario-e-horarios]]. Quem perguntar por
+  Já estava em [[o-que-enviar-por-sms]] e [[calendario-e-horarios]]. Quem perguntar por
   back-in-stock em SMS recebe a resposta de campanha e a lacuna de flow.
 - O template do winback não tem rótulo de mensagem nem placeholder de link: a
   última linha é "Shop 10% OFF:" e termina ali (L9482).

@@ -16,21 +16,21 @@ status: aprovado
 **Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
 pessoa: "So we have a email marketing brain, something that **Max had put together
 himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
-Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
+Ressalva registrada no laudo — L5753 vem de ASR ([[mapa-da-autoria]] §4.1).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: o diagnóstico, a regra e a evidência de resultado existem **também no
 slide** (L6787-6792), artefato escrito de Max — e continuam citáveis por ali. Tudo
 que sai de L5725-5735 e L5803-5833 é fala do outro narrador: o mecanismo do
 descontrole de design, o mapeamento campo a campo, o Bridge Section como
 infográfico e o "80% dos emails" **não são citáveis como fala de Max**. É o caso
-particular registrado no laudo ([[_autoria]] §6.1): o conceito é dele, está no
+particular registrado no laudo ([[mapa-da-autoria]] §6.1): o conceito é dele, está no
 deck; a formulação falada não.
 
 # O problema que isso resolve

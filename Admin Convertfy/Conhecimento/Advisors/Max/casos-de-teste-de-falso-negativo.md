@@ -33,8 +33,8 @@ Faixa `outro-provavel` (L8762-9109).
 recusa por lacuna que não existe. Este item já foi declarado lacuna inexistente
 e sobreviveu em duas notas depois de corrigido no índice.
 
-**Se errar, quebrou:** recuperação ([[_arquitetura]] §5, "erra um fato → conserto
-o caminho de leitura") e [[_cobertura]] (§ "Cinco coisas que já foram declaradas
+**Se errar, quebrou:** recuperação ([[arquitetura-decisoes-e-leis-de-manutencao]] §5, "erra um fato → conserto
+o caminho de leitura") e [[lacunas-por-assunto-nao-coberto]] (§ "Cinco coisas que já foram declaradas
 lacuna total e não são"). Diagnóstico agravado: se a resposta recusou, o corpus
 está produzindo recusa onde tem conteúdo — a falha mais cara de todas, porque é
 silenciosa.
@@ -65,8 +65,8 @@ seguinte já é outro heading. É lacuna do slide, não do corpus.
 não tem" — o escopo errado. O certo quase nunca é "o corpus não diz"; é "**este
 deck** não diz".
 
-**Se errar, quebrou:** [[_cobertura]] (falsos negativos) e a segunda lei de
-manutenção do [[_arquitetura]] §5.1 — "não achar não é o mesmo que não existir".
+**Se errar, quebrou:** [[lacunas-por-assunto-nao-coberto]] (falsos negativos) e a segunda lei de
+manutenção do [[arquitetura-decisoes-e-leis-de-manutencao]] §5.1 — "não achar não é o mesmo que não existir".
 
 ## C-23 · Falso negativo — o conteúdo escondido atrás da grafia corrompida
 
@@ -91,8 +91,8 @@ ausência de assunto. Marcação de autoria: L4715-4767 cai em L4189-5154,
 **Resposta errada típica:** "não há racional falado do S.C.E., só a lista dos
 três princípios" — a busca textual não achou e a conclusão virou ausência.
 
-**Se errar, quebrou:** recuperação e [[_cobertura]]. A causa raiz específica está
-em [[_fontes]] §5 (grafia corrompida pelo ASR): antes de declarar lacuna,
+**Se errar, quebrou:** recuperação e [[lacunas-por-assunto-nao-coberto]]. A causa raiz específica está
+em [[armadilhas-da-fonte-bruta]] §5 (grafia corrompida pelo ASR): antes de declarar lacuna,
 procurar no outro registro, no outro módulo, na grafia corrompida e em imagem
 embutida.
 

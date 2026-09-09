@@ -16,7 +16,7 @@ notas auxiliares.
 
 | Nota | O que tem dentro |
 |---|---|
-| [[welcome]] | gatilho, filtros, saída, as 7 non-negotiables, as **três** sequências que não coincidem, a janela de 5 dias |
+| [[welcome-flow]] | gatilho, filtros, saída, as 7 non-negotiables, as **três** sequências que não coincidem, a janela de 5 dias |
 | [[welcome-fillers]] | os 7 fillers que ele julga na aula + os 21 ângulos catalogados no slide |
 | [[welcome-templates]] | os 3 templates de seção do slide, verbatim: welcome #1, last chance, text-based support |
 | [[site-abandon]] | `Active on Site`, 1-2 emails, delay 4h (só na fala), saída ao ver produto |
@@ -79,8 +79,8 @@ Notas da tabela:
 
 | A pergunta é sobre… | Vá para |
 |---|---|
-| montar um flow do zero | a nota do flow → [[_conflitos]] |
-| um número (delay, contagem, prazo) | [[_numeros]] antes de tudo |
+| montar um flow do zero | a nota do flow → [[mapa-dos-conflitos]] |
+| um número (delay, contagem, prazo) | [[numeros-de-email-marketing-mais-pedidos]] antes de tudo |
 | bloco dinâmico, variável Klaviyo | [[conteudo-dinamico-klaviyo]] |
 | o que testar num flow | [[otimizacao-de-flows]] |
 | copy/subject line de flow | a nota do flow, bloco `# A sequência` ou `# Templates` |

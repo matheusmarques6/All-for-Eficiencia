@@ -45,7 +45,7 @@ list, they trigger a welcome flow.**" E o corpus marca a distinção explicitame
 na aula de winback: "We want to trigger this off of a **segment**. All the other
 flows, we're using an actual trigger of some sort where it's some sort of
 **metric**" (L3314). Ou seja, o corpus tem três formas de gatilho — metric,
-lista e segmento — e o welcome é o caso de lista. Ver [[campanhas/segmentacao]] e
+lista e segmento — e o welcome é o caso de lista. Ver [[campanhas/segmentacao-de-campanhas]] e
 [[winback]]. Ressalva: L4879-4883 está na faixa `outro-provavel`; não citar como
 fala de Max.
 

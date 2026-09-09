@@ -11,10 +11,10 @@ Registro dos conflitos do módulo `sms` do corpus de Max Sturtevant sobre os flo
 
 
 Faixa: L9213-9260 (transcrição) e L9261-9544 (slide GAMMA). O bloco de fala
-(L9215-9260) é `max-provado` por [[_autoria]] (L9258, L9259). `sms-benchmark-de-form`,
+(L9215-9260) é `max-provado` por [[mapa-da-autoria]] (L9258, L9259). `sms-benchmark-de-form`,
 `sms-delay-do-popup` e `sms-exit-intent` resolvem para os slugs de list-growth;
 `sms-open-rate-de-email` e `sms-frequencia-de-email-comparada` estão em
-[[_conflitos#Conflitos entre módulos]].
+[[mapa-dos-conflitos]].
 
 
 ## sms-mms-no-browse-abandon

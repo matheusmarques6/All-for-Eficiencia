@@ -12,7 +12,7 @@ Registro dos conflitos do módulo `campanhas` do corpus de Max Sturtevant sobre 
 
 Faixa: L4187-5236 (transcrição) e L5237-5599 (slide GAMMA). **Atenção de
 atribuição:** os quatro blocos de fala deste módulo (L4189-5154) são classificados
-`outro-provavel` por [[_autoria]]. Onde a fala é o único lado de um conflito, isso
+`outro-provavel` por [[mapa-da-autoria]]. Onde a fala é o único lado de um conflito, isso
 pesa.
 
 
@@ -96,7 +96,7 @@ faturamento, é a segmentação que o faturamento viabiliza.
 Ao responder: dê os dois números do slide com as linhas, diga que o próprio deck se
 contradiz, e entregue a condição falada como condição — não como parte da tabela,
 porque ela não está lá. Duas ressalvas obrigatórias: (a) a fala deste módulo é
-classificada `outro-provavel` em [[_autoria]], então a única reconciliação
+classificada `outro-provavel` em [[mapa-da-autoria]], então a única reconciliação
 disponível vem do registro mais fraco; (b) a mesma condição aparece escrita no deck
 de **SMS**, para o mesmo tipo de exceção — "If you are sending more you need to make
 sure you're really segmenting your list to only send to extremely engaged segments"

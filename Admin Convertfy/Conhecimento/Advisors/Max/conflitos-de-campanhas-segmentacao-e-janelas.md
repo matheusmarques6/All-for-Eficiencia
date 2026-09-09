@@ -12,7 +12,7 @@ Registro dos conflitos do módulo `campanhas` do corpus de Max Sturtevant sobre 
 
 Faixa: L4187-5236 (transcrição) e L5237-5599 (slide GAMMA). **Atenção de
 atribuição:** os quatro blocos de fala deste módulo (L4189-5154) são classificados
-`outro-provavel` por [[_autoria]]. Onde a fala é o único lado de um conflito, isso
+`outro-provavel` por [[mapa-da-autoria]]. Onde a fala é o único lado de um conflito, isso
 pesa.
 
 

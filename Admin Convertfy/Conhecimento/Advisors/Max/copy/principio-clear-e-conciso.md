@@ -13,7 +13,7 @@ status: aprovado
 
 O **C** do S.C.E.: "Points are clear and we aren't trying to do too much"
 (L6570). Rotulado **Principle #2** (L6604) — rótulo que o deck usa duas vezes,
-ver [[_conflitos]] (`copy-numeracao-dos-principios`).
+ver [[mapa-dos-conflitos]] (`copy-numeracao-dos-principios`).
 
 # A premissa: zombie brain
 
@@ -58,7 +58,7 @@ para **1**:
 
 E o resumo do módulo é categórico: "1 Main idea / Takeaway per email. The more
 ideas you introduce, the less the reader takes away" (L5611). Mesma aritmética
-em [[o-que-evitar]]: 5 takeaways = 20% de atenção cada = nenhum lembrado
+em [[o-que-evitar-na-copy]]: 5 takeaways = 20% de atenção cada = nenhum lembrado
 (L6546).
 
 # Onde o corpus discorda
@@ -74,7 +74,7 @@ em [[o-que-evitar]]: 5 takeaways = 20% de atenção cada = nenhum lembrado
 
 O único texto que autoriza 3 é o **título** de um bloco cujo corpo defende 1.
 Nenhuma linha do corpus explica quando 2 ou 3 seriam preferíveis a 1 — o "when
-you can" de L6617 é a única concessão, e ela é vaga. Ver [[_conflitos]].
+you can" de L6617 é a única concessão, e ela é vaga. Ver [[mapa-dos-conflitos]].
 
 # O que o corpus não diz
 
@@ -87,5 +87,5 @@ you can" de L6617 é a única concessão, e ela é vaga. Ver [[_conflitos]].
 
 # Ver também
 
-[[doutrina/sce-o-framework-que-atravessa-tudo]] · [[o-que-evitar]] ·
+[[doutrina/sce-o-framework-que-atravessa-tudo]] · [[o-que-evitar-na-copy]] ·
 [[principio-skimmable]] · [[principio-engaging]]

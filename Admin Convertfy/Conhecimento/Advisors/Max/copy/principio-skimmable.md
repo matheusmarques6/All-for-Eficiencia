@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 A exposição aqui é pequena e localizada: **as três regras, a regra que governa as
 outras e todos os verbatim vêm do slide** (L6578-6598) e do resumo escrito do
@@ -35,7 +35,7 @@ dele**. Nada de substantivo depende dela.
 
 O **S** do S.C.E.: "The ease at which someone can briefly skim your email"
 (L6564). Rotulado no deck como **Principle #1** (L6578) — a única numeração do
-módulo que não colide (ver [[_conflitos]], `copy-numeracao-dos-principios`).
+módulo que não colide (ver [[mapa-dos-conflitos]], `copy-numeracao-dos-principios`).
 
 O enquadramento transversal está em
 [[doutrina/sce-o-framework-que-atravessa-tudo]]. Aqui ficam as três regras

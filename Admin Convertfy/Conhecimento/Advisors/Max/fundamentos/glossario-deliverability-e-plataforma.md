@@ -11,7 +11,7 @@ status: aprovado
 
 # Saúde de lista, deliverability, plataforma e design
 
-Parte do glossário do módulo. Índice e ressalvas em [[glossario]].
+Parte do glossário do módulo. Índice e ressalvas em [[glossario-de-email-marketing]].
 **Verbatim, em inglês, do deck GAMMA.** Não traduzir, não resumir, não corrigir.
 
 25 termos, 2 categorias (L441-470).

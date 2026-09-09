@@ -21,7 +21,7 @@ Tudo que ficou de fora das notas, com motivo.
 |---|---|---|
 | L3455-3465 | "30+ Module Email course / 250+ Winning Flow and Campaign Email Templates / Weekly Live Calls" + botão "Join Community »" | anúncio da comunidade Skool dele, colado no meio do deck de flows |
 | L6350 | "subscribe to my newsletter inbox newsletter. c/s subscribe and get a free 75 page guide" | CTA de fim de vídeo do YouTube |
-| L6387 | "This is a free custom GPT that you can have access to... you can have it for free if you click this button" | oferta de lead magnet; o dado técnico (500 docs, 6 meses) foi para [[_numeros-completo#Claims institucionais]] |
+| L6387 | "This is a free custom GPT that you can have access to... you can have it for free if you click this button" | oferta de lead magnet; o dado técnico (500 docs, 6 meses) foi para [[numeros-de-claims-institucionais]] |
 | L6499 | "Make sure to check out this video on my channel" | CTA de canal |
 | L8044 | "you can sign up for Omniscent. I'll put the link below. You get a 30%, uh, discount if you use me" | link de afiliado. Relevante só como aviso: o vídeo intitulado "Uploading Designs From Figma To Klaviyo" demonstra tudo no Omnisend |
 | L5757-5759, L5861-5863 | "you guys are able to claim it here completely free"; "We'll be sure to link all the resources below" | entrega de material do curso |
@@ -56,7 +56,7 @@ Tudo que ficou de fora das notas, com motivo.
 
 Consequência: **a pasta doutrina não tem um único exemplo visual.** Todo princípio
 que ele ilustrou com imagem chegou aqui só como texto. Isso vai para
-[[_cobertura]].
+[[lacunas-por-falha-tecnica-e-entrega-errada]].
 
 ## Fora do escopo desta pasta (pertencem a outro módulo)
 
@@ -91,7 +91,7 @@ Email Donut, Email Love): L8319-8332 — essas **entraram** na nota
   de copy fica com aquele módulo.
 - **A lista "What To Avoid"** (L6530-6548). É especificação de copy, não princípio
   transversal — exceto o número dos 20% por takeaway, que foi para
-  [[_numeros-completo#Atenção e densidade]].
+  [[numeros-de-copy#Atenção e densidade]].
 - **O trecho de deliverability sobre texto invisível** (L6344-6346). Entrou em
   [[o-processo-de-criacao]] como passo divergente entre walkthroughs, mas a
   doutrina de deliverability por trás dele é do módulo `deliverability`.

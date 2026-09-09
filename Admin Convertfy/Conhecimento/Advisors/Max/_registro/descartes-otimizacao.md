@@ -34,7 +34,7 @@ Faixa lida na íntegra: L8760-9211. O que ficou de fora das notas, e por quê.
 
 Retido apesar de parecer ruído: L8796-8798, "the tests that our team runs
 consistently that we always run with our new accounts" — é o que qualifica os
-cinco testes de topo, e está citado em `otimizacao/_index.md`.
+cinco testes de topo, e está citado em `otimizacao/mapa-de-otimizacao.md`.
 
 ## Artefatos de ASR normalizados (sentido preservado, forma não citável)
 
@@ -75,7 +75,7 @@ corpus. Nenhuma nota reconstrói a tela; todas registram a ausência.
 
 L9094-9096: "there's another document we have that outlines some of the higher
 leverage AB tests with a little bit more info on it as well". Esse documento não
-está em `CONTEUDO BRUTO/max.md`. Entra em [[_cobertura]] como lacuna declarada
+está em `CONTEUDO BRUTO/max.md`. Entra em [[lacunas-por-cobertura-parcial-e-promessa-nao-cumprida]] como lacuna declarada
 pelo próprio autor, não como descarte.
 
 ## Fronteiras da faixa

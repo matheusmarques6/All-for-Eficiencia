@@ -54,9 +54,9 @@ vale o slide").
    fonte contada duas vezes.
 2. **Mas isso não sustenta o "não resolver".** Sobra um slide (L9120-9121, 90/10) contra
    duas falas (L8778-8780 "80, 90%" e L9098 "80%"). Conflito de número entre registros
-   → a precedência do [[_INDEX]] se aplica → **vale o slide**.
+   → a precedência do [[mapa-do-corpus-do-max]] se aplica → **vale o slide**.
 3. **E há um desempate mais forte que a precedência.** O bloco de fala L8762-9109 é
-   classificado **`outro-provavel`** por [[_autoria]] (bloco 40): "obviously" 9×, "at
+   classificado **`outro-provavel`** por [[mapa-da-autoria]] (bloco 40): "obviously" 9×, "at
    the end of the day" 3× e **zero** "I recommend" / "my favorite" / "I like to" em
    3.121 palavras, mais o fecho coletivo "feel free to hit us up" em L9108. A saudação
    "Yo, yo" de L8774 **não conta** — o critério caiu (§5). **As duas

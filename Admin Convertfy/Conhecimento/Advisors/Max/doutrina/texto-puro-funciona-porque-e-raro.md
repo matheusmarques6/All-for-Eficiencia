@@ -15,20 +15,20 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 **O núcleo do princípio está na voz do Max, e agora por prova, não por
 inferência.** A masterclass de texto puro (L5155-5236) é bloco `max-provado`: em
 L5212 o narrador reivindica o Email Marketing Brain em primeira pessoa — "you can
 get access to my custom GPT" — o mesmo artefato que L5753 atribui a um terceiro
-([[_autoria]] §4.1). É dali que sai "part of why textbased emails work so well is
+([[mapa-da-autoria]] §4.1). É dali que sai "part of why textbased emails work so well is
 because they're rare" (L5230). O uso em flow de abandono (L2256-2274) é
 `max-provavel`, e o slide (L5300-5307) é artefato dele.
 

@@ -16,22 +16,22 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 **Exposição mínima, mas real — e o laudo não a listou.** A nota inteira sai do
 slide (L6625-6646, L6576), artefato escrito de Max, e continua citável. A única
 frase de fala é o "people are so accustomed to seeing the same thing over and over
 and over and over" (L6219), usada como reforço do argumento sobre repetição: essa
 linha está na faixa não-Max e **não é citável como fala dele**. O laudo classifica
-`principio-engaging` como não afetada ([[_autoria]] §6.1); a âncora do corpo diz
-o contrário. Registrado em `_registro/aplicacao-autoria.md`.
+`principio-engaging` como não afetada ([[mapa-da-autoria]] §6.1); a âncora do corpo diz
+o contrário. Registrado em `_registro/ressalvas-e-limites-da-aplicacao-de-autoria.md`.
 
 # O que é
 
@@ -39,7 +39,7 @@ O **E** do S.C.E.: "The entertainment of content you are sending" (L6576).
 
 O deck rotula este bloco como **"Principle \#2: Engaging"** (L6625) — o mesmo
 número já usado em Clear & Concise (L6604). Não existe um "#3" em lugar nenhum
-do módulo. Ver [[_conflitos]] (`copy-numeracao-dos-principios`).
+do módulo. Ver [[mapa-dos-conflitos]] (`copy-numeracao-dos-principios`).
 
 # A tese: dopamina como ativo de longo prazo
 

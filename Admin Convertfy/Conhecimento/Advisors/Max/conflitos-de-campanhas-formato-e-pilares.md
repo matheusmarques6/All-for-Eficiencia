@@ -12,7 +12,7 @@ Registro dos conflitos do módulo `campanhas` do corpus de Max Sturtevant sobre 
 
 Faixa: L4187-5236 (transcrição) e L5237-5599 (slide GAMMA). **Atenção de
 atribuição:** os quatro blocos de fala deste módulo (L4189-5154) são classificados
-`outro-provavel` por [[_autoria]]. Onde a fala é o único lado de um conflito, isso
+`outro-provavel` por [[mapa-da-autoria]]. Onde a fala é o único lado de um conflito, isso
 pesa.
 
 
@@ -35,7 +35,7 @@ resumo editorial, não fala dele. **Nunca dê um número só.**
 
 **Atribuição, e ela separa as versões:** o 80-20 / 75-25 de L4346-4348 é fala
 **outro-narrador** (L4202-4421); o 4:1 / 5:1 de L5232 está em L5155-5236, **`max-provado`**
-por [[_autoria]] (L5212). Ou seja, das três versões só a do masterclass é citável como
+por [[mapa-da-autoria]] (L5212). Ou seja, das três versões só a do masterclass é citável como
 fala de Max. Isso não fecha o conflito — o corpus continua com três números —, mas muda
 qual delas pode sair na voz dele.
 
@@ -72,7 +72,7 @@ slide apresenta divisão par como cadência recomendada; a fala, no mesmo exempl
 que exista fórmula e abre exceção para mês de promoção grande. Conflito de julgamento,
 então a fala vence: divisão par é ponto de partida, não regra. **Ressalva de
 atribuição:** a fala que vence aqui (L4490) é **`outro-narrador`**. A regra de
-precedência do [[_INDEX]] continua valendo — é regra sobre registro, não sobre pessoa —,
+precedência do [[mapa-do-corpus-do-max]] continua valendo — é regra sobre registro, não sobre pessoa —,
 mas a relativização **não pode sair como julgamento de Max**: sai como "o material do
 curso nega que exista fórmula".
 

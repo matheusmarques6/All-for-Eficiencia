@@ -39,7 +39,7 @@ princípio:
 
 Duas exigências em tensão deliberada: **suave** na transição, **claro** na
 separação. A fala insiste no negativo — "it's not just like one big blob"
-(L7177). Como executar o "smooth" está em [[transicoes]].
+(L7177). Como executar o "smooth" está em [[transicoes-entre-secoes-do-email]].
 
 **✅ Highlighted Main Points** (L8198-8201) — "Very few people will actually ready
 [sic] your body copy in full. But they WILL read / skim your headlines /

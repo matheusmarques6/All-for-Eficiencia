@@ -10,9 +10,9 @@ status: aprovado
 Registro dos conflitos do módulo `copy` do corpus de Max Sturtevant: comprimento da subject line, reticências, o teto do ganho de abertura, o multiplicador de vendas, preview text obrigatório, "não complique" contra o framework, os nomes dos infográficos e o tamanho do Email Marketing Brain. Cada entrada lista os valores divergentes por registro e fecha com um "Como responder".
 
 
-`copy-janela-de-atencao` está em [[_conflitos#Conflitos entre módulos]] (dentro de
+`copy-janela-de-atencao` está em [[conflitos-entre-modulos-html-imagem-e-janela-de-atencao]] (dentro de
 `doutrina-segundos-de-atencao`). `copy-numeracao-dos-principios` e
-`copy-takeaways-por-email` estão em [[_conflitos#Conflitos dentro do mesmo registro]].
+`copy-takeaways-por-email` estão em [[conflitos-no-mesmo-registro-copy-design-e-otimizacao]].
 `copy-medir-por-abertura`, `copy-papel-da-ia` e `copy-narrador-nao-e-max`
 resolvem para outros slugs — ver o índice.
 

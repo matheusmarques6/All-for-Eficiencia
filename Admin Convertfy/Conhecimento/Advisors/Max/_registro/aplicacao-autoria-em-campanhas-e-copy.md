@@ -5,7 +5,7 @@ autor: max-sturtevant
 status: aprovado
 ---
 
-Tabela nota a nota da aplicação do laudo [[_autoria]] às pastas `campanhas/` (8 de 9 notas + índice) e `copy/` (6 de 9 + índice, onde o laudo dizia 5 + 1). São as duas pastas com notas de três origens simultâneas — fala não-Max, fala de Max e slide —, separadas item a item no aviso de cada nota. O método está em [[mapa-da-aplicacao-de-autoria]].
+Tabela nota a nota da aplicação do laudo [[mapa-da-autoria]] às pastas `campanhas/` (8 de 9 notas + índice) e `copy/` (6 de 9 + índice, onde o laudo dizia 5 + 1). São as duas pastas com notas de três origens simultâneas — fala não-Max, fala de Max e slide —, separadas item a item no aviso de cada nota. O método está em [[mapa-da-aplicacao-de-autoria]].
 
 # `campanhas/` — 8 de 9 + índice
 

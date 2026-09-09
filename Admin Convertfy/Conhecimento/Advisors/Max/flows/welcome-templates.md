@@ -10,7 +10,7 @@ status: aprovado
 
 # O que é
 
-Os três templates de seção que o slide entrega para o [[welcome]]: o welcome
+Os três templates de seção que o slide entrega para o [[welcome-flow]]: o welcome
 email #1, o last chance e o text-based support. O bloco de fillers (L3544-3578)
 não traz template de seções — está em [[welcome-fillers]].
 
@@ -115,7 +115,7 @@ buscar rápido, não distrair, e terminar com algo que não pareça marketing. A
 O prazo da oferta muda entre registros: 40 horas na "base strategy" (L1560),
 "expires tonight" na variação text-based do last chance (L2244), e "I extended
 it for 24 more hours" no support email (L2292). Ver
-`welcome-prazo-da-oferta` em [[_conflitos]].
+`welcome-prazo-da-oferta` em [[mapa-dos-conflitos]].
 
 # O que o corpus não diz
 

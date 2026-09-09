@@ -57,8 +57,8 @@ SMS é mais invasivo que email por natureza física: "you're going into like one
 of the main apps on somebody's phone you're sending them a ding sound and a
 vibration" (L9226). Consequência direta: "unsubscribe rates on SMS marketing
 are way higher than with email marketing" (L9227), e daí toda a doutrina de
-frequência baixa e conteúdo só importante — ver [[frequencia]] e
-[[o-que-enviar]].
+frequência baixa e conteúdo só importante — ver [[frequencia-de-sms]] e
+[[o-que-enviar-por-sms]].
 
 # Os números do case
 

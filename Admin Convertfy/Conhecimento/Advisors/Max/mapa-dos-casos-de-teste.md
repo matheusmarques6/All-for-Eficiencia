@@ -23,9 +23,9 @@ o ruído de ASR. Prosa em português, artefato em inglês: a mesma regra do
 [[_protocolo]].
 
 **Como ler o campo "Se errar, quebrou".** As peças possíveis são: roteamento
-([[_INDEX]] + [[_protocolo]] passos 1-2), [[_numeros]] (passo 3),
-[[_conflitos]] (passo 4), [[_cobertura]] (passo 6), [[persona]] (passo 7),
-marcação de autoria ([[_autoria]]) e verbatim (regra 3 do [[_protocolo]]).
+([[mapa-do-corpus-do-max]] + [[_protocolo]] passos 1-2), [[numeros-de-email-marketing-mais-pedidos]] (passo 3),
+[[mapa-dos-conflitos]] (passo 4), [[mapa-da-cobertura]] (passo 6), [[persona]] (passo 7),
+marcação de autoria ([[mapa-da-autoria]]) e verbatim (regra 3 do [[_protocolo]]).
 Erro de mais de uma peça é comum e está registrado quando acontece.
 
 ---

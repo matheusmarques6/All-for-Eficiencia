@@ -10,12 +10,12 @@ status: aprovado
 Índice de todos os números e limiares do corpus, agora divididos em dezesseis
 notas por módulo: qual nota guarda qual número, com a regra de leitura da coluna
 Registro. Cada nota traz os valores verbatim, com registro e linha da fonte, sem
-arredondar. As três regras de uso e as medidas mais pedidas estão em [[_numeros]].
+arredondar. As três regras de uso e as medidas mais pedidas estão em [[numeros-de-email-marketing-mais-pedidos]].
 
 # O que é este arquivo
 
 A tabela integral de números do corpus, por domínio: 44 tabelas. Só se chega
-aqui pelo [[_numeros]] — a abertura, as três regras de uso, as dezessete
+aqui pelo [[numeros-de-email-marketing-mais-pedidos]] — a abertura, as três regras de uso, as dezessete
 medidas mais pedidas e as armadilhas de número estão lá, e valem aqui sem
 repetição.
 
@@ -72,7 +72,7 @@ são propriedade do índice, não de nenhum módulo.
 - Limiar **estatístico** de A/B: significância, p-valor, intervalo de confiança,
   duração em dias, teto de testes simultâneos. **Não incluir amostra mínima
   nesta lista** — ela existe (L8800-8816, régua por número de destinatários) e já
-  foi derrubada como falsa lacuna em [[_cobertura]]. Ver
+  foi derrubada como falsa lacuna em [[lacunas-por-assunto-nao-coberto]]. Ver
   [[otimizacao/quando-vale-testar]]. Cadência mínima de teste de form também
   existe: "at least for like bi-weekly" (L663).
 - Sequência, delays e copy do Sunset Flow — existe finalidade (L411) e definição

@@ -11,10 +11,10 @@ status: aprovado
 
 # Segmentação e métricas de performance
 
-Parte do glossário do módulo. Índice e ressalvas em [[glossario]].
+Parte do glossário do módulo. Índice e ressalvas em [[glossario-de-email-marketing]].
 **Verbatim, em inglês, do deck GAMMA.** Não traduzir, não resumir, não corrigir.
 
-22 termos, 2 categorias (L413-439). **Atenção:** os alvos numéricos desta parte contradizem a tabela de metas do mesmo módulo — ver [[metricas-nucleo]] e [[_conflitos#Conflitos dentro do mesmo registro]].
+22 termos, 2 categorias (L413-439). **Atenção:** os alvos numéricos desta parte contradizem a tabela de metas do mesmo módulo — ver [[metricas-nucleo]] e [[conflitos-no-mesmo-registro-metas-e-open-rate]].
 
 ---
 

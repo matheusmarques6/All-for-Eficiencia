@@ -13,23 +13,23 @@ Como o advisor responde. Sete passos, na ordem. A ordem é a regra:
    procedimento? A classificação decide a rota e o rigor. Número e artefato
    não admitem paráfrase; julgamento admite.
 
-2. **Rotear pelo [[_INDEX]].** Nunca varrer a pasta inteira. O índice existe
+2. **Rotear pelo [[mapa-do-corpus-do-max]].** Nunca varrer a pasta inteira. O índice existe
    para que a leitura seja de 3 a 6 notas, não de 80.
 
-3. **Se envolve número, abrir [[_numeros]] antes de qualquer outra coisa.**
+3. **Se envolve número, abrir [[numeros-de-email-marketing-mais-pedidos]] antes de qualquer outra coisa.**
    Antes da nota do assunto. Antes de formular a resposta. O número vem da
-   tabela, verbatim, com o registro de origem. [[_numeros]] traz as três regras
+   tabela, verbatim, com o registro de origem. [[numeros-de-email-marketing-mais-pedidos]] traz as três regras
    de uso, as dezessete medidas mais pedidas e as armadilhas — e resolve a
-   maioria das perguntas sozinho. **Só descer para [[_numeros-completo]] quando
+   maioria das perguntas sozinho. **Só descer para [[mapa-dos-numeros-por-modulo]] quando
    a medida não estiver entre as mais pedidas**; ele tem as 44 tabelas por
    domínio e é grande, então não se abre por precaução.
 
-4. **Checar [[_conflitos]].** Se o assunto tem entrada lá, a resposta mostra o
+4. **Checar [[mapa-dos-conflitos]].** Se o assunto tem entrada lá, a resposta mostra o
    conflito. Não existe resposta limpa para pergunta que o corpus responde de
-   duas maneiras. O que se abre é [[_conflitos]]: ele traz o **índice dos 126
+   duas maneiras. O que se abre é [[mapa-dos-conflitos]]: ele traz o **índice dos 126
    slugs** e, na íntegra, as duas seções que o roteamento por pasta nunca
    entrega — "Conflitos entre módulos" e "Conflitos dentro do mesmo registro".
-   **Só descer para [[_conflitos-completo]] quando o slug tiver entrada lá**; o
+   **Só descer para [[mapa-dos-conflitos-por-modulo]] quando o slug tiver entrada lá**; o
    índice diz qual dos dois arquivos guarda cada `## slug`, e nenhuma entrada
    está nos dois. Achar o slug no índice e não descer é erro: o índice dá o
    assunto do conflito, nunca as duas versões.
@@ -53,7 +53,7 @@ Como o advisor responde. Sete passos, na ordem. A ordem é a regra:
 4. **Procedimento é datado.** Todo passo a passo de ferramenta sai com aviso.
    **A data que vale não é a de extração da nota — o corpus não declara data de
    gravação em lugar nenhum.** A âncora interna mais recente é
-   `Nov 13, 2024, 9:49 AM`, carimbo do print da L9545 (ver [[_cobertura]]
+   `Nov 13, 2024, 9:49 AM`, carimbo do print da L9545 (ver [[limites-de-autoria-e-datacao]]
    § Datação); é ela que se cita ao dizer quão velho o passo a passo é.
    O corpus já erra aqui de outro modo: a seção intitulada "Uploading Designs
    From Figma To Klaviyo" demonstra o processo inteiro no Omnisend.
@@ -89,7 +89,7 @@ recusar por inteiro o que o corpus cobre pela metade.
 
 # Quando o conflito é dentro do mesmo registro
 
-A regra de precedência do [[_INDEX]] — slide vence em especificação, fala vence
+A regra de precedência do [[mapa-do-corpus-do-max]] — slide vence em especificação, fala vence
 em julgamento — só funciona quando os dois registros discordam entre si. Parte
 dos conflitos do corpus é **slide contra slide, no mesmo deck**: a tabela de
 metas de fundamentos (L372-380) contra o glossário (L384-519), com quatro
@@ -109,14 +109,14 @@ entregar — é a mesma tela. Aqui não existe desempate: a resposta entrega os
 três com as linhas.
 
 Consequência geral: **não presuma que o slide fala com uma voz só.** A
-precedência do [[_INDEX]] vale entre registros, nunca dentro de um.
+precedência do [[mapa-do-corpus-do-max]] vale entre registros, nunca dentro de um.
 
 # Precedência decide registro, não autoria
 
 As duas coisas são independentes e confundi-las produz erro invisível.
 
 A precedência ("slide vence em especificação, fala vence em julgamento") diz
-**qual versão do corpus prevalece**. O laudo de [[_autoria]] diz **quem pode ser
+**qual versão do corpus prevalece**. O laudo de [[mapa-da-autoria]] diz **quem pode ser
 citado como autor**. Uma versão pode vencer a precedência e ainda assim não ser
 citável como fala de Max.
 

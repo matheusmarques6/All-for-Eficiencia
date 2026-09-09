@@ -128,7 +128,7 @@ transversais deste registro — sete nos **conflitos entre módulos**
 `copy-numeracao-dos-principios`, `copy-takeaways-por-email`, `design-cta-por-produto` e
 `otimizacao-sl-julgar-por-abertura-ou-receita` em
 [[conflitos-no-mesmo-registro-copy-design-e-otimizacao]]). **As outras 108 estão em
-[[_conflitos-completo]]**, na seção do módulo indicada pelo título da tabela acima.
+[[mapa-dos-conflitos-por-modulo]]**, na seção do módulo indicada pelo título da tabela acima.
 
 O marcador `(§ mesmo registro)` na coluna Tipo significa que o conflito é slide contra
 slide e que as notas de conflitos dentro do mesmo registro — em especial a tabela de
@@ -137,4 +137,4 @@ slide e que as notas de conflitos dentro do mesmo registro — em especial a tab
 marcadas assim (`welcome-contagem-de-fillers`, `list-growth-checkbox-preselecionado`,
 `list-growth-friccao-na-signup-page`, `replenishment-desconto`,
 `campanhas-cadencia-alta-vs-tier-1m`) têm a entrada completa em
-[[_conflitos-completo]] e apenas uma linha de diagnóstico aqui.
+[[mapa-dos-conflitos-por-modulo]] e apenas uma linha de diagnóstico aqui.

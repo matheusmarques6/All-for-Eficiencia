@@ -15,14 +15,14 @@ status: aprovado
 **Prova nominal — a única do corpus.** Em L5753 o narrador fala de Max em terceira
 pessoa: "So we have a email marketing brain, something that **Max had put together
 himself**". Não é inferência estilométrica: é o falante se distinguindo de Max.
-Ressalva registrada no laudo — L5753 vem de ASR ([[_autoria]] §4.1).
+Ressalva registrada no laudo — L5753 vem de ASR ([[mapa-da-autoria]] §4.1).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 **A aula inteira de onde vem este princípio não é narrada pelo Max.** O bloco vai
 de L5667 (`\# File-ChatGPT Copywriting`) a L5866, e **tudo que está citado abaixo

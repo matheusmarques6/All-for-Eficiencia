@@ -15,10 +15,10 @@ por seção de email, transições, e os dois procedimentos de ferramenta (Figma
 upload). Treze notas.
 
 O módulo é onde o corpus mais se contradiz por seção. Doze slugs `design-*` têm
-entrada em [[_conflitos-completo#design]]; `design-cta-por-produto` e
-`design-html-vs-imagem` ficam em [[_conflitos]], nas duas seções transversais.
-Antes de responder qualquer pergunta com número aqui, abrir [[_numeros]] e
-[[_conflitos]].
+entrada em [[conflitos-de-design-estrutura-e-cta]]; `design-cta-por-produto` e
+`design-html-vs-imagem` ficam em [[mapa-dos-conflitos]], nas duas seções transversais.
+Antes de responder qualquer pergunta com número aqui, abrir [[numeros-de-email-marketing-mais-pedidos]] e [[armadilhas-ao-citar-numero]] e
+[[mapa-dos-conflitos]].
 
 # As notas
 
@@ -33,7 +33,7 @@ Antes de responder qualquer pergunta com número aqui, abrir [[_numeros]] e
 | [[secao-bridge]] | o wild card; os 7 conteúdos possíveis; default = infográfico | transcrição + slide |
 | [[secao-product]] | CTA por produto; CTA geral no fim; quantidade de produtos | transcrição + slide |
 | [[secao-footer]] | universal; botões de categoria como último catch-all | transcrição + slide |
-| [[transicoes]] | os 4 métodos (só na fala); a autocorreção sobre "blocky" | transcrição |
+| [[transicoes-entre-secoes-do-email]] | os 4 métodos (só na fala); a autocorreção sobre "blocky" | transcrição |
 | [[emails-baseados-em-imagem]] | a posição contra o consenso de HTML nativo; a prova Ridge | transcrição |
 | [[upload-do-design]] | procedimento datado: slice → comprimir → subir → links e alt text | transcrição + slide |
 | [[figma-para-email]] | procedimento datado: frames, grupos, 600 de largura, slice tool | transcrição + slide |
@@ -51,7 +51,7 @@ citadas — L7851-8007 e L8309-8348) e [[doutrina/o-processo-de-criacao]].
 | **Product** | Não — "product section is optional" (L7238) | destacar produtos, que podem ser categorias (L8277) | (1) CTA individual por produto (L7458) · (2) sempre fechar com CTA geral, +25% de cliques (L7482 / L8287) | CTA por produto: slide aceita "or underlines product titles" (L8282); quantidade de produtos: 1 · "not that many" · 8 · "just test it" (L7488-7494) |
 | **Footer** | **Universal** — igual em todos os emails (L7500 / L8293) | último catch-all: botões de categoria para quem rolou tudo e não achou nada (L8296) | botões no footer, e footer branded (L7506, L7526) | — (nenhuma contradição declarada) |
 
-Transições ligam uma seção à seguinte e não são seção: ver [[transicoes]].
+Transições ligam uma seção à seguinte e não são seção: ver [[transicoes-entre-secoes-do-email]].
 
 # Rota rápida
 
@@ -68,4 +68,4 @@ Transições ligam uma seção à seguinte e não são seção: ver [[transicoes
 Nenhuma cor, nenhuma paleta, nenhuma tipografia com valor prescrito. Nenhum
 tamanho de arquivo alvo além do teto de slice. Nada sobre dark mode, acessibilidade
 além do alt text, ou clientes de email específicos. Nada sobre GIF ou vídeo em
-email além da menção de plugin (L7797). Ver [[_cobertura]].
+email além da menção de plugin (L7797). Ver [[mapa-da-cobertura]].

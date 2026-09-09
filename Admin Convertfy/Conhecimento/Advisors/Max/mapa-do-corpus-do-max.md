@@ -11,11 +11,18 @@ Corpus de conhecimento de Max Sturtevant (Well Copy) sobre email e SMS
 marketing para e-commerce, extraído de um curso de 9 módulos. Fonte única:
 `CONTEUDO BRUTO/max.md`, **9.545 linhas** — `wc -l` conta 9.544 porque o arquivo
 termina sem quebra de linha, e a L9545 carrega um PNG em base64 com a definição
-do segmento do Sunset Flow. Ver [[_fontes]].
+do segmento do Sunset Flow. Ver [[armadilhas-da-fonte-bruta]].
 
 Este corpus é **isolado**. Não referencia nem é referenciado por
 `Admin Convertfy/Emails/` — aquilo é outra doutrina, de outro autor, sobre o
 mesmo assunto. Não misturar.
+
+Ele também não é a base inteira. É **um** dos quatro corpora de
+`Conhecimento/`, e o que menos pesa quando há medição nossa: veja
+[[mapa-do-conhecimento]] para a precedência entre doutrina, decisão da
+Convertfy, referência de mercado e pesquisa. Regra curta: **o que a Convertfy
+mediu vence o que este curso ensina** — e quando as duas fontes divergem, a
+resposta cita as duas e diz qual é qual.
 
 # Leia sempre, antes de responder qualquer coisa
 
@@ -30,9 +37,9 @@ roteamento abaixo.
 | A pergunta é sobre... | Leia, nesta ordem |
 |---|---|
 | "por onde eu começo", visão geral da disciplina | [[mapa-dos-fundamentos]] |
-| que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] → [[_conflitos-completo]] se o slug tiver entrada lá |
-| número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto. Só descer para [[_numeros-completo]] se a medida não estiver entre as dezessete mais pedidas, e para [[_conflitos-completo]] se o slug tiver entrada lá |
-| montar ou corrigir um flow | [[mapa-dos-flows]] → a nota do flow → [[_conflitos]] (→ [[_conflitos-completo]]) |
+| que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[mapa-dos-conflitos]] → [[mapa-dos-conflitos-por-modulo]] se o slug tiver entrada lá |
+| número, prazo, taxa, contagem, frequência | [[numeros-de-email-marketing-mais-pedidos]] → [[mapa-dos-conflitos]] → nota do assunto. Só descer para [[mapa-dos-numeros-por-modulo]] se a medida não estiver entre as dezessete mais pedidas, e para [[mapa-dos-conflitos-por-modulo]] se o slug tiver entrada lá |
+| montar ou corrigir um flow | [[mapa-dos-flows]] → a nota do flow → [[mapa-dos-conflitos]] (→ [[mapa-dos-conflitos-por-modulo]]) |
 | campanha, calendário, segmentação | [[mapa-das-campanhas]] |
 | escrever copy, subject line, exemplo | [[mapa-de-copy]] → bloco Templates da nota do assunto |
 | layout, seção do email, imagem | [[mapa-de-design]] |
@@ -42,8 +49,8 @@ roteamento abaixo.
 | pop-up, captar lista | [[mapa-de-list-growth]] |
 | "por que ele defende isso" | [[mapa-da-doutrina]] |
 | configurar ferramenta (Klaviyo, Figma, Shopify) | nota `tipo: procedimento` — sempre datada, avisar antes |
-| "isso é mesmo ele falando?", quem disse o quê | [[_autoria]] |
-| algo que parece fora do corpus | [[_cobertura]] → recusar nomeando a lacuna |
+| "isso é mesmo ele falando?", quem disse o quê | [[mapa-da-autoria]] |
+| algo que parece fora do corpus | [[mapa-da-cobertura]] → recusar nomeando a lacuna |
 
 # As dez pastas
 
@@ -64,23 +71,23 @@ roteamento abaixo.
 
 | Nota | Para quê |
 |---|---|
-| [[_numeros]] | as três regras de uso, as 17 medidas mais pedidas e as armadilhas de número. É esta que se abre |
-| [[_numeros-completo]] | as 44 tabelas por domínio — todo número do corpus, verbatim. Só sob demanda, a partir de [[_numeros]] |
-| [[_conflitos]] | o índice dos 126 slugs de contradição + as duas seções transversais na íntegra. É esta que se abre |
-| [[_conflitos-completo]] | as 108 entradas por módulo e o registro de arbitragem. Só sob demanda, a partir de [[_conflitos]] |
-| [[_cobertura]] | o que o corpus cobre, com que densidade, e o que falta |
-| [[_fontes]] | mapa linha→módulo→registro, e o que foi descartado, com motivo |
-| [[_autoria]] | o laudo de quem fala em cada um dos 41 blocos. É o que decide se uma frase sai como "o Max diz" ou "o material do curso diz" — o único erro deste corpus que é invisível na saída |
-| [[_casos-de-teste]] | as perguntas de verificação |
-| [[_arquitetura]] | por que este corpus é construído assim |
+| [[numeros-de-email-marketing-mais-pedidos]] | as três regras de uso, as 17 medidas mais pedidas e as armadilhas de número. É esta que se abre |
+| [[mapa-dos-numeros-por-modulo]] | as 44 tabelas por domínio — todo número do corpus, verbatim. Só sob demanda, a partir de [[numeros-de-email-marketing-mais-pedidos]] |
+| [[mapa-dos-conflitos]] | o índice dos 126 slugs de contradição + as duas seções transversais na íntegra. É esta que se abre |
+| [[mapa-dos-conflitos-por-modulo]] | as 108 entradas por módulo e o registro de arbitragem. Só sob demanda, a partir de [[mapa-dos-conflitos]] |
+| [[mapa-da-cobertura]] | o que falta no corpus, classificado por tipo de lacuna. A densidade por assunto está em [[densidade-do-corpus-por-assunto]] |
+| [[mapa-das-fontes]] | mapa linha→módulo→registro, e o que foi descartado, com motivo |
+| [[mapa-da-autoria]] | o laudo de quem fala em cada um dos 41 blocos. É o que decide se uma frase sai como "o Max diz" ou "o material do curso diz" — o único erro deste corpus que é invisível na saída |
+| [[mapa-dos-casos-de-teste]] | as perguntas de verificação |
+| [[arquitetura-decisoes-e-leis-de-manutencao]] | por que este corpus é construído assim |
 
 # `_registro/` — auditoria, não rota de resposta
 
 [[mapa-do-registro]] guarda o rastro de construção que as notas de controle
 prometem mas não carregam: os dez `descartes-<modulo>.md` (linha a linha, o que
-ficou de fora e por quê — é o detalhe que [[_fontes]] resume), o
-`aplicacao-autoria.md` (como o laudo de [[_autoria]] foi aplicado, nota por
-nota) e `sunset-segmento-L9545.png`, o print extraído da L9545 de onde saiu a
+ficou de fora e por quê — é o detalhe que [[mapa-das-fontes]] resume), o
+as quatro notas de [[mapa-da-aplicacao-de-autoria]] (como o laudo de
+[[mapa-da-autoria]] foi aplicado, nota por nota) e `sunset-segmento-L9545.png`, o print extraído da L9545 de onde saiu a
 definição do segmento do Sunset Flow.
 
 **Não é rota de resposta.** Nenhuma pergunta do roteamento acima desce até aqui.
@@ -105,7 +112,7 @@ que uma atribuição mudou — e para provar que o descarte foi deliberado.
 - `outro-narrador` — trecho em que a voz não é a do Max. Não citável como fala dele.
 
 Quando os dois primeiros discordam sobre **especificação**, vale o slide e
-abre-se entrada em [[_conflitos]]. Quando discordam sobre **julgamento**, vale
+abre-se entrada em [[mapa-dos-conflitos]]. Quando discordam sobre **julgamento**, vale
 a fala.
 
 **`fonte:` carrega a linha do bruto.** Toda afirmação é rastreável até

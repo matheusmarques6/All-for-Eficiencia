@@ -16,14 +16,14 @@ status: aprovado
 Sem prova nominal. A classificação é **estilométrica**: o bloco pertence ao aglomerado
 do único bloco `outro-provado` e não traz um só marcador do idioleto de Max.
 `outro-provavel` não é `outro-provado` — não está provado que a voz não é dele, está
-estabelecido que é muito improvável ([[_autoria]] §7.3).
+estabelecido que é muito improvável ([[mapa-da-autoria]] §7.3).
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my favorite"
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my favorite"
 e "I like to", presença de "at the end of the day" e "obviously", e o fecho coletivo
 "thank you guys… see you in the next one". **A saudação de abertura não é critério e
 não pode ser citada como evidência:** o laudo testou e ela caiu — o walkthrough de
 Figma abre com "Hello, hello" e é comprovadamente Max, que em L7817 digita `@max` e
-diz "tags me" ([[_autoria]] §5).
+diz "tags me" ([[mapa-da-autoria]] §5).
 
 Nesta nota: a tabela de metas (L8713-8719) é **slide**, artefato de Max, e continua
 valendo como especificação. Tudo que vem da fala — faixa e piso de open rate
@@ -72,7 +72,7 @@ citável como hierarquia; é só divergência de listagem.
 Esse "above 40% you're probably okay" não existe no slide, que só dá
 "Greater than 50%". E o número de open rate vira outra coisa quando o assunto é
 **escolher ou alargar a lista** — lá o corpus dá **dez formulações diferentes**,
-catalogadas em `deliverability-limiar-de-open-rate` ([[_conflitos]]). Ver
+catalogadas em `deliverability-limiar-de-open-rate` ([[mapa-dos-conflitos]]). Ver
 [[so-envie-para-engajados]] e [[warming-do-dominio]].
 
 **Click rate.** A fala dá o número cru, sem "greater than": "Click rates,
@@ -122,7 +122,7 @@ O que a fala diz que o unsubscribe **serve** para medir (L8434):
 > if your filters are messed up in your flows, because people will start
 > unsubscribing in droves.
 
-Ver `deliverability-unsubscribe-afeta-ou-nao` em [[_conflitos]].
+Ver `deliverability-unsubscribe-afeta-ou-nao` em [[mapa-dos-conflitos]].
 
 # O que o corpus não diz
 

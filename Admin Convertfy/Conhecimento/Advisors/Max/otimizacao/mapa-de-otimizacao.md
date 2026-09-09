@@ -27,16 +27,16 @@ notas derivam dela. Sem prova nominal: a classificação é **estilométrica** �
 bloco pertence ao aglomerado do único bloco `outro-provado` (L5617-5866) e não
 traz um só marcador do idioleto de Max. `outro-provavel` não é `outro-provado`.
 
-Critério: **idioleto** ([[_autoria]] §2.1) — ausência de "I recommend", "my
+Critério: **idioleto** ([[mapa-da-autoria]] §2.1) — ausência de "I recommend", "my
 favorite" e "I like to", presença de "at the end of the day" (3×) e "obviously"
 (9× em 3.121 palavras, a maior taxa do módulo), mais o fecho coletivo "feel free
 to hit us up" (L9108). **A saudação de abertura não é critério e não pode ser
 citada como evidência:** o laudo testou e ela caiu — o walkthrough de Figma abre
-com "Hello, hello" e é comprovadamente Max ([[_autoria]] §5). O "Yo, yo" de L8774
+com "Hello, hello" e é comprovadamente Max ([[mapa-da-autoria]] §5). O "Yo, yo" de L8774
 não prova nada, nem a favor nem contra.
 
 O que sobra de Max é o deck L9110-9212 — e mesmo ele tem agravante já registrado
-em [[_fontes]]: é cópia quase verbatim do deck de Flows. A frase "the tests that
+em [[armadilhas-da-fonte-bruta]]: é cópia quase verbatim do deck de Flows. A frase "the tests that
 our team runs consistently" (L8798) é da equipe narrada, não uma declaração dele.
 
 Ao responder a partir do registro `transcricao` deste módulo, dizer "o material do
@@ -50,7 +50,7 @@ curso diz", nunca "o Max diz".
 | [[categorias-vs-produtos]] | vitrine por categoria vs por produto; dado reaproveitável fora do email |
 | [[testar-subject-line-por-receita]] | as 5 variáveis de SL/PT e a regra de julgar por receita |
 | [[flow-time-delays]] | o delay do primeiro email de abandono; a maior alavanca declarada |
-| [[outros-testes]] | os 13 testes restantes do slide, com o racional de cada um |
+| [[outros-testes-de-ab]] | os 13 testes restantes do slide, com o racional de cada um |
 
 # Os testes, lado a lado
 
@@ -61,7 +61,7 @@ curso diz", nunca "o Max diz".
 | Graphic vs text based | layout gráfico vs texto puro (L8866-8870) | "can really vary across accounts" (L9153) | slide anuncia "Example of Text Based sale email winner" (L9157) — sem número, imagem ausente |
 | Categorias vs produtos | vitrine por categoria vs produto individual (L8890-8892) | "gets you a lot of very interesting data", reaproveitável em paid ads e site (L8908-8912) | categorias vencem: revenue "10 to 15 times higher", "about six times the amount of recipients also buying" (L8914-8916) |
 | SLs e PTs | 5 variáveis: desconto, emojis, "…", time delays, ALL CAPS (L9170-9174) | alto por email, mas "hard to take the learnings and apply to future emails" (L9167) | nenhum nesta faixa; teto de abertura "five, 10%" (L8936) |
-| Os outros 13 | ver [[outros-testes]] | "Other High-Impact A/B Tests to Run" (L9182) | nenhum |
+| Os outros 13 | ver [[outros-testes-de-ab]] | "Other High-Impact A/B Tests to Run" (L9182) | nenhum |
 
 **Célula vazia é informação**: de todos os testes listados no módulo, só três
 trazem caso real (send time, categorias, flow delay) e nenhum traz o print — as
@@ -83,7 +83,7 @@ telas lidas em voz alta estão ausentes do corpus.
 `otimizacao-sl-julgar-por-abertura-ou-receita` · `otimizacao-teto-de-abertura` ·
 `otimizacao-from-name-testar-ou-prescrever` · `otimizacao-deck-duplicado`
 
-Todos detalhados em [[_conflitos]]; números em [[_numeros]].
+Todos detalhados em [[mapa-dos-conflitos]]; números em [[numeros-de-email-marketing-mais-pedidos]].
 
 # O que o módulo não cobre
 
@@ -93,5 +93,5 @@ A/B tests" no Klaviyo uma vez, em outro ponto do corpus (L140), e nunca mostra a
 tela. E a aula encerra apontando para um documento externo com mais testes que não
 está no corpus (L9094-9096, faixa não-Max).
 
-**Exceção de tamanho**: [[outros-testes]] passa dos 4 KB por ser catálogo dos 13
+**Exceção de tamanho**: [[outros-testes-de-ab]] passa dos 4 KB por ser catálogo dos 13
 itens com racional verbatim de cada um; foi mantida inteira de propósito.

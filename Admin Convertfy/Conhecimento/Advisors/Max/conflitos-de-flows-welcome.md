@@ -11,7 +11,7 @@ Registro dos conflitos do módulo `flows` do corpus de Max Sturtevant sobre o we
 
 
 Faixa: L1307-3403 (transcrição) e L3404-4186 (slide GAMMA). `flows-onde-testar`
-está em [[_conflitos#Conflitos entre módulos]].
+está em [[conflitos-entre-modulos-onde-testar-frequencia-e-pontas-soltas]].
 
 
 ## welcome-contagem-de-emails
