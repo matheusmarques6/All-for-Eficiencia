@@ -51,7 +51,7 @@ sort of information. Then usually mix in some graphics as well" (L7398-7402).
 
 A fala é idêntica em força: "So in most of it, we want it to be infographics as
 we showed you in the copy modules" (L7404). Ou seja: os sete tipos são o
-cardápio, o infográfico é o pedido padrão. Ver [[copy/_index]].
+cardápio, o infográfico é o pedido padrão. Ver [[mapa-de-copy]].
 
 # Onde o corpus discorda
 

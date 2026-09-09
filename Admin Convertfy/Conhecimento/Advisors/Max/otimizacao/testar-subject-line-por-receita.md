@@ -79,7 +79,7 @@ O módulo de copy dá o mesmo teto por outro caminho, e ali é **slide** — "at
 you can get \~ 10% jump in opens" (L6805) — e mede o ganho em vendas: "We've had some SLs and PTs
 generate 3x more than others (same email copy and design) in A/B tests" (L6809);
 a fala de lá — também não-Max — diz "three to five times as many sales" (L6121).
-Ver [[copy/_index]].
+Ver [[mapa-de-copy]].
 
 # A ressalva que o slide faz e a fala não
 

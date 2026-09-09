@@ -180,4 +180,4 @@ quatro exemplos do framework** (L6824-6827) usa personalização.
 # Ver também
 
 [[preview-texts]] · [[doutrina/disruptor-vence-no-inbox]] ·
-[[principio-engaging]] · [[otimizacao/_index]]
+[[principio-engaging]] · [[mapa-de-otimizacao]]

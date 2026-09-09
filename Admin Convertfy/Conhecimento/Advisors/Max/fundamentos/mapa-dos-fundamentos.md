@@ -42,13 +42,13 @@ Esta pasta define os quatro. Nenhum deles é executado aqui.
 
 | Pilar | Definido em | Executado em |
 |---|---|---|
-| #1 List growth | L295-319 | [[list-growth/_index]] |
-| #2 Flows | L321-332 | [[flows/_index]] |
-| #3 Campanhas | L334-339 | [[campanhas/_index]] |
-| #3.5 Deliverability | L341-349 | [[deliverability/_index]] |
+| #1 List growth | L295-319 | [[mapa-de-list-growth]] |
+| #2 Flows | L321-332 | [[mapa-dos-flows]] |
+| #3 Campanhas | L334-339 | [[mapa-das-campanhas]] |
+| #3.5 Deliverability | L341-349 | [[mapa-de-deliverability]] |
 
-Os módulos de [[copy/_index]], [[design/_index]], [[otimizacao/_index]] e
-[[sms/_index]] atravessam os quatro pilares em vez de pertencer a um.
+Os módulos de [[mapa-de-copy]], [[mapa-de-design]], [[mapa-de-otimizacao]] e
+[[mapa-de-sms]] atravessam os quatro pilares em vez de pertencer a um.
 
 # Princípios que nascem desta faixa e moram em `doutrina/`
 

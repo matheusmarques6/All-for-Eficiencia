@@ -70,7 +70,7 @@ text-based as well. Put together using the Klaviyo blocks." (L8984-8988) Ver
 [[grafico-vs-texto]].
 
 **Mystery discount** vem do pop-up: "This is something we tried on the pop-ups a
-lot" (L8994) — o "we" é da equipe narrada, não declaradamente dele — ver [[list-growth/_index]].
+lot" (L8994) — o "we" é da equipe narrada, não declaradamente dele — ver [[mapa-de-list-growth]].
 
 **Long vs short form** se testa mexendo em seções (L9010-9016): o padrão é "hero
 section, bridge section, then product section"; as variantes são tirar o bridge

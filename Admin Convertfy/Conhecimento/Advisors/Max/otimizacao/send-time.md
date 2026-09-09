@@ -90,7 +90,7 @@ mostrado é justamente uma lista em que 1:45pm bate 11am por ~5x em placed order
 (L8848-8852). A fala — não-Max — ainda cita 8-9am e 4-6pm (L8844-8846), que não estão na
 lista de horários a testar do slide. O módulo de SMS trabalha com outra grade
 (11am-2pm, 5pm, evitar antes das 10am e depois das 7:30pm, L9509-9516) — ver
-[[sms/_index]]. Tudo em `otimizacao-horarios-a-testar`.
+[[mapa-de-sms]]. Tudo em `otimizacao-horarios-a-testar`.
 
 "three X, the number of recipients" (L8850-8852) não é definido: em categorias
 a mesma coluna é lida como "recipients also buying" (L8916), o que sugere

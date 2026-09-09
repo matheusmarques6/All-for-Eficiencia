@@ -129,4 +129,4 @@ Não há passo a passo de conexão do Shopify com o Klaviyo, de configuração d
 domínio de envio nem de importação de lista — o único passo prescrito é "follow
 their onboarding steps" ([[escolha-do-esp]], L36). Os oito flows aparecem só como
 lista de gatilhos numa conta já montada (L92) e nomeados "recommended flows when
-just starting out" (L94); a montagem deles é do módulo [[flows/_index]].
+just starting out" (L94); a montagem deles é do módulo [[mapa-dos-flows]].

@@ -76,7 +76,7 @@ breaking up text, increasing engagement" (L5869). Único requisito de execução
 **Comparison chart tem uso declarado e recorrente.** É o único tipo com
 frequência atribuída — atribuída à equipe que narra, não a Max: "We use these almost in every welcome flow we do, where
 we have typically an us versus them email" (L5979-5981). Não é opção — é o
-formato padrão daquele email. Ver [[flows/_index]].
+formato padrão daquele email. Ver [[mapa-dos-flows]].
 
 **Tabela empresta autoridade.** "It makes everything look more structured, more
 professional, and it has a visual trust factor. Tables often feel, you know,
@@ -89,7 +89,7 @@ tends to look more like evidence opposed to an empty promise" (L6057-6059). E é
 um teste A/B que a aula diz rodar: mesma estatística escrita na headline versus
 plotada — "most of the time, at least in the tests that I've seen, graphs work
 a lot of the time" (L6051-6057). Exemplo de estatística citado: "85% of
-customers saw results in 30 days" (L6049-6051). Ver [[otimizacao/_index]].
+customers saw results in 30 days" (L6049-6051). Ver [[mapa-de-otimizacao]].
 
 # Onde o corpus discorda
 
@@ -131,4 +131,4 @@ Nomenclatura (`copy-nomes-dos-infograficos`): o resumo lista "Icons" e
 
 [[principio-skimmable]] · [[principio-engaging]] ·
 [[doutrina/sce-o-framework-que-atravessa-tudo]] · [[email-architect]] ·
-[[design/_index]]
+[[mapa-de-design]]

@@ -50,7 +50,7 @@ creatine or you have it in a, in a, uh, in a supplement or in a powder".
 
 Na montagem do email: "that's very important when you're putting together the
 product sections or the categories that you want to showcase in your email"
-(L8892-8896). É um teste de seção, não de copy — ver [[design/_index]].
+(L8892-8896). É um teste de seção, não de copy — ver [[mapa-de-design]].
 
 # O dado sai do email
 

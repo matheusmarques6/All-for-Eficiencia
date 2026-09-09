@@ -42,7 +42,7 @@ Tempo. Duas coisas, segundo o slide (L9178-9180), verbatim:
 
 Na fala: "This is one of the biggest lever and it's very, very simple,
 especially in your abandonment flows" (L8946-8948). É o teste de maior alavanca
-declarada do módulo — ver [[_index]].
+declarada do módulo — ver [[mapa-de-otimizacao]].
 
 O mesmo bloco de slide aparece uma segunda vez no corpus, idêntico, dentro do
 deck de flows (L4141-4145).
@@ -83,7 +83,7 @@ Nem todo flow entra no teste (L8966-8970), verbatim:
 
 Ou seja: welcome e post-purchase saem instantaneamente, e o delay do primeiro
 email deles não é campo de teste. Isso bate com a non-negotiable do welcome
-("First email fires immediately upon sign-up") — ver [[flows/_index]]. O campo
+("First email fires immediately upon sign-up") — ver [[mapa-dos-flows]]. O campo
 livre é o abandono: "site abandoned tons of room to try different things out,
 see how different people respond as well" (L8970-8972).
 

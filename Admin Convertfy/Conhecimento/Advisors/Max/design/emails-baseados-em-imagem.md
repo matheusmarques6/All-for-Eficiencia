@@ -84,7 +84,7 @@ Ou seja: "você não precisa de seções de texto nativo" (L8026, fala de Max) c
 com "algum HTML no email melhora a deliverability" (L8504, **outro-narrador**). O
 alt text é a ponte oferecida entre as duas — e é por isso que virou passo
 obrigatório do upload (L8052-8053), esse sim narrado por Max. → `design-html-vs-imagem`. A nota dona desse trecho está em
-[[deliverability/_index]].
+[[mapa-de-deliverability]].
 
 # O que o corpus não diz
 

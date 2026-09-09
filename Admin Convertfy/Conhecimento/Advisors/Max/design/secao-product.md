@@ -76,7 +76,7 @@ Cinco respostas na mesma fala, em oito linhas:
 | testar | "Just test it." | L7494 |
 
 O slide não dá número nenhum. → `design-quantidade-de-produtos`. O critério final
-que ele oferece é o teste, não um número — ver [[otimizacao/_index]].
+que ele oferece é o teste, não um número — ver [[mapa-de-otimizacao]].
 
 # A fórmula de fecho
 

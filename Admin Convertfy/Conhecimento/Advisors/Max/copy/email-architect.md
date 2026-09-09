@@ -123,5 +123,5 @@ para não ser texto.
 
 # Ver também
 
-[[prompt-de-copy]] · [[infograficos]] · [[design/_index]] ·
+[[prompt-de-copy]] · [[infograficos]] · [[mapa-de-design]] ·
 [[doutrina/o-processo-de-criacao]]

@@ -19,7 +19,7 @@ direto no Sunset Flow (L3398) e depois na parte GAMMA.
 lista aparecem palavra por palavra no deck de otimização (L9151-9180) — a única
 diferença é um typo a mais no deck de flows (L4160, "Ilusing"), mapeado em
 `_registro/descartes-flows.md`. Eles
-estão detalhados em [[otimizacao/_index]] e **não** são repetidos aqui — repetir
+estão detalhados em [[mapa-de-otimizacao]] e **não** são repetidos aqui — repetir
 faria dois decks parecerem duas fontes independentes da mesma regra, e não são.
 O mapa de âncoras está em `_registro/descartes-flows.md`.
 
@@ -97,7 +97,7 @@ Não repetidos aqui. Ficam nomeados só para roteamento:
 | Graphic vs Text Based | L4164-4170 | L9151-9157 |
 | Promoting Categories vs Products | L4172-4176 | L9159-9163 |
 
-Ver [[otimizacao/_index]].
+Ver [[mapa-de-otimizacao]].
 
 # O racional dele
 

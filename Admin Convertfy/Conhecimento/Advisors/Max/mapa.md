@@ -29,18 +29,18 @@ roteamento abaixo.
 
 | A pergunta é sobre... | Leia, nesta ordem |
 |---|---|
-| "por onde eu começo", visão geral da disciplina | [[fundamentos/_index]] |
+| "por onde eu começo", visão geral da disciplina | [[mapa-dos-fundamentos]] |
 | que taxa eu deveria bater, o que é saudável | [[fundamentos/metricas-nucleo]] → [[_conflitos]] → [[_conflitos-completo]] se o slug tiver entrada lá |
 | número, prazo, taxa, contagem, frequência | [[_numeros]] → [[_conflitos]] → nota do assunto. Só descer para [[_numeros-completo]] se a medida não estiver entre as dezessete mais pedidas, e para [[_conflitos-completo]] se o slug tiver entrada lá |
-| montar ou corrigir um flow | [[flows/_index]] → a nota do flow → [[_conflitos]] (→ [[_conflitos-completo]]) |
-| campanha, calendário, segmentação | [[campanhas/_index]] |
-| escrever copy, subject line, exemplo | [[copy/_index]] → bloco Templates da nota do assunto |
-| layout, seção do email, imagem | [[design/_index]] |
-| caixa de spam, domínio, warming | [[deliverability/_index]] |
-| o que testar, A/B | [[otimizacao/_index]] |
-| SMS | [[sms/_index]] |
-| pop-up, captar lista | [[list-growth/_index]] |
-| "por que ele defende isso" | [[doutrina/_index]] |
+| montar ou corrigir um flow | [[mapa-dos-flows]] → a nota do flow → [[_conflitos]] (→ [[_conflitos-completo]]) |
+| campanha, calendário, segmentação | [[mapa-das-campanhas]] |
+| escrever copy, subject line, exemplo | [[mapa-de-copy]] → bloco Templates da nota do assunto |
+| layout, seção do email, imagem | [[mapa-de-design]] |
+| caixa de spam, domínio, warming | [[mapa-de-deliverability]] |
+| o que testar, A/B | [[mapa-de-otimizacao]] |
+| SMS | [[mapa-de-sms]] |
+| pop-up, captar lista | [[mapa-de-list-growth]] |
+| "por que ele defende isso" | [[mapa-da-doutrina]] |
 | configurar ferramenta (Klaviyo, Figma, Shopify) | nota `tipo: procedimento` — sempre datada, avisar antes |
 | "isso é mesmo ele falando?", quem disse o quê | [[_autoria]] |
 | algo que parece fora do corpus | [[_cobertura]] → recusar nomeando a lacuna |
@@ -49,16 +49,16 @@ roteamento abaixo.
 
 | Pasta | O que tem dentro |
 |---|---|
-| [[fundamentos/_index]] | os 3,5 pilares, métricas-núcleo, glossário, escolha de ESP, estado do mercado |
-| [[doutrina/_index]] | princípios transversais e o processo de criação dele |
-| [[list-growth/_index]] | pop-up, oferta, tipos de form, A/B de captação |
-| [[flows/_index]] | os 8 flows: gatilho, delays, filtros, sequência, template |
-| [[campanhas/_index]] | frequência, calendário, pilares de conteúdo, segmentação |
-| [[copy/_index]] | S.C.E., subject line, preview text, infográficos, prompt de IA |
-| [[design/_index]] | 3 princípios, doutrina por seção, transições, upload |
-| [[deliverability/_index]] | setup técnico, rampa de warming, reparo, auditoria |
-| [[otimizacao/_index]] | testes A/B: o que compara e quando vale rodar |
-| [[sms/_index]] | doutrina, 5 flows, calendário, horários de envio |
+| [[mapa-dos-fundamentos]] | os 3,5 pilares, métricas-núcleo, glossário, escolha de ESP, estado do mercado |
+| [[mapa-da-doutrina]] | princípios transversais e o processo de criação dele |
+| [[mapa-de-list-growth]] | pop-up, oferta, tipos de form, A/B de captação |
+| [[mapa-dos-flows]] | os 8 flows: gatilho, delays, filtros, sequência, template |
+| [[mapa-das-campanhas]] | frequência, calendário, pilares de conteúdo, segmentação |
+| [[mapa-de-copy]] | S.C.E., subject line, preview text, infográficos, prompt de IA |
+| [[mapa-de-design]] | 3 princípios, doutrina por seção, transições, upload |
+| [[mapa-de-deliverability]] | setup técnico, rampa de warming, reparo, auditoria |
+| [[mapa-de-otimizacao]] | testes A/B: o que compara e quando vale rodar |
+| [[mapa-de-sms]] | doutrina, 5 flows, calendário, horários de envio |
 
 # As nove notas de controle
 
@@ -76,7 +76,7 @@ roteamento abaixo.
 
 # `_registro/` — auditoria, não rota de resposta
 
-[[_registro/_index]] guarda o rastro de construção que as notas de controle
+[[mapa-do-registro]] guarda o rastro de construção que as notas de controle
 prometem mas não carregam: os dez `descartes-<modulo>.md` (linha a linha, o que
 ficou de fora e por quê — é o detalhe que [[_fontes]] resume), o
 `aplicacao-autoria.md` (como o laudo de [[_autoria]] foi aplicado, nota por

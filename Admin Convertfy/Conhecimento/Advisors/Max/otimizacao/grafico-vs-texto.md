@@ -56,7 +56,7 @@ catálogo, existe vencedor por lista.
 
 "Text base sounds like it's coming from a friend if it's personal or from the
 owner, all the better" (L8870-8872). O material trata o formato como já coberto — "we've
-already gone through text base emails" (L8870) — e não repete a construção aqui; ver [[copy/_index]] e [[design/_index]].
+already gone through text base emails" (L8870) — e não repete a construção aqui; ver [[mapa-de-copy]] e [[mapa-de-design]].
 
 # Onde o material manda usar cada um
 
