@@ -51,3 +51,40 @@ Backup íntegro do estado anterior em `/Users/brunopinheiro/Documents/_backup-va
 1. **`Convertfy/`, `Referencias/` e `Pesquisas/` estão vazias.** É a maior lacuna da base — enquanto não houver nota lá, a IA não sabe o que é "o jeito da casa" e vai improvisar se perguntada. Os mapas dessas pastas estão em `status: rascunho`; promova para `aprovado` quando cada uma tiver 3+ notas.
 2. **Contagens envelhecidas em notas de registro.** Frases como "101 notas de conteúdo em dez pastas" e "os 126 slugs" descrevem o corpus anterior. O conteúdo não mudou, a contagem sim.
 3. **Rodar "Re-sincronizar vault"** no admin (Custo de IA → ConvertIA · Saúde) e conferir se entram 214 notas. O mesmo card lista as buscas que voltaram vazias — é a melhor pauta do que escrever primeiro.
+
+
+---
+
+# Adendo de 2026-09-09
+
+## Referências de e-mail: 29 peças da Well Copy
+
+Entrou o primeiro corpus de peças montadas de verdade. 29 conceitos de e-mail extraídos de um arquivo Figma da agência Well Copy, organizados em nove notas por mecanismo mais um mapa, em `Referencias/email/`. Todas as 29 peças foram capturadas em imagem e a copy foi transcrita verbatim e conferida contra o original. O material bruto está em `CONTEUDO BRUTO/figma-best-performing-emails/`.
+
+O achado que define como essa fonte deve ser usada: **os cartões de notas do autor são paráfrase, não descrição das peças.** Em doze comparações entre cartão e e-mail, a maioria diverge — inclusive um botão que o autor manda replicar e que não existe na peça, um e-mail vendido como "do fundador" que é assinado pelo VP de marketing, e um "post do Reddit" que é recriação visual feita pela própria marca. Nenhuma frase entre aspas dos cartões pode ser tratada como copy real.
+
+Registrado também que **o corpus do Max e a coleção da Well Copy não são independentes**: o exemplo de Founder Check-In que ele narra em `post-purchase` (L3196-3208) é praticamente idêntico a uma peça da coleção. Concordância entre as duas fontes não é replicação.
+
+## 49 notas tinham resumo de busca inútil
+
+Defeito pré-existente, descoberto na verificação final e corrigido.
+
+Uma unidade de trabalho anterior inseriu blocos `# Aviso de autoria` no topo do corpo de dezenas de notas. Como o resumo de busca é gerado da **primeira prosa** — e é por ele que a IA decide qual nota abrir —, o que a IA via era metadado de proveniência:
+
+> `**Faixa L8381-8646 (toda a fala do módulo de deliverability) — outro-provavel.**`
+
+Em vez do assunto da nota. Quarenta e nove notas estavam nessa condição, espalhadas por campanhas, copy, deliverability, doutrina, flows, list-growth, otimização e `_registro/`.
+
+**A correção não removeu o aviso** — ele decide se a IA pode dizer "o Max diz" ou "o material do curso diz". Cada nota recebeu uma frase de abertura auto-explicativa acima dele, escrita a partir do conteúdo real da nota.
+
+Nota de método, para quem for auditar isto depois: o defeito tem **pelo menos quatro formatos** no vault (`Faixa L`, `Faixas L`, `Sem exposição a faixa`, `Toda a fala deste módulo`, além de aberturas com pronome sem antecedente). Uma varredura que procure só um formato subconta. E o inverso também vale: buscar a palavra "faixa" gera falso positivo em notas cujo resumo é bom, como "quantas campanhas por semana, por faixa de faturamento". Vale conferir caso a caso antes de corrigir.
+
+## Estado
+
+| | |
+|---|---|
+| Notas na base | 227 |
+| Vagas de catálogo | 173 de 400 |
+| Links quebrados | 0 |
+| Notas que truncam | 0 |
+| Resumos de busca com metadado | 0 |
