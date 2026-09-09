@@ -113,7 +113,7 @@ diziam mais do que podiam.
   percent based on performance" (L8556) e a cadência de warming "3-4x por
   semana" (L8557), com o caso de 1.000 → 120.000 em 60 dias (L8607-8622). É o
   vizinho a oferecer, marcando que **é rampa de destinatários, não de número de
-  campanhas por semana**. Ver [[deliverability/warming-do-dominio]].
+  campanhas por semana**. Ver [[rampa-de-warming-do-dominio]].
 
 # Ligações
 

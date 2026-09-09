@@ -33,10 +33,10 @@ pessoais citáveis como dele. Já valia a regra de não usar como benchmark; ago
 também não se usa como experiência dele.
 
 > **Registro único e números que não fecham.** Os dois casos existem só na fala
-> — o deck de warming nunca foi exportado (ver [[warming-do-dominio]]). São
+> — o deck de warming nunca foi exportado (ver [[evidencia-e-lacunas-do-warming-do-dominio]]). São
 > narrados de memória, e vários volumes se contradizem dentro do próprio relato.
 > **Usar como ilustração de método, nunca como benchmark de volume.**
-> O procedimento está em [[warming-do-dominio]].
+> O procedimento está em [[preparacao-para-o-warming-do-dominio]] e [[rampa-de-warming-do-dominio]].
 
 # Caso 1 — migração de MailChimp (L8607-8622)
 

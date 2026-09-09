@@ -32,7 +32,7 @@ nenhuma frase daqui é citável como fala dele. O conhecimento continua valendo;
 muda quem pode ser citado como autor.
 
 > **Registro único.** Este trecho existe só na fala. O deck de warming não foi
-> exportado (ver [[warming-do-dominio]]) e o deck de deliverability não trata de
+> exportado (ver [[evidencia-e-lacunas-do-warming-do-dominio]]) e o deck de deliverability não trata de
 > reparo. Nenhum número aqui tem segunda confirmação.
 
 # Quando se aplica
@@ -111,7 +111,7 @@ Se o problema é cair em **promotions** e não em spam, o material aponta outra
 saída —
 uma ferramenta de terceiros que reescreve o HTML no backend. **O nome dela não
 está no corpus** (L8641-8643); a transcrição pula ~41 segundos exatamente onde a
-apresentação estaria. Detalhes em [[warming-do-dominio]].
+apresentação estaria. Detalhes em [[evidencia-e-lacunas-do-warming-do-dominio]].
 
 Escopo declarado na aula: essa ferramenta "will not help you in the warming,
 will not help you if your primary issue is you're landing in spam, those you

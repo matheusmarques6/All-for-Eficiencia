@@ -84,7 +84,7 @@ O corpus só diz que o resultado orienta a decisão (L8514): "after that, you ca
 determine where your deliverability is and what steps have to be taken based off
 the metrics." Quais passos, o material não lista aqui. Os vizinhos são
 [[reparo-de-reputacao]] (para spam) e a ferramenta não nomeada de otimização de
-HTML (para promotions, L8641-8643, ver [[warming-do-dominio]]).
+HTML (para promotions, L8641-8643, ver [[evidencia-e-lacunas-do-warming-do-dominio]]).
 
 # Não confundir com o domain-checker
 

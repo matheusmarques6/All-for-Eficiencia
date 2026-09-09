@@ -75,7 +75,7 @@ nomeia as duas com o que cada uma soma (L8667-8679):
 | **Technical Setup** | "Fancy records hosted by your domain provider in your DNS settings (MX, SPF, DMARC, DKIM)" | "+ Dedicated Klaviyo sending domain" |
 | **Sender Reputation** | "A combination of your email engagement metrics (open rates, click rates, bounce rates, spam complaints)" | "+ Proper domain warm-up" |
 
-Setup técnico em [[setup-tecnico]]; warm-up em [[warming-do-dominio]].
+Setup técnico em [[setup-tecnico]]; warm-up em [[preparacao-para-o-warming-do-dominio]].
 
 # O Google só vê métrica
 

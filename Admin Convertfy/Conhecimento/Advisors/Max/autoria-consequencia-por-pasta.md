@@ -27,7 +27,7 @@ L9110–9212) **não** estão em causa: são artefato escrito de Max.
 `auditoria-glockapps` (L8508) · `metricas-alvo` (L8430) · `o-que-e` (L8382) ·
 `reparo-de-reputacao` (L8589) · `setup-tecnico` (L8396) ·
 `so-envie-para-engajados` (L8456) · `upload-para-deliverability` (L8492) ·
-`warming-casos-reais` (L8607) · `warming-do-dominio` (L8518, L8522).
+`warming-casos-reais` (L8607) · `rampa-de-warming-do-dominio` (L8518, L8522).
 Toda a fala do módulo (L8365–8646) é `outro-provavel`. O que sobra de Max é o
 deck L8647–8759 — que é curto (113 linhas) e que também diz "our team" (L8692).
 

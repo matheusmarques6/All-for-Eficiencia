@@ -69,7 +69,7 @@ conteúdo doutrinário.
 | Linha | Salto | O que se perdeu |
 |---|---|---|
 | L8593 → L8594 | 13:04 → 13:33 (~29s) | meio do raciocínio de reparo de reputação |
-| L8641 → L8642 | 21:52 → 22:33 (~41s) | **o nome da ferramenta de otimização de HTML.** Irrecuperável. Declarado como lacuna em [[warming-do-dominio]] e [[reparo-de-reputacao]] |
+| L8641 → L8642 | 21:52 → 22:33 (~41s) | **o nome da ferramenta de otimização de HTML.** Irrecuperável. Declarado como lacuna em [[evidencia-e-lacunas-do-warming-do-dominio]] e [[reparo-de-reputacao]] |
 
 L8641 ainda emenda duas frases de assuntos diferentes numa linha só ("I'll be
 happy to answer questions that I can help If your emails are landing in spam,

@@ -73,7 +73,7 @@ Esse "above 40% you're probably okay" não existe no slide, que só dá
 "Greater than 50%". E o número de open rate vira outra coisa quando o assunto é
 **escolher ou alargar a lista** — lá o corpus dá **dez formulações diferentes**,
 catalogadas em `deliverability-limiar-de-open-rate` ([[mapa-dos-conflitos]]). Ver
-[[so-envie-para-engajados]] e [[warming-do-dominio]].
+[[so-envie-para-engajados]] e [[rampa-de-warming-do-dominio]].
 
 **Click rate.** A fala dá o número cru, sem "greater than": "Click rates,
 0.75%" (L8438).

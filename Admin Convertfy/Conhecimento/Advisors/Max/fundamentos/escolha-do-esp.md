@@ -94,7 +94,7 @@ que promete Klaviyo — ver `design-klaviyo-vs-omnisend`.
   that we had, they migrated over from MailChimp" (L8607). Nenhuma das três é
   avaliativa — ele nunca compara nem julga —, mas o corpus **sabe que se migra de
   Mailchimp para Klaviyo** e trata isso como caso normal de warming. Ver
-  [[deliverability/warming-casos-reais]] e [[deliverability/warming-do-dominio]].
+  [[deliverability/warming-casos-reais]] e [[evidencia-e-lacunas-do-warming-do-dominio]].
   Varredura das outras plataformas, arquivo inteiro: `ActiveCampaign` `Sendlane`
   `Braze` `HubSpot` `Salesforce` `Drip` `ConvertKit` `Beehiiv` = 0 cada.
 - Nenhum critério para reverter a escolha depois.
@@ -109,7 +109,7 @@ no Klaviyo e **re-aquecer do zero** por amostra aleatória — 1.000 → 2.000 �
 dias. O racional é dele, verbatim: "even if you have that data, it's still
 different platform. Klaviyo is new, it's a new domain, that's just how it works.
 So you always end up somewhat starting from scratch" (L8615-8617). Já estava em
-[[deliverability/warming-casos-reais]] (Caso 1) e [[deliverability/warming-do-dominio]].
+[[deliverability/warming-casos-reais]] (Caso 1) e [[evidencia-e-lacunas-do-warming-do-dominio]].
 O que continua faltando é o passo de tela e qualquer critério de *quando* migrar.
 
 O que ele prescreve como próximo passo é só isto: "Simply sign-up and follow

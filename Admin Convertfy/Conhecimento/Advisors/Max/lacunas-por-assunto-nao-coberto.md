@@ -75,5 +75,5 @@ L452 e como registro de DNS em L8671 — o que falta é o que cada um faz),
 L499-507), [[design/secao-footer]] (unsubscribe, preference center e CAN-SPAM
 estão em L504-507) e [[campanhas/frequencia-de-envio]] (dia e horário existem em
 [[otimizacao/send-time]]; rampa existe, mas é de volume, em
-[[deliverability/warming-do-dominio]]).
+[[rampa-de-warming-do-dominio]]).
 

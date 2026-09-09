@@ -65,7 +65,7 @@ Opcionais, quando fizerem sentido:
 ...
 ```
 
-Wikilinks (`[[` + nome da nota + `]]`) resolvem por **nome de arquivo**, como no Obsidian — nunca por caminho. Consequência prática que vale ouro: **mover uma nota de pasta é seguro, renomear quebra.**
+Wikilinks resolvem por **nome de arquivo**, como no Obsidian — nunca por caminho. Consequência prática que vale ouro: **mover uma nota de pasta é seguro, renomear quebra.**
 
 # O que evitar
 

@@ -12,7 +12,8 @@ status: aprovado
 
 **Toda a fala deste módulo (L8381-8646) é `outro-provavel`: não é Max.** As nove
 notas derivam dela em maior ou menor grau; [[reparo-de-reputacao]],
-[[warming-casos-reais]] e quase todo [[warming-do-dominio]] derivam **só** dela.
+[[warming-casos-reais]] e quase todo o warming do domínio ([[preparacao-para-o-warming-do-dominio]],
+[[rampa-de-warming-do-dominio]], [[evidencia-e-lacunas-do-warming-do-dominio]]) derivam **só** dela.
 O que resta de Max é o deck L8647-8759 — 113 linhas, que cobrem o-que-e,
 setup-tecnico, metricas-alvo, so-envie-para-engajados, upload e auditoria, e que
 **não** cobrem warming nem reparo.
@@ -44,7 +45,9 @@ corpus dá dez valores para a mesma coisa — e dá —, a resposta dá os dez.
 | [[setup-tecnico]] | procedimento · **datado** · **outro-narrador** | SPF/DMARC/DKIM no DNS, branded sending domain, verificação. **Bloqueio: sem isso, não envie nada** |
 | [[metricas-alvo]] | especificacao · **outro-narrador** | a tabela de metas verbatim; soft vs hard bounce; o conflito do unsubscribe |
 | [[so-envie-para-engajados]] | especificacao · **outro-narrador** | a definição verbatim do 90 Day Engaged List; quando apertar e quando alargar |
-| **[[warming-do-dominio]]** | procedimento · **datado** · **outro-narrador** | **a nota operacional da pasta.** Quando se aplica, fundação, segmentos-semente, rampa, cronograma, batching, correção de rota |
+| **[[preparacao-para-o-warming-do-dominio]]** | procedimento · **datado** · **outro-narrador** | **começa aqui.** Quando se aplica, a fundação antes de qualquer campanha, e de onde tirar o primeiro público |
+| **[[rampa-de-warming-do-dominio]]** | procedimento · **datado** · **outro-narrador** | **a nota operacional da pasta.** A rampa, o cronograma por semanas, a correção de rota — e o CONFLITO: o limiar para alargar tem seis valores |
+| **[[evidencia-e-lacunas-do-warming-do-dominio]]** | procedimento · **só outro-narrador** | os dois casos reais, a ferramenta que nunca é nomeada, e o que o corpus não diz |
 | [[warming-casos-reais]] | procedimento · **só outro-narrador** | os dois casos narrados — volumes verbatim, com os números que não fecham marcados |
 | [[reparo-de-reputacao]] | procedimento · **datado** · **só outro-narrador** | conta já caindo em spam: segmento curto, 2-3 semanas, alvo 60-80%, text-based |
 | [[upload-para-deliverability]] | procedimento · **datado** · **outro-narrador** | os 5 passos de upload e por que alt text existe |
@@ -56,7 +59,7 @@ O corpus não a declara como lista, mas a dependência está explícita:
 
 1. **[[setup-tecnico]]** — "If this isn't done, do this before sending ANY
    emails" (L8526). É pré-condição do warming (L8523).
-2. **[[warming-do-dominio]]** — só depois do setup, e antes de qualquer campanha
+2. **[[preparacao-para-o-warming-do-dominio]]** → **[[rampa-de-warming-do-dominio]]** — só depois do setup, e antes de qualquer campanha
    de volume. Dentro dele, a fundação (flows de alta intenção + pop-up
    convertendo) vem antes da primeira campanha (L8545-8551).
 3. **[[so-envie-para-engajados]]** — o regime permanente que o warming existe
@@ -85,7 +88,7 @@ lista** — "If it starts dipping below 40, I definitely wouldn't be expanding i
 1. **O deck de warming nunca foi exportado.** O link existe (L8520) e o conteúdo
    não. Todo o conhecimento de rampa, cronograma e casos vive só na transcrição
    falada — é a única parte crítica do corpus **sem segundo registro** para
-   conferir número. Declarado em [[warming-do-dominio]].
+   conferir número. Declarado em [[rampa-de-warming-do-dominio]].
 2. **A ferramenta de otimização de HTML nunca é nomeada.** Ele a recomenda para
    quem cai em promotions (L8641-8643) e a transcrição pula ~41 segundos
    exatamente onde o nome estaria. Irrecuperável. Nunca deduzir.
