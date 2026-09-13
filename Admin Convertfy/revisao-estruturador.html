@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisão do Estruturador — lote 2</title>
+<style>
+  :root{
+    --ink:#1a1815; --ink-2:#4a453e; --ink-3:#7d766c;
+    --paper:#fbfaf7; --card:#ffffff; --rule:#e6e1d8;
+    --red:#a8321f; --red-bg:#fdf1ee; --red-rule:#f0cfc6;
+    --amber:#8a6413; --amber-bg:#fdf7e8; --amber-rule:#eddfb8;
+    --green:#2c6247; --green-bg:#f0f7f2; --green-rule:#c9e2d3;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px; margin:0 auto; padding:56px 28px 96px}
+
+  header.doc{border-bottom:2px solid var(--ink); padding-bottom:22px; margin-bottom:14px}
+  .kicker{font:600 11px/1 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+  h1{font-size:34px; line-height:1.15; margin:14px 0 10px; letter-spacing:-.02em}
+  .sub{color:var(--ink-2); font-size:16px; max-width:62ch; margin:0}
+  .meta{margin-top:18px; font:12px/1.6 var(--mono); color:var(--ink-3)}
+
+  .summary{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--rule);
+    border:1px solid var(--rule); margin:34px 0 44px}
+  .summary div{background:var(--card); padding:16px 14px}
+  .summary .n{font:700 26px/1 var(--mono); letter-spacing:-.02em}
+  .summary .l{font-size:11.5px; color:var(--ink-3); margin-top:7px; line-height:1.45}
+  .n.red{color:var(--red)} .n.amber{color:var(--amber)} .n.green{color:var(--green)}
+
+  h2.sec{font-size:12px; font-family:var(--mono); font-weight:700; letter-spacing:.13em;
+    text-transform:uppercase; color:var(--ink-3); margin:52px 0 18px;
+    padding-bottom:9px; border-bottom:1px solid var(--rule)}
+
+  .card{background:var(--card); border:1px solid var(--rule); border-left:3px solid var(--ink-3);
+    padding:22px 24px; margin-bottom:18px}
+  .card.red{border-left-color:var(--red)}
+  .card.amber{border-left-color:var(--amber)}
+  .card.green{border-left-color:var(--green)}
+
+  .head{display:flex; align-items:baseline; gap:11px; flex-wrap:wrap; margin-bottom:5px}
+  .id{font:700 12px/1 var(--mono); color:var(--ink-3)}
+  .badge{font:600 10px/1 var(--mono); letter-spacing:.09em; text-transform:uppercase;
+    padding:4px 7px; border-radius:2px}
+  .badge.red{background:var(--red-bg); color:var(--red); border:1px solid var(--red-rule)}
+  .badge.amber{background:var(--amber-bg); color:var(--amber); border:1px solid var(--amber-rule)}
+  .badge.green{background:var(--green-bg); color:var(--green); border:1px solid var(--green-rule)}
+  .badge.ghost{background:transparent; color:var(--ink-3); border:1px solid var(--rule)}
+  h3{font-size:19px; line-height:1.3; margin:2px 0 14px; width:100%; letter-spacing:-.01em}
+
+  .row{display:grid; grid-template-columns:104px 1fr; gap:14px; padding:13px 0;
+    border-top:1px solid var(--rule)}
+  .row:first-of-type{border-top:none; padding-top:4px}
+  .lab{font:600 10.5px/1.5 var(--mono); letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-3); padding-top:3px}
+  .val{font-size:15px; color:var(--ink-2)}
+  .val strong{color:var(--ink)}
+  .val > :first-child{margin-top:0} .val > :last-child{margin-bottom:0}
+
+  blockquote{margin:11px 0; padding:10px 15px; background:#faf8f4;
+    border-left:2px solid var(--rule); font-size:14.5px; color:var(--ink-2)}
+  blockquote cite{display:block; margin-top:7px; font:11px/1.4 var(--mono);
+    font-style:normal; color:var(--ink-3)}
+  pre{margin:11px 0; padding:13px 15px; background:#f6f4ef; border:1px solid var(--rule);
+    font:13px/1.6 var(--mono); overflow-x:auto; white-space:pre-wrap; color:var(--ink)}
+  code{font:.89em var(--mono); background:#f2efe9; padding:1.5px 4px; border-radius:2px}
+  pre code{background:none; padding:0}
+  table{width:100%; border-collapse:collapse; margin:11px 0; font-size:14px}
+  th,td{text-align:left; padding:7px 10px; border:1px solid var(--rule)}
+  th{background:#f6f4ef; font:600 11px/1.4 var(--mono); letter-spacing:.05em;
+    text-transform:uppercase; color:var(--ink-3)}
+  td.num,th.num{font:13px var(--mono); text-align:center}
+  ul{margin:9px 0; padding-left:20px} li{margin:5px 0}
+
+  .fixed{background:var(--card); border:1px solid var(--rule); padding:6px 20px 14px}
+  .fixed table{margin:0} .fixed td:first-child{font:12.5px var(--mono); width:40%}
+
+  .ask{background:#f4f1ea; border:1px solid var(--rule); padding:20px 24px; margin-top:22px}
+  .ask h4{margin:0 0 9px; font-size:16px}
+  .ask p{margin:0; color:var(--ink-2); font-size:15px}
+
+  ol.plan{counter-reset:s; list-style:none; padding:0; margin:0}
+  ol.plan li{counter-increment:s; position:relative; padding:13px 0 13px 46px;
+    border-top:1px solid var(--rule); font-size:15px; color:var(--ink-2)}
+  ol.plan li:first-child{border-top:none}
+  ol.plan li::before{content:counter(s); position:absolute; left:0; top:12px;
+    width:26px; height:26px; border-radius:50%; background:var(--ink); color:var(--paper);
+    font:700 12px/26px var(--mono); text-align:center}
+  ol.plan li strong{color:var(--ink)}
+
+  footer.doc{margin-top:56px; padding-top:20px; border-top:1px solid var(--rule);
+    font-size:13px; color:var(--ink-3)}
+  @media(max-width:640px){
+    .summary{grid-template-columns:repeat(2,1fr)}
+    .row{grid-template-columns:1fr; gap:5px}
+    .wrap{padding:34px 18px 64px} h1{font-size:27px}
+  }
+  @media print{body{background:#fff} .wrap{max-width:none} .card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="doc">
+  <div class="kicker">Revisão técnica · lote 2</div>
+  <h1>Estruturador — o que ainda leva correção, e por quê</h1>
+  <p class="sub">Revisão da spec revisada do <strong>adr-estruturador-adaptativo</strong> contra o
+  conteúdo real do vault <em>All-for-Eficiencia</em> (welcome completo: 8 intenções,
+  8 estruturas, 18 aprendizados). Todo achado abaixo cita a evidência que o sustenta.</p>
+  <div class="meta">26/08/2026 · base verificada: 36 arquivos em <code>Admin Convertfy/Emails/</code> · 0 wikilinks quebrados</div>
+</header>
+
+<div class="summary">
+  <div><div class="n green">6</div><div class="l">corrigidos no lote 2<br>(todos os mecânicos)</div></div>
+  <div><div class="n red">2</div><div class="l">novos, bloqueiam<br>o shadow</div></div>
+  <div><div class="n amber">1</div><div class="l">novo, contrato<br>de dados</div></div>
+  <div><div class="n amber">4</div><div class="l">abertos do lote 1<br>(lado vault)</div></div>
+</div>
+
+<h2 class="sec">Ponto de partida · o que o lote 2 resolveu</h2>
+<div class="fixed">
+<table>
+<tr><td>Identificadores no prompt</td><td>Embrulho <code>&lt;referencia slug&gt;</code> / <code>&lt;aprendizado slug&gt;</code> — o anti-alucinação virou executável. <strong>Resolvido.</strong></td></tr>
+<tr><td>Absorção do <code>header</code></td><td>Alvo passou a ser "primeira posição", não "hero" — cobre as 3 de 8 referências sem hero. <strong>Resolvido.</strong></td></tr>
+<tr><td>Absorção do <code>cta</code></td><td>Regra por índice (posição anterior) elimina a ambiguidade do <code>body</code> duplicado. <strong>Resolvido.</strong></td></tr>
+<tr><td>Contagem de posições</td><td>"1–2 a menos que o citado". Conferido na aritmética: 8→6, 6→5, 5→4, 6→4, 4→3. <strong>Exato.</strong></td></tr>
+<tr><td>Janela de anti-repetição</td><td>N=2 — calibragem certa para um vocabulário de 5 categorias. <strong>Resolvido.</strong></td></tr>
+<tr><td><code>offer</code> não cai em silêncio</td><td>Direção certa (re-projetar em vez de descartar) — mas ver <strong>P1</strong>. <strong>Parcial.</strong></td></tr>
+</table>
+</div>
+
+<h2 class="sec">Bloqueantes · corrigir antes de ligar o shadow</h2>
+
+<div class="card red">
+  <div class="head">
+    <span class="id">P1</span>
+    <span class="badge red">bloqueante</span>
+    <span class="badge ghost">novo no lote 2</span>
+    <h3>A justificativa da re-projeção do <code>offer</code> contradiz o vault</h3>
+  </div>
+
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Substituir a frase de licença no system prompt. Hoje ela diz:
+    <pre>RE-PROJETE o papel dela numa seção construível
+(<strong>prazo e cupom são copy</strong> — um body pode carregá-los)</pre>
+    Passa a dizer:
+    <pre>RE-PROJETE o papel dela numa seção construível — preservando o
+MECANISMO, não só as palavras. Se o papel da seção original depende
+de isolamento visual (bloco destacado que funciona como interrupção),
+a re-projeção só vale numa variante que preserve esse isolamento.
+Prazo e cupom soltos dentro de um parágrafo não re-projetam o bloco:
+destroem o dispositivo. Se nenhuma variante preserva o mecanismo,
+registre em "descartes" e NÃO force.</pre>
+  </div></div>
+
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>"Prazo e cupom são copy" é exatamente a tese que o vault refuta. Sobre esse bloco em
+    <code>avelmore-deadline-objecao</code>:</p>
+    <blockquote>"O isolamento visual <strong>o transforma em interrupção, não em parágrafo</strong>."<br><br>
+    "A separação visual (fundo contrastante, quebra do ritmo claro/escuro) faz o leitor tratá-lo como
+    <strong>aviso, não como argumento</strong>."
+    <cite>Emails/estruturas/welcome/avelmore-deadline-objecao.md</cite></blockquote>
+    <p>O dispositivo <strong>é</strong> o isolamento. Um body que herda as palavras e não a interrupção
+    produz literalmente o modo de falha que a nota nomeia. E o agente vai escrever um
+    <code>porque</code> convincente para essa decisão — que é o risco característico de um agente
+    cujo produto é embasamento por escrito.</p>
+  </div></div>
+
+  <div class="row"><div class="lab">Nota</div><div class="val">
+    <p>Não é problema de arquitetura: o próprio vault mostra a re-projeção correta. No #6,
+    o motor do e-mail já é um <code>body</code>:</p>
+    <blockquote><code>body</code> (escassez) | <strong>Bloco escuro</strong>: "412 women already used
+    WELCOME10..." + cupom + CTA — um bloco só | <strong>O motor.</strong>
+    <cite>Emails/estruturas/welcome/medicube-escassez-com-prova-de-demanda.md</cite></blockquote>
+    <p>Ou seja: a re-projeção é legítima, a licença que você deu ao modelo é que está errada.</p>
+  </div></div>
+</div>
+
+<div class="card red">
+  <div class="head">
+    <span class="id">P2</span>
+    <span class="badge red">bloqueante</span>
+    <span class="badge ghost">novo no lote 2</span>
+    <h3><code>text_only</code> acionado por escassez queima uma carta gastável</h3>
+  </div>
+
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Remover o gatilho por capacidade. Hoje:
+    <pre>Se a re-projeção reduzir o email a uma posição,
+considere "text_only": true.</pre>
+    Passa a:
+    <pre>"text_only" só é válido quando a intenção deste email ou sua
+referência pedem quebra de formato — é um dispositivo de encerramento
+cujo valor depende de todos os toques DESENHADOS que vieram antes.
+NUNCA use "text_only" como saída para capacidade insuficiente: um
+flow que quebra o formato cedo não tem como quebrá-lo no fim.</pre>
+  </div></div>
+
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>O vault trata <code>text_only</code> como dispositivo <strong>posicional</strong>, não como formato de fallback:</p>
+    <blockquote>"os sete e-mails anteriores criaram a cegueira que o oitavo precisa atravessar"<br><br>
+    "o seu valor <strong>cresce com o número de toques desenhados</strong> que vieram antes"<br><br>
+    "O formato do último e-mail é escolhido <strong>contra</strong> o padrão que o próprio flow estabeleceu"
+    <cite>Emails/aprendizados/_global/quebra-de-formato-atravessa-a-cegueira.md</cite></blockquote>
+    <blockquote>"Tese, urgência, mecanismo, prova e comparação são <strong>cartas gastáveis — uma vez
+    jogada, não volta</strong>."<cite>Emails/intencoes/welcome/_progressao.md</cite></blockquote>
+  </div></div>
+
+  <div class="row"><div class="lab">Onde dispara</div><div class="val">
+    <p>O #7 (<code>medicube-ultima-batida</code>) é <code>secoes: [header, offer, footer]</code>.
+    Header é absorvido; se o <code>offer</code> não re-projetar, sobra <strong>uma posição</strong> → gatilho aciona.</p>
+    <p>É o e-mail <strong>vizinho</strong> do dono do dispositivo. O flow gastaria a quebra de formato no #7
+    com 6 toques desenhados atrás em vez de 7 — e o #8 chegaria como o segundo plain-text seguido,
+    que é o oposto exato do mecanismo.</p>
+  </div></div>
+</div>
+
+<h2 class="sec">Contrato de dados</h2>
+
+<div class="card amber">
+  <div class="head">
+    <span class="id">P3</span>
+    <span class="badge amber">média</span>
+    <span class="badge ghost">novo no lote 2</span>
+    <h3>Dois schemas convivendo no array <code>descartes</code></h3>
+  </div>
+
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Um shape só, com a origem explícita:
+    <pre>{
+  "section": string | null,             // quando o código rejeitou uma posição
+  "papel_na_referencia": string | null, // quando o modelo não emitiu
+  "porque": string,
+  "origem": "modelo" | "validador"
+}</pre>
+  </div></div>
+
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>O modelo emite <code>{papel_na_referencia, porque}</code> (exemplo novo da seção 04). Mas duas
+    linhas da tabela do validador fazem <em>"posição removida + entra em descartes"</em> — e essas
+    emitem <code>{section, porque}</code>. Dois formatos no mesmo array, que o Estúdio renderiza.</p>
+    <p>Pior que o formato: são <strong>duas naturezas de fato diferentes</strong>. "O modelo decidiu não
+    emitir" ≠ "o código rejeitou o que o modelo emitiu". Para o ciclo que promove feedback recorrente
+    do COO a nota de <code>aprendizados/</code>, essa distinção é o dado principal — sem ela, o
+    aprendizado promovido pode estar corrigindo o modelo por uma falha que era da biblioteca.</p>
+  </div></div>
+</div>
+
+<h2 class="sec">Abertos do lote 1 · nada foi tocado, é tudo lado vault</h2>
+
+<div class="card amber">
+  <div class="head">
+    <span class="id">P4</span>
+    <span class="badge amber">alto</span>
+    <h3>A chave de seleção existe em 3 de 8 estruturas</h3>
+  </div>
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Promover a frontmatter das 8 estruturas: <code>objecao_alvo:</code> e <code>mecanismo:</code>.
+    A informação já existe na prosa das 8 — é promoção, não redação nova. Em paralelo, escrever a
+    seção <strong>"Quando usar"</strong> nas 5 que só têm "Quando NÃO usar".
+  </div></div>
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>Sua própria tabela de entradas diz: <em>"A chave real é a objeção que cada uma ataca
+    ('quando usar')"</em>. E o passo SELEÇÃO do prompt manda escolher por afinidade de mecanismo.
+    Mas:</p>
+    <table>
+      <tr><th>Tem "Quando usar"</th><th class="num">3</th><td>avelmore-inspecao-antecipada · avelmore-deadline-objecao · medicube-comparacao-categoria</td></tr>
+      <tr><th>Só "Quando NÃO usar"</th><th class="num">5</th><td>avelmore-mecanismo-e-origem · avelmore-prova-social-cirurgica · medicube-escassez-com-prova-de-demanda · medicube-ultima-batida · carta-plain-text-extensao</td></tr>
+    </table>
+    <p>Cinco candidatas oferecem só filtro negativo — não há afinidade com o que casar. Com o
+    mecânico todo resolvido, este virou o <strong>maior risco restante</strong>: no shadow vai aparecer
+    como "ele sempre escolhe as mesmas três referências", e vai parecer preferência do modelo
+    quando é viés do material.</p>
+  </div></div>
+</div>
+
+<div class="card amber">
+  <div class="head">
+    <span class="id">P5</span>
+    <span class="badge amber">alto</span>
+    <h3><code>_progressao</code> declara cobertura completa e cobre #1–#5</h3>
+  </div>
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Completar a tabela para #6–#8, <em>ou</em> baixar o frontmatter para
+    <code>cobertura: parcial</code> + <code>cobre_emails: [1,2,3,4,5]</code>.
+    E corrigir a prosa da ADR, seção 01.
+  </div></div>
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>Metadado falso é pior que ausente: desliga a checagem. Para #6–#8 o agente interpola uma
+    progressão que ninguém escreveu, com o frontmatter afirmando que está completa.</p>
+    <p><strong>E o drift já aconteceu — está na ADR até agora.</strong> A seção 01 diz
+    <em>"compressão (8 posições no #1 → 1 no #8)"</em>. A nota diz "8 posições no primeiro, 4 no último",
+    e "o último" ali é a <strong>última coluna da tabela (#5)</strong>, não o último e-mail do flow.</p>
+    <p>Agora esse erro tem caminho para virar bug: o prompt novo diz <em>"sua sequência terá 1–2
+    posições a MENOS que o número citado"</em>. Se alguém completar a progressão copiando "1 no #8"
+    da ADR, a instrução manda emitir zero.</p>
+  </div></div>
+</div>
+
+<div class="card amber">
+  <div class="head">
+    <span class="id">P6</span>
+    <span class="badge amber">média</span>
+    <h3><code>Exige da loja</code> declarado em 2 de 8 estruturas</h3>
+  </div>
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    Escrever a linha nas 6 que faltam e promover a frontmatter validável:
+    <code>exige_da_loja: [incentivo_ativo, politica_troca, grade_produtos, ...]</code>.
+  </div></div>
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>Só <code>avelmore-deadline-objecao</code> e <code>avelmore-inspecao-antecipada</code> declaram
+    pré-requisitos. O guard de construtibilidade hoje checa <strong>apenas contagem de produtos</strong> —
+    o agente vai adaptar estruturas cujos pré-requisitos a loja não tem (incentivo ativo, política de
+    troca descritível) sem nada barrar.</p>
+  </div></div>
+</div>
+
+<div class="card amber">
+  <div class="head">
+    <span class="id">P7</span>
+    <span class="badge amber">baixa</span>
+    <h3>O prompt cita uma string que existe em 1 das 8 intenções</h3>
+  </div>
+  <div class="row"><div class="lab">O que leva</div><div class="val">
+    No passo VALIDAÇÃO, trocar a citação:
+    <pre>- de:   ("precisa ser verdade que...")   → existe em 1/8
+- para: ("Quando ela termina de ler...") → existe em 8/8</pre>
+  </div></div>
+  <div class="row"><div class="lab">Por quê</div><div class="val">
+    <p>Conferido arquivo a arquivo: <code>"precisa ser verdade"</code> aparece só na intenção #1.
+    As outras 7 abrem o critério com <em>"Quando ela termina de ler:"</em>. O modelo procura uma
+    âncora textual que não está lá em 7 dos 8 casos. Correção de uma palavra, melhora o grounding
+    do passo que valida tudo.</p>
+  </div></div>
+</div>
+
+<h2 class="sec">Retirado</h2>
+<div class="card green">
+  <div class="head">
+    <span class="id">—</span>
+    <span class="badge green">decisão sua</span>
+    <h3>Remoção silenciosa de <code>header</code>/<code>cta</code> pelo validador</h3>
+  </div>
+  <div class="row"><div class="lab">Status</div><div class="val">
+    Levantei como achado; era comportamento pedido. <strong>Retirado da lista</strong> — fica aqui só
+    para o histórico da revisão ficar rastreável.
+  </div></div>
+</div>
+
+<h2 class="sec">Ordem de execução</h2>
+<div class="card">
+<ol class="plan">
+  <li><strong>P1 e P2</strong> — duas frases no system prompt. Sem elas, o shadow mede embasamento <em>persuasivo</em>, não embasamento <em>correto</em>: o modelo re-projeta errado e escreve um <code>porque</code> articulado por cima.</li>
+  <li><strong>P3</strong> — campo <code>origem</code> no <code>descartes</code>, antes do Estúdio renderizar para o COO.</li>
+  <li><strong>Liga o shadow.</strong></li>
+  <li><strong>P4, P5, P6, P7</strong> — em paralelo. Nada disso quebra execução; só enviesa a escolha e a leitura humana.</li>
+</ol>
+</div>
+
+<div class="ask">
+  <h4>A pergunta que decide se o <code>offer</code> é bloqueante</h4>
+  <p>Existe hoje variante de <code>body</code> em <strong>bloco escuro / destacado</strong> na biblioteca?
+  Se existe, o problema evapora com a frase de P1 e nada precisa esperar a curadoria. Se não existe,
+  é o único item de curadoria obrigatório antes da virada — e é bem mais estreito que
+  "criar a categoria <code>offer</code>": é uma variante de <code>body</code>.</p>
+</div>
+
+<footer class="doc">
+  Revisão sobre <code>adr-estruturador-adaptativo.md</code> (rev. 25/08/2026) · vault
+  <code>All-for-Eficiencia</code>, welcome completo · citações verificadas em
+  <code>Admin Convertfy/Emails/</code>
+</footer>
+
+</div>
+</body>
+</html>

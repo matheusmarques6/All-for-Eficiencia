@@ -3,6 +3,8 @@ tipo: estrutura
 slug: carta-plain-text-extensao
 flow_type: welcome
 emails: [8]
+objecao_alvo: janela perdida — perdi, acabou para mim
+mecanismo: quebra do formato que o próprio flow estabeleceu, mais extensão declarada como exceção única, justificada e final
 escopo: geral
 loja:
 amostra: sem marca — assinatura "The [Brand] Team" literal

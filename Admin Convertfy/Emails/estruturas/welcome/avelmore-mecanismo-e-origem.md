@@ -3,6 +3,8 @@ tipo: estrutura
 slug: avelmore-mecanismo-e-origem
 flow_type: welcome
 emails: [3]
+objecao_alvo: ceticismo — como isso se sustenta, por que o preço é esse
+mecanismo: três camadas de como (origem, economia, operação) com o incentivo devolvido só depois do mecanismo, nunca antes
 escopo: geral
 loja:
 amostra: Avelmore — calçado de couro, ticket $49,95–$69,95

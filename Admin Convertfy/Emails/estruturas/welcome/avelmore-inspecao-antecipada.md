@@ -3,6 +3,8 @@ tipo: estrutura
 slug: avelmore-inspecao-antecipada
 flow_type: welcome
 emails: [1]
+objecao_alvo: qualidade percebida do produto — parece bom na foto e decepciona na mão
+mecanismo: nomear a objeção dominante e convertê-la em alegação da marca; garantia verificável antes da vitrine; confirmação de terceiro fechando o arco
 escopo: geral
 loja:
 amostra: montagem sobre marca de calçado de couro, ticket médio (US$ 50-70)

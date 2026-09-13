@@ -3,6 +3,8 @@ tipo: estrutura
 slug: avelmore-prova-social-cirurgica
 flow_type: welcome
 emails: [4]
+objecao_alvo: isolamento na decisão — sou só eu que estou considerando isso
+mecanismo: depoimentos escolhidos pela objeção que cada um fecha, com um espelhando literalmente o cético, mais agregado numérico
 escopo: geral
 loja:
 amostra: Avelmore — calçado de couro, ticket $49,95–$69,95

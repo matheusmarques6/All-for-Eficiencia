@@ -3,6 +3,8 @@ tipo: estrutura
 slug: avelmore-deadline-objecao
 flow_type: welcome
 emails: [2]
+objecao_alvo: trava desconhecida — a pessoa não agiu e não se sabe qual objeção travou
+mecanismo: varredura numerada de objeções de naturezas diferentes, escaneável pelos títulos, seguida de custo de adiar isolado em bloco de interrupção
 escopo: geral
 loja:
 amostra: montagem sobre marca de calçado de couro, ticket médio (US$ 50-70)

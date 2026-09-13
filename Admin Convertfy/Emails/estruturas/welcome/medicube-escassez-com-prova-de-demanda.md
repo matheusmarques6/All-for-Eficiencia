@@ -3,6 +3,8 @@ tipo: estrutura
 slug: medicube-escassez-com-prova-de-demanda
 flow_type: welcome
 emails: [6]
+objecao_alvo: inércia — por que agora, se adiar nunca custou nada
+mecanismo: escassez incidindo sobre o próprio incentivo, com número de trabalho duplo (prova de demanda e disputa), e prova social colada na pressão
 escopo: geral
 loja:
 amostra: Medicube — k-beauty / skincare

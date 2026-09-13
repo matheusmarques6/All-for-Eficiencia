@@ -3,6 +3,8 @@ tipo: estrutura
 slug: medicube-comparacao-categoria
 flow_type: welcome
 emails: [5]
+objecao_alvo: legitimidade do canal — por que comprar de VOCÊS e não de outro site
+mecanismo: comparação contra a categoria — nomear os medos do canal, riscar todos, ficar sozinho no centro
 escopo: geral
 loja:
 amostra: Medicube — k-beauty / skincare

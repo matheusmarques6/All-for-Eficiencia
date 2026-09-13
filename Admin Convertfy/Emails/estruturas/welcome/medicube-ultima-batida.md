@@ -3,6 +3,8 @@ tipo: estrutura
 slug: medicube-ultima-batida
 flow_type: welcome
 emails: [7]
+objecao_alvo: adiamento no dia D — ainda dá tempo
+mecanismo: batida única sem argumento, com enquadramento de posse — o que já é seu está expirando, não uma promoção a aproveitar
 escopo: geral
 loja:
 amostra: Medicube — k-beauty / skincare
