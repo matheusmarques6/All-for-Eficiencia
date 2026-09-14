@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: cupom-ativo
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,7 +24,6 @@ dessas variantes.
 Da prosa do inventário, verbatim (`offer 3`): *"Sem cupom. A pílula do
 código é o centro da variante e não tem substituto."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` do flow → o toque tem
+`coupon_code` preenchido e válido. `false` → elimina.

@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: desconto-automatico-sem-cupom
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ variante não tem onde acomodar o código sem quebrar a escala."*
 Reforçado em `offer 2`: *"Se o desconto é automático, dizer — é o que
 remove a objeção do cupom."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` → oferta marcada como
+automática no checkout, sem código. `false` → elimina.

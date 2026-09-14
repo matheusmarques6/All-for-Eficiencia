@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: prova-social
+classe: reviews
+fonte_resolucao: reviews_bank
+default_quando_desconhecido: false
 valor: depoimento-com-credencial
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -23,7 +25,7 @@ Da prosa do inventário, verbatim (`review 1`): *"Sem credencial.
 Depoimento de cliente comum não sustenta a variante — o slot de cargo
 fica vazio e a estrutura perde o sentido."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Depende do banco de reviews expor metadados (tamanho, foto, credencial).
+Fora do escopo até lá: **não elimina**. Quando o banco expuser, o resolvedor
+consulta `reviews_bank` da loja.

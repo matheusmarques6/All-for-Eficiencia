@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: produto-de-entrada-definido
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -23,7 +25,6 @@ Da prosa do inventário, verbatim (`produtos 4`): *"Alimentos, bebidas,
 suplementos, beleza, pet, assinatura — categorias com produto de entrada
 definido."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `store_top_products[0]` existe (mais vendido
+identificado). `false` → elimina.

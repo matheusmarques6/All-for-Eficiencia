@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: ativo-visual
+classe: gate
+fonte_resolucao: brand_identity
+default_quando_desconhecido: false
 valor: duas-ou-tres-cores-de-identidade
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,12 +24,6 @@ função e, em vez de assinatura, viram ruído visual repetitivo.
 Da prosa do inventário, verbatim (`hero 7`): *"Marca de uma cor só — as
 barras ficam sem função e viram ruído."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje**, mas o campo existe:
-`client_stores.cores` (jsonb `[{name,hex,use}]`,
-`20260520_client_stores_marca_fields.sql:13`) — contar as entradas do
-array responde diretamente se a marca tem duas, três ou mais cores
-definidas. O que falta não é o dado, é o Curador cruzar `exige` contra
-ele: hoje `exige` nem entra no prompt do Curador (ver
-[[o-que-o-curador-ainda-nao-tem]]). Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `store_brand_identity` → 2–3 cores com papéis
+definidos (fundo, texto, destaque). `false` → elimina.

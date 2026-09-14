@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: motivo-sazonal
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ Da prosa do inventário, verbatim (`offer 2`): *"Marca sem motivo
 sazonal para usar na faixa e no CTA — sem ele a seção perde o que a
 amarra."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa/calendário → motivo sazonal
+real e datado para esta loja. Sem ele, `false` → elimina.

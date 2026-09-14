@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: catalogo-de-variantes
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -25,7 +27,6 @@ Da prosa do inventário, verbatim (`review 6`, texto de "Quando NÃO
 usar"): *"Menos de três depoimentos com produtos distintos. Repetir o
 mesmo produto nas três linhas anula o mecanismo."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `products.json` → produtos com mais de uma `variant`
+com opções distintas (cor, sabor, tamanho). `false` → elimina.

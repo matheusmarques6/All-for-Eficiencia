@@ -1,9 +1,11 @@
 ---
 tipo: requisito
 familia: comercial
+classe: plataforma
+fonte_resolucao: nenhuma
+default_quando_desconhecido: false
 valor: preference-center-na-esp
-verificavel_hoje: false
-status: aprovada
+status: superada
 procedencia: inferida
 ---
 
@@ -26,10 +28,10 @@ citam o label do link ("Gerenciar preferências") como orientação de
 copy, presumindo que ele existe. A eliminação aqui vem da mecânica do
 link, não de uma frase do inventário.
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Superado: isto é configuração de ESP/loja fora da geração, não uma
+pergunta sobre a loja. A nota fica no repo como histórico
+(`status: superada`, fora do sync).
 
 # Procedência
 

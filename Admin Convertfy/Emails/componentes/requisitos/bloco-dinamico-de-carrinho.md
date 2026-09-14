@@ -1,9 +1,11 @@
 ---
 tipo: requisito
 familia: dado-operacional
+classe: plataforma
+fonte_resolucao: nenhuma
+default_quando_desconhecido: false
 valor: bloco-dinamico-de-carrinho
-verificavel_hoje: false
-status: aprovada
+status: superada
 procedencia: inventario
 ---
 
@@ -23,7 +25,7 @@ Da prosa do inventário, verbatim (`offer 6`): *"Sem bloco dinâmico
 funcionando. O bloco branco existe para mostrar o item salvo; com
 placeholder estático ele perde a razão de ser."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Superado: isto é configuração de ESP/loja fora da geração, não uma
+pergunta sobre a loja. A nota fica no repo como histórico
+(`status: superada`, fora do sync).

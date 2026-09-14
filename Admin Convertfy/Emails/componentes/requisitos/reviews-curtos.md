@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: prova-social
+classe: reviews
+fonte_resolucao: reviews_bank
+default_quando_desconhecido: false
 valor: reviews-curtos
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -33,7 +35,7 @@ demais — a altura fixa de 346px corta o texto."*
 Da prosa do inventário, verbatim (`review 7`): *"Depoimento longo — o
 padding assimétrico deixa só 245px de largura útil."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Depende do banco de reviews expor metadados (tamanho, foto, credencial).
+Fora do escopo até lá: **não elimina**. Quando o banco expuser, o resolvedor
+consulta `reviews_bank` da loja.

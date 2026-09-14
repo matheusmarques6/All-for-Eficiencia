@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: tres-diferenciais-concretos
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ atrás do texto.
 Da prosa do inventário, verbatim (`offer 5`): *"Marca sem diferencial
 concreto. Três parágrafos de adjetivo expõem a falta de argumento."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa da marca → três diferenciais
+concretos com trecho literal de cada. Sem os três, `false` → elimina.

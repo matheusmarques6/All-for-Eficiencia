@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: ativo-visual
+classe: gate
+fonte_resolucao: brand_identity
+default_quando_desconhecido: false
 valor: cor-de-acento-definida
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -23,13 +25,6 @@ tipográfico.
 Da prosa do inventário, verbatim (`hero 2`): *"Marca sem cor de acento
 definida — o destaque da headline fica sem onde apoiar."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje**, mas o campo existe:
-`client_stores.cores` (jsonb `[{name,hex,use}]`,
-`20260520_client_stores_marca_fields.sql:13`) registra as cores da
-identidade com um rótulo de uso (`use`) por entrada — dá para checar se
-alguma entrada tem `use` de acento fora de preto/branco/cinza. O que
-falta não é o dado, é o Curador cruzar `exige` contra ele: hoje `exige`
-nem entra no prompt do Curador (ver
-[[o-que-o-curador-ainda-nao-tem]]). Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `store_brand_identity` → existe cor com papel de
+destaque/acento (não é `client_stores.cores`). `false` → elimina.

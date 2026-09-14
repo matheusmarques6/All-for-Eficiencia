@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: ativo-visual
+classe: gate
+fonte_resolucao: brand_identity
+default_quando_desconhecido: false
 valor: serif-ou-script-display
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,12 +26,6 @@ Da prosa do inventário, verbatim (`hero 4`): *"Sem identidade
 tipográfica própria. Sem script + serif display, o lockup não se
 sustenta — use o welcome de fundo fotográfico simples."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje**, e o campo que existe só responde
-em parte: `client_stores.fontes` (jsonb `{titulo,corpo}`,
-`20260520_client_stores_marca_fields.sql:14`) guarda o NOME da fonte de
-título, o que já reduz a busca, mas não diz se essa família é serifada
-ou script — isso exige olhar a fonte (ou seu nome) e classificar, algo
-que o campo por si não resolve. Resposta parcial. Ver
-[[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `store_brand_identity` → fonte display serif ou
+script cadastrada. `false` → elimina.

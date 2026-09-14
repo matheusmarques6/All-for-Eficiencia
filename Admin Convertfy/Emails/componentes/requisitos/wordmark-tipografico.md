@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: ativo-visual
+classe: gate
+fonte_resolucao: brand_identity
+default_quando_desconhecido: false
 valor: wordmark-tipografico
-verificavel_hoje: false
 status: aprovada
 procedencia: inferida
 ---
@@ -26,10 +28,9 @@ Da prosa do inventário, verbatim (`hero 6`, condição de uso — a
 ausência é o inverso direto): *"Quando a marca tem wordmark tipográfico
 que funciona em caixa alta com tracking largo."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `store_brand_identity` → logo/wordmark tipográfico
+cadastrado como ativo. `false` → elimina.
 
 # Procedência
 

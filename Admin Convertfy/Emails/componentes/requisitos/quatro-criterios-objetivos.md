@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: quatro-criterios-objetivos
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -26,7 +28,6 @@ critérios. Com três linhas a tabela não justifica a estrutura."* E:
 *"Marca sem diferencial real nos critérios listados. A tabela expõe:
 cinco linhas de vantagem vaga soam falsas."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa da marca → quatro critérios
+objetivos e verificáveis com trecho literal. Sem eles, `false` → elimina.

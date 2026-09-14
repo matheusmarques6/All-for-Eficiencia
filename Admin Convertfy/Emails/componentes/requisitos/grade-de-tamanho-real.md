@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: dado-operacional
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: grade-de-tamanho-real
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ beleza, alimentos, casa; a grade não tem o que mostrar."* E: *"Todos os
 tamanhos disponíveis — sem esgotados, a grade não gera urgência e o
 bloco fica sem função."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `products.json` → alguma `option` de nome
+tamanho/size com ≥3 valores. `false` → elimina.

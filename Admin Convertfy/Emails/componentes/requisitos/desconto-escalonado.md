@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: desconto-escalonado
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -23,7 +25,6 @@ Da prosa do inventário, verbatim (`hero 7`): *"Quando o desconto é
 fechado e não escalonado: sem \"up to\", o eyebrow perde a função e a
 escala desmonta."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` → mais de um degrau de
+desconto declarado (ex.: 10/15/20%). `false` → elimina.

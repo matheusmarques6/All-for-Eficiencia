@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: prazo-real
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,7 +24,6 @@ versão da variante sem ele.
 Da prosa do inventário, verbatim (`produtos 4`): *"Sem prazo real — o
 selo é o mecanismo central e prazo falso corrói confiança."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` + cadência do flow → existe
+prazo com data/hora real (não "por tempo limitado" vago). `false` → elimina.

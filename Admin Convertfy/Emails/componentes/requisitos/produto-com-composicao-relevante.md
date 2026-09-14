@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: produto-com-composicao-relevante
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -23,7 +25,6 @@ nenhum para preencher esse formato — não é que a composição fique fraca,
 Da prosa do inventário, verbatim (`produtos 2`): *"Produto sem
 composição relevante — moda, acessório, eletrônico de consumo."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `products.json` → `body_html` cita
+composição/ingredientes/materiais de forma substantiva. `false` → elimina.

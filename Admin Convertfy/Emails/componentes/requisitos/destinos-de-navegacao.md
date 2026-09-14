@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: dado-operacional
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: destinos-de-navegacao
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -25,10 +27,9 @@ específica não serve para clientes com menos de 4 links úteis (grid
 fica capenga; usar variante de lista horizontal simples) ou e-mails
 transacionais ultra-minimalistas."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `https://<loja>/collections.json` → coleções
+publicadas suficientes para um menu (≥3). `false` → elimina.
 
 
 # Como está codificado nas variantes

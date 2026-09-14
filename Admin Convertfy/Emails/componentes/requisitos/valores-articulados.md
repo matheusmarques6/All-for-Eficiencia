@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: valores-articulados
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -25,14 +27,6 @@ Da prosa do inventário, verbatim (`body 3`): *"a marca tem valores
 articulados e quer reforço institucional"* (quando usar) e *"Sem selos
 de valores produzidos, usar a variante só-pitch"* (quando não usar).
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Existe um campo próximo — `brand_pillars`
-(jsonb, 3 tiles `{label,text}`, `20260516000000_pesquisa_diagnostico.sql:9`)
-— mas não é equivalente: são pilares de mensagem/posicionamento livres
-produzidos pela Pesquisa & Diagnóstico, sem garantia de serem valores
-institucionais nomeáveis prontos para virar selo (o pedido aqui é
-especificamente "sustentável", "cruelty-free", "feito à mão" — categoria
-de afirmação, não qualquer pilar de marca). Tratado como não-resposta.
-Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa da marca → valores da marca
+articulados em texto citável. Sem trecho, `false` → elimina.

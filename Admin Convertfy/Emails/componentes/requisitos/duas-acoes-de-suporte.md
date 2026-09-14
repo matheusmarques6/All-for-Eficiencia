@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: duas-acoes-de-suporte
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -25,7 +27,6 @@ função."* A mesma variante define o que conta como as duas ações: *"Quando
 existem duas ações reais de suporte com pesos diferentes (conta e central de
 ajuda, chat e FAQ, consultoria e catálogo)."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa da marca → duas ações de
+suporte reais (troca fácil, atendimento X) com trecho. Senão `false` → elimina.

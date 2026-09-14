@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: gift-card-digital
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,7 +24,6 @@ Da prosa do inventário, verbatim (`body 3`): *"Clientes sem gift card
 digital (óbvio, mas o Architect precisa do dado no perfil do cliente:
 \"tem gift card? sim/não\")."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `https://<loja>/products.json` → algum produto com
+`gift_card: true` ou `product_type`/`title` contendo "gift". `false` → elimina.

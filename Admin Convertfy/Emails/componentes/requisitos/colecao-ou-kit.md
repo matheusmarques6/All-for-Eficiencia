@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: colecao-ou-kit
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,7 +24,6 @@ dois, e o CTA fica sem para onde apontar de verdade.
 Da prosa do inventário, verbatim (`produtos 7`): *"Produtos que não
 compartilham coleção — o CTA final fica sem destino coerente."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `products.json` → `product_type`/`tags` indicando
+kit/combo, ou `collections.json` com coleção temática. `false` → elimina.

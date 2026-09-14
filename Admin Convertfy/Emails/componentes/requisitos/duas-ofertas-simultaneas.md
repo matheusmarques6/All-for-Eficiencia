@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: duas-ofertas-simultaneas
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ Da prosa do inventário, verbatim (`offer 2`): *"Uma oferta só. Com uma
 caixa a estrutura fica desequilibrada e a segunda vira enchimento."* E
 ainda: *"São duas ofertas simultâneas, não uma oferta e um reforço."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` → dois incentivos distintos
+ativos no mesmo toque. `false` → elimina.

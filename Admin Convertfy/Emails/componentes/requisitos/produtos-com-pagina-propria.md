@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: dado-operacional
+classe: gate
+fonte_resolucao: products_json
+default_quando_desconhecido: false
 valor: produtos-com-pagina-propria
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -25,7 +27,6 @@ precisa de destino próprio — use uma grade de produtos com CTA por
 linha."* Sem página própria por produto, essa condição nunca se cumpre e
 a variante de CTA-por-linha não tem para onde apontar cada botão.
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `products.json` → produtos publicados com `handle`
+(URL própria acessível). `false` → elimina.

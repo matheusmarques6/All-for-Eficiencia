@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: ativo-visual
+classe: diretiva_imagem
+fonte_resolucao: nenhuma
+default_quando_desconhecido: false
 valor: embalagem-colorida
-verificavel_hoje: false
 status: aprovada
 procedencia: inferida
 ---
@@ -25,10 +27,11 @@ Da prosa do inventário, verbatim (`hero 10`, condição de uso — pareada
 com [[foto-estudio-fundo-claro]]): *"Quando a marca tem fotografia de
 estúdio em fundo claro e embalagem colorida."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Não se resolve contra a loja: o pipeline **gera** a imagem com esta
+propriedade. Entra em `diretivas_de_imagem` da variante e no brief da foto
+(`photo_direction`); `image_format` confere por pixel o que der conferir.
+**Nunca elimina variante.**
 
 # Procedência
 

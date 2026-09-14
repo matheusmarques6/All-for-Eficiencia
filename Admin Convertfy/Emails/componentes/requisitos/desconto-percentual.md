@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: comercial
+classe: gate
+fonte_resolucao: outline
+default_quando_desconhecido: false
 valor: desconto-percentual
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -22,7 +24,6 @@ central não tem o que exibir e a peça perde o elemento que a organiza.
 Da prosa do inventário, verbatim (`hero 6`): *"Marca premium que não
 desconta — o percentual em 60px define a peça."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código): `email_outline_templates` → a oferta do toque é
+percentual (não frete, não brinde). `false` → elimina.

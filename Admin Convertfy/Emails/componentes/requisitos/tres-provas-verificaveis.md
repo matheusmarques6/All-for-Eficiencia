@@ -1,8 +1,10 @@
 ---
 tipo: requisito
 familia: catalogo
+classe: gate
+fonte_resolucao: pesquisa
+default_quando_desconhecido: false
 valor: tres-provas-verificaveis
-verificavel_hoje: false
 status: aprovada
 procedencia: inventario
 ---
@@ -24,7 +26,6 @@ Da prosa do inventário, verbatim (`produtos 2`): *"Sem provas
 verificáveis — três marcadores com adjetivo genérico (\"suave\",
 \"poderoso\") esvaziam o bloco."*
 
-# Como o agente verifica
-
-**Não verifica automaticamente hoje.** Nenhum campo de `client_stores`
-responde a esta pergunta. Ver [[_parametros-da-loja]].
+# Como se resolve
+Resolvedor (código, com citação): pesquisa da marca → três provas
+verificáveis (números, certificações, testes) com trecho. Senão `false` → elimina.
