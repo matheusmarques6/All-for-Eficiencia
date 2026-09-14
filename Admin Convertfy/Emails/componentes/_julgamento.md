@@ -38,14 +38,14 @@ O passo 4 do protocolo em perguntas de sim/não. Cada requisito declara `classe`
 
 | Vence | O que é neste vault | Peso |
 |---|---|---|
-| Contrato do flow | incentivo por toque, cadência, prazo — `email_outline_templates` + `intencoes/<flow>/_flow` | vence tudo; a pesquisa não remove o que o flow promete ao contato |
-| Fatos verificáveis da loja | catálogo (`products.json`), identidade (`store_brand_identity`), políticas capturadas, cupom cadastrado — o que o resolvedor de requisitos responde | alvo que pede o que a loja não tem não é atendido — é declarado |
-| Alvo do Seletor | a objeção, o risco e o aliviador fixados a partir do contrato do toque (`modo`, `riscos_elegiveis`, `aliviadores_admissiveis`, `proibicoes` em `intencoes/<flow>/<n>`) | vence estrutura e aprendizado: eles servem ao alvo, não o substituem |
-| Aprendizado com origem | nota de `aprendizados/` com `origem_estrutura:` — observação de peça real promovida a regra | `tipo_regra: restricao-dura` elimina; o resto rankeia |
-| Estrutura de referência | `estruturas/<flow>/` — peça real catalogada | mostra o que existe, não prova o que funciona; resolve ordem e papel das seções |
-| Doutrina de curso | as pontes de `componentes/doutrina/` — regra do curso traduzida para seções, eixos e `papel_na_peca` | ensina o critério; é opinião, não medição |
-| Pesquisa & diagnóstico | contexto de marca, ICP e tom — de onde a copy tira voz | **não** é fonte de fatos operacionais nem de ativos; nunca derruba o contrato do flow |
-| Preferência do modelo | o que o agente acharia bonito | não decide nada: empate vai para o desempate do protocolo, nunca para o gosto |
+| Contrato do flow | incentivo por toque, cadência, prazo — `email_outline_templates` + `intencoes/<flow>/_flow` | vence tudo; pesquisa não remove o que o flow promete |
+| Fatos verificáveis da loja | catálogo (`products.json`), identidade (`store_brand_identity`), políticas, cupom — o que o resolvedor responde | alvo que pede o que a loja não tem não é atendido — é declarado |
+| Alvo do Seletor | objeção, risco e aliviador fixados pelo contrato do toque (`intencoes/<flow>/<n>`) | vence estrutura e aprendizado: eles servem ao alvo, não o substituem |
+| Aprendizado com origem | nota de `aprendizados/` com `origem_estrutura:` | `restricao-dura` elimina; o resto rankeia |
+| Estrutura de referência | `estruturas/<flow>/` — peça real catalogada | mostra o que existe, não prova o que funciona; resolve ordem e papel |
+| Doutrina de curso | pontes de `componentes/doutrina/` | ensina o critério; é opinião, não medição |
+| Pesquisa & diagnóstico | contexto de marca, ICP e tom — de onde a copy tira voz | **não** é fonte de fatos operacionais nem de ativos |
+| Preferência do modelo | o que o agente acharia bonito | não decide nada: empate vai para o desempate do protocolo |
 
 **Escolha a de cima e diga qual perdeu** — nunca resolver em silêncio.
 
