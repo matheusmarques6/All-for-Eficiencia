@@ -43,6 +43,9 @@ Sem esses dois eixos, a capacidade sozinha não decide.
 
 - Salto de capacidade: nenhuma variante com `product_slots` 5, 6, 7 ou 8 —
   o catálogo pula de 4 para 9 direto.
+- **Dispositivo não coberto** (batch 6249aef2): grade de 2–3 produtos com
+  **preço cheio**, sem selo de desconto, para toque sem incentivo. Ver
+  [[products-grade-preco-cheio]].
 - Momento: nenhuma products para `welcome-1`, `welcome-meio`,
   `welcome-tardio`, `carrinho-abandonado`, `checkout-abandonado`,
   `reengajamento`, `transacional`, `browse-abandonment`,

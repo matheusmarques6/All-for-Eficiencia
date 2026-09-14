@@ -11,6 +11,9 @@ eliminar antes de rankear. Tudo o mais existe para servir esse protocolo.
 
 # Caminho de seleção (o fluxo do agente)
 
+0. [[_PADRAO-DO-VAULT]] — como as notas deste vault são escritas. Quem
+   cria ou edita nota lê antes; quem muda o código que consome o vault
+   atualiza o padrão no mesmo commit.
 1. [[_protocolo-de-selecao]] — as regras. Leia primeiro, sempre.
 2. `intencoes/<flow>/<n>.md` — o que ESTE toque deve fazer (objeção-alvo,
    papel de cada bloco). Só existe `welcome` hoje.
@@ -28,7 +31,9 @@ Zero candidata sobrevivendo não é erro: declare e registre em
 
 | Pasta / nota | O que é |
 |---|---|
+| [[_PADRAO-DO-VAULT]] | O padrão das notas: frontmatter é contrato (código), corpo é julgamento (LLM). |
 | [[_protocolo-de-selecao]] | Como escolher. As regras, na ordem. |
+| [[_julgamento]] | O que nunca fazemos, precedência entre fontes, quando recusar. |
 | [[_catalogo]] | Gerado — tabela única com o frontmatter das variantes. |
 | [[_parametros-da-loja]] | Ponte vault ↔ código: o que o Montador recebe e o que falta. |
 | [[_inventario]] | Números e proveniência da biblioteca (fonte Supabase, md5). |
@@ -36,7 +41,7 @@ Zero candidata sobrevivendo não é erro: declare e registre em
 | `componentes/variantes/<secao>/` | 44 notas de variante: frontmatter máquina + prosa julgamento. |
 | `componentes/secoes/_*.md` | Cobertura e chave de decisão por seção. |
 | `componentes/eixos/` | Vocabulário controlado: momento, objecao, registro, paleta, papel-na-peca. Uma nota por valor. |
-| `componentes/requisitos/` | Uma nota por valor de `exige` — por que é eliminatório, como verificar. |
+| `componentes/requisitos/` | Uma nota por requisito, com `classe` (gate elimina; diretiva_imagem vira brief; reviews aguarda o banco) e `fonte_resolucao` — como o código resolve. |
 | `componentes/convivencia/` | Regras de coexistência entre variantes na mesma peça. |
 | `componentes/lacunas/` | O que falta — zero-elegíveis, duplicatas, campos mortos. Cidadã de primeira classe. |
 | `componentes/_html/` | O HTML real das variantes, conferido por md5 contra o banco. |

@@ -19,28 +19,27 @@ objeção declarada; hoje nenhum offer ativo serve o welcome nem ataca objeção
 `momento` separa a maior parte das seis, mas não todas sem ambiguidade:
 offer-3 (`browse-abandonment, carrinho-abandonado`) e offer-6
 (`carrinho-abandonado, checkout-abandonado`) declaram ambas
-`carrinho-abandonado` — não é um caso de momentos disjuntos. `exige`
-(presença de cupom ativo) e `objeção` refinam a leitura dentro de
-momentos próximos (welcome-1 vs. welcome-meio) e, no caso de offer-3 e
-offer-6, é `peso`/`papel_na_peca` — não `momento` — que os separa (ver
-"Como ler" abaixo).
+`carrinho-abandonado` — não é um caso de momentos disjuntos. A `objeção`
+refina a leitura dentro de momentos próximos (welcome-1 vs. welcome-meio)
+e, no caso de offer-3 e offer-6, é `peso`/`papel_na_peca` — não `momento`
+— que os separa (ver "Como ler" abaixo). A dependência de cupom de cada
+uma é gate do passo 4, resolvido por código antes do ranking.
 
-| Variante | Momento | Exige cupom | Objeção | Registro |
-|---|---|---|---|---|
-| [[offer-1-condicao-sem-imagem]] | campanha-promocional | não | — | — |
-| [[offer-2-duas-ofertas-sazonais]] | sazonal-data-comemorativa | não (usa prazo real, não cupom) | — | — |
-| [[offer-3-lembrete-de-cupom]] | browse-abandonment, carrinho-abandonado | sim | — | — |
-| [[offer-4-manifesto-antes-do-cupom]] | welcome-1 | sim | pertencimento | premium-editorial |
-| [[offer-5-tres-diferenciais-e-cupom]] | welcome-meio | sim | preço-valor | premium-editorial |
-| [[offer-6-carrinho-preto-e-branco]] | carrinho-abandonado, checkout-abandonado | sim | — | bold-alto-contraste |
+| Variante | Momento | Objeção | Registro |
+|---|---|---|---|
+| [[offer-1-condicao-sem-imagem]] | campanha-promocional | preço-valor | — |
+| [[offer-2-duas-ofertas-sazonais]] | sazonal-data-comemorativa | preço-valor, disponibilidade-urgência | — |
+| [[offer-3-lembrete-de-cupom]] | browse-abandonment, carrinho-abandonado | preço-valor | — |
+| [[offer-4-manifesto-antes-do-cupom]] | welcome-1 | pertencimento | premium-editorial |
+| [[offer-5-tres-diferenciais-e-cupom]] | welcome-meio | preço-valor | premium-editorial |
+| [[offer-6-carrinho-preto-e-branco]] | carrinho-abandonado, checkout-abandonado | preço-valor | bold-alto-contraste |
 
 **Como ler:** offer-4 e offer-5 têm o mesmo registro (`premium-editorial`)
-e as duas exigem cupom — é só o `momento` (welcome-1 vs. welcome-meio) e a
-`objeção` (pertencimento vs. preço-valor) que decidem qual entra em qual
-e-mail da régua. offer-3 e offer-6 disputam momentos de abandono
-próximos: offer-6 é `peça-inteira` com bloco dinâmico de carrinho
-(exige-o explicitamente); offer-3 é mais leve e serve também
-browse-abandonment, onde não há carrinho para renderizar.
+— é só o `momento` (welcome-1 vs. welcome-meio) e a `objeção`
+(pertencimento vs. preço-valor) que decidem qual entra em qual e-mail da
+régua. offer-3 e offer-6 disputam momentos de abandono próximos: offer-6
+é `peça-inteira` desenhada para mostrar o carrinho; offer-3 é mais leve e
+serve também browse-abandonment, onde não há carrinho para renderizar.
 
 # Onde a seção não cobre
 

@@ -172,9 +172,9 @@ Isso resolve a escolha, não a duplicata: os pares continuam registrados em
 
 # Quando nenhuma variante sobrevive
 
-Declarar a lacuna, parar o batch no Curador com a lacuna nomeada (não
-existe template global no código — a posição cai) e registrar o caso em
-`lacunas/`. Um zero-elegíveis recorrente é o sinal mais valioso que o
+Declarar a lacuna e parar o batch no Curador com a lacuna nomeada —
+nunca cair em silêncio no fallback de `email_reference_templates` — e
+registrar o caso em `lacunas/`. Um zero-elegíveis recorrente é o sinal mais valioso que o
 sistema produz — diz exatamente qual variante falta comprar ou construir.
 Casos já registrados nesse padrão: [[header-sem-variante]] e
 [[cta-sem-variante]] (zero variantes para a seção inteira, sempre) e

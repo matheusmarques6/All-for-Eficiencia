@@ -107,7 +107,7 @@ Hierarquia de largura: **título > botão > subtítulo**. A caixa de 357px do su
 
 **Composição.** Cluster central de 6 a 9 itens da mesma família, alturas escalonadas em arco, sobreposição parcial, ao menos um item deitado. Sangra na base do quadro e pode sangrar de leve nas laterais. Terço superior livre.  
 
-**Cenário e luz.** Superfície branca contínua com parede branca, sem linha dura de horizonte; faixa de piso levemente mais fria na base (≈ `#DEDEE0`). Luz difusa frontal-superior, sombras curtas e macias. Sem vinheta, sem reflexo espelhado.  
+**Cenário e luz.** Superfície branca contínua com parede branca, sem linha dura de horizonte; faixa de piso levemente mais fria na base (cinza neutro frio, papel: piso). Luz difusa frontal-superior, sombras curtas e macias. Sem vinheta, sem reflexo espelhado.  
 
 **Produto.** Rótulos da frente legíveis e voltados para a câmera. A cor da embalagem é a única cor da peça — o casting precisa formar paleta coerente.  
 

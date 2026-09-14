@@ -6,6 +6,8 @@ procedencia: doutrina
 status: aprovada
 ---
 
+> Derivado por código de `flow_type` + `email_number` (`momentoDoEmail` em curador-vault.ts). Filtro do passo 5, não eixo de ranking; não é lido pelo LLM. Mudou o vocabulário, muda o mapa no mesmo commit.
+
 # Welcome tardio
 
 Reta final do flow de boas-vindas, a partir de quando o argumento se esgota e

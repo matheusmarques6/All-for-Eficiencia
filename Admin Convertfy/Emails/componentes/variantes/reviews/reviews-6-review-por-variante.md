@@ -127,8 +127,7 @@ display:block em toda <img> e célula da foto com font-size:0;line-height:0.
 
 ## Direção fotográfica
 
-Packshot vertical do produto recortado em fundo branco puro (  
-#FFFFFF), sem sombra projetada, sem superfície e sem cenário.  
+Packshot vertical do produto recortado em fundo branco puro (cor de fundo do e-mail), sem sombra projetada, sem superfície e sem cenário.  
 
 Enquadramento: produto de frente, eixo vertical, rótulo inteiramente legível e centralizado no recorte. Sem rotação, sem perspectiva, sem inclinação.  
 Escala: o produto ocupa 95–100% da altura do slot e é a altura que padroniza a pilha — as três fotos precisam terminar praticamente na mesma linha de base.  

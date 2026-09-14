@@ -8,7 +8,7 @@ ativa: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio, welcome-tardio, consideracao, browse-abandonment]
-momento_vetado: [transacional, pos-compra]
+momento_vetado: [welcome-1, abertura, transacional, pos-compra]
 
 # --- eixos de ranking, na ordem do protocolo ---
 objecao: [qualidade-eficacia, preco-valor]

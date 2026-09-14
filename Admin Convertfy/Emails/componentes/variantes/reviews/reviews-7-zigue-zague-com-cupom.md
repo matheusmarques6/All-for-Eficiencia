@@ -148,8 +148,7 @@ Lado da foto: review 1 à esquerda, review 2 à direita, review 3 à esquerda. P
 
 Composição. Recorte fechado do produto vestido: detalhe de peça, meio corpo, ou corpo parcial cortado pelas bordas. O enquadramento é vertical dentro da metade que ocupa. Fundo do recorte claro e neutro, próximo ao da metade lisa.  
 
-Luz. Estúdio difuso, contraste baixo, sombras suaves. A metade lisa precisa de luminância acima de 88% para o cinza   
-#373737 do texto assentar.  
+Luz. Estúdio difuso, contraste baixo, sombras suaves. A metade lisa precisa de luminância acima de 88% para a cor de texto escura assentar.  
 
 Os três recortes precisam mostrar partes diferentes: um detalhe de tecido ou acabamento, um corpo inteiro ou meio corpo, um recorte de outra peça da linha. Três enquadramentos iguais anulam o efeito.  
 

@@ -127,8 +127,7 @@ Nenhuma segunda família tipográfica além do fallback do monoespaçado.
 
 ## Direção fotográfica
 
-Produto recortado em fundo branco puro (  
-#FFFFFF), sem sombra projetada, sem superfície, sem cenário. O fundo do ativo é o fundo do e-mail — a ausência de emenda é o efeito.  
+Produto recortado em fundo branco puro (cor de fundo do e-mail), sem sombra projetada, sem superfície, sem cenário. O fundo do ativo é o fundo do e-mail — a ausência de emenda é o efeito.  
 
 Peça vestível: fotografada plana ou em suporte invisível, levemente girada, com a estampa ou detalhe que o review menciona totalmente visível.  
 Par de itens: os dois em diagonal, sobrepostos parcialmente, um claro e um escuro para gerar contraste no branco.  
