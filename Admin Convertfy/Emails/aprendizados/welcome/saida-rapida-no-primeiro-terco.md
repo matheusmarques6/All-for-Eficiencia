@@ -4,6 +4,8 @@ flow_type: welcome
 serve_a: [welcome-3]
 origem_estrutura: avelmore-mecanismo-e-origem
 autor: Convertfy
+tipo_regra: preferencia
+aplica_a: [welcome, hero]
 status: aprovada
 ---
 

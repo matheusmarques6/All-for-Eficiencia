@@ -6,7 +6,7 @@ emails: [6]
 objecao_alvo: inércia — por que agora, se adiar nunca custou nada
 mecanismo: escassez incidindo sobre o próprio incentivo, com número de trabalho duplo (prova de demanda e disputa), e prova social colada na pressão
 escopo: geral
-loja:
+loja: medicube
 amostra: Medicube — k-beauty / skincare
 procedencia: nossa
 status: aprovada
@@ -39,6 +39,18 @@ O 412 faz trabalho duplo: escassez e prova de demanda no mesmo número.
 | 3 | `reviews` | 3 depoimentos com nota e nome (Margaret L., Catherine R., Diane F.) | Remover a última fricção no momento de maior pressão: "é seguro, é real, outras compraram e deu certo". Sem isso, urgência em loja desconhecida soa golpe — a pressão precisa da prova colada nela. |
 | 4 | `offer` | Bloco escuro: *"THE CODE WELCOME10 EXPIRES AT 11:59 PM TODAY"* + *"SECURE MY 10% OFF"* + os 3 ícones de garantia | Repetir o prazo por extenso, dar o verbo certo — *secure my*, proteger o que é seu, não aproveitar promoção — e fechar com as garantias como última reassurance antes do clique. |
 | 5 | `footer` | Avelmore | Saída. |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| hero | abre | prazo-como-noticia | disponibilidade-urgencia |
+| body | meio | escassez-com-prova-de-demanda | disponibilidade-urgencia |
+| reviews | apoio | tres-depoimentos-colados-na-pressao | adesao-social |
+| offer | fecha | prazo-por-extenso-com-garantias | disponibilidade-urgencia |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** últimas horas → o código está acabando e 412 já usaram → quem
 comprou confirma que aqui é seguro → garanta o seu antes da meia-noite.

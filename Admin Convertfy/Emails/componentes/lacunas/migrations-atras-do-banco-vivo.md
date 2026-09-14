@@ -2,7 +2,7 @@
 tipo: lacuna
 sobre: codigo
 descoberta_em: 2026-08-31
-status: retratada
+status: fechada
 ---
 
 # O que foi afirmado

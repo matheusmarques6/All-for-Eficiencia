@@ -4,6 +4,8 @@ flow_type: welcome
 serve_a: [welcome-1, welcome-4, welcome-6]
 origem_estrutura: avelmore-prova-social-cirurgica
 autor: Convertfy
+tipo_regra: preferencia
+aplica_a: [welcome, reviews]
 status: aprovada
 ---
 

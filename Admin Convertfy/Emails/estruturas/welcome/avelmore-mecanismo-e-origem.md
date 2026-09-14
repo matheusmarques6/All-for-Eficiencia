@@ -6,7 +6,7 @@ emails: [3]
 objecao_alvo: ceticismo — como isso se sustenta, por que o preço é esse
 mecanismo: três camadas de como (origem, economia, operação) com o incentivo devolvido só depois do mecanismo, nunca antes
 escopo: geral
-loja:
+loja: avelmore
 amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
 procedencia: nossa
 status: aprovada
@@ -41,6 +41,18 @@ rodapé dos e-mails anteriores.
 | 3 | `body` | *"What sets each pair apart"* — 3 parágrafos de mecanismo + cupom + *"APPLY MY DISCOUNT"* — um bloco só | Converter história em mecanismo verificável, e só então devolver o cupom. Mesma gramática do #1: o cupom fecha o argumento em vez de interrompê-lo. |
 | 4 | `products` | Bloco escuro *"Start with the pairs that define the standard"*, grade 2×2 + *"SHOP WITH WELCOME10"* | A grade deixa de ser vitrine e vira demonstração da tese. O CTA mantém o código vivo no clique. |
 | 5 | `footer` | Logo, 4 categorias, copyright, suporte | Saída. |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | barra-de-logo — **não realizável hoje** ([[header-sem-variante]]) | — |
+| body | abre | historia-de-origem-com-prova-fisica | confianca-no-canal |
+| body | meio | mecanismo-verificavel-com-cupom | qualidade-eficacia |
+| products | apoio | grade-como-demonstracao-da-tese | amplitude-de-catalogo |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** por que existimos → como fazemos → risco zero → código → escolha.
 

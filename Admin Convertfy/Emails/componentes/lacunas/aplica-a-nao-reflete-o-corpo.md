@@ -1,8 +1,8 @@
 ---
 tipo: lacuna
-sobre: doutrina
+sobre: cadastro
 descoberta_em: 2026-08-31
-status: observacao
+status: aberta
 ---
 
 # O que falta

@@ -1,4 +1,5 @@
 ---
+incentivo_obrigatorio: true
 tipo: intencao
 flow_type: welcome
 email_number: 4

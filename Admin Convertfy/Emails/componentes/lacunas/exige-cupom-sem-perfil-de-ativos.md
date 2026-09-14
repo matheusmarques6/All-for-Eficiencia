@@ -1,6 +1,6 @@
 ---
 tipo: lacuna
-sobre: biblioteca
+sobre: codigo
 secao: hero
 descoberta_em: 2026-09-09
 status: aberta

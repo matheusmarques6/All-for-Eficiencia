@@ -6,6 +6,8 @@ origem_estrutura: avelmore-deadline-objecao
 confirmado_em: [avelmore-mecanismo-e-origem, avelmore-prova-social-cirurgica]
 status_evidencia: agravada
 autor: Convertfy
+tipo_regra: preferencia
+aplica_a: [welcome, reviews]
 status: aprovada
 ---
 

@@ -6,7 +6,7 @@ emails: [1]
 objecao_alvo: qualidade percebida do produto — parece bom na foto e decepciona na mão
 mecanismo: nomear a objeção dominante e convertê-la em alegação da marca; garantia verificável antes da vitrine; confirmação de terceiro fechando o arco
 escopo: geral
-loja:
+loja: avelmore
 amostra: montagem sobre marca de calçado de couro, ticket médio (US$ 50-70)
 procedencia: nossa
 revisado_por: Convertfy
@@ -65,6 +65,21 @@ Serve a intenção [[welcome-1|welcome 1]].
 8. **footer** — logo + navegação por categorias + credencial discreta
    (tempo de mercado) + suporte. Por quê: rota para quem não clicou em
    nada; a credencial fica onde não vira discurso.
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | logo-sobreposto-ao-hero — **não realizável hoje** ([[header-sem-variante]]) | — |
+| hero | abre | entrega-imediata-da-promessa | preco-valor |
+| body | meio | tese-que-nomeia-a-objecao | qualidade-eficacia |
+| body | apoio | faixa-de-garantias-3-icones | confianca-no-canal |
+| products | apoio | grade-2x2-com-avaliacao-e-preco | amplitude-de-catalogo |
+| cta | ponte | botao-isolado — **não realizável hoje** ([[cta-sem-variante]]) | — |
+| reviews | fecha | depoimento-unico-que-fecha-a-tese | adesao-social |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** promessa entregue → dúvida nomeada e transformada em
 alegação → compromisso verificável → produto com prova distribuída →

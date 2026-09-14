@@ -1,6 +1,6 @@
 ---
 tipo: lacuna
-sobre: biblioteca
+sobre: cadastro
 secao: geral
 descoberta_em: 2026-09-09
 status: aberta

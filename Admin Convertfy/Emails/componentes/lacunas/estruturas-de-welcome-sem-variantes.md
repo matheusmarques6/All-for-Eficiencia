@@ -1,6 +1,6 @@
 ---
 tipo: lacuna
-sobre: vocabulario
+sobre: biblioteca
 descoberta_em: 2026-08-31
 status: aberta
 ---

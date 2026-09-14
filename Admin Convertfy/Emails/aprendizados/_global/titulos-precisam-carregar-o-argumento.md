@@ -1,10 +1,11 @@
 ---
 tipo: aprendizado
 escopo: cross-flow
-aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase]
+aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase, copy]
 serve_a: [todos]
 origem_estrutura: avelmore-deadline-objecao
 autor: Convertfy
+tipo_regra: preferencia
 status: aprovada
 ---
 

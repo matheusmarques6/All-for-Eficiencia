@@ -6,7 +6,7 @@ emails: [8]
 objecao_alvo: janela perdida — perdi, acabou para mim
 mecanismo: quebra do formato que o próprio flow estabeleceu, mais extensão declarada como exceção única, justificada e final
 escopo: geral
-loja:
+loja: carta
 amostra: sem marca — assinatura "The [Brand] Team" literal
 procedencia: nossa
 status: aprovada
@@ -30,6 +30,14 @@ compressão do flow chega ao ponto final: de 8 posições no #1 para uma.
 | # | Seção | Composição |
 |---|---|---|
 | 1 | `body` (carta) | E-mail inteiro em plain-text: saudação → recap do flow em uma linha → *"notamos que você não usou seu desconto"* → *"como você é novo no clube, estendemos por mais um dia"* → código em negrito + *"before it's gone forever"* → link SHOP NOW (texto azul, não botão) → convite a responder → assinatura *"The [Brand] Team"* |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| body | peca-inteira | carta-de-extensao-plain-text | preco-valor |
 
 **Fio narrativo:** você não usou → te demos mais um dia, porque é novo → depois
 disso, nunca mais → qualquer dúvida, responde.

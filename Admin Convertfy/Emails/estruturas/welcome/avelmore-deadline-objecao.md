@@ -6,7 +6,7 @@ emails: [2]
 objecao_alvo: trava desconhecida — a pessoa não agiu e não se sabe qual objeção travou
 mecanismo: varredura numerada de objeções de naturezas diferentes, escaneável pelos títulos, seguida de custo de adiar isolado em bloco de interrupção
 escopo: geral
-loja:
+loja: avelmore
 amostra: montagem sobre marca de calçado de couro, ticket médio (US$ 50-70)
 procedencia: nossa
 revisado_por: Convertfy
@@ -57,6 +57,19 @@ Serve a intenção [[welcome-2|welcome 2]].
    mantendo a oferta viva no ponto exato do clique.
 
 6. **footer** — logo + navegação por categorias + suporte.
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | barra-de-logo — **não realizável hoje** ([[header-sem-variante]]) | — |
+| hero | abre | oferta-na-frente | preco-valor |
+| body | meio | varredura-de-objecoes | varredura (todas) |
+| offer | apoio | custo-de-adiar-em-faixa | disponibilidade-urgencia |
+| products | apoio | grade-com-oferta-no-titulo | amplitude-de-catalogo |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** oferta na cara → todas as travas derrubadas em títulos
 escaneáveis → custo de adiar → escolha.

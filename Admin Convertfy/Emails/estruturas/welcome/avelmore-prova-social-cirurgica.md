@@ -6,7 +6,7 @@ emails: [4]
 objecao_alvo: isolamento na decisão — sou só eu que estou considerando isso
 mecanismo: depoimentos escolhidos pela objeção que cada um fecha, com um espelhando literalmente o cético, mais agregado numérico
 escopo: geral
-loja:
+loja: avelmore
 amostra: Avelmore — calçado de couro, ticket $49,95–$69,95
 procedencia: nossa
 status: aprovada
@@ -39,6 +39,19 @@ Agregado: *"4.8/5 from 3,847 verified reviews"*.
 | 4 | `reviews` | 2 depoimentos com nota e nome + agregado | O e-mail inteiro está aqui. Terceiros dizendo o que a marca não pode dizer. |
 | 5 | `cta` | *"SHOP 10% OFF"* em faixa escura | Segunda saída, depois da prova. |
 | 6 | `footer` | Logo, 4 categorias, copyright, suporte | Rota alternativa. |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | barra-de-logo — **não realizável hoje** ([[header-sem-variante]]) | — |
+| hero | abre | reabertura-em-pergunta | preco-valor |
+| body | apoio | garantias-reusadas-do-toque-1 | confianca-no-canal |
+| reviews | meio | dois-depoimentos-com-agregado | adesao-social |
+| cta | fecha | faixa-de-cta — **não realizável hoje** ([[cta-sem-variante]]) | — |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** o código ainda é seu → risco zero, lembra? → quem comprou
 confirma → decide.

@@ -1,10 +1,11 @@
 ---
 tipo: aprendizado
 escopo: cross-flow
-aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase]
+aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase, body]
 serve_a: [welcome-8]
 origem_estrutura: carta-plain-text-extensao
 autor: Convertfy
+tipo_regra: preferencia
 status: aprovada
 ---
 

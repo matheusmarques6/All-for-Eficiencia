@@ -1,6 +1,6 @@
 ---
 tipo: lacuna
-sobre: conteudo
+sobre: cadastro
 secao: body
 descoberta_em: 2026-09-09
 status: aberta

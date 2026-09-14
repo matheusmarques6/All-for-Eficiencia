@@ -6,7 +6,7 @@ emails: [7]
 objecao_alvo: adiamento no dia D — ainda dá tempo
 mecanismo: batida única sem argumento, com enquadramento de posse — o que já é seu está expirando, não uma promoção a aproveitar
 escopo: geral
-loja:
+loja: medicube
 amostra: Medicube — k-beauty / skincare
 procedencia: nossa
 status: aprovada
@@ -33,6 +33,16 @@ saber.
 | 1 | `header` | Logo Medicube + tagline | Ancorar. |
 | 2 | `offer` | Bloco escuro único: eyebrow *"YOUR ACCESS IS EXPIRING"* + 10% OFF em corpo gigante + *"LAST CHANCE"* + *"your exclusive discount expires today at 11:59 PM"* + *"start your style journey with a discount"* + cupom + *"CLAIM MY DISCOUNT"* | O e-mail inteiro. Comprime a gramática do flow num quadro: a oferta domina, a hora emoldura, o código e o botão fecham. |
 | 3 | `footer` | Avelmore (artefato) | Saída. |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | logo-com-tagline — **não realizável hoje** ([[header-sem-variante]]) | — |
+| offer | peca-inteira | contagem-final-comprimida | disponibilidade-urgencia |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** é seu → expira hoje à noite → pega agora.
 

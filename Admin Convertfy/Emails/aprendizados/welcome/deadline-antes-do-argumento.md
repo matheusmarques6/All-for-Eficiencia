@@ -4,6 +4,8 @@ flow_type: welcome
 serve_a: [welcome-2]
 origem_estrutura: avelmore-deadline-objecao
 autor: Convertfy
+tipo_regra: preferencia
+aplica_a: [welcome, body]
 status: aprovada
 ---
 

@@ -1,6 +1,6 @@
 ---
 tipo: lacuna
-sobre: conteudo
+sobre: cadastro
 descoberta_em: 2026-08-31
 status: aberta
 ---

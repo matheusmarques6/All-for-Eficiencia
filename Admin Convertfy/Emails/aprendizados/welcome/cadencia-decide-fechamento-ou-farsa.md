@@ -4,6 +4,7 @@ flow_type: welcome
 serve_a: [welcome-6, welcome-7, welcome-8]
 origem_estrutura: medicube-ultima-batida
 autor: Convertfy
+aplica_a: [welcome, copy]
 status: aprovada
 tipo_regra: restricao-dura
 ---

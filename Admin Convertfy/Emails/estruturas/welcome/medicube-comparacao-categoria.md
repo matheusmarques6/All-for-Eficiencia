@@ -6,7 +6,7 @@ emails: [5]
 objecao_alvo: legitimidade do canal — por que comprar de VOCÊS e não de outro site
 mecanismo: comparação contra a categoria — nomear os medos do canal, riscar todos, ficar sozinho no centro
 escopo: geral
-loja:
+loja: medicube
 amostra: Medicube — k-beauty / skincare
 procedencia: nossa
 status: aprovada
@@ -44,6 +44,17 @@ com **8 X's**.
 | 2 | `body` (comparação) | Bloco escuro: headline + comparação 4×8 + cupom WELCOME10 + *"ENJOY DISCOUNT"* — um bloco só | O e-mail inteiro. Nomear os medos da categoria, riscar todos, ficar sozinho no centro — e fechar com o código. O cupom dentro do bloco segue a gramática do flow: fecha o argumento, não interrompe. |
 | 3 | `products` | Grade 2×2 com rating, preço e botão + *"GET 10% OFF"* | Aterrissar. Mantém a oferta viva no clique. |
 | 4 | `footer` | Logo, 4 categorias, copyright, suporte | Saída. |
+
+# Dispositivos (objecao × papel)
+
+Vocabulário para o Estruturador emitir `requisitos.dispositivo` em vez de prosa.
+
+| Seção | Papel | Dispositivo | Objeção |
+|---|---|---|---|
+| header | apoio | logo-com-tagline-de-categoria — **não realizável hoje** ([[header-sem-variante]]) | — |
+| body | peca-inteira | comparacao-contra-categoria-com-cupom | confianca-no-canal |
+| products | apoio | grade-2x2-com-rating-e-preco | amplitude-de-catalogo |
+| footer | fecha | menu-de-saida | — |
 
 **Fio narrativo:** você conhece os riscos de comprar isso online → nós somos a
 exceção, ponto a ponto → o código segue seu → escolhe.
