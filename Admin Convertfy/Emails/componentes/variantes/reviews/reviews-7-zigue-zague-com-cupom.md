@@ -18,7 +18,9 @@ paleta: [com-acento-definido]
 papel_na_peca: [meio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: [selo-compra-verificada, ativo-composto-faixa-inteira, cupom-ativo, reviews-curtos]
+exige: [cupom-ativo]
+diretivas_de_imagem: [ativo-composto-faixa-inteira]
+requisitos_de_reviews: [selo-compra-verificada, reviews-curtos]
 
 # --- capacidade e composição ---
 product_slots: 0

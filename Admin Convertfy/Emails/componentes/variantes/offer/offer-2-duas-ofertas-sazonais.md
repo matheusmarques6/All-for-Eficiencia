@@ -11,14 +11,15 @@ momento: [sazonal-data-comemorativa]
 momento_vetado: [nutricao-de-conteudo]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor, disponibilidade-urgencia]
 registro: []
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: [duas-ofertas-simultaneas, motivo-sazonal, prazo-real, foto-de-cena-ambiente]
+exige: [duas-ofertas-simultaneas, motivo-sazonal, prazo-real]
+diretivas_de_imagem: [foto-de-cena-ambiente]
 
 # --- capacidade e composição ---
 product_slots: 0

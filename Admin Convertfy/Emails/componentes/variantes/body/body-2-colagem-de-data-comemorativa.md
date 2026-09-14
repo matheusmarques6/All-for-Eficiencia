@@ -18,7 +18,8 @@ paleta: [com-acento-definido]
 papel_na_peca: []  # nenhuma frase de Quando usar/NÃO usar declara posição na peça
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-com-pessoas, motivo-sazonal]
+exige: [motivo-sazonal]
+diretivas_de_imagem: [foto-com-pessoas]
 
 # --- capacidade e composição ---
 product_slots: 0

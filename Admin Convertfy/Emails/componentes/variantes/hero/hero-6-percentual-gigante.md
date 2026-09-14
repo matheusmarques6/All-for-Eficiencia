@@ -18,7 +18,8 @@ paleta: [monocromatico]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-monocromatica, cupom-ativo]
+exige: [cupom-ativo]
+diretivas_de_imagem: [foto-monocromatica]
 
 # --- capacidade e composição ---
 product_slots: 0

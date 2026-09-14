@@ -18,7 +18,9 @@ paleta: [creme]
 papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: [ugc-autorizado]
+exige: []
+diretivas_de_imagem: []
+requisitos_de_reviews: [ugc-autorizado]
 
 # --- capacidade e composição ---
 product_slots: 0

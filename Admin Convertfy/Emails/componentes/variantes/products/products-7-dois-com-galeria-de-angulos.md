@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [acervo-por-angulo, colecao-ou-kit]
+exige: [colecao-ou-kit]
+diretivas_de_imagem: [acervo-por-angulo]
 
 # --- capacidade e composição ---
 product_slots: 2

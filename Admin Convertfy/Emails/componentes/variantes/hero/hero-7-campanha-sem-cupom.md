@@ -18,7 +18,8 @@ paleta: [claro]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [desconto-automatico-sem-cupom, duas-ou-tres-cores-de-identidade, desconto-escalonado, foto-estudio-fundo-claro, terco-superior-liso]
+exige: [desconto-automatico-sem-cupom, duas-ou-tres-cores-de-identidade, desconto-escalonado]
+diretivas_de_imagem: [foto-estudio-fundo-claro, terco-superior-liso]
 
 # --- capacidade e composição ---
 product_slots: 0

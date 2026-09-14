@@ -18,7 +18,9 @@ paleta: [com-acento-definido]
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [catalogo-de-variantes, packshot-vertical, tres-reviews-distintos]
+exige: [catalogo-de-variantes]
+diretivas_de_imagem: [packshot-vertical]
+requisitos_de_reviews: [tres-reviews-distintos]
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -11,14 +11,15 @@ momento: [sale-recorrente]
 momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: []
 registro_vetado: []
 paleta: []
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [ornamento-grafico-de-identidade]
+exige: []
+diretivas_de_imagem: [ornamento-grafico-de-identidade]
 
 # --- capacidade e composição ---
 product_slots: 2

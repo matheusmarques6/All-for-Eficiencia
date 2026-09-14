@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [estoque-integrado, grade-de-tamanho-real]
+exige: [grade-de-tamanho-real]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 4

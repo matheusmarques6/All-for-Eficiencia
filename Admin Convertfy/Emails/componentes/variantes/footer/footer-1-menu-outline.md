@@ -18,7 +18,8 @@ paleta: [claro]
 papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []   # sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -50,7 +51,9 @@ Footer padrão de e-commerce: logo, menu de navegação em grid 2×3 de botões 
 Todo e-mail — footer é obrigatório. Esta variação (menu em botões grandes) favorece mobile (alvo de toque generoso) e clientes com 4–6 destinos de navegação relevantes (coleções, FAQ, rastreio, conta).
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
 Não se aplica "não usar footer" — mas esta variação específica não serve para clientes com menos de 4 links úteis (grid fica capenga; usar variante de lista horizontal simples) ou e-mails transacionais ultra-minimalistas.
 
 ## Orientações de copy para a IA
@@ -68,3 +71,4 @@ _(vazio)_
 ---
 
 HTML: [[_html/footer-1-menu-outline.html]] · Seção: [[_footer]] · Protocolo: [[_protocolo-de-selecao]]
+

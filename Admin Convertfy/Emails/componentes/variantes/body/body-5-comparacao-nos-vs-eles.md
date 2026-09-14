@@ -19,6 +19,7 @@ papel_na_peca: [meio, fecha]
 
 # --- requisitos duros (eliminam) ---
 exige: [quatro-criterios-objetivos]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

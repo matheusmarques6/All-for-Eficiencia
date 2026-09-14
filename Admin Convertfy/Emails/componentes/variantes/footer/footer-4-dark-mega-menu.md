@@ -18,7 +18,8 @@ paleta: [full-dark]
 papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []   # sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -50,7 +51,9 @@ Fundo preto, pills = botões bulletproof com background claro + border-radius al
 Clientes com catálogo/conteúdo ramificado que justifica 6–7 destinos (lojas com categorias fortes, marcas com cursos/conteúdo além de produto — como a referência, que vende tools, books e courses). Identidades escuras que precisam de menu robusto.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
 Clientes com 3–4 destinos (pills sobrando esvaziam o menu — usar os footers menores). Marcas claras (usar o outline).
 
 ## Orientações de copy para a IA
@@ -68,3 +71,4 @@ _(vazio)_
 ---
 
 HTML: [[_html/footer-4-dark-mega-menu.html]] · Seção: [[_footer]] · Protocolo: [[_protocolo-de-selecao]]
+

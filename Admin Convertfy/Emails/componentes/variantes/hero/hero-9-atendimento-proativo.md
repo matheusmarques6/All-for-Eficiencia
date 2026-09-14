@@ -18,7 +18,8 @@ paleta: [monocromatico, cinza-neutro]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-monocromatica, terco-superior-liso, duas-acoes-de-suporte]
+exige: [duas-acoes-de-suporte]
+diretivas_de_imagem: [foto-monocromatica, terco-superior-liso]
 
 # --- capacidade e composição ---
 product_slots: 0

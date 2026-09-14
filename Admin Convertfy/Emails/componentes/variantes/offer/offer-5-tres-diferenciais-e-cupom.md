@@ -15,10 +15,11 @@ objecao: [preco-valor]
 registro: [premium-editorial]
 registro_vetado: []
 paleta: []
-papel_na_peca: []
+papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
 exige: [cupom-ativo, tres-diferenciais-concretos]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

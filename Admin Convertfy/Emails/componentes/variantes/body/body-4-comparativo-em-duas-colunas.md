@@ -19,11 +19,12 @@ papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
 exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
 itens: { min: 5, max: 6 }
-peso: { altura_px: 820, classe: medio, fonte: estimado }
+peso: { altura_px: 820, classe: medio, fonte: medido }
 convivencia: []
 
 # --- fios para o resto do vault ---
@@ -36,15 +37,6 @@ densidade_no_banco: null
 schema_campos: 18
 status: aprovada
 ---
-
-> **Correção (02/09/2026).** Esta nota nasceu como `body-4-tutorial-de-uso`
-> e descrevia um tutorial em passos numerados — uma peça que NÃO existe no
-> banco. O `variant_id` e o HTML (`_html/body-4-…`, título "Comparativo em
-> duas colunas") sempre foram este comparativo marca × genérico. O Curador
-> lia a prosa do tutorial e o pipeline montava a comparação. A prosa e os
-> eixos abaixo passaram a descrever a peça REAL; o slug foi renomeado para
-> não carregar o nome errado ao modelo. `peso` é estimado a partir das
-> alturas do HTML (não foi medido em cliente de e-mail).
 
 ## Descrição curta
 

@@ -18,7 +18,9 @@ paleta: [preto-e-branco]
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-de-uso-real, reviews-longos]
+exige: []
+diretivas_de_imagem: []
+requisitos_de_reviews: [foto-de-uso-real, reviews-longos]
 
 # --- capacidade e composição ---
 product_slots: 0

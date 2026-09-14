@@ -19,6 +19,7 @@ papel_na_peca: []
 
 # --- requisitos duros (eliminam) ---
 exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

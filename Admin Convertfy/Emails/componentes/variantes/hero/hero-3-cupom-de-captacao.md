@@ -18,7 +18,8 @@ paleta: [claro]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [cupom-ativo, foto-estudio-fundo-claro, terco-superior-liso]
+exige: [cupom-ativo]
+diretivas_de_imagem: [foto-estudio-fundo-claro, terco-superior-liso]
 
 # --- capacidade e composição ---
 product_slots: 0

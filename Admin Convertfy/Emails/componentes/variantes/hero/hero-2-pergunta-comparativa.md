@@ -18,7 +18,8 @@ paleta: [escuro-saturado, com-acento-definido]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [cor-de-acento-definida, desconto-percentual, macro-de-produto]
+exige: [cor-de-acento-definida, desconto-percentual]
+diretivas_de_imagem: [macro-de-produto]
 
 # --- capacidade e composição ---
 product_slots: 0

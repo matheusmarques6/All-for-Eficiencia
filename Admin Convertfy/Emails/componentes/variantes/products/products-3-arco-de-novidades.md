@@ -11,14 +11,15 @@ momento: [lancamento]
 momento_vetado: [carrinho-abandonado, checkout-abandonado, transacional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [amplitude-de-catalogo]
 registro: []
 registro_vetado: []
 paleta: [escuro-saturado]
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-de-campanha-propria]
+exige: []
+diretivas_de_imagem: [foto-de-campanha-propria]
 
 # --- capacidade e composição ---
 product_slots: 1

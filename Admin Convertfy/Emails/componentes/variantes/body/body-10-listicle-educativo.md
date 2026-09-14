@@ -15,10 +15,11 @@ objecao: [uso-aprendizado]
 registro: []
 registro_vetado: []
 paleta: [creme]
-papel_na_peca: []
+papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: []  # veta tipo de campanha, marca sem material educativo aprovado (sem valor correspondente no vocabulario -- ver relatorio) e publico frio; nenhum vira exige hoje
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -60,7 +61,9 @@ Marca que tem autoridade a demonstrar e um dado concreto para citar.
 Quando existe uma ressalva legítima a fazer (consultar profissional, restrição de uso) e ela precisa aparecer sem quebrar o tom.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) veta tipo de campanha, marca sem material educativo aprovado (sem valor correspondente no vocabulario -- ver relatorio) e publico frio; nenhum vira exige hoje
 Campanhas promocionais (zero slot de oferta — o CTA é institucional). Marcas sem material educativo aprovado (a IA não pode gerar claims de saúde do zero). Públicos frios de topo de funil que ainda não conhecem a marca (o formato pressupõe interesse no tema).
 
 ## Orientações de copy para a IA
@@ -149,3 +152,4 @@ Proibições: prato montado, mão na cena, fundo branco de estúdio, produto da 
 ---
 
 HTML: [[_html/body-10-listicle-educativo.html]] · Seção: [[_body]] · Protocolo: [[_protocolo-de-selecao]]
+

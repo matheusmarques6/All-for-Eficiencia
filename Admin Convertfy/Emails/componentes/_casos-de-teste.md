@@ -5,15 +5,6 @@ fonte: spec §11 (2026-08-31-vault-componentes-email-design.md)
 ---
 
 
-> **Nota (02/09/2026).** Os casos abaixo que citam
-> [[body-4-comparativo-em-duas-colunas]] foram escritos quando a nota se
-> chamava `body-4-tutorial-de-uso` e declarava `momento: [pos-compra,
-> reengajamento]` / `objecao: [uso-aprendizado]` — eixos de um tutorial que
-> não existe no banco. A nota foi corrigida para a peça real (comparativo em
-> duas colunas: `momento: [welcome-meio, welcome-tardio, consideracao,
-> browse-abandonment]`, `objecao: [qualidade-eficacia, preco-valor]`). Os
-> passos narrados continuam válidos como exercício; os eixos citados, não.
-
 Dois casos rodados à mão contra [[_protocolo-de-selecao]], seção por seção,
 com o traço completo de eliminação. Depois, o resultado das checagens de
 aceitação da §11.
@@ -130,10 +121,11 @@ Passo 4 (`exige:`):
 | [[body-4-comparativo-em-duas-colunas]] | `[]` | sobrevive (vazio, nada a exigir) |
 | body-6, body-7, body-8, body-9 | todos os eixos em branco (`status: sem-julgamento`) | sobrevivem por vacuidade — nenhum requisito para falhar |
 
-Passo 5 (momento) — body-4 declara `momento: [pos-compra, reengajamento]`,
-lista não vazia que não inclui `welcome-1`: **eliminada aqui**. body-6/7/8/9
-declaram `momento: []` — lista vazia, neutra, não elimina — sobrevivem.
-Nenhum veto adicional relevante.
+Passo 5 (momento) — body-4 declara `momento: [welcome-meio, welcome-tardio,
+consideracao, browse-abandonment]`, lista não vazia que não inclui
+`welcome-1`: **eliminada aqui**. body-6/7/8/9 declaram `momento: []` —
+lista vazia, neutra, não elimina — sobrevivem. Nenhum veto adicional
+relevante.
 
 Passo 6 (capacidade) — sem estouro nos sobreviventes.
 
@@ -143,9 +135,9 @@ Todos os quatro eixos empatam vazios nos quatro candidatos.
 
 **Achado 3 — zero elegíveis, também no Caso A.** Depois do passo 5,
 `body-4` — a única variante *julgada* (`status: aprovada`) do grupo — já
-caiu por `momento`: sua `objecao` (`uso-aprendizado`) também não batia com
-a do e-mail (`qualidade-eficacia`), mas quem a elimina é o `momento`, não
-o ranking. Restam só as quatro `sem-julgamento` (body-6/7/8/9), empatadas
+caiu por `momento`, apesar de sua `objecao` (`qualidade-eficacia,
+preco-valor`) bater com a do e-mail (`qualidade-eficacia`): quem a elimina
+é o `momento`, não o ranking. Restam só as quatro `sem-julgamento` (body-6/7/8/9), empatadas
 em todos os eixos de ranking. [[_body]] já registra que elas "nunca são
 escolhidas [...] enquanto houver candidata julgada" — mas aqui não há
 candidata julgada sobrevivente nenhuma, e o passo 9 (desempate por
@@ -271,15 +263,17 @@ catálogo inteiro é [[body-5-comparacao-nos-vs-eles]] (`objecao:
 [[_body]] já separa "9 variantes, 7 ativas").
 
 Passo 5 (momento) — [[body-4-comparativo-em-duas-colunas]] declara `momento:
-[pos-compra, reengajamento]`, lista não vazia que não inclui
-`welcome-tardio` (o momento deste toque): **eliminada aqui**. body-6/7/8/9
-declaram `momento: []` — neutro, não elimina — sobrevivem.
+[welcome-meio, welcome-tardio, consideracao, browse-abandonment]`, que
+**inclui** `welcome-tardio` (o momento deste toque): **sobrevive** ao
+filtro. body-6/7/8/9 declaram `momento: []` — neutro, não elimina —
+sobrevivem também.
 
-Sem body-5 (eliminada no passo 3) e sem body-4 (eliminado no passo 5), o
-único overlap real de `objecao` com o alvo do e-mail desaparece antes do
-ranking. Restam só body-6/7/8/9 — sem-julgamento, sem `objecao` declarada
-— que pelo mesmo argumento do achado 3 do Caso A não substituem: overlap
-zero não é "segunda opção", é lacuna.
+No ranking (passo 7), porém, a `objecao` de body-4 (`qualidade-eficacia,
+preco-valor`) tem overlap **zero** com o alvo do e-mail
+(`confianca-no-canal`). Sem body-5 (eliminada no passo 3), o único
+candidato que serviria o alvo não está no universo, e body-4 chega ao
+ranking sem servir a objeção pedida — pelo mesmo argumento do achado 3 do
+Caso A, overlap zero não é "segunda opção", é lacuna.
 
 **Escolha final, body: nenhuma. Zero variantes elegíveis.** Confirma o
 resultado esperado do brief e reproduz exatamente o "Teste de validação"

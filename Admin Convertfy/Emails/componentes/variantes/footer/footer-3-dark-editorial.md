@@ -18,7 +18,8 @@ paleta: [full-dark]
 papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []  # requisito de central de preferencias removido (fix lote B item B) -- procedencia inferida, sem clausula de "Quando NAO usar" no inventario
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -50,7 +51,9 @@ Fundo preto sólido, tudo vivo exceto ícones. Logo: se o cliente tem wordmark s
 Marcas fashion/lifestyle de identidade forte e estética escura, com poucos destinos de navegação (3 links máx) e presença visual em redes (IG/TikTok/Pinterest). Quando o cliente tem preference center configurado na ESP.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) requisito de central de preferencias removido (fix lote B item B) -- procedencia inferida, sem clausula de "Quando NAO usar" no inventario
 Clientes que precisam de 4+ links de rodapé (estrutura comporta 3 — mais que isso, usar os footers de grid). Marcas claras/leves (inverter a paleta descaracteriza; usar o outline).
 
 ## Orientações de copy para a IA
@@ -68,3 +71,4 @@ _(vazio)_
 ---
 
 HTML: [[_html/footer-3-dark-editorial.html]] · Seção: [[_footer]] · Protocolo: [[_protocolo-de-selecao]]
+

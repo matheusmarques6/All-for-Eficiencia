@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [apoio, fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []  # products-8b nao declara nenhum ativo eliminatorio na prosa; a restricao e estrutural (itens min/max e papel_na_peca apoio/fechamento, nao abre sozinha)
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 9
@@ -64,7 +65,9 @@ Quando cada produto tem página própria.
 Quando existe hero ou contexto acima: o bloco não se apresenta sozinho.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) products-8b nao declara nenhum ativo eliminatorio na prosa; a restricao e estrutural (itens min/max e papel_na_peca apoio/fechamento, nao abre sozinha)
 Menos de 6 produtos (grid 3-col com 3–4 itens fica ralo — usar lista simples ou zigzag). Produtos que precisam de explicação ou preço para converter. Como seção única de e-mail promocional — sem oferta nem urgência, é seção de apoio/fechamento.
 
 ## Orientações de copy para a IA
@@ -147,3 +150,4 @@ Adaptação por categoria — o que diferencia as variações:
 ---
 
 HTML: [[_html/products-8b-grade-3x3.html]] · Seção: [[_products]] · Protocolo: [[_protocolo-de-selecao]]
+

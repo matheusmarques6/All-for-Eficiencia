@@ -18,7 +18,8 @@ paleta: [claro]
 papel_na_peca: [fecha]
 
 # --- requisitos duros (eliminam) ---
-exige: []   # sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -50,7 +51,9 @@ Mesma base técnica do footer outline: table de botões bulletproof (aqui com ba
 Clientes de identidade bold/alto contraste (streetwear, fitness, food casual) e quando existe um destino prioritário que merece o botão full-width. Footer alternativo ao outline — a escolha entre os dois é estética da marca, não funcional.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) sem ativo específico; a quantidade de destinos de navegação é capturada em itens, não como requisito binário
 Marcas de estética leve/minimalista clara (botões sólidos pesam visualmente — usar o outline). Clientes com 6+ links iguais em prioridade (a hierarquia 4+1 força uma escolha).
 
 ## Orientações de copy para a IA
@@ -68,3 +71,4 @@ _(vazio)_
 ---
 
 HTML: [[_html/footer-2-menu-solido.html]] · Seção: [[_footer]] · Protocolo: [[_protocolo-de-selecao]]
+

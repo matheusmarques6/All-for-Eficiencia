@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [cupom-ativo, foto-com-pessoas]
+exige: [cupom-ativo]
+diretivas_de_imagem: [foto-com-pessoas]
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -11,7 +11,7 @@ momento: [browse-abandonment, carrinho-abandonado]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: []
 registro_vetado: []
 paleta: []
@@ -19,6 +19,7 @@ papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
 exige: [cupom-ativo]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [tres-provas-verificaveis, produto-com-composicao-relevante, corredores-livres-nas-laterais]
+exige: [tres-provas-verificaveis, produto-com-composicao-relevante]
+diretivas_de_imagem: [corredores-livres-nas-laterais]
 
 # --- capacidade e composição ---
 product_slots: 0

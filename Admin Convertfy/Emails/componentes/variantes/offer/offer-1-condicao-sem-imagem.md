@@ -11,14 +11,15 @@ momento: [campanha-promocional]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: []
 registro_vetado: []
 paleta: []
 papel_na_peca: [fecha, ponte]
 
 # --- requisitos duros (eliminam) ---
-exige: []  # offer-1 nao exige cupom; a prosa so descreve a estrutura como incompativel com cupom em destaque ("a estrutura nao tem slot de cupom") -- e veto de uso com cupom, nao requisito de cupom
+exige: []
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
@@ -58,7 +59,9 @@ Ponte entre duas seções pesadas, para o e-mail não virar um bloco visual atr�
 Campanha em que a oferta é o argumento e não precisa de reforço visual.
 
 ## Quando NÃO usar
+
 
+- (nota do cadastro) offer-1 nao exige cupom; a prosa so descreve a estrutura como incompativel com cupom em destaque ("a estrutura nao tem slot de cupom") -- e veto de uso com cupom, nao requisito de cupom
 Como único bloco de oferta de um e-mail promocional. Sem imagem e sem destaque de cupom, o bloco não segura sozinho o peso de uma campanha.  
 Quando a oferta tem código de desconto que precisa de destaque. A estrutura não tem slot de cupom — o código teria que ser embutido no corpo do texto ou no label do botão, e nos dois casos ele perde evidência.  
 Quando a oferta tem mais de uma condição ou regra. O corpo comporta 3 a 5 linhas e não aguenta letra miúda.  
@@ -85,3 +88,4 @@ _(vazio)_
 ---
 
 HTML: [[_html/offer-1-condicao-sem-imagem.html]] · Seção: [[_offer]] · Protocolo: [[_protocolo-de-selecao]]
+

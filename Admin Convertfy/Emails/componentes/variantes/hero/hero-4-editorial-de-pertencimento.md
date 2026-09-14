@@ -18,7 +18,8 @@ paleta: [com-acento-definido]
 papel_na_peca: [abre]
 
 # --- requisitos duros (eliminam) ---
-exige: [serif-ou-script-display, foto-de-campanha-propria, cupom-ativo, cor-de-acento-definida]
+exige: [serif-ou-script-display, cupom-ativo, cor-de-acento-definida]
+diretivas_de_imagem: [foto-de-campanha-propria]
 
 # --- capacidade e composição ---
 product_slots: 0

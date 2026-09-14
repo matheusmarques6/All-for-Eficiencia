@@ -18,7 +18,8 @@ paleta: []
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [desconto-percentual, canto-livre-para-selo]
+exige: [desconto-percentual]
+diretivas_de_imagem: [canto-livre-para-selo]
 
 # --- capacidade e composição ---
 product_slots: 3

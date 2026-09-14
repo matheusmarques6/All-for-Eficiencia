@@ -18,7 +18,8 @@ paleta: [claro]
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [foto-estudio-fundo-claro, terco-superior-liso]
+exige: []
+diretivas_de_imagem: [foto-estudio-fundo-claro, terco-superior-liso]
 
 # --- capacidade e composição ---
 product_slots: 0

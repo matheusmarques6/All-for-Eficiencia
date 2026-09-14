@@ -11,7 +11,7 @@ momento: [gift-card, sazonal-data-comemorativa]
 momento_vetado: [campanha-promocional]
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [escolha-variedade, pertencimento]
 registro: []
 registro_vetado: []
 paleta: []
@@ -19,6 +19,7 @@ papel_na_peca: [apoio]
 
 # --- requisitos duros (eliminam) ---
 exige: [gift-card-digital]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

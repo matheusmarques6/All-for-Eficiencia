@@ -19,6 +19,7 @@ papel_na_peca: [peca-inteira, fecha]
 
 # --- requisitos duros (eliminam) ---
 exige: [cupom-ativo, manifesto-de-marca-escrito]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0

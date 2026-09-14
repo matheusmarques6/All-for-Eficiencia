@@ -18,7 +18,9 @@ paleta: [com-acento-definido]
 papel_na_peca: [meio]
 
 # --- requisitos duros (eliminam) ---
-exige: [depoimento-com-credencial, foto-do-depoente]
+exige: []
+diretivas_de_imagem: []
+requisitos_de_reviews: [depoimento-com-credencial, foto-do-depoente]
 
 # --- capacidade e composição ---
 product_slots: 0

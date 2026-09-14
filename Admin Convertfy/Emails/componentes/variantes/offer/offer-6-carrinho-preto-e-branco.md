@@ -11,14 +11,15 @@ momento: [carrinho-abandonado, checkout-abandonado]
 momento_vetado: []
 
 # --- eixos de ranking, na ordem do protocolo ---
-objecao: []
+objecao: [preco-valor]
 registro: [bold-alto-contraste]
 registro_vetado: []
 paleta: [preto-e-branco]
 papel_na_peca: [peca-inteira]
 
 # --- requisitos duros (eliminam) ---
-exige: [cupom-ativo, bloco-dinamico-de-carrinho]
+exige: [cupom-ativo]
+diretivas_de_imagem: []
 
 # --- capacidade e composição ---
 product_slots: 0
