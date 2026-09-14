@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-1, welcome-2, welcome-3, welcome-4, welcome-5, welcome-6]
 origem_estrutura: avelmore-deadline-objecao
 autor: Convertfy
 status: aprovada

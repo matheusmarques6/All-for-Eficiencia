@@ -3,3 +3,4 @@
 .obsidian/workspace-mobile.json
 .obsidian/plugins/*/data.json
 .trash/
+__pycache__/

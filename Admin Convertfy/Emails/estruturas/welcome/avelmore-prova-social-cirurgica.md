@@ -14,7 +14,7 @@ secoes: [header, hero, body, reviews, cta, footer]
 performance:
 ---
 
-Serve a intenção [[4|welcome 4]]. Antecedida por [[avelmore-mecanismo-e-origem]].
+Serve a intenção [[welcome-4|welcome 4]]. Antecedida por [[avelmore-mecanismo-e-origem]].
 
 Primeira vez no flow sem grade de produtos. O hero sem botão faz hero+features
 operarem como unidade: **pergunta → botão → garantias**.
@@ -22,7 +22,7 @@ operarem como unidade: **pergunta → botão → garantias**.
 # Os dois depoimentos, e o que cada um fecha
 
 - **David M.** fecha durabilidade — *"four months of daily wear and the shape is
-  still clean... that's what I paid for"*. É o mecanismo do [[3|#3]] confirmado
+  still clean... that's what I paid for"*. É o mecanismo do [[welcome-3|#3]] confirmado
   por quem pagou.
 - **Caroline H.** é a peça-chave — *"I was skeptical about buying leather shoes
   from a brand I didn't know"*. Ela é o espelho exato de quem está lendo.

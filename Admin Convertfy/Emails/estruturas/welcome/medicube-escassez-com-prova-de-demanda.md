@@ -14,7 +14,7 @@ secoes: [hero, body, reviews, offer, footer]
 performance:
 ---
 
-Serve a intenção [[6|welcome 6]].
+Serve a intenção [[welcome-6|welcome 6]].
 
 Sem grade de produtos — segunda vez no flow (a outra foi o #4). O produto aparece
 uma vez, no hero, como objeto de desejo, não como vitrine.
@@ -45,7 +45,7 @@ comprou confirma que aqui é seguro → garanta o seu antes da meia-noite.
 
 # O que cada depoimento fecha
 
-Os três confirmam, por terceiros, a comparação do [[5|#5]]:
+Os três confirmam, por terceiros, a comparação do [[welcome-5|#5]]:
 
 - **Margaret L.** — preço + autenticidade (*"$35 mais barato que o site oficial —
   mesma caixa, mesmos selos"*). Anti-falsificação dito por cliente.

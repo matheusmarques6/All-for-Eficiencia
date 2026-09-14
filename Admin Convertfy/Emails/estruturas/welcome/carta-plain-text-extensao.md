@@ -14,7 +14,7 @@ secoes: [body]
 performance:
 ---
 
-Serve a intenção [[8|welcome 8]]. Antecedida por [[medicube-ultima-batida]], no
+Serve a intenção [[welcome-8|welcome 8]]. Antecedida por [[medicube-ultima-batida]], no
 dia seguinte.
 
 **Uma posição.** Sem header, sem hero, sem produto, sem footer de marca. A

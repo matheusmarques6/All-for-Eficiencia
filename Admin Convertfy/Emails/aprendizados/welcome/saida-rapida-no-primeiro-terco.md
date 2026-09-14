@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-3]
 origem_estrutura: avelmore-mecanismo-e-origem
 autor: Convertfy
 status: aprovada

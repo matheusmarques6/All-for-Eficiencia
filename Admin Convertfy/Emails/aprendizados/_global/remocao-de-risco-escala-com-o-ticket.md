@@ -2,6 +2,7 @@
 tipo: aprendizado
 escopo: cross-flow
 aplica_a: [welcome, abandoned_cart, browse_abandonment, post_purchase]
+serve_a: [welcome-1, welcome-2, welcome-3, welcome-6]
 origem_estrutura: avelmore-inspecao-antecipada
 autor: Convertfy
 status: aprovada

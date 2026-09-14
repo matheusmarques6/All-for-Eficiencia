@@ -15,7 +15,7 @@ secoes: [header, hero, body, body, products, cta, reviews, footer]
 performance:
 ---
 
-Serve a intenção [[1|welcome 1]].
+Serve a intenção [[welcome-1|welcome 1]].
 
 # A estrutura
 

@@ -1,6 +1,7 @@
 ---
 tipo: aprendizado
 flow_type: welcome
+serve_a: [welcome-1, welcome-4, welcome-6]
 origem_estrutura: avelmore-prova-social-cirurgica
 autor: Convertfy
 status: aprovada

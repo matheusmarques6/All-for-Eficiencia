@@ -21,7 +21,7 @@ repete o registro.
 > Camada **descritiva**: o que as referências catalogadas efetivamente fazem.
 > A camada prescritiva é [[_flow]].
 
-|  | [[1\|#1]] | [[2\|#2]] | [[3\|#3]] | [[4\|#4]] | [[5\|#5]] | [[6\|#6]] | [[7\|#7]] | [[8\|#8]] |
+|  | [[welcome-1\|#1]] | [[welcome-2\|#2]] | [[welcome-3\|#3]] | [[welcome-4\|#4]] | [[welcome-5\|#5]] | [[welcome-6\|#6]] | [[welcome-7\|#7]] | [[welcome-8\|#8]] |
 |---|---|---|---|---|---|---|---|---|
 | Abre com | marca | oferta | história | pergunta | inimigo externo | prazo | oferta | saudação |
 | Voz | marca | marca | marca | clientes | marca vs. categoria | números | relógio | uma pessoa |
@@ -95,5 +95,5 @@ As colunas #6, #7 e #8 foram montadas a partir de
 [[medicube-escassez-com-prova-de-demanda]], [[medicube-ultima-batida]] e
 [[carta-plain-text-extensao]] (linhas "Abre com", "Argumento", "Produtos",
 "Oferta", "Prova social", "Posições"), do [[_flow]] (linhas "Voz" e "Objeção
-atacada", que já traziam os oito toques) e das intenções [[6]], [[7]] e [[8]]
+atacada", que já traziam os oito toques) e das intenções [[welcome-6|#6]]]], [[welcome-7|#7]]]] e [[welcome-8|#8]]]]
 (linha "Assume que").
