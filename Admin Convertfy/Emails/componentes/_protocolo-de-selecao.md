@@ -27,8 +27,13 @@ ordem é a regra: **eliminar antes de rankear, sempre**.
    fora ([[cinco-variantes-sem-schema]]). Atalho: [[_catalogo]] tem todos
    esses campos das 44 variantes em uma única tabela, servindo os passos
    3–8 sem abrir nota por nota.
-4. **Eliminar por `exige:`** contra o perfil de ativos da loja. Consulta o
-   campo `exige`. Sem o ativo, a variante não é pior — é impossível.
+4. **Eliminar por `exige:`** contra o resolvedor de requisitos (código):
+   cada requisito de `classe: gate` é respondido contra a
+   `fonte_resolucao` que a própria nota declara (outline do flow,
+   `products.json`, `store_brand_identity`, pesquisa com citação — ver
+   [[_parametros-da-loja]], Parte 2). Sem o ativo, a variante não é pior —
+   é impossível. Requisito de `classe: diretiva_imagem` **não elimina**:
+   sai de `exige`, mora em `diretivas_de_imagem` e vira brief da foto.
 5. **Eliminar por `momento`** — dois mecanismos. O veto: consulta
    `momento_vetado` e `registro_vetado`, o "Quando NÃO usar" tornado
    legível por máquina. A declaração positiva: se `momento` da variante é
@@ -77,9 +82,9 @@ estão as duas certas, e o design system diz como adaptar a cor. `nicho`
 não entra como eixo próprio: é proxy de objeção, não a coisa em si —
 "skincare" não diz se o e-mail ataca eficácia ou preço. É o que o código
 já tentou — pontuar `niche_affinity`/`positioning`/`mood` num pré-filtro
-determinístico, removido junto com o resto do pré-filtro (ver "Correção"
-abaixo) — não o que ele tenta hoje: `niche_affinity` não existe em
-nenhum código de score atual, só em testes e em `email-generation.ts`.
+determinístico, removido junto com o resto do pré-filtro (commit
+`f0fcd72d`) — não o que ele tenta hoje: `niche_affinity` não existe em
+nenhum código de score atual.
 
 **A regra de degradação.** Objeção não discrimina em toda seção. Nos
 quatro footers o que separa é número de destinos de navegação e paleta —
@@ -120,18 +125,6 @@ Curador recebe o catálogo INTEIRO — no system prompt, para ser cacheável
 pipeline tentou soma ponderada, produziu o tipo de empate que o argumento
 acima prevê, e foi removido por causa disso — não apesar disso.
 
-> **Correção.** A versão anterior deste trecho citava
-> `component-deriver.ts:85-117` como "o estado atual do pipeline",
-> pontuando por `niche_affinity` (peso 3), `positioning` (peso 2) e `mood`
-> (peso 1). Isso está errado em duas camadas: o arquivo não existe mais —
-> removido no mesmo commit `f0fcd72d`, a mesma remoção que
-> [[_parametros-da-loja]] documenta via §1.1-BIS da spec — e mesmo a
-> versão do arquivo anterior à remoção já usava outros nomes de campo,
-> substituídos antes disso. A afirmação citava uma versão do pipeline duas
-> gerações atrás como se fosse a atual. O argumento de auditabilidade
-> continua de pé; o que mudou é que a soma ponderada é histórico do
-> pipeline, não seu estado presente.
-
 # O orçamento de `peso`
 
 Os limiares de `classe` de `peso` não estão declarados em nenhuma outra
@@ -168,10 +161,8 @@ gasta rotaciona o criativo em vez de viciar na mesma peça — e de quebra
 corrige a distorção estatística que as lacunas de duplicata descrevem, em
 que a peça dobrada pesava o dobro no sorteio.
 
-**Fallback determinístico:** a consulta de uso não é verificável
-automaticamente hoje (mesma situação dos requisitos com
-`verificavel_hoje: false` — nenhum campo mapeado em
-[[_parametros-da-loja]] responde "quantas vezes cada variante já foi
+**Fallback determinístico:** a consulta de uso ainda não tem campo
+mapeado em [[_parametros-da-loja]] ("quantas vezes cada variante já foi
 usada"). Se o histórico não estiver disponível na hora da seleção, ou se
 as contagens empatarem, **o menor número no slug vence** — hero-8 antes de
 hero-10, reviews-3a antes de reviews-3b.
@@ -181,7 +172,8 @@ Isso resolve a escolha, não a duplicata: os pares continuam registrados em
 
 # Quando nenhuma variante sobrevive
 
-Declarar a lacuna, cair no template global, e registrar o caso em
+Declarar a lacuna, parar o batch no Curador com a lacuna nomeada (não
+existe template global no código — a posição cai) e registrar o caso em
 `lacunas/`. Um zero-elegíveis recorrente é o sinal mais valioso que o
 sistema produz — diz exatamente qual variante falta comprar ou construir.
 Casos já registrados nesse padrão: [[header-sem-variante]] e
@@ -198,10 +190,9 @@ em prosa nessa nota. Traduzida para o vocabulário do vault, ela mapeia
 para `objecao: confianca-no-canal`. Na seção `body`,
 [[body-5-comparacao-nos-vs-eles]] declara `objecao: [confianca-no-canal,
 preco-valor]` (overlap 1) e `body-4-comparativo-em-duas-colunas` declara
-`objecao: [qualidade-eficacia, preco-valor]` (overlap 1 — o caso foi escrito
-quando a nota ainda descrevia um tutorial com `uso-aprendizado`, overlap 0;
-ver a correção de 02/09 na própria nota). Por ranking puro de `objecao`,
-body-5 venceria.
+`objecao: [qualidade-eficacia, preco-valor]` (overlap 1; em versão
+anterior a nota descrevia um tutorial com `uso-aprendizado`, overlap 0 —
+histórico no Git). Por ranking puro de `objecao`, body-5 venceria.
 
 **Mas o mesmo caso entrega o primeiro achado do protocolo:
 [[body-5-comparacao-nos-vs-eles]] está `ativa: false`.** O passo 3 já a
