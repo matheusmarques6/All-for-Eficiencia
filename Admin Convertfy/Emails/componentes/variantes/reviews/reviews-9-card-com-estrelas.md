@@ -38,4 +38,4 @@ No [[welcome-2]] (veta prova de terceiro) e quando a peça precisa que a prova S
 Prova social não se duplica na peça ([[prova-social-nao-duplica-na-peca]]): não com reviews-8/10 nem products-10. Pílula de estrelas e contorno fino pedem vizinhos de canto e peso compatíveis; não colar em bloco de contorno grosso (reviews-10, body 13) — os dois vocabulários de borda brigam.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. Par próximo da reviews-10 (mesmo dispositivo, contagens quase iguais: 6 × 5 campos) mas NÃO duplicata: título em dois campos + pílula de estrelas contra título único + contorno grosso — perfis visuais opostos; registrado no relatório como par verificado. `review-com-nome` sem nota em `requisitos/`. Sem HTML para medir altura — `peso` omitido.
+Descrição do banco bate com a anatomia. Par próximo da reviews-10 (mesmo dispositivo, contagens quase iguais: 6 × 5 campos) mas NÃO duplicata: título em dois campos + pílula de estrelas contra título único + contorno grosso — perfis visuais opostos; registrado no relatório como par verificado. `review-com-nome` sem nota em `requisitos/`. `peso` medido no HTML de produção em 19/09.

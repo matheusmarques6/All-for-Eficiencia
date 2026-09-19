@@ -38,4 +38,4 @@ No toque do cético ([[welcome-3]], [[abandoned_cart-3]]): a profundidade mínim
 Não empilhar com outro bloco de produto único (products-4, products-10): dois heróis disputam a peça. Casa bem depois de uma abertura editorial leve (hero 17) — a peça fica tese em cima, produto embaixo.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. `1-produto-com-link` sem nota em `requisitos/`; relatório. Sem HTML para medir altura — `peso` omitido.
+Descrição do banco bate com a anatomia. `1-produto-com-link` sem nota em `requisitos/`; relatório. `peso` medido no HTML de produção em 19/09.

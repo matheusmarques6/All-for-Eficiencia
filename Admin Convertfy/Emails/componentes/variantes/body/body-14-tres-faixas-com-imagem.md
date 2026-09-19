@@ -38,4 +38,4 @@ No [[abandoned_cart-1]]: o primeiro toque do carrinho proíbe qualquer coisa al�
 Não empilhar com outra lista enumerada (body 18 ou body 19): duas varreduras em sequência leem como redundância. O par natural acima é uma tese (hero ou body 12); abaixo, produto ou prova.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia (3 faixas, imagem por faixa, CTA). Sem HTML no vault para medir altura — `peso` omitido; ver relatório.
+Descrição do banco bate com a anatomia (3 faixas, imagem por faixa, CTA). `peso` medido no HTML de produção em 19/09.

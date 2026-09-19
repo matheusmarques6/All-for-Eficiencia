@@ -38,4 +38,4 @@ Quando o trabalho é mostrar amplitude ("tem mais coisa pra ver"): dois produtos
 Não com review-vitrine ([[grade-de-produtos-nao-convive-com-review-vitrine]]). Dois botões de card + CTA final: o CTA final domina, os de card recuam.
 
 ## Notas de cadastro
-Erro de cadastro no schema: o campo do CTA final chama-se `cta_here`, fora do prefixo `pair_` dos demais — qualquer automação que agrupe por prefixo vai perdê-lo; registrado no relatório. `2-produtos-com-link` sem nota em `requisitos/`. Sem HTML para medir altura — `peso` omitido.
+Erro de cadastro no schema: o campo do CTA final chama-se `cta_here`, fora do prefixo `pair_` dos demais — qualquer automação que agrupe por prefixo vai perdê-lo; registrado no relatório. `2-produtos-com-link` sem nota em `requisitos/`. `peso` medido no HTML de produção em 19/09.

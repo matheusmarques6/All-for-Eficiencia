@@ -38,6 +38,6 @@ Quando há exatamente 4 produtos para mostrar: a vitrine tem 3 linhas — com 4 
 Não com review-vitrine ([[grade-de-produtos-nao-convive-com-review-vitrine]]) nem com o zigue-zague de reviews (reviews-7) na mesma peça: dois zigue-zagues anulam o ritmo um do outro. CTA final domina; os de linha recuam.
 
 ## Notas de cadastro
-DIVERGÊNCIA DE SCHEMA: `showcase_product_1..4_name` e `_desc` (4 slots) contra `showcase_product_1..3_photo` (3 fotos); cadastro descreve três linhas. HTML não disponível no vault para arbitrar — assumido 3 (itens, slots) pela foto e pela prosa do cadastro; o 4º par nome/descrição fica órfão até correção no admin. Registrado no relatório. `3-produtos-com-link` sem nota em `requisitos/`. `peso` omitido (sem HTML).
+A divergência de schema que esta nota registrou em 19/09 — 4 pares de nome/descrição contra 3 fotos, com o cadastro descrevendo três linhas — foi arbitrada a favor de 3 e corrigida no admin no mesmo dia (ver Conserto, abaixo): a leitura pela anatomia estava certa. `3-produtos-com-link` sem nota em `requisitos/`. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `showcase_product_4_name` e `showcase_product_4_desc` (sem lugar no HTML). 14 → 12 campos.

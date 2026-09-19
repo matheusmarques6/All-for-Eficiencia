@@ -38,4 +38,4 @@ No [[welcome-2]]: a intenção veta prova de terceiro e prova por volume — o a
 Não com bloco de reviews na mesma peça: a prova não se duplica ([[prova-social-nao-duplica-na-peca]]) — o review daqui JÁ é a prova da peça. O depoimento não repete pessoa usada em outro toque do mesmo flow.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. `review-com-nome` e `1-produto-com-link` não existem em `requisitos/` (os vizinhos são `reviews-curtos`/`reviews-longos`/`produtos-com-pagina-propria`); listados no relatório. Sem HTML para medir altura — `peso` omitido.
+Descrição do banco bate com a anatomia. `review-com-nome` e `1-produto-com-link` não existem em `requisitos/` (os vizinhos são `reviews-curtos`/`reviews-longos`/`produtos-com-pagina-propria`); listados no relatório. `peso` medido no HTML de produção em 19/09.

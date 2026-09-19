@@ -37,6 +37,6 @@ Loja de registro luxo, clínico-sóbrio ou premium-editorial: o gênero arcade l
 Nada da mesma peça pode disputar o gênero: seções vizinhas neutras e curtas — outra seção temática (festiva, editorial serifada) ao lado quebra a ilusão da moldura. Fundo preto pede transição limpa para a seção seguinte clara.
 
 ## Notas de cadastro
-Nome no banco corrigido em 19/09 (era "hero seciton 19 ", com erro de grafia e espaço final). `registro_vetado` com 3 valores conforme a ficha da catalogação (o formato da nota prevê até 2; registrado no relatório). Sem HTML no vault para medir altura — `peso` omitido.
+Nome no banco corrigido em 19/09 (era "hero seciton 19 ", com erro de grafia e espaço final). `registro_vetado` com 3 valores conforme a ficha da catalogação (o formato da nota prevê até 2; registrado no relatório). `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saiu `retro_logo_image` (sem slot); example de `retro_headline` = "2 Line Offer". 8 → 7 campos.

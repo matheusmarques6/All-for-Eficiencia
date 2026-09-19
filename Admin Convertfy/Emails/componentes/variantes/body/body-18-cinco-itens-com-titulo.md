@@ -38,4 +38,4 @@ No [[abandoned_cart-3]]: a intenção proíbe varredura — uma objeção só, b
 Não empilhar com outra lista enumerada (body 14, body 19) nem com FAQ: duas varreduras em sequência são a mesma carta jogada duas vezes. Por ser o bloco mais longo da peça em leitura, os vizinhos devem ser leves.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia (5 itens de título+texto, sem imagem). Sem HTML no vault para medir altura — `peso` omitido; ver relatório.
+Descrição do banco bate com a anatomia (5 itens de título+texto, sem imagem). `peso` medido no HTML de produção em 19/09.

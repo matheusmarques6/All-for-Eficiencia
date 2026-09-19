@@ -37,6 +37,6 @@ Fora da janela da data — selo de Cyber Monday em abril lê como erro de produ�
 Uma moldura de campanha por peça: não empilhar com hero 13 nem com body temático da mesma data. Fundo full-dark pede seção seguinte clara ou transição limpa; dois blocos escuros seguidos viram um blob.
 
 ## Notas de cadastro
-Suspeita de quase-duplicata com hero 13 (15/09) verificada e descartada pela anatomia — campos e ornamentos diferentes. Descrição do banco bate com a anatomia. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Suspeita de quase-duplicata com hero 13 (15/09) verificada e descartada pela anatomia — campos e ornamentos diferentes. Descrição do banco bate com a anatomia. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saiu `cyber_logo_image` (sem slot); example de `cyber_headline` = "30% OFF Sitewide". 9 → 8 campos.

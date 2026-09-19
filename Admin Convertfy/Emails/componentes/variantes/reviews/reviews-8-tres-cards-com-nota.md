@@ -38,4 +38,4 @@ No [[welcome-2]] (veta prova de terceiro e por volume) e em loja sem massa real:
 Prova social não se duplica na peça: não com reviews-9/10, products-10 nem UGC. Três pessoas distintas nos cards, e nenhuma repetida de outro toque do flow ([[depoimento-nao-repete-pessoa]]).
 
 ## Notas de cadastro
-Slug distinto de `reviews-8-ugc-de-comunidade` (variante diferente, 18 campos, peça-inteira) — sem colisão, mas o nome "review 8" no banco convida à confusão; endereçar por `variant_id`. `3-reviews-com-nome` e `nota-real` sem nota em `requisitos/` (vizinho: `tres-reviews-distintos`); relatório. Sem HTML para medir altura — `peso` omitido.
+Slug distinto de `reviews-8-ugc-de-comunidade` (variante diferente, 18 campos, peça-inteira) — sem colisão, mas o nome "review 8" no banco convida à confusão; endereçar por `variant_id`. `3-reviews-com-nome` e `nota-real` sem nota em `requisitos/` (vizinho: `tres-reviews-distintos`); relatório. `peso` medido no HTML de produção em 19/09.

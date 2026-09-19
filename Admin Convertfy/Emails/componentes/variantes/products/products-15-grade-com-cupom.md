@@ -38,6 +38,6 @@ Toque sem incentivo: a linha de cupom ficaria com o texto de exemplo ou vazia �
 Não com review-vitrine ([[grade-de-produtos-nao-convive-com-review-vitrine]]) nem com segundo bloco de cupom colado (offer de código imediatamente antes ou depois duplica a mecânica). Cantos arredondados: cuidado ao colar em blocos de canto vivo.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. `4-produtos-com-link` sem nota em `requisitos/` (cupom-ativo existe). Sem HTML para medir altura — `peso` omitido; ver relatório.
+Descrição do banco bate com a anatomia. `4-produtos-com-link` sem nota em `requisitos/` (cupom-ativo existe). `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: example de `offergrid_final_cta_label` = "SHOP THE SALE" (HTML ajustado nos dois ramos, normal e Outlook).

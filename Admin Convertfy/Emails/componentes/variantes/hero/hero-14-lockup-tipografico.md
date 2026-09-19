@@ -37,6 +37,6 @@ Toque cujo trabalho fixo é ENTREGAR o incentivo ([[welcome-1]]) sem outro bloco
 Se houver bloco de código abaixo, a manchete não repete o código (não tem slot) — a dupla funciona; dois lockups de valor na mesma peça, não. Tipografia display gigante não convive com segunda tipografia display na seção vizinha.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia (sem campo de cupom, confirmado nos 7 campos). Sem HTML para medir altura — `peso` omitido; ver relatório.
+Descrição do banco bate com a anatomia (sem campo de cupom, confirmado nos 7 campos). `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `lockup_type_image`, `lockup_background_image` e `lockup_logo_image` (a variante não tem nenhum slot de imagem). 10 → 7 campos.

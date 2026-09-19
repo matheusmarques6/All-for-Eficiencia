@@ -38,6 +38,6 @@ No [[abandoned_cart-1]] ou no primeiro toque de qualquer flow: garantia antes da
 Não duplicar remoção de risco na mesma peça (com offer-21, que carrega selos próprios): duas faixas de selos leem como seguro demais — protestando demais. Fundos alternados preto/claro pedem vizinhos de emenda limpa; entre duas seções escuras ele perde o contraste que o organiza.
 
 ## Notas de cadastro
-Há OUTRA "body 21" no banco, na seção offer (f8fd38f6-04d0-4337-a130-31e207510b59) — homônimas, variantes diferentes; endereçar sempre pelo `variant_id`. Descrição do banco bate com a anatomia. Relação com a lacuna [[body-garantias-3-selos]]: mesma família de dispositivo, mas a lacuna pede faixa compacta de APOIO e esta é bloco de meio com headline, corpo e foto — não a fecha; registrado no relatório. Sem HTML para medir altura — `peso` omitido.
+Há OUTRA "body 21" no banco, na seção offer (f8fd38f6-04d0-4337-a130-31e207510b59) — homônimas, variantes diferentes; endereçar sempre pelo `variant_id`. Descrição do banco bate com a anatomia. Relação com a lacuna [[body-garantias-3-selos]]: mesma família de dispositivo, mas a lacuna pede faixa compacta de APOIO e esta é bloco de meio com headline, corpo e foto — não a fecha; registrado no relatório. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `trust_icon_1..3` (fixos no HTML). 10 → 7 campos.

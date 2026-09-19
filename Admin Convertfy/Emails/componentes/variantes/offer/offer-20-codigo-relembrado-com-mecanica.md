@@ -37,4 +37,4 @@ Nos toques 1–4 do carrinho ([[abandoned_cart-1]] a [[abandoned_cart-4]]): todo
 Não com segundo bloco de código na peça (offer-11, offer-21): o código aparece uma vez com papel claro. O bloco dinâmico de carrinho do ESP, se presente, fica ACIMA — este painel comenta o item, não o substitui.
 
 ## Notas de cadastro
-Nasceu no banco como "body 20" com `block_type` offer; renomeada para "offer 20" em 19/09. Cadastro: o `example` de `cart_coupon_condition` tinha markdown e o merge não ancorava — corrigido em 17/09; se a condição sumir na renderização, verificar o example antes de culpar a copy. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 20" com `block_type` offer; renomeada para "offer 20" em 19/09. Cadastro: o `example` de `cart_coupon_condition` tinha markdown e o merge não ancorava — corrigido em 17/09; se a condição sumir na renderização, verificar o example antes de culpar a copy. `peso` medido no HTML de produção em 19/09.

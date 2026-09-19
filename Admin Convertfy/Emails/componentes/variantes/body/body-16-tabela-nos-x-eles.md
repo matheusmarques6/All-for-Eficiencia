@@ -38,6 +38,6 @@ No [[welcome-1]] ou no primeiro toque de qualquer flow: comparar cedo é defensi
 Nunca depois de outra comparação (body 13 em modo "nós vs. genérico", body 4/5): comparação depois de comparação lê como ataque, não como alívio. Cantos arredondados e pílula: não convive com blocos de canto vivo na mesma peça ([[raio-alto-nao-convive-com-canto-vivo]]).
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia (23 campos conferem). Sem HTML no vault para medir altura — `peso` omitido; ver relatório. `6-diferencas-defensaveis` não existe em `requisitos/`; listado no relatório. Fecha, no eixo, a lacuna de `confianca-no-canal` ativa; a flag `ativa` é do banco, não desta nota.
+Descrição do banco bate com a anatomia (23 campos conferem). `peso` medido no HTML de produção em 19/09. `6-diferencas-defensaveis` não existe em `requisitos/`; listado no relatório. Fecha, no eixo, a lacuna de `confianca-no-canal` ativa; a flag `ativa` é do banco, não desta nota.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: só o `<title>` do HTML mudou; schema intacto.

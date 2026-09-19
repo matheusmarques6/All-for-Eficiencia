@@ -38,4 +38,4 @@ Quando a foto de cada produto precisa ser controlada pela peça (campanha com di
 Não com review-vitrine na mesma peça ([[grade-de-produtos-nao-convive-com-review-vitrine]]). CTAs genéricos recuam diante dos quatro botões de célula.
 
 ## Notas de cadastro
-Divergência de schema: cadastro descreve foto dentro de moldura em cada célula, mas o schema não tem campo de foto — origem das imagens (feed ou fixa) não confirmável sem o HTML; registrado no relatório. `4-produtos-com-link` sem nota em `requisitos/`. Sem HTML para medir altura — `peso` omitido.
+Divergência de schema: cadastro descreve foto dentro de moldura em cada célula, mas o schema não tem campo de foto — origem das imagens (feed ou fixa) não confirmável sem o HTML; registrado no relatório. `4-produtos-com-link` sem nota em `requisitos/`. `peso` medido no HTML de produção em 19/09.

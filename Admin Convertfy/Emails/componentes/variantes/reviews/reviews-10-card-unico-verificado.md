@@ -38,6 +38,6 @@ No [[welcome-2]]: a intenção veta prova de terceiro — o assunto é decisão,
 Prova social não se duplica na peça ([[prova-social-nao-duplica-na-peca]]): não com reviews-8/9 nem com products-10 (que já embute relato). O depoente não repete pessoa usada em outro toque do flow.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. Conforme a ficha: credencial aqui é selo de verificação, NÃO cargo — não classificar como autoridade (valor que nem existe no vocabulário). `review-com-nome` sem nota em `requisitos/` (vizinhos: `selo-compra-verificada`, `reviews-curtos`); relatório. Sem HTML para medir altura — `peso` omitido.
+Descrição do banco bate com a anatomia. Conforme a ficha: credencial aqui é selo de verificação, NÃO cargo — não classificar como autoridade (valor que nem existe no vocabulário). `review-com-nome` sem nota em `requisitos/` (vizinhos: `selo-compra-verificada`, `reviews-curtos`); relatório. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: example de `cardrev_cta_label` = "SHOP NOW" (o HTML dizia "CTA", que não ancorava por ser curto demais).

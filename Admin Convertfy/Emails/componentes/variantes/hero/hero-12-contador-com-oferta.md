@@ -37,6 +37,6 @@ No [[welcome-2]]: a intenção proíbe prazo com hora fechada — hora fechada p
 Não empilhar com outro bloco de prazo ou segunda menção de hora diferente: um prazo por peça — duas horas distintas na mesma peça provam que nenhuma é real. Depois dela, blocos curtos: quem abre com relógio não pode pedir leitura longa.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. Não há campo de código — divergiria de qualquer leitura que a trate como entrega de cupom. Sem HTML no vault para medir altura — `peso` omitido; ver relatório.
+Descrição do banco bate com a anatomia. Não há campo de código — divergiria de qualquer leitura que a trate como entrega de cupom. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `countdown_offer_symbol` (o % é célula fixa) e `countdown_logo_image` (sem slot); example de `countdown_offer_main` = "GET 10". 10 → 8 campos.

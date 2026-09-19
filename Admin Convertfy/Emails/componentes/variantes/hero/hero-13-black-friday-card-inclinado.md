@@ -37,6 +37,6 @@ Fora da janela da data: faixas diagonais de Black Friday em fevereiro leem como 
 Não empilhar com outra seção temática de campanha (segunda arte de BF, hero 15): uma moldura de campanha por peça. Abaixo dela, blocos neutros — a arte inclinada já gastou o orçamento de ruído visual da peça.
 
 ## Notas de cadastro
-O 548px do cadastro é o bloco de arte, não necessariamente a seção completa — sem HTML para medir, `peso` omitido; ver relatório. Suspeita de duplicata com hero 15 verificada e descartada pela anatomia (campos diferentes, ornamento diferente). Descrição do banco bate com a anatomia.
+O 548px do cadastro é o bloco de arte, não a seção: a seção mede 1048px (medição de 19/09). Suspeita de duplicata com hero 15 verificada e descartada pela anatomia (campos diferentes, ornamento diferente). Descrição do banco bate com a anatomia.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `bf_offer_card_image`, `bf_diagonal_stripes_image` e `bf_logo_image` (nenhum tem slot no HTML — card e faixas são CSS); example de `bf_coupon_label` = "USE CODE:". 11 → 8 campos.

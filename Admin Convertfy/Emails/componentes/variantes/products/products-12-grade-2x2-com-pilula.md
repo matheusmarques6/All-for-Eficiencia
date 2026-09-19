@@ -38,4 +38,4 @@ No [[welcome-4]]: a intenção proíbe empurrar catálogo — quem chegou ali j�
 Não com review-vitrine na mesma peça ([[grade-de-produtos-nao-convive-com-review-vitrine]]). Com quatro botões de célula mais o CTA final, os CTAs genéricos da peça precisam recuar — um dominante ([[um-cta-dominante-em-email-curto]]).
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. O CTA por produto é um label único repetido (não um por célula) — a copy escreve um texto que sirva aos quatro. `4-produtos-com-link` não existe em `requisitos/`; relatório. Sem HTML para medir altura — `peso` omitido.
+Descrição do banco bate com a anatomia. O CTA por produto é um label único repetido (não um por célula) — a copy escreve um texto que sirva aos quatro. `4-produtos-com-link` não existe em `requisitos/`; relatório. `peso` medido no HTML de produção em 19/09.

@@ -38,4 +38,4 @@ No [[welcome-2]]: a varredura pede razões de naturezas distintas em leitura de 
 Não em sequência com outro bloco de mecanismo (body 13, body 16): um "como" por peça. Por ser denso, pede uma saída rápida de compra acima dele — não deixar o primeiro CTA da peça para depois dos quatro callouts.
 
 ## Notas de cadastro
-Descrição do banco bate com a anatomia. O 502 × 730 do cadastro é a foto, não a seção — altura total sem HTML para medir; `peso` omitido, ver relatório. `4-detalhes-verificaveis` não existe em `requisitos/`; listado no relatório.
+Descrição do banco bate com a anatomia. O 502 × 730 do cadastro é a foto, não a seção: a seção mede 1116px (medição de 19/09). `4-detalhes-verificaveis` não existe em `requisitos/`; listado no relatório.

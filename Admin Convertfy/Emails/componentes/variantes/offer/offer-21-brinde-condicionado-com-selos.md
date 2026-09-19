@@ -38,4 +38,4 @@ Quando a mecânica não cabe numa frase de duas linhas: condição com três cl�
 Não com body-21 de body (três selos e garantia) na mesma peça: duas faixas de selos duplicam a remoção de risco e leem como protesto. Não com outro bloco de código (offer-11, offer-20). Bloco full-dark de fecho casa com corpo claro acima.
 
 ## Notas de cadastro
-Nasceu no banco como "body 21", homônima da [[body-21-tres-selos-e-garantia]]; renomeada para "offer 21" em 19/09. O código embutido em `gift_coupon_line` (sem campo próprio) é decisão de anatomia registrada aqui para a copy saber onde ele mora. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 21", homônima da [[body-21-tres-selos-e-garantia]]; renomeada para "offer 21" em 19/09. O código embutido em `gift_coupon_line` (sem campo próprio) é decisão de anatomia registrada aqui para a copy saber onde ele mora. `peso` medido no HTML de produção em 19/09.

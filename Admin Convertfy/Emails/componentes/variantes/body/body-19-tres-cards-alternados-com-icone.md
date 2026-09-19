@@ -38,6 +38,6 @@ Loja de registro luxo ou clínico-sóbrio: contorno grosso, fundo preto e ícone
 Não empilhar com outra lista enumerada (body 14, body 18). Entre duas seções full-dark, inserir uma clara — o contraste é o mecanismo do bloco, e some quando tudo ao redor é preto.
 
 ## Notas de cadastro
-`nome_no_banco` copiado com o espaço final que existe no banco ("body 19 ") — erro de cadastro a corrigir no admin, não aqui. Descrição do banco bate com a anatomia. Sem HTML no vault para medir altura — `peso` omitido; ver relatório.
+`nome_no_banco` copiado com o espaço final que existe no banco ("body 19 ") — erro de cadastro a corrigir no admin, não aqui. Descrição do banco bate com a anatomia. `peso` medido no HTML de produção em 19/09.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `feat_card_1..3_icon` (os ícones são fixos no HTML). 11 → 8 campos.

@@ -37,4 +37,4 @@ Na mesma peça que uma hero que já entrega o mesmo código (hero 11, 13, 15) se
 Não com outro bloco de código na mesma peça (offer-20, offer-21) — um resgate por peça. Como fecho calmo, casa depois de blocos densos; entre duas seções escuras, o cinza difuso faz a transição.
 
 ## Notas de cadastro
-Nasceu no banco como "body 11" com `block_type` offer; renomeada para "offer 11" em 19/09. Descrição do banco bate com a anatomia. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 11" com `block_type` offer; renomeada para "offer 11" em 19/09. Descrição do banco bate com a anatomia. `peso` medido no HTML de produção em 19/09.
