@@ -6,7 +6,7 @@ nome_no_banco: "hero section 11"
 secao: hero
 status: aprovada
 fonte: catalogacao-2026-09-19
-schema_campos: 9
+schema_campos: 6
 product_slots: 0
 objecao: [preco-valor]
 aliviador: [dado_de_adequacao]
@@ -17,24 +17,26 @@ paleta: [com-acento-definido]
 papel_na_peca: [peca-inteira]
 peso: { altura_px: 1180, classe: peca-inteira, fonte: medido }
 convivencia: [peca-inteira-nao-e-bloco]
-exige: [cupom-ativo, oferta-bogo-real]
+exige: [oferta-bogo-real]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[deadline-falso-queima-o-proximo]]]
 ---
 
 ## Descrição curta
-Abre o e-mail já com a oferta em manchete e entrega o código na mesma tela: o leitor não precisa rolar para saber o que ganha nem como resgata. Obriga headline em duas linhas, sublinha de urgência, rótulo e código do cupom, corpo curto, CTA, logo e imagem de fundo.
+Abre o e-mail já com a oferta de compre-e-leve em manchete: o leitor não precisa rolar para saber o que ganha — o resgate (código ou desconto automático) fica para outra posição. Obriga headline em duas linhas, sublinha de urgência, corpo curto, CTA e imagem de fundo. Não há faixa de cupom nem campo de código: o logo é célula fixa do layout.
 
 ## Descrição detalhada
-Caixa de logo no topo (`bogo_logo_image`). Headline em duas linhas de corpos diferentes (`bogo_headline_1` grande, `bogo_headline_2` menor). Sublinha de urgência (`bogo_subline`). Faixa com rótulo e código (`bogo_coupon_label`, `bogo_coupon_code`) em texto real, fora da imagem. Corpo de uma frase (`bogo_body`) e CTA sólido (`bogo_cta_label`). Tudo sobre `bogo_background_image`, gerada. Difere da hero 14 (mesmo dispositivo) por ENTREGAR o código: a 14 declara a oferta e não tem campo de cupom. Difere das heroes 13 e 15 por não nomear data de campanha.
+Caixa de logo fixa no topo (célula `LOGO HERE` do layout, sem campo). Headline em duas linhas de corpos diferentes (`bogo_headline_1` grande, `bogo_headline_2` menor). Sublinha de urgência (`bogo_subline`). Corpo de uma frase (`bogo_body`) e CTA sólido (`bogo_cta_label`). Tudo sobre `bogo_background_image`, gerada. Como a hero 14 (mesmo dispositivo), DECLARA a oferta e não entrega código: nenhuma das duas tem cupom no HTML nem no schema — quem entrega o código é um offer abaixo. Difere das heroes 13 e 15 por não nomear data de campanha.
 
 ## Quando usar
-Toque cuja intenção é entregar uma oferta de compre-e-leve com código, quando a loja tem o cupom ativo na plataforma e a mecânica cabe em uma frase. Funciona como peça inteira: o e-mail pode terminar aqui ou seguir só com rodapé.
+Toque cuja intenção é declarar uma oferta de compre-e-leve, quando a mecânica é real na plataforma e cabe em uma frase; se houver código, ele entra num offer abaixo. Funciona como peça inteira: o e-mail pode terminar aqui ou seguir só com rodapé.
 
 ## Quando não usar
 Welcome-1 com incentivo simples de percentual: o dispositivo é BOGO, e forçar "10% off" na manchete de compre-e-leve entrega uma promessa que a loja não faz. Também não use quando outra posição já entrega o mesmo código sem papel novo, e nunca com sublinha de prazo sem prazo real na plataforma.
 
 ## Convivência
-Não empilhar com body de oferta nem com offer de código: repetiria o cupom. Depois dela, só products leve ou footer.
+Não empilhar com body de oferta (repetiria a manchete). Um offer de código abaixo é o par natural quando há cupom. Depois, só products leve ou footer.
 
 ## Notas de cadastro
 Na run de 17/09 o Curador a descreveu como "peça inteira promocional sem eixos": esta nota é a resposta. A descrição do banco bate com a anatomia.
+
+**Conserto de 19/09 (admin, auditor de âncoras)**: saíram `bogo_coupon_label` e `bogo_coupon_code` (o HTML não tem faixa de cupom — os campos não tinham onde ancorar) e `bogo_logo_image` (sem slot). 9 → 6 campos.

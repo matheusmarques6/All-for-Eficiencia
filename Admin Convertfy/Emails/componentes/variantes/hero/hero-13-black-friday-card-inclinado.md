@@ -6,7 +6,7 @@ nome_no_banco: "hero section 13"
 secao: hero
 status: aprovada
 fonte: catalogacao-2026-09-19
-schema_campos: 11
+schema_campos: 8
 product_slots: 0
 objecao: [preco-valor]
 aliviador: [dado_de_adequacao]
@@ -21,10 +21,10 @@ aprendizados: [[[incentivo-precisa-existir-em-texto]], [[deadline-falso-queima-o
 ---
 
 ## Descrição curta
-Abre a peça gritando a data: o leitor reconhece a campanha (Black Friday) pelo card inclinado e pelas faixas diagonais antes de ler a oferta — e sai com o código na mão. Obriga oferta em três linhas, rótulo e código de cupom, CTA, nome da campanha, card de oferta, faixas diagonais, fundo e logo.
+Abre a peça gritando a data: o leitor reconhece a campanha (Black Friday) pelo card inclinado e pelas faixas diagonais antes de ler a oferta — e sai com o código na mão. Obriga oferta em três linhas, rótulo e código de cupom, CTA, nome da campanha e uma imagem de fundo. Card, faixas diagonais e logo são desenhados pelo próprio HTML.
 
 ## Descrição detalhada
-Bloco de arte de 548px dentro do container de 600: logo no topo (`bf_logo_image`), um card escuro INCLINADO carregando a oferta em três linhas de texto real (`bf_offer_line_1`, `bf_offer_value`, `bf_offer_line_3`), faixa de cupom (`bf_coupon_label`, `bf_coupon_code`), CTA (`bf_cta_label`) e o nome da campanha (`bf_campaign_name`), sobre três imagens geradas: o card (`bf_offer_card_image`), as faixas diagonais (`bf_diagonal_stripes_image`) e o fundo (`bf_background_image`). Apontada em 15/09 como quase-duplicata da hero 15 POR DESCRIÇÃO; pela anatomia são distintas: esta tem card inclinado + faixas diagonais (11 campos); a [[hero-15-cyber-com-selo]] tem selo circular nomeando a data (9 campos) — a diferença é o ornamento que carrega a campanha.
+Bloco de arte de 548px dentro do container de 600: logo fixo no topo (célula do layout, sem campo), um card escuro INCLINADO carregando a oferta em três linhas de texto real (`bf_offer_line_1`, `bf_offer_value`, `bf_offer_line_3`), faixa de cupom (`bf_coupon_label`, `bf_coupon_code`), CTA (`bf_cta_label`) e o nome da campanha (`bf_campaign_name`), sobre UMA imagem gerada, o fundo (`bf_background_image`); card e faixas diagonais são CSS do próprio bloco. Apontada em 15/09 como quase-duplicata da hero 15 POR DESCRIÇÃO; pela anatomia são distintas: esta tem card inclinado + faixas diagonais (8 campos); a [[hero-15-cyber-com-selo]] tem selo circular nomeando a data (8 campos) — a diferença é o ornamento que carrega a campanha.
 
 ## Quando usar
 Campanha nomeada com cupom — Black Friday e datas da mesma família visual — quando existem as três coisas: o motivo sazonal real, o cupom ativo e a licença de registro para gritar. A oferta e o código são texto real fora da imagem: sobrevivem com imagens bloqueadas. Momento: campanha promocional/sazonal; não pertence à régua de welcome nem aos flows de abandono.
@@ -37,3 +37,5 @@ Não empilhar com outra seção temática de campanha (segunda arte de BF, hero 
 
 ## Notas de cadastro
 O 548px do cadastro é o bloco de arte, não necessariamente a seção completa — sem HTML para medir, `peso` omitido; ver relatório. Suspeita de duplicata com hero 15 verificada e descartada pela anatomia (campos diferentes, ornamento diferente). Descrição do banco bate com a anatomia.
+
+**Conserto de 19/09 (admin, auditor de âncoras)**: saíram `bf_offer_card_image`, `bf_diagonal_stripes_image` e `bf_logo_image` (nenhum tem slot no HTML — card e faixas são CSS); example de `bf_coupon_label` = "USE CODE:". 11 → 8 campos.

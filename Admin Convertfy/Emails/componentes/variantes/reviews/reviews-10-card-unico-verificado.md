@@ -25,7 +25,7 @@ aprendizados: [[[depoimento-nao-repete-pessoa]], [[prova-de-terceiro-antes-do-ct
 Entrega uma voz de cliente com peso de manchete: o leitor vê um único card branco de contorno grosso sobre fundo cinza, lê o depoimento, o nome e o selo de compra verificada — uma prova, dita alto. Obriga título, texto do review, autor, rótulo de verificado e CTA.
 
 ## Descrição detalhada
-Fundo cinza chapado em toda a seção. Título em duas linhas de caixa alta (`cardrev_title`), um card branco de contorno grosso e cantos arredondados com o depoimento (`cardrev_text`), o autor (`cardrev_author`) e o rótulo de verificado (`cardrev_verified_label`), e um CTA (`cardrev_cta_label`). Um depoimento só — o selo "verificado" é rótulo de compra confirmada, não credencial de autoridade: quem tem credencial de CARGO é a [[reviews-1-depoimento-com-credencial]]; esta prova que a compra existiu, não que o autor é especialista. Difere da [[reviews-9-card-com-estrelas]] (mesmo dispositivo) pelo peso visual: contorno grosso e fundo cinza contra contorno fino e pílula de estrelas.
+Fundo cinza chapado em toda a seção. Título em duas linhas de caixa alta (`cardrev_title`), um card branco de contorno grosso e cantos arredondados com o depoimento (`cardrev_text`), o autor (`cardrev_author`) e o rótulo de verificado (`cardrev_verified_label`), e um CTA em pílula (`cardrev_cta_label`, example "SHOP NOW"). Um depoimento só — o selo "verificado" é rótulo de compra confirmada, não credencial de autoridade: quem tem credencial de CARGO é a [[reviews-1-depoimento-com-credencial]]; esta prova que a compra existiu, não que o autor é especialista. Difere da [[reviews-9-card-com-estrelas]] (mesmo dispositivo) pelo peso visual: contorno grosso e fundo cinza contra contorno fino e pílula de estrelas.
 
 ## Quando usar
 Quando UM depoimento certo vale mais que três genéricos — o espelho do cético do [[welcome-4]] (alguém que declara ter tido a dúvida de quem lê) merece exatamente este palco: card único, sem concorrência visual. Também no fechamento com prova colada na pressão ([[welcome-6]]) e em [[abandoned_cart-2]] como a prova secundária que o toque admite. Exige review real com nome; o selo só entra se a compra for verificável na plataforma.
@@ -38,3 +38,5 @@ Prova social não se duplica na peça ([[prova-social-nao-duplica-na-peca]]): n�
 
 ## Notas de cadastro
 Descrição do banco bate com a anatomia. Conforme a ficha: credencial aqui é selo de verificação, NÃO cargo — não classificar como autoridade (valor que nem existe no vocabulário). `review-com-nome` sem nota em `requisitos/` (vizinhos: `selo-compra-verificada`, `reviews-curtos`); relatório. Sem HTML para medir altura — `peso` omitido.
+
+**Conserto de 19/09 (admin, auditor de âncoras)**: example de `cardrev_cta_label` = "SHOP NOW" (o HTML dizia "CTA", que não ancorava por ser curto demais).

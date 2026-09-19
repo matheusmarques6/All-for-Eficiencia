@@ -25,7 +25,7 @@ aprendizados: [[[cada-alegacao-e-uma-promessa-operacional]], [[posicao-muda-o-ef
 Faz o leitor reconhecer os medos da categoria e ver a loja fora de todos eles, linha a linha: seis atributos, coluna "eles" contra coluna "nós", com selo de fechamento. Obriga título sublinhado, cabeçalhos das duas colunas, seis trios atributo/eles/nós, um CTA em pílula e um selo.
 
 ## Descrição detalhada
-Título sublinhado (`compare_title`), três colunas de cantos arredondados lado a lado com bordas próprias — a coluna de atributos (`compare_feature_1..6`), a coluna deles (`compare_header_them`, `compare_them_1..6`) e a nossa (`compare_header_us`, `compare_us_1..6`) — mais CTA em pílula (`compare_cta_label`) e selo (`compare_badge`). 23 campos, todos texto real; família fixa de 6 linhas. É a sucessora anatômica de [[body-5-comparacao-nos-vs-eles]] (inativa, 4-5 critérios): mesma objeção, grade maior e selo próprio.
+Título sublinhado (`compare_title`), três colunas de cantos arredondados lado a lado com bordas próprias — a coluna de atributos (`compare_feature_1..6`), a coluna deles (`compare_header_them`, `compare_them_1..6`) e a nossa (`compare_header_us`, `compare_us_1..6`) — mais CTA em pílula (`compare_cta_label`) e selo (`compare_badge`). 23 campos (22 de texto real + o selo, única imagem gerada); família fixa de 6 linhas. É a sucessora anatômica de [[body-5-comparacao-nos-vs-eles]] (inativa, 4-5 critérios): mesma objeção, grade maior e selo próprio.
 
 ## Quando usar
 No quinto toque do welcome ([[welcome-5]]), quando quem ainda abre está comparando e a objeção é "por que comprar de VOCÊS?" — a comparação contra a experiência genérica da categoria, nunca contra concorrente nomeado. Também serve [[abandoned_cart-3]] quando a trava é de canal. Exige seis diferenças defensáveis com lastro operacional: cada linha riscada na coluna "eles" é uma promessa na coluna "nós". Esta variante devolve cobertura ativa à objeção `confianca-no-canal`, hoje servida só pela body-5 inativa (ver [[welcome-5-sem-variante-ativa]]).
@@ -38,3 +38,5 @@ Nunca depois de outra comparação (body 13 em modo "nós vs. genérico", body 4
 
 ## Notas de cadastro
 Descrição do banco bate com a anatomia (23 campos conferem). Sem HTML no vault para medir altura — `peso` omitido; ver relatório. `6-diferencas-defensaveis` não existe em `requisitos/`; listado no relatório. Fecha, no eixo, a lacuna de `confianca-no-canal` ativa; a flag `ativa` é do banco, não desta nota.
+
+**Conserto de 19/09 (admin, auditor de âncoras)**: só o `<title>` do HTML mudou; schema intacto.
