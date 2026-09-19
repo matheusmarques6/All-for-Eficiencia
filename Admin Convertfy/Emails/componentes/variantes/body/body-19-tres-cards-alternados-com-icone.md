@@ -2,7 +2,7 @@
 tipo: componente
 slug: body-19-tres-cards-alternados-com-icone
 variant_id: d6fb99f3-6243-4f33-92c9-d90105900c98
-nome_no_banco: "body 19 "
+nome_no_banco: "body 19"
 secao: body
 status: aprovada
 fonte: catalogacao-2026-09-19

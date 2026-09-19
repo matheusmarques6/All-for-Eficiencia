@@ -2,7 +2,7 @@
 tipo: componente
 slug: offer-21-brinde-condicionado-com-selos
 variant_id: f8fd38f6-04d0-4337-a130-31e207510b59
-nome_no_banco: "body 21"
+nome_no_banco: "offer 21"
 secao: offer
 status: aprovada
 fonte: catalogacao-2026-09-19
@@ -37,4 +37,4 @@ Quando a mecânica não cabe numa frase de duas linhas: condição com três cl�
 Não com body-21 de body (três selos e garantia) na mesma peça: duas faixas de selos duplicam a remoção de risco e leem como protesto. Não com outro bloco de código (offer-11, offer-20). Bloco full-dark de fecho casa com corpo claro acima.
 
 ## Notas de cadastro
-Homônima da "body 21" da seção body (a2b509a4-2b74-42de-851d-01fe91735847) — variantes diferentes com o mesmo nome no banco; endereçar pelo `variant_id`. Nome "body 21" em `block_type` offer — corrigir no admin. O código embutido em `gift_coupon_line` (sem campo próprio) é decisão de anatomia registrada aqui para a copy saber onde ele mora. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 21", homônima da [[body-21-tres-selos-e-garantia]]; renomeada para "offer 21" em 19/09. O código embutido em `gift_coupon_line` (sem campo próprio) é decisão de anatomia registrada aqui para a copy saber onde ele mora. Sem HTML para medir altura — `peso` omitido; ver relatório.

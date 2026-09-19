@@ -2,7 +2,7 @@
 tipo: componente
 slug: hero-19-retro-com-letreiro
 variant_id: e156f52e-4046-44be-a1e3-cc325a10e405
-nome_no_banco: "hero seciton 19 "
+nome_no_banco: "hero section 19"
 secao: hero
 status: aprovada
 fonte: catalogacao-2026-09-19
@@ -36,6 +36,6 @@ Loja de registro luxo, clínico-sóbrio ou premium-editorial: o gênero arcade l
 Nada da mesma peça pode disputar o gênero: seções vizinhas neutras e curtas — outra seção temática (festiva, editorial serifada) ao lado quebra a ilusão da moldura. Fundo preto pede transição limpa para a seção seguinte clara.
 
 ## Notas de cadastro
-`nome_no_banco` copiado com o erro de grafia e o espaço final que existem no banco ("hero seciton 19 ") — correção é no admin. `registro_vetado` com 3 valores conforme a ficha da catalogação (o formato da nota prevê até 2; registrado no relatório). Sem HTML no vault para medir altura — `peso` omitido.
+Nome no banco corrigido em 19/09 (era "hero seciton 19 ", com erro de grafia e espaço final). `registro_vetado` com 3 valores conforme a ficha da catalogação (o formato da nota prevê até 2; registrado no relatório). Sem HTML no vault para medir altura — `peso` omitido.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saiu `retro_logo_image` (sem slot); example de `retro_headline` = "2 Line Offer". 8 → 7 campos.

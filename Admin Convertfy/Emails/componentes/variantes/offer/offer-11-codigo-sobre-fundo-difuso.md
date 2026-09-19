@@ -2,7 +2,7 @@
 tipo: componente
 slug: offer-11-codigo-sobre-fundo-difuso
 variant_id: 3ce59e7b-0b26-4ec7-9de7-5b8ddc9ca4bc
-nome_no_banco: "body 11"
+nome_no_banco: "offer 11"
 secao: offer
 status: aprovada
 fonte: catalogacao-2026-09-19
@@ -36,4 +36,4 @@ Na mesma peça que uma hero que já entrega o mesmo código (hero 11, 13, 15) se
 Não com outro bloco de código na mesma peça (offer-20, offer-21) — um resgate por peça. Como fecho calmo, casa depois de blocos densos; entre duas seções escuras, o cinza difuso faz a transição.
 
 ## Notas de cadastro
-`nome_no_banco` é "body 11", mas o `block_type` no banco é offer — o arquivo vive em `variantes/offer/` (o caminho é o tipo). Nome a corrigir no admin. Descrição do banco bate com a anatomia. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 11" com `block_type` offer; renomeada para "offer 11" em 19/09. Descrição do banco bate com a anatomia. Sem HTML para medir altura — `peso` omitido; ver relatório.

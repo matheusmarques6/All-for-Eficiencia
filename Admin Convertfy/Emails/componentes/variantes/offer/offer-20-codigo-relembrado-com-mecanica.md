@@ -2,7 +2,7 @@
 tipo: componente
 slug: offer-20-codigo-relembrado-com-mecanica
 variant_id: d2d50046-f27b-42dc-92c6-9c0e83dd57cc
-nome_no_banco: "body 20"
+nome_no_banco: "offer 20"
 secao: offer
 status: aprovada
 fonte: catalogacao-2026-09-19
@@ -36,4 +36,4 @@ Nos toques 1–4 do carrinho ([[abandoned_cart-1]] a [[abandoned_cart-4]]): todo
 Não com segundo bloco de código na peça (offer-11, offer-21): o código aparece uma vez com papel claro. O bloco dinâmico de carrinho do ESP, se presente, fica ACIMA — este painel comenta o item, não o substitui.
 
 ## Notas de cadastro
-`nome_no_banco` é "body 20", mas o `block_type` é offer — arquivo em `variantes/offer/`; nome a corrigir no admin. Cadastro: o `example` de `cart_coupon_condition` tinha markdown e o merge não ancorava — corrigido em 17/09; se a condição sumir na renderização, verificar o example antes de culpar a copy. Sem HTML para medir altura — `peso` omitido; ver relatório.
+Nasceu no banco como "body 20" com `block_type` offer; renomeada para "offer 20" em 19/09. Cadastro: o `example` de `cart_coupon_condition` tinha markdown e o merge não ancorava — corrigido em 17/09; se a condição sumir na renderização, verificar o example antes de culpar a copy. Sem HTML para medir altura — `peso` omitido; ver relatório.
