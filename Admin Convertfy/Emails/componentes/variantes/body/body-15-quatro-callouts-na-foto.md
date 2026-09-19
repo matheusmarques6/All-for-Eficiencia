@@ -16,6 +16,7 @@ registro_vetado: [festivo]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 4, max: 4 }
+peso: { altura_px: 1116, classe: medio, fonte: medido }
 convivencia: []
 exige: [4-detalhes-verificaveis]
 aprendizados: [[[cada-alegacao-e-uma-promessa-operacional]], [[titulos-precisam-carregar-o-argumento]], [[saida-rapida-no-primeiro-terco]]]

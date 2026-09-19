@@ -16,6 +16,7 @@ registro_vetado: [luxo]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 4, max: 4 }
+peso: { altura_px: 1191, classe: medio, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 exige: [4-produtos-com-link, cupom-ativo]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[incentivo-precisa-existir-em-texto]]]

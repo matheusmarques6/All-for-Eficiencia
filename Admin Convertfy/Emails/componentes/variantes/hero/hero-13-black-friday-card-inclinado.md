@@ -15,6 +15,7 @@ registro: [festivo, bold-alto-contraste]
 registro_vetado: [luxo, clinico-sobrio]
 paleta: [escuro-saturado]
 papel_na_peca: [abre]
+peso: { altura_px: 1048, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo, motivo-sazonal]
 aprendizados: [[[incentivo-precisa-existir-em-texto]], [[deadline-falso-queima-o-proximo]]]

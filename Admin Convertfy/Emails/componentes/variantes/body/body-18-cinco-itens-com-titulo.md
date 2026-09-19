@@ -16,6 +16,7 @@ registro_vetado: [luxo]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 5, max: 5 }
+peso: { altura_px: 1129, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[titulos-precisam-carregar-o-argumento]], [[deadline-antes-do-argumento]]]

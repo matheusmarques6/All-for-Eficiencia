@@ -16,6 +16,7 @@ registro_vetado: [volume-impulso]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 1, max: 1 }
+peso: { altura_px: 941, classe: medio, fonte: medido }
 convivencia: []
 exige: [1-produto-com-link]
 aprendizados: [[[titulos-precisam-carregar-o-argumento]]]

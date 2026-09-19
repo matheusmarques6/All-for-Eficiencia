@@ -15,6 +15,7 @@ registro: [bold-alto-contraste]
 registro_vetado: [luxo]
 paleta: [preto-e-branco]
 papel_na_peca: [meio]
+peso: { altura_px: 1076, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[incentivo-precisa-existir-em-texto]]]

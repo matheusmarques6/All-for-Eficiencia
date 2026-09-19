@@ -16,6 +16,7 @@ registro_vetado: [luxo]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 3, max: 3 }
+peso: { altura_px: 1288, classe: pesado, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 exige: [3-produtos-com-link]
 aprendizados: [[[um-cta-dominante-em-email-curto]], [[titulos-precisam-carregar-o-argumento]]]

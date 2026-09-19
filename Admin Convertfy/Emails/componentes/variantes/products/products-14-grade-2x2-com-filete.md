@@ -16,6 +16,7 @@ registro_vetado: [volume-impulso]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 4, max: 4 }
+peso: { altura_px: 1073, classe: medio, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 exige: [4-produtos-com-link]
 aprendizados: [[[um-cta-dominante-em-email-curto]]]

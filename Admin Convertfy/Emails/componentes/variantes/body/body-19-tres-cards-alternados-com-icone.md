@@ -16,6 +16,7 @@ registro_vetado: [luxo, clinico-sobrio]
 paleta: [full-dark]
 papel_na_peca: [meio]
 itens: { min: 3, max: 3 }
+peso: { altura_px: 944, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[titulos-precisam-carregar-o-argumento]]]

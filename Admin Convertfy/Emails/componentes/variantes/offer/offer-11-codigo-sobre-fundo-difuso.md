@@ -15,6 +15,7 @@ registro: [minimalista-leve]
 registro_vetado: [festivo]
 paleta: [cinza-neutro]
 papel_na_peca: [fecha]
+peso: { altura_px: 611, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[incentivo-precisa-existir-em-texto]]]

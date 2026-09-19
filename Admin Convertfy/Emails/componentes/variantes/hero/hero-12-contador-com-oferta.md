@@ -15,6 +15,7 @@ registro: [comercial, volume-impulso]
 registro_vetado: [luxo, clinico-sobrio]
 paleta: [claro]
 papel_na_peca: [abre]
+peso: { altura_px: 937, classe: medio, fonte: medido }
 convivencia: []
 exige: [prazo-real]
 aprendizados: [[[deadline-falso-queima-o-proximo]], [[cadencia-decide-fechamento-ou-farsa]]]

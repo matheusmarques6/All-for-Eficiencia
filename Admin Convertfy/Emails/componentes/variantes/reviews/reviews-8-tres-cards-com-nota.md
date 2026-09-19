@@ -16,6 +16,7 @@ registro_vetado: [volume-impulso]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 3, max: 3 }
+peso: { altura_px: 1359, classe: pesado, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca]
 exige: [3-reviews-com-nome, nota-real]
 aprendizados: [[[depoimento-nao-repete-pessoa]], [[numeros-de-escassez-precisam-de-backing]], [[ausencia-de-prova-social-assume-abertura]]]

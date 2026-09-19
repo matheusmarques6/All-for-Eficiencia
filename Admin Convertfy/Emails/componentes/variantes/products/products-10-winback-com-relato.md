@@ -16,6 +16,7 @@ registro_vetado: [volume-impulso]
 paleta: [com-acento-definido]
 papel_na_peca: [meio]
 itens: { min: 1, max: 1 }
+peso: { altura_px: 772, classe: medio, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca]
 exige: [review-com-nome, 1-produto-com-link]
 aprendizados: [[[depoimento-nao-repete-pessoa]], [[prova-de-terceiro-antes-do-cta]], [[posicao-muda-o-efeito-do-dispositivo]]]

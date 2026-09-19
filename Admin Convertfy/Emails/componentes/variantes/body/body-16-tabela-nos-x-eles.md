@@ -16,6 +16,7 @@ registro_vetado: [luxo]
 paleta: [claro]
 papel_na_peca: [meio]
 itens: { min: 6, max: 6 }
+peso: { altura_px: 1339, classe: pesado, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 exige: [6-diferencas-defensaveis]
 aprendizados: [[[cada-alegacao-e-uma-promessa-operacional]], [[posicao-muda-o-efeito-do-dispositivo]]]

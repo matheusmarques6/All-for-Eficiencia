@@ -16,6 +16,7 @@ registro_vetado: [luxo, clinico-sobrio]
 paleta: [full-dark]
 papel_na_peca: [fecha]
 itens: { min: 3, max: 3 }
+peso: { altura_px: 634, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo, politica-real]
 aprendizados: [[[incentivo-precisa-existir-em-texto]], [[cada-alegacao-e-uma-promessa-operacional]]]

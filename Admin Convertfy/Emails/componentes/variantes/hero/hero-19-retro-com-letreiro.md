@@ -15,6 +15,7 @@ registro: [festivo, popular-informal]
 registro_vetado: [luxo, clinico-sobrio, premium-editorial]
 paleta: [full-dark]
 papel_na_peca: [abre]
+peso: { altura_px: 797, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[quebra-de-formato-atravessa-a-cegueira]]]

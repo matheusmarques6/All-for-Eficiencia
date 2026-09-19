@@ -16,6 +16,7 @@ registro_vetado: [festivo]
 paleta: [preto-e-branco]
 papel_na_peca: [meio]
 itens: { min: 3, max: 3 }
+peso: { altura_px: 959, classe: medio, fonte: medido }
 convivencia: []
 exige: [politica-real]
 aprendizados: [[[remocao-de-risco-escala-com-o-ticket]], [[cada-alegacao-e-uma-promessa-operacional]]]

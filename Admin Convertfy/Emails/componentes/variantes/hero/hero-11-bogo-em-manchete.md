@@ -15,7 +15,7 @@ registro: [comercial, volume-impulso]
 registro_vetado: [luxo, clinico-sobrio, premium-editorial]
 paleta: [com-acento-definido]
 papel_na_peca: [peca-inteira]
-peso: { altura_px: 1180, classe: peca-inteira, fonte: medido }
+peso: { altura_px: 1022, classe: medio, fonte: medido }
 convivencia: [peca-inteira-nao-e-bloco]
 exige: [oferta-bogo-real]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[deadline-falso-queima-o-proximo]]]
@@ -37,6 +37,6 @@ Welcome-1 com incentivo simples de percentual: o dispositivo é BOGO, e forçar 
 Não empilhar com body de oferta (repetiria a manchete). Um offer de código abaixo é o par natural quando há cupom. Depois, só products leve ou footer.
 
 ## Notas de cadastro
-Na run de 17/09 o Curador a descreveu como "peça inteira promocional sem eixos": esta nota é a resposta. A descrição do banco bate com a anatomia.
+Na run de 17/09 o Curador a descreveu como "peça inteira promocional sem eixos": esta nota é a resposta. A descrição do banco bate com a anatomia. Atenção a uma leitura fácil de errar: `papel_na_peca: [peca-inteira]` é PAPEL (ela é o e-mail, não um bloco entre outros), `peso.classe: medio` é ALTURA — a ficha da catalogação declarava `peca-inteira` também na classe, a 1180px, mas nem esse número chegaria ao limiar da classe (≥2000) e a medição de 19/09 dá 1022px. Papel e classe não precisam coincidir.
 
 **Conserto de 19/09 (admin, auditor de âncoras)**: saíram `bogo_coupon_label` e `bogo_coupon_code` (o HTML não tem faixa de cupom — os campos não tinham onde ancorar) e `bogo_logo_image` (sem slot). 9 → 6 campos.

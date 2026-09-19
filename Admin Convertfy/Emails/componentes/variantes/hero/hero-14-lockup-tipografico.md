@@ -15,6 +15,7 @@ registro: [bold-alto-contraste]
 registro_vetado: [clinico-sobrio]
 paleta: [com-acento-definido]
 papel_na_peca: [abre]
+peso: { altura_px: 1006, classe: medio, fonte: medido }
 convivencia: []
 exige: [desconto-percentual]
 aprendizados: [[[cupom-repetido-precisa-de-papel]]]
