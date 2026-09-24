@@ -5,6 +5,7 @@ secao: offer
 nome_no_banco: "offer 2"
 variant_id: 304bf7ce-6a23-4c68-b3a5-c37f551aaa5f
 ativa: true
+dispositivo: oferta_condicionada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [sazonal-data-comemorativa]

@@ -19,6 +19,8 @@ peso: { altura_px: 1022, classe: medio, fonte: medido }
 convivencia: [peca-inteira-nao-e-bloco]
 exige: [oferta-bogo-real]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[deadline-falso-queima-o-proximo]]]
+ativa: true
+dispositivo: oferta_em_manchete
 ---
 
 ## Descrição curta

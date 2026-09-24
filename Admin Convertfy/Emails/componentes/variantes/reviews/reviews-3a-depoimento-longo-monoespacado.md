@@ -4,7 +4,9 @@ slug: reviews-3a-depoimento-longo-monoespacado
 secao: reviews
 nome_no_banco: "review 2"
 variant_id: 7dafa6ca-65de-4907-b52c-dad83ecd63a4
-ativa: true
+ativa: false
+dispositivo: prova_por_relato
+legado: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [checkout-abandonado, carrinho-abandonado]
@@ -36,7 +38,7 @@ serve_estruturas: []
 fonte: inventario-2026-08-31
 densidade_no_banco: minimal
 schema_campos: 12
-status: aprovada
+status: legado
 ---
 
 > **Correção (04/09/2026).** O `nome_no_banco` desta nota dizia `review 3`.
@@ -145,3 +147,11 @@ Proibições: modelo com rosto, fundo colorido, sombra dura no chão, prop de ce
 ---
 
 HTML: [[_html/reviews-3a-depoimento-longo-monoespacado.html]] · Seção: [[_reviews]] · Protocolo: [[_protocolo-de-selecao]]
+
+# Auditoria de legado
+
+- **Verificado em:** 2026-09-24.
+- **Dispositivo histórico:** `dispositivo: prova_por_relato`.
+- **Situação no banco:** O `variant_id` antigo não existe mais no banco. A estrutura é igual à de [[reviews-3b-depoimento-longo-monoespacado]] e usa dois relatos longos com fotografia do item.
+- **Decisão:** Manter como registro aposentado e duplicado. Não há substituição direta no banco atual.
+- **Elegibilidade:** continua `legado: true`, `ativa: false` e `status: legado`.

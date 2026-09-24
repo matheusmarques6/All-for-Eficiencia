@@ -5,6 +5,7 @@ secao: footer
 nome_no_banco: "footer 4 - dark"
 variant_id: 7ba06b7c-8a6a-423b-9478-262fb3c2ce1d
 ativa: true
+dispositivo: menu_de_saida
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

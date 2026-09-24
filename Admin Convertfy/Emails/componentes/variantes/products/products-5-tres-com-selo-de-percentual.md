@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 5 - 3 produtos mesmo fundo"
 variant_id: 7ef1a9f4-5141-4732-b58c-15628ac8e4a8
 ativa: true
+dispositivo: vitrine_narrada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [campanha-promocional]

@@ -19,6 +19,8 @@ peso: { altura_px: 966, classe: medio, fonte: medido }
 convivencia: [raio-alto-nao-convive-com-canto-vivo]
 exige: []
 aprendizados: []
+ativa: true
+dispositivo: abertura_editorial
 ---
 
 ## Descrição curta

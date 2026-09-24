@@ -19,6 +19,8 @@ peso: { altura_px: 611, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[incentivo-precisa-existir-em-texto]]]
+ativa: true
+dispositivo: codigo_entregue
 ---
 
 ## Descrição curta

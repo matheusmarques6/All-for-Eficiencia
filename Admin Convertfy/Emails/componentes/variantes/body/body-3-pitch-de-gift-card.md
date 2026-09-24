@@ -4,7 +4,8 @@ slug: body-3-pitch-de-gift-card
 secao: body
 nome_no_banco: "body 3 - bridge features cards"
 variant_id: 4e9726d1-40fe-40ce-aa81-c2a33b062603
-ativa: true
+ativa: false
+dispositivo: tese_declarada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [gift-card, sazonal-data-comemorativa]

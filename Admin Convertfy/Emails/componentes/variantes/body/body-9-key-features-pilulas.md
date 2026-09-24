@@ -4,7 +4,8 @@ slug: body-9-key-features-pilulas
 secao: body
 nome_no_banco: "body 9 - key features pilulas"
 variant_id: 2daabd5e-f366-4130-b6f8-636ad77781f4
-ativa: true
+ativa: false
+dispositivo: nao_classificado
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

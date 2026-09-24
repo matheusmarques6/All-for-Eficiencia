@@ -4,7 +4,8 @@ slug: body-6-skin-minimalism-101
 secao: body
 nome_no_banco: "body 6 - bridge skin minimalism 101"
 variant_id: 35a68bb0-7a74-40bc-a342-32ef68605aaf
-ativa: true
+ativa: false
+dispositivo: nao_classificado
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

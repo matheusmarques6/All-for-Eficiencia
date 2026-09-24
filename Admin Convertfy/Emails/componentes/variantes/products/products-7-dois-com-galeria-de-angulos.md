@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 7 - dois produtos"
 variant_id: cee34b0a-030c-43df-93b6-c54de6f00569
 ativa: true
+dispositivo: galeria_de_angulos
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [lancamento]

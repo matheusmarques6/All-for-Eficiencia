@@ -1,67 +1,34 @@
 ---
 tipo: secao
 secao: body
-variantes: 9
-ativas: 7
-com_julgamento: 5
+variantes: 21
+ativas: 13
 status: aprovada
 ---
 
+Nota de seção de `body` sincronizada com `public.email_component_variants` em 2026-09-24.
+
 # Cobertura
 
-9 variantes, 7 ativas, mas só **5 com julgamento** (`status: aprovada`) —
-e dessas 5, duas ([[body-5-comparacao-nos-vs-eles]] e
-[[body-10-listicle-educativo]]) estão `ativa: false`. Isso deixa apenas
-**3 variantes** (body-2, body-3, body-4) simultaneamente ativas e
-julgadas — o conjunto que o protocolo de fato rankeia por eixo.
-
-As outras 4 ([[body-quatro-variantes-sem-julgamento]]: body-6, body-7,
-body-8, body-9) estão `ativa: true` mas com `status: sem-julgamento` e
-todos os eixos de ranking vazios — `momento`, `objecao`, `registro`
-em branco nas quatro. Elas existem, o pipeline pode renderizá-las,
-mas como nunca perdem por veto nem ganham por match de eixo, o ranking
-nunca tem razão para colocá-las à frente de uma variante julgada — na
-prática, **nunca são escolhidas** enquanto houver candidata julgada
-disponível para o mesmo momento.
+O banco possui **21 registros**, dos quais **13 ativos**. Três registros ativos são espelhos de ofertas e não criam notas canônicas separadas.
 
 # Chave de decisão
 
-Entre as 3 variantes ativas e julgadas, `momento` e `objeção` já separam:
+Escolha primeiro o efeito que o bloco precisa produzir — desenvolver argumento, responder objeção ou reduzir risco — e então peça o dispositivo correspondente. Requisitos e adequação da variante são decididos depois; `momento` não é mais chave de decisão.
 
-| Variante | Momento | Objeção | Ativa |
-|---|---|---|---|
-| [[body-2-colagem-de-data-comemorativa]] | sazonal-data-comemorativa | — | sim |
-| [[body-3-pitch-de-gift-card]] | gift-card, sazonal-data-comemorativa | escolha-variedade, pertencimento | sim |
-| [[body-4-comparativo-em-duas-colunas]] | welcome-meio, welcome-tardio, consideração, browse-abandonment | qualidade-eficácia, preço-valor | sim |
+| Dispositivo | Total | Ativas |
+|---|---:|---:|
+| [[tese_declarada]] | 5 | 3 |
+| [[lista_enumerada]] | 4 | 2 |
+| [[mecanismo_apontado]] | 1 | 1 |
+| [[antes_e_depois]] | 1 | 1 |
+| [[comparacao_pareada]] | 3 | 2 |
+| [[duvida_antecipada]] | 1 | 0 |
+| [[cena_de_uso]] | 2 | 2 |
+| [[remocao_de_risco]] | 1 | 1 |
+| [[catalogo_por_ocasiao]] | 1 | 1 |
+| `nao_classificado` | 2 | 0 |
 
-Duas variantes julgadas ficam de fora já no passo 3 do
-[[_protocolo-de-selecao]] (lista restrita a `ativa: true`) por estarem
-inativas — registradas aqui porque descrevem o que a seção *deveria*
-cobrir se fossem reativadas:
+# Regra operacional
 
-| Variante | Momento | Objeção | Ativa |
-|---|---|---|---|
-| [[body-5-comparacao-nos-vs-eles]] | welcome-meio, welcome-tardio, carrinho-abandonado, browse-abandonment | confiança-no-canal, preço-valor | **não** |
-| [[body-10-listicle-educativo]] | nutrição-de-conteúdo, welcome-meio, reengajamento | uso-aprendizado | **não** |
-
-As 4 sem-julgamento não entram em tabela de eixos porque não têm eixo
-nenhum — são escolhidas às cegas quando sorteadas, nunca por critério.
-
-# Onde a seção não cobre
-
-- Entre as variantes que o protocolo de fato consegue rankear (as 3
-  ativas+julgadas), só **duas objeções** têm cobertura:
-  `qualidade-eficacia` e `preco-valor` (body-4, o comparativo). Todo o
-  resto do vocabulário de objeções fica sem body julgado e ativo —
-  inclusive `uso-aprendizado` (body-10 existe mas está inativa).
-- **Dispositivos não cobertos** (por `objecao × papel`), pedidos pelo
-  batch 6249aef2: tese com 3 itens sem cupom
-  ([[body-tese-3-itens-sem-cupom]]) e faixa de garantias com 3 selos
-  ([[body-garantias-3-selos]]) — ambos para `confianca-no-canal` /
-  `qualidade-eficacia`.
-- [[body-5-comparacao-nos-vs-eles]] é a **única** variante do catálogo
-  inteiro (44) que serve a objeção `confianca-no-canal` — e está inativa.
-  Ver [[welcome-5-sem-variante-ativa]].
-- Nenhuma cobertura julgada e ativa para `campanha-promocional`,
-  `carrinho-abandonado`, `checkout-abandonado`, `welcome-1`, `lançamento`
-  ou `consideração`.
+O Estruturador pede o dispositivo. O Curador escolhe, entre as variantes ativas que o realizam, aquela cujos requisitos e ativos estão disponíveis.

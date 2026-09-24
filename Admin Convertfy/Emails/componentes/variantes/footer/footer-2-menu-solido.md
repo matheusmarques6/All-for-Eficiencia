@@ -5,6 +5,7 @@ secao: footer
 nome_no_banco: "footer 2"
 variant_id: 85557ad0-dc20-48fa-8baf-b14c2e1a147b
 ativa: true
+dispositivo: menu_de_saida
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

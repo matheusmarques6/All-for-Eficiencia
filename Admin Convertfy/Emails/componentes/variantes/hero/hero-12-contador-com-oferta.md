@@ -19,6 +19,8 @@ peso: { altura_px: 937, classe: medio, fonte: medido }
 convivencia: []
 exige: [prazo-real]
 aprendizados: [[[deadline-falso-queima-o-proximo]], [[cadencia-decide-fechamento-ou-farsa]]]
+ativa: true
+dispositivo: prazo_declarado
 ---
 
 ## Descrição curta

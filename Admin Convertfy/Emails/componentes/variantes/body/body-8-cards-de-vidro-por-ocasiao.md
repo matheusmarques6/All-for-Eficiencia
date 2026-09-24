@@ -19,6 +19,8 @@ peso: { altura_px: 953, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: []
+ativa: true
+dispositivo: catalogo_por_ocasiao
 ---
 
 ## Descrição curta

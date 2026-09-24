@@ -4,7 +4,9 @@ slug: reviews-8-ugc-de-comunidade
 secao: reviews
 nome_no_banco: "review 8"
 variant_id: d92f812f-d83e-4e82-99a6-11286eba0e07
-ativa: true
+ativa: false
+dispositivo: prova_com_vitrine
+legado: true
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []
@@ -36,7 +38,7 @@ serve_estruturas: []
 fonte: inventario-2026-08-31
 densidade_no_banco: null
 schema_campos: 18
-status: aprovada
+status: legado
 ---
 
 ## Descrição curta
@@ -151,3 +153,11 @@ Proibições: foto de banco de imagem, modelo profissional posando, packshot em 
 ---
 
 HTML: [[_html/reviews-8-ugc-de-comunidade.html]] · Seção: [[_reviews]] · Protocolo: [[_protocolo-de-selecao]]
+
+# Auditoria de legado
+
+- **Verificado em:** 2026-09-24.
+- **Dispositivo histórico:** `dispositivo: prova_com_vitrine`.
+- **Situação no banco:** O `variant_id` antigo não existe mais. O nome `review 8` foi reutilizado no banco por [[reviews-8-tres-cards-com-nota]], que é outra peça e realiza `prova_por_volume`.
+- **Decisão:** Manter como referência aposentada de UGC. Não tratar a variante ativa `review 8` como sua substituição visual.
+- **Elegibilidade:** continua `legado: true`, `ativa: false` e `status: legado`.

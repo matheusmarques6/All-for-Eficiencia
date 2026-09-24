@@ -19,6 +19,8 @@ peso: { altura_px: 1006, classe: medio, fonte: medido }
 convivencia: []
 exige: [desconto-percentual]
 aprendizados: [[[cupom-repetido-precisa-de-papel]]]
+ativa: true
+dispositivo: oferta_em_manchete
 ---
 
 ## Descrição curta

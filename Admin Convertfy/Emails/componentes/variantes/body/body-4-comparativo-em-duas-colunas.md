@@ -5,6 +5,7 @@ secao: body
 nome_no_banco: "body 4 - bridge fundo cards"
 variant_id: 63736c6c-7d1b-4c7c-83ea-bae15599f1d7
 ativa: true
+dispositivo: comparacao_pareada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio, welcome-tardio, consideracao, browse-abandonment]

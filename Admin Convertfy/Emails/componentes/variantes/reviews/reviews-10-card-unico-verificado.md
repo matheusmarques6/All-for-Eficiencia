@@ -20,6 +20,8 @@ peso: { altura_px: 658, classe: medio, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca]
 exige: [review-com-nome]
 aprendizados: [[[depoimento-nao-repete-pessoa]], [[prova-de-terceiro-antes-do-cta]]]
+ativa: true
+dispositivo: prova_por_relato
 ---
 
 ## Descrição curta

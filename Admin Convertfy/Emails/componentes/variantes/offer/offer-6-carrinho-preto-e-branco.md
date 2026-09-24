@@ -5,6 +5,7 @@ secao: offer
 nome_no_banco: "offer 6"
 variant_id: 1e45ed32-01c4-487c-bb60-f986623a3270
 ativa: true
+dispositivo: carrinho_dinamico
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [carrinho-abandonado, checkout-abandonado]

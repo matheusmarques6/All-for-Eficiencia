@@ -5,6 +5,7 @@ secao: body
 nome_no_banco: "body 2 - bridge textos linha produtos"
 variant_id: d5fb804f-8934-4c39-b011-950e20802498
 ativa: true
+dispositivo: cena_de_uso
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [sazonal-data-comemorativa]

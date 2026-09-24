@@ -20,6 +20,8 @@ peso: { altura_px: 941, classe: medio, fonte: medido }
 convivencia: []
 exige: [1-produto-com-link]
 aprendizados: [[[titulos-precisam-carregar-o-argumento]]]
+ativa: true
+dispositivo: produto_unico_aprofundado
 ---
 
 ## Descrição curta

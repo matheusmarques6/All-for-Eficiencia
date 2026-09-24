@@ -20,6 +20,8 @@ peso: { altura_px: 1191, classe: medio, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 exige: [4-produtos-com-link, cupom-ativo]
 aprendizados: [[[cupom-repetido-precisa-de-papel]], [[incentivo-precisa-existir-em-texto]]]
+ativa: true
+dispositivo: vitrine_paralela
 ---
 
 ## Descrição curta

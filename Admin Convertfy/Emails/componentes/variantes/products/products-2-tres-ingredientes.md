@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 2 - Three Ingredients. Zero Fillers"
 variant_id: 8ef65206-2f01-408f-ab07-c17f57cc136c
 ativa: true
+dispositivo: mecanismo_apontado
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [consideracao]

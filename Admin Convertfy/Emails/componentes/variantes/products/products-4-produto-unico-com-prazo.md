@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 4 - um produto"
 variant_id: 7bd9e98b-f016-4495-8245-88df69b8f4e1
 ativa: true
+dispositivo: produto_unico_aprofundado
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [campanha-promocional]

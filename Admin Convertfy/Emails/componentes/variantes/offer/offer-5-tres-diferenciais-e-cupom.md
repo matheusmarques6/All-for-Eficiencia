@@ -4,7 +4,8 @@ slug: offer-5-tres-diferenciais-e-cupom
 secao: offer
 nome_no_banco: "offer 5"
 variant_id: 5a34dbaf-6710-4282-8b7b-3c03921bd6fc
-ativa: false
+ativa: true
+dispositivo: oferta_adiada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio]

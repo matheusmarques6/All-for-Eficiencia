@@ -19,6 +19,8 @@ peso: { altura_px: 403, classe: leve, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[titulos-precisam-carregar-o-argumento]]]
+ativa: true
+dispositivo: tese_declarada
 ---
 
 ## Descrição curta

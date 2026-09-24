@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 8 - 9 produtos"
 variant_id: 9c00bf11-22e4-4675-98aa-499aee857d7d
 ativa: true
+dispositivo: vitrine_paralela
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [catalogo-mais-vendidos]

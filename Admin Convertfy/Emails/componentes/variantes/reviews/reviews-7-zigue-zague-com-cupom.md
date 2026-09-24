@@ -5,6 +5,7 @@ secao: reviews
 nome_no_banco: "review 7"
 variant_id: a8468e9f-c8d8-4c71-b416-6a4f6f5ca0f9
 ativa: true
+dispositivo: prova_com_vitrine
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [consideracao]

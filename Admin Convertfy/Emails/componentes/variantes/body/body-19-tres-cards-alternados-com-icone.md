@@ -20,6 +20,8 @@ peso: { altura_px: 944, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[titulos-precisam-carregar-o-argumento]]]
+ativa: true
+dispositivo: lista_enumerada
 ---
 
 ## Descrição curta

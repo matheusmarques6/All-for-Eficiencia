@@ -19,6 +19,8 @@ peso: { altura_px: 797, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: [[[quebra-de-formato-atravessa-a-cegueira]]]
+ativa: true
+dispositivo: moldura_de_genero
 ---
 
 ## Descrição curta
