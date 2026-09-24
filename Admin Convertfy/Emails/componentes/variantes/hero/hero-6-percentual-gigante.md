@@ -5,6 +5,7 @@ secao: hero
 nome_no_banco: "welcome - hero section 6"
 variant_id: 72c32ec8-bbd2-4d2c-a938-3c24b65848cd
 ativa: true
+dispositivo: oferta_em_manchete
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-1]

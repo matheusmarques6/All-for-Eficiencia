@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 9 - 4 produtos"
 variant_id: 2f115df3-1ddd-4ca4-bb45-e3337cef5546
 ativa: true
+dispositivo: escassez_por_estoque
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [queima-de-estoque]

@@ -5,6 +5,7 @@ secao: footer
 nome_no_banco: "footer 3 - dark"
 variant_id: a2bb5abd-931e-4884-aae7-627b11c75f19
 ativa: true
+dispositivo: assinatura_minima
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

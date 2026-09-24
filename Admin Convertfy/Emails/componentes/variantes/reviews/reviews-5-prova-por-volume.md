@@ -5,6 +5,7 @@ secao: reviews
 nome_no_banco: "review 5"
 variant_id: f8ed9f85-f0f3-47f3-879a-2dd65aba0f86
 ativa: true
+dispositivo: prova_por_volume
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [consideracao, reengajamento]

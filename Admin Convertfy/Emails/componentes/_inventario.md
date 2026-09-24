@@ -1,77 +1,74 @@
 ---
 tipo: inventario
 status: aprovada
-fonte: componentesinventario.md
-extraido_em: 2026-08-31
-branch: componentes/estrutura
+fonte: supabase
+extraido_em: 2026-09-24
+registros_no_banco: 75
+variantes_canonicas: 72
+ativas_no_banco: 67
 ---
 
-Números e procedência da biblioteca de 44 variantes. Sem prosa nova — os
-julgamentos ficam nas notas de seção ([[_hero]], [[_body]], [[_products]],
-[[_reviews]], [[_offer]], [[_footer]]) e nas notas de variante.
-
-# Fonte e conferência
-
-- Fonte: `C:\Users\Usuario\Downloads\componentesinventario.md`, extraído do
-  Supabase (`email_component_variants`) em **2026-08-31**.
-- Branch de referência: `componentes/estrutura`.
-- O HTML das 44 variantes foi conferido por md5 contra o banco:
-  **44 de 44** bateram. 35 vieram fiéis do próprio markdown do inventário;
-  as outras 9 (base64 embutido truncado no markdown) foram puxadas
-  diretamente do banco e conferidas linha a linha contra a tabela de
-  md5/bytes extraída por SQL. Detalhe em
-  `.superpowers/sdd/2026-08-31-vault-componentes-email/html-md5-do-banco.md`.
+Snapshot atual de `public.email_component_variants`: **75 registros**, sendo **72 variantes canônicas** e **3 espelhos ativos de offer na seção body**. Há **67 registros ativos** e nenhum registro sem `dispositivo`.
 
 # Cobertura por seção
 
-| Seção | Variantes | Ativas |
-|---|---|---|
-| header | 0 | — |
-| hero | 9 | 9 |
-| body | 9 | 7 |
-| products | 9 | 9 |
-| reviews | 7 | 7 |
-| cta | 0 | — |
-| offer | 6 | 6 |
+| Seção | Registros | Ativos |
+|---|---:|---:|
+| body | 21 | 13 |
 | footer | 4 | 4 |
-| **Total** | **44** | **42** |
+| hero | 18 | 18 |
+| offer | 9 | 9 |
+| products | 15 | 15 |
+| reviews | 8 | 8 |
+| **Total** | **75** | **67** |
 
-`header` e `cta` têm zero variantes — a lacuna estrutural mais importante
-do conjunto: quando o blueprint pede uma dessas seções, o pipeline cai
-silenciosamente no template global. Ver [[header-sem-variante]] e
-[[cta-sem-variante]].
+`header` e `cta` continuam sem variantes. Os três espelhos de `body` são `offer 1 (body)`, `offer 4 (body)` e `offer 11 (body)`; eles reutilizam notas canônicas de offer.
 
-# Julgamento e schema
+# Cobertura por dispositivo
 
-- **Prosa:** 40 de 44 variantes têm ao menos um dos seis campos de
-  julgamento (descrição, quando usar, quando NÃO usar, orientação de copy,
-  design system, direção fotográfica) preenchido; 4 não têm nenhum —
-  `body 6`, `body 7`, `body 8`, `body 9`, todas ativas. Ver
-  [[body-quatro-variantes-sem-julgamento]].
-- **Schema:** 39 de 44 têm campos de `output_schema` declarados; 5 estão
-  zerados. Ver [[cinco-variantes-sem-schema]].
+| Dispositivo | Registros | Ativos |
+|---|---:|---:|
+| abertura_editorial | 3 | 3 |
+| antes_e_depois | 1 | 1 |
+| assinatura_minima | 1 | 1 |
+| campanha_nomeada | 2 | 2 |
+| carrinho_dinamico | 1 | 1 |
+| catalogo_por_ocasiao | 1 | 1 |
+| cena_de_uso | 2 | 2 |
+| codigo_entregue | 4 | 4 |
+| codigo_relembrado | 2 | 2 |
+| comparacao_pareada | 3 | 2 |
+| duvida_antecipada | 1 | 0 |
+| escassez_por_estoque | 1 | 1 |
+| galeria_de_angulos | 1 | 1 |
+| lineup_de_colecao | 3 | 3 |
+| lista_enumerada | 4 | 2 |
+| mecanismo_apontado | 2 | 2 |
+| menu_de_saida | 3 | 3 |
+| moldura_de_genero | 1 | 1 |
+| nao_classificado | 2 | 0 |
+| oferta_adiada | 2 | 2 |
+| oferta_condicionada | 3 | 3 |
+| oferta_de_ajuda | 1 | 1 |
+| oferta_em_manchete | 4 | 4 |
+| pergunta_ao_leitor | 1 | 1 |
+| prazo_declarado | 1 | 1 |
+| produto_unico_aprofundado | 2 | 2 |
+| prova_com_vitrine | 2 | 2 |
+| prova_por_autoridade | 1 | 1 |
+| prova_por_relato | 3 | 3 |
+| prova_por_volume | 2 | 2 |
+| remocao_de_risco | 1 | 1 |
+| tese_declarada | 5 | 3 |
+| vitrine_narrada | 4 | 4 |
+| vitrine_paralela | 5 | 5 |
 
-# Vocabulário controlado
+Existem **33 dispositivos utilizáveis** e o valor de controle `nao_classificado`. As definições operacionais estão em `componentes/dispositivos/`.
 
-| Camada | Contagem |
-|---|---|
-| `eixos/` (momento + objecao + paleta + papel-na-peca + registro) | 56 |
-| `requisitos/` | 52 |
-| `convivencia/` | 6 |
+# Proveniência
 
-# Lacunas
+- Fonte de verdade: projeto Supabase `ppygkfeffknypfncsnlv`, tabela `public.email_component_variants`.
+- Data de conferência: 2026-09-24.
+- Notas canônicas: 72; notas locais marcadas `legado: true` não entram na biblioteca ativa.
 
-15 notas em `lacunas/`: [[header-sem-variante]] ·
-[[cta-sem-variante]] · [[body-quatro-variantes-sem-julgamento]] ·
-[[cinco-variantes-sem-schema]] · [[reviews-3-duplicado]] ·
-[[hero-8-duplicata-de-hero-10]] · [[offer-e-footer-sem-design-system]] ·
-[[o-que-o-curador-ainda-nao-tem]] · [[migrations-atras-do-banco-vivo]] ·
-[[welcome-5-sem-variante-ativa]] · [[dezesseis-variantes-sem-objecao]] ·
-[[estruturas-de-welcome-sem-variantes]] ·
-[[tags-do-banco-contradizem-a-prosa]] · [[conceitos-sem-requisito]] ·
-[[aplica-a-nao-reflete-o-corpo]].
-
----
-
-Protocolo que consome estes números: [[_protocolo-de-selecao]] · Ponte de
-parâmetros: [[_parametros-da-loja]]
+Legadas: [[_auditoria-das-variantes-legadas]] · Tags: [[_glossario-de-tags-das-variantes]]

@@ -19,6 +19,8 @@ peso: { altura_px: 977, classe: medio, fonte: medido }
 convivencia: []
 exige: []
 aprendizados: []
+ativa: true
+dispositivo: abertura_editorial
 ---
 
 ## Descrição curta

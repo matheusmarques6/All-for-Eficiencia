@@ -1,53 +1,29 @@
 ---
 tipo: secao
 secao: offer
-variantes: 6
-ativas: 4
-com_julgamento: 6
+variantes: 9
+ativas: 9
 status: aprovada
 ---
 
+Nota de seção de `offer` sincronizada com `public.email_component_variants` em 2026-09-24.
+
 # Cobertura
 
-6 variantes, 4 ativas, todas julgadas. [[offer-4-manifesto-antes-do-cupom]] e
-[[offer-5-tres-diferenciais-e-cupom]] estão `ativa: false` desde 04/09 (alinhadas
-ao cadastro) — eram as únicas de `welcome-1`/`welcome-meio` e as únicas com
-objeção declarada; hoje nenhum offer ativo serve o welcome nem ataca objeção.
+O banco possui **9 registros**, dos quais **9 ativos**.
 
 # Chave de decisão
 
-`momento` separa a maior parte das seis, mas não todas sem ambiguidade:
-offer-3 (`browse-abandonment, carrinho-abandonado`) e offer-6
-(`carrinho-abandonado, checkout-abandonado`) declaram ambas
-`carrinho-abandonado` — não é um caso de momentos disjuntos. A `objeção`
-refina a leitura dentro de momentos próximos (welcome-1 vs. welcome-meio)
-e, no caso de offer-3 e offer-6, é `peso`/`papel_na_peca` — não `momento`
-— que os separa (ver "Como ler" abaixo). A dependência de cupom de cada
-uma é gate do passo 4, resolvido por código antes do ranking.
+Escolha primeiro o efeito que o bloco precisa produzir — explicitar, entregar ou relembrar o incentivo — e então peça o dispositivo correspondente. Requisitos e adequação da variante são decididos depois; `momento` não é mais chave de decisão.
 
-| Variante | Momento | Objeção | Registro |
-|---|---|---|---|
-| [[offer-1-condicao-sem-imagem]] | campanha-promocional | preço-valor | — |
-| [[offer-2-duas-ofertas-sazonais]] | sazonal-data-comemorativa | preço-valor, disponibilidade-urgência | — |
-| [[offer-3-lembrete-de-cupom]] | browse-abandonment, carrinho-abandonado | preço-valor | — |
-| [[offer-4-manifesto-antes-do-cupom]] | welcome-1 | pertencimento | premium-editorial |
-| [[offer-5-tres-diferenciais-e-cupom]] | welcome-meio | preço-valor | premium-editorial |
-| [[offer-6-carrinho-preto-e-branco]] | carrinho-abandonado, checkout-abandonado | preço-valor | bold-alto-contraste |
+| Dispositivo | Total | Ativas |
+|---|---:|---:|
+| [[carrinho_dinamico]] | 1 | 1 |
+| [[codigo_entregue]] | 1 | 1 |
+| [[codigo_relembrado]] | 2 | 2 |
+| [[oferta_adiada]] | 2 | 2 |
+| [[oferta_condicionada]] | 3 | 3 |
 
-**Como ler:** offer-4 e offer-5 têm o mesmo registro (`premium-editorial`)
-— é só o `momento` (welcome-1 vs. welcome-meio) e a `objeção`
-(pertencimento vs. preço-valor) que decidem qual entra em qual e-mail da
-régua. offer-3 e offer-6 disputam momentos de abandono próximos: offer-6
-é `peça-inteira` desenhada para mostrar o carrinho; offer-3 é mais leve e
-serve também browse-abandonment, onde não há carrinho para renderizar.
+# Regra operacional
 
-# Onde a seção não cobre
-
-- Nenhum offer para `consideração`, `reengajamento`, `lançamento`,
-  `cross-sell`, `catálogo-mais-vendidos`, `queima-de-estoque` ou
-  `pós-compra`.
-- Nenhum offer ataca `qualidade-eficácia`, `amplitude-de-catálogo`,
-  `escolha-variedade`, `confiança-no-canal` ou `suporte-dúvida` — só
-  `pertencimento` (offer-4) e `preço-valor` (offer-5) têm oferta com
-  objeção declarada, e as duas estão inativas; as outras quatro não declaram
-  objeção nenhuma.
+O Estruturador pede o dispositivo. O Curador escolhe, entre as variantes ativas que o realizam, aquela cujos requisitos e ativos estão disponíveis.

@@ -20,6 +20,8 @@ peso: { altura_px: 959, classe: medio, fonte: medido }
 convivencia: []
 exige: [politica-real]
 aprendizados: [[[remocao-de-risco-escala-com-o-ticket]], [[cada-alegacao-e-uma-promessa-operacional]]]
+ativa: true
+dispositivo: remocao_de_risco
 ---
 
 ## Descrição curta

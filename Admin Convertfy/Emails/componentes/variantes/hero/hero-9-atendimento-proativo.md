@@ -5,6 +5,7 @@ secao: hero
 nome_no_banco: "welcome - hero section 9"
 variant_id: 85006b06-b7db-498e-af9d-4db11be4fd5f
 ativa: true
+dispositivo: oferta_de_ajuda
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [browse-abandonment, reengajamento]

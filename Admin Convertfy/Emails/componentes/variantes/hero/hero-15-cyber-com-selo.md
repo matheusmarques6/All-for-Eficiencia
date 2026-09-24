@@ -19,6 +19,8 @@ peso: { altura_px: 855, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo, motivo-sazonal]
 aprendizados: [[[incentivo-precisa-existir-em-texto]], [[deadline-falso-queima-o-proximo]]]
+ativa: true
+dispositivo: campanha_nomeada
 ---
 
 ## Descrição curta

@@ -4,7 +4,8 @@ slug: offer-4-manifesto-antes-do-cupom
 secao: offer
 nome_no_banco: "offer 4"
 variant_id: 69ede46f-1534-431c-bdab-2d7be60ce236
-ativa: false
+ativa: true
+dispositivo: oferta_adiada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-1]

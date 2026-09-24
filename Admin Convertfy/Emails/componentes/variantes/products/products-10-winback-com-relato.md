@@ -3,7 +3,7 @@ tipo: componente
 slug: products-10-winback-com-relato
 variant_id: c43b3b63-88b8-4527-96d1-da10d19b840e
 nome_no_banco: "produto 10"
-secao: products
+secao: reviews
 status: aprovada
 fonte: catalogacao-2026-09-19
 schema_campos: 7
@@ -20,6 +20,8 @@ peso: { altura_px: 772, classe: medio, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca]
 exige: [review-com-nome, 1-produto-com-link]
 aprendizados: [[[depoimento-nao-repete-pessoa]], [[prova-de-terceiro-antes-do-cta]], [[posicao-muda-o-efeito-do-dispositivo]]]
+ativa: true
+dispositivo: prova_por_relato
 ---
 
 ## Descrição curta

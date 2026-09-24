@@ -5,6 +5,7 @@ secao: body
 nome_no_banco: "body 10 - listicle educativo 3 dicas"
 variant_id: 42c883e5-6c4a-43df-b18f-e7ee866e4ae7
 ativa: false
+dispositivo: lista_enumerada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [nutricao-de-conteudo, welcome-meio, reengajamento]

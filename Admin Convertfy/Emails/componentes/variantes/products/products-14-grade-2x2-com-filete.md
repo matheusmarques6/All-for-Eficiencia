@@ -20,6 +20,8 @@ peso: { altura_px: 1073, classe: medio, fonte: medido }
 convivencia: [grade-de-produtos-nao-convive-com-review-vitrine]
 exige: [4-produtos-com-link]
 aprendizados: [[[um-cta-dominante-em-email-curto]]]
+ativa: true
+dispositivo: vitrine_paralela
 ---
 
 ## Descrição curta

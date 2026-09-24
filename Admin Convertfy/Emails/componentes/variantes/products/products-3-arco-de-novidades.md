@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 3 - grid 4 produtos"
 variant_id: a15a6331-8761-4025-8d70-574c18fcd40b
 ativa: true
+dispositivo: lineup_de_colecao
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [lancamento]

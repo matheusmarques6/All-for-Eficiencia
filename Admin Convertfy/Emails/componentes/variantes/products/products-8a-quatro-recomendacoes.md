@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produto 8 - 4 produtos"
 variant_id: 640b0a34-8632-4041-8378-38fe804c1516
 ativa: true
+dispositivo: vitrine_narrada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [cross-sell, catalogo-mais-vendidos]

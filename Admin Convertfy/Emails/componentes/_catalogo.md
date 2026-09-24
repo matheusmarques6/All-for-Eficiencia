@@ -1,60 +1,87 @@
 ---
 tipo: catalogo
-gerado_em: 2026-09-14
-variantes: 44
-status: gerado
+gerado_em: 2026-09-24
+variantes: 72
+status: aprovada
 ---
 
-**Gerado por `.tools/gera_catalogo.js` — não editar à mão.**
-Uma linha por variante, todos os campos de decisão do frontmatter.
-Serve os passos 3–8 de [[_protocolo-de-selecao]] em uma única leitura;
-a prosa de julgamento continua nas notas de variante.
-Legenda: — = lista vazia (não discrimina) · ✓/✗ = `ativa`.
-`exige` = gates (eliminam) · `diretivas_de_imagem` = brief da foto (não elimina).
+Catálogo canônico sincronizado com o banco. A decisão parte de **dispositivo**, não de `momento`: o Estruturador pede o mecanismo e o Curador escolhe uma variante ativa capaz de realizá-lo.
 
-| variante | secao | ativa | schema | momento | momento_vetado | objecao | registro | registro_vetado | paleta | papel_na_peca | exige | diretivas_de_imagem | slots | itens | peso | convivencia |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| [[hero-10-lineup-de-colecao]] | hero | ✓ | 4 | welcome-meio, welcome-tardio, newsletter, sazonal-data-comemorativa, cross-sell, browse-abandonment | carrinho-abandonado, checkout-abandonado, transacional | amplitude-de-catalogo | — | luxo, premium-editorial | claro | meio | — | foto-estudio-fundo-claro, terco-superior-liso | 0 | — | medio · 883px | — |
-| [[hero-2-pergunta-comparativa]] | hero | ✓ | 4 | consideracao, reengajamento | carrinho-abandonado, checkout-abandonado, transacional | qualidade-eficacia | — | — | escuro-saturado, com-acento-definido | abre | cor-de-acento-definida, desconto-percentual | macro-de-produto | 0 | — | medio · 727px | — |
-| [[hero-3-cupom-de-captacao]] | hero | ✓ | 7 | welcome-1 | carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, sazonal-data-comemorativa, lancamento | preco-valor | — | luxo | claro | abre | cupom-ativo | foto-estudio-fundo-claro, terco-superior-liso | 0 | — | medio · 949px | — |
-| [[hero-4-editorial-de-pertencimento]] | hero | ✓ | 9 | welcome-1 | carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, catalogo-mais-vendidos, campanha-promocional | pertencimento | premium-editorial | — | com-acento-definido | abre | serif-ou-script-display, cupom-ativo, cor-de-acento-definida | foto-de-campanha-propria | 0 | — | medio · 1150px | — |
-| [[hero-5-cupom-em-tres-lugares]] | hero | ✓ | 9 | welcome-1 | carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, sazonal-data-comemorativa, lancamento | preco-valor | volume-impulso, popular-informal | premium-editorial | — | abre | cupom-ativo | foto-com-pessoas | 0 | — | pesado · 1256px | raio-alto-nao-convive-com-canto-vivo |
-| [[hero-6-percentual-gigante]] | hero | ✓ | 9 | welcome-1 | carrinho-abandonado, checkout-abandonado, browse-abandonment, transacional, sazonal-data-comemorativa, lancamento | preco-valor | — | premium-editorial | monocromatico | abre | cupom-ativo | foto-monocromatica | 0 | — | medio · 918px | — |
-| [[hero-7-campanha-sem-cupom]] | hero | ✓ | 5 | campanha-promocional, sazonal-data-comemorativa | welcome-1, welcome-meio, welcome-tardio, carrinho-abandonado, checkout-abandonado, transacional | preco-valor | — | premium-editorial | claro | abre | desconto-automatico-sem-cupom, duas-ou-tres-cores-de-identidade, desconto-escalonado | foto-estudio-fundo-claro, terco-superior-liso | 0 | — | medio · 840px | — |
-| [[hero-8-lineup-com-lembrete-de-oferta]] | hero | ✓ | 7 | welcome-meio, welcome-tardio, newsletter, sazonal-data-comemorativa, cross-sell, browse-abandonment | carrinho-abandonado, checkout-abandonado, transacional | amplitude-de-catalogo | — | luxo, premium-editorial | claro | meio | — | foto-estudio-fundo-claro, terco-superior-liso | 0 | — | medio · 1151px | — |
-| [[hero-9-atendimento-proativo]] | hero | ✓ | 6 | browse-abandonment, reengajamento | carrinho-abandonado, checkout-abandonado, welcome-1, sazonal-data-comemorativa, lancamento | suporte-duvida | clinico-sobrio | comercial, volume-impulso | monocromatico, cinza-neutro | abre | duas-acoes-de-suporte | foto-monocromatica, terco-superior-liso | 0 | — | pesado · 1476px | — |
-| [[body-10-listicle-educativo]] | body | ✗ | 14 | nutricao-de-conteudo, welcome-meio, reengajamento | campanha-promocional, abertura, welcome-1 | uso-aprendizado | — | — | creme | meio | — | — | 0 | 3–3 | pesado · 1355px | — |
-| [[body-2-colagem-de-data-comemorativa]] | body | ✓ | 7 | sazonal-data-comemorativa | carrinho-abandonado, checkout-abandonado, transacional | ]  # "argumento é a cena, não o preço nem a especificação" -- nenhum valor do vocabulario de objecao descreve gatilho emocional/afeto de presente; ver relatorio | festivo | premium-editorial | com-acento-definido | ]  # nenhuma frase de Quando usar/NÃO usar declara posição na peça | motivo-sazonal | foto-com-pessoas | 0 | 2–2 | pesado · 1665px | — |
-| [[body-3-pitch-de-gift-card]] | body | ✓ | 7 | gift-card, sazonal-data-comemorativa | campanha-promocional | escolha-variedade, pertencimento | — | — | — | apoio | gift-card-digital | — | 0 | — | medio · 816px | — |
-| [[body-4-comparativo-em-duas-colunas]] | body | ✓ | 18 | welcome-meio, welcome-tardio, consideracao, browse-abandonment | welcome-1, abertura, transacional, pos-compra | qualidade-eficacia, preco-valor | — | — | — | meio | — | — | 0 | 5–6 | medio · 820px | — |
-| [[body-5-comparacao-nos-vs-eles]] | body | ✗ | 16 | welcome-meio, welcome-tardio, carrinho-abandonado, browse-abandonment | campanha-promocional | confianca-no-canal, preco-valor | premium-editorial | — | creme | meio, fecha | quatro-criterios-objetivos | — | 0 | 4–5 | pesado · 1293px | — |
-| [[body-6-skin-minimalism-101]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | — | 0 | — | pesado · 1570px | — |
-| [[body-7-faq]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | — | 0 | — | medio · 1032px | — |
-| [[body-8-cards-vidro]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | — | 0 | — | pesado · 1746px | — |
-| [[body-9-key-features-pilulas]] | body | ✓ | 0 | — | — | — | — | — | — | — | — | — | 0 | — | medio · 1055px | — |
-| [[products-2-tres-ingredientes]] | products | ✓ | 6 | consideracao | carrinho-abandonado, checkout-abandonado, transacional | composicao-formulacao | — | — | — | meio | tres-provas-verificaveis, produto-com-composicao-relevante | corredores-livres-nas-laterais | 0 | 3–3 | medio · 716px | — |
-| [[products-3-arco-de-novidades]] | products | ✓ | 9 | lancamento | carrinho-abandonado, checkout-abandonado, transacional | amplitude-de-catalogo | — | — | escuro-saturado | meio | — | foto-de-campanha-propria | 1 | 4–4 | pesado · 1359px | — |
-| [[products-4-produto-unico-com-prazo]] | products | ✓ | 10 | campanha-promocional | carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio | preco-valor | — | luxo | escuro-saturado, com-acento-definido | meio | prazo-real | — | 1 | 1–1 | medio · 963px | — |
-| [[products-5-tres-com-selo-de-percentual]] | products | ✓ | 23 | campanha-promocional | carrinho-abandonado, checkout-abandonado, transacional | escolha-variedade | premium-editorial | — | — | meio | desconto-percentual | canto-livre-para-selo | 3 | 3–3 | peca-inteira · 2994px | exige-hero-ou-contexto-acima |
-| [[products-6-vitrine-de-sale]] | products | ✓ | 8 | sale-recorrente | carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio | preco-valor | — | — | — | meio | — | ornamento-grafico-de-identidade | 2 | 2–2 | medio · 974px | — |
-| [[products-7-dois-com-galeria-de-angulos]] | products | ✓ | 16 | lancamento | carrinho-abandonado, checkout-abandonado, transacional | qualidade-eficacia | — | volume-impulso | — | meio | colecao-ou-kit | acervo-por-angulo | 2 | 2–2 | peca-inteira · 3298px | — |
-| [[products-8a-quatro-recomendacoes]] | products | ✓ | 13 | cross-sell, catalogo-mais-vendidos | carrinho-abandonado, checkout-abandonado, welcome-1, transacional | escolha-variedade | — | luxo, premium-editorial | — | meio | — | fragmentos-de-contorno | 4 | 4–4 | peca-inteira · 2196px | — |
-| [[products-8b-grade-3x3]] | products | ✓ | 29 | catalogo-mais-vendidos | — | amplitude-de-catalogo | — | — | — | apoio, fecha | — | — | 9 | 6–9 | peca-inteira · 3071px | exige-hero-ou-contexto-acima |
-| [[products-9-grade-de-tamanho]] | products | ✓ | 14 | queima-de-estoque | carrinho-abandonado, checkout-abandonado, transacional, welcome-1, welcome-meio, welcome-tardio | disponibilidade-urgencia | — | premium-editorial | — | meio | grade-de-tamanho-real | — | 4 | 4–4 | peca-inteira · 2974px | — |
-| [[reviews-1-depoimento-com-credencial]] | reviews | ✓ | 10 | consideracao, welcome-meio, reengajamento | carrinho-abandonado, checkout-abandonado, transacional | qualidade-eficacia | — | — | com-acento-definido | meio | — | — | 0 | 2–2 | medio · 1009px | raio-alto-nao-convive-com-canto-vivo |
-| [[reviews-3a-depoimento-longo-monoespacado]] | reviews | ✓ | 12 | checkout-abandonado, carrinho-abandonado | — | qualidade-eficacia | — | premium-editorial | preto-e-branco | meio | — | — | 0 | 2–2 | pesado · 1682px | prova-social-nao-duplica-na-peca, exige-hero-ou-contexto-acima, monoespacado-nao-convive-com-serif-display |
-| [[reviews-3b-depoimento-longo-monoespacado]] | reviews | ✓ | 12 | checkout-abandonado, carrinho-abandonado | — | qualidade-eficacia | — | premium-editorial | preto-e-branco | meio | — | — | 0 | 2–2 | pesado · 1682px | prova-social-nao-duplica-na-peca, exige-hero-ou-contexto-acima, monoespacado-nao-convive-com-serif-display |
-| [[reviews-5-prova-por-volume]] | reviews | ✓ | 12 | consideracao, reengajamento | carrinho-abandonado, checkout-abandonado, transacional | adesao-social | — | — | creme | meio, fecha | — | — | 0 | 3–3 | pesado · 1992px | raio-alto-nao-convive-com-canto-vivo |
-| [[reviews-6-review-por-variante]] | reviews | ✓ | 10 | welcome-meio, reengajamento, cross-sell | — | escolha-variedade | popular-informal | clinico-sobrio | com-acento-definido | meio | catalogo-de-variantes | packshot-vertical | 0 | 3–3 | peca-inteira · 2263px | grade-de-produtos-nao-convive-com-review-vitrine |
-| [[reviews-7-zigue-zague-com-cupom]] | reviews | ✓ | 13 | consideracao | carrinho-abandonado, checkout-abandonado, transacional | qualidade-eficacia | — | — | com-acento-definido | meio, fecha | cupom-ativo | ativo-composto-faixa-inteira | 0 | 3–3 | peca-inteira · 2139px | — |
-| [[reviews-8-ugc-de-comunidade]] | reviews | ✓ | 18 | — | — | pertencimento | comunidade-identitario | premium-editorial, minimalista-leve, clinico-sobrio | creme | peca-inteira | — | — | 0 | 3–3 | peca-inteira · 2500px | peca-inteira-nao-e-bloco |
-| [[offer-1-condicao-sem-imagem]] | offer | ✓ | 3 | campanha-promocional | — | preco-valor | — | — | — | fecha, ponte | — | — | 0 | — | leve · 400px | exige-hero-ou-contexto-acima |
-| [[offer-2-duas-ofertas-sazonais]] | offer | ✓ | 12 | sazonal-data-comemorativa | nutricao-de-conteudo | preco-valor, disponibilidade-urgencia | — | — | — | fecha | duas-ofertas-simultaneas, motivo-sazonal, prazo-real | foto-de-cena-ambiente | 0 | — | pesado · 1440px | — |
-| [[offer-3-lembrete-de-cupom]] | offer | ✓ | 7 | browse-abandonment, carrinho-abandonado | — | preco-valor | — | — | — | peca-inteira | cupom-ativo | — | 0 | — | medio · 639px | — |
-| [[offer-4-manifesto-antes-do-cupom]] | offer | ✗ | 9 | welcome-1 | campanha-promocional | pertencimento | premium-editorial | popular-informal | — | peca-inteira, fecha | cupom-ativo, manifesto-de-marca-escrito | — | 0 | — | medio · 682px | — |
-| [[offer-5-tres-diferenciais-e-cupom]] | offer | ✗ | 11 | welcome-meio | campanha-promocional | preco-valor | premium-editorial | — | — | fecha | cupom-ativo, tres-diferenciais-concretos | — | 0 | — | medio · 691px | — |
-| [[offer-6-carrinho-preto-e-branco]] | offer | ✓ | 9 | carrinho-abandonado, checkout-abandonado | — | preco-valor | bold-alto-contraste | — | preto-e-branco | peca-inteira | cupom-ativo | — | 0 | — | medio · 852px | — |
-| [[footer-1-menu-outline]] | footer | ✓ | 3 | — | transacional | ]   # footer não ataca objeção; o ranking degrada para registro (§6.1) | minimalista-leve | — | claro | fecha | — | — | 0 | 4–6 | medio · 1040px | — |
-| [[footer-2-menu-solido]] | footer | ✓ | 3 | — | — | ]   # footer não ataca objeção; o ranking degrada para registro (§6.1) | bold-alto-contraste | minimalista-leve | claro | fecha | — | — | 0 | 5–5 | medio · 1113px | — |
-| [[footer-3-dark-editorial]] | footer | ✓ | 4 | — | — | ]   # footer não ataca objeção; o ranking degrada para registro (§6.1) | premium-editorial | minimalista-leve | full-dark | fecha | — | — | 0 | 3–3 | medio · 755px | — |
-| [[footer-4-dark-mega-menu]] | footer | ✓ | 0 | — | — | ]   # footer não ataca objeção; o ranking degrada para registro (§6.1) | bold-alto-contraste | minimalista-leve | full-dark | fecha | — | — | 0 | 6–7 | medio · 1129px | — |
+Os 75 registros do banco correspondem a 72 notas canônicas mais três espelhos ativos de offer em body. Arquivos marcados `legado: true` foram preservados, mas não participam da seleção.
+
+| Variante | Seção | Ativa | Dispositivo |
+|---|---|:---:|---|
+| [[body-10-listicle-educativo]] | body | ✗ | [[lista_enumerada]] |
+| [[body-12-tese-em-degrade]] | body | ✗ | [[tese_declarada]] |
+| [[body-13-antes-e-depois-em-quadro]] | body | ✓ | [[antes_e_depois]] |
+| [[body-14-tres-faixas-com-imagem]] | body | ✗ | [[lista_enumerada]] |
+| [[body-15-quatro-callouts-na-foto]] | body | ✓ | [[mecanismo_apontado]] |
+| [[body-16-tabela-nos-x-eles]] | body | ✓ | [[comparacao_pareada]] |
+| [[body-17-foto-sangrada-com-headline]] | body | ✓ | [[tese_declarada]] |
+| [[body-18-cinco-itens-com-titulo]] | body | ✓ | [[lista_enumerada]] |
+| [[body-19-tres-cards-alternados-com-icone]] | body | ✓ | [[lista_enumerada]] |
+| [[body-2-colagem-de-data-comemorativa]] | body | ✓ | [[cena_de_uso]] |
+| [[body-21-tres-selos-e-garantia]] | body | ✓ | [[remocao_de_risco]] |
+| [[body-3-pitch-de-gift-card]] | body | ✗ | [[tese_declarada]] |
+| [[body-4-comparativo-em-duas-colunas]] | body | ✓ | [[comparacao_pareada]] |
+| [[body-5-comparacao-nos-vs-eles]] | body | ✗ | [[comparacao_pareada]] |
+| [[body-6-skin-minimalism-101]] | body | ✗ | `nao_classificado` |
+| [[body-7-faq]] | body | ✗ | [[duvida_antecipada]] |
+| [[body-8-cards-de-vidro-por-ocasiao]] | body | ✓ | [[catalogo_por_ocasiao]] |
+| [[body-9-key-features-pilulas]] | body | ✗ | `nao_classificado` |
+| [[footer-1-menu-outline]] | footer | ✓ | [[menu_de_saida]] |
+| [[footer-2-menu-solido]] | footer | ✓ | [[menu_de_saida]] |
+| [[footer-3-dark-editorial]] | footer | ✓ | [[assinatura_minima]] |
+| [[footer-4-dark-mega-menu]] | footer | ✓ | [[menu_de_saida]] |
+| [[hero-10-lineup-de-colecao]] | hero | ✓ | [[lineup_de_colecao]] |
+| [[hero-11-bogo-em-manchete]] | hero | ✓ | [[oferta_em_manchete]] |
+| [[hero-12-contador-com-oferta]] | hero | ✓ | [[prazo_declarado]] |
+| [[hero-13-black-friday-card-inclinado]] | hero | ✓ | [[campanha_nomeada]] |
+| [[hero-14-lockup-tipografico]] | hero | ✓ | [[oferta_em_manchete]] |
+| [[hero-15-cyber-com-selo]] | hero | ✓ | [[campanha_nomeada]] |
+| [[hero-16-arco-editorial]] | hero | ✓ | [[abertura_editorial]] |
+| [[hero-17-abertura-com-lead]] | hero | ✓ | [[abertura_editorial]] |
+| [[hero-18-abertura-alta-centrada]] | hero | ✓ | [[abertura_editorial]] |
+| [[hero-19-retro-com-letreiro]] | hero | ✓ | [[moldura_de_genero]] |
+| [[hero-2-pergunta-comparativa]] | hero | ✓ | [[pergunta_ao_leitor]] |
+| [[hero-3-cupom-de-captacao]] | hero | ✓ | [[codigo_entregue]] |
+| [[hero-4-editorial-de-pertencimento]] | hero | ✓ | [[codigo_entregue]] |
+| [[hero-5-cupom-em-tres-lugares]] | hero | ✓ | [[codigo_entregue]] |
+| [[hero-6-percentual-gigante]] | hero | ✓ | [[oferta_em_manchete]] |
+| [[hero-7-campanha-sem-cupom]] | hero | ✓ | [[oferta_em_manchete]] |
+| [[hero-8-lineup-com-lembrete-de-oferta]] | hero | ✓ | [[lineup_de_colecao]] |
+| [[hero-9-atendimento-proativo]] | hero | ✓ | [[oferta_de_ajuda]] |
+| [[offer-1-condicao-sem-imagem]] | offer | ✓ | [[oferta_condicionada]] |
+| [[offer-11-codigo-sobre-fundo-difuso]] | offer | ✓ | [[codigo_entregue]] |
+| [[offer-2-duas-ofertas-sazonais]] | offer | ✓ | [[oferta_condicionada]] |
+| [[offer-20-codigo-relembrado-com-mecanica]] | offer | ✓ | [[codigo_relembrado]] |
+| [[offer-21-brinde-condicionado-com-selos]] | offer | ✓ | [[oferta_condicionada]] |
+| [[offer-3-lembrete-de-cupom]] | offer | ✓ | [[codigo_relembrado]] |
+| [[offer-4-manifesto-antes-do-cupom]] | offer | ✓ | [[oferta_adiada]] |
+| [[offer-5-tres-diferenciais-e-cupom]] | offer | ✓ | [[oferta_adiada]] |
+| [[offer-6-carrinho-preto-e-branco]] | offer | ✓ | [[carrinho_dinamico]] |
+| [[products-11-produto-unico-com-tres-features]] | products | ✓ | [[produto_unico_aprofundado]] |
+| [[products-12-grade-2x2-com-pilula]] | products | ✓ | [[vitrine_paralela]] |
+| [[products-13-vitrine-narrada-alternada]] | products | ✓ | [[vitrine_narrada]] |
+| [[products-14-grade-2x2-com-filete]] | products | ✓ | [[vitrine_paralela]] |
+| [[products-15-grade-com-cupom]] | products | ✓ | [[vitrine_paralela]] |
+| [[products-16-par-de-cards]] | products | ✓ | [[vitrine_paralela]] |
+| [[products-2-tres-ingredientes]] | products | ✓ | [[mecanismo_apontado]] |
+| [[products-3-arco-de-novidades]] | products | ✓ | [[lineup_de_colecao]] |
+| [[products-4-produto-unico-com-prazo]] | products | ✓ | [[produto_unico_aprofundado]] |
+| [[products-5-tres-com-selo-de-percentual]] | products | ✓ | [[vitrine_narrada]] |
+| [[products-6-vitrine-de-sale]] | products | ✓ | [[vitrine_narrada]] |
+| [[products-7-dois-com-galeria-de-angulos]] | products | ✓ | [[galeria_de_angulos]] |
+| [[products-8a-quatro-recomendacoes]] | products | ✓ | [[vitrine_narrada]] |
+| [[products-8b-grade-3x3]] | products | ✓ | [[vitrine_paralela]] |
+| [[products-9-grade-de-tamanho]] | products | ✓ | [[escassez_por_estoque]] |
+| [[products-10-winback-com-relato]] | reviews | ✓ | [[prova_por_relato]] |
+| [[reviews-1-depoimento-com-credencial]] | reviews | ✓ | [[prova_por_autoridade]] |
+| [[reviews-10-card-unico-verificado]] | reviews | ✓ | [[prova_por_relato]] |
+| [[reviews-5-prova-por-volume]] | reviews | ✓ | [[prova_por_volume]] |
+| [[reviews-6-review-por-variante]] | reviews | ✓ | [[prova_com_vitrine]] |
+| [[reviews-7-zigue-zague-com-cupom]] | reviews | ✓ | [[prova_com_vitrine]] |
+| [[reviews-8-tres-cards-com-nota]] | reviews | ✓ | [[prova_por_volume]] |
+| [[reviews-9-card-com-estrelas]] | reviews | ✓ | [[prova_por_relato]] |
+
+Definições: [[_glossario-de-tags-das-variantes]] · Legadas: [[_auditoria-das-variantes-legadas]] · Contagens: [[_inventario]] · Seleção: [[_protocolo-de-selecao]]

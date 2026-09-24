@@ -5,6 +5,7 @@ secao: hero
 nome_no_banco: "welcome - hero section 4"
 variant_id: e447ef06-95e2-4c5d-9b6f-c3e0b895f8d2
 ativa: true
+dispositivo: codigo_entregue
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-1]

@@ -4,7 +4,8 @@ slug: body-7-faq
 secao: body
 nome_no_banco: "body 7 - bridge FAQ"
 variant_id: d699e212-57df-4b68-a80c-2b2aa81372c0
-ativa: true
+ativa: false
+dispositivo: duvida_antecipada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: []

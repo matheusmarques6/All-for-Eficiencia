@@ -5,6 +5,7 @@ secao: body
 nome_no_banco: "body 5 - comparison table us vs them"
 variant_id: 7d1c214a-abb1-44b6-bb5e-95777fb0f306
 ativa: false
+dispositivo: comparacao_pareada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio, welcome-tardio, carrinho-abandonado, browse-abandonment]

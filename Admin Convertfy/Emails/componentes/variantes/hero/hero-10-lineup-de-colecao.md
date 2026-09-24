@@ -5,6 +5,7 @@ secao: hero
 nome_no_banco: "hero section 10"
 variant_id: dc6c363c-7d4f-4c70-a163-632bcadfdce6
 ativa: true
+dispositivo: lineup_de_colecao
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio, welcome-tardio, newsletter, sazonal-data-comemorativa, cross-sell, browse-abandonment]

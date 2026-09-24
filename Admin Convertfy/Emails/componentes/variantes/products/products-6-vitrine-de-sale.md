@@ -5,6 +5,7 @@ secao: products
 nome_no_banco: "produtos 6"
 variant_id: fc41efe6-a2dc-493a-ab92-75e30fd13198
 ativa: true
+dispositivo: vitrine_narrada
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [sale-recorrente]

@@ -19,6 +19,8 @@ peso: { altura_px: 528, classe: leve, fonte: medido }
 convivencia: []
 exige: [duas-fotos-comparaveis]
 aprendizados: [[[cada-alegacao-e-uma-promessa-operacional]]]
+ativa: true
+dispositivo: antes_e_depois
 ---
 
 ## Descrição curta

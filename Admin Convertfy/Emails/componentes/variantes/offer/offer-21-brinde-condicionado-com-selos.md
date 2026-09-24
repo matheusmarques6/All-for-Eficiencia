@@ -20,6 +20,8 @@ peso: { altura_px: 634, classe: medio, fonte: medido }
 convivencia: []
 exige: [cupom-ativo, politica-real]
 aprendizados: [[[incentivo-precisa-existir-em-texto]], [[cada-alegacao-e-uma-promessa-operacional]]]
+ativa: true
+dispositivo: oferta_condicionada
 ---
 
 ## Descrição curta

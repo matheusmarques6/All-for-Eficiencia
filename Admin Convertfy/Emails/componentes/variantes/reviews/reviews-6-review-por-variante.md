@@ -5,6 +5,7 @@ secao: reviews
 nome_no_banco: "review 6"
 variant_id: 956b9e76-2c97-448e-bbfd-4a97f082e1dd
 ativa: true
+dispositivo: prova_com_vitrine
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [welcome-meio, reengajamento, cross-sell]

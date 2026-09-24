@@ -3,30 +3,21 @@ tipo: secao
 secao: header
 variantes: 0
 ativas: 0
-com_julgamento: 0
 status: aprovada
 ---
 
+Nota de seção de `header` sincronizada com `public.email_component_variants` em 2026-09-24.
+
 # Cobertura
 
-**Nenhuma variante cadastrada.** Das 44 variantes do catálogo, zero
-pertencem à seção `header`. A pasta `variantes/header/` não existe.
-
-# Consequência
-
-Quando um blueprint pede um bloco de `header`, o Montador não tem
-candidata nenhuma para rankear e o pipeline cai no template global
-(`email_reference_templates`) — silenciosamente, sem registro de que a
-seção pedida não tinha candidata. O e-mail sai sem a identidade visual que
-o resto da peça carrega.
-
-Ver [[header-sem-variante]].
+O banco possui **0 variantes** nesta seção.
 
 # Chave de decisão
 
-Não se aplica enquanto não houver variante.
+A seção não possui variantes no banco; o pipeline depende do template global.
 
-# Onde a seção não cobre
+Nenhum dispositivo está cadastrado nesta seção.
 
-Tudo. Nenhum momento, nenhuma objeção, nenhum registro tem candidata de
-`header` — a lacuna é total, não parcial.
+# Regra operacional
+
+O Estruturador pede o dispositivo. O Curador escolhe, entre as variantes ativas que o realizam, aquela cujos requisitos e ativos estão disponíveis.

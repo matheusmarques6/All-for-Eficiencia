@@ -20,6 +20,8 @@ peso: { altura_px: 1359, classe: pesado, fonte: medido }
 convivencia: [prova-social-nao-duplica-na-peca]
 exige: [3-reviews-com-nome, nota-real]
 aprendizados: [[[depoimento-nao-repete-pessoa]], [[numeros-de-escassez-precisam-de-backing]], [[ausencia-de-prova-social-assume-abertura]]]
+ativa: true
+dispositivo: prova_por_volume
 ---
 
 ## Descrição curta

@@ -1,52 +1,31 @@
 ---
 tipo: secao
 secao: products
-variantes: 9
-ativas: 9
-com_julgamento: 9
+variantes: 15
+ativas: 15
 status: aprovada
 ---
 
+Nota de seção de `products` sincronizada com `public.email_component_variants` em 2026-09-24.
+
 # Cobertura
 
-9 variantes, todas ativas, todas julgadas. É a seção onde a **capacidade**
-— quantos produtos a peça precisa mostrar — elimina antes de qualquer
-outro eixo entrar em jogo.
+O banco possui **15 registros**, dos quais **15 ativos**.
 
 # Chave de decisão
 
-`product_slots` e `itens: {min,max}` são o discriminante principal:
-definem quantos produtos a loja precisa encaixar ali, e isso já corta a
-lista a 1–2 candidatas antes de olhar `momento` ou `objeção`. Quando duas
-variantes empatam em capacidade, `momento` e `objeção` desempatam.
+Escolha primeiro o efeito que o bloco precisa produzir — organizar descoberta e decisão sobre produtos — e então peça o dispositivo correspondente. Requisitos e adequação da variante são decididos depois; `momento` não é mais chave de decisão.
 
-| Variante | Slots | Itens (min–max) | Momento | Objeção |
-|---|---|---|---|---|
-| [[products-2-tres-ingredientes]] | 0 | 3–3 | consideração | composição-formulação |
-| [[products-4-produto-unico-com-prazo]] | 1 | 1–1 | campanha-promocional | preço-valor |
-| [[products-3-arco-de-novidades]] | 1 | 4–4 | lançamento | — |
-| [[products-6-vitrine-de-sale]] | 2 | 2–2 | sale-recorrente | — |
-| [[products-7-dois-com-galeria-de-angulos]] | 2 | 2–2 | lançamento | qualidade-eficácia |
-| [[products-5-tres-com-selo-de-percentual]] | 3 | 3–3 | campanha-promocional | escolha-variedade |
-| [[products-8a-quatro-recomendacoes]] | 4 | 4–4 | cross-sell, catálogo-mais-vendidos | escolha-variedade |
-| [[products-9-grade-de-tamanho]] | 4 | 4–4 | queima-de-estoque | disponibilidade-urgência |
-| [[products-8b-grade-3x3]] | 9 | 6–9 | catálogo-mais-vendidos | amplitude-de-catálogo |
+| Dispositivo | Total | Ativas |
+|---|---:|---:|
+| [[escassez_por_estoque]] | 1 | 1 |
+| [[galeria_de_angulos]] | 1 | 1 |
+| [[lineup_de_colecao]] | 1 | 1 |
+| [[mecanismo_apontado]] | 1 | 1 |
+| [[produto_unico_aprofundado]] | 2 | 2 |
+| [[vitrine_narrada]] | 4 | 4 |
+| [[vitrine_paralela]] | 5 | 5 |
 
-**Como ler:** slots=2 empata entre products-6 e products-7 — só `momento`
-(sale-recorrente vs. lançamento) e `objeção` ([] vs. qualidade-eficácia)
-separam. O mesmo empate acontece em slots=4 entre products-8a e
-products-9: capacidade idêntica, mas `momento` e `objeção` completamente
-diferentes (cross-sell/escolha-variedade vs. queima-de-estoque/urgência).
-Sem esses dois eixos, a capacidade sozinha não decide.
+# Regra operacional
 
-# Onde a seção não cobre
-
-- Salto de capacidade: nenhuma variante com `product_slots` 5, 6, 7 ou 8 —
-  o catálogo pula de 4 para 9 direto.
-- **Dispositivo não coberto** (batch 6249aef2): grade de 2–3 produtos com
-  **preço cheio**, sem selo de desconto, para toque sem incentivo. Ver
-  [[products-grade-preco-cheio]].
-- Momento: nenhuma products para `welcome-1`, `welcome-meio`,
-  `welcome-tardio`, `carrinho-abandonado`, `checkout-abandonado`,
-  `reengajamento`, `transacional`, `browse-abandonment`,
-  `sazonal-data-comemorativa` ou `gift-card`.
+O Estruturador pede o dispositivo. O Curador escolhe, entre as variantes ativas que o realizam, aquela cujos requisitos e ativos estão disponíveis.

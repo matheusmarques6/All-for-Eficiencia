@@ -5,6 +5,7 @@ secao: offer
 nome_no_banco: "offer 3"
 variant_id: da0b6e11-c681-48af-ae88-316429e25c05
 ativa: true
+dispositivo: codigo_relembrado
 
 # --- momento: FILTRO (passos 4-6), não ranking ---
 momento: [browse-abandonment, carrinho-abandonado]
