@@ -70,4 +70,4 @@ Exemplo condicional: se o Welcome 8 comunica uma extensão de desconto numa cart
 
 # Relação com os próximos tópicos
 
-O mapa de entendimento é uma etapa explícita anterior à geração. As regras para gerar e validar o par pertencem ao tópico 5, ainda em definição. Quantidade de sugestões, revisão e salvamento pertencem ao tópico 6; implementação e testes, ao tópico 7.
+O mapa de entendimento é uma etapa explícita anterior à geração. Geração e validação seguem [[geracao-e-validacao-dos-assuntos-e-preheaders]] (tópico 5 aprovado). Quantidade de sugestões, revisão e salvamento seguem [[selecao-geracao-revisao-e-salvamento]] (6 aprovado). O plano de implementação e testes (7) está em definição.
