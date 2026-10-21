@@ -8,7 +8,7 @@ revisado_em: 2026-10-21
 origem: conversa de definição do agente e fontes do vault
 ---
 
-Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 4 da definição em 21/10/2026: contrato, conhecimento, leitura e interpretação dos e-mails. O conhecimento está registrado; implementação e ligação deste agente à tela ainda serão definidas.
+Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 5 da definição em 21/10/2026: contrato, conhecimento, leitura, interpretação, geração e validação. O conhecimento está registrado; implementação e ligação deste agente à tela ainda serão definidas.
 
 # 1. Contrato aprovado
 
@@ -115,14 +115,17 @@ A nota de abandono documenta divergências entre descrição e imagem; para cont
 
 # 6. Leitura e transcrição aprovada (tópico 3)
 
-Contrato completo em [[leitura-e-transcricao-dos-emails]]. Corpo cadastrado nos e-mails de texto; modelo menor com visão nos de imagem; prevalência dos textos efetivos de blocos substituídos. Preservar conteúdo, idioma, ordem e variáveis; localizar incertezas; reutilizar a leitura enquanto o conteúdo não mudar. Interpretação da proposta é uma etapa posterior.
+Contrato completo em [[leitura-e-transcricao-dos-emails]]. Usar corpo cadastrado, transcrição por modelo menor com visão e textos efetivos dos blocos. Preservar conteúdo, idioma, ordem e variáveis; registrar incertezas e reutilizar a leitura enquanto o conteúdo não mudar.
 
 # 7. Interpretação aprovada (tópico 4)
 
 Contrato completo em [[interpretacao-da-copy-e-da-proposta]]. Produzir mapa de entendimento com mensagem central, ação esperada, argumento, abordagem e voz, oferta e condições, evidências e pendências. Distinguir conteúdo explícito, interpretação sustentada e informação não confirmada; conferir a coerência com o contexto da sequência e a marca.
 
-# 8. Próximos tópicos
+# 8. Geração e validação aprovada (tópico 5)
 
-5. Regras de geração e validação do par.
+Contrato completo em [[geracao-e-validacao-dos-assuntos-e-preheaders]]. Gerar pelo mapa de entendimento; conferir fidelidade, condições, contexto, marca, idioma, complementaridade, sequência, variáveis e limites. Ajustar redação e sinalizar pendências essenciais.
+
+# 9. Próximos tópicos
+
 6. Funcionamento e telas, incluindo quantidade de sugestões, revisão e salvamento.
 7. Implementação e validação com casos reais.
