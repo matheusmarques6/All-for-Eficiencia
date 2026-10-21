@@ -8,7 +8,7 @@ revisado_em: 2026-10-21
 origem: conversa de definição do agente e fontes do vault
 ---
 
-Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 3 da definição em 21/10/2026: contrato, conhecimento e leitura dos e-mails. O conhecimento está registrado; implementação e ligação deste agente à tela ainda serão definidas.
+Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 4 da definição em 21/10/2026: contrato, conhecimento, leitura e interpretação dos e-mails. O conhecimento está registrado; implementação e ligação deste agente à tela ainda serão definidas.
 
 # 1. Contrato aprovado
 
@@ -117,9 +117,12 @@ A nota de abandono documenta divergências entre descrição e imagem; para cont
 
 Contrato completo em [[leitura-e-transcricao-dos-emails]]. Corpo cadastrado nos e-mails de texto; modelo menor com visão nos de imagem; prevalência dos textos efetivos de blocos substituídos. Preservar conteúdo, idioma, ordem e variáveis; localizar incertezas; reutilizar a leitura enquanto o conteúdo não mudar. Interpretação da proposta é uma etapa posterior.
 
-# 7. Próximos tópicos
+# 7. Interpretação aprovada (tópico 4)
 
-4. Entendimento da proposta.
+Contrato completo em [[interpretacao-da-copy-e-da-proposta]]. Produzir mapa de entendimento com mensagem central, ação esperada, argumento, abordagem e voz, oferta e condições, evidências e pendências. Distinguir conteúdo explícito, interpretação sustentada e informação não confirmada; conferir a coerência com o contexto da sequência e a marca.
+
+# 8. Próximos tópicos
+
 5. Regras de geração e validação do par.
 6. Funcionamento e telas, incluindo quantidade de sugestões, revisão e salvamento.
 7. Implementação e validação com casos reais.
