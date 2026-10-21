@@ -60,7 +60,7 @@ Uma frase na imagem comprova o conteúdo da peça. Promessas operacionais contin
 
 Entregar assunto, pré-cabeçalho, síntese da proposta e situação da validação. Havendo problema, apontar a informação ausente ou o conflito encontrado.
 
-A geração é restrita aos e-mails selecionados. Quantidade de alternativas, revisão humana e salvamento pertencem ao tópico 6 e ainda serão definidos.
+A geração é restrita aos e-mails selecionados. Uma sugestão por e-mail, revisão humana e salvamento explícito seguem [[selecao-geracao-revisao-e-salvamento]] (tópico 6 aprovado).
 
 # Relação com as decisões anteriores
 
