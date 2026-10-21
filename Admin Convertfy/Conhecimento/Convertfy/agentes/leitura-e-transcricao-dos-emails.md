@@ -55,8 +55,8 @@ Mudança somente no perfil da marca pode exigir nova geração de assuntos, mas 
 
 Se uma parte essencial estiver ilegível, como a oferta ou sua condição, registrar pendência específica antes da geração. O modelo não completa o trecho usando a base de exemplos.
 
-A etapa seguinte deve conseguir distinguir o conteúdo legível, o conteúdo duvidoso e o conteúdo ausente. A revisão ou salvamento final dos pares será definido no tópico 6 do agente.
+A etapa seguinte deve conseguir distinguir o conteúdo legível, o conteúdo duvidoso e o conteúdo ausente. Revisão e salvamento seguem [[selecao-geracao-revisao-e-salvamento]], tópico 6 aprovado.
 
 # Relação com os próximos tópicos
 
-A leitura preparada alimenta a interpretação da proposta (tópico 4). Regras de geração (5), funcionamento e telas (6), implementação e validação (7) permanecem em definição.
+A leitura alimenta [[interpretacao-da-copy-e-da-proposta]] (4), [[geracao-e-validacao-dos-assuntos-e-preheaders]] (5) e [[selecao-geracao-revisao-e-salvamento]] (6), aprovados. O plano de implementação e validação (7) está em definição.
