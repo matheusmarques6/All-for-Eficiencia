@@ -8,7 +8,7 @@ revisado_em: 2026-10-21
 origem: conversa de definição do agente e fontes do vault
 ---
 
-Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 5 da definição em 21/10/2026: contrato, conhecimento, leitura, interpretação, geração e validação. O conhecimento está registrado; implementação e ligação deste agente à tela ainda serão definidas.
+Base aprovada para o agente que gera assunto e pré-cabeçalho dos e-mails de onboarding selecionados pela equipe. Consolida os tópicos 1 a 6: contrato, conhecimento, leitura, interpretação, geração, validação e telas aprovadas em 21/10/2026. Implementação será planejada no tópico 7.
 
 # 1. Contrato aprovado
 
@@ -30,7 +30,7 @@ Entrega por e-mail:
 - Síntese curta da proposta identificada, para conferir o entendimento.
 - Pendências específicas quando faltarem informações essenciais ou houver leitura ilegível.
 
-O corpo, o design e as configurações do fluxo permanecem preservados. Quantidade de sugestões, revisão e modo de salvar serão definidos no tópico 6. A recomendação do material externo sobre revisão humana é referência para essa decisão, não uma decisão já tomada pela equipe.
+O corpo, o design e as configurações do fluxo permanecem preservados. Uma sugestão por e-mail, revisão humana e salvamento explícito; contrato em [[selecao-geracao-revisao-e-salvamento]].
 
 # 2. Camada obrigatória: fidelidade e condições
 
@@ -125,7 +125,10 @@ Contrato completo em [[interpretacao-da-copy-e-da-proposta]]. Produzir mapa de e
 
 Contrato completo em [[geracao-e-validacao-dos-assuntos-e-preheaders]]. Gerar pelo mapa de entendimento; conferir fidelidade, condições, contexto, marca, idioma, complementaridade, sequência, variáveis e limites. Ajustar redação e sinalizar pendências essenciais.
 
-# 9. Próximos tópicos
+# 9. Telas aprovadas (tópico 6)
 
-6. Funcionamento e telas, incluindo quantidade de sugestões, revisão e salvamento.
+Contrato em [[selecao-geracao-revisao-e-salvamento]]. Modal de seleção e revisão; uma sugestão por e-mail; preservar campos preenchidos, salvo recriação explícita. A opção “Somente e-mails sem assunto e sem pré-cabeçalho” seleciona apenas ambos vazios. Revisar, editar, regenerar e salvar os itens prontos; sinalizar pendências e conflitos.
+
+# 10. Próximo tópico
+
 7. Implementação e validação com casos reais.
